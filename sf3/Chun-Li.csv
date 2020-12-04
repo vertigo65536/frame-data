@@ -1,0 +1,55 @@
+LP`Far Jab` 3` 5` 4` +2` +2` +2` HL` HL`http://wiki.shoryuken.com/images/a/a9/%28chunlilp%29.gif
+MP`Far Strong` 6` 8` 9` -2` -1` 0` HL` H`http://wiki.shoryuken.com/images/3/3d/%28chunlimp%29.gif
+HP`Far Fierce` 8` 6` 17` -2` 0` +2` HL` HL`http://wiki.shoryuken.com/images/8/8b/%28chunlihp%29.gif
+(Close to opponent) LP(5 life points)`Close Jab` 2` 2` 6` +2` +2` +2` HL` HL`http://wiki.shoryuken.com/images/c/cc/%28chunlicloselp%29.gif
+LK`Short` 3` 5` 9` +1` +1` +1` HL` HL`http://wiki.shoryuken.com/images/6/61/%28chunlilk%29.gif
+MK`Forward` 7` 6` 19` -5` -3` -1` HL` H`http://wiki.shoryuken.com/images/8/8a/%28chunlimk%29.gif
+HK`Roundhouse` 12` 1` 15` 0` +2` +4` HL` H`http://wiki.shoryuken.com/images/c/cd/%28chunlihk%29.gif
+(Close to opponent) MK`Close Forward` 6` 2` 15` -2` 0` 0` HL` H`http://wiki.shoryuken.com/images/d/d2/%28chunliclosemk%29.gif
+(Close to opponent) HK`Close Roundhouse` 4` 9` 12` -3` -1` +1` HL` H`http://wiki.shoryuken.com/images/7/7f/%28chunliclosehk%29.gif
+(Air) LP`Jump Jab` 2(4 if neutral jump)` Until landing` -` -5～+7/+3～+7` -5～+7/+3～+7` +3～+7/+7` H` H`http://wiki.shoryuken.com/images/a/a3/%28chunlijlp%29.gif
+(Air) MP`Jump Strong` 4(6 if neutral jump)` Until Landing` -` -6～+10/+5～+10` -6～+10/+5～+10` +5～+10/+10` H` H`http://wiki.shoryuken.com/images/c/c1/%28chunlijmp%29.gif
+(Air) HP`Jump Fierce` 9` 6` -` -1～+13` -1～+13` +9～+13` H` H`http://wiki.shoryuken.com/images/4/40/%28chunlijhp%29.gif
+(Air) HP`Neutral Jump Fierce` 10` 3` -` +4～+13` +4～+13` +10～+13` H` H`http://wiki.shoryuken.com/images/1/19/%28chunlinjhp%29.gif
+(Air) LK`Jump Short` 5` Until Landing(22 if neutral jump)` -` 0～+7` 0～+7` +6～+7/+5～+7` H` H`http://wiki.shoryuken.com/images/1/1f/%28chunlijlk%29.gif
+(Air) MK`Jump Forward` 6` 13` -` +2～+10` +2～+10` +9～+10` H` H`http://wiki.shoryuken.com/images/a/a2/%28chunlijmk%29.gif
+(Air) MK`Neutral Jump Forward` 6` 2` -` -1～+10` -1～+10` +6～+10` H` H`http://wiki.shoryuken.com/images/a/ac/%28chunlinjmk%29.gif
+(Air) HK`Jump Roundhouse` 10` 3` -` +2～+13` +2～+13` +4～+13` H` H`http://wiki.shoryuken.com/images/6/64/%28chunlijhk%29.gif
+(Air) HK`Neutral Jump Roundhouse` 8` 5` -` +1～+13` +1～+13` +9～+13` H` H`http://wiki.shoryuken.com/images/d/dc/%28chunlinjhk%29.gif
+MP+MK`Universal Overhead` 15` 10` 5` -5~+7` 0~+8` +1~+9` HL` H`http://wiki.shoryuken.com/images/4/47/%28chunlioh%29.gif
+B/F/N+LP+LK`Hiza Geri` 2` 1` 21` -` -` -` LP+LK` -`http://wiki.shoryuken.com/images/6/62/%28chunlitr%29.gif
+Close to Oponnent On Air LP+LK`Seoi Nage` 5` 1` -` -` -` -` Close to Oponnent On Air LP+LK` -`http://wiki.shoryuken.com/images/a/ac/%28chunliatr%29.gif
+D+LP`Crouch Jab` 2` 4` 5` +3` +3` +3` HL` HL`http://wiki.shoryuken.com/images/5/5f/%28chunliclp%29.gif
+D+MP`Crouch Strong` 8` 2` 18` -4` -3` -2` L` L`http://wiki.shoryuken.com/images/f/ff/%28chunlicmp%29.gif
+D+HP`Crouch Fierce` 8` 2` 22` -1` +1` +3` HL` HL`http://wiki.shoryuken.com/images/3/3f/%28chunlichp%29.gif
+D+LK`Crouch Short` 4` 2` 6` +3` +3` +3` L` L`http://wiki.shoryuken.com/images/c/c7/%28chunliclk%29.gif
+D+MK`Crouch Forward` 6` 2` 14` -2` -1` 0` L` L`http://wiki.shoryuken.com/images/f/f8/%28chunlicmk%29.gif
+D+HK`Crouch Roundhouse` 7` 3` 21` -7` Down` Down` L` L`http://wiki.shoryuken.com/images/c/cb/%28chunlichk%29.gif
+B+MP`Souren Shou` 5` 2,1` 18` -2` 0` 0` HL` H`http://wiki.shoryuken.com/images/8/81/%28chunlibmp%29.gif
+B+HP`Hakkei` 7` 9` 10` -1` +1` 3` HL` H`http://wiki.shoryuken.com/images/1/10/%28chunlibhp%29.gif
+F+MK`Senjou Shuu` 11` 7` 11` 0` +1` +2` HL` H`http://wiki.shoryuken.com/images/7/7a/%28chunlifmk%29.gif
+MK,Hold MK`Kakushu Raku Kyaku` 6` 6` 2` -1` +3` +3` HL/H/H` H/H/H`http://wiki.shoryuken.com/images/a/a6/%28chunlimkmk%29.gif
+F+HK`Yoku Sen Kyaku` 12` 1` 15` 0` +2` +4` H` H`http://wiki.shoryuken.com/images/0/0e/%28chunlifhk%29.gif
+DF+HK`Tenshin Shuu Kyaku` 37` 5` 2` +9` +11` +15` HL` H`http://wiki.shoryuken.com/images/9/9e/%28chunlidfhk%29.gif
+(Air) D+HP`Yousou Suitotsu Da` 10` 3` -` -` -` -` -` -`http://wiki.shoryuken.com/images/4/48/%28chunlijdhp%29.gif
+(Air) D+MK`Yosou Kyaku` 9` Until Landing` -` -` -` -` -` -`http://wiki.shoryuken.com/images/3/36/%28chunlijdmk%29.gif
+Jumping Diagonal HP ->  HP`Target Combo` 9` -` -` -` -` -` HL/HL` H/H`http://wiki.shoryuken.com/images/d/dc/%28chunlijhphp%29.gif
+HCF+MP` Kikkoken (Strong)` 12` 1` 38` -10` -9` -8` HL` H`http://wiki.shoryuken.com/images/5/55/%28chunlikikoken%29.gif
+HCF+HP` Kikkoken (Fierce)` 10` 1` 32` -4` -3` -2` HL` H`http://wiki.shoryuken.com/images/5/55/%28chunlikikoken%29.gif
+HCF+LP` Kikkoken (Jab)` 13` 1` 45` -17` -16` -15` HL` H`http://wiki.shoryuken.com/images/5/55/%28chunlikikoken%29.gif
+Mash MK` Hyakuretsu Kyaku (Forward)` 6・9・12・15` 1・1・1・1` 13` +1` +3` -4` HL` H`http://wiki.shoryuken.com/images/5/55/%28chunlihkk%29.gif
+Mash HK` Hyakuretsu Kyaku (Roundhouse)` 5・7・9・11・13・15・17・19` 1・1・1・1・1・1・1・1` 15` +1` -1` -1` HL` H`http://wiki.shoryuken.com/images/5/55/%28chunlihkk%29.gif
+Mash LK` Hyakuretsu Kyaku (Short)` 6・10・13・17` 2・1・2・2` 12` +3` +5` -3` HL` H`http://wiki.shoryuken.com/images/5/55/%28chunlihkk%29.gif
+Charge D,U+MK` Spinning Bird Kick (Forward)` 14・15・20・25・30・35` 1x6` 22` -6` -4` -4` HL` H`http://wiki.shoryuken.com/images/6/6c/%28chunlisbk%29.gif
+Charge D,U+HK` Spinning Bird Kick (Roundhouse)` 17・18・23・28・33・38・43・48` 1x8` 22` -7` -5` -5` HL` H`http://wiki.shoryuken.com/images/6/6c/%28chunlisbk%29.gif
+Charge D,U+LK` Spinning Bird Kick (Short)` 12・13・18・23` 1x4` 21` -5` -3` -3` HL/HL` H`http://wiki.shoryuken.com/images/6/6c/%28chunlisbk%29.gif
+HCB+MK` Hazan Shu (Forward)` 24` 3` 18` -2` 0` +2` HL` H`http://wiki.shoryuken.com/images/e/e4/%28chunlihzs%29.gif
+HCB+HK` Hazan Shu (Roundhouse)` 29` 3` 17` -1` +1` +3` HL` H`http://wiki.shoryuken.com/images/e/e4/%28chunlihzs%29.gif
+HCB+LK` Hazan Shu (Short)` 22` 3` 18` -2` 0` +2` HL` H`http://wiki.shoryuken.com/images/e/e4/%28chunlihzs%29.gif
+HCF+PP` Kikkoken (EX)` 14` 1` 41` -7` -6` -5` H` H`http://wiki.shoryuken.com/images/0/03/%28chunlikikokenex%29.gif
+Mash KK` Hyakuretsu Kyaku (EX)` 3・5・7・9` 1・1・1・1` 17` -36` Down` Down` HL` HL`http://wiki.shoryuken.com/images/0/0e/%28chunlihrkex%29.gif
+Charge D,U+KK` Spinning Bird Kick (EX)` 12・17・22・27・32` 2x5` 22(21)` -8` Down` Down` HL` H`http://wiki.shoryuken.com/images/6/6d/%28chunlisbkex%29.gif
+HCB+KK` Hazan Shu (EX)` 6` 1` 12` -2` Down` Down` H` H`http://wiki.shoryuken.com/images/7/75/%28chunlihzsex%29.gif
+QCF QCF+P`Kikoshou` 1・2・3・4・5・6・7・8・9・10・12・14・16・18・20・22・24・26・28・30` 1x20` 48` -38` Down` Down` HLx20` HLx20`http://wiki.shoryuken.com/images/8/86/%28chunlisa1%29.gif
+QCF QCF+K`Houyoku Sen` 3・5・7・9・11・13・15・17・32・34・36・38・40・42・44・46・71` 1×16・3` 35` -25` Launch` Launch` HLx17` HLx17`http://wiki.shoryuken.com/images/9/99/%28chunlisa2%29.gif
+QCF QCF+K`Tensei Ranka` 3・8・10・12・14・16・17・18・19・20・30` 3・1×5・3・4・1` 46(40)` -30(-24)` Down` Down` HLx3~5/H` Hx3~5/H`http://wiki.shoryuken.com/images/e/ef/%28chunlisa3%29.gif

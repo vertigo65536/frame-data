@@ -1,0 +1,47 @@
+LP`Far Jab` 3` 3` 7` +1` +1` +1` HL` HL`http://wiki.shoryuken.com/images/2/20/%28twelvelp%29.gif
+MP`Far Strong` 9` 4` 12` -2` -1` 0` HL` H`http://wiki.shoryuken.com/images/5/54/%28twelvemp%29.gif
+HP`Far Fierce` 12` 4` 17` -3` -1` +1` HL` H`http://wiki.shoryuken.com/images/3/39/%28twelvehp%29.gif
+(Close to opponent) MP`Close Strong` 6` 4` 12` -2` +4` +5` HL` H`http://wiki.shoryuken.com/images/e/ea/%28twelveclosemp%29.gif
+LK`Short` 3` 2` 10` -1` -1` -1` HL` HL`http://wiki.shoryuken.com/images/7/7f/%28twelvelk%29.gif
+MK`Forward` 6` 6` 13` -6` -2` 0` HL` H`http://wiki.shoryuken.com/images/8/8e/%28twelvemk%29.gif
+HK`Roundhouse` 17` 3` 25` -11` -1` +1` HL` H`http://wiki.shoryuken.com/images/1/1b/%28twelvehk%29.gif
+(Air) LP`Jump Jab` 4(5 if neutral jump)` Until landing` -` -` -` -` H` H`http://wiki.shoryuken.com/images/d/dc/%28twelvejlp%29.gif
+(Air) MP`Jump Strong` 5(6 if neutral jump)` 5` -` -` -` -` H` H`http://wiki.shoryuken.com/images/6/6b/%28twelvejmp%29.gif
+(Air) HP`Jump Fierce` 6` 4` -` -` -` -` H` H`http://wiki.shoryuken.com/images/a/a6/%28twelvejhp%29.gif
+(Air) HP`Neutral Jump Fierce` 7` 3` -` -` -` -` H` H`http://wiki.shoryuken.com/images/f/fa/%28twelvenjhp%29.gif
+(Air) LK`Jump Short` 4(5 if neutral jump)` 10(19 if neutral jump)` -` -` -` -` H` H`http://wiki.shoryuken.com/images/7/74/%28twelvejlk%29.gif
+(Air) MK`Jump Forward` 5` 6` -` -` -` -` H` H`http://wiki.shoryuken.com/images/1/11/%28twelvejmk%29.gif
+(Air) MK`Neutral Jump Forward` 5` 6` -` -` -` -` H` H`http://wiki.shoryuken.com/images/c/ca/%28twelvenjmk%29.gif
+(Air) HK`Jump Roundhouse` 6` 4` -` -` -` -` H` H`http://wiki.shoryuken.com/images/4/4b/%28twelvejhk%29.gif
+(Air) HK`Neutral Jump Roundhouse` 7` 5` -` -` -` -` H` H`http://wiki.shoryuken.com/images/a/a6/%28twelvenjhk%29.gif
+MP+MK`Universal Overhead` 15` 8` 7` -5~+7` 0~+8` +1~+9` H` H`http://wiki.shoryuken.com/images/d/d8/%28twelveoh%29.gif
+LP+LK`H.U.G.` 2` 1` 21` -` -` -` LP+LK` -`http://wiki.shoryuken.com/images/1/1c/%28twelventr%29.gif
+F+LP+LK`F.L.G.` 2` 1` 21` -` -` -` F+LP+LK` -`http://wiki.shoryuken.com/images/2/23/%28twelveftr%29.gif
+B+LP+LK`T.R.W.` 2` 1` 21` -` -` -` B+LP+LK` -`http://wiki.shoryuken.com/images/9/95/%28twelvebtr%29.gif
+D+LP`Crouch Jab` 3` 2` 5` +4` +4` +4` HL` HL`http://wiki.shoryuken.com/images/c/ca/%28twelveclp%29.gif
+D+MP`Crouch Strong` 5` 2` 10` -2` +4` +5` HL` HL`http://wiki.shoryuken.com/images/2/2e/%28twelvecmp%29.gif
+D+HP`Crouch Fierce` 10` 7` 13` -8` -1` +1` HL` HL`http://wiki.shoryuken.com/images/6/6b/%28twelvechp%29.gif
+D+LK`Crouch Short` 3` 4` 8` +1` +1` +1` L` L`http://wiki.shoryuken.com/images/c/cb/%28twelveclk%29.gif
+D+MK`Crouch Forward` 8` 2` 14` -2` -1` 0` L` L`http://wiki.shoryuken.com/images/8/88/%28twelvecmk%29.gif
+D+HK`Crouch Roundhouse` 13` 2` 25` -11` Down` Down` L` L`http://wiki.shoryuken.com/images/9/9d/%28twelvechk%29.gif
+B+MK`B.M.K.` 5` 5` 14` -2` -1` 0` HL` HL`http://wiki.shoryuken.com/images/1/1d/%28twelvebmk%29.gif
+(Air) F,F or B,B`Kokuu` -` -` -` -` -` -` -`-`http://wiki.shoryuken.com/images/3/3e/%28twelvejffbb%29.gif
+QCF+MP` N.D.L. (Strong)` 13` 13` 16` -9` -8` -7` HL/HL` HL`http://wiki.shoryuken.com/images/5/56/%28twelvendl%29.gif
+QCF+HP` N.D.L. (Fierce)` 14` 13` 20` -13` -12` -11` HL` HHL`http://wiki.shoryuken.com/images/5/56/%28twelvendl%29.gif
+QCF+LP` N.D.L. (Jab)` 13` 11` 14` -5` -4` -3` HL` HL`http://wiki.shoryuken.com/images/5/56/%28twelvendl%29.gif
+QCB+MP` A.X.E. (Strong)` 10` 3` 17` -6` -1` 0` HL/HL` HL`http://wiki.shoryuken.com/images/1/1c/%28twelveaxe%29.gif
+QCB+HP` A.X.E. (Fierce)` 14` 3` 18` -7` -1` 0` HL/HL/HL` HL`http://wiki.shoryuken.com/images/1/1c/%28twelveaxe%29.gif
+QCB+LP` A.X.E. (Jab)` 6` 3` 16` -5` -1` 0` HL` HL`http://wiki.shoryuken.com/images/1/1c/%28twelveaxe%29.gif
+(Air) QCB+MP` Air A.X.E. (Strong)` 11` 3` 15` -` -` -` HL` H`http://wiki.shoryuken.com/images/6/68/%28twelveaaxe%29.gif
+(Air) QCB+HP` Air A.X.E. (Fierce)` 13` 3` 15` -` -` -` HL` H`http://wiki.shoryuken.com/images/6/68/%28twelveaaxe%29.gif
+(Air) QCB+LP` Air A.X.E. (Jab)` 9` 3` 15` -` -` -` HL` H`http://wiki.shoryuken.com/images/6/68/%28twelveaaxe%29.gif
+(Air) QCB+MK` D.R.A. (Forward)` 14` Until Landing` 10~11/20 Whiff/12~13 Guard/Parry` -11` 0` +2` HL` H`http://wiki.shoryuken.com/images/e/e9/%28twelvedra%29.gif
+(Air) QCB+HK` D.R.A. (Roundhouse)` 14` Until Landing` 10~11/20 Whiff/12~13 Guard/Parry` -11` 0` +2` HL` H`http://wiki.shoryuken.com/images/e/e9/%28twelvedra%29.gif
+(Air) QCB+LK` D.R.A. (Short)` 14` Until Landing` 10~11/20 Whiff/12~13 Guard/Parry` -11` 0` +2` HL` H`http://wiki.shoryuken.com/images/e/e9/%28twelvedra%29.gif
+QCF+PP` N.D.L. (EX)` 12・18` 6・7` 15` 0` Down` Down` HL` H`http://wiki.shoryuken.com/images/4/4f/%28twelvendlex%29.gif
+QCB+PP` A.X.E. (EX)` 8` 3・3・5・3・3・4` 15(13)` -4` -1` 0` HL` H`http://wiki.shoryuken.com/images/5/59/%28twelveaxeex%29.gif
+(Air) QCB+PP` Air A.X.E. (EX)` 6` 3・3・4・3・3・4` 15` -` -` -` HL` H`http://wiki.shoryuken.com/images/1/19/%28twelveaaxeex%29.gif
+(Air) QCB+KK` D.R.A. (EX)` 6・8` Until Landing` 20` -8～0` -1～0・Down` -2～0・Down` HL` H`http://wiki.shoryuken.com/images/d/d6/%28twelvedraex%29.gif
+QCF QCF+P`X.N.D.L.` 3` 34` 33` -31` Down` Down` HLx8` HLx8`http://wiki.shoryuken.com/images/4/46/%28twelvesa1%29.gif
+Jump In, QCF QCF+K`X.F.L.A.T.` 2` Until Landing` 49` -26` Down` Down` HL` HL`http://wiki.shoryuken.com/images/b/bf/%28twelvesa2%29.gif
+QCF QCF+P`X.C.O.P.Y.` 12` *` 73` -` -` -` -` -`http://wiki.shoryuken.com/images/f/f3/%28twelvesa3%29.gif

@@ -1,0 +1,43 @@
+LP`Far Jab` 4` 2` 6` +3` +3` +3` HL` HL`http://wiki.shoryuken.com/images/6/6f/Urienfarlp.gif
+MP`Far Strong` 5` 5` 10` 0` +1` +2` HL` H`http://wiki.shoryuken.com/images/7/72/Urienfarmp.gif
+HP`Far Fierce` 10` 4` 15` -3` -1` +1` HL` H`http://wiki.shoryuken.com/images/d/dc/Urienfarhp.gif
+LK`Short` 5` 2` 7` +2` +2` +2` HL` HL`http://wiki.shoryuken.com/images/3/35/Urienfarlk.gif
+MK`Forward` 8` 2` 15` -4` -3` -2` HL` H`http://wiki.shoryuken.com/images/8/82/Urienfarmk.gif
+HK`Roundhouse` 17` 3` 20` -7` -5` -3` HL` H`http://wiki.shoryuken.com/images/f/f0/Urienfarhk.gif
+(Air) LP`Jump Jab` 4` Until landing` -` -5～+7` -5～+7` +4～+7` H` H`http://wiki.shoryuken.com/images/4/49/Urienjumpinglp.gif
+(Air) MP`Jump Strong` 6` 4` -` +3～+10` +3～+10` +10` H` H`http://wiki.shoryuken.com/images/a/af/Urienjumpingmp.gif
+(Air) HP`Jump Fierce` 7` 3` -` +3～+13` +3～+13` +11～+13` H` H`http://wiki.shoryuken.com/images/2/2c/Urienjumpinghp.gif
+(Air) LK`Jump Short` 4` 10` -` -7～+7` -7～+7` +2～+7` H` H`http://wiki.shoryuken.com/images/0/05/Urienjumpinglk.gif
+(Air) MK`Jump Forward` 6` 4` -` +2～+10` +2～+10` +9～+10` H` H`http://wiki.shoryuken.com/images/a/a0/Urienjumpingmk.gif
+(Air) HK`Jump Roundhouse` 10` 3` -` +2～+13` +2～+13` +9～+13` H` H`http://wiki.shoryuken.com/images/3/36/Urienjumpinghk.gif
+MP+MK`Universal Overhead` 15` 10` 5` -5~+7` 0~+8` +1~+9` H` H`http://wiki.shoryuken.com/images/2/2d/%28urienoh%29.gif
+LP+LK`Destroy Claw` 2` 1` 21` -` -` -` LP+LK` -`http://wiki.shoryuken.com/images/0/0c/%28uriennt%29.gif
+B/F+LP+LK`Spartan Bomb` 2` 1` 21` -` -` -` LP+LK` -`http://wiki.shoryuken.com/images/5/55/%28uriensbft%29.gif
+D+LP`Crouch Jab` 4` 2` 7` +3` +3` +3` HL` HL`http://wiki.shoryuken.com/images/0/02/Uriencrouchinglp.gif
+D+MP`Crouch Strong` 11` 4` 15` -2` -1` 0` HL` HL`http://wiki.shoryuken.com/images/c/c6/Uriencrouchingmp.gif
+D+HP`Crouch Fierce` 9` 1` 25` -10` Down` DOWN` HL` HL`http://wiki.shoryuken.com/images/d/d1/Uriencrouchinghp.gif
+D+LK`Crouch Short` 5` 1` 9` +1` +1` +1` L` L`http://wiki.shoryuken.com/images/6/6f/Uriencrouchinglk.gif
+D+MK`Crouch Forward` 7` 3` 11` 0` +1` +2` L` L`http://wiki.shoryuken.com/images/9/9e/Uriencrouchingmk.gif
+D+HK`Crouch Roundhouse` 12` 3` 21` -13` Down` Down` L` L`http://wiki.shoryuken.com/images/d/d5/Uriencrouchinghk.gif
+F+MP`Quarrel Punch` 9` 2` 14` -3` -2` -1` HL` H`http://wiki.shoryuken.com/images/3/3b/%28urienfmp%29.gif
+F+HP`Terrible Smash` 14` 1` 21` -6` -4` -2` HL` H`http://wiki.shoryuken.com/images/d/d9/%28urienfhp%29.gif
+F+MK`Quarrel Kick` 16` 3` 12` -2` -1` 0` HL` H`http://wiki.shoryuken.com/images/1/1a/%28urienfhk%29.gif
+QCF+MP` Metallic Sphere (Strong)` 13～77` 1` 35` -4` -3` -3` HL` H`http://wiki.shoryuken.com/images/f/f2/%28urienmsphere%29.gif
+QCF+HP` Metallic Sphere (Fierce)` 13～77` 1` 28` -3` +4` +4` HL` H`http://wiki.shoryuken.com/images/f/f2/%28urienmsphere%29.gif
+QCF+LP` Metallic Sphere (Jab)` 13～77` 1` 39` -8` -7` -7` HL` H`http://wiki.shoryuken.com/images/f/f2/%28urienmsphere%29.gif
+Charge B,F+MK` Chariot Tackle (Forward)` 10` 12` 19/27 Guard/28 Far` -11` -1` 1` HL` H`http://wiki.shoryuken.com/images/d/d1/%28urientacklesh%29.gif
+Charge B,F+HK` Chariot Tackle (Roundhouse)` 13` 15` 20/28 Guard/27 Far` -12` -2` 0` HL` H`http://wiki.shoryuken.com/images/d/d1/%28urientacklesh%29.gif
+Charge B,F+LK` Chariot Tackle (Short)` 7` 10` 18/26 Guard/25 Far` -10` 0` 2` HL` H`http://wiki.shoryuken.com/images/d/d1/%28urientacklesh%29.gif
+Charge D,U+MK` Violence Knee Drop (Forward)` 24` 13` 7` +8/-10～-20` Down` Down` HL` H`http://wiki.shoryuken.com/images/9/90/%28urienkneedrop%29.gif
+Charge D,U+HK` Violence Knee Drop (Roundhouse)` 24` 16` 7` +8/-10～-20` Down` Down` HL` H`http://wiki.shoryuken.com/images/9/90/%28urienkneedrop%29.gif
+Charge D,U+LK` Violence Knee Drop (Short)` 24` 12` 7` +8/-10～-20` Down` Down` HL` H`http://wiki.shoryuken.com/images/9/90/%28urienkneedrop%29.gif
+Charge D,U+MP` Dangerous Headbutt (Strong)` 9` 4` 15` -3` Down` Down` HL/HL` HL/HL`http://wiki.shoryuken.com/images/f/ff/%28urienheadbutt%29.gif
+Charge D,U+HP` Dangerous Headbutt (Fierce)` 12` 6` 16` -6` Down` Down` HL/HL/HL` HL/HL/HL`http://wiki.shoryuken.com/images/f/ff/%28urienheadbutt%29.gif
+Charge D,U+LP` Dangerous Headbutt (Jab)` 7` 2` 16` -2` Down` Down` HL` HL`http://wiki.shoryuken.com/images/f/ff/%28urienheadbutt%29.gif
+QCF+PP` Metallic Sphere (EX)` 13` 1` 55` -16` -15` -15` HLx2` Hx2`http://wiki.shoryuken.com/images/b/b0/%28urienmsphex%29.gif
+Charge B,F+KK` Chariot Tackle (EX)` 6・30` 24・10` 19/28 Guard/39 Far` -9` +2` +4` HLx2` Hx2`http://wiki.shoryuken.com/images/4/4a/%28urientackleex%29.gif
+Charge D,U+PP` Dangerous Headbutt (EX)` 9・11` 2・2` 12` +2` Down` Down` HL` H`http://wiki.shoryuken.com/images/c/c6/%28urienhbtex%29.gif
+Charge D,U+KK` Violence Kneedrop (EX)` 26・32` 5・2` 7` +8/-10～-20` -7` -5` HLx2` Hx2`http://wiki.shoryuken.com/images/f/fd/%28urienvkdex%29.gif
+QCF QCF+P`Tyrant Slaughter` 1・20・40・56・68(82)` 14, 10, 10, 9, 8 (3)` 19` -18` Down` Down` HLx5` HLx5`http://wiki.shoryuken.com/images/a/a0/%28uriensa1%29.gif
+QCF QCF+P`Temporal Thunder` 1` 1` 91` -36` Down` Down` HLx3~5` HLx3~5`http://wiki.shoryuken.com/images/c/c6/%28uriensa2%29.gif
+QCF QCF+P`Aegis Reflector` 12/24/32/0*` 224/212/204/238*` 12` -` -` -` HLx6` Hx6`http://wiki.shoryuken.com/images/5/5f/%28uriensa3p%29.gif

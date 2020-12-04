@@ -1,0 +1,54 @@
+LP`Far Jab` 5` 4` 10` 0` 0` 0` HL` HL`http://wiki.shoryuken.com/images/d/de/%28elenalp%29.gif
+MP`Far Strong` 6` 2,3` 19` -2` -10` 0` HL` H`http://wiki.shoryuken.com/images/9/9c/%28elenamp%29.gif
+HP`Far Fierce` 13` 4` 19` -4` -2` 0` HL` H`http://wiki.shoryuken.com/images/2/27/%28elenahp%29.gif
+LK`Short` 3` 4` 6` +4` +4` +4` HL` HL`http://wiki.shoryuken.com/images/8/8f/%28elenalk%29.gif
+MK`Forward` 7` 2` 17` -2` -1` 0` HL` HL`http://wiki.shoryuken.com/images/8/80/%28elenamk%29.gif
+HK`Roundhouse` 10` 3` 11` -2` -1` 0` HL` H`http://wiki.shoryuken.com/images/3/34/%28elenahk%29.gif
+(Air) LP`Jump Jab` 4` 10` -` -8～+7` -8～+7` +2～+7` H` H`http://wiki.shoryuken.com/images/3/34/%28elenajlp%29.gif
+(Air) MP`Jump Strong` 6` 5` -` +3～+10/+1～+10` +3～+10/+1～+10` +8～+10` H` H`http://wiki.shoryuken.com/images/c/cf/%28elenajmp%29.gif
+(Air) HP`Jump Fierce` 7(6 if neutral jump)` 3` -` -2～+13` -2～+13` +9～+13` H` H`http://wiki.shoryuken.com/images/a/a8/%28elenajhp%29.gif
+(Air) LK`Jump Short` 5` 8` -` -7～+7` -7～+7` +2～+7` H` H`http://wiki.shoryuken.com/images/c/c7/%28elenajlk%29.gif
+(Air) MK`Jump Forward` 7` 6` -` -5～+10/-4～+10` -5～+10/-4～+10` +5～+10` H` H`http://wiki.shoryuken.com/images/b/bb/%28elenajmk%29.gif
+(Air) HK`Jump Roundhouse` 9・11` 2・4` -` +4～+13/+6～+13` +4～+13/+6～+13` +12～+13/+13` H` H`http://wiki.shoryuken.com/images/f/f4/%28elenajhk%29.gif
+MP+MK`Universal Overhead` 15` 10` 5` -5~+7` 0~+8` +1~+9` H` H`http://wiki.shoryuken.com/images/b/bf/%28elenaoh%29.gif
+(B/F)+LP+LK`Body Slam` 2` 1` 21` -` -` -` (B/F)+LP+LK` -`http://wiki.shoryuken.com/images/2/21/%28elenathrow%29.gif
+D+LP`Crouch Jab` 4` 4` 7` -1` -1` -1` HL` HL`http://wiki.shoryuken.com/images/0/0b/%28elenaclp%29.gif
+D+MP`Crouch Strong` 6` 6` 10` -3` -2` -1` HL` HL`http://wiki.shoryuken.com/images/0/06/%28elenacmp%29.gif
+D+HP`Crouch Fierce` 7` 2` 23` -7` -5` -3` HL` HL`http://wiki.shoryuken.com/images/9/9a/%28elenachp%29.gif
+D+LK`Crouch Short` 4` 4` 8` -2` -2` -2` L` L`http://wiki.shoryuken.com/images/f/ff/%28elenaclk%29.gif
+D+MK`Crouch Forward` 8` 3` 13` -3` -2` -1` L` L`http://wiki.shoryuken.com/images/4/4f/%28elenacmk%29.gif
+D+HK`Crouch Roundhouse` 11` 2` 26` -9` Down` Down` L` L`http://wiki.shoryuken.com/images/6/60/%28elenachk%29.gif
+F+MP`Handstand Kick (Overhead)` 15` 4` 8` -2` 0` +2` HL` H`http://wiki.shoryuken.com/images/f/f3/%28elenafmp%29.gif
+F+MK`Handstand Whip (Overhead)` 11` 8` 18` -6` -4` -2` HL` H`http://wiki.shoryuken.com/images/9/99/%28elenafmk%29.gif
+B+HK`Round Arch` 12` 6` 12` +4` +6` +8` HL` H`http://wiki.shoryuken.com/images/a/a5/%28elenabhk%29.gif
+DF+HK`Sliding (Sweep)` 12` 6` 24` -14` Down` Down` HL` L`http://wiki.shoryuken.com/images/8/8d/%28elenadfhk%29.gif
+F, D, DF+MK` Scratch Wheel (Forward)` 4・7` 3・2` 36` -22` Down` Down` HL` H/H`http://wiki.shoryuken.com/images/6/63/%28elenascrw%29.gif
+F, D, DF+HK` Scratch Wheel (Roundhouse)` 3・5・7` 2・2・3` 40` -27` Down` Down` HL` H/H/H`http://wiki.shoryuken.com/images/6/63/%28elenascrw%29.gif
+F, D, DF+LK` Scratch Wheel (Short)` 6` 4` 31` -19` Down` Down` HL` H`http://wiki.shoryuken.com/images/6/63/%28elenascrw%29.gif
+QCB+LK x2` Spin Scythe (Short) Follow Up` 54・62` 4・2` 42` -28` Down` Down` HL` H/H`http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif
+QCB+MK x2` Spin Scythe (Forward)` 16・41` 2・2` 22` -6` -4` -2` HL` H/H`http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif
+QCB+MK x2` Spin Scythe (Forward) Follow Up` 59・67` 4・2` 47` -33` Down` Down` HL` H/H`http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif
+QCB+HK x2` Spin Scythe (Roundhouse)` 17・42` 2・2` 24` -8` -6` -4` HL` H/H/`http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif
+QCB+HK x2` Spin Scythe (Roundhouse) Follow Up` 60・68` 4・2` 52` -38` Down` Down` HL` H/H`http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif
+QCB+LK x2` Spin Scythe (Short)` 15・36` 2・2` 18` -2` 0` +2` HL` H/H`http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif
+HCF+MK` Rhyno Horn (Forward)` 18・22・31` 3・2・5` 15` -4` Down` Down` HL` HL/HL`http://wiki.shoryuken.com/images/d/d7/%28elenaryh%29.gif
+HCF+HK` Rhyno Horn (Roundhouse)` 23・27・36` 3・2・8` 17` -6` Down` Down` HL` HL/HL`http://wiki.shoryuken.com/images/d/d7/%28elenaryh%29.gif
+HCF+LK` Rhyno Horn (Short)` 14・18・27` 2・2・5` 14` -3` Down` Down` HL` HL/HL`http://wiki.shoryuken.com/images/d/d7/%28elenaryh%29.gif
+B, D, DB+MK` Lynx Tail (Forward)` 14・25` 3・3` 33` -15` Down` Down` Lx2` Lx2`http://wiki.shoryuken.com/images/8/84/%28elenalxt%29.gif
+B, D, DB+HK` Lynx Tail (Roundhouse)` 16・27・54・64` 3・3` 33` -15` Down` Down` Lx4` Lx4`http://wiki.shoryuken.com/images/8/84/%28elenalxt%29.gif
+B, D, DB+LK` Lynx Tail (Short)` 11・22` 3・3` 35` -17` Down` Down` Lx2` Lx2`http://wiki.shoryuken.com/images/8/84/%28elenalxt%29.gif
+HCB+MP` Mallet Smash (Strong)` 24・29` 5・2` 12` +2` +2` +2` HLx2` Hx2`http://wiki.shoryuken.com/images/4/4d/%28elenamlsm%29.gif
+HCB+HP` Mallet Smash (Fierce)` 27・31` 4・2` 11` +5` +5` +5` HLx2` Hx2`http://wiki.shoryuken.com/images/4/4d/%28elenamlsm%29.gif
+HCB+LP` Mallet Smash (Jab)` 21・27` 6・2` 13` 0` 0` 0` HLx2` Hx2`http://wiki.shoryuken.com/images/4/4d/%28elenamlsm%29.gif
+F, D, DF+KK` Scratch Wheel (EX)` 3・5・7・9` 2・2・2・2` 42(10)` -26` Down` Down` HLx4` HLx4`http://wiki.shoryuken.com/images/1/16/%28elenaswex%29.gif
+HCF+KK` Rhino Horn (EX)` 11・15・23` 3・2・8` 15(9)` -2` Down` Down` HL` H`http://wiki.shoryuken.com/images/f/f6/%28elenarhex%29.gif
+QCB+KK` Spin Scythe (EX)(General Follow Up)` 50` 2` 42` -15` Down` Down` HLx3` HLx3`http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif
+QCB+KK, QCB+LK` Spin Scythe (EX)(Short Follow Up)` 50` 2` 42` -28` Down` Down` HLx3` HLx3`http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif
+QCB+KK, QCB+MK` Spin Scythe (EX)(Forward Follow Up)` 50・58` 4・2` 47` -33` Down` Down` HLx3` HLx3`http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif
+QCB+KK, QCB+HK` Spin Scythe (EX)(Roundhouse Follow Up)` 50・58` 4・2` 52` -38` Down` Down` HLx3` HLx3`http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif
+QCB+KK` Spin Scythe (EX)` 10・24・38` 2・2・2` 31` -15` -1` -1` HLx3` HLx3`http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif
+HCB+PP` Mallet Smash (EX)` 21・23` 2・2` 10` +4` +5` +5` Hx2` Hx2`http://wiki.shoryuken.com/images/3/3a/%28elenamsmex%29.gif
+B, D, DB+KK` Lynx Tail (EX)` 10・18・36・44・66` 4x4・6` 25` -15` Down` Down` Lx5` Lx4,HL`http://wiki.shoryuken.com/images/a/a4/%28elenaltex%29.gif
+QCF QCF+K`Spinning Beat` 1・21・43` 4・5・8` 43(13)` -30` Down` Down` HLx7` HLx7`http://wiki.shoryuken.com/images/4/4b/%28elenasa1%29.gif
+QCF QCF+K`Brave Dance` 1` 15+2×7+3+5` 29 (17)` -12` Down` Down` HLx10` HLx10`http://wiki.shoryuken.com/images/e/ef/%28elenasa2%29.gif
+QCF QCF+P`Healing` -33` 75` 15` -11` Down` Down` HLx5` Hx5`http://wiki.shoryuken.com/images/8/86/%28elenasa3%29.gif

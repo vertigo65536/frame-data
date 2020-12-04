@@ -1,0 +1,51 @@
+LP`Far Jab` 3` 2` 6` +4` +4` +4` HL` HL`http://wiki.shoryuken.com/images/b/b0/%28yanglp%29.gif
+MP`Far Strong` 5` 4` 12` -2` -1` 0` HL` H`http://wiki.shoryuken.com/images/8/84/%28yangmp%29.gif
+HP`Far Fierce` 9` 6` 12` -5` -3` -1` HL` H`http://wiki.shoryuken.com/images/1/15/%28yanghp%29.gif
+(Close to opponent) MP`Close Strong` 4` 3` 7` +6` +7` +8` HL` H`http://wiki.shoryuken.com/images/e/eb/%28yangclosemp%29.gif
+(Close to opponent) HP`Close Fierce` 5` 3` 13` -2` -1` 0` HL` H`http://wiki.shoryuken.com/images/a/a3/%28yangclosehp%29.gif
+LK`Short` 3` 3` 6` +2` +2` +2` HL` HL`http://wiki.shoryuken.com/images/a/a9/%28yanglk%29.gif
+MK`Forward` 9` 3` 15` -4` -3` -2` HL` H`http://wiki.shoryuken.com/images/f/f9/%28yangmk%29.gif
+HK`Roundhouse` 14` 3` 22` -8` -6` -4` HL` H`http://wiki.shoryuken.com/images/f/fb/%28yanghk%29.gif
+(Close to opponent) MK`Close Forward` 7` 3` 15` -2` Down` Down` HL` H`http://wiki.shoryuken.com/images/5/50/%28yangclosemk%29.gif
+(Air) LP`Jump Jab` 2` Until landing` -` -4～+7` -4～+7` +2～+7` H` H`http://wiki.shoryuken.com/images/9/90/%28yangjlp%29.gif
+(Air) MP`Jump Strong` 3` 6(7 if neutral jump)` -` -2～+10` +5/+6～+10` +5/+6～+10` H` H`http://wiki.shoryuken.com/images/3/37/%28yangjmp%29.gif
+(Air) HP`Jump Fierce` 5` 4` -` -2～+10` -2～+10` +5～+10` H` H`http://wiki.shoryuken.com/images/4/49/%28yangjhp%29.gif
+(Air) HP`Neutral Jump Fierce` 8` 5` -` +4～+10` +4～+10` +9～+10` H` H`http://wiki.shoryuken.com/images/b/b0/%28yangnjhp%29.gif
+(Air) LK`Jump Short` 3(4 if neutral jump)` 12` +1～+7` +1～+7` +6～+7/+7` -` H` H`http://wiki.shoryuken.com/images/7/71/%28yangjlk%29.gif
+(Air) MK`Jump Forward` 6` 7` -` -3～+10` -3～+10` +5～+10` H` H`http://wiki.shoryuken.com/images/6/61/%28yangjmk%29.gif
+(Air) MK`Neutral Jump Forward` 6` 7` -` -3～+10` -3～+10` +5～+10` H` H`http://wiki.shoryuken.com/images/f/f0/%28yangnjmk%29.gif
+(Air) HK`Jump Roundhouse` 5` 5` -` 0～+10` 0～+10` +5～+10` H` H`http://wiki.shoryuken.com/images/b/ba/%28yangjhk%29.gif
+(Air) HK`Neutral Jump Roundhouse` 5` 5` -` -1～+10` -1～+10` +4～+10` H` H`http://wiki.shoryuken.com/images/e/e0/%28yangnjhk%29.gif
+MP+MK`Universal Overhead` 15` 10` 5` -5~+7` 0~+8` +1~+9` H` H`http://wiki.shoryuken.com/images/a/a4/%28yangoh%29.gif
+LP+LK`Hiza Geri` 2` 1` 21` -` -` -` LP+LK` -`http://wiki.shoryuken.com/images/6/65/%28yanghg%29.gif
+F+LP+LK`Youhon Shiun` 2` 1` 21` -` -` -` F+LP+LK` -`http://wiki.shoryuken.com/images/d/d9/%28yangyst%29.gif
+B+LP+LK`Monkey Flip` 2` 1` 21` -` -` -` B+LP+LK` -`http://wiki.shoryuken.com/images/e/ef/%28yangmf%29.gif
+D+LP`Crouch Jab` 3` 2` 6` +4` +4` +4` HL` HL`http://wiki.shoryuken.com/images/8/88/%28yangclp%29.gif
+D+MP`Crouch Strong` 5` 2` 11` +2` +3` +4` HL` HL`http://wiki.shoryuken.com/images/4/4c/%28yangcmp%29.gif
+D+HP`Crouch Fierce` 8` 7` 12` 0` +1` +2` HL` HL`http://wiki.shoryuken.com/images/b/ba/%28yangchp%29.gif
+D+LK`Crouch Short` 4` 1` 8` +2` +2` +2` L` L`http://wiki.shoryuken.com/images/8/84/%28yangclk%29.gif
+D+MK`Crouch Forward` 7` 2` 13` -1` 0` +1` L` L`http://wiki.shoryuken.com/images/5/51/%28yangcmk%29.gif
+D+HK`Crouch Roundhouse` 10` 3` 20` -7` Down` Down` L` L`http://wiki.shoryuken.com/images/a/a3/%28yangchk%29.gif
+F+MK`Senpuu Kyaku` 19` 6` 8` -1` 0` +1` HL` H`http://wiki.shoryuken.com/images/7/7a/%28yangfmk%29.gif
+Air D+MK`Raigeki Shuu` 6/6/8` Until Landing` -` +1` +2` +3` HL` H`http://wiki.shoryuken.com/images/f/fa/%28yangjdk%29.gif
+F+HP`Koushu` 9` 6` 12` -5` -3` -1` HL` H`http://wiki.shoryuken.com/images/4/48/%28yangfhp%29.gif
+QCB+P` Byakko-Soushouda` 21` 13` 10` -17` Down` Down` HL` HL`http://wiki.shoryuken.com/images/d/da/%28yangbsd%29.gif
+QCF+MP x 3` Tourou-Zan (Strong)` 8/7/7` 5/5/5` 26/29/32` -5/-8/-11` -3/-6/Down` +1/-4/Down` HLx3` Hx3`http://wiki.shoryuken.com/images/d/d9/%28yangtrz%29.gif
+QCF+HP x 3` Tourou-Zan (Fierce)` 8/8/7` 5/5/6` 30/33/35` -9/-12/-15` -7/-10/Down` -4/-8/Down` HLx3` Hx3`http://wiki.shoryuken.com/images/d/d9/%28yangtrz%29.gif
+QCF+LP x 3` Tourou-Zan (Jab)` 8/6/7` 5/5/4` 22/25/29` -1/-4/-7` +1/-2/Down` +3/0/Down` HLx3` Hx3`http://wiki.shoryuken.com/images/d/d9/%28yangtrz%29.gif
+F, D ,DF+MK` Kaibou (Forward)` 10` 34` -` -` -` -` -` -`http://wiki.shoryuken.com/images/b/ba/%28yangkbu%29.gif
+F, D ,DF+HK` Kaibou (Roundhouse)` 10` 43` -` -` -` -` -` -`http://wiki.shoryuken.com/images/b/ba/%28yangkbu%29.gif
+F, D ,DF+LK` Kaibou (Short)` 8` 29` -` -` -` -` -` -`http://wiki.shoryuken.com/images/b/ba/%28yangkbu%29.gif
+HCB+K` Zenpou-Tenshin` 7` 2` 26` -` +15` +15` Impossible` Impossible`http://wiki.shoryuken.com/images/2/20/%28yangazte%29.gif
+QCF+MK` Senkyuutai (Forward)` 4～16・8～20` 4・4` 28` -19` Down` Down` HL/HL` HL/HL`http://wiki.shoryuken.com/images/7/75/%28yangskt%29.gif
+QCF+HK` Senkyuutai (Roundhouse)` 3～29・5～31・7～33` 4・4` 25` -16` Down` Down` HL/HL` HL/HL`http://wiki.shoryuken.com/images/7/75/%28yangskt%29.gif
+QCF+LK` Senkyuutai (Short)` 8・12` 4・4` 34` -25` Down` Down` HL/HL` HL/HL`http://wiki.shoryuken.com/images/7/75/%28yangskt%29.gif
+QCF+PP x5`Tourou Zan (EX)`http://wiki.shoryuken.com/images/7/7a/%28yangmsex%29.gif
+QCF+PP x5`Tourou Zan (EX)`http://wiki.shoryuken.com/images/7/7a/%28yangmsex%29.gif
+QCF+PP x5`Tourou Zan (EX)`http://wiki.shoryuken.com/images/7/7a/%28yangmsex%29.gif
+QCF+PP x5`Tourou Zan (EX)`http://wiki.shoryuken.com/images/7/7a/%28yangmsex%29.gif
+QCF+PP x5` Tourou Zan (EX)` 7/7/5/5/4` 2/2/2/2/4` 26/28/30/33/25` -4/-6/-7/-11/-9` -2/-4-/-6/-9/Dowm` 0/-2/-4/-7/Down` HL` H`http://wiki.shoryuken.com/images/7/7a/%28yangmsex%29.gif
+QCF+KK` Senkyuutai (EX)` 3～29・5～31・7～33` 2・2・4` 25` -16` Down` Down` HLx3` HLx3`http://wiki.shoryuken.com/images/9/91/%28yangrkkex%29.gif
+QCF QCF+P`Raishin-Mahhaken` 7` 4` 37/36` +1` Down` Down` HLx7~9` HLx7~9`http://wiki.shoryuken.com/images/3/37/%28yangsa1%29.gif
+QCF QCF+K`Tenshin-Senkyutai` 1` 3~67` 37/36` -69` Down` Down` HLx3~6` HLx3~6`http://wiki.shoryuken.com/images/b/bb/%28yangsa2%29.gif
+QCF QCF+P`Sei-ei Enbu` 16` -` -` -` -` -` -` -`http://wiki.shoryuken.com/images/4/40/%28yangsa3%29.gif
