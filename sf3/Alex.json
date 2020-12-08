@@ -3,15 +3,17 @@
         "Motion": "LP",
         "Startup": "4",
         "Hit": "2",
-        "Recovery": "9",
+        "Recovery": "8",
         "Blocked Advantage": "+1",
         "Hit Advantage": "+1",
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "30",
+        "Stun": "5",
         "Image": "http://wiki.shoryuken.com/images/8/83/%28alexlp%29.gif"
     },
-    "Far Strong": {
+    "Strong": {
         "Motion": "MP",
         "Startup": "4",
         "Hit": "3",
@@ -21,9 +23,11 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "100",
+        "Stun": "11",
         "Image": "http://wiki.shoryuken.com/images/a/ae/%28alexmp%29.gif"
     },
-    "Far Fierce": {
+    "Fierce": {
         "Motion": "HP",
         "Startup": "14",
         "Hit": "4",
@@ -33,10 +37,12 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "H",
         "Parry": "H",
+        "Damage": "145",
+        "Stun": "19",
         "Image": "http://wiki.shoryuken.com/images/3/3d/%28alexhp%29.gif"
     },
     "Close Jab": {
-        "Motion": "(Close to opponent) LP",
+        "Motion": "cl.LP",
         "Startup": "4",
         "Hit": "2",
         "Recovery": "9",
@@ -45,6 +51,8 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "30",
+        "Stun": "5",
         "Image": "http://wiki.shoryuken.com/images/7/7d/%28alexcloselp%29.gif"
     },
     "Short": {
@@ -57,9 +65,11 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "40",
+        "Stun": "3",
         "Image": "http://wiki.shoryuken.com/images/4/46/%28alexlk%29.gif"
     },
-    "Forward": {
+    "Far Forward": {
         "Motion": "MK",
         "Startup": "11",
         "Hit": "3",
@@ -69,6 +79,8 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "100",
+        "Stun": "9",
         "Image": "http://wiki.shoryuken.com/images/2/2e/%28alexmk%29.gif"
     },
     "Roundhouse": {
@@ -81,10 +93,12 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "H",
         "Parry": "H",
+        "Damage": "150",
+        "Stun": "21 (15)",
         "Image": "http://wiki.shoryuken.com/images/1/1a/%28alexhk%29.gif"
     },
     "Close Forward": {
-        "Motion": "Close MK",
+        "Motion": "cl.MK",
         "Startup": "5",
         "Hit": "3",
         "Recovery": "12",
@@ -93,10 +107,12 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "105",
+        "Stun": "9",
         "Image": "http://wiki.shoryuken.com/images/5/53/%28alexclosemk%29.gif"
     },
     "Jump Jab": {
-        "Motion": "(Air) LP",
+        "Motion": "j.LP",
         "Startup": "4",
         "Hit": "12",
         "Recovery": "-",
@@ -105,10 +121,12 @@
         "Crouching Hit Advantage": "+4\uff5e+7",
         "Guard": "H",
         "Parry": "H",
+        "Damage": "40",
+        "Stun": "9",
         "Image": "http://wiki.shoryuken.com/images/d/dd/%28alexjlp%29.gif"
     },
     "Jump Strong": {
-        "Motion": "(Air) MP",
+        "Motion": "j.MP",
         "Startup": "5",
         "Hit": "3",
         "Recovery": "-",
@@ -117,10 +135,12 @@
         "Crouching Hit Advantage": "+8\uff5e+10",
         "Guard": "H",
         "Parry": "H",
+        "Damage": "80",
+        "Stun": "13",
         "Image": "http://wiki.shoryuken.com/images/9/9d/%28alexjmp%29.gif"
     },
     "Jump Fierce": {
-        "Motion": "(Air) HP",
+        "Motion": "j.HP",
         "Startup": "8",
         "Hit": "3",
         "Recovery": "-",
@@ -129,10 +149,12 @@
         "Crouching Hit Advantage": "+10\uff5e+13",
         "Guard": "H",
         "Parry": "H",
+        "Damage": "140 (80)",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/2/22/%28alexjhp%29.gif"
     },
     "Jump Short": {
-        "Motion": "(Air) LK",
+        "Motion": "j.LK",
         "Startup": "4",
         "Hit": "Until Landing",
         "Recovery": "-",
@@ -141,10 +163,12 @@
         "Crouching Hit Advantage": "+4\uff5e+7",
         "Guard": "H",
         "Parry": "H",
+        "Damage": "60",
+        "Stun": "7",
         "Image": "http://wiki.shoryuken.com/images/b/bb/%28alexjlk%29.gif"
     },
     "Jump Forward": {
-        "Motion": "(Air) MK",
+        "Motion": "j.MK",
         "Startup": "9",
         "Hit": "3",
         "Recovery": "-",
@@ -153,10 +177,12 @@
         "Crouching Hit Advantage": "+7\uff5e+10",
         "Guard": "H",
         "Parry": "H",
+        "Damage": "90",
+        "Stun": "11",
         "Image": "http://wiki.shoryuken.com/images/1/1a/%28alexjmk%29.gif"
     },
     "Jump Roundhouse": {
-        "Motion": "(Air) HK",
+        "Motion": "j.HK",
         "Startup": "8",
         "Hit": "4",
         "Recovery": "-",
@@ -165,6 +191,8 @@
         "Crouching Hit Advantage": "+9\uff5e+13",
         "Guard": "H",
         "Parry": "H",
+        "Damage": "120",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/3/32/%28alexjhk%29.gif"
     },
     "Universal Overhead": {
@@ -172,12 +200,28 @@
         "Startup": "15",
         "Hit": "10",
         "Recovery": "5",
-        "Blocked Advantage": "-5~+7",
-        "Hit Advantage": "0~+8",
-        "Crouching Hit Advantage": "+1~+9",
+        "Blocked Advantage": "-5 to +7",
+        "Hit Advantage": "0 to +8",
+        "Crouching Hit Advantage": "+1 to +9",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "40",
+        "Stun": "3",
         "Image": "http://wiki.shoryuken.com/images/6/6b/%28alexoh%29.gif"
+    },
+    "Taunt": {
+        "Motion": "HP+HK",
+        "Startup": "-",
+        "Hit": "64",
+        "Recovery": "-",
+        "Blocked Advantage": "-",
+        "Hit Advantage": "-",
+        "Crouching Hit Advantage": "-",
+        "Guard": "-",
+        "Parry": "-",
+        "Damage": "-",
+        "Stun": "-",
+        "Image": "http://wiki.shoryuken.com/images/7/7a/%28alext%29.gif"
     },
     "Body Slam": {
         "Motion": "(B+F)+LP+LK",
@@ -189,10 +233,12 @@
         "Crouching Hit Advantage": "-",
         "Guard": "(B+F)+LP+LK",
         "Parry": "-",
+        "Damage": "140",
+        "Stun": "17",
         "Image": "http://wiki.shoryuken.com/images/a/a7/%28alexbsl%29.gif"
     },
     "Crouch Jab": {
-        "Motion": "D+LP",
+        "Motion": "cr.LP",
         "Startup": "4",
         "Hit": "2",
         "Recovery": "9",
@@ -201,10 +247,12 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "30",
+        "Stun": "5",
         "Image": "http://wiki.shoryuken.com/images/a/aa/%28alexclp%29.gif"
     },
     "Crouch Strong": {
-        "Motion": "D+MP",
+        "Motion": "cr.MP",
         "Startup": "7",
         "Hit": "2",
         "Recovery": "13",
@@ -213,22 +261,26 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "90",
+        "Stun": "7",
         "Image": "http://wiki.shoryuken.com/images/a/af/%28alexcmp%29.gif"
     },
     "Crouch Fierce": {
-        "Motion": "D+HP",
-        "Startup": "13",
-        "Hit": "2,3",
-        "Recovery": "7",
-        "Blocked Advantage": "-9",
+        "Motion": "cr.HP",
+        "Startup": "13・15",
+        "Hit": "2・3",
+        "Recovery": "7 (3)",
+        "Blocked Advantage": "-9 (-5)",
         "Hit Advantage": "Down",
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "140 (80+60)",
+        "Stun": "8 (3+5)",
         "Image": "http://wiki.shoryuken.com/images/6/68/%28alexchp%29.gif"
     },
     "Crouch Short": {
-        "Motion": "D+LK",
+        "Motion": "cr.LK",
         "Startup": "5",
         "Hit": "2",
         "Recovery": "8",
@@ -237,10 +289,12 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "L",
         "Parry": "L",
+        "Damage": "30",
+        "Stun": "3",
         "Image": "http://wiki.shoryuken.com/images/2/23/%28alexclk%29.gif"
     },
     "Crouch Forward": {
-        "Motion": "D+MK",
+        "Motion": "cr.MK",
         "Startup": "8",
         "Hit": "3",
         "Recovery": "12",
@@ -249,10 +303,12 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "L",
         "Parry": "L",
+        "Damage": "70",
+        "Stun": "3",
         "Image": "http://wiki.shoryuken.com/images/8/8e/%28alexcmk%29.gif"
     },
     "Crouch Roundhouse": {
-        "Motion": "D+HK",
+        "Motion": "cr.HK",
         "Startup": "11",
         "Hit": "2",
         "Recovery": "29",
@@ -261,6 +317,8 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
+        "Damage": "130",
+        "Stun": "3",
         "Image": "http://wiki.shoryuken.com/images/7/75/%28alexchk%29.gif"
     },
     "Chop": {
@@ -273,6 +331,8 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "110",
+        "Stun": "9",
         "Image": "http://wiki.shoryuken.com/images/1/1d/%28alexfmp%29.gif"
     },
     "Lariat": {
@@ -285,6 +345,8 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL/H/H",
         "Parry": "H/H/H",
+        "Damage": "135",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/9/92/%28alexfhp%29.gif"
     },
     "Head Butt": {
@@ -294,9 +356,11 @@
         "Recovery": "23",
         "Blocked Advantage": "-11",
         "Hit Advantage": "+1",
-        "Crouching Hit Advantage": "-",
+        "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "-",
+        "Damage": "180",
+        "Stun": "24",
         "Image": "http://wiki.shoryuken.com/images/6/64/%28alexbhp%29.gif"
     },
     "Sleeper Hold": {
@@ -309,18 +373,22 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "-",
+        "Damage": "240 (8 hits)(50x8)",
+        "Stun": "24 (8 hits)(5x8)",
         "Image": "http://wiki.shoryuken.com/images/1/10/%28alexjbhpr%29.gif"
     },
     "Flying Cross Chop": {
-        "Motion": "Jump D + HP",
+        "Motion": "Air D + HP",
         "Startup": "10",
         "Hit": "11",
         "Recovery": "24",
-        "Blocked Advantage": "-10",
-        "Hit Advantage": "-1",
-        "Crouching Hit Advantage": "+1",
+        "Blocked Advantage": "-20 to -11",
+        "Hit Advantage": "-9 to 0",
+        "Crouching Hit Advantage": "-4 to 0",
         "Guard": "HL",
         "Parry": "-",
+        "Damage": "120",
+        "Stun": "11",
         "Image": "http://wiki.shoryuken.com/images/0/09/%28alexjdhp%29.gif"
     },
     "Flash Chop (Jab)": {
@@ -333,6 +401,8 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "120",
+        "Stun": "7",
         "Image": "http://wiki.shoryuken.com/images/0/0b/%28alexchop%29.gif"
     },
     "Flash Chop (Strong)": {
@@ -340,11 +410,13 @@
         "Startup": "15",
         "Hit": "3",
         "Recovery": "19",
-        "Blocked Advantage": "-1",
+        "Blocked Advantage": "-2",
         "Hit Advantage": "+14",
         "Crouching Hit Advantage": "+14",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "130",
+        "Stun": "9",
         "Image": "http://wiki.shoryuken.com/images/0/0b/%28alexchop%29.gif"
     },
     "Flash Chop (Fierce)": {
@@ -357,6 +429,8 @@
         "Crouching Hit Advantage": "+15",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "140",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/0/0b/%28alexchop%29.gif"
     },
     "Air Knee Smash (Short)": {
@@ -365,11 +439,13 @@
         "Startup": "6",
         "Hit": "6",
         "Recovery": "35",
-        "Blocked Advantage": "-",
+        "Blocked Advantage": "-47",
         "Hit Advantage": "-",
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "120",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/2/2d/%28alexaksm%29.gif"
     },
     "Air Knee Smash (Forward)": {
@@ -378,11 +454,13 @@
         "Startup": "7",
         "Hit": "10",
         "Recovery": "34",
-        "Blocked Advantage": "-",
+        "Blocked Advantage": "-51",
         "Hit Advantage": "-",
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "135",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/2/2d/%28alexaksm%29.gif"
     },
     "Air Knee Smash (Roundhouse)": {
@@ -391,54 +469,62 @@
         "Startup": "8",
         "Hit": "12",
         "Recovery": "33",
-        "Blocked Advantage": "-",
+        "Blocked Advantage": "-54",
         "Hit Advantage": "-",
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "HL",
+        "Damage": "150",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/2/2d/%28alexaksm%29.gif"
     },
     "Powerbomb (Jab)": {
         "Motion": "HCB+LP",
         "Move": "Powerbomb (Jab)",
         "Startup": "6",
-        "Hit": "1",
+        "Hit": "2",
         "Recovery": "35",
         "Blocked Advantage": "-",
         "Hit Advantage": "-",
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "-",
+        "Damage": "160",
+        "Stun": "19",
         "Image": "http://wiki.shoryuken.com/images/c/ce/%28alexpbomb%29.gif"
     },
     "Powerbomb (Strong)": {
         "Motion": "HCB+MP",
         "Move": "Powerbomb (Strong)",
         "Startup": "7",
-        "Hit": "1",
+        "Hit": "2",
         "Recovery": "41",
         "Blocked Advantage": "-",
         "Hit Advantage": "-",
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "-",
+        "Damage": "180",
+        "Stun": "19",
         "Image": "http://wiki.shoryuken.com/images/c/ce/%28alexpbomb%29.gif"
     },
     "Powerbomb (Fierce)": {
         "Motion": "HCB+HP",
         "Move": "Powerbomb (Fierce)",
         "Startup": "8",
-        "Hit": "1",
+        "Hit": "2",
         "Recovery": "44",
         "Blocked Advantage": "-",
         "Hit Advantage": "-",
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "-",
+        "Damage": "200",
+        "Stun": "19",
         "Image": "http://wiki.shoryuken.com/images/c/ce/%28alexpbomb%29.gif"
     },
     "Slash Elbow (Short)": {
-        "Motion": "Hold B, F+LK",
+        "Motion": "B, F+LK",
         "Move": "Slash Elbow (Short)",
         "Startup": "15",
         "Hit": "1",
@@ -448,36 +534,42 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "100",
+        "Stun": "13",
         "Image": "http://wiki.shoryuken.com/images/d/d1/%28alexse%29.gif"
     },
     "Slash Elbow (Forward)": {
-        "Motion": "Hold B, F+MK",
+        "Motion": "B, F+MK",
         "Move": "Slash Elbow (Forward)",
         "Startup": "18",
         "Hit": "1",
-        "Recovery": "23",
+        "Recovery": "23 (17)",
         "Blocked Advantage": "-8",
         "Hit Advantage": "0",
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "120",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/d/d1/%28alexse%29.gif"
     },
     "Slash Elbow (Roundhouse)": {
-        "Motion": "Hold B, F+HK",
+        "Motion": "B, F+HK",
         "Move": "Slash Elbow (Roundhouse)",
         "Startup": "20",
         "Hit": "1",
-        "Recovery": "23",
+        "Recovery": "23 (18)",
         "Blocked Advantage": "-8",
         "Hit Advantage": "-1",
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "140",
+        "Stun": "17",
         "Image": "http://wiki.shoryuken.com/images/d/d1/%28alexse%29.gif"
     },
     "Stomp (Short)": {
-        "Motion": "Hold D, U+LK",
+        "Motion": "D, U+LK",
         "Move": "Stomp (Short)",
         "Startup": "23",
         "Hit": "2",
@@ -487,10 +579,12 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "120",
+        "Stun": "11",
         "Image": "http://wiki.shoryuken.com/images/9/9a/%28alexstomp%29.gif"
     },
     "Stomp (Forward)": {
-        "Motion": "Hold D, U+MK",
+        "Motion": "D, U+MK",
         "Move": "Stomp (Forward)",
         "Startup": "25",
         "Hit": "2",
@@ -500,10 +594,12 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "140",
+        "Stun": "11",
         "Image": "http://wiki.shoryuken.com/images/9/9a/%28alexstomp%29.gif"
     },
     "Stomp (Roundhouse)": {
-        "Motion": "Hold D, U+HK",
+        "Motion": "D, U+HK",
         "Move": "Stomp (Roundhouse)",
         "Startup": "26",
         "Hit": "2",
@@ -513,6 +609,8 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "160",
+        "Stun": "11",
         "Image": "http://wiki.shoryuken.com/images/9/9a/%28alexstomp%29.gif"
     },
     "Spiral DDT (Short)": {
@@ -526,6 +624,8 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "160",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/7/78/%28alexsddt%29.gif"
     },
     "Spiral DDT (Forward)": {
@@ -539,6 +639,8 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "160",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/7/78/%28alexsddt%29.gif"
     },
     "Spiral DDT (Roundhouse)": {
@@ -552,19 +654,23 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "160",
+        "Stun": "15",
         "Image": "http://wiki.shoryuken.com/images/7/78/%28alexsddt%29.gif"
     },
     "Flash Chop (EX)": {
         "Motion": "QCF+PP",
         "Move": "Flash Chop (EX)",
-        "Startup": "9\u30fb11",
-        "Hit": "2\u30fb2",
+        "Startup": "9/11",
+        "Hit": "2/2",
         "Recovery": "15",
         "Blocked Advantage": "-1",
         "Hit Advantage": "Down",
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "200 (100+100)",
+        "Stun": "14 (11+3)",
         "Image": "http://wiki.shoryuken.com/images/6/62/%28alexfcex%29.gif"
     },
     "Air Knee Smash (EX)": {
@@ -578,19 +684,22 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
+        "Notes": "Hits grounded",
         "Image": "http://wiki.shoryuken.com/images/d/dd/%28alexakmex%29.gif"
     },
     "Slash Elbow (EX)": {
-        "Motion": "Hold B, F+KK",
+        "Motion": "B, F+KK",
         "Move": "Slash Elbow (EX)",
-        "Startup": "9\u30fb20",
+        "Startup": "9/20",
         "Hit": "6\u30fb1",
         "Recovery": "23",
-        "Blocked Advantage": "-3",
-        "Hit Advantage": "-1",
-        "Crouching Hit Advantage": "-1",
+        "Blocked Advantage": "-6",
+        "Hit Advantage": "Down",
+        "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "160 (80+80)",
+        "Stun": "18 (7+11)",
         "Image": "http://wiki.shoryuken.com/images/5/55/%28alexseex%29.gif"
     },
     "Stomp (EX)": {
@@ -604,58 +713,76 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
+        "Damage": "180",
+        "Stun": "13",
         "Image": "http://wiki.shoryuken.com/images/4/46/%28alexastompex%29.gif"
     },
     "Hyper Bomb": {
-        "Super Art": "I",
+        "Super Art": "1",
         "Motion": "360+P",
         "Startup": "2",
         "Hit": "2",
         "Recovery": "33",
-        "Blocked Advantage": "-38",
+        "Blocked Advantage": "-",
         "Hit Advantage": "Down",
         "Crouching Hit Advantage": "Down",
-        "Guard": "HLx7~9",
-        "Parry": "HLx7~9",
+        "Guard": "Impossible",
+        "Parry": "Impossible",
+        "Damage": "530",
+        "Stun": "13",
+        "Stocks": "1",
+        "Stock Size": "128",
         "Image": "http://wiki.shoryuken.com/images/0/09/%28alexsa1%29.gif"
     },
     "Reverse Hyper Bomb": {
-        "Super Art": "I",
+        "Super Art": "1",
         "Motion": "360+P",
         "Startup": "2",
         "Hit": "2",
         "Recovery": "33",
-        "Blocked Advantage": "-38",
+        "Blocked Advantage": "-",
         "Hit Advantage": "Down",
         "Crouching Hit Advantage": "Down",
-        "Guard": "HLx7~9",
-        "Parry": "HLx7~9",
+        "Guard": "Impossible",
+        "Parry": "Impossible",
+        "Damage": "590",
+        "Stun": "18",
+        "Stocks": "1",
+        "Stock Size": "128",
         "Image": "http://wiki.shoryuken.com/images/0/06/%28alexsa1r%29.gif"
     },
     "Boomerang Raid": {
-        "Super Art": "II",
+        "Super Art": "2",
         "Motion": "QCF QCF+P",
-        "Startup": "1\u30fb12\u30fb25\u30fb36\u30fb57",
+        "Startup": "1/12/25/36/57",
         "Hit": "3\u30fb3\u30fb3\u30fb3\u30fb2",
         "Recovery": "41",
-        "Blocked Advantage": "",
+        "Blocked Advantage": "-",
         "Hit Advantage": "Down",
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx4",
         "Parry": "HLx4",
+        "Damage": "350 (5 hits)",
+        "Stun": "15 (5 hits)",
+        "Stocks": "2",
+        "Stock Size": "96",
         "Image": "http://wiki.shoryuken.com/images/c/c5/%28alexsa2%29.gif"
     },
     "Stun Gun Head-butt": {
-        "Super Art": "III",
+        "Super Art": "3",
         "Motion": "QCF QCF+P",
         "Startup": "25",
         "Hit": "3",
         "Recovery": "17",
-        "Blocked Advantage": "",
-        "Hit Advantage": "Down",
-        "Crouching Hit Advantage": "Down",
+        "Blocked Advantage": "-",
+        "Hit Advantage": "Stun",
+        "Crouching Hit Advantage": "Stun",
         "Guard": "-",
         "Parry": "-",
+        "Damage": "180",
+        "Stun": "MAX",
+        "Stocks": "1",
+        "Stock Size": "80",
         "Image": "http://wiki.shoryuken.com/images/3/30/%28alexsa3%29.gif"
     }
 }
