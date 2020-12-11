@@ -321,8 +321,7 @@
             "moveButton": "MP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MP"
+            "projectile": false
         },
         "cr.lk > mk": {
             "startup": 4,
@@ -339,8 +338,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MK"
+            "projectile": false
         },
         "f.hk > mk": {
             "startup": 4,
@@ -357,8 +355,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MK"
+            "projectile": false
         },
         "lp > mp": {
             "startup": 4,
@@ -375,8 +372,7 @@
             "moveButton": "MP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MP"
+            "projectile": false
         },
         "lp > mp > mk": {
             "startup": 4,
@@ -393,8 +389,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MK"
+            "projectile": false
         },
         "mp/f.mk > f.mk": {
             "startup": 4,
@@ -411,8 +406,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "F+MK"
+            "projectile": false
         },
         "mp/f.mk > mk > hp": {
             "startup": 4,
@@ -429,8 +423,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HP"
+            "projectile": false
         },
         "cr.lk > cr.mp": {
             "startup": 4,
@@ -447,8 +440,7 @@
             "moveButton": "MP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "D+MP"
+            "projectile": false
         },
         "cr.lk > cr.mp > cr.hp": {
             "startup": 4,
@@ -465,8 +457,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "D+HP"
+            "projectile": false
         },
         "mk > hk": {
             "startup": 4,
@@ -483,8 +474,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HK"
+            "projectile": false
         },
         "mk > hk > hp": {
             "startup": 4,
@@ -501,8 +491,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HP"
+            "projectile": false
         },
         "lk > mk": {
             "startup": 4,
@@ -519,8 +508,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MK"
+            "projectile": false
         },
         "lk > mk > mp": {
             "startup": 4,
@@ -537,8 +525,7 @@
             "moveButton": "MP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MP"
+            "projectile": false
         },
         "lk > mk > mp > hp": {
             "startup": 4,
@@ -555,8 +542,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HP"
+            "projectile": false
         },
         "Victory Rose": {
             "startup": 24,

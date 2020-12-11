@@ -339,8 +339,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "F+HP"
+            "projectile": false
         },
         "lk > mk": {
             "startup": 2,
@@ -357,8 +356,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "LK+MK"
+            "projectile": false
         },
         "f.mk > hk": {
             "startup": 8,
@@ -375,8 +373,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HK"
+            "projectile": false
         },
         "Focus Attack LVL1": {
             "startup": 21,
@@ -1130,8 +1127,7 @@
             "moveButton": "3K",
             "airmove": false,
             "followUp": false,
-            "projectile": false,
-            "input": "DQCF+3K"
+            "projectile": false
         },
         "Ultra Combo 2 > mk": {
             "startup": "~",
@@ -1148,8 +1144,7 @@
             "moveButton": "3K",
             "airmove": false,
             "followUp": false,
-            "projectile": false,
-            "input": "DQCF+3K"
+            "projectile": false
         },
         "Ultra Combo 2 > hk": {
             "startup": "~",
@@ -1166,8 +1161,7 @@
             "moveButton": "3K",
             "airmove": false,
             "followUp": false,
-            "projectile": false,
-            "input": "DQCF+3K"
+            "projectile": false
         }
     },
     "stats": {

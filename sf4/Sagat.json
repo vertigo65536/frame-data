@@ -394,8 +394,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "nonHittingMove": true,
-            "input": "HK+HK"
+            "nonHittingMove": true
         },
         "Focus Attack LVL 1": {
             "startup": 21,

@@ -411,8 +411,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "N+MK"
+            "projectile": false
         },
         "cl.lk > mk > hk": {
             "startup": 5,
@@ -429,8 +428,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "N+HK"
+            "projectile": false
         },
         "mp > hp": {
             "startup": 10,
@@ -447,8 +445,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MP+HP"
+            "projectile": false
         },
         "mp > hp > f.hp": {
             "startup": 15,
@@ -465,8 +462,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "F+HP"
+            "projectile": false
         },
         "Focus Attack LVL1": {
             "startup": 21,

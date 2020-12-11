@@ -393,8 +393,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MP+HP"
+            "projectile": false
         },
         "Focus Attack LVL 1": {
             "startup": 22,

@@ -924,8 +924,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "D+MK"
+            "projectile": false
         },
         "TC2 HP > MK": {
             "startup": 5,
@@ -942,8 +941,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MK"
+            "projectile": false
         },
         "Hyakurenkou LP": {
             "startup": 5,

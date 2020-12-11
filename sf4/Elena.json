@@ -303,8 +303,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HP+HK"
+            "projectile": false
         },
         "TC2 (MK > cr.HP)": {
             "startup": 6,
@@ -321,8 +320,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "D+HP"
+            "projectile": false
         },
         "TC3 (j.LP > MK)": {
             "startup": 2,
@@ -339,8 +337,7 @@
             "moveButton": "MK",
             "airmove": true,
             "followUp": true,
-            "projectile": false,
-            "input": "LP+MK"
+            "projectile": false
         },
         "TC4 (j.MP > HP)": {
             "startup": 2,
@@ -357,8 +354,7 @@
             "moveButton": "HP",
             "airmove": true,
             "followUp": true,
-            "projectile": false,
-            "input": "MP+HP"
+            "projectile": false
         },
         "Focus Attack LVL1": {
             "startup": 24,

@@ -357,8 +357,7 @@
             "moveButton": "MK",
             "airmove": true,
             "followUp": true,
-            "projectile": false,
-            "input": "D+MK"
+            "projectile": false
         },
         "d.mk > d.mk > d.mk (air)": {
             "startup": 5,
@@ -375,8 +374,7 @@
             "moveButton": "MK",
             "airmove": true,
             "followUp": true,
-            "projectile": false,
-            "input": "D+MK"
+            "projectile": false
         },
         "d.hk Dive Kick": {
             "startup": 12,

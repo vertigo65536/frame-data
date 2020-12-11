@@ -615,8 +615,7 @@
             "airmove": false,
             "followUp": true,
             "projectile": false,
-            "nonHittingMove": true,
-            "input": "1K"
+            "nonHittingMove": true
         },
         "Oil Slide > (Body Press)": {
             "startup": "~",
@@ -633,8 +632,7 @@
             "moveButton": "1P",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "1P"
+            "projectile": false
         },
         "Oil Rocket lp": {
             "startup": 3,

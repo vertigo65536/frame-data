@@ -357,8 +357,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "B+MK"
+            "projectile": false
         },
         "Down>Up+Kick": {
             "startup": 4,
@@ -375,8 +374,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "DU+MK"
+            "projectile": false
         },
         "f.mk": {
             "startup": 15,

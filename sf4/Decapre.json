@@ -357,8 +357,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HK"
+            "projectile": false
         },
         "MP > HP": {
             "startup": 6,
@@ -375,8 +374,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HP"
+            "projectile": false
         },
         "Focus Attack LVL1": {
             "startup": 21,

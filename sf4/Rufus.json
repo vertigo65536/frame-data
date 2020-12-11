@@ -411,8 +411,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "LK+HK"
+            "projectile": false
         },
         "Focus Attack LVL 1": {
             "startup": 21,
@@ -591,8 +590,7 @@
             "moveButton": "LK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "LK"
+            "projectile": false
         },
         "Messiah Kick > mk": {
             "startup": 19,
@@ -609,8 +607,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MK"
+            "projectile": false
         },
         "Messiah Kick > hk": {
             "startup": 26,
@@ -627,8 +624,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HK"
+            "projectile": false
         },
         "Galactic Tornado lp": {
             "startup": 10,

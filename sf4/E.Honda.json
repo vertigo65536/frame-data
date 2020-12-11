@@ -357,8 +357,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "DF+HK"
+            "projectile": false
         },
         "Focus Attack LVL 1": {
             "startup": 21,

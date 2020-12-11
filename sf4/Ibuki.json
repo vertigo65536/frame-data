@@ -357,8 +357,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HP+HP"
+            "projectile": false
         },
         "b.mk": {
             "startup": 10,
@@ -465,8 +464,7 @@
             "moveButton": "MP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MP"
+            "projectile": false
         },
         "lp > mp > hp": {
             "startup": 2,
@@ -483,8 +481,7 @@
             "moveButton": "HP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HP"
+            "projectile": false
         },
         "TC5 lp > mp": {
             "startup": 4,
@@ -501,8 +498,7 @@
             "moveButton": "MP",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MP"
+            "projectile": false
         },
         "lp > mp > f.lk": {
             "startup": 4,
@@ -519,8 +515,7 @@
             "moveButton": "LK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "F+LK"
+            "projectile": false
         },
         "lp > mp > d.hk": {
             "startup": 4,
@@ -537,8 +532,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "D+HK"
+            "projectile": false
         },
         "lp > mp > d.hk > hk": {
             "startup": 5,
@@ -555,8 +549,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HK"
+            "projectile": false
         },
         "b.mk > f.mk": {
             "startup": 26,
@@ -573,8 +566,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "F+MK"
+            "projectile": false
         },
         "lk > mk": {
             "startup": 4,
@@ -591,8 +583,7 @@
             "moveButton": "MK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "MK"
+            "projectile": false
         },
         "lk > mk > hk": {
             "startup": 5,
@@ -609,8 +600,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "HK"
+            "projectile": false
         },
         "cr.hk > hk": {
             "startup": 5,
@@ -627,8 +617,7 @@
             "moveButton": "HK",
             "airmove": false,
             "followUp": true,
-            "projectile": false,
-            "input": "D+HK"
+            "projectile": false
         },
         "Focus Attack LVL1": {
             "startup": 21,
