@@ -11,7 +11,7 @@
         "Parry": "HL",
         "Damage": "30",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/8/83/%28alexlp%29.gif"
+        "Image": "https://srk.shib.live/images/8/83/%28alexlp%29.gif"
     },
     "Strong": {
         "Motion": "MP",
@@ -25,7 +25,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/a/ae/%28alexmp%29.gif"
+        "Image": "https://srk.shib.live/images/a/ae/%28alexmp%29.gif"
     },
     "Fierce": {
         "Motion": "HP",
@@ -39,7 +39,7 @@
         "Parry": "H",
         "Damage": "145",
         "Stun": "19",
-        "Image": "http://wiki.shoryuken.com/images/3/3d/%28alexhp%29.gif"
+        "Image": "https://srk.shib.live/images/3/3d/%28alexhp%29.gif"
     },
     "Close Jab": {
         "Motion": "cl.LP",
@@ -53,7 +53,7 @@
         "Parry": "HL",
         "Damage": "30",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/7/7d/%28alexcloselp%29.gif"
+        "Image": "https://srk.shib.live/images/7/7d/%28alexcloselp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -67,7 +67,7 @@
         "Parry": "HL",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/4/46/%28alexlk%29.gif"
+        "Image": "https://srk.shib.live/images/4/46/%28alexlk%29.gif"
     },
     "Far Forward": {
         "Motion": "MK",
@@ -81,7 +81,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/2/2e/%28alexmk%29.gif"
+        "Image": "https://srk.shib.live/images/2/2e/%28alexmk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -95,7 +95,7 @@
         "Parry": "H",
         "Damage": "150",
         "Stun": "21 (15)",
-        "Image": "http://wiki.shoryuken.com/images/1/1a/%28alexhk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1a/%28alexhk%29.gif"
     },
     "Close Forward": {
         "Motion": "cl.MK",
@@ -109,7 +109,7 @@
         "Parry": "H",
         "Damage": "105",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/5/53/%28alexclosemk%29.gif"
+        "Image": "https://srk.shib.live/images/5/53/%28alexclosemk%29.gif"
     },
     "Jump Jab": {
         "Motion": "j.LP",
@@ -123,7 +123,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/d/dd/%28alexjlp%29.gif"
+        "Image": "https://srk.shib.live/images/d/dd/%28alexjlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "j.MP",
@@ -137,7 +137,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/9/9d/%28alexjmp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9d/%28alexjmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "j.HP",
@@ -151,7 +151,7 @@
         "Parry": "H",
         "Damage": "140 (80)",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/2/22/%28alexjhp%29.gif"
+        "Image": "https://srk.shib.live/images/2/22/%28alexjhp%29.gif"
     },
     "Jump Short": {
         "Motion": "j.LK",
@@ -165,7 +165,7 @@
         "Parry": "H",
         "Damage": "60",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/b/bb/%28alexjlk%29.gif"
+        "Image": "https://srk.shib.live/images/b/bb/%28alexjlk%29.gif"
     },
     "Jump Forward": {
         "Motion": "j.MK",
@@ -179,7 +179,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/1/1a/%28alexjmk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1a/%28alexjmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "j.HK",
@@ -193,7 +193,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/3/32/%28alexjhk%29.gif"
+        "Image": "https://srk.shib.live/images/3/32/%28alexjhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -207,7 +207,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/6/6b/%28alexoh%29.gif"
+        "Image": "https://srk.shib.live/images/6/6b/%28alexoh%29.gif"
     },
     "Taunt": {
         "Motion": "HP+HK",
@@ -221,7 +221,7 @@
         "Parry": "-",
         "Damage": "-",
         "Stun": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/7a/%28alext%29.gif"
+        "Image": "https://srk.shib.live/images/7/7a/%28alext%29.gif"
     },
     "Body Slam": {
         "Motion": "(B+F)+LP+LK",
@@ -235,7 +235,7 @@
         "Parry": "-",
         "Damage": "140",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/a/a7/%28alexbsl%29.gif"
+        "Image": "https://srk.shib.live/images/a/a7/%28alexbsl%29.gif"
     },
     "Crouch Jab": {
         "Motion": "cr.LP",
@@ -249,7 +249,7 @@
         "Parry": "HL",
         "Damage": "30",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/a/aa/%28alexclp%29.gif"
+        "Image": "https://srk.shib.live/images/a/aa/%28alexclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "cr.MP",
@@ -263,7 +263,7 @@
         "Parry": "HL",
         "Damage": "90",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/a/af/%28alexcmp%29.gif"
+        "Image": "https://srk.shib.live/images/a/af/%28alexcmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "cr.HP",
@@ -277,7 +277,7 @@
         "Parry": "HL",
         "Damage": "140 (80+60)",
         "Stun": "8 (3+5)",
-        "Image": "http://wiki.shoryuken.com/images/6/68/%28alexchp%29.gif"
+        "Image": "https://srk.shib.live/images/6/68/%28alexchp%29.gif"
     },
     "Crouch Short": {
         "Motion": "cr.LK",
@@ -291,7 +291,7 @@
         "Parry": "L",
         "Damage": "30",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/2/23/%28alexclk%29.gif"
+        "Image": "https://srk.shib.live/images/2/23/%28alexclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "cr.MK",
@@ -305,7 +305,7 @@
         "Parry": "L",
         "Damage": "70",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/8/8e/%28alexcmk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8e/%28alexcmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "cr.HK",
@@ -319,7 +319,7 @@
         "Parry": "L",
         "Damage": "130",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/7/75/%28alexchk%29.gif"
+        "Image": "https://srk.shib.live/images/7/75/%28alexchk%29.gif"
     },
     "Chop": {
         "Motion": "F+MP",
@@ -333,7 +333,7 @@
         "Parry": "H",
         "Damage": "110",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/1/1d/%28alexfmp%29.gif"
+        "Image": "https://srk.shib.live/images/1/1d/%28alexfmp%29.gif"
     },
     "Lariat": {
         "Motion": "F + HP",
@@ -347,7 +347,7 @@
         "Parry": "H/H/H",
         "Damage": "135",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/9/92/%28alexfhp%29.gif"
+        "Image": "https://srk.shib.live/images/9/92/%28alexfhp%29.gif"
     },
     "Head Butt": {
         "Motion": "B + HP",
@@ -361,7 +361,7 @@
         "Parry": "-",
         "Damage": "180",
         "Stun": "24",
-        "Image": "http://wiki.shoryuken.com/images/6/64/%28alexbhp%29.gif"
+        "Image": "https://srk.shib.live/images/6/64/%28alexbhp%29.gif"
     },
     "Sleeper Hold": {
         "Motion": "B + HP in reversed opponent",
@@ -375,7 +375,7 @@
         "Parry": "-",
         "Damage": "240 (8 hits)(50x8)",
         "Stun": "24 (8 hits)(5x8)",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28alexjbhpr%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28alexjbhpr%29.gif"
     },
     "Flying Cross Chop": {
         "Motion": "Air D + HP",
@@ -389,7 +389,7 @@
         "Parry": "-",
         "Damage": "120",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/0/09/%28alexjdhp%29.gif"
+        "Image": "https://srk.shib.live/images/0/09/%28alexjdhp%29.gif"
     },
     "Flash Chop (Jab)": {
         "Motion": "QCF+LP",
@@ -403,7 +403,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/0/0b/%28alexchop%29.gif"
+        "Image": "https://srk.shib.live/images/0/0b/%28alexchop%29.gif"
     },
     "Flash Chop (Strong)": {
         "Motion": "QCF+MP",
@@ -417,7 +417,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/0/0b/%28alexchop%29.gif"
+        "Image": "https://srk.shib.live/images/0/0b/%28alexchop%29.gif"
     },
     "Flash Chop (Fierce)": {
         "Motion": "QCF+HP",
@@ -431,7 +431,7 @@
         "Parry": "H",
         "Damage": "140",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/0/0b/%28alexchop%29.gif"
+        "Image": "https://srk.shib.live/images/0/0b/%28alexchop%29.gif"
     },
     "Air Knee Smash (Short)": {
         "Motion": "F, D, DF+LK",
@@ -446,7 +446,7 @@
         "Parry": "HL",
         "Damage": "120",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/2/2d/%28alexaksm%29.gif"
+        "Image": "https://srk.shib.live/images/2/2d/%28alexaksm%29.gif"
     },
     "Air Knee Smash (Forward)": {
         "Motion": "F, D, DF+MK",
@@ -461,7 +461,7 @@
         "Parry": "HL",
         "Damage": "135",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/2/2d/%28alexaksm%29.gif"
+        "Image": "https://srk.shib.live/images/2/2d/%28alexaksm%29.gif"
     },
     "Air Knee Smash (Roundhouse)": {
         "Motion": "F, D, DF+HK",
@@ -476,7 +476,7 @@
         "Parry": "HL",
         "Damage": "150",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/2/2d/%28alexaksm%29.gif"
+        "Image": "https://srk.shib.live/images/2/2d/%28alexaksm%29.gif"
     },
     "Powerbomb (Jab)": {
         "Motion": "HCB+LP",
@@ -491,7 +491,7 @@
         "Parry": "-",
         "Damage": "160",
         "Stun": "19",
-        "Image": "http://wiki.shoryuken.com/images/c/ce/%28alexpbomb%29.gif"
+        "Image": "https://srk.shib.live/images/c/ce/%28alexpbomb%29.gif"
     },
     "Powerbomb (Strong)": {
         "Motion": "HCB+MP",
@@ -506,7 +506,7 @@
         "Parry": "-",
         "Damage": "180",
         "Stun": "19",
-        "Image": "http://wiki.shoryuken.com/images/c/ce/%28alexpbomb%29.gif"
+        "Image": "https://srk.shib.live/images/c/ce/%28alexpbomb%29.gif"
     },
     "Powerbomb (Fierce)": {
         "Motion": "HCB+HP",
@@ -521,7 +521,7 @@
         "Parry": "-",
         "Damage": "200",
         "Stun": "19",
-        "Image": "http://wiki.shoryuken.com/images/c/ce/%28alexpbomb%29.gif"
+        "Image": "https://srk.shib.live/images/c/ce/%28alexpbomb%29.gif"
     },
     "Slash Elbow (Short)": {
         "Motion": "B, F+LK",
@@ -536,7 +536,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/d/d1/%28alexse%29.gif"
+        "Image": "https://srk.shib.live/images/d/d1/%28alexse%29.gif"
     },
     "Slash Elbow (Forward)": {
         "Motion": "B, F+MK",
@@ -551,7 +551,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/d/d1/%28alexse%29.gif"
+        "Image": "https://srk.shib.live/images/d/d1/%28alexse%29.gif"
     },
     "Slash Elbow (Roundhouse)": {
         "Motion": "B, F+HK",
@@ -566,7 +566,7 @@
         "Parry": "H",
         "Damage": "140",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/d/d1/%28alexse%29.gif"
+        "Image": "https://srk.shib.live/images/d/d1/%28alexse%29.gif"
     },
     "Stomp (Short)": {
         "Motion": "D, U+LK",
@@ -581,7 +581,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/9/9a/%28alexstomp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9a/%28alexstomp%29.gif"
     },
     "Stomp (Forward)": {
         "Motion": "D, U+MK",
@@ -596,7 +596,7 @@
         "Parry": "H",
         "Damage": "140",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/9/9a/%28alexstomp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9a/%28alexstomp%29.gif"
     },
     "Stomp (Roundhouse)": {
         "Motion": "D, U+HK",
@@ -611,7 +611,7 @@
         "Parry": "H",
         "Damage": "160",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/9/9a/%28alexstomp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9a/%28alexstomp%29.gif"
     },
     "Spiral DDT (Short)": {
         "Motion": "HCB+LK",
@@ -626,7 +626,7 @@
         "Parry": "H",
         "Damage": "160",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/7/78/%28alexsddt%29.gif"
+        "Image": "https://srk.shib.live/images/7/78/%28alexsddt%29.gif"
     },
     "Spiral DDT (Forward)": {
         "Motion": "HCB+MK",
@@ -641,7 +641,7 @@
         "Parry": "H",
         "Damage": "160",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/7/78/%28alexsddt%29.gif"
+        "Image": "https://srk.shib.live/images/7/78/%28alexsddt%29.gif"
     },
     "Spiral DDT (Roundhouse)": {
         "Motion": "HCB+HK",
@@ -656,7 +656,7 @@
         "Parry": "H",
         "Damage": "160",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/7/78/%28alexsddt%29.gif"
+        "Image": "https://srk.shib.live/images/7/78/%28alexsddt%29.gif"
     },
     "Flash Chop (EX)": {
         "Motion": "QCF+PP",
@@ -671,7 +671,7 @@
         "Parry": "H",
         "Damage": "200 (100+100)",
         "Stun": "14 (11+3)",
-        "Image": "http://wiki.shoryuken.com/images/6/62/%28alexfcex%29.gif"
+        "Image": "https://srk.shib.live/images/6/62/%28alexfcex%29.gif"
     },
     "Air Knee Smash (EX)": {
         "Motion": "F, D, DF+KK",
@@ -685,7 +685,7 @@
         "Guard": "HL",
         "Parry": "HL",
         "Notes": "Hits grounded",
-        "Image": "http://wiki.shoryuken.com/images/d/dd/%28alexakmex%29.gif"
+        "Image": "https://srk.shib.live/images/d/dd/%28alexakmex%29.gif"
     },
     "Slash Elbow (EX)": {
         "Motion": "B, F+KK",
@@ -700,7 +700,7 @@
         "Parry": "H",
         "Damage": "160 (80+80)",
         "Stun": "18 (7+11)",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28alexseex%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28alexseex%29.gif"
     },
     "Stomp (EX)": {
         "Motion": "Hold D, U+KK",
@@ -715,7 +715,7 @@
         "Parry": "H",
         "Damage": "180",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/4/46/%28alexastompex%29.gif"
+        "Image": "https://srk.shib.live/images/4/46/%28alexastompex%29.gif"
     },
     "Hyper Bomb": {
         "Super Art": "1",
@@ -732,7 +732,7 @@
         "Stun": "13",
         "Stocks": "1",
         "Stock Size": "128",
-        "Image": "http://wiki.shoryuken.com/images/0/09/%28alexsa1%29.gif"
+        "Image": "https://srk.shib.live/images/0/09/%28alexsa1%29.gif"
     },
     "Reverse Hyper Bomb": {
         "Super Art": "1",
@@ -749,7 +749,7 @@
         "Stun": "18",
         "Stocks": "1",
         "Stock Size": "128",
-        "Image": "http://wiki.shoryuken.com/images/0/06/%28alexsa1r%29.gif"
+        "Image": "https://srk.shib.live/images/0/06/%28alexsa1r%29.gif"
     },
     "Boomerang Raid": {
         "Super Art": "2",
@@ -766,7 +766,7 @@
         "Stun": "15 (5 hits)",
         "Stocks": "2",
         "Stock Size": "96",
-        "Image": "http://wiki.shoryuken.com/images/c/c5/%28alexsa2%29.gif"
+        "Image": "https://srk.shib.live/images/c/c5/%28alexsa2%29.gif"
     },
     "Stun Gun Head-butt": {
         "Super Art": "3",
@@ -783,6 +783,6 @@
         "Stun": "MAX",
         "Stocks": "1",
         "Stock Size": "80",
-        "Image": "http://wiki.shoryuken.com/images/3/30/%28alexsa3%29.gif"
+        "Image": "https://srk.shib.live/images/3/30/%28alexsa3%29.gif"
     }
 }

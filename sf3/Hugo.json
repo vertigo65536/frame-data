@@ -9,7 +9,7 @@
         "Crouching Hit Advantage": "-1",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/d/dc/%28hugolp%29.gif"
+        "Image": "https://srk.shib.live/images/d/dc/%28hugolp%29.gif"
     },
     "Strong": {
         "Motion": "MP",
@@ -21,7 +21,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/0c/%28hugomp%29.gif"
+        "Image": "https://srk.shib.live/images/0/0c/%28hugomp%29.gif"
     },
     "Fierce": {
         "Motion": "HP",
@@ -33,7 +33,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/6/69/%28hugohp%29.gif"
+        "Image": "https://srk.shib.live/images/6/69/%28hugohp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -45,7 +45,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/0/02/%28hugolk%29.gif"
+        "Image": "https://srk.shib.live/images/0/02/%28hugolk%29.gif"
     },
     "Forward": {
         "Motion": "MK",
@@ -57,7 +57,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL/H",
         "Parry": "H/H",
-        "Image": "http://wiki.shoryuken.com/images/7/7b/%28hugomk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7b/%28hugomk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -69,7 +69,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/cf/%28hugojhk%29.gif"
+        "Image": "https://srk.shib.live/images/c/cf/%28hugojhk%29.gif"
     },
     "Jump Jab": {
         "Motion": "(Air) LP",
@@ -81,7 +81,7 @@
         "Crouching Hit Advantage": "+5\uff5e+7/+6\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/ec/%28hugojlp%29.gif"
+        "Image": "https://srk.shib.live/images/e/ec/%28hugojlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "(Air) MP",
@@ -93,7 +93,7 @@
         "Crouching Hit Advantage": "+8\uff5e+10/+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/61/%28hugojmp%29.gif"
+        "Image": "https://srk.shib.live/images/6/61/%28hugojmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "(Air) HP",
@@ -105,7 +105,7 @@
         "Crouching Hit Advantage": "+12\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/18/%28hugojhp%29.gif"
+        "Image": "https://srk.shib.live/images/1/18/%28hugojhp%29.gif"
     },
     "Jump Short": {
         "Motion": "(Air) LK",
@@ -117,7 +117,7 @@
         "Crouching Hit Advantage": "+1\uff5e+7/+2\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/2/25/%28hugojlk%29.gif"
+        "Image": "https://srk.shib.live/images/2/25/%28hugojlk%29.gif"
     },
     "Jump Forward": {
         "Motion": "(Air) MK",
@@ -129,7 +129,7 @@
         "Crouching Hit Advantage": "+2\uff5e+10/+3\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/99/%28hugojmk%29.gif"
+        "Image": "https://srk.shib.live/images/9/99/%28hugojmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "(Air) HK",
@@ -141,7 +141,7 @@
         "Crouching Hit Advantage": "+7\uff5e+13/+9\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/cf/%28hugojhk%29.gif"
+        "Image": "https://srk.shib.live/images/c/cf/%28hugojhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -153,7 +153,7 @@
         "Crouching Hit Advantage": "+1~+9",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/9b/%28hugouoh%29.gif"
+        "Image": "https://srk.shib.live/images/9/9b/%28hugouoh%29.gif"
     },
     "Neck Hanging Three": {
         "Motion": "LP+LK",
@@ -165,7 +165,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/8/88/%28hugonht%29.gif"
+        "Image": "https://srk.shib.live/images/8/88/%28hugonht%29.gif"
     },
     "Body Slam": {
         "Motion": "F+LP+LK or B+LP+LK",
@@ -177,7 +177,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/76/%28hugobs%29.gif"
+        "Image": "https://srk.shib.live/images/7/76/%28hugobs%29.gif"
     },
     "Crouch Jab": {
         "Motion": "C+LP",
@@ -189,7 +189,7 @@
         "Crouching Hit Advantage": "-1",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/4/46/%28hugoclp%29.gif"
+        "Image": "https://srk.shib.live/images/4/46/%28hugoclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "C+MP",
@@ -201,7 +201,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/c/ca/%28hugocmp%29.gif"
+        "Image": "https://srk.shib.live/images/c/ca/%28hugocmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "C+HP",
@@ -213,7 +213,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/7/7d/%28hugochp%29.gif"
+        "Image": "https://srk.shib.live/images/7/7d/%28hugochp%29.gif"
     },
     "Crouch Short": {
         "Motion": "C+LK",
@@ -225,7 +225,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/4/42/%28hugoclk%29.gif"
+        "Image": "https://srk.shib.live/images/4/42/%28hugoclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "C+MK",
@@ -237,7 +237,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/b/b7/%28hugocmk%29.gif"
+        "Image": "https://srk.shib.live/images/b/b7/%28hugocmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "C+HK",
@@ -249,7 +249,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "H(far) or L(close)",
         "Parry": "H(far) or L(close)",
-        "Image": "http://wiki.shoryuken.com/images/0/07/%28hugochk%29.gif"
+        "Image": "https://srk.shib.live/images/0/07/%28hugochk%29.gif"
     },
     "Hammer Hook": {
         "Motion": "F+HP",
@@ -261,7 +261,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/2/20/%28hugofhp%29.gif"
+        "Image": "https://srk.shib.live/images/2/20/%28hugofhp%29.gif"
     },
     "Drop Kick": {
         "Motion": "F+HK or B+HK",
@@ -273,7 +273,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/cf/%28hugojhk%29.gif"
+        "Image": "https://srk.shib.live/images/c/cf/%28hugojhk%29.gif"
     },
     "Body Press": {
         "Motion": "JF, D+HP",
@@ -285,7 +285,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/e2/%28hugojdhp%29.gif"
+        "Image": "https://srk.shib.live/images/e/e2/%28hugojdhp%29.gif"
     },
     "Giant Palm Bomber (Jab)": {
         "Motion": "QCB+LP",
@@ -298,7 +298,7 @@
         "Crouching Hit Advantage": "+15",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/3d/%28hugogpb%29.gif"
+        "Image": "https://srk.shib.live/images/3/3d/%28hugogpb%29.gif"
     },
     "Giant Palm Bomber (Strong)": {
         "Motion": "QCB+MP",
@@ -311,7 +311,7 @@
         "Crouching Hit Advantage": "+20",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/3d/%28hugogpb%29.gif"
+        "Image": "https://srk.shib.live/images/3/3d/%28hugogpb%29.gif"
     },
     "Giant Palm Bomber (Fierce)": {
         "Motion": "QCB+HP",
@@ -324,7 +324,7 @@
         "Crouching Hit Advantage": "+23",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/3d/%28hugogpb%29.gif"
+        "Image": "https://srk.shib.live/images/3/3d/%28hugogpb%29.gif"
     },
     "Moonsault Press (Jab)": {
         "Motion": "360+LP",
@@ -337,7 +337,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/6/6f/%28hugomsp%29.gif"
+        "Image": "https://srk.shib.live/images/6/6f/%28hugomsp%29.gif"
     },
     "Moonsault Press (Strong)": {
         "Motion": "360+MP",
@@ -350,7 +350,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/6/6f/%28hugomsp%29.gif"
+        "Image": "https://srk.shib.live/images/6/6f/%28hugomsp%29.gif"
     },
     "Moonsault Press (Fierce)": {
         "Motion": "360+HP",
@@ -363,7 +363,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/6/6f/%28hugomsp%29.gif"
+        "Image": "https://srk.shib.live/images/6/6f/%28hugomsp%29.gif"
     },
     "Monster Lariat (Short)": {
         "Motion": "QCF+LK",
@@ -376,7 +376,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/f/f6/%28hugoml%29.gif"
+        "Image": "https://srk.shib.live/images/f/f6/%28hugoml%29.gif"
     },
     "Monster Lariat (Forward)": {
         "Motion": "QCF+MK",
@@ -389,7 +389,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/f/f6/%28hugoml%29.gif"
+        "Image": "https://srk.shib.live/images/f/f6/%28hugoml%29.gif"
     },
     "Monster Lariat (Roundhouse)": {
         "Motion": "QCF+HK",
@@ -402,7 +402,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/f/f6/%28hugoml%29.gif"
+        "Image": "https://srk.shib.live/images/f/f6/%28hugoml%29.gif"
     },
     "Shootdown Backbreaker (Short)": {
         "Motion": "F, D, DF+LK",
@@ -415,7 +415,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/9/96/%28hugosbb%29.gif"
+        "Image": "https://srk.shib.live/images/9/96/%28hugosbb%29.gif"
     },
     "Shootdown Backbreaker (Forward)": {
         "Motion": "F, D, DF+MK",
@@ -428,7 +428,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/9/96/%28hugosbb%29.gif"
+        "Image": "https://srk.shib.live/images/9/96/%28hugosbb%29.gif"
     },
     "Shootdown Backbreaker (Roundhouse)": {
         "Motion": "F, D, DF+HK",
@@ -441,7 +441,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/9/96/%28hugosbb%29.gif"
+        "Image": "https://srk.shib.live/images/9/96/%28hugosbb%29.gif"
     },
     "Meat Squasher (Short)": {
         "Motion": "360+LK",
@@ -454,7 +454,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/9/9c/%28hugomsquasher%29.gif"
+        "Image": "https://srk.shib.live/images/9/9c/%28hugomsquasher%29.gif"
     },
     "Meat Squasher (Forward)": {
         "Motion": "360+MK",
@@ -467,7 +467,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/9/9c/%28hugomsquasher%29.gif"
+        "Image": "https://srk.shib.live/images/9/9c/%28hugomsquasher%29.gif"
     },
     "Meat Squasher (Roundhouse)": {
         "Motion": "360+HK",
@@ -480,7 +480,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/9/9c/%28hugomsquasher%29.gif"
+        "Image": "https://srk.shib.live/images/9/9c/%28hugomsquasher%29.gif"
     },
     "Ultra Throw (Short)": {
         "Motion": "HCB+LK",
@@ -493,7 +493,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/a/a8/%28hugout%29.gif"
+        "Image": "https://srk.shib.live/images/a/a8/%28hugout%29.gif"
     },
     "Ultra Throw (Forward)": {
         "Motion": "HCB+MK",
@@ -506,7 +506,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/a/a8/%28hugout%29.gif"
+        "Image": "https://srk.shib.live/images/a/a8/%28hugout%29.gif"
     },
     "Ultra Throw (Roundhouse)": {
         "Motion": "HCB+HK",
@@ -519,7 +519,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/a/a8/%28hugout%29.gif"
+        "Image": "https://srk.shib.live/images/a/a8/%28hugout%29.gif"
     },
     "Giant Palm Bomber (EX)": {
         "Motion": "QCB+PP",
@@ -532,7 +532,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL/HL/HL",
         "Parry": "H/H/H",
-        "Image": "http://wiki.shoryuken.com/images/b/b1/%28hugogpbex%29.gif"
+        "Image": "https://srk.shib.live/images/b/b1/%28hugogpbex%29.gif"
     },
     "Monster Lariat (EX)": {
         "Motion": "QCF+KK",
@@ -545,7 +545,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/a/a0/%28hugomlex%29.gif"
+        "Image": "https://srk.shib.live/images/a/a0/%28hugomlex%29.gif"
     },
     "Gigas Breaker": {
         "Super Art": "I",
@@ -558,7 +558,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/8/87/%28hugosa1%29.gif"
+        "Image": "https://srk.shib.live/images/8/87/%28hugosa1%29.gif"
     },
     "Megaton Press": {
         "Super Art": "II",
@@ -572,7 +572,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28hugosa2%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28hugosa2%29.gif"
     },
     "Megaton Press (Short)": {
         "Super Art": "II",
@@ -586,7 +586,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28hugosa2%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28hugosa2%29.gif"
     },
     "Megaton Press (Forward)": {
         "Super Art": "II",
@@ -600,7 +600,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28hugosa2%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28hugosa2%29.gif"
     },
     "Megaton Press (Roundhouse)": {
         "Super Art": "II",
@@ -614,7 +614,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28hugosa2%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28hugosa2%29.gif"
     },
     "Hammer Frenzy": {
         "Super Art": "III",
@@ -627,6 +627,6 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL/HL/H/H/HL",
         "Parry": "HL/HL/H/H/HL",
-        "Image": "http://wiki.shoryuken.com/images/7/70/%28hugosa3%29.gif"
+        "Image": "https://srk.shib.live/images/7/70/%28hugosa3%29.gif"
     }
 }

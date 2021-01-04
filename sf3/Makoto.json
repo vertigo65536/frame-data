@@ -9,7 +9,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/3/3a/%28makotolp%29.gif"
+        "Image": "https://srk.shib.live/images/3/3a/%28makotolp%29.gif"
     },
     "Far Strong": {
         "Motion": "MP",
@@ -21,7 +21,7 @@
         "Crouching Hit Advantage": "+8",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/7a/%28makotomp%29.gif"
+        "Image": "https://srk.shib.live/images/7/7a/%28makotomp%29.gif"
     },
     "Far Fierce": {
         "Motion": "HP",
@@ -33,7 +33,7 @@
         "Crouching Hit Advantage": "-1",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/6a/%28makotohp%29.gif"
+        "Image": "https://srk.shib.live/images/6/6a/%28makotohp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -45,7 +45,7 @@
         "Crouching Hit Advantage": "-2",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/8/8b/%28makotolk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8b/%28makotolk%29.gif"
     },
     "Forward": {
         "Motion": "MK",
@@ -57,7 +57,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/6c/%28makotomk%29.gif"
+        "Image": "https://srk.shib.live/images/6/6c/%28makotomk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -69,7 +69,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/86/%28makotohk%29.gif"
+        "Image": "https://srk.shib.live/images/8/86/%28makotohk%29.gif"
     },
     "Jump Jab": {
         "Motion": "(Air) LP",
@@ -81,7 +81,7 @@
         "Crouching Hit Advantage": "+2\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/8d/%28makotojlp%29.gif"
+        "Image": "https://srk.shib.live/images/8/8d/%28makotojlp%29.gif"
     },
     "Neutral Jump Jab": {
         "Motion": "(Air) LP",
@@ -93,7 +93,7 @@
         "Crouching Hit Advantage": "+5\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/b/bd/%28makotonjlp%29.gif"
+        "Image": "https://srk.shib.live/images/b/bd/%28makotonjlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "(Air) MP",
@@ -105,7 +105,7 @@
         "Crouching Hit Advantage": "+4\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/e8/%28makotojmp%29.gif"
+        "Image": "https://srk.shib.live/images/e/e8/%28makotojmp%29.gif"
     },
     "Neutral Jump Strong": {
         "Motion": "(Air) MP",
@@ -117,7 +117,7 @@
         "Crouching Hit Advantage": "+8\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/9c/%28makotojnmp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9c/%28makotojnmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "(Air) HP",
@@ -129,7 +129,7 @@
         "Crouching Hit Advantage": "+7\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/63/%28makotojhp%29.gif"
+        "Image": "https://srk.shib.live/images/6/63/%28makotojhp%29.gif"
     },
     "Neutral Jump Fierce": {
         "Motion": "(Air) HP",
@@ -141,7 +141,7 @@
         "Crouching Hit Advantage": "+12\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/a/a6/%28makotonjhp%29.gif"
+        "Image": "https://srk.shib.live/images/a/a6/%28makotonjhp%29.gif"
     },
     "Jump Short": {
         "Motion": "(Air) LK",
@@ -153,7 +153,7 @@
         "Crouching Hit Advantage": "+3\uff5e+7/+4\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/f/f7/%28makotojlk%29.gif"
+        "Image": "https://srk.shib.live/images/f/f7/%28makotojlk%29.gif"
     },
     "Jump Forward": {
         "Motion": "(Air) MK",
@@ -165,7 +165,7 @@
         "Crouching Hit Advantage": "+3\uff5e+10/+5\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/66/%28makotojmk%29.gif"
+        "Image": "https://srk.shib.live/images/6/66/%28makotojmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "(Air) HK",
@@ -177,7 +177,7 @@
         "Crouching Hit Advantage": "+11\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/5/5b/%28makotojhk%29.gif"
+        "Image": "https://srk.shib.live/images/5/5b/%28makotojhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -189,7 +189,7 @@
         "Crouching Hit Advantage": "+1~+9",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/c2/%28makotooh%29.gif"
+        "Image": "https://srk.shib.live/images/c/c2/%28makotooh%29.gif"
     },
     "Hikiyose Zutsuki \"Tacchuu\"": {
         "Motion": "LP+LK",
@@ -201,7 +201,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/3/35/%28makotothr%29.gif"
+        "Image": "https://srk.shib.live/images/3/35/%28makotothr%29.gif"
     },
     "Hiji Otoshi Sanren Tsuki \"Araiso\"": {
         "Motion": "B/F+LP+LK",
@@ -213,7 +213,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "B/F+LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/78/%28makotobftr%29.gif"
+        "Image": "https://srk.shib.live/images/7/78/%28makotobftr%29.gif"
     },
     "Crouch Jab": {
         "Motion": "D+LP",
@@ -225,7 +225,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/f/fe/%28makotoclp%29.gif"
+        "Image": "https://srk.shib.live/images/f/fe/%28makotoclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "D+MP",
@@ -237,7 +237,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/d/de/%28makotocmp%29.gif"
+        "Image": "https://srk.shib.live/images/d/de/%28makotocmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "D+HP",
@@ -249,7 +249,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/7/74/%28makotochp%29.gif"
+        "Image": "https://srk.shib.live/images/7/74/%28makotochp%29.gif"
     },
     "Crouch Short": {
         "Motion": "D+LK",
@@ -261,7 +261,7 @@
         "Crouching Hit Advantage": "-3",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/6/61/%28makotoclk%29.gif"
+        "Image": "https://srk.shib.live/images/6/61/%28makotoclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "D+MK",
@@ -273,7 +273,7 @@
         "Crouching Hit Advantage": "+5",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/9/9a/%28makotocmk%29.gif"
+        "Image": "https://srk.shib.live/images/9/9a/%28makotocmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "D+HK",
@@ -285,7 +285,7 @@
         "Crouching Hit Advantage": "+6",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/a/a1/%28makotochk%29.gif"
+        "Image": "https://srk.shib.live/images/a/a1/%28makotochk%29.gif"
     },
     "Kazami": {
         "Motion": "F+LP",
@@ -297,7 +297,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/4/49/%28makotoflp%29.gif"
+        "Image": "https://srk.shib.live/images/4/49/%28makotoflp%29.gif"
     },
     "Kaoruna": {
         "Motion": "F+MP",
@@ -309,7 +309,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/5/51/%28makotofmp%29.gif"
+        "Image": "https://srk.shib.live/images/5/51/%28makotofmp%29.gif"
     },
     "Shimaki": {
         "Motion": "F+HP",
@@ -321,7 +321,7 @@
         "Crouching Hit Advantage": "-2",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/7c/%28makotofhp%29.gif"
+        "Image": "https://srk.shib.live/images/7/7c/%28makotofhp%29.gif"
     },
     "Shinbuki": {
         "Motion": "F+LK",
@@ -333,7 +333,7 @@
         "Crouching Hit Advantage": "-5",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/07/%28makotoflk%29.gif"
+        "Image": "https://srk.shib.live/images/0/07/%28makotoflk%29.gif"
     },
     "Naruto": {
         "Motion": "F+MK",
@@ -345,7 +345,7 @@
         "Crouching Hit Advantage": "-1",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/b/b8/%28makotofmk%29.gif"
+        "Image": "https://srk.shib.live/images/b/b8/%28makotofmk%29.gif"
     },
     "Kurushio": {
         "Motion": "F+HK",
@@ -357,7 +357,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/d0/%28makotofhk%29.gif"
+        "Image": "https://srk.shib.live/images/d/d0/%28makotofhk%29.gif"
     },
     "Hayate (Jab)": {
         "Motion": "QCF +LP",
@@ -370,7 +370,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28makotohayate%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28makotohayate%29.gif"
     },
     "Hayate (Strong)": {
         "Motion": "QCF +MP",
@@ -383,7 +383,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28makotohayate%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28makotohayate%29.gif"
     },
     "Hayate (Fierce)": {
         "Motion": "QCF +HP",
@@ -396,7 +396,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28makotohayate%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28makotohayate%29.gif"
     },
     "Hayate (Level 1)": {
         "Motion": "QCF +P Hold",
@@ -409,7 +409,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28makotohayate%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28makotohayate%29.gif"
     },
     "Hayate (Level 2)": {
         "Motion": "QCF +P Hold",
@@ -422,7 +422,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28makotohayate%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28makotohayate%29.gif"
     },
     "Hayate (Level 3)": {
         "Motion": "QCF +P Hold",
@@ -435,7 +435,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28makotohayate%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28makotohayate%29.gif"
     },
     "Hayate (Level 4)": {
         "Motion": "QCF +P Hold",
@@ -448,7 +448,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28makotohayate%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28makotohayate%29.gif"
     },
     "Fukiage (Jab)": {
         "Motion": "F, D, DF+LP",
@@ -461,7 +461,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/2/2a/%28makotofkage%29.gif"
+        "Image": "https://srk.shib.live/images/2/2a/%28makotofkage%29.gif"
     },
     "Fukiage (Strong)": {
         "Motion": "F, D, DF+MP",
@@ -474,7 +474,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/2/2a/%28makotofkage%29.gif"
+        "Image": "https://srk.shib.live/images/2/2a/%28makotofkage%29.gif"
     },
     "Fukiage (Fierce)": {
         "Motion": "F, D, DF+HP",
@@ -487,7 +487,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/2/2a/%28makotofkage%29.gif"
+        "Image": "https://srk.shib.live/images/2/2a/%28makotofkage%29.gif"
     },
     "Oroshi (Jab)": {
         "Motion": "QCB+LP",
@@ -500,7 +500,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/6e/%28makotooroshi%29.gif"
+        "Image": "https://srk.shib.live/images/6/6e/%28makotooroshi%29.gif"
     },
     "Oroshi (Strong)": {
         "Motion": "QCB+MP",
@@ -513,7 +513,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/6e/%28makotooroshi%29.gif"
+        "Image": "https://srk.shib.live/images/6/6e/%28makotooroshi%29.gif"
     },
     "Oroshi (Fierce)": {
         "Motion": "QCB+HP",
@@ -526,7 +526,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/6e/%28makotooroshi%29.gif"
+        "Image": "https://srk.shib.live/images/6/6e/%28makotooroshi%29.gif"
     },
     "Karakusa (Short)": {
         "Motion": "HCB +LK",
@@ -539,7 +539,7 @@
         "Crouching Hit Advantage": "+14",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/c/c0/%28makotokarakusa%29.gif"
+        "Image": "https://srk.shib.live/images/c/c0/%28makotokarakusa%29.gif"
     },
     "Karakusa (Forward)": {
         "Motion": "HCB +MK",
@@ -552,7 +552,7 @@
         "Crouching Hit Advantage": "+14",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/c/c0/%28makotokarakusa%29.gif"
+        "Image": "https://srk.shib.live/images/c/c0/%28makotokarakusa%29.gif"
     },
     "Karakusa (Roundhouse)": {
         "Motion": "HCB +HK",
@@ -565,7 +565,7 @@
         "Crouching Hit Advantage": "+14",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/c/c0/%28makotokarakusa%29.gif"
+        "Image": "https://srk.shib.live/images/c/c0/%28makotokarakusa%29.gif"
     },
     "Tsurugi (Short)": {
         "Motion": "(Air Neutral or Diagonal Forward Jump) QCB+LK",
@@ -578,7 +578,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/96/%28makotoatsur%29.gif"
+        "Image": "https://srk.shib.live/images/9/96/%28makotoatsur%29.gif"
     },
     "Tsurugi (Forward)": {
         "Motion": "(Air Neutral or Diagonal Forward Jump) QCB+MK",
@@ -591,7 +591,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/96/%28makotoatsur%29.gif"
+        "Image": "https://srk.shib.live/images/9/96/%28makotoatsur%29.gif"
     },
     "Tsurugi (Roundhouse)": {
         "Motion": "(Air Neutral or Diagonal Forward Jump) QCB+HK",
@@ -604,7 +604,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/96/%28makotoatsur%29.gif"
+        "Image": "https://srk.shib.live/images/9/96/%28makotoatsur%29.gif"
     },
     "Hayate (EX)": {
         "Motion": "QCF+PP",
@@ -617,7 +617,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/f/f2/%28makotohdkex%29.gif"
+        "Image": "https://srk.shib.live/images/f/f2/%28makotohdkex%29.gif"
     },
     "Fukiage (EX)": {
         "Motion": "F, D, DF+PP",
@@ -630,7 +630,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/5/53/%28makotosrkex%29.gif"
+        "Image": "https://srk.shib.live/images/5/53/%28makotosrkex%29.gif"
     },
     "Oroshi (EX)": {
         "Motion": "QCB+PP",
@@ -643,7 +643,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/f/fa/%28makototskex%29.gif"
+        "Image": "https://srk.shib.live/images/f/fa/%28makototskex%29.gif"
     },
     "Tsurugi (EX)": {
         "Motion": "(Air) QCB+KK",
@@ -656,7 +656,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Hx2",
         "Parry": "Hx2",
-        "Image": "http://wiki.shoryuken.com/images/6/64/%28makotoatskex%29.gif"
+        "Image": "https://srk.shib.live/images/6/64/%28makotoatskex%29.gif"
     },
     "Seichu Sen Godan-zuki": {
         "Super Art": "I",
@@ -669,7 +669,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/5/50/%28makotosa1%29.gif"
+        "Image": "https://srk.shib.live/images/5/50/%28makotosa1%29.gif"
     },
     "Abare To Sadami Kudaki": {
         "Super Art": "II",
@@ -682,7 +682,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx3",
         "Parry": "HLx3",
-        "Image": "http://wiki.shoryuken.com/images/3/3c/%28makotosa2%29.gif"
+        "Image": "https://srk.shib.live/images/3/3c/%28makotosa2%29.gif"
     },
     "Tanden Renki-Seme no Kata": {
         "Super Art": "III",
@@ -695,6 +695,6 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/7e/%28makotosa3%29.gif"
+        "Image": "https://srk.shib.live/images/7/7e/%28makotosa3%29.gif"
     }
 }

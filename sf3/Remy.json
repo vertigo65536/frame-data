@@ -9,7 +9,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/5/5e/%28remylp%29.gif"
+        "Image": "https://srk.shib.live/images/5/5e/%28remylp%29.gif"
     },
     "Far Strong": {
         "Motion": "MP",
@@ -21,7 +21,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/cd/%28remymp%29.gif"
+        "Image": "https://srk.shib.live/images/c/cd/%28remymp%29.gif"
     },
     "Far Fierce": {
         "Motion": "HP",
@@ -33,7 +33,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/5/51/%28remyhp%29.gif"
+        "Image": "https://srk.shib.live/images/5/51/%28remyhp%29.gif"
     },
     "Close Jab": {
         "Motion": "(Close to opponent) LP",
@@ -45,7 +45,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/a/af/%28remycloselp%29.gif"
+        "Image": "https://srk.shib.live/images/a/af/%28remycloselp%29.gif"
     },
     "Close Strong": {
         "Motion": "(Close to opponent) MP",
@@ -57,7 +57,7 @@
         "Crouching Hit Advantage": "+7",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/98/%28remyclosemp%29.gif"
+        "Image": "https://srk.shib.live/images/9/98/%28remyclosemp%29.gif"
     },
     "Close Fierce": {
         "Motion": "(Close to opponent) HP",
@@ -69,7 +69,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/b/bc/%28remyclosehp%29.gif"
+        "Image": "https://srk.shib.live/images/b/bc/%28remyclosehp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -81,7 +81,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/8/81/%28remylk%29.gif"
+        "Image": "https://srk.shib.live/images/8/81/%28remylk%29.gif"
     },
     "Forward": {
         "Motion": "MK",
@@ -93,7 +93,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/34/%28remymk%29.gif"
+        "Image": "https://srk.shib.live/images/3/34/%28remymk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -105,7 +105,7 @@
         "Crouching Hit Advantage": "-5",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/d9/%28remyhk%29.gif"
+        "Image": "https://srk.shib.live/images/d/d9/%28remyhk%29.gif"
     },
     "Close Short": {
         "Motion": "(Close to opponent) LK",
@@ -117,7 +117,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/c/c1/%28remycloselk%29.gif"
+        "Image": "https://srk.shib.live/images/c/c1/%28remycloselk%29.gif"
     },
     "Close Forward": {
         "Motion": "(Close to opponent) MK",
@@ -129,7 +129,7 @@
         "Crouching Hit Advantage": "+5",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/dd/%28remyclosemk%29.gif"
+        "Image": "https://srk.shib.live/images/d/dd/%28remyclosemk%29.gif"
     },
     "Close Roundhouse": {
         "Motion": "(Close to opponent) HK",
@@ -141,7 +141,7 @@
         "Crouching Hit Advantage": "+7",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/e7/%28remyclosehk%29.gif"
+        "Image": "https://srk.shib.live/images/e/e7/%28remyclosehk%29.gif"
     },
     "Jump Jab": {
         "Motion": "(Air) LP",
@@ -153,7 +153,7 @@
         "Crouching Hit Advantage": "+3\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/94/%28remyjlp%29.gif"
+        "Image": "https://srk.shib.live/images/9/94/%28remyjlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "(Air) MP",
@@ -165,7 +165,7 @@
         "Crouching Hit Advantage": "+7\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/5/59/%28remyjmp%29.gif"
+        "Image": "https://srk.shib.live/images/5/59/%28remyjmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "(Air) HP",
@@ -177,7 +177,7 @@
         "Crouching Hit Advantage": "+8\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/d8/%28remyjhp%29.gif"
+        "Image": "https://srk.shib.live/images/d/d8/%28remyjhp%29.gif"
     },
     "Jump Short": {
         "Motion": "(Air) LK",
@@ -189,7 +189,7 @@
         "Crouching Hit Advantage": "+1\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/cd/%28remyjlk%29.gif"
+        "Image": "https://srk.shib.live/images/c/cd/%28remyjlk%29.gif"
     },
     "Jump Forward": {
         "Motion": "(Air) MK",
@@ -201,7 +201,7 @@
         "Crouching Hit Advantage": "+7\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/61/%28remyjmk%29.gif"
+        "Image": "https://srk.shib.live/images/6/61/%28remyjmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "(Air) HK",
@@ -213,7 +213,7 @@
         "Crouching Hit Advantage": "+7\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/6e/%28remyjhk%29.gif"
+        "Image": "https://srk.shib.live/images/6/6e/%28remyjhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -225,7 +225,7 @@
         "Crouching Hit Advantage": "+1~+9",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/70/%28remyoh%29.gif"
+        "Image": "https://srk.shib.live/images/7/70/%28remyoh%29.gif"
     },
     "Valse no you ni Kuruoshiku": {
         "Motion": "LP+LK",
@@ -237,7 +237,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/8/82/%28remyvnk%29.gif"
+        "Image": "https://srk.shib.live/images/8/82/%28remyvnk%29.gif"
     },
     "Nemuri wo Midasu Contour": {
         "Motion": "B/F+LP+LK",
@@ -249,7 +249,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "B/F+LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/6/6f/%28remynmm%29.gif"
+        "Image": "https://srk.shib.live/images/6/6f/%28remynmm%29.gif"
     },
     "Crouch Jab": {
         "Motion": "D+LP",
@@ -261,7 +261,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/b/be/%28remyclp%29.gif"
+        "Image": "https://srk.shib.live/images/b/be/%28remyclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "D+MP",
@@ -273,7 +273,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28remycmp%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28remycmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "D+HP",
@@ -285,7 +285,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/9/9e/%28remychp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9e/%28remychp%29.gif"
     },
     "Crouch Short": {
         "Motion": "D+LK",
@@ -297,7 +297,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/9/93/%28remyclk%29.gif"
+        "Image": "https://srk.shib.live/images/9/93/%28remyclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "D+MK",
@@ -309,7 +309,7 @@
         "Crouching Hit Advantage": "-7",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/9/94/%28remycmk%29.gif"
+        "Image": "https://srk.shib.live/images/9/94/%28remycmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "D+HK",
@@ -321,7 +321,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/4/47/%28remychk%29.gif"
+        "Image": "https://srk.shib.live/images/4/47/%28remychk%29.gif"
     },
     "Amari ni Muku na Aiguille": {
         "Motion": "F+MK",
@@ -333,7 +333,7 @@
         "Crouching Hit Advantage": "-5",
         "Guard": "HL",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/0/03/%28remyfmk%29.gif"
+        "Image": "https://srk.shib.live/images/0/03/%28remyfmk%29.gif"
     },
     "Light of Virtue (Jab)": {
         "Motion": "Charge B,F+LP",
@@ -346,7 +346,7 @@
         "Crouching Hit Advantage": "+7",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/d7/%28remyhlov%29.gif"
+        "Image": "https://srk.shib.live/images/d/d7/%28remyhlov%29.gif"
     },
     "Light of Virtue (Strong)": {
         "Motion": "Charge B,F+MP",
@@ -359,7 +359,7 @@
         "Crouching Hit Advantage": "+7",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/d7/%28remyhlov%29.gif"
+        "Image": "https://srk.shib.live/images/d/d7/%28remyhlov%29.gif"
     },
     "Light of Virtue (Fierce)": {
         "Motion": "Charge B,F+HP",
@@ -372,7 +372,7 @@
         "Crouching Hit Advantage": "+7",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/d7/%28remyhlov%29.gif"
+        "Image": "https://srk.shib.live/images/d/d7/%28remyhlov%29.gif"
     },
     "Light of Virtue (Short)": {
         "Motion": "Charge B,F+LK",
@@ -385,7 +385,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/4/43/%28remyllov%29.gif"
+        "Image": "https://srk.shib.live/images/4/43/%28remyllov%29.gif"
     },
     "Light of Virtue (Forward)": {
         "Motion": "Charge B,F+MK",
@@ -398,7 +398,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/4/43/%28remyllov%29.gif"
+        "Image": "https://srk.shib.live/images/4/43/%28remyllov%29.gif"
     },
     "Light of Virtue (Roundhouse)": {
         "Motion": "Charge B,F+HK",
@@ -411,7 +411,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/4/43/%28remyllov%29.gif"
+        "Image": "https://srk.shib.live/images/4/43/%28remyllov%29.gif"
     },
     "Cold Blue Kick (Short)": {
         "Motion": "QCB+LK",
@@ -424,7 +424,7 @@
         "Crouching Hit Advantage": "-4/+5 Low",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/7b/%28remycbk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7b/%28remycbk%29.gif"
     },
     "Cold Blue Kick (Forward)": {
         "Motion": "QCB+MK",
@@ -437,7 +437,7 @@
         "Crouching Hit Advantage": "-4/+5 Low",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/7b/%28remycbk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7b/%28remycbk%29.gif"
     },
     "Cold Blue Kick (Roundhouse)": {
         "Motion": "QCB+HK",
@@ -450,7 +450,7 @@
         "Crouching Hit Advantage": "down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/7b/%28remycbk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7b/%28remycbk%29.gif"
     },
     "Rising Rage Flash (Short)": {
         "Motion": "Charge D,U+LK",
@@ -463,7 +463,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/a/a5/%28remyrsf%29.gif"
+        "Image": "https://srk.shib.live/images/a/a5/%28remyrsf%29.gif"
     },
     "Rising Rage Flash (Forward)": {
         "Motion": "Charge D,U+MK",
@@ -476,7 +476,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/a/a5/%28remyrsf%29.gif"
+        "Image": "https://srk.shib.live/images/a/a5/%28remyrsf%29.gif"
     },
     "Rising Rage Flash (Roundhouse)": {
         "Motion": "Charge D,U+HK",
@@ -489,7 +489,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/a/a5/%28remyrsf%29.gif"
+        "Image": "https://srk.shib.live/images/a/a5/%28remyrsf%29.gif"
     },
     "Light of Virtue (EX)": {
         "Motion": "Charge B,F+KK",
@@ -502,7 +502,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/6d/%28remyllovex%29.gif"
+        "Image": "https://srk.shib.live/images/6/6d/%28remyllovex%29.gif"
     },
     "Rising Rage Flash (EX)": {
         "Motion": "Charge D,U+KK",
@@ -515,7 +515,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx2",
         "Parry": "HLx2",
-        "Image": "http://wiki.shoryuken.com/images/e/e2/%28remyrrgex%29.gif"
+        "Image": "https://srk.shib.live/images/e/e2/%28remyrrgex%29.gif"
     },
     "Cold Blue Kick (EX)": {
         "Motion": "QCB+KK",
@@ -528,7 +528,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx2",
         "Parry": "Hx2",
-        "Image": "http://wiki.shoryuken.com/images/1/13/%28remycbkex%29.gif"
+        "Image": "https://srk.shib.live/images/1/13/%28remycbkex%29.gif"
     },
     "Light of Justice": {
         "Super Art": "I",
@@ -541,7 +541,7 @@
         "Crouching Hit Advantage": "+5",
         "Guard": "HLx7",
         "Parry": "HLx7",
-        "Image": "http://wiki.shoryuken.com/images/8/89/%28remysa1%29.gif"
+        "Image": "https://srk.shib.live/images/8/89/%28remysa1%29.gif"
     },
     "Supreme Rising Rage Flash": {
         "Super Art": "II",
@@ -554,7 +554,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx10",
         "Parry": "HLx10",
-        "Image": "http://wiki.shoryuken.com/images/9/92/%28remysa2%29.gif"
+        "Image": "https://srk.shib.live/images/9/92/%28remysa2%29.gif"
     },
     "Blue Nocturne": {
         "Super Art": "III",
@@ -567,6 +567,6 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx7",
         "Parry": "Hx6",
-        "Image": "http://wiki.shoryuken.com/images/8/82/%28remysa3%29.gif"
+        "Image": "https://srk.shib.live/images/8/82/%28remysa3%29.gif"
     }
 }

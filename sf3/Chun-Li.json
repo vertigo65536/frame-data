@@ -11,7 +11,7 @@
         "Parry": "HL",
         "Damage": "15",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/a/a9/%28chunlilp%29.gif"
+        "Image": "https://srk.shib.live/images/a/a9/%28chunlilp%29.gif"
     },
     "Strong": {
         "Motion": "MP",
@@ -25,7 +25,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/3/3d/%28chunlimp%29.gif"
+        "Image": "https://srk.shib.live/images/3/3d/%28chunlimp%29.gif"
     },
     "Fierce": {
         "Motion": "HP",
@@ -39,7 +39,7 @@
         "Parry": "HL",
         "Damage": "110",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/8/8b/%28chunlihp%29.gif"
+        "Image": "https://srk.shib.live/images/8/8b/%28chunlihp%29.gif"
     },
     "Close Jab": {
         "Motion": "cl.LP",
@@ -53,7 +53,7 @@
         "Parry": "HL",
         "Damage": "30",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/c/cc/%28chunlicloselp%29.gif"
+        "Image": "https://srk.shib.live/images/c/cc/%28chunlicloselp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -67,7 +67,7 @@
         "Parry": "HL",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/6/61/%28chunlilk%29.gif"
+        "Image": "https://srk.shib.live/images/6/61/%28chunlilk%29.gif"
     },
     "Far Forward": {
         "Motion": "MK",
@@ -81,7 +81,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/8/8a/%28chunlimk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8a/%28chunlimk%29.gif"
     },
     "Far Roundhouse": {
         "Motion": "HK",
@@ -95,7 +95,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/c/cd/%28chunlihk%29.gif"
+        "Image": "https://srk.shib.live/images/c/cd/%28chunlihk%29.gif"
     },
     "Close Forward": {
         "Motion": "cl.MK",
@@ -109,7 +109,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/d/d2/%28chunliclosemk%29.gif"
+        "Image": "https://srk.shib.live/images/d/d2/%28chunliclosemk%29.gif"
     },
     "Close Roundhouse": {
         "Motion": "cl.HK",
@@ -123,7 +123,7 @@
         "Parry": "H",
         "Damage": "120 (110)",
         "Stun": "15 (13)",
-        "Image": "http://wiki.shoryuken.com/images/7/7f/%28chunliclosehk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7f/%28chunliclosehk%29.gif"
     },
     "Jump Jab": {
         "Motion": "j.LP",
@@ -137,7 +137,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/a/a3/%28chunlijlp%29.gif"
+        "Image": "https://srk.shib.live/images/a/a3/%28chunlijlp%29.gif"
     },
     "Neutral Jump Jab": {
         "Motion": "nj.LP",
@@ -151,7 +151,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/a/a3/%28chunlijlp%29.gif"
+        "Image": "https://srk.shib.live/images/a/a3/%28chunlijlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "j.MP",
@@ -165,7 +165,7 @@
         "Parry": "H",
         "Damage": "60",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/c/c1/%28chunlijmp%29.gif"
+        "Image": "https://srk.shib.live/images/c/c1/%28chunlijmp%29.gif"
     },
     "Neutral Jump Strong": {
         "Motion": "nj.MP",
@@ -179,7 +179,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/c/c1/%28chunlijmp%29.gif"
+        "Image": "https://srk.shib.live/images/c/c1/%28chunlijmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "j.HP",
@@ -193,7 +193,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28chunlijhp%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28chunlijhp%29.gif"
     },
     "Neutral Jump Fierce": {
         "Motion": "nj.HP",
@@ -207,7 +207,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/1/19/%28chunlinjhp%29.gif"
+        "Image": "https://srk.shib.live/images/1/19/%28chunlinjhp%29.gif"
     },
     "Jump Short": {
         "Motion": "j.LK",
@@ -221,7 +221,7 @@
         "Parry": "H",
         "Damage": "50",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/1/1f/%28chunlijlk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1f/%28chunlijlk%29.gif"
     },
     "Neutral Jump Short": {
         "Motion": "nj.LK",
@@ -235,7 +235,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/1/1f/%28chunlijlk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1f/%28chunlijlk%29.gif"
 
     },
     "Jump Forward": {
@@ -250,7 +250,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/a/a2/%28chunlijmk%29.gif"
+        "Image": "https://srk.shib.live/images/a/a2/%28chunlijmk%29.gif"
     },
     "Neutral Jump Forward": {
         "Motion": "nj.MK",
@@ -264,7 +264,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/a/ac/%28chunlinjmk%29.gif"
+        "Image": "https://srk.shib.live/images/a/ac/%28chunlinjmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "j.HK",
@@ -278,7 +278,7 @@
         "Parry": "H",
         "Damage": "110",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/6/64/%28chunlijhk%29.gif"
+        "Image": "https://srk.shib.live/images/6/64/%28chunlijhk%29.gif"
     },
     "Neutral Jump Roundhouse": {
         "Motion": "nj.HK",
@@ -292,7 +292,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/d/dc/%28chunlinjhk%29.gif"
+        "Image": "https://srk.shib.live/images/d/dc/%28chunlinjhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -306,7 +306,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/4/47/%28chunlioh%29.gif"
+        "Image": "https://srk.shib.live/images/4/47/%28chunlioh%29.gif"
     },
     "Hiza Geri": {
         "Motion": "B/F/N+LP+LK",
@@ -320,7 +320,7 @@
         "Parry": "-",
         "Damage": "120",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/6/62/%28chunlitr%29.gif"
+        "Image": "https://srk.shib.live/images/6/62/%28chunlitr%29.gif"
     },
     "Seoi Nage": {
         "Motion": "Air LP+LK",
@@ -334,7 +334,7 @@
         "Parry": "-",
         "Damage": "80",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/a/ac/%28chunliatr%29.gif"
+        "Image": "https://srk.shib.live/images/a/ac/%28chunliatr%29.gif"
     },
     "Taunt": {
         "Motion": "HP+HK",
@@ -342,7 +342,7 @@
         "Hit": "59",
         "Recovery": "-",
         "Notes": "After completed, branches into another tunat with affect. Increases stun guage recovery",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28chunlit2%29.gi      f"
+        "Image": "https://srk.shib.live/images/4/40/%28chunlit2%29.gi      f"
     },
     "Taunt Neck": {
         "Motion": "HP+HK",
@@ -350,7 +350,7 @@
         "Hit": "60",
         "Recovery": "-",
         "Notes": "Increases attack power of attacks other than throw",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28chunlit2%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28chunlit2%29.gif"
     },
     "Taunt Shoulder": {
         "Motion": "HP+HK",
@@ -358,7 +358,7 @@
         "Hit": "60",
         "Recovery": "-",
         "Notes": "Increases defense",
-        "Image": "http://wiki.shoryuken.com/images/b/bc/%28chunlit1%29.gif"
+        "Image": "https://srk.shib.live/images/b/bc/%28chunlit1%29.gif"
     },
     "Taunt Waist": {
         "Motion": "HP+HK",
@@ -366,7 +366,7 @@
         "Hit": "60",
         "Recovery": "-",
         "Notes": "Increases defense, increases attack power of attacks other than throw",
-        "Image": "http://wiki.shoryuken.com/images/6/6b/%28chunlit3%29.gif"
+        "Image": "https://srk.shib.live/images/6/6b/%28chunlit3%29.gif"
     },
 
     "Crouch Jab": {
@@ -381,7 +381,7 @@
         "Parry": "HL",
         "Damage": "15",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/5/5f/%28chunliclp%29.gif"
+        "Image": "https://srk.shib.live/images/5/5f/%28chunliclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "cr.MP",
@@ -395,7 +395,7 @@
         "Parry": "L",
         "Damage": "90",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/f/ff/%28chunlicmp%29.gif"
+        "Image": "https://srk.shib.live/images/f/ff/%28chunlicmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "cr.HP",
@@ -409,7 +409,7 @@
         "Parry": "HL",
         "Damage": "110",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/3/3f/%28chunlichp%29.gif"
+        "Image": "https://srk.shib.live/images/3/3f/%28chunlichp%29.gif"
     },
     "Crouch Short": {
         "Motion": "cr.LK",
@@ -423,7 +423,7 @@
         "Parry": "L",
         "Damage": "20",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/c/c7/%28chunliclk%29.gif"
+        "Image": "https://srk.shib.live/images/c/c7/%28chunliclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "cr.MK",
@@ -437,7 +437,7 @@
         "Parry": "L",
         "Damage": "90",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/f/f8/%28chunlicmk%29.gif"
+        "Image": "https://srk.shib.live/images/f/f8/%28chunlicmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "cr.HK",
@@ -451,7 +451,7 @@
         "Parry": "L",
         "Damage": "110",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/c/cb/%28chunlichk%29.gif"
+        "Image": "https://srk.shib.live/images/c/cb/%28chunlichk%29.gif"
     },
     "Souren Shou": {
         "Motion": "B+MP",
@@ -465,7 +465,7 @@
         "Parry": "H",
         "Damage": "110 (60+50)",
         "Stun": "16 (7+9)",
-        "Image": "http://wiki.shoryuken.com/images/8/81/%28chunlibmp%29.gif"
+        "Image": "https://srk.shib.live/images/8/81/%28chunlibmp%29.gif"
     },
     "Hakkei": {
         "Motion": "B+HP",
@@ -479,7 +479,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28chunlibhp%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28chunlibhp%29.gif"
     },
     "Senjou Shuu": {
         "Motion": "F+MK",
@@ -493,7 +493,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/7/7a/%28chunlifmk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7a/%28chunlifmk%29.gif"
     },
     "Kakushu Raku Kyaku": {
         "Motion": "MK,Hold MK",
@@ -507,7 +507,7 @@
         "Parry": "H/H/H",
         "Damage": "120 (80+20+20)",
         "Stun": "19 (5+7+7)",
-        "Image": "http://wiki.shoryuken.com/images/a/a6/%28chunlimkmk%29.gif"
+        "Image": "https://srk.shib.live/images/a/a6/%28chunlimkmk%29.gif"
     },
     "Yoku Sen Kyaku": {
         "Motion": "F+HK",
@@ -519,7 +519,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/0e/%28chunlifhk%29.gif"
+        "Image": "https://srk.shib.live/images/0/0e/%28chunlifhk%29.gif"
     },
     "Tenshin Shuu Kyaku": {
         "Motion": "DF+HK",
@@ -533,7 +533,7 @@
         "Parry": "H",
         "Damage": "110",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/9/9e/%28chunlidfhk%29.gif"
+        "Image": "https://srk.shib.live/images/9/9e/%28chunlidfhk%29.gif"
     },
     "Yousou Suitotsu Da": {
         "Motion": "Air D+HP",
@@ -547,7 +547,7 @@
         "Parry": "-",
         "Damage": "110",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/4/48/%28chunlijdhp%29.gif"
+        "Image": "https://srk.shib.live/images/4/48/%28chunlijdhp%29.gif"
     },
     "よくせんきゃく": {
         "Motion": "F+LK",
@@ -574,7 +574,7 @@
         "Parry": "-",
         "Damage": "50",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/3/36/%28chunlijdmk%29.gif"
+        "Image": "https://srk.shib.live/images/3/36/%28chunlijdmk%29.gif"
     },
     "Target Combo": {
         "Motion": "j.HP > HP",
@@ -588,7 +588,7 @@
         "Parry": "H/H",
         "Damage": "80/60",
         "Stun": "9/5",
-        "Image": "http://wiki.shoryuken.com/images/d/dc/%28chunlijhphp%29.gif"
+        "Image": "https://srk.shib.live/images/d/dc/%28chunlijhphp%29.gif"
     },
     "Kikkoken (Jab)": {
         "Motion": "HCF+LP",
@@ -603,7 +603,7 @@
         "Parry": "H",
         "Damage": "45",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28chunlikikoken%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28chunlikikoken%29.gif"
     },
     "Kikkoken (Strong)": {
         "Motion": "HCF+MP",
@@ -618,7 +618,7 @@
         "Parry": "H",
         "Damage": "50",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28chunlikikoken%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28chunlikikoken%29.gif"
     },
     "Kikkoken (Fierce)": {
         "Motion": "HCF+HP",
@@ -633,7 +633,7 @@
         "Parry": "H",
         "Damage": "60",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28chunlikikoken%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28chunlikikoken%29.gif"
     },
     "Hyakuretsu Kyaku (Short)": {
         "Motion": "Mash LK",
@@ -648,7 +648,7 @@
         "Parry": "H",
         "Damage": "150 (6 hits)",
         "Stun": "15 (6 hits)",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28chunlihkk%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28chunlihkk%29.gif"
     },
     "Hyakuretsu Kyaku (Forward)": {
         "Motion": "Mash MK",
@@ -663,7 +663,7 @@
         "Parry": "H",
         "Damage": "160 (6 hits)",
         "Stun": "15 (6 hits)",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28chunlihkk%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28chunlihkk%29.gif"
     },
     "Hyakuretsu Kyaku (Roundhouse)": {
         "Motion": "Mash HK",
@@ -678,7 +678,7 @@
         "Parry": "H",
         "Damage": "185 (6 hits)",
         "Stun": "15 (6 hits)",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28chunlihkk%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28chunlihkk%29.gif"
     },
     "Spinning Bird Kick (Short)": {
         "Motion": "D,U+LK",
@@ -693,7 +693,7 @@
         "Parry": "H",
         "Damage": "140 (4 hits)",
         "Stun": "17 (4 hits)",
-        "Image": "http://wiki.shoryuken.com/images/6/6c/%28chunlisbk%29.gif"
+        "Image": "https://srk.shib.live/images/6/6c/%28chunlisbk%29.gif"
     },
     "Spinning Bird Kick (Forward)": {
         "Motion": "D,U+MK",
@@ -708,7 +708,7 @@
         "Parry": "H",
         "Damage": "175 (6 hits)",
         "Stun": "19 (6 hits)",
-        "Image": "http://wiki.shoryuken.com/images/6/6c/%28chunlisbk%29.gif"
+        "Image": "https://srk.shib.live/images/6/6c/%28chunlisbk%29.gif"
     },
     "Spinning Bird Kick (Roundhouse)": {
         "Motion": "D,U+HK",
@@ -723,7 +723,7 @@
         "Parry": "H",
         "Damage": "195 (8 hits)",
         "Stun": "21 (8 hits)",
-        "Image": "http://wiki.shoryuken.com/images/6/6c/%28chunlisbk%29.gif"
+        "Image": "https://srk.shib.live/images/6/6c/%28chunlisbk%29.gif"
     },
     "Hazan Shu (Short)": {
         "Motion": "HCB+LK",
@@ -738,7 +738,7 @@
         "Parry": "H",
         "Damage": "100 (90)",
         "Stun": "11 (9)",
-        "Image": "http://wiki.shoryuken.com/images/e/e4/%28chunlihzs%29.gif"
+        "Image": "https://srk.shib.live/images/e/e4/%28chunlihzs%29.gif"
     },
     "Hazan Shu (Forward)": {
         "Motion": "HCB+MK",
@@ -753,7 +753,7 @@
         "Parry": "H",
         "Damage": "110 (100)",
         "Stun": "13 (11)",
-        "Image": "http://wiki.shoryuken.com/images/e/e4/%28chunlihzs%29.gif"
+        "Image": "https://srk.shib.live/images/e/e4/%28chunlihzs%29.gif"
     },
     "Hazan Shu (Roundhouse)": {
         "Motion": "HCB+HK",
@@ -768,7 +768,7 @@
         "Parry": "H",
         "Damage": "120 (110)",
         "Stun": "15 (13)",
-        "Image": "http://wiki.shoryuken.com/images/e/e4/%28chunlihzs%29.gif"
+        "Image": "https://srk.shib.live/images/e/e4/%28chunlihzs%29.gif"
     },
     "Kikkoken (EX)": {
         "Motion": "HCF+PP",
@@ -783,7 +783,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/0/03/%28chunlikikokenex%29.gif"
+        "Image": "https://srk.shib.live/images/0/03/%28chunlikikokenex%29.gif"
     },
     "Hyakuretsu Kyaku (EX)": {
         "Motion": "Mash KK",
@@ -798,7 +798,7 @@
         "Parry": "HL",
         "Damage": "175 (4 hits)",
         "Stun": "13 (4 hits)",
-        "Image": "http://wiki.shoryuken.com/images/0/0e/%28chunlihrkex%29.gif"
+        "Image": "https://srk.shib.live/images/0/0e/%28chunlihrkex%29.gif"
     },
     "Spinning Bird Kick (EX)": {
         "Motion": "D,U+KK",
@@ -813,7 +813,7 @@
         "Parry": "H",
         "Damage": "220 (5 hits)",
         "Stun": "25 (5 hits)",
-        "Image": "http://wiki.shoryuken.com/images/6/6d/%28chunlisbkex%29.gif"
+        "Image": "https://srk.shib.live/images/6/6d/%28chunlisbkex%29.gif"
     },
     "Hazan Shu (EX)": {
         "Motion": "HCB+KK",
@@ -828,7 +828,7 @@
         "Parry": "H",
         "Damage": "160",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/7/75/%28chunlihzsex%29.gif"
+        "Image": "https://srk.shib.live/images/7/75/%28chunlihzsex%29.gif"
     },
     "Kikoshou": {
         "Super Art": "1",
@@ -845,7 +845,7 @@
         "Stun": "0",
         "Stocks": "1",
         "Stock Size": "88",
-        "Image": "http://wiki.shoryuken.com/images/8/86/%28chunlisa1%29.gif"
+        "Image": "https://srk.shib.live/images/8/86/%28chunlisa1%29.gif"
     },
     "Houyoku Sen": {
         "Super Art": "2",
@@ -862,7 +862,7 @@
         "Stun": "22 (17 hits)",
         "Stocks": "2",
         "Stock Size": "104",
-        "Image": "http://wiki.shoryuken.com/images/9/99/%28chunlisa2%29.gif"
+        "Image": "https://srk.shib.live/images/9/99/%28chunlisa2%29.gif"
     },
     "Tensei Ranka": {
         "Super Art": "3",
@@ -879,6 +879,6 @@
         "Stun": "18 (9 hits)",
         "Stocks": "3",
         "Stock Size": "72",
-        "Image": "http://wiki.shoryuken.com/images/e/ef/%28chunlisa3%29.gif"
+        "Image": "https://srk.shib.live/images/e/ef/%28chunlisa3%29.gif"
     }
 }

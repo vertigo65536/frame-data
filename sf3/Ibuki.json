@@ -9,7 +9,7 @@
         "Crouching Hit Advantage": "+6",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/d5/%28ibukilp%29.gif"
+        "Image": "https://srk.shib.live/images/d/d5/%28ibukilp%29.gif"
     },
     "Far Strong": {
         "Motion": "MP",
@@ -21,7 +21,7 @@
         "Crouching Hit Advantage": "+8",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/90/%28ibukimp%29.gif"
+        "Image": "https://srk.shib.live/images/9/90/%28ibukimp%29.gif"
     },
     "Far Fierce": {
         "Motion": "HP",
@@ -33,7 +33,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/35/%28ibukihp%29.gif"
+        "Image": "https://srk.shib.live/images/3/35/%28ibukihp%29.gif"
     },
     "Close Jab": {
         "Motion": "(Close to opponent) LP",
@@ -45,7 +45,7 @@
         "Crouching Hit Advantage": "+5",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/4/47/%28ibukicloselp%29.gif"
+        "Image": "https://srk.shib.live/images/4/47/%28ibukicloselp%29.gif"
     },
     "Close Fierce": {
         "Motion": "(Close to opponent) HP",
@@ -57,7 +57,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28ibukiclosehp%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28ibukiclosehp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -69,7 +69,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/5/5a/%28ibukilk%29.gif"
+        "Image": "https://srk.shib.live/images/5/5a/%28ibukilk%29.gif"
     },
     "Forward": {
         "Motion": "MK",
@@ -81,7 +81,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/9b/%28ibukimk%29.gif"
+        "Image": "https://srk.shib.live/images/9/9b/%28ibukimk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -93,7 +93,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/5/51/%28ibukihk%29.gif"
+        "Image": "https://srk.shib.live/images/5/51/%28ibukihk%29.gif"
     },
     "Close Roundhouse": {
         "Motion": "(Close to opponent) HK",
@@ -105,7 +105,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/df/%28ibukiclosehk%29.gif"
+        "Image": "https://srk.shib.live/images/d/df/%28ibukiclosehk%29.gif"
     },
     "Jump Jab": {
         "Motion": "(Air) LP",
@@ -117,7 +117,7 @@
         "Crouching Hit Advantage": "0\uff5e+7/+5\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/e7/%28ibukijlp%29.gif"
+        "Image": "https://srk.shib.live/images/e/e7/%28ibukijlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "(Air) MP",
@@ -129,7 +129,7 @@
         "Crouching Hit Advantage": "+3\uff5e+10/+7\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/4/41/%28ibukijmp%29.gif"
+        "Image": "https://srk.shib.live/images/4/41/%28ibukijmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "(Air) HP",
@@ -141,7 +141,7 @@
         "Crouching Hit Advantage": "+8\uff5e+13/+7\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/b/b0/%28ibukijhp%29.gif"
+        "Image": "https://srk.shib.live/images/b/b0/%28ibukijhp%29.gif"
     },
     "Jump Short": {
         "Motion": "(Air) LK",
@@ -153,7 +153,7 @@
         "Crouching Hit Advantage": "+1\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/b/b7/%28ibukijlk%29.gif"
+        "Image": "https://srk.shib.live/images/b/b7/%28ibukijlk%29.gif"
     },
     "Jump Forward": {
         "Motion": "(Air) MK",
@@ -165,7 +165,7 @@
         "Crouching Hit Advantage": "+3\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/75/%28ibukijmk%29.gif"
+        "Image": "https://srk.shib.live/images/7/75/%28ibukijmk%29.gif"
     },
     "Neutral Jump Forward": {
         "Motion": "(Air) MK",
@@ -177,7 +177,7 @@
         "Crouching Hit Advantage": "+4\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/79/%28ibukinjmk%29.gif"
+        "Image": "https://srk.shib.live/images/7/79/%28ibukinjmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "(Air) HK",
@@ -189,7 +189,7 @@
         "Crouching Hit Advantage": "+8\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/04/%28ibukijhk%29.gif"
+        "Image": "https://srk.shib.live/images/0/04/%28ibukijhk%29.gif"
     },
     "Neutral Jump Roundhouse": {
         "Motion": "(Air) HK",
@@ -201,7 +201,7 @@
         "Crouching Hit Advantage": "+10\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/12/%28ibukinjhk%29.gif"
+        "Image": "https://srk.shib.live/images/1/12/%28ibukinjhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -213,7 +213,7 @@
         "Crouching Hit Advantage": "+1~+9",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/c5/%28ibukioh%29.gif"
+        "Image": "https://srk.shib.live/images/c/c5/%28ibukioh%29.gif"
     },
     "Yamitsudzura": {
         "Motion": "(B/F)+LP+LK",
@@ -225,7 +225,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "(B/F)+LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/6/6a/%28ibukigtr%29.gif"
+        "Image": "https://srk.shib.live/images/6/6a/%28ibukigtr%29.gif"
     },
     "Tobizaru": {
         "Motion": "(Air) LP+LK",
@@ -237,7 +237,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "(Air) LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/5/59/%28ibukiatr%29.gif"
+        "Image": "https://srk.shib.live/images/5/59/%28ibukiatr%29.gif"
     },
     "Crouch Jab": {
         "Motion": "D+LP",
@@ -249,7 +249,7 @@
         "Crouching Hit Advantage": "+5",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/f/fb/%28ibukiclp%29.gif"
+        "Image": "https://srk.shib.live/images/f/fb/%28ibukiclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "D+MP",
@@ -261,7 +261,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/9/94/%28ibukicmp%29.gif"
+        "Image": "https://srk.shib.live/images/9/94/%28ibukicmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "D+HP",
@@ -273,7 +273,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28ibukichp%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28ibukichp%29.gif"
     },
     "Crouch Short": {
         "Motion": "D+LK",
@@ -285,7 +285,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/4/4d/%28ibukiclk%29.gif"
+        "Image": "https://srk.shib.live/images/4/4d/%28ibukiclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "D+MK",
@@ -297,7 +297,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/d/d2/%28ibukicmk%29.gif"
+        "Image": "https://srk.shib.live/images/d/d2/%28ibukicmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "D+HK",
@@ -309,7 +309,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/5/56/%28ibukichk%29.gif"
+        "Image": "https://srk.shib.live/images/5/56/%28ibukichk%29.gif"
     },
     "Maki Geri": {
         "Motion": "F + LK",
@@ -321,7 +321,7 @@
         "Crouching Hit Advantage": "-1",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/a/a7/%28ibukiflk%29.gif"
+        "Image": "https://srk.shib.live/images/a/a7/%28ibukiflk%29.gif"
     },
     "Koube Kudaki": {
         "Motion": "F+MK",
@@ -333,7 +333,7 @@
         "Crouching Hit Advantage": "+11",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/0c/%28ibukifmk%29.gif"
+        "Image": "https://srk.shib.live/images/0/0c/%28ibukifmk%29.gif"
     },
     "You Men": {
         "Motion": "B + MP",
@@ -345,7 +345,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/02/%28ibukibmp%29.gif"
+        "Image": "https://srk.shib.live/images/0/02/%28ibukibmp%29.gif"
     },
     "Ura Maki Geri": {
         "Motion": "B + MK",
@@ -357,7 +357,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/cc/%28ibukibmk%29.gif"
+        "Image": "https://srk.shib.live/images/c/cc/%28ibukibmk%29.gif"
     },
     "Sazan": {
         "Motion": "DF + MK",
@@ -369,7 +369,7 @@
         "Crouching Hit Advantage": "-5",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/5/5a/%28ibukidfmk%29.gif"
+        "Image": "https://srk.shib.live/images/5/5a/%28ibukidfmk%29.gif"
     },
     "Oiura Ken": {
         "Motion": "Far HP,HP",
@@ -381,7 +381,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/36/%28ibukihphp%29.gif"
+        "Image": "https://srk.shib.live/images/3/36/%28ibukihphp%29.gif"
     },
     "Bonshou Geri": {
         "Motion": "F+HK",
@@ -393,7 +393,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/1d/%28ibukifhk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1d/%28ibukifhk%29.gif"
     },
     "Kunai (Jab)": {
         "Motion": "QCF+LP on air",
@@ -406,7 +406,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/71/%28ibukikunail%29.gif"
+        "Image": "https://srk.shib.live/images/7/71/%28ibukikunail%29.gif"
     },
     "Kunai (Strong)": {
         "Motion": "QCF+MP on air",
@@ -419,7 +419,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/71/%28ibukikunail%29.gif"
+        "Image": "https://srk.shib.live/images/7/71/%28ibukikunail%29.gif"
     },
     "Kunai (Fierce)": {
         "Motion": "QCF+HP on air",
@@ -432,7 +432,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/71/%28ibukikunail%29.gif"
+        "Image": "https://srk.shib.live/images/7/71/%28ibukikunail%29.gif"
     },
     "Raida (Jab)": {
         "Motion": "Close HCB+LP",
@@ -445,7 +445,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28ibukiraida%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28ibukiraida%29.gif"
     },
     "Raida (Strong)": {
         "Motion": "Close HCB+MP",
@@ -458,7 +458,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28ibukiraida%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28ibukiraida%29.gif"
     },
     "Raida (Fierce)": {
         "Motion": "Close HCB+HP",
@@ -471,7 +471,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28ibukiraida%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28ibukiraida%29.gif"
     },
     "Hien (Short)": {
         "Motion": "B, D, DB+LK",
@@ -484,7 +484,7 @@
         "Crouching Hit Advantage": "-31",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/92/%28ibukihien%29.gif"
+        "Image": "https://srk.shib.live/images/9/92/%28ibukihien%29.gif"
     },
     "Hien (Forward)": {
         "Motion": "B, D, DB+MK",
@@ -497,7 +497,7 @@
         "Crouching Hit Advantage": "-38",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/92/%28ibukihien%29.gif"
+        "Image": "https://srk.shib.live/images/9/92/%28ibukihien%29.gif"
     },
     "Hien (Roundhouse)": {
         "Motion": "B, D, DB+HK",
@@ -510,7 +510,7 @@
         "Crouching Hit Advantage": "-35",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/9/92/%28ibukihien%29.gif"
+        "Image": "https://srk.shib.live/images/9/92/%28ibukihien%29.gif"
     },
     "Tsumuji (Short)": {
         "Motion": "QCB+LK, Press D",
@@ -523,7 +523,7 @@
         "Crouching Hit Advantage": "+2/+3(Down D)",
         "Guard": "HL(L D)",
         "Parry": "H(L D)",
-        "Image": "http://wiki.shoryuken.com/images/8/81/%28ibukitsumuji%29.gif"
+        "Image": "https://srk.shib.live/images/8/81/%28ibukitsumuji%29.gif"
     },
     "Tsumuji (Forward)": {
         "Motion": "QCB+MK, Press D",
@@ -536,7 +536,7 @@
         "Crouching Hit Advantage": "+2(Down D)",
         "Guard": "HL(L D)",
         "Parry": "H(L D)",
-        "Image": "http://wiki.shoryuken.com/images/8/81/%28ibukitsumuji%29.gif"
+        "Image": "https://srk.shib.live/images/8/81/%28ibukitsumuji%29.gif"
     },
     "Tsumuji (Roundhouse)": {
         "Motion": "QCBF+HK, Press D",
@@ -549,7 +549,7 @@
         "Crouching Hit Advantage": "+2(Down D)",
         "Guard": "HL(L D)",
         "Parry": "H(L D)",
-        "Image": "http://wiki.shoryuken.com/images/8/81/%28ibukitsumuji%29.gif"
+        "Image": "https://srk.shib.live/images/8/81/%28ibukitsumuji%29.gif"
     },
     "Kubiori": {
         "Motion": "QCF+P",
@@ -562,7 +562,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/a/a5/%28ibukikbr%29.gif"
+        "Image": "https://srk.shib.live/images/a/a5/%28ibukikbr%29.gif"
     },
     "Kasumi Gake": {
         "Motion": "QCF+K",
@@ -575,7 +575,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/b/bd/%28ibukiksmg%29.gif"
+        "Image": "https://srk.shib.live/images/b/bd/%28ibukiksmg%29.gif"
     },
     "Tsuiji Goe": {
         "Motion": "F, D, DF+P",
@@ -588,7 +588,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/8/80/%28ibukitjgo%29.gif"
+        "Image": "https://srk.shib.live/images/8/80/%28ibukitjgo%29.gif"
     },
     "Kunai (EX)": {
         "Motion": "QCF+PP On Air",
@@ -601,7 +601,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "HL/HL",
         "Parry": "HL/HL",
-        "Image": "http://wiki.shoryuken.com/images/e/ee/%28ibukikunaiex%29.gif"
+        "Image": "https://srk.shib.live/images/e/ee/%28ibukikunaiex%29.gif"
     },
     "Kazekiri (EX)": {
         "Motion": "F, D, DF+KK",
@@ -614,7 +614,7 @@
         "Crouching Hit Advantage": "-13\uff08-10\uff09",
         "Guard": "HLx4",
         "Parry": "HLx4",
-        "Image": "http://wiki.shoryuken.com/images/8/87/%28ibukikkiex%29.gif"
+        "Image": "https://srk.shib.live/images/8/87/%28ibukikkiex%29.gif"
     },
     "Tsumuji (EX)": {
         "Motion": "QCB+KK (Press D)",
@@ -627,7 +627,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx3+HL/Lx3 Down",
         "Parry": "Hx4/Lx3",
-        "Image": "http://wiki.shoryuken.com/images/4/49/%28ibukitsjex%29.gif"
+        "Image": "https://srk.shib.live/images/4/49/%28ibukitsjex%29.gif"
     },
     "Hien (EX)": {
         "Motion": "B, D, DB+KK",
@@ -640,7 +640,7 @@
         "Crouching Hit Advantage": "-30",
         "Guard": "H/H",
         "Parry": "H/H",
-        "Image": "http://wiki.shoryuken.com/images/e/ed/%28ibukihienex%29.gif"
+        "Image": "https://srk.shib.live/images/e/ed/%28ibukihienex%29.gif"
     },
     "Kubi Ori (EX)": {
         "Motion": "QCF+PP",
@@ -653,7 +653,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/8/88/%28ibukikubiex%29.gif"
+        "Image": "https://srk.shib.live/images/8/88/%28ibukikubiex%29.gif"
     },
     "Kasumi Suzaku": {
         "Super Art": "I",
@@ -667,7 +667,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "Hx1~20",
         "Parry": "Hx1~20",
-        "Image": "http://wiki.shoryuken.com/images/6/6f/%28ibukisa1%29.gif"
+        "Image": "https://srk.shib.live/images/6/6f/%28ibukisa1%29.gif"
     },
     "LP": {
         "Super Art": "III",
@@ -681,7 +681,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/c/c4/%28ibukisa3%29.gif"
+        "Image": "https://srk.shib.live/images/c/c4/%28ibukisa3%29.gif"
     },
     "MP": {
         "Super Art": "III",
@@ -695,7 +695,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/c/c4/%28ibukisa3%29.gif"
+        "Image": "https://srk.shib.live/images/c/c4/%28ibukisa3%29.gif"
     },
     "HP": {
         "Super Art": "III",
@@ -709,7 +709,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/c/c4/%28ibukisa3%29.gif"
+        "Image": "https://srk.shib.live/images/c/c4/%28ibukisa3%29.gif"
     },
     "Yoroi Doushi": {
         "Super Art": "II",
@@ -722,7 +722,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx1~15",
         "Parry": "HLx1~15",
-        "Image": "http://wiki.shoryuken.com/images/0/02/%28ibukisa2miss%29.gif"
+        "Image": "https://srk.shib.live/images/0/02/%28ibukisa2miss%29.gif"
     },
     "Yami Shigure": {
         "Super Art": "III",
@@ -736,6 +736,6 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/c/c4/%28ibukisa3%29.gif"
+        "Image": "https://srk.shib.live/images/c/c4/%28ibukisa3%29.gif"
     }
 }

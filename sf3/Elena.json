@@ -11,7 +11,7 @@
         "Parry": "HL",
         "Damage": "40",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/d/de/%28elenalp%29.gif"
+        "Image": "https://srk.shib.live/images/d/de/%28elenalp%29.gif"
     },
     "Strong": {
         "Motion": "MP",
@@ -25,7 +25,7 @@
         "Parry": "H",
         "Damage": "100 (40+60)",
         "Stun": "16 (9+7)",
-        "Image": "http://wiki.shoryuken.com/images/9/9c/%28elenamp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9c/%28elenamp%29.gif"
     },
     "Fierce": {
         "Motion": "HP",
@@ -39,7 +39,7 @@
         "Parry": "H",
         "Damage": "140",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/2/27/%28elenahp%29.gif"
+        "Image": "https://srk.shib.live/images/2/27/%28elenahp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -53,7 +53,7 @@
         "Parry": "HL",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/8/8f/%28elenalk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8f/%28elenalk%29.gif"
     },
     "Forward": {
         "Motion": "MK",
@@ -67,7 +67,7 @@
         "Parry": "HL",
         "Damage": "90",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/8/80/%28elenamk%29.gif"
+        "Image": "https://srk.shib.live/images/8/80/%28elenamk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -81,7 +81,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/3/34/%28elenahk%29.gif"
+        "Image": "https://srk.shib.live/images/3/34/%28elenahk%29.gif"
     },
     "Jump Jab": {
         "Motion": "j.LP",
@@ -95,7 +95,7 @@
         "Parry": "H",
         "Damage": "50",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/3/34/%28elenajlp%29.gif"
+        "Image": "https://srk.shib.live/images/3/34/%28elenajlp%29.gif"
     },
     "Neutral Jump Strong": {
         "Motion": "nj.MP",
@@ -109,7 +109,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/c/cf/%28elenajmp%29.gif"
+        "Image": "https://srk.shib.live/images/c/cf/%28elenajmp%29.gif"
     },
     "Jump Strong": {
         "Motion": "j.MP",
@@ -123,7 +123,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/c/cf/%28elenajmp%29.gif"
+        "Image": "https://srk.shib.live/images/c/cf/%28elenajmp%29.gif"
     },
     "Neutral Jump Fierce": {
         "Motion": "nj.HP",
@@ -137,7 +137,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/a/a8/%28elenajhp%29.gif"
+        "Image": "https://srk.shib.live/images/a/a8/%28elenajhp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "j.HP",
@@ -151,7 +151,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "112",
-        "Image": "http://wiki.shoryuken.com/images/a/a8/%28elenajhp%29.gif"
+        "Image": "https://srk.shib.live/images/a/a8/%28elenajhp%29.gif"
     },
     "Jump Short": {
         "Motion": "j.LK",
@@ -165,7 +165,7 @@
         "Parry": "H",
         "Damage": "50",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/c/c7/%28elenajlk%29.gif"
+        "Image": "https://srk.shib.live/images/c/c7/%28elenajlk%29.gif"
     },
     "Neutral Jump Forward": {
         "Motion": "nj.MK",
@@ -179,7 +179,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/b/bb/%28elenajmk%29.gif"
+        "Image": "https://srk.shib.live/images/b/bb/%28elenajmk%29.gif"
     },
 
     "Jump Forward": {
@@ -194,7 +194,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/b/bb/%28elenajmk%29.gif"
+        "Image": "https://srk.shib.live/images/b/bb/%28elenajmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "j.HK",
@@ -208,7 +208,7 @@
         "Parry": "H",
         "Damage": "150 (40+110)",
         "Stun": "16 (3+13)",
-        "Image": "http://wiki.shoryuken.com/images/f/f4/%28elenajhk%29.gif"
+        "Image": "https://srk.shib.live/images/f/f4/%28elenajhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -222,7 +222,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/b/bf/%28elenaoh%29.gif"
+        "Image": "https://srk.shib.live/images/b/bf/%28elenaoh%29.gif"
     },
     "Body Slam": {
         "Motion": "(B/F)+LP+LK",
@@ -236,7 +236,7 @@
         "Parry": "-",
         "Damage": "120",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/2/21/%28elenathrow%29.gif"
+        "Image": "https://srk.shib.live/images/2/21/%28elenathrow%29.gif"
     },
     "Taunt": {
         "Motion": "HP+HK",
@@ -246,7 +246,7 @@
         "Damage": "10 (5+5)",
         "Stun": "0",
         "Notes": "Increases stun value for all attacks",
-        "Image": "http://wiki.shoryuken.com/images/6/64/%28elenat%29.gif"
+        "Image": "https://srk.shib.live/images/6/64/%28elenat%29.gif"
     },
     "Crouch Jab": {
         "Motion": "cr.LP",
@@ -260,7 +260,7 @@
         "Parry": "HL",
         "Damage": "40",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/0/0b/%28elenaclp%29.gif"
+        "Image": "https://srk.shib.live/images/0/0b/%28elenaclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "cr.MP",
@@ -274,7 +274,7 @@
         "Parry": "HL",
         "Damage": "90",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/0/06/%28elenacmp%29.gif"
+        "Image": "https://srk.shib.live/images/0/06/%28elenacmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "cr.HP",
@@ -288,7 +288,7 @@
         "Parry": "HL",
         "Damage": "110",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/9/9a/%28elenachp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9a/%28elenachp%29.gif"
     },
     "Crouch Short": {
         "Motion": "cr.LK",
@@ -302,7 +302,7 @@
         "Parry": "L",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/f/ff/%28elenaclk%29.gif"
+        "Image": "https://srk.shib.live/images/f/ff/%28elenaclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "cr.MK",
@@ -316,7 +316,7 @@
         "Parry": "L",
         "Damage": "70",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/4/4f/%28elenacmk%29.gif"
+        "Image": "https://srk.shib.live/images/4/4f/%28elenacmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "cr.HK",
@@ -330,7 +330,7 @@
         "Parry": "L",
         "Damage": "100",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/6/60/%28elenachk%29.gif"
+        "Image": "https://srk.shib.live/images/6/60/%28elenachk%29.gif"
     },
     "Handstand Kick (Overhead)": {
         "Motion": "F+MK",
@@ -344,7 +344,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/f/f3/%28elenafmp%29.gif"
+        "Image": "https://srk.shib.live/images/f/f3/%28elenafmp%29.gif"
     },
     "Handstand Whip (Overhead)": {
         "Motion": "F+MP",
@@ -358,7 +358,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/9/99/%28elenafmk%29.gif"
+        "Image": "https://srk.shib.live/images/9/99/%28elenafmk%29.gif"
     },
     "Round Arch": {
         "Motion": "B+HK",
@@ -372,7 +372,7 @@
         "Parry": "H",
         "Damage": "140",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/a/a5/%28elenabhk%29.gif"
+        "Image": "https://srk.shib.live/images/a/a5/%28elenabhk%29.gif"
     },
     "Sliding (Sweep)": {
         "Motion": "DF+HK",
@@ -386,7 +386,7 @@
         "Parry": "L",
         "Damage": "100",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/8/8d/%28elenadfhk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8d/%28elenadfhk%29.gif"
     },
     "Scratch Wheel (Short)": {
         "Motion": "F, D, DF+LK",
@@ -401,7 +401,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/6/63/%28elenascrw%29.gif"
+        "Image": "https://srk.shib.live/images/6/63/%28elenascrw%29.gif"
     },
     "Scratch Wheel (Forward)": {
         "Motion": "F, D, DF+MK",
@@ -416,7 +416,7 @@
         "Parry": "H/H",
         "Damage": "150 (90+60)",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/6/63/%28elenascrw%29.gif"
+        "Image": "https://srk.shib.live/images/6/63/%28elenascrw%29.gif"
     },
     "Scratch Wheel (Roundhouse)": {
         "Motion": "F, D, DF+HK",
@@ -431,7 +431,7 @@
         "Parry": "H/H/H",
         "Damage": "170 (90+40+40)",
         "Stun": "18 (13+3x2)",
-        "Image": "http://wiki.shoryuken.com/images/6/63/%28elenascrw%29.gif"
+        "Image": "https://srk.shib.live/images/6/63/%28elenascrw%29.gif"
     },
     "Spin Scythe (Short)": {
         "Motion": "QCB+LK",
@@ -446,7 +446,7 @@
         "Parry": "H/H",
         "Damage": "120 (60+60)",
         "Stun": "6 (3+3)",
-        "Image": "http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif"
+        "Image": "https://srk.shib.live/images/b/ba/%28elenascy%29.gif"
     },
     "Spin Scythe (Forward)": {
         "Motion": "QCB+MK",
@@ -461,7 +461,7 @@
         "Parry": "H/H",
         "Damage": "125 (60+65)",
         "Stun": "6 (3+3)",
-        "Image": "http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif"
+        "Image": "https://srk.shib.live/images/b/ba/%28elenascy%29.gif"
     },
     "Spin Scythe (Roundhouse)": {
         "Motion": "QCB+HK",
@@ -476,7 +476,7 @@
         "Parry": "H/H",
         "Damage": "130 (65+65)",
         "Stun": "6 (3+3)",
-        "Image": "http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif"
+        "Image": "https://srk.shib.live/images/b/ba/%28elenascy%29.gif"
     },
     "Spin Scythe (Short) Follow Up": {
         "Motion": "QCB+LK x2",
@@ -491,7 +491,7 @@
         "Parry": "H/H",
         "Damage": "40 (20+20)",
         "Stun": "14 (7+7)",
-        "Image": "http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif"
+        "Image": "https://srk.shib.live/images/b/ba/%28elenascy%29.gif"
     },
     "Spin Scythe (Forward) Follow Up": {
         "Motion": "QCB+MK x2",
@@ -506,7 +506,7 @@
         "Parry": "H/H",
         "Damage": "45 (20+25)",
         "Stun": "14 (7+7)",
-        "Image": "http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif"
+        "Image": "https://srk.shib.live/images/b/ba/%28elenascy%29.gif"
     },
     "Spin Scythe (Roundhouse) Follow Up": {
         "Motion": "QCB+HK x2",
@@ -521,7 +521,7 @@
         "Parry": "H/H",
         "Damage": "50 (25+25)",
         "Stun": "14 (7+7)",
-        "Image": "http://wiki.shoryuken.com/images/b/ba/%28elenascy%29.gif"
+        "Image": "https://srk.shib.live/images/b/ba/%28elenascy%29.gif"
     },
     "Rhyno Horn (Short)": {
         "Motion": "HCF+LK",
@@ -536,7 +536,7 @@
         "Parry": "HL/HL",
         "Damage": "180 (40+140)",
         "Stun": "22 (3+19)",
-        "Image": "http://wiki.shoryuken.com/images/d/d7/%28elenaryh%29.gif"
+        "Image": "https://srk.shib.live/images/d/d7/%28elenaryh%29.gif"
     },
     "Rhyno Horn (Forward)": {
         "Motion": "HCF+MK",
@@ -551,7 +551,7 @@
         "Parry": "HL/HL",
         "Damage": "210 (40 + 170)",
         "Stun": "22 (3+19)",
-        "Image": "http://wiki.shoryuken.com/images/d/d7/%28elenaryh%29.gif"
+        "Image": "https://srk.shib.live/images/d/d7/%28elenaryh%29.gif"
     },
     "Rhyno Horn (Roundhouse)": {
         "Motion": "HCF+HK",
@@ -566,7 +566,7 @@
         "Parry": "HL/HL",
         "Damage": "200 (40+160)",
         "Stun": "22 (3+19)",
-        "Image": "http://wiki.shoryuken.com/images/d/d7/%28elenaryh%29.gif"
+        "Image": "https://srk.shib.live/images/d/d7/%28elenaryh%29.gif"
     },
     "Lynx Tail (Short)": {
         "Motion": "B, D, DB+LK",
@@ -581,7 +581,7 @@
         "Parry": "Lx2",
         "Damage": "60 (60)",
         "Stun": "3 (3)",
-        "Image": "http://wiki.shoryuken.com/images/8/84/%28elenalxt%29.gif"
+        "Image": "https://srk.shib.live/images/8/84/%28elenalxt%29.gif"
     },
     "Lynx Tail (Forward)": {
         "Motion": "B, D, DB+MK",
@@ -596,7 +596,7 @@
         "Parry": "Lx2",
         "Damage": "130 (70+60)",
         "Stun": "6 (3+3)",
-        "Image": "http://wiki.shoryuken.com/images/8/84/%28elenalxt%29.gif"
+        "Image": "https://srk.shib.live/images/8/84/%28elenalxt%29.gif"
     },
     "Lynx Tail (Roundhouse)": {
         "Motion": "B, D, DB+HK",
@@ -611,7 +611,7 @@
         "Parry": "Lx4",
         "Damage": "140 (80+10x2+40)",
         "Stun": "12 (3x4)",
-        "Image": "http://wiki.shoryuken.com/images/8/84/%28elenalxt%29.gif"
+        "Image": "https://srk.shib.live/images/8/84/%28elenalxt%29.gif"
     },
     "Mallet Smash (Jab)": {
         "Motion": "HCB+LP",
@@ -626,7 +626,7 @@
         "Parry": "Hx2",
         "Damage": "160 (120(80)+40)",
         "Stun": "18(13+5)",
-        "Image": "http://wiki.shoryuken.com/images/4/4d/%28elenamlsm%29.gif"
+        "Image": "https://srk.shib.live/images/4/4d/%28elenamlsm%29.gif"
     },
     "Mallet Smash (Strong)": {
         "Motion": "HCB+MP",
@@ -641,7 +641,7 @@
         "Parry": "Hx2",
         "Damage": "170 (130(90)+40)",
         "Stun": "18 (13+5)",
-        "Image": "http://wiki.shoryuken.com/images/4/4d/%28elenamlsm%29.gif"
+        "Image": "https://srk.shib.live/images/4/4d/%28elenamlsm%29.gif"
     },
     "Mallet Smash (Fierce)": {
         "Motion": "HCB+HP",
@@ -656,7 +656,7 @@
         "Parry": "Hx2",
         "Damage": "180 (140(100)+40)",
         "Stun": "18 (13+5)",
-        "Image": "http://wiki.shoryuken.com/images/4/4d/%28elenamlsm%29.gif"
+        "Image": "https://srk.shib.live/images/4/4d/%28elenamlsm%29.gif"
     },
     "Scratch Wheel (EX)": {
         "Motion": "F, D, DF+KK",
@@ -671,7 +671,7 @@
         "Parry": "Hx4",
         "Damage": "220 (100+40x3)",
         "Stun": "21 (13+3x3)",
-        "Image": "http://wiki.shoryuken.com/images/1/16/%28elenaswex%29.gif"
+        "Image": "https://srk.shib.live/images/1/16/%28elenaswex%29.gif"
     },
     "Rhino Horn (EX)": {
         "Motion": "HCF+KK",
@@ -686,7 +686,7 @@
         "Parry": "H",
         "Damage": "225 (45+100+80)",
         "Stun": "23 (3+17+3)",
-        "Image": "http://wiki.shoryuken.com/images/f/f6/%28elenarhex%29.gif"
+        "Image": "https://srk.shib.live/images/f/f6/%28elenarhex%29.gif"
     },
     "Spin Scythe (EX)": {
         "Motion": "QCB+KK",
@@ -701,7 +701,7 @@
         "Parry": "HLx3",
         "Damage": "180 (60x3)",
         "Stun": "9 (3x3)",
-        "Image": "http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif"
+        "Image": "https://srk.shib.live/images/7/77/%28elenassex%29.gif"
     },
     "Spin Scythe (EX) (General Follow Up)": {
         "Motion": "QCB+KK",
@@ -716,7 +716,7 @@
         "Parry": "HLx3",
         "Damage": "40",
         "Stun": "20 (5 hits)(3x4+7+7)",
-        "Image": "http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif"
+        "Image": "https://srk.shib.live/images/7/77/%28elenassex%29.gif"
     },
     "Spin Scythe (EX) (Short Follow Up)": {
         "Motion": "QCB+KK, QCB+LK",
@@ -731,7 +731,7 @@
         "Parry": "HLx3",
         "Damage": "40 (20+20)",
         "Stun": "14 (7+7)",
-        "Image": "http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif"
+        "Image": "https://srk.shib.live/images/7/77/%28elenassex%29.gif"
     },
     "Spin Scythe (EX) (Forward Follow Up)": {
         "Motion": "QCB+KK, QCB+MK",
@@ -746,7 +746,7 @@
         "Parry": "HLx3",
         "Damage": "45 (20+25)",
         "Stun": "14 (7+7)",
-        "Image": "http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif"
+        "Image": "https://srk.shib.live/images/7/77/%28elenassex%29.gif"
     },
     "Spin Scythe (EX) (Roundhouse Follow Up)": {
         "Motion": "QCB+KK, QCB+HK",
@@ -761,7 +761,7 @@
         "Parry": "HLx3",
         "Damage": "50 (25+25)",
         "Stun": "14 (7+7)",
-        "Image": "http://wiki.shoryuken.com/images/7/77/%28elenassex%29.gif"
+        "Image": "https://srk.shib.live/images/7/77/%28elenassex%29.gif"
     },
     "Mallet Smash (EX)": {
         "Motion": "HCB+PP",
@@ -776,7 +776,7 @@
         "Parry": "Hx2",
         "Damage": "180 (120+60)",
         "Stun": "18(13+5)",
-        "Image": "http://wiki.shoryuken.com/images/3/3a/%28elenamsmex%29.gif"
+        "Image": "https://srk.shib.live/images/3/3a/%28elenamsmex%29.gif"
     },
     "Lynx Tail (EX)": {
         "Motion": "B, D, DB+KK",
@@ -791,7 +791,7 @@
         "Parry": "Lx4,HL",
         "Damage": "150 (80+10x3+40)",
         "Stun": "15 (3x4+5)",
-        "Image": "http://wiki.shoryuken.com/images/a/a4/%28elenaltex%29.gif"
+        "Image": "https://srk.shib.live/images/a/a4/%28elenaltex%29.gif"
     },
     "Spinning Beat": {
         "Super Art": "1",
@@ -808,7 +808,7 @@
         "Stun": "35 (7 hits)",
         "Stocks": "3",
         "Stock Size": "80",
-        "Image": "http://wiki.shoryuken.com/images/4/4b/%28elenasa1%29.gif"
+        "Image": "https://srk.shib.live/images/4/4b/%28elenasa1%29.gif"
     },
     "Brave Dance": {
         "Super Art": "2",
@@ -825,7 +825,7 @@
         "Stun": "0",
         "Stocks": "2",
         "Stock Size": "104",
-        "Image": "http://wiki.shoryuken.com/images/e/ef/%28elenasa2%29.gif"
+        "Image": "https://srk.shib.live/images/e/ef/%28elenasa2%29.gif"
     },
     "Healing": {
         "Super Art": "3",
@@ -839,6 +839,6 @@
         "Guard": "HLx5",
         "Parry": "Hx5",
         "Healing": "150-200/420",
-        "Image": "http://wiki.shoryuken.com/images/8/86/%28elenasa3%29.gif"
+        "Image": "https://srk.shib.live/images/8/86/%28elenasa3%29.gif"
     }
 }

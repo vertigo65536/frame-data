@@ -9,7 +9,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/b/b6/%28qlp%29.gif"
+        "Image": "https://srk.shib.live/images/b/b6/%28qlp%29.gif"
     },
     "Strong": {
         "Motion": "MP",
@@ -21,7 +21,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/12/%28qmp%29.gif"
+        "Image": "https://srk.shib.live/images/1/12/%28qmp%29.gif"
     },
     "Fierce": {
         "Motion": "HP",
@@ -33,7 +33,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/8f/%28qhp%29.gif"
+        "Image": "https://srk.shib.live/images/8/8f/%28qhp%29.gif"
     },
     "Close Jab": {
         "Motion": "(Close to opponent) LP",
@@ -45,7 +45,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/6/60/%28qcloselp%29.gif"
+        "Image": "https://srk.shib.live/images/6/60/%28qcloselp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -57,7 +57,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/5/58/%28qlk%29.gif"
+        "Image": "https://srk.shib.live/images/5/58/%28qlk%29.gif"
     },
     "Far Forward": {
         "Motion": "MK",
@@ -69,7 +69,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/da/%28qmk%29.gif"
+        "Image": "https://srk.shib.live/images/d/da/%28qmk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -81,7 +81,7 @@
         "Crouching Hit Advantage": "-8",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/9a/%28qhk%29.gif"
+        "Image": "https://srk.shib.live/images/9/9a/%28qhk%29.gif"
     },
     "Close Forward": {
         "Motion": "(Close to opponent) MK(17 life points)",
@@ -93,7 +93,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/2/27/%28qclosemk%29.gif"
+        "Image": "https://srk.shib.live/images/2/27/%28qclosemk%29.gif"
     },
     "Jump Jab": {
         "Motion": "(Air) LP",
@@ -105,7 +105,7 @@
         "Crouching Hit Advantage": "+2\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/2/2b/%28qjlp%29.gif"
+        "Image": "https://srk.shib.live/images/2/2b/%28qjlp%29.gif"
     },
     "Neutral Jump Jab": {
         "Motion": "(Air) LP",
@@ -117,7 +117,7 @@
         "Crouching Hit Advantage": "+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/2/25/%28qnjlp%29.gif"
+        "Image": "https://srk.shib.live/images/2/25/%28qnjlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "(Air) MP",
@@ -129,7 +129,7 @@
         "Crouching Hit Advantage": "+9\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/17/%28qjmp%29.gif"
+        "Image": "https://srk.shib.live/images/1/17/%28qjmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "(Air) HP",
@@ -141,7 +141,7 @@
         "Crouching Hit Advantage": "+9\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/81/%28qjhp%29.gif"
+        "Image": "https://srk.shib.live/images/8/81/%28qjhp%29.gif"
     },
     "Jump Short": {
         "Motion": "(Air) LK",
@@ -153,7 +153,7 @@
         "Crouching Hit Advantage": "0\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/84/%28qjlk%29.gif"
+        "Image": "https://srk.shib.live/images/8/84/%28qjlk%29.gif"
     },
     "Jump Forward": {
         "Motion": "(Air) MK",
@@ -165,7 +165,7 @@
         "Crouching Hit Advantage": "+6\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/ef/%28qjmk%29.gif"
+        "Image": "https://srk.shib.live/images/e/ef/%28qjmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "(Air) HK",
@@ -177,7 +177,7 @@
         "Crouching Hit Advantage": "+7\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/ef/%28qjhk%29.gif"
+        "Image": "https://srk.shib.live/images/e/ef/%28qjhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -189,7 +189,7 @@
         "Crouching Hit Advantage": "+1~+9",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/70/%28quoh%29.gif"
+        "Image": "https://srk.shib.live/images/7/70/%28quoh%29.gif"
     },
     "Hokaku Oyobi Shippu o Mochi ta Tsuuda": {
         "Motion": "LP+LK",
@@ -201,7 +201,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28qtn%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28qtn%29.gif"
     },
     "Hokaku Oyobi Touteki ni yoru Daraku Shougeki": {
         "Motion": "F+LP+LK or B+LP+LK",
@@ -213,7 +213,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/2/2b/%28qtf%29.gif"
+        "Image": "https://srk.shib.live/images/2/2b/%28qtf%29.gif"
     },
     "Crouch Jab": {
         "Motion": "D+LP",
@@ -225,7 +225,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/7/75/%28qclp%29.gif"
+        "Image": "https://srk.shib.live/images/7/75/%28qclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "D+MP",
@@ -237,7 +237,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/1/1f/%28qcmp%29.gif"
+        "Image": "https://srk.shib.live/images/1/1f/%28qcmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "D+HP",
@@ -249,7 +249,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/f/f9/%28qchp%29.gif"
+        "Image": "https://srk.shib.live/images/f/f9/%28qchp%29.gif"
     },
     "Crouch Short": {
         "Motion": "D+LK",
@@ -261,7 +261,7 @@
         "Crouching Hit Advantage": "-2",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/8/8a/%28qclk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8a/%28qclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "D+MK",
@@ -273,7 +273,7 @@
         "Crouching Hit Advantage": "-1",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/b/b0/%28qcmk%29.gif"
+        "Image": "https://srk.shib.live/images/b/b0/%28qcmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "D+HK",
@@ -285,7 +285,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/8/8e/%28qchk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8e/%28qchk%29.gif"
     },
     "Toubu ni yaru Jouhou Kougeki (Kari)": {
         "Motion": "B+MP",
@@ -297,7 +297,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/62/%28qbmp%29.gif"
+        "Image": "https://srk.shib.live/images/6/62/%28qbmp%29.gif"
     },
     "Ryouude ni yaru Zenshin Tsuugeki (Kari)": {
         "Motion": "B+HK",
@@ -309,7 +309,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/5/59/%28qbhk%29.gif"
+        "Image": "https://srk.shib.live/images/5/59/%28qbhk%29.gif"
     },
     "Tentou kara no Kyakubu Tsuugeki (Kari)": {
         "Motion": "DB+HK or FB+HK(23 life points)",
@@ -321,7 +321,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/8/8e/%28qchk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8e/%28qchk%29.gif"
     },
     "High Speed Barrage (Jab)": {
         "Motion": "QCB+LP",
@@ -334,7 +334,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL/HL/HL",
         "Parry": "H/H/H",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28qhsbl%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28qhsbl%29.gif"
     },
     "High Speed Barrage (Strong)": {
         "Motion": "QCB+MP",
@@ -347,7 +347,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL/HL/HL",
         "Parry": "H/H/H",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28qhsbl%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28qhsbl%29.gif"
     },
     "High Speed Barrage (Fierce)": {
         "Motion": "QCB+HP",
@@ -360,7 +360,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL/HL/HL",
         "Parry": "H/H/H",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28qhsbl%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28qhsbl%29.gif"
     },
     "Dashing Head Attack (Jab)": {
         "Motion": "Hold B, F+LP",
@@ -373,7 +373,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/98/%28qdha%29.gif"
+        "Image": "https://srk.shib.live/images/9/98/%28qdha%29.gif"
     },
     "Dashing Head Attack (Strong)": {
         "Motion": "Hold B, F+MP",
@@ -386,7 +386,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/98/%28qdha%29.gif"
+        "Image": "https://srk.shib.live/images/9/98/%28qdha%29.gif"
     },
     "Dashing Head Attack (Fierce)": {
         "Motion": "Hold B, F+HP",
@@ -399,7 +399,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/98/%28qdha%29.gif"
+        "Image": "https://srk.shib.live/images/9/98/%28qdha%29.gif"
     },
     "Dashing Head Attack (Overhead) (Jab)": {
         "Motion": "Hold B, F+LP (Hold LP)",
@@ -412,7 +412,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/b/b9/%28qdhao%29.gif"
+        "Image": "https://srk.shib.live/images/b/b9/%28qdhao%29.gif"
     },
     "Dashing Head Attack (Overhead) (Strong)": {
         "Motion": "Hold B, F+MP (Hold MP)",
@@ -425,7 +425,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/b/b9/%28qdhao%29.gif"
+        "Image": "https://srk.shib.live/images/b/b9/%28qdhao%29.gif"
     },
     "Dashing Head Attack (Overhead) (Fierce)": {
         "Motion": "Hold B, F+HP (Hold HP)",
@@ -438,7 +438,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/b/b9/%28qdhao%29.gif"
+        "Image": "https://srk.shib.live/images/b/b9/%28qdhao%29.gif"
     },
     "Dashing Leg Attack (Short)": {
         "Motion": "Hold B, F+LK",
@@ -451,7 +451,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/2/24/%28qdla%29.gif"
+        "Image": "https://srk.shib.live/images/2/24/%28qdla%29.gif"
     },
     "Dashing Leg Attack (Forward)": {
         "Motion": "Hold B, F+MK",
@@ -464,7 +464,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/2/24/%28qdla%29.gif"
+        "Image": "https://srk.shib.live/images/2/24/%28qdla%29.gif"
     },
     "Dashing Leg Attack (Roundhouse)": {
         "Motion": "Hold B, F+HK",
@@ -477,7 +477,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/2/24/%28qdla%29.gif"
+        "Image": "https://srk.shib.live/images/2/24/%28qdla%29.gif"
     },
     "Capture and Deadly Blow (Short)": {
         "Motion": "HCB+LK",
@@ -490,7 +490,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/5/5b/%28qcadb%29.gif"
+        "Image": "https://srk.shib.live/images/5/5b/%28qcadb%29.gif"
     },
     "Capture and Deadly Blow (Forward)": {
         "Motion": "HCB+MK",
@@ -503,7 +503,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/5/5b/%28qcadb%29.gif"
+        "Image": "https://srk.shib.live/images/5/5b/%28qcadb%29.gif"
     },
     "Capture and Deadly Blow (Roundhouse)": {
         "Motion": "HCB+HK",
@@ -516,7 +516,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/5/5b/%28qcadb%29.gif"
+        "Image": "https://srk.shib.live/images/5/5b/%28qcadb%29.gif"
     },
     "High Speed Barrage (EX)": {
         "Motion": "QCB+PP",
@@ -529,7 +529,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx7",
         "Parry": "Hx7",
-        "Image": "http://wiki.shoryuken.com/images/e/e2/%28qhsbex%29.gif"
+        "Image": "https://srk.shib.live/images/e/e2/%28qhsbex%29.gif"
     },
     "Dashing Head Attack (EX)": {
         "Motion": "Hold B, F+PP",
@@ -542,7 +542,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/c/c2/%28qdhaex%29.gif"
+        "Image": "https://srk.shib.live/images/c/c2/%28qdhaex%29.gif"
     },
     "Dashing Leg Attack (EX)": {
         "Motion": "Hold B, F+KK",
@@ -555,7 +555,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L/H",
-        "Image": "http://wiki.shoryuken.com/images/2/24/%28qdlaex%29.gif"
+        "Image": "https://srk.shib.live/images/2/24/%28qdlaex%29.gif"
     },
     "Critical Combo Attack": {
         "Super Art": "I",
@@ -568,7 +568,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL/HL/HL/L/HL",
         "Parry": "H/H/H/L/H",
-        "Image": "http://wiki.shoryuken.com/images/4/4c/%28qsa1%29.gif"
+        "Image": "https://srk.shib.live/images/4/4c/%28qsa1%29.gif"
     },
     "Deadly Double Combination": {
         "Super Art": "II",
@@ -581,7 +581,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL/HL",
         "Parry": "H/H",
-        "Image": "http://wiki.shoryuken.com/images/3/3b/%28qsa2%29.gif"
+        "Image": "https://srk.shib.live/images/3/3b/%28qsa2%29.gif"
     },
     "Total Destruction (Activation)": {
         "Super Art": "III",
@@ -595,7 +595,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28qsa3%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28qsa3%29.gif"
     },
     "Total Destruction (Punch)": {
         "Super Art": "-",
@@ -609,7 +609,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28qsa3%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28qsa3%29.gif"
     },
     "Total Destruction (Grab)": {
         "Super Art": "-",
@@ -623,6 +623,6 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "Impossible",
         "Parry": "Impossible",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28qsa3%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28qsa3%29.gif"
     }
 }

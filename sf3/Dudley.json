@@ -11,7 +11,7 @@
         "Parry": "HL",
         "Damage": "15",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/3/36/%28dudleylp%29.gif"
+        "Image": "https://srk.shib.live/images/3/36/%28dudleylp%29.gif"
     },
     "Strong": {
         "Motion": "MP",
@@ -25,7 +25,7 @@
         "Parry": "H",
         "Damage": "60",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/7/7a/%28dudleymp%29.gif"
+        "Image": "https://srk.shib.live/images/7/7a/%28dudleymp%29.gif"
     },
     "Fierce": {
         "Motion": "HP",
@@ -39,7 +39,7 @@
         "Parry": "H",
         "Damage": "140",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/c/c7/%28dudleyhp%29.gif"
+        "Image": "https://srk.shib.live/images/c/c7/%28dudleyhp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -53,7 +53,7 @@
         "Parry": "HL",
         "Damage": "35",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/9/92/%28dudleylk%29.gif"
+        "Image": "https://srk.shib.live/images/9/92/%28dudleylk%29.gif"
     },
     "Forward": {
         "Motion": "MK",
@@ -67,7 +67,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/5/50/%28dudleymk%29.gif"
+        "Image": "https://srk.shib.live/images/5/50/%28dudleymk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -81,7 +81,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/9/94/%28dudleyhk%29.gif"
+        "Image": "https://srk.shib.live/images/9/94/%28dudleyhk%29.gif"
     },
     "Jump Jab": {
         "Motion": "j.LP",
@@ -95,7 +95,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/1/18/%28dudleyjlp%29.gif"
+        "Image": "https://srk.shib.live/images/1/18/%28dudleyjlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "j.MP",
@@ -109,7 +109,7 @@
         "Parry": "H",
         "Damage": "70",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/2/2d/%28dudleyjmp%29.gif"
+        "Image": "https://srk.shib.live/images/2/2d/%28dudleyjmp%29.gif"
     },
     "Neutral Jump Strong": {
         "Motion": "nj.MP",
@@ -123,7 +123,7 @@
         "Parry": "H",
         "Damage": "70",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/2/2d/%28dudleyjmp%29.gif"
+        "Image": "https://srk.shib.live/images/2/2d/%28dudleyjmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "j.HP",
@@ -137,7 +137,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/d/d7/%28dudleyjhp%29.gif"
+        "Image": "https://srk.shib.live/images/d/d7/%28dudleyjhp%29.gif"
     },
     "Jump Short": {
         "Motion": "j.LK",
@@ -151,7 +151,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/1/1a/%28dudleyjlk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1a/%28dudleyjlk%29.gif"
     },
     "Jump Forward": {
         "Motion": "j.MK",
@@ -165,7 +165,7 @@
         "Parry": "H",
         "Damage": "60",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/0/02/%28dudleyjmk%29.gif"
+        "Image": "https://srk.shib.live/images/0/02/%28dudleyjmk%29.gif"
     },
     "Neutral Jump Roundhouse": {
         "Motion": "nj.HK",
@@ -179,7 +179,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/f/fb/%28dudleyjhk%29.gif"
+        "Image": "https://srk.shib.live/images/f/fb/%28dudleyjhk%29.gif"
     },
 
     "Jump Roundhouse": {
@@ -194,7 +194,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/f/fb/%28dudleyjhk%29.gif"
+        "Image": "https://srk.shib.live/images/f/fb/%28dudleyjhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -208,7 +208,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/b/b4/%28dudleyoh%29.gif"
+        "Image": "https://srk.shib.live/images/b/b4/%28dudleyoh%29.gif"
     },
     "Taunt": {
         "Motion": "HP+HK",
@@ -218,7 +218,7 @@
         "Damage": "5",
         "Stun": "0",
         "Notes": "Increased attack power for all moves other than throw",
-        "Image": "http://wiki.shoryuken.com/images/5/57/%28dudleyt%29.gif"
+        "Image": "https://srk.shib.live/images/5/57/%28dudleyt%29.gif"
     },
     "Liver Crusher": {
         "Motion": "LP+LK",
@@ -232,7 +232,7 @@
         "Parry": "-",
         "Damage": "120 (30x6)",
         "Stun": "18 (3x6)",
-        "Image": "http://wiki.shoryuken.com/images/a/a6/%28dudleylct%29.gif"
+        "Image": "https://srk.shib.live/images/a/a6/%28dudleylct%29.gif"
     },
     "Dynamite Throw": {
         "Motion": "F/B+LP+LK",
@@ -246,7 +246,7 @@
         "Parry": "-",
         "Damage": "120",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/3/30/%28dudleydttr%29.gif"
+        "Image": "https://srk.shib.live/images/3/30/%28dudleydttr%29.gif"
     },
     "Crouch Jab": {
         "Motion": "cr.LP",
@@ -260,7 +260,7 @@
         "Parry": "HL",
         "Damage": "15",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/3/3a/%28dudleyclp%29.gif"
+        "Image": "https://srk.shib.live/images/3/3a/%28dudleyclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "cr.MP",
@@ -274,7 +274,7 @@
         "Parry": "HL",
         "Damage": "70",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/c/c2/%28dudleycmp%29.gif"
+        "Image": "https://srk.shib.live/images/c/c2/%28dudleycmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "cr.HP",
@@ -288,7 +288,7 @@
         "Parry": "HL",
         "Damage": "130",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/0/09/%28dudleychp%29.gif"
+        "Image": "https://srk.shib.live/images/0/09/%28dudleychp%29.gif"
     },
     "Crouch Short": {
         "Motion": "cr.LK",
@@ -302,7 +302,7 @@
         "Parry": "L",
         "Damage": "30",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/f/fd/%28dudleyclk%29.gif"
+        "Image": "https://srk.shib.live/images/f/fd/%28dudleyclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "cr.MK",
@@ -316,7 +316,7 @@
         "Parry": "L",
         "Damage": "60",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/c/c4/%28dudleycmk%29.gif"
+        "Image": "https://srk.shib.live/images/c/c4/%28dudleycmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "cr.HK",
@@ -330,7 +330,7 @@
         "Parry": "L",
         "Damage": "100",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/1/1f/%28dudleychk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1f/%28dudleychk%29.gif"
     },
     "Slipping Jab": {
         "Motion": "F + LP",
@@ -344,7 +344,7 @@
         "Parry": "HL",
         "Damage": "25",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/6/6a/%28dudleyflp%29.gif"
+        "Image": "https://srk.shib.live/images/6/6a/%28dudleyflp%29.gif"
     },
     "Stomach Blow": {
         "Motion": "F + MP",
@@ -358,7 +358,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/4/4b/%28dudleyfmp%29.gif"
+        "Image": "https://srk.shib.live/images/4/4b/%28dudleyfmp%29.gif"
     },
     "Step Straight": {
         "Motion": "F + HP",
@@ -372,7 +372,7 @@
         "Parry": "H",
         "Damage": "140",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/4/40/%28dudleyfhp%29.gif"
+        "Image": "https://srk.shib.live/images/4/40/%28dudleyfhp%29.gif"
     },
     "Lever Blow": {
         "Motion": "F+MK",
@@ -386,7 +386,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/e/eb/%28dudleyfmk%29.gif"
+        "Image": "https://srk.shib.live/images/e/eb/%28dudleyfmk%29.gif"
     },
     "Dart Shot": {
         "Motion": "F+HK",
@@ -400,7 +400,7 @@
         "Parry": "HL",
         "Damage": "110",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/7/70/%28dudleyfhk%29.gif"
+        "Image": "https://srk.shib.live/images/7/70/%28dudleyfhk%29.gif"
     },
     "Jet Upper (Jab)": {
         "Motion": "F, D, DF+LP",
@@ -415,7 +415,7 @@
         "Parry": "H",
         "Damage": "140 (80)",
         "Stun": "17 (3)",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28dudleyjup%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28dudleyjup%29.gif"
     },
     "Jet Upper (Strong)": {
         "Motion": "F, D, DF+MP",
@@ -430,7 +430,7 @@
         "Parry": "H",
         "Damage": "160 (100)",
         "Stun": "19 (3)",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28dudleyjup%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28dudleyjup%29.gif"
     },
     "Jet Upper (Fierce)": {
         "Motion": "F, D, DF+HP",
@@ -445,7 +445,7 @@
         "Parry": "H/H",
         "Damage": "180 (40+140 (120))",
         "Stun": "22 (5+17(3))",
-        "Image": "http://wiki.shoryuken.com/images/1/10/%28dudleyjup%29.gif"
+        "Image": "https://srk.shib.live/images/1/10/%28dudleyjup%29.gif"
     },
     "Machine Gun Blow (Jab)": {
         "Motion": "HCF+LP",
@@ -460,7 +460,7 @@
         "Parry": "H/H",
         "Damage": "120 (3 hits)",
         "Stun": "9 (3 hits)",
-        "Image": "http://wiki.shoryuken.com/images/6/69/%28dudleymgb%29.gif"
+        "Image": "https://srk.shib.live/images/6/69/%28dudleymgb%29.gif"
     },
     "Machine Gun Blow (Strong)": {
         "Motion": "HCF+MP",
@@ -475,7 +475,7 @@
         "Parry": "H/H/H",
         "Damage": "140 (4 hits)",
         "Stun": "9 (4 hits)",
-        "Image": "http://wiki.shoryuken.com/images/6/69/%28dudleymgb%29.gif"
+        "Image": "https://srk.shib.live/images/6/69/%28dudleymgb%29.gif"
     },
     "Machine Gun Blow (Fierce)": {
         "Motion": "HCF+HP",
@@ -490,7 +490,7 @@
         "Parry": "H/H/H/H",
         "Damage": "160 (6 hits)",
         "Stun": "11 (6 hits)",
-        "Image": "http://wiki.shoryuken.com/images/6/69/%28dudleymgb%29.gif"
+        "Image": "https://srk.shib.live/images/6/69/%28dudleymgb%29.gif"
     },
     "Cross Counter (Jab)": {
         "Motion": "HCB+LP",
@@ -506,7 +506,7 @@
         "Damage": "80+α",
         "Stun": "19",
         "Notes": "α changes depending on opponents move",
-        "Image": "http://wiki.shoryuken.com/images/9/91/%28dudleycrco%29.gif"
+        "Image": "https://srk.shib.live/images/9/91/%28dudleycrco%29.gif"
     },
     "Cross Counter (Strong)": {
         "Motion": "HCB+MP",
@@ -522,7 +522,7 @@
         "Damage": "100+α",
         "Stun": "19",
         "Notes": "α changes depending on opponents move",
-        "Image": "http://wiki.shoryuken.com/images/9/91/%28dudleycrco%29.gif"
+        "Image": "https://srk.shib.live/images/9/91/%28dudleycrco%29.gif"
     },
     "Cross Counter (Fierce)": {
         "Motion": "HCB+HP",
@@ -538,7 +538,7 @@
         "Damage": "130+α",
         "Stun": "19",
         "Notes": "α changes depending on opponents move",
-        "Image": "http://wiki.shoryuken.com/images/9/91/%28dudleycrco%29.gif"
+        "Image": "https://srk.shib.live/images/9/91/%28dudleycrco%29.gif"
     },
     "Ducking (Short)": {
         "Motion": "HCF+LK",
@@ -551,7 +551,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/e/ee/%28dudleyduck%29.gif"
+        "Image": "https://srk.shib.live/images/e/ee/%28dudleyduck%29.gif"
     },
     "Ducking (Forward)": {
         "Motion": "HCF+MK",
@@ -564,7 +564,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/e/ee/%28dudleyduck%29.gif"
+        "Image": "https://srk.shib.live/images/e/ee/%28dudleyduck%29.gif"
     },
     "Ducking (Roundhouse)": {
         "Motion": "HCF+HK",
@@ -577,7 +577,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/e/ee/%28dudleyduck%29.gif"
+        "Image": "https://srk.shib.live/images/e/ee/%28dudleyduck%29.gif"
     },
     "Ducking Straight (Jab)": {
         "Motion": "HCF+K,LP",
@@ -592,7 +592,7 @@
         "Parry": "H",
         "Damage": "160",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/e/ec/%28dudleyduckst%29.gif"
+        "Image": "https://srk.shib.live/images/e/ec/%28dudleyduckst%29.gif"
     },
     "Ducking Straight (Strong)": {
         "Motion": "HCF+K,MP",
@@ -607,7 +607,7 @@
         "Parry": "H",
         "Damage": "160",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/e/ec/%28dudleyduckst%29.gif"
+        "Image": "https://srk.shib.live/images/e/ec/%28dudleyduckst%29.gif"
     },
     "Ducking Straight (Fierce)": {
         "Motion": "HCF+K,HP",
@@ -622,7 +622,7 @@
         "Parry": "H",
         "Damage": "160",
         "Stun": "17",
-        "Image": "http://wiki.shoryuken.com/images/e/ec/%28dudleyduckst%29.gif"
+        "Image": "https://srk.shib.live/images/e/ec/%28dudleyduckst%29.gif"
     },
     "Ducking Uppercut (Short)": {
         "Motion": "HCF+K,LK",
@@ -637,7 +637,7 @@
         "Parry": "H",
         "Damage": "180 (50+130)",
         "Stun": "12 (5+7)",
-        "Image": "http://wiki.shoryuken.com/images/e/ee/%28dudleyduckup%29.gif"
+        "Image": "https://srk.shib.live/images/e/ee/%28dudleyduckup%29.gif"
     },
     "Ducking Uppercut (Forward)": {
         "Motion": "HCF+K,MK",
@@ -652,7 +652,7 @@
         "Parry": "H",
         "Damage": "180 (50+130)",
         "Stun": "12 (5+7)",
-        "Image": "http://wiki.shoryuken.com/images/e/ee/%28dudleyduckup%29.gif"
+        "Image": "https://srk.shib.live/images/e/ee/%28dudleyduckup%29.gif"
     },
     "Ducking Uppercut (Roundhouse)": {
         "Motion": "HCF+K,HK",
@@ -667,7 +667,7 @@
         "Parry": "H",
         "Damage": "180 (50+130)",
         "Stun": "12 (5+7)",
-        "Image": "http://wiki.shoryuken.com/images/e/ee/%28dudleyduckup%29.gif"
+        "Image": "https://srk.shib.live/images/e/ee/%28dudleyduckup%29.gif"
     },
     "Short Swing Blow (Short)": {
         "Motion": "HCB+LK",
@@ -724,7 +724,7 @@
         "Parry": "H/H/HL",
         "Damage": "200 (30+30+140)",
         "Stun": "25(5+5+15)",
-        "Image": "http://wiki.shoryuken.com/images/6/62/%28dudleyssbex%29.gif"
+        "Image": "https://srk.shib.live/images/6/62/%28dudleyssbex%29.gif"
 
     },
 
@@ -741,7 +741,7 @@
         "Parry": "H",
         "Damage": "220 (60+160(140))",
         "Stun": "22 (5+17(3))",
-        "Image": "http://wiki.shoryuken.com/images/f/f3/%28dudleyjupex%29.gif"
+        "Image": "https://srk.shib.live/images/f/f3/%28dudleyjupex%29.gif"
     },
     "Machine Gun Blow (EX)": {
         "Motion": "HCF+PP",
@@ -756,7 +756,7 @@
         "Parry": "HL",
         "Damage": "190 (7 hits)",
         "Stun": "14 (7 hits)",
-        "Image": "http://wiki.shoryuken.com/images/8/87/%28dudleymgbex%29.gif"
+        "Image": "https://srk.shib.live/images/8/87/%28dudleymgbex%29.gif"
     },
     "Cross Counter (EX)": {
         "Motion": "HCB+PP",
@@ -772,7 +772,7 @@
         "Damage": "160+α",
         "Stun": "20",
         "Notes" : "α changes depending on opponents move",
-        "Image": "http://wiki.shoryuken.com/images/a/ab/%28dudleyccex%29.gif"
+        "Image": "https://srk.shib.live/images/a/ab/%28dudleyccex%29.gif"
     },
     "Rocket Upper": {
         "Super Art": "1",
@@ -789,7 +789,7 @@
         "Stun": "6 (11 hits)",
         "Stocks": "2",
         "Stock Size": "96",
-        "Image": "http://wiki.shoryuken.com/images/4/45/%28dudleysa1%29.gif"
+        "Image": "https://srk.shib.live/images/4/45/%28dudleysa1%29.gif"
     },
     "Rolling Thunder": {
         "Super Art": "2",
@@ -806,7 +806,7 @@
         "Stun": "20 (8 hits)",
         "Stocks": "1",
         "Stock Size": "112",
-        "Image": "http://wiki.shoryuken.com/images/e/e0/%28dudleysa2%29.gif"
+        "Image": "https://srk.shib.live/images/e/e0/%28dudleysa2%29.gif"
     },
     "Corkscrew Blow": {
         "Super Art": "3",
@@ -823,6 +823,6 @@
         "Stun": "0",
         "Stocks": "3",
         "Stock Size": "80",
-        "Image": "http://wiki.shoryuken.com/images/5/5c/%28dudleysa3%29.gif"
+        "Image": "https://srk.shib.live/images/5/5c/%28dudleysa3%29.gif"
     }
 }

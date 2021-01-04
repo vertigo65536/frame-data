@@ -9,7 +9,7 @@
         "Crouching Hit Advantage": "+4",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/1/13/%28ryulp%29.gif"
+        "Image": "https://srk.shib.live/images/1/13/%28ryulp%29.gif"
     },
     "Far Strong": {
         "Motion": "MP",
@@ -21,7 +21,7 @@
         "Crouching Hit Advantage": "+6",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/69/%28ryump%29.gif"
+        "Image": "https://srk.shib.live/images/6/69/%28ryump%29.gif"
     },
     "Far Fierce": {
         "Motion": "HP",
@@ -33,7 +33,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/a/ae/%28ryuhp%29.gif"
+        "Image": "https://srk.shib.live/images/a/ae/%28ryuhp%29.gif"
     },
     "Close Jab": {
         "Motion": "(Close to opponent) LP",
@@ -45,7 +45,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/6/6e/%28ryucloselp%29.gif"
+        "Image": "https://srk.shib.live/images/6/6e/%28ryucloselp%29.gif"
     },
     "Close Strong": {
         "Motion": "(Close to opponent) MP",
@@ -57,7 +57,7 @@
         "Crouching Hit Advantage": "+6",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/2/27/%28ryuclosemp%29.gif"
+        "Image": "https://srk.shib.live/images/2/27/%28ryuclosemp%29.gif"
     },
     "Close Fierce": {
         "Motion": "(Close to opponent) HP",
@@ -69,7 +69,7 @@
         "Crouching Hit Advantage": "0",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/ea/%28ryuclosehp%29.gif"
+        "Image": "https://srk.shib.live/images/e/ea/%28ryuclosehp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -81,7 +81,7 @@
         "Crouching Hit Advantage": "+2",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/9/99/%28ryulk%29.gif"
+        "Image": "https://srk.shib.live/images/9/99/%28ryulk%29.gif"
     },
     "Forward": {
         "Motion": "MK",
@@ -93,7 +93,7 @@
         "Crouching Hit Advantage": "-3",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/8a/%28ryumk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8a/%28ryumk%29.gif"
     },
     "Roundhouse": {
         "Motion": "HK",
@@ -105,7 +105,7 @@
         "Crouching Hit Advantage": "-1",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/5/55/%28ryuhk%29.gif"
+        "Image": "https://srk.shib.live/images/5/55/%28ryuhk%29.gif"
     },
     "Close Forward": {
         "Motion": "(Close to opponent) MK",
@@ -117,7 +117,7 @@
         "Crouching Hit Advantage": "+6",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/e/e8/%28ryuclosemk%29.gif"
+        "Image": "https://srk.shib.live/images/e/e8/%28ryuclosemk%29.gif"
     },
     "Jump Jab": {
         "Motion": "(Air) LP",
@@ -129,7 +129,7 @@
         "Crouching Hit Advantage": "+4\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/17/%28ryujlp%29.gif"
+        "Image": "https://srk.shib.live/images/1/17/%28ryujlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "(Air) MP",
@@ -141,7 +141,7 @@
         "Crouching Hit Advantage": "+10/+8\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/9/95/%28ryujmp%29.gif"
+        "Image": "https://srk.shib.live/images/9/95/%28ryujmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "(Air) HP",
@@ -153,7 +153,7 @@
         "Crouching Hit Advantage": "+10\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/a/aa/%28ryujhp%29.gif"
+        "Image": "https://srk.shib.live/images/a/aa/%28ryujhp%29.gif"
     },
     "_Neutral Jump Fierce": {
         "Motion": "(Air) HP",
@@ -165,7 +165,7 @@
         "Crouching Hit Advantage": "+12\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/36/%28ryunjhp%29.gif"
+        "Image": "https://srk.shib.live/images/3/36/%28ryunjhp%29.gif"
     },
     "Jump Short": {
         "Motion": "(Air) LK",
@@ -177,7 +177,7 @@
         "Crouching Hit Advantage": "0\uff5e+7",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/32/%28ryujlk%29.gif"
+        "Image": "https://srk.shib.live/images/3/32/%28ryujlk%29.gif"
     },
     "Jump Forward": {
         "Motion": "(Air) MK",
@@ -189,7 +189,7 @@
         "Crouching Hit Advantage": "+6\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/0f/%28ryujmk%29.gif"
+        "Image": "https://srk.shib.live/images/0/0f/%28ryujmk%29.gif"
     },
     "Neutral Jump Forward": {
         "Motion": "(Air) MK",
@@ -201,7 +201,7 @@
         "Crouching Hit Advantage": "+6\uff5e+10",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/06/%28ryunjmk%29.gif"
+        "Image": "https://srk.shib.live/images/0/06/%28ryunjmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "(Air) HK",
@@ -213,7 +213,7 @@
         "Crouching Hit Advantage": "+8\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/7/70/%28ryujhk%29.gif"
+        "Image": "https://srk.shib.live/images/7/70/%28ryujhk%29.gif"
     },
     "Neutral Jump Roundhouse": {
         "Motion": "(Air) HK",
@@ -225,7 +225,7 @@
         "Crouching Hit Advantage": "+10\uff5e+13",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/2/24/%28ryunjhk%29.gif"
+        "Image": "https://srk.shib.live/images/2/24/%28ryunjhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -237,7 +237,7 @@
         "Crouching Hit Advantage": "+1~+9",
         "Guard": "H",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/1b/%28ryuoh%29.gif"
+        "Image": "https://srk.shib.live/images/1/1b/%28ryuoh%29.gif"
     },
     "Seoi Nage": {
         "Motion": "(F)+LP+LK",
@@ -249,7 +249,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "(F)+LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/8/86/%28ryusgtr%29.gif"
+        "Image": "https://srk.shib.live/images/8/86/%28ryusgtr%29.gif"
     },
     "Tomoe Nage": {
         "Motion": "B+LP+LK",
@@ -261,7 +261,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "B+LP+LK",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/7c/%28ryutntr%29.gif"
+        "Image": "https://srk.shib.live/images/7/7c/%28ryutntr%29.gif"
     },
     "Crouch Jab": {
         "Motion": "D+LP",
@@ -273,7 +273,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/0/08/%28ryuclp%29.gif"
+        "Image": "https://srk.shib.live/images/0/08/%28ryuclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "D+MP",
@@ -285,7 +285,7 @@
         "Crouching Hit Advantage": "+5",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/9/9b/%28ryucmp%29.gif"
+        "Image": "https://srk.shib.live/images/9/9b/%28ryucmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "D+HP",
@@ -297,7 +297,7 @@
         "Crouching Hit Advantage": "-4",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/4/48/%28ryuchp%29.gif"
+        "Image": "https://srk.shib.live/images/4/48/%28ryuchp%29.gif"
     },
     "Crouch Short": {
         "Motion": "D+LK",
@@ -309,7 +309,7 @@
         "Crouching Hit Advantage": "+1",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/0/0d/%28ryuclk%29.gif"
+        "Image": "https://srk.shib.live/images/0/0d/%28ryuclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "D+MK",
@@ -321,7 +321,7 @@
         "Crouching Hit Advantage": "-1",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/f/ff/%28ryucmk%29.gif"
+        "Image": "https://srk.shib.live/images/f/ff/%28ryucmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "D+HK",
@@ -333,7 +333,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "L",
         "Parry": "L",
-        "Image": "http://wiki.shoryuken.com/images/4/4f/%28ryuchk%29.gif"
+        "Image": "https://srk.shib.live/images/4/4f/%28ryuchk%29.gif"
     },
     "Sakotsu Wari": {
         "Motion": "F+MP",
@@ -345,7 +345,7 @@
         "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/6/60/%28ryufmp%29.gif"
+        "Image": "https://srk.shib.live/images/6/60/%28ryufmp%29.gif"
     },
     "Kyuubi Kudaki": {
         "Motion": "F+HP",
@@ -357,7 +357,7 @@
         "Crouching Hit Advantage": "+6",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/d/d0/%28ryuhfp%29.gif"
+        "Image": "https://srk.shib.live/images/d/d0/%28ryuhfp%29.gif"
     },
     "Hadouken": {
         "Motion": "QCF+P",
@@ -369,7 +369,7 @@
         "Crouching Hit Advantage": "-7",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/0c/%28ryuhdk%29.gif"
+        "Image": "https://srk.shib.live/images/0/0c/%28ryuhdk%29.gif"
     },
     "Shoryuken (Jab)": {
         "Motion": "F, D, DF+LP",
@@ -382,7 +382,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/2/28/%28ryusrk%29.gif"
+        "Image": "https://srk.shib.live/images/2/28/%28ryusrk%29.gif"
     },
     "Shoryuken (Strong)": {
         "Motion": "F, D, DF+MP",
@@ -395,7 +395,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/2/28/%28ryusrk%29.gif"
+        "Image": "https://srk.shib.live/images/2/28/%28ryusrk%29.gif"
     },
     "Shoryuken (Fierce)": {
         "Motion": "F, D, DF+HP",
@@ -408,7 +408,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "HL",
-        "Image": "http://wiki.shoryuken.com/images/2/28/%28ryusrk%29.gif"
+        "Image": "https://srk.shib.live/images/2/28/%28ryusrk%29.gif"
     },
     "Tatsumaki Senpuu Kyaku (Short)": {
         "Motion": "QCB+LK",
@@ -421,7 +421,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/f/f9/%28ryutsk%29.gif"
+        "Image": "https://srk.shib.live/images/f/f9/%28ryutsk%29.gif"
     },
     "Tatsumaki Senpuu Kyaku (Forward)": {
         "Motion": "QCB+MK",
@@ -434,7 +434,7 @@
         "Crouching Hit Advantage": "-4",
         "Guard": "HL/HL/HL",
         "Parry": "H/H/H",
-        "Image": "http://wiki.shoryuken.com/images/f/f9/%28ryutsk%29.gif"
+        "Image": "https://srk.shib.live/images/f/f9/%28ryutsk%29.gif"
     },
     "Tatsumaki Senpuu Kyaku (Roundhouse)": {
         "Motion": "QCB+HK",
@@ -447,7 +447,7 @@
         "Crouching Hit Advantage": "-5",
         "Guard": "HL/HL/HL",
         "Parry": "H/H/H",
-        "Image": "http://wiki.shoryuken.com/images/f/f9/%28ryutsk%29.gif"
+        "Image": "https://srk.shib.live/images/f/f9/%28ryutsk%29.gif"
     },
     "Air Tatsumaki Senpuu Kyaku (Short)": {
         "Motion": "(Air) QCB+LK",
@@ -460,7 +460,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/83/%28ryuatsk%29.gif"
+        "Image": "https://srk.shib.live/images/8/83/%28ryuatsk%29.gif"
     },
     "Air Tatsumaki Senpuu Kyaku (Forward)": {
         "Motion": "(Air) QCB+MK",
@@ -473,7 +473,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/83/%28ryuatsk%29.gif"
+        "Image": "https://srk.shib.live/images/8/83/%28ryuatsk%29.gif"
     },
     "Air Tatsumaki Senpuu Kyaku (Roundhouse)": {
         "Motion": "(Air) QCB+HK",
@@ -486,7 +486,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/8/83/%28ryuatsk%29.gif"
+        "Image": "https://srk.shib.live/images/8/83/%28ryuatsk%29.gif"
     },
     "Joudan Sokutou Geri (Short)": {
         "Motion": "HCF+LK",
@@ -499,7 +499,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL/HL",
         "Parry": "H/H",
-        "Image": "http://wiki.shoryuken.com/images/4/4b/%28ryujsg%29.gif"
+        "Image": "https://srk.shib.live/images/4/4b/%28ryujsg%29.gif"
     },
     "Joudan Sokutou Geri (Forward)": {
         "Motion": "HCF+MK",
@@ -512,7 +512,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL/HL/HL/HL",
         "Parry": "H/H/H/H",
-        "Image": "http://wiki.shoryuken.com/images/4/4b/%28ryujsg%29.gif"
+        "Image": "https://srk.shib.live/images/4/4b/%28ryujsg%29.gif"
     },
     "Joudan Sokutou Geri (Roundhouse)": {
         "Motion": "HCF+HK",
@@ -525,7 +525,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL/HL/HL/HL/HL",
         "Parry": "H/H/H/H/H",
-        "Image": "http://wiki.shoryuken.com/images/4/4b/%28ryujsg%29.gif"
+        "Image": "https://srk.shib.live/images/4/4b/%28ryujsg%29.gif"
     },
     "Hadouken (EX)": {
         "Motion": "QCF+PP",
@@ -538,7 +538,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/17/%28ryuhdkex%29.gif"
+        "Image": "https://srk.shib.live/images/1/17/%28ryuhdkex%29.gif"
     },
     "Shoryuken (EX)": {
         "Motion": "F, D, DF+PP",
@@ -551,7 +551,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx2",
         "Parry": "HLx2",
-        "Image": "http://wiki.shoryuken.com/images/6/62/%28ryusrkex%29.gif"
+        "Image": "https://srk.shib.live/images/6/62/%28ryusrkex%29.gif"
     },
     "Tatsumaki Senpuu Kyaku (EX)": {
         "Motion": "QCB+KK",
@@ -563,7 +563,7 @@
         "Hit Advantage": "Down",
         "Crouching Hit Advantage": "align=\"center\" | HL",
         "Guard": "H",
-        "Image": "http://wiki.shoryuken.com/images/0/02/%28ryutskex%29.gif"
+        "Image": "https://srk.shib.live/images/0/02/%28ryutskex%29.gif"
     },
     "Air Tatsumaki Senpuu Kyaku (EX)": {
         "Motion": "(Air) QCB+KK",
@@ -576,7 +576,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/3/3b/%28ryuatskex%29.gif"
+        "Image": "https://srk.shib.live/images/3/3b/%28ryuatskex%29.gif"
     },
     "Joudan Sokutou Geri (EX)": {
         "Motion": "HCF+KK",
@@ -589,7 +589,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HL",
         "Parry": "H",
-        "Image": "http://wiki.shoryuken.com/images/1/1e/%28ryujsgex%29.gif"
+        "Image": "https://srk.shib.live/images/1/1e/%28ryujsgex%29.gif"
     },
     "Shinkuu Hadouken": {
         "Super Art": "I",
@@ -602,7 +602,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx5",
         "Parry": "HLx5",
-        "Image": "http://wiki.shoryuken.com/images/a/aa/%28ryusa1%29.gif"
+        "Image": "https://srk.shib.live/images/a/aa/%28ryusa1%29.gif"
     },
     "Shin Shoryuken": {
         "Super Art": "II",
@@ -615,7 +615,7 @@
         "Crouching Hit Advantage": "Down",
         "Guard": "HLx1~7",
         "Parry": "HLx1~7",
-        "Image": "http://wiki.shoryuken.com/images/8/89/%28ryusa2%29.gif"
+        "Image": "https://srk.shib.live/images/8/89/%28ryusa2%29.gif"
     },
     "Denjin Hadouken": {
         "Super Art": "III",
@@ -625,6 +625,6 @@
         "Recovery": "51",
         "Guard": "HLx1~5",
         "Parry": "Hx1~5",
-        "Image": "http://wiki.shoryuken.com/images/6/66/%28ryusa3%29.gif"
+        "Image": "https://srk.shib.live/images/6/66/%28ryusa3%29.gif"
     }
 }

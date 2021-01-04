@@ -11,7 +11,7 @@
         "Parry": "HL",
         "Stun": "3",
         "Damage": "15",
-        "Image": "http://wiki.shoryuken.com/images/e/e8/%28akumalp%29.gif"
+        "Image": "https://srk.shib.live/images/e/e8/%28akumalp%29.gif"
     },
     "Far Strong": {
         "Motion": "MP",
@@ -25,7 +25,7 @@
         "Parry": "H",
         "Stun": "11",
         "Damage": "105",
-        "Image": "http://wiki.shoryuken.com/images/b/be/%28akumamp%29.gif"
+        "Image": "https://srk.shib.live/images/b/be/%28akumamp%29.gif"
     },
     "Far Fierce": {
         "Motion": "HP",
@@ -39,7 +39,7 @@
         "Parry": "H",
         "Damage": "140",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/c/cf/%28akumahp%29.gif"
+        "Image": "https://srk.shib.live/images/c/cf/%28akumahp%29.gif"
     },
     "Close Jab": {
         "Motion": "cl.LP",
@@ -53,7 +53,7 @@
         "Parry": "HL",
         "Stun": "3",
         "Damage": "30",
-        "Image": "http://wiki.shoryuken.com/images/b/bf/%28akumacloselp%29.gif"
+        "Image": "https://srk.shib.live/images/b/bf/%28akumacloselp%29.gif"
     },
     "Close Strong": {
         "Motion": "cl.MP",
@@ -67,7 +67,7 @@
         "Parry": "H",
         "Stun": "7",
         "Damage": "115",
-        "Image": "http://wiki.shoryuken.com/images/d/d9/%28akumaclosemp%29.gif"
+        "Image": "https://srk.shib.live/images/d/d9/%28akumaclosemp%29.gif"
     },
     "Close Fierce": {
         "Motion": "cl.HP",
@@ -81,7 +81,7 @@
         "Parry": "H",
         "Stun": "15 (3)",
         "Damage": "135 (90)",
-        "Image": "http://wiki.shoryuken.com/images/9/94/%28akumaclosehp%29.gif"
+        "Image": "https://srk.shib.live/images/9/94/%28akumaclosehp%29.gif"
     },
     "Short": {
         "Motion": "LK",
@@ -95,7 +95,7 @@
         "Parry": "HL",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/d/d7/%28akumalk%29.gif"
+        "Image": "https://srk.shib.live/images/d/d7/%28akumalk%29.gif"
     },
     "Far Forward": {
         "Motion": "MK",
@@ -109,7 +109,7 @@
         "Parry": "H",
         "Damage": "95",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/4/43/%28akumamk%29.gif"
+        "Image": "https://srk.shib.live/images/4/43/%28akumamk%29.gif"
     },
     "Far Roundhouse": {
         "Motion": "HK",
@@ -123,7 +123,7 @@
         "Parry": "H",
         "Damage": "145",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/2/22/%28akumahk%29.gif"
+        "Image": "https://srk.shib.live/images/2/22/%28akumahk%29.gif"
     },
     "Close Forward": {
         "Motion": "cl.MK",
@@ -137,7 +137,7 @@
         "Parry": "H",
         "Damage": "115",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/4/49/%28akumaclosemk%29.gif"
+        "Image": "https://srk.shib.live/images/4/49/%28akumaclosemk%29.gif"
     },
     "Close Roundhouse": {
         "Motion": "cl.HK",
@@ -150,7 +150,7 @@
         "Guard": "H/L",
         "Parry": "H/L",
         "Damage": "200 (120 + 80[40])",
-        "Image": "http://wiki.shoryuken.com/images/b/b4/%28akumaclosehk%29.gif"
+        "Image": "https://srk.shib.live/images/b/b4/%28akumaclosehk%29.gif"
     },
     "Jump Jab": {
         "Motion": "j.LP",
@@ -164,7 +164,7 @@
         "Parry": "H",
         "Damage": "50",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/a/a6/%28akumajlp%29.gif"
+        "Image": "https://srk.shib.live/images/a/a6/%28akumajlp%29.gif"
     },
     "Jump Strong": {
         "Motion": "j.MP",
@@ -178,7 +178,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/a/ab/%28akumajmp%29.gif"
+        "Image": "https://srk.shib.live/images/a/ab/%28akumajmp%29.gif"
     },
     "Jump Fierce": {
         "Motion": "nj.HP",
@@ -192,7 +192,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/a/a2/%28akumajhp%29.gif"
+        "Image": "https://srk.shib.live/images/a/a2/%28akumajhp%29.gif"
     },
     "Neutral Jump Fierce": {
         "Motion": "j.HP",
@@ -206,7 +206,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/5/5d/%28akumanjhp%29.gif"
+        "Image": "https://srk.shib.live/images/5/5d/%28akumanjhp%29.gif"
     },
     "Neutral Jump Short": {
         "Motion": "nj.LK",
@@ -220,7 +220,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/1/1a/%28akumajlk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1a/%28akumajlk%29.gif"
     },
     "Jump Short": {
         "Motion": "j.LK",
@@ -234,7 +234,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "5",
-        "Image": "http://wiki.shoryuken.com/images/1/1a/%28akumajlk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1a/%28akumajlk%29.gif"
     },
 
     "Jump Forward": {
@@ -249,7 +249,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/5/51/%28akumajmk%29.gif"
+        "Image": "https://srk.shib.live/images/5/51/%28akumajmk%29.gif"
     },
     "Jump Roundhouse": {
         "Motion": "j.HK",
@@ -263,7 +263,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/5/50/%28akumajhk%29.gif"
+        "Image": "https://srk.shib.live/images/5/50/%28akumajhk%29.gif"
     },
     "Neutral Jump Roundhouse": {
         "Motion": "nj.HK",
@@ -277,7 +277,7 @@
         "Parry": "H",
         "Damage": "120",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/1/19/%28akumanjhk%29.gif"
+        "Image": "https://srk.shib.live/images/1/19/%28akumanjhk%29.gif"
     },
     "Universal Overhead": {
         "Motion": "MP+MK",
@@ -291,7 +291,7 @@
         "Parry": "H",
         "Damage": "40",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/1/1e/%28akumaoh%29.gif"
+        "Image": "https://srk.shib.live/images/1/1e/%28akumaoh%29.gif"
     },
     "Taunt": {
         "Motion": "HP+HK",
@@ -306,7 +306,7 @@
         "Damage": "-",
         "Stun": "-",
         "Notes": "Increases attack and stun for all attacks, except throw",
-        "Image": "http://wiki.shoryuken.com/images/c/c6/%28akumat%29.gif"
+        "Image": "https://srk.shib.live/images/c/c6/%28akumat%29.gif"
     },
     "Seoi Nage": {
         "Motion": "LP+LK or F+LP+LK",
@@ -320,7 +320,7 @@
         "Parry": "-",
         "Damage": "110",
         "Stun": "9",
-        "Image": "http://wiki.shoryuken.com/images/a/a4/%28akumasn%29.gif"
+        "Image": "https://srk.shib.live/images/a/a4/%28akumasn%29.gif"
     },
     "Tomoe Nage": {
         "Motion": "B+LP+LK",
@@ -334,7 +334,7 @@
         "Parry": "-",
         "Damage": "110",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/5/5a/%28akumatn%29.gif"
+        "Image": "https://srk.shib.live/images/5/5a/%28akumatn%29.gif"
     },
     "Crouch Jab": {
         "Motion": "cr.LP",
@@ -348,7 +348,7 @@
         "Parry": "HL",
         "Stun": "3",
         "Damage", "15",
-        "Image": "http://wiki.shoryuken.com/images/4/44/%28akumaclp%29.gif"
+        "Image": "https://srk.shib.live/images/4/44/%28akumaclp%29.gif"
     },
     "Crouch Strong": {
         "Motion": "cr.MP",
@@ -362,7 +362,7 @@
         "Parry": "HL",
         "Stun": "7",
         "Damage": "95",
-        "Image": "http://wiki.shoryuken.com/images/a/ae/%28akumacmp%29.gif"
+        "Image": "https://srk.shib.live/images/a/ae/%28akumacmp%29.gif"
     },
     "Crouch Fierce": {
         "Motion": "cr.HP",
@@ -376,7 +376,7 @@
         "Parry": "HL",
         "Damage": "135",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/1/18/%28akumachp%29.gif"
+        "Image": "https://srk.shib.live/images/1/18/%28akumachp%29.gif"
     },
     "Crouch Short": {
         "Motion": "cr.LK",
@@ -390,7 +390,7 @@
         "Parry": "L",
         "Damage": "20",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/3/34/%28akumaclk%29.gif"
+        "Image": "https://srk.shib.live/images/3/34/%28akumaclk%29.gif"
     },
     "Crouch Forward": {
         "Motion": "cr.MK",
@@ -404,7 +404,7 @@
         "Parry": "L",
         "Damage": "90",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/1/17/%28akumacmk%29.gif"
+        "Image": "https://srk.shib.live/images/1/17/%28akumacmk%29.gif"
     },
     "Crouch Roundhouse": {
         "Motion": "cr.HK",
@@ -418,7 +418,7 @@
         "Parry": "L",
         "Damage": "135",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/8/8d/%28akumachk%29.gif"
+        "Image": "https://srk.shib.live/images/8/8d/%28akumachk%29.gif"
     },
     "Zugai Hasatsu": {
         "Motion": "F+MP",
@@ -432,7 +432,7 @@
         "Parry": "H/H",
         "Damage": "90 (40+50)",
         "Stun": "16 (9+7)",
-        "Image": "http://wiki.shoryuken.com/images/7/70/%28akumafmp%29.gif"
+        "Image": "https://srk.shib.live/images/7/70/%28akumafmp%29.gif"
     },
     "Tenma Kuujin Kyaku": {
         "Motion": "Jump D+MK",
@@ -446,7 +446,7 @@
         "Parry": "H",
         "Damage": "90",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/9/93/%28akumajdmk%29.gif"
+        "Image": "https://srk.shib.live/images/9/93/%28akumajdmk%29.gif"
     },
     "Gou Hadouken": {
         "Motion": "QCF+P",
@@ -460,7 +460,7 @@
         "Parry": "H",
         "Damage": "60 (100)",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/d/d0/%28akumahdk%29.gif"
+        "Image": "https://srk.shib.live/images/d/d0/%28akumahdk%29.gif"
     },
     "Zankuu Hadouken": {
         "Motion": "(Air) QCF+P",
@@ -474,7 +474,7 @@
         "Parry": "H",
         "Damage": "60",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/8/84/%28akumazhdk%29.gif"
+        "Image": "https://srk.shib.live/images/8/84/%28akumazhdk%29.gif"
     },
     "Shakunetsu Hadouken (Jab)": {
         "Motion": "HCB+LP",
@@ -489,7 +489,7 @@
         "Parry": "H",
         "Damage": "50",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/5/5a/%28akumashdk%29.gif"
+        "Image": "https://srk.shib.live/images/5/5a/%28akumashdk%29.gif"
     },
     "Shakunetsu Hadouken (Strong)": {
         "Motion": "HCB+MP",
@@ -504,7 +504,7 @@
         "Parry": "H/H",
         "Damage": "100 (50+50)",
         "Stun": "6 (3+3)",
-        "Image": "http://wiki.shoryuken.com/images/5/5a/%28akumashdk%29.gif"
+        "Image": "https://srk.shib.live/images/5/5a/%28akumashdk%29.gif"
     },
     "Shakunetsu Hadouken (Fierce)": {
         "Motion": "HCB+HP",
@@ -519,7 +519,7 @@
         "Parry": "H/H/H",
         "Damage": "150 (50x3)",
         "Stun": "9 (3x3)",
-        "Image": "http://wiki.shoryuken.com/images/5/5a/%28akumashdk%29.gif"
+        "Image": "https://srk.shib.live/images/5/5a/%28akumashdk%29.gif"
     },
     "Tatsumaki Zankuukyaku (Short)": {
         "Motion": "QCB+LK",
@@ -534,7 +534,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "7",
-        "Image": "http://wiki.shoryuken.com/images/0/07/%28akumatzk%29.gif"
+        "Image": "https://srk.shib.live/images/0/07/%28akumatzk%29.gif"
     },
     "Tatsumaki Zankuukyaku (Forward)": {
         "Motion": "QCB+MK",
@@ -549,7 +549,7 @@
         "Parry": "H",
         "Damage": "120 (2 hits)",
         "Stun": "10 (2 hits)",
-        "Image": "http://wiki.shoryuken.com/images/0/07/%28akumatzk%29.gif"
+        "Image": "https://srk.shib.live/images/0/07/%28akumatzk%29.gif"
     },
     "Tatsumaki Zankuukyaku (Roundhouse)": {
         "Motion": "QCB+HK",
@@ -564,7 +564,7 @@
         "Parry": "H",
         "Damage": "150 (3 hits)",
         "Stun": "13 (3 hits)",
-        "Image": "http://wiki.shoryuken.com/images/0/07/%28akumatzk%29.gif"
+        "Image": "https://srk.shib.live/images/0/07/%28akumatzk%29.gif"
     },
     "Air Tatsumaki Zankuukyaku (Short)": {
         "Motion": "(Air) QCB+LK",
@@ -579,7 +579,7 @@
         "Parry": "H",
         "Damage": "80",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/1/1b/%28akumaatzk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1b/%28akumaatzk%29.gif"
     },
     "Air Tatsumaki Zankuukyaku (Forward)": {
         "Motion": "(Air) QCB+MK",
@@ -594,7 +594,7 @@
         "Parry": "H",
         "Damage": "160 (2 hits)",
         "Stun": "8 (2 hits)",
-        "Image": "http://wiki.shoryuken.com/images/1/1b/%28akumaatzk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1b/%28akumaatzk%29.gif"
     },
     "Air Tatsumaki Zankuukyaku (Roundhouse)": {
         "Motion": "(Air) QCB+HK",
@@ -609,7 +609,7 @@
         "Parry": "H",
         "Damage": "240 (3 hits)",
         "Stun": "11 (3 hits)",
-        "Image": "http://wiki.shoryuken.com/images/1/1b/%28akumaatzk%29.gif"
+        "Image": "https://srk.shib.live/images/1/1b/%28akumaatzk%29.gif"
     },
     "Gou Shoryuken (Jab)": {
         "Motion": "F, D, DF+LP",
@@ -624,7 +624,7 @@
         "Parry": "HL",
         "Damage": "130 (100)",
         "Stun": "11 (9)",
-        "Image": "http://wiki.shoryuken.com/images/7/7e/%28akumasrk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7e/%28akumasrk%29.gif"
     },
     "Gou Shoryuken (Strong)": {
         "Motion": "F, D, DF+MP",
@@ -639,7 +639,7 @@
         "Parry": "HL/HL",
         "Damage": "150 (100 + 50)",
         "Stun": "14 (11 + 3)",
-        "Image": "http://wiki.shoryuken.com/images/7/7e/%28akumasrk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7e/%28akumasrk%29.gif"
     },
     "Gou Shoryuken (Fierce)": {
         "Motion": "F, D, DF+HP",
@@ -654,7 +654,7 @@
         "Parry": "HL/HL/HL",
         "Damage": "180 (60x3)",
         "Stun": "17 (11+3+3)",
-        "Image": "http://wiki.shoryuken.com/images/7/7e/%28akumasrk%29.gif"
+        "Image": "https://srk.shib.live/images/7/7e/%28akumasrk%29.gif"
     },
     "Hyakki Shu": {
         "Motion": "F, D, DF+K",
@@ -668,7 +668,7 @@
         "Parry": "-",
         "Damage": "-",
         "Stun": "-",
-        "Image": "http://wiki.shoryuken.com/images/a/a7/%28akumahs%29.gif"
+        "Image": "https://srk.shib.live/images/a/a7/%28akumahs%29.gif"
 
     },
     "Hyakki Gouzan": {
@@ -683,7 +683,7 @@
         "Parry": "L",
         "Damage": "100",
         "Stun": "3",
-        "Image": "http://wiki.shoryuken.com/images/9/9e/%28akumahgouzan%29.gif"
+        "Image": "https://srk.shib.live/images/9/9e/%28akumahgouzan%29.gif"
     },
     "Hyakki Goushou": {
         "Motion": "F, D, DF+K P",
@@ -697,7 +697,7 @@
         "Parry": "H",
         "Damage": "130",
         "Stun": "13",
-        "Image": "http://wiki.shoryuken.com/images/3/36/%28akumahgoushou%29.gif"
+        "Image": "https://srk.shib.live/images/3/36/%28akumahgoushou%29.gif"
     },
     "Hyakki Goujin": {
         "Motion": "F, D, DF+K K",
@@ -711,7 +711,7 @@
         "Parry": "H",
         "Damage": "100",
         "Stun": "11",
-        "Image": "http://wiki.shoryuken.com/images/1/13/%28akumahgoujin%29.gif"
+        "Image": "https://srk.shib.live/images/1/13/%28akumahgoujin%29.gif"
     },
     "Hyakki Gousai": {
         "Motion": "F, D, DF+K LP+LK",
@@ -725,7 +725,7 @@
         "Parry": "Impossible",
         "Damage": "110",
         "Stun": "15",
-        "Image": "http://wiki.shoryuken.com/images/7/7f/%28akumahgousai%29.gif"
+        "Image": "https://srk.shib.live/images/7/7f/%28akumahgousai%29.gif"
     },
     "Ashura Senkuu (Forward) (PP)": {
         "Motion": "F, D, DF+PP",
@@ -738,7 +738,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/7c/%28akumaasf%29.gif"
+        "Image": "https://srk.shib.live/images/7/7c/%28akumaasf%29.gif"
     },
     "Ashura Senkuu (Forward) (KK)": {
         "Motion": "F, D, DF+KK",
@@ -751,7 +751,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/7c/%28akumaasf%29.gif"
+        "Image": "https://srk.shib.live/images/7/7c/%28akumaasf%29.gif"
     },
     "Ashura Senkuu (Backwards) (PP)": {
         "Motion": "B, D, DB+PP",
@@ -764,7 +764,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/7c/%28akumaasf%29.gif"
+        "Image": "https://srk.shib.live/images/7/7c/%28akumaasf%29.gif"
     },
     "Ashura Senkuu (Backwards) (KK)": {
         "Motion": "B, D, DB+KK",
@@ -777,7 +777,7 @@
         "Crouching Hit Advantage": "-",
         "Guard": "-",
         "Parry": "-",
-        "Image": "http://wiki.shoryuken.com/images/7/7c/%28akumaasf%29.gif"
+        "Image": "https://srk.shib.live/images/7/7c/%28akumaasf%29.gif"
     },
     "Messatsu Gou Hadou": {
         "Super Art": "1",
@@ -794,7 +794,7 @@
         "Stun": "0",
         "Stocks": "2",
         "Stock Size": "112",
-        "Image": "http://wiki.shoryuken.com/images/6/69/%28akumamgh%29.gif"
+        "Image": "https://srk.shib.live/images/6/69/%28akumamgh%29.gif"
     },
     "Tenma Gou Zankuu": {
         "Super Art": "1",
@@ -811,7 +811,7 @@
         "Stun": "0",
         "Stocks": "2",
         "Stock Size": "112",
-        "Image": "http://wiki.shoryuken.com/images/6/62/%28akumatgz%29.gif"
+        "Image": "https://srk.shib.live/images/6/62/%28akumatgz%29.gif"
     },
     "Messatsu Gou Shoryu": {
         "Super Art": "2",
@@ -828,7 +828,7 @@
         "Stun": "14 (7 hits)",
         "Stocks": "2",
         "Stock Size": "112",
-        "Image": "http://wiki.shoryuken.com/images/8/82/%28akumamgs%29.gif"
+        "Image": "https://srk.shib.live/images/8/82/%28akumamgs%29.gif"
     },
     "Messatsu Gou Rasen": {
         "Super Art": "3",
@@ -845,7 +845,7 @@
         "Stun": "0",
         "Stocks": "2",
         "Stock Size": "112",
-        "Image": "http://wiki.shoryuken.com/images/e/e8/%28akumamgr%29.gif"
+        "Image": "https://srk.shib.live/images/e/e8/%28akumamgr%29.gif"
     },
     "Messatsu Gou Senpuu": {
         "Super Art": "3",
@@ -862,7 +862,7 @@
         "Stun": "0",
         "Stocks": "2",
         "Stock Size": "112",
-        "Image": "http://wiki.shoryuken.com/images/4/4e/%28akumamgsenpuu%29.gif"
+        "Image": "https://srk.shib.live/images/4/4e/%28akumamgsenpuu%29.gif"
     },
     "Shun Goku Satsu": {
         "Super Art": "any",
@@ -879,7 +879,7 @@
         "Stun": "0",
         "Stocks": "1",
         "Stock Size": "224 (All guages used)",
-        "Image": "http://wiki.shoryuken.com/images/b/b7/%28akumasgs%29.gif"
+        "Image": "https://srk.shib.live/images/b/b7/%28akumasgs%29.gif"
     },
     "Kongou Kokuretsu Zan": {
         "Super Art": "any",
@@ -896,6 +896,6 @@
         "Stun": "26 (9 hits)",
         "Stocks": "1",
         "Stock Size": "224 (All guages used)",
-        "Image": "http://wiki.shoryuken.com/images/1/11/%28akumakkz%29.gif"
+        "Image": "https://srk.shib.live/images/1/11/%28akumakkz%29.gif"
     }
 }
