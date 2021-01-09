@@ -522,8 +522,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LP"
+            "input": "BF+LP"
         },
         "Rolling Crystal Flash mp": {
             "startup": 16,
@@ -541,8 +540,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MP"
+            "input": "BF+MP"
         },
         "Rolling Crystal Flash hp": {
             "startup": 20,
@@ -560,8 +558,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HP"
+            "input": "BF+HP"
         },
         "Rolling Crystal Flash EX": {
             "startup": 20,
@@ -579,8 +576,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Rolling Crystal Flash lp/hp FADC": {
             "startup": "???",
@@ -636,8 +632,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "F+LK"
+            "input": "DBF+LK"
         },
         "Scarlet Terror mk": {
             "startup": 7,
@@ -655,8 +650,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "F+MK"
+            "input": "DBF+MK"
         },
         "Scarlet Terror hk": {
             "startup": 4,
@@ -674,8 +668,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "F+HK"
+            "input": "DBF+HK"
         },
         "Scarlet Terror EX": {
             "startup": 4,
@@ -693,8 +686,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "F+2K"
+            "input": "DBF+2K"
         },
         "Sky High Claw": {
             "startup": "~",
@@ -712,8 +704,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+1P"
+            "input": "DU+1P"
         },
         "Sky High Claw EX": {
             "startup": "~",
@@ -731,8 +722,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2P"
+            "input": "DU+2P"
         },
         "Flying Barcelona Attack": {
             "startup": "~",
@@ -750,8 +740,7 @@
             "airmove": false,
             "followUp": true,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+1K"
+            "input": "DU+1K"
         },
         "Flying Barcelona Attack Punch": {
             "startup": 3,
@@ -787,8 +776,7 @@
             "airmove": false,
             "followUp": true,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2K"
+            "input": "DU+2K"
         },
         "Flying Barcelona Attack EX Punch": {
             "startup": 2,
@@ -880,8 +868,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+1P"
+            "input": "DBDFDBUF+1P"
         },
         "Claw Attack Super": {
             "startup": 2,
@@ -936,8 +923,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+3P"
+            "input": "DBDFDBUF+3P"
         },
         "Ultra Combo 1 (2nd hit backwards)": {
             "startup": "~",
@@ -993,8 +979,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "FBF+3K"
+            "input": "DBFBF+3K"
         }
     },
     "stats": {

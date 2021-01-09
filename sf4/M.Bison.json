@@ -430,8 +430,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LP"
+            "input": "BF+LP"
         },
         "Psycho Crusher mp": {
             "startup": 14,
@@ -449,8 +448,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MP"
+            "input": "BF+MP"
         },
         "Psycho Crusher hp": {
             "startup": 14,
@@ -468,8 +466,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HP"
+            "input": "BF+HP"
         },
         "Psycho Crusher EX": {
             "startup": 14,
@@ -487,8 +484,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Scissor Kick lk": {
             "startup": 10,
@@ -506,8 +502,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LK"
+            "input": "BF+LK"
         },
         "Scissor Kick mk": {
             "startup": 13,
@@ -525,8 +520,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MK"
+            "input": "BF+MK"
         },
         "Scissor Kick hk": {
             "startup": 16,
@@ -544,8 +538,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HK"
+            "input": "BF+HK"
         },
         "Scissor Kick EX": {
             "startup": 13,
@@ -563,8 +556,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2K"
+            "input": "BF+2K"
         },
         "Headstomp": {
             "startup": 20,
@@ -582,8 +574,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+1K"
+            "input": "DU+1K"
         },
         "Headstomp EX": {
             "startup": 22,
@@ -601,8 +592,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2K"
+            "input": "DU+2K"
         },
         "Skulldiver": {
             "startup": 42,
@@ -656,8 +646,7 @@
             "airmove": true,
             "followUp": true,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+1P"
+            "input": "DU+1P"
         },
         "Devil Reverse": {
             "startup": 47,
@@ -675,8 +664,7 @@
             "airmove": true,
             "followUp": true,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2P"
+            "input": "DU+2P"
         },
         "Devil Reverse EX": {
             "startup": 47,
@@ -694,8 +682,7 @@
             "airmove": true,
             "followUp": true,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2P"
+            "input": "DU+2P"
         },
         "Teleport": {
             "startup": "~",
@@ -731,8 +718,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+LK"
+            "input": "BFBF+LK"
         },
         "Super Combo mk": {
             "startup": 12,
@@ -750,8 +736,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+MK"
+            "input": "BFBF+MK"
         },
         "Super Combo hk": {
             "startup": 16,
@@ -769,8 +754,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+HK"
+            "input": "BFBF+HK"
         },
         "Ultra Combo 1": {
             "startup": 10,
@@ -788,8 +772,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3K"
+            "input": "BFBF+3K"
         },
         "Ultra Combo 2": {
             "startup": 22,
@@ -807,8 +790,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3P"
+            "input": "BFBF+3P"
         }
     },
     "stats": {

@@ -430,8 +430,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LP"
+            "input": "BF+LP"
         },
         "Dash Straight MP": {
             "startup": 7,
@@ -449,8 +448,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MP"
+            "input": "BF+MP"
         },
         "Dash Straight HP": {
             "startup": 7,
@@ -468,8 +466,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HP"
+            "input": "BF+HP"
         },
         "Dash Straight EX": {
             "startup": 7,
@@ -487,8 +484,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Dash Upper LK": {
             "startup": 5,
@@ -506,8 +502,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LK"
+            "input": "BF+LK"
         },
         "Dash Upper MK": {
             "startup": 7,
@@ -525,8 +520,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MK"
+            "input": "BF+MK"
         },
         "Dash Upper HK": {
             "startup": 7,
@@ -544,8 +538,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HK"
+            "input": "BF+HK"
         },
         "Dash Upper EX": {
             "startup": 7,
@@ -563,8 +556,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2K"
+            "input": "BF+2K"
         },
         "Dash Ground Straight LP": {
             "startup": 13,
@@ -582,8 +574,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+LP"
+            "input": "BDF+LP"
         },
         "Dash Ground Straight MP": {
             "startup": 14,
@@ -601,8 +592,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+MP"
+            "input": "BDF+MP"
         },
         "Dash Ground Straight HP": {
             "startup": 14,
@@ -620,8 +610,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+HP"
+            "input": "BDF+HP"
         },
         "Dash Ground Straight EX": {
             "startup": 14,
@@ -639,8 +628,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+2P"
+            "input": "BDF+2P"
         },
         "Dash Swing Blow LP": {
             "startup": 22,
@@ -658,8 +646,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+LP"
+            "input": "BDF+LP"
         },
         "Dash Swing Blow MP": {
             "startup": 23,
@@ -677,8 +664,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+MP"
+            "input": "BDF+MP"
         },
         "Dash Swing Blow HP": {
             "startup": 23,
@@ -696,8 +682,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+HP"
+            "input": "BDF+HP"
         },
         "Dash Swing Blow EX": {
             "startup": 23,
@@ -715,8 +700,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+2P"
+            "input": "BDF+2P"
         },
         "Dash Ground Smash LK": {
             "startup": 12,
@@ -734,8 +718,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+LK"
+            "input": "BDF+LK"
         },
         "Dash Ground Smash MK": {
             "startup": 13,
@@ -753,8 +736,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+MK"
+            "input": "BDF+MK"
         },
         "Dash Ground Smash HK": {
             "startup": 13,
@@ -772,8 +754,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+HK"
+            "input": "BDF+HK"
         },
         "Dash Ground Smash EX": {
             "startup": 13,
@@ -791,8 +772,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "DF+2K"
+            "input": "BDF+2K"
         },
         "Buffalo Headbutt LP": {
             "startup": 8,
@@ -810,8 +790,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+LP"
+            "input": "DU+LP"
         },
         "Buffalo Headbutt MP": {
             "startup": 10,
@@ -829,8 +808,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+MP"
+            "input": "DU+MP"
         },
         "Buffalo Headbutt HP": {
             "startup": 12,
@@ -848,8 +826,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+HP"
+            "input": "DU+HP"
         },
         "Buffalo Headbutt EX": {
             "startup": 12,
@@ -867,8 +844,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2P"
+            "input": "DU+2P"
         },
         "Turn Punch LVL1": {
             "startup": 30,
@@ -886,8 +862,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch LVL2": {
             "startup": 30,
@@ -905,8 +880,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch LVL3": {
             "startup": 30,
@@ -924,8 +898,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch LVL4": {
             "startup": 30,
@@ -943,8 +916,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch LVL5": {
             "startup": 30,
@@ -962,8 +934,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch LVL6": {
             "startup": 30,
@@ -981,8 +952,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch LVL7": {
             "startup": 30,
@@ -1000,8 +970,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch LVL8": {
             "startup": 30,
@@ -1019,8 +988,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch LVL9": {
             "startup": 30,
@@ -1038,8 +1006,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Turn Punch Final": {
             "startup": 30,
@@ -1057,8 +1024,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "3Por3K"
+            "input": "R3Por3K"
         },
         "Crazy Buffalo P": {
             "startup": 10,
@@ -1076,8 +1042,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+1P"
+            "input": "BFBF+1P"
         },
         "Crazy Buffalo K": {
             "startup": 8,
@@ -1095,8 +1060,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+1K"
+            "input": "BFBF+1K"
         },
         "Violent Buffalo P": {
             "startup": 11,
@@ -1114,8 +1078,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3P"
+            "input": "BFBF+3P"
         },
         "Violent Buffalo K": {
             "startup": 8,
@@ -1133,8 +1096,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3K"
+            "input": "BFBF+3K"
         },
         "Dirty Bull": {
             "startup": 1,

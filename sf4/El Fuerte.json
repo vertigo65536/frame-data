@@ -691,8 +691,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "1K"
+            "input": "R1K"
         },
         "Quesadilla Bomb LVL2": {
             "startup": 14,
@@ -710,8 +709,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "1K"
+            "input": "R1K"
         },
         "Quesadilla Bomb LVL3": {
             "startup": 14,
@@ -729,8 +727,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "1K"
+            "input": "R1K"
         },
         "Quesadilla Bomb EX": {
             "startup": 14,
@@ -748,8 +745,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "2K"
+            "input": "R2K"
         },
         "Guac-Leg Throw lk": {
             "startup": 7,

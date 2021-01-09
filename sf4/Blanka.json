@@ -556,8 +556,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LP"
+            "input": "BF+LP"
         },
         "Rolling Attack MP": {
             "startup": 6,
@@ -575,8 +574,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MP"
+            "input": "BF+MP"
         },
         "Rolling Attack HP": {
             "startup": 6,
@@ -594,8 +592,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HP"
+            "input": "BF+HP"
         },
         "Rolling Attack EX": {
             "startup": 6,
@@ -613,8 +610,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Backstep Rolling LK": {
             "startup": 28,
@@ -632,8 +628,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LK"
+            "input": "BF+LK"
         },
         "Backstep Rolling MK": {
             "startup": 28,
@@ -651,8 +646,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MK"
+            "input": "BF+MK"
         },
         "Backstep Rolling HK": {
             "startup": 28,
@@ -670,8 +664,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HK"
+            "input": "BF+HK"
         },
         "Backstep Rolling EX": {
             "startup": 28,
@@ -707,8 +700,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+LK"
+            "input": "DU+LK"
         },
         "Vertical Roll MK": {
             "startup": 4,
@@ -726,8 +718,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+MK"
+            "input": "DU+MK"
         },
         "Vertical Roll HK": {
             "startup": 4,
@@ -745,8 +736,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+HK"
+            "input": "DU+HK"
         },
         "Vertical Roll EX": {
             "startup": 4,
@@ -764,8 +754,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2K"
+            "input": "DU+2K"
         },
         "Electric Thunder LP": {
             "startup": 5,
@@ -855,8 +844,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+1P"
+            "input": "BFBF+1P"
         },
         "Lightning Cannonball": {
             "startup": 4,
@@ -874,8 +862,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3P"
+            "input": "BFBF+3P"
         },
         "Shout of Earth (Anti-Air)": {
             "startup": "~",
@@ -893,8 +880,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+3P"
+            "input": "DBDFDBUF+3P"
         },
         "Shout of Earth (Anti-Ground)": {
             "startup": "~",
@@ -912,8 +898,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+3K"
+            "input": "DBDFDBUF+3K"
         }
     },
     "stats": {

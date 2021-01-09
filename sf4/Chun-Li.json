@@ -662,8 +662,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "F+LP"
+            "input": "BF+LP"
         },
         "Kikkoken MP": {
             "startup": 12,
@@ -681,8 +680,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "F+MP"
+            "input": "BF+MP"
         },
         "Kikkoken HP": {
             "startup": 10,
@@ -700,8 +698,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "F+HP"
+            "input": "BF+HP"
         },
         "Kikkoken EX": {
             "startup": 10,
@@ -719,8 +716,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Hazan Shu LK": {
             "startup": 23,
@@ -810,8 +806,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+LK"
+            "input": "DU+LK"
         },
         "Spinning Bird Kick MK": {
             "startup": 14,
@@ -829,8 +824,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+MK"
+            "input": "DU+MK"
         },
         "Spinning Bird Kick HK": {
             "startup": 22,
@@ -848,8 +842,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+HK"
+            "input": "DU+HK"
         },
         "Spinning Bird Kick EX": {
             "startup": 6,
@@ -867,8 +860,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2K"
+            "input": "DU+2K"
         },
         "Senretsukyaku lk": {
             "startup": 2,
@@ -886,8 +878,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+LK"
+            "input": "BFBF+LK"
         },
         "Senretsukyaku mk": {
             "startup": 2,
@@ -905,8 +896,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+MK"
+            "input": "BFBF+MK"
         },
         "Senretsukyaku hk": {
             "startup": 2,
@@ -924,8 +914,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+HK"
+            "input": "BFBF+HK"
         },
         "Hosenka": {
             "startup": 7,
@@ -943,8 +932,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3K"
+            "input": "BFBF+3K"
         },
         "Kikosho": {
             "startup": 9,

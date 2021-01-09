@@ -900,8 +900,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "1P"
+            "input": "R1P"
         },
         "Zonk Knuckle (Lv2)": {
             "startup": 17,
@@ -919,8 +918,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "1P"
+            "input": "R1P"
         },
         "Zonk Knuckle (Lv3)": {
             "startup": 18,
@@ -938,8 +936,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "1P"
+            "input": "R1P"
         },
         "Zonk Knuckle EX": {
             "startup": 16,
@@ -957,8 +954,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "R",
-            "input": "2P"
+            "input": "R2P"
         },
         "Dead End Irony LK": {
             "startup": 12,

@@ -574,8 +574,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "F+LP"
+            "input": "BF+LP"
         },
         "Sonic Boom mp": {
             "startup": 10,
@@ -593,8 +592,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "F+MP"
+            "input": "BF+MP"
         },
         "Sonic Boom hp": {
             "startup": 10,
@@ -612,8 +610,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "F+HP"
+            "input": "BF+HP"
         },
         "Sonic Boom EX": {
             "startup": 11,
@@ -631,8 +628,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Flash Kick lk": {
             "startup": 4,
@@ -650,8 +646,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+LK"
+            "input": "DU+LK"
         },
         "Flash Kick mk": {
             "startup": 4,
@@ -669,8 +664,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "D+MK"
+            "input": "DD+MK"
         },
         "Flash Kick hk": {
             "startup": 4,
@@ -688,8 +682,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+HK"
+            "input": "DU+HK"
         },
         "Flash Kick lk/mk/hk FADC": {
             "startup": 4,
@@ -707,8 +700,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+HK"
+            "input": "DU+HK"
         },
         "Flash Kick EX": {
             "startup": 4,
@@ -726,8 +718,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2K"
+            "input": "DU+2K"
         },
         "Double Flash lk": {
             "startup": 3,
@@ -745,8 +736,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+LK"
+            "input": "DBDFDBUF+LK"
         },
         "Double Flash mk": {
             "startup": 4,
@@ -764,8 +754,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+MK"
+            "input": "DBDFDBUF+MK"
         },
         "Double Flash hk": {
             "startup": 6,
@@ -783,8 +772,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+HK"
+            "input": "DBDFDBUF+HK"
         },
         "Flash Explosion": {
             "startup": 6,
@@ -802,8 +790,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+3K"
+            "input": "DBDFDBUF+3K"
         },
         "Sonic Hurricane": {
             "startup": 10,
@@ -821,8 +808,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "chargeDirection": "B",
-            "input": "FBF+3P"
+            "input": "BFBF+3P"
         }
     },
     "stats": {

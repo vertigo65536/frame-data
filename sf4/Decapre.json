@@ -500,8 +500,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+LP"
+            "input": "DU+LP"
         },
         "Psycho Sting MP": {
             "startup": 5,
@@ -519,8 +518,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+MP"
+            "input": "DU+MP"
         },
         "Psycho Sting HP": {
             "startup": 5,
@@ -538,8 +536,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+HP"
+            "input": "DU+HP"
         },
         "Psycho Sting EX": {
             "startup": 5,
@@ -557,8 +554,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2P"
+            "input": "DU+2P"
         },
         "Spiral Arrow LK": {
             "startup": 8,
@@ -576,8 +572,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LK"
+            "input": "BF+LK"
         },
         "Spiral Arrow MK": {
             "startup": 8,
@@ -595,8 +590,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MK"
+            "input": "BF+MK"
         },
         "Spiral Arrow HK": {
             "startup": 8,
@@ -614,8 +608,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HK"
+            "input": "BF+HK"
         },
         "Spiral Arrow EX": {
             "startup": 8,
@@ -633,8 +626,7 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2K"
+            "input": "BF+2K"
         },
         "Rapid Dagger LP": {
             "startup": 9,
@@ -724,8 +716,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+1K"
+            "input": "BF+1K"
         },
         "Break": {
             "startup": "~",
@@ -869,8 +860,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+1P"
+            "input": "BFBF+1P"
         },
         "Ultra 1": {
             "startup": 15,
@@ -888,8 +878,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3P"
+            "input": "BFBF+3P"
         },
         "Ultra 2 (Ground)": {
             "startup": 7,
@@ -907,8 +896,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3K"
+            "input": "BFBF+3K"
         },
         "Ultra 2 (Anti-Air)": {
             "startup": 4,
@@ -926,8 +914,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "DB",
-            "input": "DFDBUF+3K"
+            "input": "DBDFDBUF+3K"
         }
     },
     "stats": {

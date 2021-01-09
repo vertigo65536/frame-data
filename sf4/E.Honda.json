@@ -591,8 +591,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LP"
+            "input": "BF+LP"
         },
         "Headbutt mp": {
             "startup": 9,
@@ -610,8 +609,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MP"
+            "input": "BF+MP"
         },
         "Headbutt hp": {
             "startup": 8,
@@ -629,8 +627,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HP"
+            "input": "BF+HP"
         },
         "Headbutt EX": {
             "startup": 8,
@@ -648,8 +645,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Sumo Smash lk": {
             "startup": 14,
@@ -667,8 +663,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+LK"
+            "input": "DU+LK"
         },
         "Sumo Smash mk": {
             "startup": 14,
@@ -686,8 +681,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+MK"
+            "input": "DU+MK"
         },
         "Sumo Smash hk": {
             "startup": 14,
@@ -705,8 +699,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+HK"
+            "input": "DU+HK"
         },
         "Sumo Smash EX": {
             "startup": 9,
@@ -724,8 +717,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2K"
+            "input": "DU+2K"
         },
         "Ohicho Grab lp": {
             "startup": 5,
@@ -815,8 +807,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+LP"
+            "input": "BFBF+LP"
         },
         "Super Head Ram mp": {
             "startup": 10,
@@ -834,8 +825,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+MP"
+            "input": "BFBF+MP"
         },
         "Super Head Ram hp": {
             "startup": 10,
@@ -853,8 +843,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+HP"
+            "input": "BFBF+HP"
         },
         "Ultimate Head Ram": {
             "startup": 10,
@@ -872,8 +861,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "FBF+3P"
+            "input": "BFBF+3P"
         },
         "Orochi Breaker": {
             "startup": 1,

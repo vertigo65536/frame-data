@@ -377,8 +377,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+LP"
+            "input": "BF+LP"
         },
         "Jyasen mp": {
             "startup": 6,
@@ -396,8 +395,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+MP"
+            "input": "BF+MP"
         },
         "Jyasen hp": {
             "startup": 6,
@@ -415,8 +413,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+HP"
+            "input": "BF+HP"
         },
         "Jyasen EX (LP+MP)": {
             "startup": 6,
@@ -434,8 +431,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Jyasen EX (LP+HP)": {
             "startup": 6,
@@ -453,8 +449,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Jyasen EX (MP+HP)": {
             "startup": 6,
@@ -472,8 +467,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "B",
-            "input": "F+2P"
+            "input": "BF+2P"
         },
         "Oga": {
             "startup": "~",
@@ -491,8 +485,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+1K"
+            "input": "DU+1K"
         },
         "Oga EX": {
             "startup": "~",
@@ -510,8 +503,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2K"
+            "input": "DU+2K"
         },
         "Oga Stop": {
             "startup": "~",

@@ -1068,8 +1068,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+LK"
+            "input": "DU+LK"
         },
         "Thunderbolt mk": {
             "startup": 38,
@@ -1087,8 +1086,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+MK"
+            "input": "DU+MK"
         },
         "Thunderbolt hk": {
             "startup": 38,
@@ -1106,8 +1104,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+HK"
+            "input": "DU+HK"
         },
         "Thunderbolt EX": {
             "startup": 34,
@@ -1125,8 +1122,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "chargeDirection": "D",
-            "input": "U+2K"
+            "input": "DU+2K"
         },
         "Rocket Upper": {
             "startup": 3,
