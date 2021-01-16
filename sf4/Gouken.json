@@ -883,7 +883,7 @@
             "followUp": true,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Forbidden SRK": {
             "startup": 3,
@@ -956,7 +956,7 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Denjin Hadoken (Lv3)": {
             "startup": 32,
@@ -975,7 +975,7 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Denjin Hadoken (Lv4)": {
             "startup": 47,
@@ -994,7 +994,7 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Denjin Hadoken (Lv5)": {
             "startup": 65,
@@ -1013,7 +1013,7 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         }
     },
     "stats": {

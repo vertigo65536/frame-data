@@ -575,7 +575,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+LP"
+            "input": "-"
         },
         "Hayate LP (Lv3)": {
             "startup": 32,
@@ -594,7 +594,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+LP"
+            "input": "-"
         },
         "Hayate LP (Lv4)": {
             "startup": 64,
@@ -613,7 +613,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+LP"
+            "input": "-"
         },
         "Hayate LP (Lv5)": {
             "startup": 75,
@@ -632,7 +632,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+LP"
+            "input": "-"
         },
         "Hayate mp": {
             "startup": 15,
@@ -669,7 +669,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+MP"
+            "input": "-"
         },
         "Hayate mp (Lv3)": {
             "startup": 39,
@@ -688,7 +688,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+MP"
+            "input": "-"
         },
         "Hayate mp (Lv4)": {
             "startup": 64,
@@ -707,7 +707,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+MP"
+            "input": "-"
         },
         "Hayate mp (Lv5)": {
             "startup": 75,
@@ -726,7 +726,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+MP"
+            "input": "-"
         },
         "Hayate hp": {
             "startup": 20,
@@ -763,7 +763,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+HP"
+            "input": "-"
         },
         "Hayate hp (Lv3)": {
             "startup": 44,
@@ -782,7 +782,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+HP"
+            "input": "-"
         },
         "Hayate hp (Lv4)": {
             "startup": 64,
@@ -801,7 +801,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+HP"
+            "input": "-"
         },
         "Hayate hp (Lv5)": {
             "startup": 75,
@@ -820,7 +820,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+HP"
+            "input": "-"
         },
         "Hayate EX": {
             "startup": 13,

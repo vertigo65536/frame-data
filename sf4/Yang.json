@@ -990,7 +990,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+LK"
+            "input": "-"
         },
         "Senkyuutai mk": {
             "startup": 6,

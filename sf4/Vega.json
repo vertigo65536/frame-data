@@ -595,7 +595,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+HP"
+            "input": "-"
         },
         "Rolling Crystal Flash EX FADC": {
             "startup": "???",
@@ -614,7 +614,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Scarlet Terror lk": {
             "startup": 7,
@@ -942,7 +942,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Ultra Combo 1 (2nd hit forwards)": {
             "startup": "~",
@@ -961,7 +961,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Ultra Combo 2": {
             "startup": 7,

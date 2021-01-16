@@ -467,7 +467,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Fuhajin (release)": {
             "startup": 11,
@@ -486,7 +486,7 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Fuhajin EX (LK+MK)": {
             "startup": 13,
@@ -902,7 +902,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Ultra Combo 2": {
             "startup": 10,

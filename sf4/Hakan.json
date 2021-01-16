@@ -795,7 +795,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+LK"
+            "input": "-"
         },
         "Oil Dive (charge) mk": {
             "startup": 98,
@@ -814,7 +814,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+MK"
+            "input": "-"
         },
         "Oil Dive (charge) hk": {
             "startup": 98,
@@ -833,7 +833,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+HK"
+            "input": "-"
         },
         "Flying Oil Spin lk": {
             "startup": 10,

@@ -1356,7 +1356,7 @@
             "followUp": true,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Super Combo": {
             "startup": 8,

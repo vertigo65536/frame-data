@@ -523,7 +523,7 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Hadoken EX (Lv3)": {
             "startup": 39,
@@ -542,7 +542,7 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Shooken lp": {
             "startup": 6,

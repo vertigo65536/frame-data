@@ -557,7 +557,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+MP"
+            "input": "-"
         },
         "Shoryuken EX": {
             "startup": 3,

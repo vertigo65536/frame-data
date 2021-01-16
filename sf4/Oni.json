@@ -754,7 +754,7 @@
             "followUp": false,
             "projectile": false,
             "hideForMoveList": true,
-            "input": "~+~"
+            "input": "-"
         },
         "Goshoryuken EX": {
             "startup": 3,
