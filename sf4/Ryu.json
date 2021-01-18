@@ -755,7 +755,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "input": "DQCF+3P"
+            "input": "DQCF+3P",
+            "ultra": 1
         },
         "Ultra Combo 2": {
             "startup": 8,
@@ -773,7 +774,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 2
         }
     },
     "stats": {

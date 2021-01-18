@@ -647,7 +647,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 1
         },
         "Teiga": {
             "startup": 9,
@@ -665,7 +666,8 @@
             "airmove": true,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 2
         },
         "Mantis s.lp": {
             "startup": 3,
@@ -1149,7 +1151,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3P"
+            "input": "DQCF+3P",
+            "ultra": 1
         },
         "Shitenketsu": {
             "startup": 7,
@@ -1167,7 +1170,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCB+3P"
+            "input": "DQCB+3P",
+            "ultra": 2
         }
     },
     "stats": {

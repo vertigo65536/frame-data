@@ -790,7 +790,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DBDFDBUF+3K"
+            "input": "DBDFDBUF+3K",
+            "ultra": 1
         },
         "Sonic Hurricane": {
             "startup": 10,
@@ -808,7 +809,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "input": "BFBF+3P"
+            "input": "BFBF+3P",
+            "ultra": 2
         }
     },
     "stats": {

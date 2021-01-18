@@ -898,7 +898,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3P"
+            "input": "DQCF+3P",
+            "ultra": 1
         },
         "Gekirinken": {
             "startup": 1,
@@ -917,7 +918,8 @@
             "followUp": false,
             "projectile": false,
             "nonHittingMove": true,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 2
         }
     },
     "stats": {

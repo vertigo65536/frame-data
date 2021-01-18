@@ -844,7 +844,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 1
         },
         "CQC": {
             "startup": 1,
@@ -863,7 +864,8 @@
             "followUp": false,
             "projectile": false,
             "nonHittingMove": true,
-            "input": "DQCB+3P"
+            "input": "DQCB+3P",
+            "ultra": 2
         }
     },
     "stats": {

@@ -1158,7 +1158,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 1
         },
         "Corkscrew Blow": {
             "startup": 8,
@@ -1176,7 +1177,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3P"
+            "input": "DQCF+3P",
+            "ultra": 2
         }
     },
     "stats": {

@@ -844,7 +844,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCB+3K"
+            "input": "DQCB+3K",
+            "ultra": 1
         },
         "Jaguar Avalanche": {
             "startup": 10,
@@ -862,7 +863,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 2
         }
     },
     "stats": {

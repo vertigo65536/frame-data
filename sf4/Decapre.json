@@ -878,7 +878,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "BFBF+3P"
+            "input": "BFBF+3P",
+            "ultra": 1
         },
         "Ultra 2 (Ground)": {
             "startup": 7,
@@ -896,7 +897,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "BFBF+3K"
+            "input": "BFBF+3K",
+            "ultra": 2
         },
         "Ultra 2 (Anti-Air)": {
             "startup": 4,
@@ -914,7 +916,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DBDFDBUF+3K"
+            "input": "DBDFDBUF+3K",
+            "ultra": 2
         }
     },
     "stats": {

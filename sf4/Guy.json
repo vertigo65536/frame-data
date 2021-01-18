@@ -983,7 +983,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 1
         },
         "Bushin Muso ": {
             "startup": 1,
@@ -1002,7 +1003,8 @@
             "followUp": false,
             "projectile": false,
             "throwMove": true,
-            "input": "DHCB+3P"
+            "input": "DHCB+3P",
+            "ultra": 2
         }
     },
     "stats": {

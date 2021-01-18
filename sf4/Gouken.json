@@ -919,7 +919,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3P"
+            "input": "DQCF+3P",
+            "ultra": 1
         },
         "Denjin Hadoken (Lv1)": {
             "startup": 13,
@@ -937,7 +938,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": true,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 2
         },
         "Denjin Hadoken (Lv2)": {
             "startup": 17,
@@ -956,7 +958,8 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "-"
+            "input": "-",
+            "ultra": 2
         },
         "Denjin Hadoken (Lv3)": {
             "startup": 32,
@@ -975,7 +978,8 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "-"
+            "input": "-",
+            "ultra": 2
         },
         "Denjin Hadoken (Lv4)": {
             "startup": 47,
@@ -994,7 +998,8 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "-"
+            "input": "-",
+            "ultra": 2
         },
         "Denjin Hadoken (Lv5)": {
             "startup": 65,
@@ -1013,7 +1018,8 @@
             "followUp": false,
             "projectile": true,
             "hideForMoveList": true,
-            "input": "-"
+            "input": "-",
+            "ultra": 2
         }
     },
     "stats": {

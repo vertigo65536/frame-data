@@ -792,7 +792,8 @@
             "followUp": false,
             "projectile": false,
             "throwMove": true,
-            "input": "720+3P"
+            "input": "720+3P",
+            "ultra": 1
         },
         "Ultra Combo 2 (air)": {
             "startup": 3,
@@ -811,7 +812,8 @@
             "followUp": false,
             "projectile": false,
             "throwMove": true,
-            "input": "720+3K"
+            "input": "720+3K",
+            "ultra": 2
         }
     },
     "stats": {

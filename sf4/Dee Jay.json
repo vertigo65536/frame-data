@@ -862,7 +862,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "BFBF+3K"
+            "input": "BFBF+3K",
+            "ultra": 1
         },
         "Climax Beat": {
             "startup": 8,
@@ -880,7 +881,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DBDFDBUF+3P"
+            "input": "DBDFDBUF+3P",
+            "ultra": 2
         }
     },
     "stats": {

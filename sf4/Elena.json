@@ -894,7 +894,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3K"
+            "input": "DQCF+3K",
+            "ultra": 1
         },
         "Healing (Not Full)": {
             "startup": 8,
@@ -912,7 +913,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3P"
+            "input": "DQCF+3P",
+            "ultra": 2
         },
         "Healing (Full)": {
             "startup": 8,
@@ -930,7 +932,8 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "input": "DQCF+3P"
+            "input": "DQCF+3P",
+            "ultra": 2
         }
     },
     "stats": {
