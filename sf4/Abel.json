@@ -925,7 +925,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Breathless": {
             "startup": 10,
@@ -944,7 +944,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

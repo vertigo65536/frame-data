@@ -1118,7 +1118,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Combo 2": {
             "startup": 6,
@@ -1137,7 +1137,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

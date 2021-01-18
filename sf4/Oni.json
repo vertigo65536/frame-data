@@ -1116,7 +1116,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Combo 1 (3K)": {
             "startup": 9,
@@ -1135,7 +1135,7 @@
             "followUp": false,
             "projectile": true,
             "input": "DQCF+3K",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Combo 1 (air)": {
             "startup": 11,
@@ -1154,7 +1154,7 @@
             "followUp": false,
             "projectile": true,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Tenchi Sokaigen": {
             "startup": 9,
@@ -1173,7 +1173,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

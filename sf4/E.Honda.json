@@ -862,7 +862,7 @@
             "followUp": false,
             "projectile": false,
             "input": "BFBF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Orochi Breaker": {
             "startup": 1,
@@ -882,7 +882,7 @@
             "projectile": false,
             "throwMove": true,
             "input": "DHCB+3P",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

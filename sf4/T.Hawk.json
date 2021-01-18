@@ -757,7 +757,7 @@
             "projectile": false,
             "throwMove": true,
             "input": "720+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Raging Slash": {
             "startup": 3,
@@ -778,7 +778,7 @@
             "antiAirMove": true,
             "throwMove": true,
             "input": "DHCB+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

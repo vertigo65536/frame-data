@@ -829,7 +829,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Guren Senpukyaku": {
             "startup": 7,
@@ -848,7 +848,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

@@ -845,7 +845,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Poison Kiss": {
             "startup": 2,
@@ -865,7 +865,7 @@
             "projectile": false,
             "throwMove": true,
             "input": "DHCB+3P",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

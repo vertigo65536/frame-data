@@ -895,7 +895,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 1
+            "ultra": "1"
         },
         "Healing (Not Full)": {
             "startup": 8,
@@ -914,7 +914,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 2
+            "ultra": "2"
         },
         "Healing (Full)": {
             "startup": 8,
@@ -933,7 +933,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

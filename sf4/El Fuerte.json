@@ -890,7 +890,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Spark": {
             "startup": 4,
@@ -909,7 +909,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCB+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

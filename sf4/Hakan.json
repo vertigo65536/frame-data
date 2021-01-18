@@ -906,7 +906,7 @@
             "followUp": false,
             "projectile": false,
             "input": "720+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Oil Combination Hold": {
             "startup": 1,
@@ -926,7 +926,7 @@
             "projectile": false,
             "antiAirMove": true,
             "input": "DDD+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

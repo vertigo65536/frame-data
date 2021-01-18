@@ -1111,7 +1111,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Combo 2 > lk": {
             "startup": "~",
@@ -1129,7 +1129,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "ultra": 2
+            "ultra": "2"
         },
         "Ultra Combo 2 > mk": {
             "startup": "~",
@@ -1147,7 +1147,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "ultra": 2
+            "ultra": "2"
         },
         "Ultra Combo 2 > hk": {
             "startup": "~",
@@ -1165,7 +1165,7 @@
             "airmove": false,
             "followUp": false,
             "projectile": false,
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

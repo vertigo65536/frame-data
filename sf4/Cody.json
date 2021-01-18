@@ -1027,7 +1027,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Last Dread Dust": {
             "startup": 7,
@@ -1046,7 +1046,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCB+3P",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

@@ -1159,7 +1159,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 1
+            "ultra": "1"
         },
         "Corkscrew Blow": {
             "startup": 8,
@@ -1178,7 +1178,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

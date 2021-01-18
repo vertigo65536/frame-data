@@ -902,7 +902,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Yoga Shangri-La": {
             "startup": 5,
@@ -922,7 +922,7 @@
             "projectile": false,
             "throwMove": true,
             "input": "DQCF+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

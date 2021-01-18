@@ -924,7 +924,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DBDFDBUF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Combo 1 (2nd hit backwards)": {
             "startup": "~",
@@ -944,7 +944,7 @@
             "projectile": false,
             "hideForMoveList": true,
             "input": "-",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Combo 1 (2nd hit forwards)": {
             "startup": "~",
@@ -964,7 +964,7 @@
             "projectile": false,
             "hideForMoveList": true,
             "input": "-",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Combo 2": {
             "startup": 7,
@@ -983,7 +983,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DBFBF+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

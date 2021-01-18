@@ -648,7 +648,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 1
+            "ultra": "1"
         },
         "Teiga": {
             "startup": 9,
@@ -667,7 +667,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 2
+            "ultra": "2"
         },
         "Mantis s.lp": {
             "startup": 3,
@@ -1152,7 +1152,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Shitenketsu": {
             "startup": 7,
@@ -1171,7 +1171,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCB+3P",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

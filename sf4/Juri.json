@@ -884,7 +884,7 @@
             "projectile": false,
             "nonHittingMove": true,
             "input": "DQCF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Ultra Combo 2 (Partial)": {
             "startup": 10,
@@ -904,7 +904,7 @@
             "projectile": false,
             "hideForMoveList": true,
             "input": "-",
-            "ultra": 2
+            "ultra": "2"
         },
         "Ultra Combo 2": {
             "startup": 10,
@@ -923,7 +923,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DQCF+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

@@ -863,7 +863,7 @@
             "followUp": false,
             "projectile": false,
             "input": "BFBF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Shout of Earth (Anti-Air)": {
             "startup": "~",
@@ -882,7 +882,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DBDFDBUF+3P",
-            "ultra": 2
+            "ultra": "2"
         },
         "Shout of Earth (Anti-Ground)": {
             "startup": "~",
@@ -901,7 +901,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DBDFDBUF+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

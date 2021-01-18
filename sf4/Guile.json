@@ -791,7 +791,7 @@
             "followUp": false,
             "projectile": false,
             "input": "DBDFDBUF+3K",
-            "ultra": 1
+            "ultra": "1"
         },
         "Sonic Hurricane": {
             "startup": 10,
@@ -810,7 +810,7 @@
             "followUp": false,
             "projectile": true,
             "input": "BFBF+3P",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

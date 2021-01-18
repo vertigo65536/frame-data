@@ -800,7 +800,7 @@
             "projectile": false,
             "throwMove": true,
             "input": "720+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Megaton Press": {
             "startup": 5,
@@ -821,7 +821,7 @@
             "antiAirMove": true,
             "throwMove": true,
             "input": "DQCF+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {

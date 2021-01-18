@@ -1079,7 +1079,7 @@
             "followUp": false,
             "projectile": false,
             "input": "BFBF+3P",
-            "ultra": 1
+            "ultra": "1"
         },
         "Violent Buffalo K": {
             "startup": 8,
@@ -1098,7 +1098,7 @@
             "followUp": false,
             "projectile": false,
             "input": "BFBF+3K",
-            "ultra": 1
+            "ultra": "1"
         },
         "Dirty Bull": {
             "startup": 1,
@@ -1118,7 +1118,7 @@
             "projectile": false,
             "throwMove": true,
             "input": "DHCB+3P",
-            "ultra": 3
+            "ultra": "3"
         }
     },
     "stats": {

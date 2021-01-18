@@ -1009,7 +1009,7 @@
             "projectile": false,
             "throwMove": true,
             "input": "demonU",
-            "ultra": 1
+            "ultra": "1"
         },
         "Demon Armageddon": {
             "startup": 14,
@@ -1028,7 +1028,7 @@
             "followUp": false,
             "projectile": false,
             "input": "UU+3K",
-            "ultra": 2
+            "ultra": "2"
         }
     },
     "stats": {
