@@ -6,7 +6,8 @@
         "Block frame": "-22",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Rage art"
+        "Notes": "Rage art",
+        "webm": "https://thumbs.gfycat.com/YawningDefensiveKiwi-max-14mb.gif"
     },
     "in rage b+4, 2, f": {
         "Hit level": "m, m, (STB)",
@@ -15,7 +16,8 @@
         "Block frame": "+7",
         "Hit frame": "TKMD",
         "Counter hit frame": "TKMD",
-        "Notes": "Rage drive"
+        "Notes": "Rage drive",
+        "webm": "https://thumbs.gfycat.com/FamousWaryGoldeneye-max-14mb.gif"
     },
     "1": {
         "Hit level": "h",
@@ -33,7 +35,8 @@
         "Block frame": "-1~0",
         "Hit frame": "+6~+7",
         "Counter hit frame": "+6~+7",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/CraftyTediousCaudata-max-14mb.gif"
     },
     "1, 3": {
         "Hit level": "h, l",
@@ -42,7 +45,8 @@
         "Block frame": "-12",
         "Hit frame": "-1",
         "Counter hit frame": "-1",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/BleakPassionateAmberpenshell-size_restricted.gif"
     },
     "2": {
         "Hit level": "h",
@@ -69,7 +73,8 @@
         "Block frame": "-13~-11",
         "Hit frame": "KND",
         "Counter hit frame": "Tail spin",
-        "Notes": "Tail spin"
+        "Notes": "Tail spin",
+        "webm": "https://thumbs.gfycat.com/UnawareHideousEmeraldtreeskink-max-14mb.gif"
     },
     "3": {
         "Hit level": "h",
@@ -96,7 +101,8 @@
         "Block frame": "0~+1",
         "Hit frame": "+15kg",
         "Counter hit frame": "Tail spin",
-        "Notes": "Homing, Tail spin"
+        "Notes": "Homing, Tail spin",
+        "webm": "https://thumbs.gfycat.com/LimitedDefenselessIbisbill-max-14mb.gif"
     },
     "1+2": {
         "Hit level": "m",
@@ -114,7 +120,8 @@
         "Block frame": "",
         "Hit frame": "0",
         "Counter hit frame": "",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/InconsequentialMeagerGalapagossealion-max-14mb.gif"
     },
     "1+2 When hit 1+2 When hit , b or f+2": {
         "Hit level": "m, (throw), (throw), (STB)",
@@ -123,7 +130,8 @@
         "Block frame": "",
         "Hit frame": "Throw(KND)",
         "Counter hit frame": "Throw(KND)",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/RawDarlingHornet-max-14mb.gif"
     },
     "3+4": {
         "Hit level": "m (TJ), ?",
@@ -132,7 +140,8 @@
         "Block frame": "-10~-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/FirmLeadingDarwinsfox-max-14mb.gif"
     },
     "f+2": {
         "Hit level": "h",
@@ -141,7 +150,8 @@
         "Block frame": "0",
         "Hit frame": "+6",
         "Counter hit frame": "+6",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/FamousWavyCrownofthornsstarfish-size_restricted.gif"
     },
     "f+2, 1": {
         "Hit level": "h, m",
@@ -159,7 +169,8 @@
         "Block frame": "-18~-17",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/TornUnlawfulBlackandtancoonhound-max-14mb.gif"
     },
     "f+2, 2": {
         "Hit level": "h, m(, (Special))(STB)",
@@ -168,7 +179,8 @@
         "Block frame": "-26",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
-        "Notes": "Tail spin"
+        "Notes": "Tail spin",
+        "webm": "https://thumbs.gfycat.com/ClosedImperturbableBorer-max-14mb.gif"
     },
     "f+3": {
         "Hit level": "h (TJ)",
@@ -177,7 +189,8 @@
         "Block frame": "-5",
         "Hit frame": "+15k",
         "Counter hit frame": "Tail spin",
-        "Notes": "Homing, Tail spin"
+        "Notes": "Homing, Tail spin",
+        "webm": "https://thumbs.gfycat.com/BackVastKodiakbear-size_restricted.gif"
     },
     "f+4": {
         "Hit level": "m",
@@ -186,7 +199,8 @@
         "Block frame": "+4s",
         "Hit frame": "+4s",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/LeadingUnitedKodiakbear-max-14mb.gif"
     },
     "f+1+2": {
         "Hit level": "m",
@@ -195,7 +209,8 @@
         "Block frame": "-18",
         "Hit frame": "-7",
         "Counter hit frame": "-7",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/BarrenZigzagIchneumonfly-max-14mb.gif"
     },
     "f+1+2, 1+2": {
         "Hit level": "m, m",
@@ -213,7 +228,8 @@
         "Block frame": "+2~+3",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Homing"
+        "Notes": "Homing",
+        "webm": "https://thumbs.gfycat.com/FittingPaleDrever-max-14mb.gif"
     },
     "d/f+1": {
         "Hit level": "m",
@@ -231,7 +247,8 @@
         "Block frame": "-15~-14",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/HeartyRecentAchillestang-max-14mb.gif"
     },
     "d/f+2": {
         "Hit level": "m",
@@ -240,7 +257,8 @@
         "Block frame": "-13",
         "Hit frame": "+2",
         "Counter hit frame": "CS",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/PowerlessHappygoluckyDutchsmoushond-max-14mb.gif"
     },
     "d/f+3": {
         "Hit level": "m",
@@ -258,7 +276,8 @@
         "Block frame": "-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/PalatableResponsibleBassethound-max-14mb.gif"
     },
     "d/f+3, 2": {
         "Hit level": "m, h",
@@ -267,7 +286,8 @@
         "Block frame": "-2",
         "Hit frame": "+4",
         "Counter hit frame": "+4",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/WeakKeyFallowdeer-max-14mb.gif"
     },
     "d/f+4": {
         "Hit level": "m",
@@ -285,7 +305,8 @@
         "Block frame": "-8~-7",
         "Hit frame": "+2~+3",
         "Counter hit frame": "+2~+3",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/OfficialLividFrogmouth-max-14mb.gif"
     },
     "d+2": {
         "Hit level": "l (TC)",
@@ -294,7 +315,8 @@
         "Block frame": "-12",
         "Hit frame": "-1",
         "Counter hit frame": "-1",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/OrderlyImpeccableGaur-max-14mb.gif"
     },
     "d+1+2 or BT 1+2": {
         "Hit level": "m",
@@ -321,7 +343,8 @@
         "Block frame": "-13(s)",
         "Hit frame": "+3",
         "Counter hit frame": "+3",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/BiodegradableMinorGrub-size_restricted.gif"
     },
     "d/b+3": {
         "Hit level": "l(TC?)",
@@ -330,7 +353,8 @@
         "Block frame": "-15",
         "Hit frame": "+3s",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/UntimelyIdealDeermouse-max-14mb.gif"
     },
     "d/b+4": {
         "Hit level": "l",
@@ -348,7 +372,8 @@
         "Block frame": "-11",
         "Hit frame": "0",
         "Counter hit frame": "0",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/IllinformedHauntingCockatoo-max-14mb.gif"
     },
     "d/b+1+2": {
         "Hit level": "m, m",
@@ -357,7 +382,8 @@
         "Block frame": "-4",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/AnguishedCoordinatedFlicker-max-14mb.gif"
     },
     "b+1": {
         "Hit level": "m",
@@ -366,7 +392,8 @@
         "Block frame": "-5",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Tail spin, Homing"
+        "Notes": "Tail spin, Homing",
+        "webm": "https://thumbs.gfycat.com/SelfreliantMeaslyHarlequinbug-size_restricted.gif"
     },
     "b+2": {
         "Hit level": "h (STB)",
@@ -375,7 +402,8 @@
         "Block frame": "-9~-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/FoolhardyWigglyBuffalo-max-14mb.gif"
     },
     "b+3": {
         "Hit level": "m",
@@ -384,7 +412,8 @@
         "Block frame": "-4",
         "Hit frame": "+7",
         "Counter hit frame": "+7",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/PerkyOrderlyBass-max-14mb.gif"
     },
     "b+3, 3": {
         "Hit level": "m, m",
@@ -393,7 +422,8 @@
         "Block frame": "-12",
         "Hit frame": "+7",
         "Counter hit frame": "JG",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/CoordinatedIcyHare-size_restricted.gif"
     },
     "b+4": {
         "Hit level": "m",
@@ -411,7 +441,8 @@
         "Block frame": "-8",
         "Hit frame": "+13k",
         "Counter hit frame": "KND",
-        "Notes": "Tail spin"
+        "Notes": "Tail spin",
+        "webm": "https://thumbs.gfycat.com/GoodGenerousInvisiblerail-size_restricted.gif"
     },
     "b+4, 2": {
         "Hit level": "m, m (STB)",
@@ -420,7 +451,8 @@
         "Block frame": "-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/EarlyBoringFairybluebird-max-14mb.gif"
     },
     "b+4, 3": {
         "Hit level": "m, h",
@@ -429,7 +461,8 @@
         "Block frame": "-12~-11",
         "Hit frame": "-4~-3",
         "Counter hit frame": "+1~+2",
-        "Notes": "Homing"
+        "Notes": "Homing",
+        "webm": "https://thumbs.gfycat.com/OldImpureCrossbill-max-14mb.gif"
     },
     "b+4, 3, 2": {
         "Hit level": "m, h (TJ)",
@@ -447,7 +480,8 @@
         "Block frame": "-13~-12",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Power crush"
+        "Notes": "Power crush",
+        "webm": "https://thumbs.gfycat.com/MatureViciousHeterodontosaurus-size_restricted.gif"
     },
     "b+3+4": {
         "Hit level": "m",
@@ -456,7 +490,8 @@
         "Block frame": "-14~-13",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Wall bounce, Homing"
+        "Notes": "Wall bounce, Homing",
+        "webm": "https://thumbs.gfycat.com/TangibleCanineAlleycat-max-14mb.gif"
     },
     "b+2+3": {
         "Hit level": "!",
@@ -465,7 +500,8 @@
         "Block frame": "TKMD",
         "Hit frame": "TKMD",
         "Counter hit frame": "TKMD",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/AmusedNaturalHorsechestnutleafminer-max-14mb.gif"
     },
     "u/b or u or u/f+2": {
         "Hit level": "m (TJ)",
@@ -501,7 +537,8 @@
         "Block frame": "+2~+3s",
         "Hit frame": "+7~+8s",
         "Counter hit frame": "JG",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/ScarceFluffyFish-max-14mb.gif"
     },
     "u/b or u or u/f+4": {
         "Hit level": "m (TJ)",
@@ -519,7 +556,8 @@
         "Block frame": "-11~-10",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/AgedSmartGoa-max-14mb.gif"
     },
     "f, F+2 or FC+d/f+2": {
         "Hit level": "m",
@@ -555,7 +593,8 @@
         "Block frame": "-5",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/DiscreteSharpGemsbuck-max-14mb.gif"
     },
     "f, F+1+2": {
         "Hit level": "m",
@@ -564,7 +603,8 @@
         "Block frame": "-8~-7",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/DearestWhoppingCrayfish-size_restricted.gif"
     },
     "f, f, f+2": {
         "Hit level": "h (STB)",
@@ -573,7 +613,8 @@
         "Block frame": "+7~+10g",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/ZealousCooperativeFallowdeer-size_restricted.gif"
     },
     "WS+1": {
         "Hit level": "m",
@@ -591,7 +632,8 @@
         "Block frame": "-12",
         "Hit frame": "+9",
         "Counter hit frame": "+9",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/GleamingImmediateAndeancondor-max-14mb.gif"
     },
     "WS+1, 2": {
         "Hit level": "m, m",
@@ -609,7 +651,8 @@
         "Block frame": "-14",
         "Hit frame": "Launch (JG?)",
         "Counter hit frame": "Launch (JG?)",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/SleepyWeeGraysquirrel-max-14mb.gif"
     },
     "WS+3": {
         "Hit level": "m",
@@ -618,7 +661,8 @@
         "Block frame": "-8",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/GrimOffensiveDuckling-max-14mb.gif"
     },
     "WS+4": {
         "Hit level": "m",
@@ -636,7 +680,8 @@
         "Block frame": "-12~-11",
         "Hit frame": "+6~+7s",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/RawMiserableAmericanquarterhorse-max-14mb.gif"
     },
     "From special move": {
         "Hit level": "(STB)",
@@ -663,7 +708,8 @@
         "Block frame": "-9",
         "Hit frame": "SPD",
         "Counter hit frame": "SPD",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/MammothSilverAdder-max-14mb.gif"
     },
     "STB d+1": {
         "Hit level": "m",
@@ -681,7 +727,8 @@
         "Block frame": "+8~+9",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": "Tail spin"
+        "Notes": "Tail spin",
+        "webm": "https://thumbs.gfycat.com/MatureMilkyAmericanwigeon-size_restricted.gif"
     },
     "STB d+2": {
         "Hit level": "l (TC)",
@@ -699,7 +746,8 @@
         "Block frame": "-12~-11",
         "Hit frame": "KND",
         "Counter hit frame": "KND",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/UnacceptableKnobbyAfricanwildcat-max-14mb.gif"
     },
     "STB d/b+1+2": {
         "Hit level": "m, !",
@@ -708,7 +756,8 @@
         "Block frame": "CS",
         "Hit frame": "CS",
         "Counter hit frame": "CS",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/AmusedEmotionalGreatdane-max-14mb.gif"
     },
     "STB b+4": {
         "Hit level": "m",
@@ -735,7 +784,8 @@
         "Block frame": "-1~0",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/UntriedMarriedBlackbuck-max-14mb.gif"
     },
     "STB WS+1, 2": {
         "Hit level": "m, m",
@@ -924,7 +974,8 @@
         "Block frame": "-13",
         "Hit frame": "JG",
         "Counter hit frame": "JG",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/DirtyApprehensiveDuckbillcat-max-14mb.gif"
     },
     "SS+1": {
         "Hit level": "h",
@@ -978,7 +1029,8 @@
         "Block frame": "-2",
         "Hit frame": "+9",
         "Counter hit frame": "+9",
-        "Notes": ""
+        "Notes": "",
+        "webm": "https://thumbs.gfycat.com/SimpleFrayedHawaiianmonkseal-max-14mb.gif"
     },
     "BT d+3 or 4": {
         "Hit level": "l",
