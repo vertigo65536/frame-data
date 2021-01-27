@@ -1116,7 +1116,7 @@
             },
             "Rokushaku Horokudama": {
                 "moveName": "Rokushaku Horokudama",
-                "plnCmd": "HP+HK",
+                "plnCmd": "HP+HK (VT1)",
                 "numCmd": "4or5or6HPHK",
                 "cmnName": "V-Trigger 1 (1st Bomb)",
                 "startup": 1,
@@ -1149,7 +1149,7 @@
             },
             "Rokushaku Horokudama 2nd": {
                 "moveName": "Rokushaku Horokudama 2nd",
-                "plnCmd": "HP+HK",
+                "plnCmd": "HP+HK (VT1)",
                 "numCmd": "4or5or6HPHK",
                 "cmnName": "V-Trigger 1 (2nd Bomb)",
                 "startup": 25,
