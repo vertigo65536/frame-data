@@ -52,9 +52,9 @@
         "Startup": "5",
         "Hit": "4",
         "Recovery": "10",
-        "Blocked Advantage": "+14",
-        "Hit Advantage": "+5",
-        "Crouching Hit Advantage": "+6",
+        "Blocked Advantage": "+1",
+        "Hit Advantage": "+2",
+        "Crouching Hit Advantage": "+3",
         "Guard": "HL",
         "Parry": "H",
         "Image": "https://srk.shib.live/images/2/27/%28ryuclosemp%29.gif"
