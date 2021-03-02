@@ -60,6 +60,8 @@
                 "VSKGapBlock": -16,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -71,7 +73,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Good vertical anti-air (can hit cross-up)"
+                    "Good vertical anti-air (can hit cross-up)",
+                    "Forces standing on hit"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -83,8 +86,8 @@
                 "plnCmd": "HP",
                 "numCmd": "5HP",
                 "startup": 12,
-                "active": 2,
-                "recovery": 19,
+                "active": 3,
+                "recovery": 18,
                 "total": 32,
                 "onHit": 0,
                 "onBlock": -3,
@@ -94,14 +97,15 @@
                 "vtc2OnBlock": 4,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*17",
+                "hcWinVt": 21,
+                "hcWinNotes": "*CA only",
                 "kd": 96,
                 "kdr": 37,
                 "kdrb": 42,
-                "crushAdv": {
-                    "state": "Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -135,6 +139,7 @@
                 "vtc2OnBlock": 2,
                 "damage": 30,
                 "stun": 70,
+                "hcWinTc": 11,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -170,6 +175,9 @@
                 "VSKGapBlock": -16,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinTc": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -201,11 +209,10 @@
                 "vtc2OnBlock": 11,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 23,
-                    "vG": "+120"
-                },
+                "hcWinVt": 20,
+                "ccState": "Stagger",
+                "ccAdv": 23,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -285,6 +292,8 @@
                 "VSKGapBlock": -16,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -320,16 +329,16 @@
                 "VSPGapBlock": -1,
                 "VSKGapHit": -7,
                 "VSKGapBlock": -11,
-                "damage": 90,
+                "damage": "90 (80)",
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinVt": 24,
                 "kd": 117,
                 "kdr": 58,
                 "kdrb": 63,
-                "crushAdv": {
-                    "state": "Flipping Juggle",
-                    "ccAdv": "J",
-                    "vG": "+150"
-                },
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -342,8 +351,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Forces standing on hit",
-                    "Damage reduced to 70 after first 2 active frames",
-                    "Can only Crush Counter on the first 2 active frames"
+                    "Deals 10 less damage (80) after first active frame",
+                    "Can only Crush Counter on the first active frame"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -395,6 +404,8 @@
                 "vtc2OnBlock": 9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinTc": 13,
+                "hcWinVt": 13,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -424,14 +435,13 @@
                 "vtc2OnBlock": 6,
                 "damage": 100,
                 "stun": 150,
+                "hcWinVt": 16,
                 "kd": 71,
                 "kdr": 22,
                 "kdrb": 27,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -563,12 +573,15 @@
                 "vtc2OnBlock": 7,
                 "vsc1OnHit": "KD (+87/28/33)",
                 "vsc1OnBlock": -17,
+                "vsc2OnHit": "KD (+68/9/14)",
+                "vsc2OnBlock": -36,
                 "VSPGapHit": "N/A",
                 "VSPGapBlock": -7,
                 "VSKGapHit": "N/A",
                 "VSKGapBlock": -12,
-                "damage": 96,
-                "stun": 172,
+                "damage": "60*36 (96)",
+                "stun": "100*72 (172)",
+                "hcWinTc": 14,
                 "kd": 96,
                 "kdr": 37,
                 "kdrb": 42,
@@ -589,6 +602,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 19
             },
             "Hard KKB": {
@@ -599,8 +613,8 @@
                 "recovery": 31,
                 "onHit": "KD",
                 "onBlock": -17,
-                "damage": 96,
-                "stun": 172,
+                "damage": "60*36 (96)",
+                "stun": "100*72 (172)",
                 "kd": 87,
                 "kdr": 28,
                 "kdrb": 33,
@@ -615,6 +629,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "Target Combo",
                 "i": 20
             },
             "OTB": {
@@ -625,8 +640,8 @@
                 "recovery": 50,
                 "onHit": "KD",
                 "onBlock": -36,
-                "damage": 96,
-                "stun": 172,
+                "damage": "60*36 (96)",
+                "stun": "100*72 (172)",
                 "kd": 68,
                 "kdr": 9,
                 "kdrb": 14,
@@ -641,6 +656,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "Target Combo",
                 "i": 21
             },
             "Hard Smasher": {
@@ -657,8 +673,8 @@
                 "vtc1OnBlock": 9,
                 "vtc2OnHit": "KD (+111/52/57)",
                 "vtc2OnBlock": 8,
-                "damage": 144,
-                "stun": 268,
+                "damage": "60*36*48 (144)",
+                "stun": "100*72*96 (268)",
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
@@ -672,11 +688,12 @@
                 "projectile": false,
                 "extraInfo": [
                     "Places opponent in juggle state",
-                    "Buils 100 V-Meter (1/3rd V-bar) on hit and 55 V-Meter on block"
+                    "Builds 100 V-Meter (1/3rd V-bar) on hit and 55 V-Meter on block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 22
             },
             "Hard Pressure": {
@@ -693,8 +710,8 @@
                 "vtc1OnBlock": 8,
                 "vtc2OnHit": "KD (+86/27/32)",
                 "vtc2OnBlock": 8,
-                "damage": 144,
-                "stun": 268,
+                "damage": "60*36*48 (144)",
+                "stun": "100*72*96 (268)",
                 "kd": 70,
                 "kdr": 11,
                 "kdrb": 16,
@@ -708,11 +725,12 @@
                 "projectile": false,
                 "extraInfo": [
                     "Spikes opponent down to the ground",
-                    "Buils 100 V-Meter (1/3rd V-bar) on hit and 55 V-Meter on block"
+                    "Builds 100 V-Meter (1/3rd V-bar) on hit and 55 V-Meter on block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Under Impact 1": {
@@ -729,8 +747,9 @@
                 "vtc1OnBlock": 4,
                 "vtc2OnHit": 12,
                 "vtc2OnBlock": 4,
-                "damage": 66,
-                "stun": 133,
+                "damage": "30*36 (66)",
+                "stun": "70*63 (133)",
+                "hcWinTc": 11,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -745,6 +764,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MK",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Under Impact 2": {
@@ -752,31 +772,39 @@
                 "plnCmd": "LK > MK > HK",
                 "numCmd": "5LK > 5MK > 5HK",
                 "cmnName": "LK > MK > HK",
-                "startup": "3+6+9",
+                "startup": "3+6+8",
                 "active": 2,
-                "recovery": 21,
+                "recovery": 22,
                 "onHit": "KD",
                 "onBlock": -8,
                 "vtc1OnHit": "KD (+104/45/50)",
                 "vtc1OnBlock": 7,
                 "vtc2OnHit": "KD (+104/45/50)",
                 "vtc2OnBlock": 7,
-                "damage": 122,
-                "stun": 213,
+                "vsc2OnHit": "KD (+61/2/7)",
+                "vsc2OnBlock": -36,
+                "damage": "30*36*66 (122)",
+                "stun": "70*63*80 (213)",
+                "hcWinTc": "2020-11-14T08:00:00.000Z",
                 "kd": 89,
                 "kdr": 30,
                 "kdrb": 35,
                 "attackLevel": "H",
                 "cancelsTo": [
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
+                "extraInfo": [
+                    "Can be canceled into V-Skill 2 (results in oki pressure in corner)"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 25
             },
             "Stomping Combo": {
@@ -793,8 +821,9 @@
                 "vtc1OnBlock": -2,
                 "vtc2OnHit": 7,
                 "vtc2OnBlock": -2,
-                "damage": 96,
-                "stun": 172,
+                "damage": "60*36 (96)",
+                "stun": "100*72 (172)",
+                "hcWinVt": 16,
                 "attackLevel": "L*L",
                 "cancelsTo": [
                     "vt1",
@@ -811,6 +840,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MK",
+                "movesList": "Target Combo",
                 "i": 26
             },
             "Dirty Bomber": {
@@ -834,6 +864,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 27
             },
             "Dirty Shot": {
@@ -857,6 +888,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 28
             },
             "KKB": {
@@ -883,6 +915,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 29
             },
             "KKB > Buffalo Swing": {
@@ -902,6 +935,7 @@
                 "vtc2OnBlock": 11,
                 "damage": 50,
                 "stun": 100,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -917,6 +951,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 1",
                 "i": 30
             },
             "KKB > Buffalo Pressure": {
@@ -936,6 +971,7 @@
                 "vtc2OnBlock": 7,
                 "damage": 50,
                 "stun": 100,
+                "hcWinVt": 17,
                 "attackLevel": "M",
                 "cancelsTo": [
                     "vt1",
@@ -951,6 +987,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "V-Skill 1",
                 "i": 31
             },
             "FFB": {
@@ -971,6 +1008,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 32
             },
             "Crazy Rush": {
@@ -994,6 +1032,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 33
             },
             "No Mercy": {
@@ -1016,6 +1055,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 34
             },
             "Buffalo Headbutt": {
@@ -1046,7 +1086,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 35
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "damage": 60,
+                "stun": 0,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 36
+            },
+            "Buffalo Breaker": {
+                "moveName": "Buffalo Breaker",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 37
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1061,7 +1160,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 36
+                "i": 38
             },
             "LP Dash Straight": {
                 "moveName": "LP Dash Straight",
@@ -1074,9 +1173,9 @@
                 "total": "35(37)",
                 "onHit": 2,
                 "onBlock": -4,
-                "vtc1OnHit": 5,
-                "vtc1OnBlock": -1,
-                "damage": 80,
+                "vtc1OnHit": 6,
+                "vtc1OnBlock": 0,
+                "damage": 90,
                 "stun": 150,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1097,7 +1196,8 @@
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 37
+                "movesList": "Special",
+                "i": 39
             },
             "MP Dash Straight": {
                 "moveName": "MP Dash Straight",
@@ -1106,13 +1206,13 @@
                 "cmnName": "MP Dash Punch",
                 "startup": "12(16)",
                 "active": 4,
-                "recovery": 22,
-                "total": "37(41)",
-                "onHit": 3,
-                "onBlock": -6,
+                "recovery": 20,
+                "total": "35(39)",
+                "onHit": 2,
+                "onBlock": -4,
                 "vtc1OnHit": 6,
-                "vtc1OnBlock": -3,
-                "damage": 90,
+                "vtc1OnBlock": 0,
+                "damage": 100,
                 "stun": 150,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1133,7 +1233,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 38
+                "i": 40
             },
             "HP Dash Straight": {
                 "moveName": "HP Dash Straight",
@@ -1142,13 +1242,13 @@
                 "cmnName": "HP Dash Punch",
                 "startup": "19(25)",
                 "active": 4,
-                "recovery": 22,
-                "total": "44(50)",
+                "recovery": 19,
+                "total": "41(47)",
                 "onHit": 2,
-                "onBlock": -7,
+                "onBlock": -4,
                 "vtc1OnHit": 6,
-                "vtc1OnBlock": -3,
-                "damage": 100,
+                "vtc1OnBlock": 0,
+                "damage": 110,
                 "stun": 150,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1169,7 +1269,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 39
+                "i": 41
             },
             "EX Dash Straight": {
                 "moveName": "EX Dash Straight",
@@ -1190,8 +1290,8 @@
                 "VSPGapBlock": "N/A",
                 "VSKGapHit": -1,
                 "VSKGapBlock": -6,
-                "damage": "80+70",
-                "stun": "50+150",
+                "damage": "80*70 (150)",
+                "stun": "50*150 (200)",
                 "kd": 92,
                 "kdr": 33,
                 "kdrb": 38,
@@ -1214,7 +1314,7 @@
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 40
+                "i": 42
             },
             "LP Dash Straight (V-Skill 2)": {
                 "moveName": "LP Dash Straight (V-Skill 2)",
@@ -1253,7 +1353,8 @@
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 41
+                "movesList": "V-Skill 2",
+                "i": 43
             },
             "MP Dash Straight (V-Skill 2)": {
                 "moveName": "MP Dash Straight (V-Skill 2)",
@@ -1292,7 +1393,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 42
+                "i": 44
             },
             "HP Dash Straight (V-Skill 2)": {
                 "moveName": "HP Dash Straight (V-Skill 2)",
@@ -1331,7 +1432,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 43
+                "i": 45
             },
             "EX Dash Straight (V-Skill 2)": {
                 "moveName": "EX Dash Straight (V-Skill 2)",
@@ -1372,7 +1473,7 @@
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 44
+                "i": 46
             },
             "LK Dash Grand Blow": {
                 "moveName": "LK Dash Grand Blow",
@@ -1387,7 +1488,7 @@
                 "onBlock": -7,
                 "vtc1OnHit": "KD (+79/30/35)",
                 "vtc1OnBlock": 3,
-                "damage": 70,
+                "damage": 80,
                 "stun": 150,
                 "kd": 69,
                 "kdr": 20,
@@ -1411,7 +1512,8 @@
                 "moveMotion": "F",
                 "moveButton": "LK",
                 "chargeDirection": "B",
-                "i": 45
+                "movesList": "Special",
+                "i": 47
             },
             "MK Dash Grand Blow": {
                 "moveName": "MK Dash Grand Blow",
@@ -1426,7 +1528,7 @@
                 "onBlock": -7,
                 "vtc1OnHit": "KD (+79/30/35)",
                 "vtc1OnBlock": 3,
-                "damage": 80,
+                "damage": 90,
                 "stun": 150,
                 "kd": 69,
                 "kdr": 20,
@@ -1450,7 +1552,7 @@
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 46
+                "i": 48
             },
             "HK Dash Grand Blow": {
                 "moveName": "HK Dash Grand Blow",
@@ -1465,7 +1567,7 @@
                 "onBlock": -7,
                 "vtc1OnHit": "KD (+79/30/35)",
                 "vtc1OnBlock": 3,
-                "damage": 90,
+                "damage": 100,
                 "stun": 150,
                 "kd": 69,
                 "kdr": 20,
@@ -1489,7 +1591,7 @@
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 47
+                "i": 49
             },
             "EX Dash Grand Blow": {
                 "moveName": "EX Dash Grand Blow",
@@ -1530,7 +1632,7 @@
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 48
+                "i": 50
             },
             "LK Screw Smash": {
                 "moveName": "LK Screw Smash",
@@ -1545,6 +1647,8 @@
                 "onBlock": -10,
                 "vtc1OnHit": "KD (+109/50/55)",
                 "vtc1OnBlock": 12,
+                "vsc2OnHit": "KD (+66/7/12)",
+                "vsc2OnBlock": -31,
                 "damage": 100,
                 "stun": 150,
                 "kd": 87,
@@ -1553,19 +1657,21 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
+                    "vs2",
                     "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can cancel into Super or V-Trigger rekka follow-ups on hit or block",
-                    "Not cancelable into V-Trigger 2 activation"
+                    "Cannot hit crouching opponents",
+                    "Can cancel into V-Skill 2, Super, V-Trigger 1 rekka follow-ups, and V-Skill 2 V-Trigger 1 rekka follow-ups on hit or block"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 49
+                "movesList": "Special",
+                "i": 51
             },
             "MK Screw Smash": {
                 "moveName": "MK Screw Smash",
@@ -1580,6 +1686,8 @@
                 "onBlock": -10,
                 "vtc1OnHit": "KD (+112/53/58)",
                 "vtc1OnBlock": 13,
+                "vsc2OnHit": "KD (+69/10/15)",
+                "vsc2OnBlock": -30,
                 "damage": 100,
                 "stun": 150,
                 "kd": 89,
@@ -1588,19 +1696,20 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
+                    "vs2",
                     "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can cancel into Super or V-Trigger rekka follow-ups on hit or block",
-                    "Not cancelable into V-Trigger 2 activation"
+                    "Cannot hit crouching opponents",
+                    "Can cancel into V-Skill 2, Super, V-Trigger 1 rekka follow-ups, and V-Skill 2 V-Trigger 1 rekka follow-ups on hit or block"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 50
+                "i": 52
             },
             "HK Screw Smash": {
                 "moveName": "HK Screw Smash",
@@ -1615,6 +1724,8 @@
                 "onBlock": -10,
                 "vtc1OnHit": "KD (+117/58/63)",
                 "vtc1OnBlock": 10,
+                "vsc2OnHit": "KD (+74/15/20)",
+                "vsc2OnBlock": -33,
                 "damage": 100,
                 "stun": 150,
                 "kd": 97,
@@ -1623,19 +1734,20 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
+                    "vs2",
                     "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can cancel into Super or V-Trigger rekka follow-ups on hit or block",
-                    "Not cancelable into V-Trigger 2 activation"
+                    "Cannot hit crouching opponents",
+                    "Can cancel into V-Skill 2, Super, V-Trigger 1 rekka follow-ups, and V-Skill 2 V-Trigger 1 rekka follow-ups on hit or block"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 51
+                "i": 53
             },
             "EX Screw Smash": {
                 "moveName": "EX Screw Smash",
@@ -1652,6 +1764,8 @@
                 "vtc1OnBlock": -7,
                 "vtc2OnHit": "KD (+97/38/43)",
                 "vtc2OnBlock": -7,
+                "vsc2OnHit": "KD (+73/14/19)",
+                "vsc2OnBlock": -34,
                 "damage": 160,
                 "stun": 200,
                 "kd": 90,
@@ -1659,25 +1773,27 @@
                 "kdrb": 36,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "vt1",
-                    "vt2"
+                    "su",
+                    "vs2",
+                    "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can be canceled into EX V-Trigger rekka follow-ups on hit or block",
-                    "One hit of armor on frames 3-16"
+                    "1 hit of armor on frames 3-16",
+                    "Can hit crouching opponents (unlike the non-EX versions of this move)",
+                    "Can cancel into V-Skill 2, Super, V-Trigger 1 rekka follow-ups, and V-Skill 2 V-Trigger 1 rekka follow-ups on hit or block"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2K",
-                "i": 52
+                "i": 54
             },
             "TAP lvl 1": {
                 "moveName": "TAP lvl 1",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 1",
+                "plnCmd": "Hold & Release PP/KK lvl1",
+                "numCmd": "Hold & Release PP/KK lvl1",
                 "cmnName": "TAP 1",
                 "startup": "26(30)",
                 "active": 2,
@@ -1687,7 +1803,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": 15,
                 "vtc1OnBlock": 12,
-                "damage": 80,
+                "damage": 100,
                 "stun": 150,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1707,12 +1823,13 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 53
+                "movesList": "Special",
+                "i": 55
             },
             "TAP lvl 2": {
                 "moveName": "TAP lvl 2",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 2",
+                "plnCmd": "Hold & Release PP/KK lvl2",
+                "numCmd": "Hold & Release PP/KK lvl2",
                 "cmnName": "TAP 2",
                 "startup": "26(30)",
                 "active": 2,
@@ -1722,7 +1839,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": 16,
                 "vtc1OnBlock": 13,
-                "damage": 100,
+                "damage": 120,
                 "stun": 150,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1742,12 +1859,12 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 54
+                "i": 56
             },
             "TAP lvl 3": {
                 "moveName": "TAP lvl 3",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 3",
+                "plnCmd": "Hold & Release PP/KK lvl3",
+                "numCmd": "Hold & Release PP/KK lvl3",
                 "cmnName": "TAP 3",
                 "startup": "26(30)",
                 "active": 2,
@@ -1757,7 +1874,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": 17,
                 "vtc1OnBlock": 14,
-                "damage": 120,
+                "damage": 140,
                 "stun": 150,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1777,12 +1894,12 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 55
+                "i": 57
             },
             "TAP lvl 4": {
                 "moveName": "TAP lvl 4",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 4",
+                "plnCmd": "Hold & Release PP/KK lvl4",
+                "numCmd": "Hold & Release PP/KK lvl4",
                 "cmnName": "TAP 4",
                 "startup": "26(30)",
                 "active": 2,
@@ -1792,7 +1909,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": "KD (+104/45/50)",
                 "vtc1OnBlock": 15,
-                "damage": 140,
+                "damage": 160,
                 "stun": 200,
                 "kd": 90,
                 "kdr": 31,
@@ -1815,12 +1932,12 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 56
+                "i": 58
             },
             "TAP lvl 5": {
                 "moveName": "TAP lvl 5",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K",
+                "plnCmd": "Hold & Release PP/KK lvl5",
+                "numCmd": "Hold & Release PP/KK lvl5",
                 "cmnName": "TAP 5",
                 "startup": "26(30)",
                 "active": 2,
@@ -1830,7 +1947,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": "KD (+104/45/50)",
                 "vtc1OnBlock": 16,
-                "damage": 160,
+                "damage": 180,
                 "stun": 200,
                 "kd": 90,
                 "kdr": 31,
@@ -1853,12 +1970,12 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 57
+                "i": 59
             },
             "TAP lvl 6": {
                 "moveName": "TAP lvl 6",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 6",
+                "plnCmd": "Hold & Release PP/KK lvl6",
+                "numCmd": "Hold & Release PP/KK lvl6",
                 "cmnName": "TAP 6",
                 "startup": "26(30)",
                 "active": 2,
@@ -1868,7 +1985,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": "KD (+104/45/50)",
                 "vtc1OnBlock": 17,
-                "damage": 180,
+                "damage": 200,
                 "stun": 200,
                 "kd": 90,
                 "kdr": 31,
@@ -1891,12 +2008,12 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 58
+                "i": 60
             },
             "TAP lvl 7": {
                 "moveName": "TAP lvl 7",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 7",
+                "plnCmd": "Hold & Release PP/KK lvl7",
+                "numCmd": "Hold & Release PP/KK lvl7",
                 "cmnName": "TAP 7",
                 "startup": "26(30)",
                 "active": 2,
@@ -1906,7 +2023,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": "KD (+108/49/54)",
                 "vtc1OnBlock": 18,
-                "damage": 210,
+                "damage": 230,
                 "stun": 300,
                 "kd": 94,
                 "kdr": 35,
@@ -1930,12 +2047,12 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 59
+                "i": 61
             },
             "TAP lvl 8": {
                 "moveName": "TAP lvl 8",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 8",
+                "plnCmd": "Hold & Release PP/KK lvl8",
+                "numCmd": "Hold & Release PP/KK lvl8",
                 "cmnName": "TAP 8",
                 "startup": "26(30)",
                 "active": 2,
@@ -1945,7 +2062,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": "KD (+108/49/54)",
                 "vtc1OnBlock": 19,
-                "damage": 240,
+                "damage": 260,
                 "stun": 300,
                 "kd": 94,
                 "kdr": 35,
@@ -1969,12 +2086,12 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 60
+                "i": 62
             },
             "TAP lvl 9": {
                 "moveName": "TAP lvl 9",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 9",
+                "plnCmd": "Hold & Release PP/KK lvl9",
+                "numCmd": "Hold & Release PP/KK lvl9",
                 "cmnName": "TAP 9",
                 "startup": "26(30)",
                 "active": 2,
@@ -1984,7 +2101,7 @@
                 "onBlock": -2,
                 "vtc1OnHit": "KD (+108/49/54)",
                 "vtc1OnBlock": 20,
-                "damage": 270,
+                "damage": 290,
                 "stun": 300,
                 "kd": 94,
                 "kdr": 35,
@@ -2008,12 +2125,12 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 61
+                "i": 63
             },
             "TAP lvl 10": {
                 "moveName": "TAP lvl 10",
-                "plnCmd": "Hold and Release 2 P or K",
-                "numCmd": "Hold and Release 2 P or K lvl 10",
+                "plnCmd": "Hold & Release PP/KK Max",
+                "numCmd": "Hold & Release PP/KK Max",
                 "cmnName": "TAP Max",
                 "startup": "26(30)",
                 "active": 2,
@@ -2023,7 +2140,7 @@
                 "onBlock": 7,
                 "vtc1OnHit": "KD (+122/63/63)",
                 "vtc1OnBlock": 21,
-                "damage": 350,
+                "damage": 370,
                 "stun": 400,
                 "kd": 98,
                 "kdr": 39,
@@ -2048,20 +2165,20 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
-                "i": 62
+                "i": 64
             },
             "Gigaton Blow": {
                 "moveName": "Gigaton Blow",
                 "plnCmd": "qcf,qcf+P",
                 "numCmd": "236236P",
-                "cmnName": "Super (Bionic Arm)",
+                "cmnName": "Super",
                 "startup": 8,
                 "active": 10,
                 "recovery": 60,
                 "total": 77,
                 "onHit": "KD",
                 "onBlock": -45,
-                "damage": 330,
+                "damage": "340 (330)",
                 "kd": 72,
                 "kdr": 13,
                 "kdrb": 18,
@@ -2072,13 +2189,17 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-10",
                     "Projectile invincible from frames 11-17",
-                    "Throw invincible from frames 1-13"
+                    "Throw invincible from frames 1-13",
+                    "Does 10 less damage (330) after first active frame",
+                    "Does a totally cool rad camera zoom-in if it hits on the first active frame!"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 63
-            }
+                "movesList": "Super",
+                "i": 65
+            },
+            "input": "None"
         },
         "vtOne": {
             "Charging Buffalo (stage 1) (vt)": {
@@ -2116,7 +2237,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1P",
-                "i": 53.01
+                "movesList": "Special",
+                "i": 54.01
             },
             "Charging Buffalo (stage 2) (vt)": {
                 "moveName": "Charging Buffalo (stage 2) (vt)",
@@ -2153,7 +2275,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1P",
-                "i": 53.02
+                "movesList": "Special",
+                "i": 54.02
             },
             "Charging Buffalo (stage 3) (vt)": {
                 "moveName": "Charging Buffalo (stage 3) (vt)",
@@ -2190,7 +2313,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1P",
-                "i": 53.03
+                "movesList": "Special",
+                "i": 54.03
             },
             "Final Charging Buffalo (vt)": {
                 "moveName": "Final Charging Buffalo (vt)",
@@ -2221,7 +2345,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1P",
-                "i": 53.04
+                "movesList": "Special",
+                "i": 54.04
             },
             "EX Charging Buffalo (stage 1) (vt)": {
                 "moveName": "EX Charging Buffalo (stage 1) (vt)",
@@ -2260,7 +2385,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2P",
-                "i": 53.05
+                "movesList": "Special",
+                "i": 54.05
             },
             "EX Final Charging Buffalo (vt)": {
                 "moveName": "EX Final Charging Buffalo (vt)",
@@ -2288,7 +2414,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2P",
-                "i": 53.06
+                "movesList": "Special",
+                "i": 54.06
             },
             "Charging Buffalo (stage 1) (V-Skill 2) (vt)": {
                 "moveName": "Charging Buffalo (stage 1) (V-Skill 2) (vt)",
@@ -2320,7 +2447,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1P",
-                "i": 53.07
+                "movesList": "Special",
+                "i": 54.07
             },
             "Charging Buffalo (stage 2) (V-Skill 2) (vt)": {
                 "moveName": "Charging Buffalo (stage 2) (V-Skill 2) (vt)",
@@ -2351,7 +2479,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1P",
-                "i": 53.08
+                "movesList": "Special",
+                "i": 54.08
             },
             "Charging Buffalo (stage 3) (V-Skill 2) (vt)": {
                 "moveName": "Charging Buffalo (stage 3) (V-Skill 2) (vt)",
@@ -2382,7 +2511,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1P",
-                "i": 53.09
+                "movesList": "Special",
+                "i": 54.09
             },
             "Final Charging Buffalo (V-Skill 2) (vt)": {
                 "moveName": "Final Charging Buffalo (V-Skill 2) (vt)",
@@ -2413,7 +2543,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1P",
-                "i": 53.1
+                "movesList": "Special",
+                "i": 54.1
             },
             "EX Charging Buffalo (stage 1) (V-Skill 2)) (vt)": {
                 "moveName": "EX Charging Buffalo (stage 1) (V-Skill 2)) (vt)",
@@ -2441,7 +2572,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2P",
-                "i": 53.11
+                "movesList": "Special",
+                "i": 54.11
             },
             "EX Final Charging Buffalo (V-Skill 2) (vt)": {
                 "moveName": "EX Final Charging Buffalo (V-Skill 2) (vt)",
@@ -2469,7 +2601,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2P",
-                "i": 53.12
+                "movesList": "Special",
+                "i": 54.12
             },
             "Bursting Buffalo (stage 1) (vt)": {
                 "moveName": "Bursting Buffalo (stage 1) (vt)",
@@ -2509,7 +2642,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1K",
-                "i": 53.13
+                "movesList": "Special",
+                "i": 54.13
             },
             "Bursting Buffalo (stage 2) (vt)": {
                 "moveName": "Bursting Buffalo (stage 2) (vt)",
@@ -2549,7 +2683,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1K",
-                "i": 53.14
+                "movesList": "Special",
+                "i": 54.14
             },
             "Bursting Buffalo (stage 3) (vt)": {
                 "moveName": "Bursting Buffalo (stage 3) (vt)",
@@ -2589,7 +2724,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1K",
-                "i": 53.15
+                "movesList": "Special",
+                "i": 54.15
             },
             "Final Bursting Buffalo (vt)": {
                 "moveName": "Final Bursting Buffalo (vt)",
@@ -2618,7 +2754,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "1K",
-                "i": 53.16
+                "movesList": "Special",
+                "i": 54.16
             },
             "EX Bursting Buffalo (stage 1) (vt)": {
                 "moveName": "EX Bursting Buffalo (stage 1) (vt)",
@@ -2657,7 +2794,8 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2K",
-                "i": 53.17
+                "movesList": "Special",
+                "i": 54.17
             },
             "EX Final Bursting Buffalo (vt)": {
                 "moveName": "EX Final Bursting Buffalo (vt)",
@@ -2685,8 +2823,10 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2K",
-                "i": 53.18
-            }
+                "movesList": "Special",
+                "i": 54.18
+            },
+            "input": "None"
         },
         "vtTwo": {
             "B3": {
@@ -2699,7 +2839,7 @@
                 "recovery": 60,
                 "total": 68,
                 "onHit": "KD",
-                "damage": 180,
+                "damage": 200,
                 "stun": 350,
                 "kd": 61,
                 "kdr": 12,
@@ -2715,8 +2855,10 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 34.01
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
@@ -2741,6 +2883,6 @@
         "bDashDist": 106.1,
         "throwHurt": 0.35,
         "throwRange": 0.85,
-        "threeLetterCode": "bsn"
+        "threeLetterCode": "blr"
     }
 }

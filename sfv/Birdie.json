@@ -50,6 +50,8 @@
                 "vtc2OnBlock": -21,
                 "damage": 60,
                 "stun": 120,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -87,6 +89,7 @@
                 "vtc2OnBlock": -26,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -155,6 +158,7 @@
                 "vtc2OnBlock": -23,
                 "damage": 60,
                 "stun": 120,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -187,11 +191,10 @@
                 "vtc2OnBlock": -17,
                 "damage": 100,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 31,
-                    "vG": "+150"
-                },
+                "hcWinVt": 19,
+                "ccState": "Stagger",
+                "ccAdv": 31,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -257,6 +260,8 @@
                 "vtc2OnBlock": -25,
                 "damage": 70,
                 "stun": 120,
+                "hcWinSpCa": 17,
+                "hcWinVt": 12,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -293,9 +298,15 @@
                 "vtc2OnBlock": -19,
                 "damage": 80,
                 "stun": 120,
-                "kd": 93,
-                "kdr": 32,
-                "kdrb": 37,
+                "hcWinSpCa": 20,
+                "hcWinTc": 33,
+                "hcWinVt": 19,
+                "kd": "93(119)",
+                "kdr": "32(54)",
+                "kdrb": "37(59)",
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -310,10 +321,16 @@
                 "projectile": false,
                 "extraInfo": [
                     "Launches opponent into a limited juggle state",
+                    "Crush counters on first active frame only",
+                    "KDA for crush counter in parentheses",
                     "Hurtbox is smaller than crouching (low profile) on frames 5-12",
                     "-1 VTC KDA if cr.HP hits further away (on 2nd active frame)",
-                    "+5 extra VTC KDA if V-Trigger 1 activation juggles afterwards (+22 extra KDA if V-Trigger 2 activation juggles afterwards)",
-                    "KDA if canceled into V-Skill 1 (Donut | Banana | Can): +70/9/14 | +63/2/7 | +61/0/5"
+                    "V-Trigger 1 Cancel KDA +103/43/48 (+5 extra KDA if V-Trigger activation juggles afterwards);",
+                    "V-Trigger 2 Cancel KDA +83/22/27 (+22 extra KDA if V-Trigger activation juggles afterwards)",
+                    "V-Trigger 1 Crush Counter Cancel KDA +123/65/70 (-14 extra KDA if V-Trigger activation juggles afterwards)",
+                    "V-Trigger 2 Crush Counter Cancel KDA +105/44/49 (+3 extra KDA if V-Trigger activation juggles afterwards",
+                    "KDA if canceled into V-Skill 1 (Donut | Banana | Can): +70/9/14 | +63/2/7 | +61/0/5",
+                    "KDA if canceled into V-Skill 2: +61/0/5"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -365,6 +382,7 @@
                 "vtc2OnBlock": -24,
                 "damage": 60,
                 "stun": 120,
+                "hcWinVt": 13,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -394,14 +412,13 @@
                 "vtc2OnBlock": -26,
                 "damage": 100,
                 "stun": 150,
+                "hcWinVt": 18,
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -530,7 +547,7 @@
                 "moveName": "Bull Charge",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
-                "cmnName": "f+HP Shoulder tackle",
+                "cmnName": "Shoulder Tackle",
                 "startup": 25,
                 "active": 4,
                 "recovery": 18,
@@ -542,11 +559,9 @@
                 "kd": 110,
                 "kdr": 49,
                 "kdrb": 54,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -558,6 +573,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Bull Slider": {
@@ -585,6 +601,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Bull Drop": {
@@ -619,6 +636,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Bad Hammer": {
@@ -634,20 +652,28 @@
                 "onBlock": -12,
                 "damage": "80*81 (161)",
                 "stun": "150*135 (285)",
-                "kd": 62,
-                "kdr": 1,
-                "kdrb": 6,
+                "hcWinTc": 33,
+                "kd": "62(21)",
+                "kdr": "1(21)",
+                "kdrb": "6(21)",
                 "attackLevel": "H*H",
+                "cancelsTo": [
+                    "vs1",
+                    "vs2"
+                ],
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
                     "Follow-up only possible on hit",
-                    "Up to +2 extra KDA the further away the initial hit connects"
+                    "Up to +2 extra KDA the further away the initial hit connects",
+                    "Hard knockdown (+21) if done from a crush counter",
+                    "Can be canceled into V-Skill but Birdie is heavily punishable (-20+) unless done from a crush counter"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Bad Skull": {
@@ -672,6 +698,7 @@
                 "moveType": "throw",
                 "moveMotion": "F",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 23
             },
             "Bad Chain": {
@@ -696,6 +723,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 24
             },
             "Break Time": {
@@ -718,6 +746,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 25
             },
             "Banana Time": {
@@ -749,6 +778,7 @@
                 "moveType": "vskill",
                 "moveMotion": "B",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 26
             },
             "Drink Time": {
@@ -778,6 +808,7 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 27
             },
             "Chewing Time": {
@@ -801,6 +832,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 28
             },
             "Chewing Time (Hold)": {
@@ -828,6 +860,7 @@
                 "moveButton": "MPMK",
                 "chargeDirection": "R",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 29
             },
             "Bubble Gum Pop": {
@@ -857,6 +890,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "LP",
+                "movesList": "V-Skill 2",
                 "i": 30
             },
             "Bubble Gum Launch MP": {
@@ -887,6 +921,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MP",
+                "movesList": "V-Skill 2",
                 "i": 31
             },
             "Bubble Gum Launch HP": {
@@ -917,6 +952,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "V-Skill 2",
                 "i": 32
             },
             "Blow Bubble": {
@@ -937,6 +973,7 @@
                 "moveMotion": "N",
                 "moveButton": "1K",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 33
             },
             "Enjoy Time": {
@@ -969,6 +1006,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 34
             },
             "Birdie Time": {
@@ -993,12 +1031,13 @@
                     "Gives access to two new specials (Bull Swing & Bull Capture)",
                     "The attack on activation can only hit airborne opponents",
                     "The attack on activation is a physical-type hit not a projectile (and cannot nullify projectiles)",
-                    "KDA varies greatly (since the attack can't hit grounded opponents the KDA varies depending on opponent's height in-air when hit"
+                    "KDA varies greatly (since the attack can't hit grounded opponents the KDA varies depending on opponent's height in-air when hit)"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 35
             },
             "Pepper Pot": {
@@ -1028,7 +1067,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 36
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 29
+            },
+            "Bull Crush": {
+                "moveName": "Bull Crush",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 30
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1081,6 +1179,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
+                "movesList": "Special",
                 "i": 38
             },
             "MP Bull Head": {
@@ -1244,6 +1343,7 @@
                 "moveType": "special",
                 "moveButton": "1Por1K",
                 "chargeDirection": "R",
+                "movesList": "Special",
                 "i": 42
             },
             "EX Bull Horn": {
@@ -1323,6 +1423,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
+                "movesList": "Special",
                 "i": 44
             },
             "MP Killing Head": {
@@ -1427,6 +1528,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 48
             },
             "MK Hanging Chain": {
@@ -1434,7 +1536,7 @@
                 "plnCmd": "qcf+MK",
                 "numCmd": "236MK",
                 "cmnName": "MK Chain",
-                "startup": "25(21)",
+                "startup": "20(21)",
                 "active": 16,
                 "recovery": 24,
                 "total": "64(60)",
@@ -1450,11 +1552,12 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "4F faster startup if canceled from standing MP",
+                    "1F slower startup if canceled from standing MP",
                     "Denies back-roll on wake-up (counts as a Throw)",
                     "Cannot hit airborne opponents",
                     "Technically a strike and doesn\u2019t clash with projectiles",
-                    "No extra damage on counter-hit"
+                    "No extra damage on counter-hit",
+                    "The delay after hit can be canceled with Chewing Time"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
@@ -1548,7 +1651,7 @@
                 "moveName": "LK Bull Revenger",
                 "plnCmd": "hcb+LK",
                 "numCmd": "63214LK",
-                "cmnName": "LK Dolphin Grab",
+                "cmnName": "LK Dolphin Dive",
                 "startup": 35,
                 "active": 2,
                 "recovery": 28,
@@ -1569,13 +1672,14 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 53
             },
             "MK Bull Revenger": {
                 "moveName": "MK Bull Revenger",
                 "plnCmd": "hcb+MK",
                 "numCmd": "63214MK",
-                "cmnName": "MK Dolphin Grab",
+                "cmnName": "MK Dolphin Dive",
                 "startup": 40,
                 "active": 2,
                 "recovery": 28,
@@ -1602,7 +1706,7 @@
                 "moveName": "HK Bull Revenger",
                 "plnCmd": "hcb+HK",
                 "numCmd": "63214HK",
-                "cmnName": "HK Dolphin Grab",
+                "cmnName": "HK Dolphin Dive",
                 "startup": 43,
                 "active": 2,
                 "recovery": 28,
@@ -1629,7 +1733,7 @@
                 "moveName": "EX Bull Revenger",
                 "plnCmd": "hcb+KK",
                 "numCmd": "63214KK",
-                "cmnName": "EX Dolphin Grab",
+                "cmnName": "EX Dolphin Dive",
                 "startup": "23(30)",
                 "active": 11,
                 "recovery": 47,
@@ -1647,6 +1751,7 @@
                 "extraInfo": [
                     "Airborne and throw invincible on frames 5-37",
                     "Throw invincible on frames 5-35",
+                    "Hurtbox during dive is small and high up, able to avoid most projectiles including aegis (however, Birdie is NOT projectile invulnerable)",
                     "Hairstyle recovery on frames 20-40 after whiff",
                     "Doesn't hit most standing opponents until around frame 25 and most crouching around frame 30"
                 ],
@@ -1684,8 +1789,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
+                "movesList": "Super",
                 "i": 57
-            }
+            },
+            "input": "None"
         },
         "vtOne": {
             "Stand LP": {
@@ -1727,6 +1834,7 @@
                 "onBlock": 1,
                 "damage": 72,
                 "stun": 120,
+                "hcWinSpCa": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1836,11 +1944,9 @@
                 "onBlock": 0,
                 "damage": 120,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Spinning",
-                    "ccAdv": 31,
-                    "vG": "+300"
-                },
+                "ccState": "Spinning",
+                "ccAdv": 31,
+                "ccVG": "+300",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1890,6 +1996,7 @@
                 "onBlock": -5,
                 "damage": 84,
                 "stun": 120,
+                "hcWinSpCa": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1920,6 +2027,8 @@
                 "onBlock": -9,
                 "damage": 96,
                 "stun": 120,
+                "hcWinSpCa": 20,
+                "hcWinTc": 33,
                 "kd": 93,
                 "kdr": 32,
                 "kdrb": 37,
@@ -2000,11 +2109,9 @@
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "L",
                 "airmove": false,
                 "followUp": false,
@@ -2129,7 +2236,7 @@
                 "moveName": "Bull Charge",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
-                "cmnName": "f+HP Shoulder tackle",
+                "cmnName": "Shoulder Tackle",
                 "startup": 25,
                 "active": 4,
                 "recovery": 18,
@@ -2141,11 +2248,9 @@
                 "kd": 110,
                 "kdr": 49,
                 "kdrb": 54,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2224,6 +2329,7 @@
                 "onBlock": -12,
                 "damage": "96*97 (193)",
                 "stun": "150*135 (285)",
+                "hcWinTc": 33,
                 "kd": 62,
                 "kdr": 1,
                 "kdrb": 6,
@@ -3127,7 +3233,8 @@
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
                 "i": 57
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "LK Hanging Chain": {
@@ -3151,6 +3258,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Denies back-roll on wake-up (counts as a Throw)",
                     "Cannot hit airborne opponents",
                     "Technically a strike and doesn\u2019t clash with projectiles",
                     "No extra damage on counter-hit"
@@ -3165,7 +3273,7 @@
                 "plnCmd": "qcf+MK",
                 "numCmd": "236MK",
                 "cmnName": "MK Chain",
-                "startup": 25,
+                "startup": "25(21)",
                 "active": 16,
                 "recovery": 24,
                 "total": 64,
@@ -3181,6 +3289,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "4F faster startup if canceled from standing MP",
+                    "Denies back-roll on wake-up (counts as a Throw)",
                     "Cannot hit airborne opponents",
                     "Technically a strike and doesn\u2019t clash with projectiles",
                     "No extra damage on counter-hit"
@@ -3210,6 +3320,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Denies back-roll on wake-up (counts as a Throw)",
                     "Cannot hit grounded opponents",
                     "Technically a strike and doesn\u2019t clash with projectiles",
                     "No extra damage on counter-hit"
@@ -3243,6 +3354,7 @@
                 "extraInfo": [
                     "Cannot be canceled",
                     "Technically a strike and crushes incoming 1- and 2-hit projectiles",
+                    "Denies back-roll on wake-up (counts as a Throw)",
                     "Can hit grounded and airborne opponents",
                     "No extra damage on counter-hit"
                 ],
@@ -3391,6 +3503,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 35.01
             },
             "Bull Capture": {
@@ -3426,8 +3539,10 @@
                 "moveType": "vtrigger",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 35.02
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
@@ -3443,7 +3558,7 @@
         "bDash": 26,
         "bDashCHFrames": "3-20",
         "color": "#F7C117",
-        "phrase": "Hey! It ain't too late to run off to mum now.",
+        "phrase": "Hey! It ain't too late to run off to mum now",
         "fWalk": 3.1,
         "bWalk": 2.4,
         "vfWalk": 4.3,

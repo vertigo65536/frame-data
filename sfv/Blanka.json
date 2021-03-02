@@ -39,8 +39,8 @@
                 "plnCmd": "MP",
                 "numCmd": "5MP",
                 "startup": 7,
-                "active": 2,
-                "recovery": 15,
+                "active": 3,
+                "recovery": 14,
                 "total": 23,
                 "onHit": 3,
                 "onBlock": 0,
@@ -48,6 +48,7 @@
                 "vtcOnBlock": 10,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -77,11 +78,11 @@
                 "hopsOnBlock": "-9 / -10",
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 15,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": 23,
+                "hcWinVt": 22,
+                "ccState": "Stagger",
+                "ccAdv": 15,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -146,6 +147,8 @@
                 "vtcOnBlock": "13*10",
                 "damage": "30*30",
                 "stun": "50*50",
+                "hcWinTc": 24,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -170,14 +173,17 @@
                 "numCmd": "5HK",
                 "startup": 10,
                 "active": 5,
-                "recovery": 22,
-                "total": 36,
+                "recovery": "22 (19)",
+                "total": "36 (33)",
                 "onHit": 6,
                 "onBlock": -4,
                 "vtcOnHit": 22,
                 "vtcOnBlock": 14,
+                "hopsOnHit": "0 / -1",
+                "hopsOnBlock": "-7 / -8",
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -188,7 +194,9 @@
                 "projectile": false,
                 "extraInfo": [
                     "Hurtbox smaller (similar to crouch hurtbox) on frames 6-34",
-                    "Good anti-air hitboxes on frames 12-14 (pretty slow)"
+                    "Good anti-air hitboxes on frames 12-14 (pretty slow)",
+                    "Has 3 less recovery frames on Hit",
+                    "Has 1 less hitstun on active frames 3-5 on Counter Hit and Block ONLY (resulting in -1 frame advantage)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -244,6 +252,8 @@
                 "hopsOnBlock": "-10 / -11",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 13,
+                "hcWinVt": 13,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -279,14 +289,15 @@
                 "vtcOnBlock": "11(13)",
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": "*18",
+                "hcWinVt": 18,
+                "hcWinNotes": "*CA only",
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
-                "crushAdv": {
-                    "state": "Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -347,6 +358,8 @@
                 "hopsOnBlock": "-12 / -13",
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 18,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -381,14 +394,13 @@
                 "vtcOnBlock": 11,
                 "damage": 100,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -556,6 +568,35 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
+                "i": 20
+            },
+            "Rock Crusher (hold)": {
+                "moveName": "Rock Crusher (hold)",
+                "plnCmd": "f+MP (hold)",
+                "numCmd": "6MP (hold)",
+                "cmnName": "Overhead (hold)",
+                "startup": 34,
+                "active": "1*2",
+                "recovery": 17,
+                "total": 53,
+                "onHit": 4,
+                "onBlock": -2,
+                "damage": "40*50 (90)",
+                "stun": "60*60 (120)",
+                "attackLevel": "M*M",
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Does not benefit from counter-hit frame advantage unless only 2nd hit connects)",
+                    "+5/-3 on last active frame",
+                    "Crouching hurtbox on frames 37-53 (entire recovery frames)"
+                ],
+                "moveType": "normal",
+                "moveMotion": "F",
+                "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Amazon River Run": {
@@ -573,6 +614,7 @@
                 "vtcOnBlock": "8(16)",
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": 24,
                 "kd": 62,
                 "kdr": 13,
                 "kdrb": 18,
@@ -594,6 +636,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Raging Bash 1st": {
@@ -610,6 +653,9 @@
                 "vtcOnBlock": 15,
                 "damage": "30*30*54 (114)",
                 "stun": "50*50*63 (163)",
+                "hcWinSpCa": "*23",
+                "hcWinTc": 24,
+                "hcWinVt": 16,
                 "kd": 98,
                 "kdr": 39,
                 "kdrb": 44,
@@ -628,6 +674,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 22
             },
             "Raging Bash 2nd": {
@@ -641,6 +688,7 @@
                 "onHit": "KD",
                 "damage": "30*30*54*56 (170)",
                 "stun": "50*50*63*80 (243)",
+                "hcWinTc": 25,
                 "kd": 67,
                 "kdr": 8,
                 "kdrb": 13,
@@ -654,6 +702,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Raging Bash > Surprise Forward": {
@@ -666,6 +715,7 @@
                 "onHit": "KD",
                 "damage": "30*30*54 (114)",
                 "stun": "50*50*63 (163)",
+                "hcWinTc": 24,
                 "kd": 97,
                 "kdr": 38,
                 "kdrb": 43,
@@ -680,6 +730,7 @@
                 "moveMotion": "ForDF",
                 "moveButton": "3K",
                 "nonHittingMove": true,
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Raging Bash > Surprise Back": {
@@ -692,6 +743,7 @@
                 "onHit": "KD",
                 "damage": "30*30*54 (114)",
                 "stun": "50*50*63 (163)",
+                "hcWinTc": 24,
                 "kd": 96,
                 "kdr": 37,
                 "kdrb": 42,
@@ -706,6 +758,7 @@
                 "moveMotion": "BorDB",
                 "moveButton": "3K",
                 "nonHittingMove": true,
+                "movesList": "Target Combo",
                 "i": 25
             },
             "Lightning Dance": {
@@ -719,6 +772,8 @@
                 "onHit": "KD",
                 "damage": "30*30*54*64 (178) / 30*30*54*80 (194)",
                 "stun": "50*50*63*80 (243) / 50*50*63*120 (283)",
+                "hcWinTc": "*24/*28",
+                "hcWinNotes": "*TC into VS2 (Level 1), **TC into VS2 (Level 2)",
                 "kd": "99 (126)",
                 "kdr": "40 (67)",
                 "kdrb": "45 (72)",
@@ -732,6 +787,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 26
             },
             "Surprise Forward": {
@@ -754,6 +810,7 @@
                 "moveMotion": "ForDF",
                 "moveButton": "3K",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 27
             },
             "Surprise Back": {
@@ -775,6 +832,7 @@
                 "moveMotion": "BorDB",
                 "moveButton": "3K",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 28
             },
             "Wild Fang": {
@@ -799,6 +857,7 @@
                 "moveType": "throw",
                 "moveMotion": "F",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 29
             },
             "Jungle Wheel": {
@@ -823,6 +882,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 30
             },
             "Coward Crouch": {
@@ -848,6 +908,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 31
             },
             "Wild Lift": {
@@ -863,6 +924,9 @@
                 "onBlock": -8,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*18",
+                "hcWinVt": 18,
+                "hcWinNotes": "*Specials on hit only",
                 "kd": 110,
                 "kdr": 51,
                 "kdrb": 56,
@@ -884,6 +948,7 @@
                 "moveType": "vskill",
                 "moveMotion": "B",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 32
             },
             "Raid Jump": {
@@ -906,6 +971,7 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 33
             },
             "Shout of Earth lvl 1": {
@@ -936,6 +1002,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 34
             },
             "Shout of Earth lvl 2 (hold)": {
@@ -970,6 +1037,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 35
             },
             "Shout of Earth lvl 2 (release)": {
@@ -1002,6 +1070,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "chargeDirection": "R",
+                "movesList": "V-Skill 2",
                 "i": 36
             },
             "Shout of Earth (charge)": {
@@ -1025,6 +1094,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 37
             },
             "Jungle Dynamo": {
@@ -1049,6 +1119,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 38
             },
             "Lightning Beast": {
@@ -1071,6 +1142,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 39
             },
             "Quick Rolling": {
@@ -1098,7 +1170,65 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 40
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 41
+            },
+            "Anaconda's Maw": {
+                "moveName": "Anaconda's Maw",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "multiActive": 73,
+                "kd": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 42
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1113,7 +1243,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 41
+                "i": 43
             },
             "LP Rolling Attack": {
                 "moveName": "LP Rolling Attack",
@@ -1139,6 +1269,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "Airborne on frames 6-36",
                     "Cannot hit cross-up",
                     "Hitbox travels about 25% screen length",
@@ -1149,7 +1280,8 @@
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 42
+                "movesList": "Special",
+                "i": 44
             },
             "MP Rolling Attack": {
                 "moveName": "MP Rolling Attack",
@@ -1162,7 +1294,7 @@
                 "total": 53,
                 "onHit": "KD",
                 "onBlock": -21,
-                "damage": 100,
+                "damage": 110,
                 "stun": 150,
                 "kd": 67,
                 "kdr": 8,
@@ -1175,6 +1307,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "Airborne on frames 6-46",
                     "Cannot hit cross-up",
                     "Hitbox travels about 60% screen length",
@@ -1185,7 +1318,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 43
+                "i": 45
             },
             "HP Rolling Attack": {
                 "moveName": "HP Rolling Attack",
@@ -1198,7 +1331,7 @@
                 "total": 64,
                 "onHit": "KD",
                 "onBlock": -21,
-                "damage": 100,
+                "damage": 120,
                 "stun": 150,
                 "kd": 64,
                 "kdr": 5,
@@ -1211,6 +1344,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "Airborne on frames 6-41",
                     "Cannot hit cross-up",
                     "Hitbox travels full-screen length",
@@ -1221,7 +1355,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 44
+                "i": 46
             },
             "EX Rolling Attack": {
                 "moveName": "EX Rolling Attack",
@@ -1244,6 +1378,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "No collision box on frames 9-40",
                     "Airborne on frames 6-44",
                     "Slightly smaller head hurtbox on frames 1-6",
@@ -1256,7 +1391,7 @@
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 45
+                "i": 47
             },
             "LK Back Step Rolling": {
                 "moveName": "LK Back Step Rolling",
@@ -1276,6 +1411,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "Airborne on frames 21-47",
                     "Projectile invincible on frames 21 and until landing",
                     "Puts airborne opponents into a limited juggle state on hit",
@@ -1286,7 +1422,8 @@
                 "moveMotion": "F",
                 "moveButton": "LK",
                 "chargeDirection": "B",
-                "i": 46
+                "movesList": "Special",
+                "i": 48
             },
             "MK Back Step Rolling": {
                 "moveName": "MK Back Step Rolling",
@@ -1306,6 +1443,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "Airborne on frames 23-58",
                     "Projectile invincible on frames 22 and until landing",
                     "Puts airborne opponents into a limited juggle state on hit",
@@ -1317,7 +1455,7 @@
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 47
+                "i": 49
             },
             "HK Back Step Rolling": {
                 "moveName": "HK Back Step Rolling",
@@ -1337,6 +1475,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "Airborne on frames 25-62",
                     "Projectile invincible on frames 25 and until landing",
                     "Puts airborne opponents into a limited juggle state on hit",
@@ -1348,7 +1487,7 @@
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 48
+                "i": 50
             },
             "EX Back Step Rolling": {
                 "moveName": "EX Back Step Rolling",
@@ -1371,6 +1510,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "Strike and Projectile invincible on frames 3-21",
                     "Fully projectile invincible until landing",
                     "Airborne on frames 22-60",
@@ -1384,7 +1524,7 @@
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 49
+                "i": 51
             },
             "LK Vertical Rolling": {
                 "moveName": "LK Vertical Rolling",
@@ -1410,7 +1550,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 45 frames to charge",
                     "Airborne on frames 6-53",
+                    "Cannot hit crossup",
                     "Cancelable into super on first 5 active frames",
                     "Recovery frames listed refers to the whiffed version (34+16 recovery frames on hit | 34+22 recovery frames on block)"
                 ],
@@ -1418,7 +1560,8 @@
                 "moveMotion": "U",
                 "moveButton": "LK",
                 "chargeDirection": "D",
-                "i": 50
+                "movesList": "Special",
+                "i": 52
             },
             "MK Vertical Rolling": {
                 "moveName": "MK Vertical Rolling",
@@ -1444,7 +1587,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 45 frames to charge",
                     "Airborne on frames 5-54",
+                    "Cannot hit crossup",
                     "Cancelable into super on first 5 active frames",
                     "Recovery frames listed refers to the whiffed version (31+16 recovery frames on hit | 31+22 recovery frames on block)"
                 ],
@@ -1452,7 +1597,7 @@
                 "moveMotion": "U",
                 "moveButton": "MK",
                 "chargeDirection": "D",
-                "i": 51
+                "i": 53
             },
             "HK Vertical Rolling": {
                 "moveName": "HK Vertical Rolling",
@@ -1478,7 +1623,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 45 frames to charge",
                     "Airborne on frames 5-50",
+                    "Cannot hit crossup",
                     "Cancelable into super on first 5 active frames",
                     "Recovery frames listed refers to the whiffed version (31+16 recovery frames on hit | 28+22 recovery frames on block)"
                 ],
@@ -1486,7 +1633,7 @@
                 "moveMotion": "U",
                 "moveButton": "HK",
                 "chargeDirection": "D",
-                "i": 52
+                "i": 54
             },
             "EX Vertical Rolling": {
                 "moveName": "EX Vertical Rolling",
@@ -1509,9 +1656,10 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 45 frames to charge",
                     "Fully invincible on frames 1-16",
                     "Airborne on frames 5-53",
-                    "Can hit crossup",
+                    "Cannot hit crossup except after EX Rolling Attack as a juggle",
                     "Blanka is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Recovery frames listed refers to the whiffed version (31+21 recovery frames on hit | 27+21 recovery frames on block)"
                 ],
@@ -1519,7 +1667,7 @@
                 "moveMotion": "U",
                 "moveButton": "2K",
                 "chargeDirection": "D",
-                "i": 53
+                "i": 55
             },
             "LP Wild Hunt": {
                 "moveName": "LP Wild Hunt",
@@ -1547,7 +1695,8 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
-                "i": 54
+                "movesList": "Special",
+                "i": 56
             },
             "MP Wild Hunt": {
                 "moveName": "MP Wild Hunt",
@@ -1575,7 +1724,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MP",
-                "i": 55
+                "i": 57
             },
             "HP Wild Hunt": {
                 "moveName": "HP Wild Hunt",
@@ -1603,7 +1752,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HP",
-                "i": 56
+                "i": 58
             },
             "EX Wild Hunt": {
                 "moveName": "EX Wild Hunt",
@@ -1632,7 +1781,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
-                "i": 57
+                "i": 59
             },
             "Electric Thunder": {
                 "moveName": "Electric Thunder",
@@ -1644,7 +1793,7 @@
                 "recovery": 17,
                 "total": 48,
                 "onHit": "KD",
-                "onBlock": 3,
+                "onBlock": 4,
                 "damage": 80,
                 "stun": 150,
                 "kd": 97,
@@ -1665,7 +1814,8 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 58
+                "movesList": "Special",
+                "i": 60
             },
             "EX Electric Thunder": {
                 "moveName": "EX Electric Thunder",
@@ -1703,7 +1853,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "2P",
-                "i": 59
+                "i": 61
             },
             "Dynamic Rolling": {
                 "moveName": "Dynamic Rolling",
@@ -1733,8 +1883,16 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 60
-            }
+                "movesList": "Super",
+                "i": 62
+            },
+            "undefined": {
+                "hcWinSpCa": "hcWinSpCa",
+                "hcWinTc": "hcWinTc",
+                "hcWinVt": "hcWinVt",
+                "hcWinNotes": "hcWinNotes"
+            },
+            "input": "None"
         },
         "vtOne": {
             "LP Rolling Attack": {
@@ -1775,7 +1933,7 @@
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 42
+                "i": 44
             },
             "MP Rolling Attack": {
                 "moveName": "MP Rolling Attack",
@@ -1815,7 +1973,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 43
+                "i": 45
             },
             "HP Rolling Attack": {
                 "moveName": "HP Rolling Attack",
@@ -1855,7 +2013,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 44
+                "i": 46
             },
             "EX Rolling Attack": {
                 "moveName": "EX Rolling Attack",
@@ -1896,7 +2054,7 @@
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 45
+                "i": 47
             },
             "LK Back Step Rolling": {
                 "moveName": "LK Back Step Rolling",
@@ -1932,7 +2090,7 @@
                 "moveMotion": "F",
                 "moveButton": "LK",
                 "chargeDirection": "B",
-                "i": 46
+                "i": 48
             },
             "MK Back Step Rolling": {
                 "moveName": "MK Back Step Rolling",
@@ -1968,7 +2126,7 @@
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 47
+                "i": 49
             },
             "HK Back Step Rolling": {
                 "moveName": "HK Back Step Rolling",
@@ -2004,7 +2162,7 @@
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 48
+                "i": 50
             },
             "EX Back Step Rolling": {
                 "moveName": "EX Back Step Rolling",
@@ -2041,7 +2199,7 @@
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 49
+                "i": 51
             },
             "LK Vertical Rolling": {
                 "moveName": "LK Vertical Rolling",
@@ -2079,7 +2237,7 @@
                 "moveMotion": "U",
                 "moveButton": "LK",
                 "chargeDirection": "D",
-                "i": 50
+                "i": 52
             },
             "MK Vertical Rolling": {
                 "moveName": "MK Vertical Rolling",
@@ -2117,7 +2275,7 @@
                 "moveMotion": "U",
                 "moveButton": "MK",
                 "chargeDirection": "D",
-                "i": 51
+                "i": 53
             },
             "HK Vertical Rolling": {
                 "moveName": "HK Vertical Rolling",
@@ -2155,7 +2313,7 @@
                 "moveMotion": "U",
                 "moveButton": "HK",
                 "chargeDirection": "D",
-                "i": 52
+                "i": 54
             },
             "EX Vertical Rolling": {
                 "moveName": "EX Vertical Rolling",
@@ -2194,7 +2352,7 @@
                 "moveMotion": "U",
                 "moveButton": "2K",
                 "chargeDirection": "D",
-                "i": 53
+                "i": 55
             },
             "Electric Thunder": {
                 "moveName": "Electric Thunder",
@@ -2231,7 +2389,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 58
+                "i": 60
             },
             "EX Electric Thunder": {
                 "moveName": "EX Electric Thunder",
@@ -2269,7 +2427,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "2P",
-                "i": 59
+                "i": 61
             },
             "Ground Shave Rolling": {
                 "moveName": "Ground Shave Rolling",
@@ -2302,6 +2460,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 38.01
             },
             "Ground Shave Rolling (hold)": {
@@ -2314,7 +2473,7 @@
                 "recovery": 10,
                 "total": 138,
                 "onHit": "KD",
-                "onBlock": 22,
+                "onBlock": "22(GB)",
                 "damage": "30*30x5*50 (230)",
                 "stun": "50*50x6 (360)",
                 "attackLevel": "H",
@@ -2338,6 +2497,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 38.02
             },
             "Ground Shave Rolling (release)": {
@@ -2369,8 +2529,10 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 38.03
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Rolling Cannon": {
@@ -2402,6 +2564,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "ANY",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 39.01
             },
             "Rolling Cannon from LP Roll": {
@@ -2477,7 +2640,8 @@
                 "moveMotion": "ANY",
                 "moveButton": "HPHK",
                 "i": 39.05
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

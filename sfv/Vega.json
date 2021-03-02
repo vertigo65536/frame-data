@@ -54,6 +54,9 @@
                 "ssOnBlock": -2,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinTc": 17,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -89,6 +92,9 @@
                 "ssOnBlock": 1,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinTc": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -160,6 +166,10 @@
                 "ssOnBlock": -5,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": "*13",
+                "hcWinTc": 13,
+                "hcWinVt": 13,
+                "hcWinNotes": "*Claw Switch",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -192,6 +202,9 @@
                 "ssOnBlock": -2,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinTc": 24,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -205,7 +218,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Forces opponent into standing state on hit",
-                    "Frame advantage is identical if canceled into switch claw, +7 on hit and -2 on block"
+                    "Frame advantage is identical if canceled into switch claw, +7 on hit and -2 on block",
+                    "No hurtbox extension during start-up"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -253,6 +267,7 @@
                 "vtc2OnBlock": 4,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -283,11 +298,10 @@
                 "vtc2OnBlock": 5,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 18,
-                    "vG": "+150"
-                },
+                "hcWinVt": 17,
+                "ccState": "Stagger",
+                "ccAdv": 18,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -297,7 +311,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Cannot hit crouching opponents"
+                    "Cannot hit crouching opponents",
+                    "Always -1 on block even if it hits meaty on later active frames"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -356,6 +371,9 @@
                 "ssOnBlock": -4,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinTc": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -391,6 +409,8 @@
                 "ssOnBlock": "2*",
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 18,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -462,6 +482,10 @@
                 "ssOnBlock": -5,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*13",
+                "hcWinTc": 13,
+                "hcWinVt": 13,
+                "hcWinNotes": "*Claw Switch",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -484,8 +508,8 @@
                 "numCmd": "2HP (claw)",
                 "startup": 9,
                 "active": 3,
-                "recovery": 19,
-                "total": 30,
+                "recovery": 18,
+                "total": 29,
                 "onHit": 5,
                 "onBlock": 3,
                 "vtc2OnHit": 13,
@@ -494,6 +518,10 @@
                 "ssOnBlock": 1,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*16",
+                "hcWinTc": 16,
+                "hcWinVt": 16,
+                "hcWinNotes": "*Claw Switch",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -555,6 +583,7 @@
                 "vtc2OnBlock": 7,
                 "damage": 50,
                 "stun": 100,
+                "hcWinVt": 13,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -572,6 +601,7 @@
                 "moveName": "Crouch HK",
                 "plnCmd": "d+HK",
                 "numCmd": "2HK",
+                "cmnName": "Slide",
                 "startup": 9,
                 "active": 9,
                 "recovery": 18,
@@ -582,14 +612,13 @@
                 "vtc2OnBlock": 1,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 23,
                 "kd": 68,
                 "kdr": 19,
                 "kdrb": 24,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -600,6 +629,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Juggle Limit: 2 (Can juggle after EX Crimson Terror, almost any cancel into VT1, Cosmic Smart (V-Skill 2), HP Aurora Spin Edge)",
+                    "KDA after Cosmic Smart or HP Aurora Spin Edge into cr HK (+69/20/25), KDA after EX Crimson Terror into cr HK (+75/26/31)",
+                    "-5 oB on last active frame",
                     "The Online Claw experience"
                 ],
                 "moveType": "normal",
@@ -794,6 +825,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 28
             },
             "Buster Claw (claw)": {
@@ -811,14 +843,14 @@
                 "vtc2OnBlock": -5,
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": "16/*20",
+                "hcWinNotes": "*VT2 Activation (not the attack)",
                 "kd": 104,
                 "kdr": 45,
                 "kdrb": 50,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -833,6 +865,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 29
             },
             "Reverse Claw (claw)": {
@@ -847,8 +880,11 @@
                 "onBlock": -10,
                 "vtc2OnHit": "KD (+101/42/47)",
                 "vtc2OnBlock": 2,
-                "damage": "80*54",
-                "stun": "150*72",
+                "damage": "80*54 (134)",
+                "stun": "150*72 (222)",
+                "hcWinSpCa": 17,
+                "hcWinTc": 16,
+                "hcWinVt": 17,
                 "kd": 89,
                 "kdr": 30,
                 "kdrb": 35,
@@ -871,6 +907,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 30
             },
             "Matador Flash (claw)": {
@@ -885,6 +922,10 @@
                 "vtc2OnHit": "KD (+97/38/43)",
                 "damage": "80*54*48 (182)",
                 "stun": "150*72*64 (284)",
+                "hcWinSpCa": "*16",
+                "hcWinTc": 20,
+                "hcWinVt": 16,
+                "hcWinNotes": "*CA only",
                 "kd": "77(78)",
                 "kdr": "18(19)",
                 "kdrb": "23(24)",
@@ -904,6 +945,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 31
             },
             "Matador Blitz (no claw)": {
@@ -917,8 +959,10 @@
                 "onHit": "KD",
                 "onBlock": -3,
                 "vtc2OnHit": "KD (+107/48/53)",
-                "damage": "60*54",
-                "stun": "100*72",
+                "damage": "60*54 (114)",
+                "stun": "100*72 (172)",
+                "hcWinSpCa": 17,
+                "hcWinTc": 17,
                 "kd": 93,
                 "kdr": 34,
                 "kdrb": 39,
@@ -942,6 +986,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 32
             },
             "Matador Blitz 2nd (no claw)": {
@@ -954,8 +999,9 @@
                 "onHit": "KD",
                 "onBlock": "-13(-16)",
                 "vtc2OnHit": "KD (+98/39/44)",
-                "damage": "60*72",
-                "stun": "100*72",
+                "damage": "60*72 (132)",
+                "stun": "100*72 (172)",
+                "hcWinTc": 17,
                 "kd": 78,
                 "kdr": 19,
                 "kdrb": 24,
@@ -976,6 +1022,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 33
             },
             "Wall Jump": {
@@ -987,8 +1034,12 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Puts Vega into a free juggle state if hit by a medium / heavy / command normal"
+                ],
                 "moveType": "movement-special",
                 "moveMotion": "UF",
+                "movesList": "Wall Jump",
                 "i": 34
             },
             "Rainbow Suplex": {
@@ -1013,6 +1064,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 35
             },
             "Crescent Line": {
@@ -1037,6 +1089,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 36
             },
             "Stardust Shot": {
@@ -1046,19 +1099,26 @@
                 "cmnName": "Air Throw",
                 "startup": 5,
                 "active": 2,
+                "recovery": 6,
                 "onHit": "KD",
                 "damage": 140,
                 "stun": 200,
+                "kd": "80(81)",
+                "kdr": "21(22)",
+                "kdrb": "21(22)",
                 "attackLevel": "T",
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "KDA varies depending on height when thrown"
+                    "KDA varies depending on height of opponent when thrown (the higher up the throw is performed, the lower the KDA is",
+                    "Denies backroll",
+                    "6F landing recovery frames if air throw whiffs"
                 ],
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 37
             },
             "Matador Turn (attack)": {
@@ -1076,6 +1136,9 @@
                 "vtc2OnBlock": 7,
                 "damage": 90,
                 "stun": 100,
+                "hcWinSpCa": "*16",
+                "hcWinVt": 16,
+                "hcWinNotes": "*CA only",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -1099,6 +1162,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 38
             },
             "Matador Turn": {
@@ -1123,6 +1187,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 39
             },
             "Matador Flip": {
@@ -1150,6 +1215,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 40
             },
             "Cosmic Smart": {
@@ -1167,6 +1233,7 @@
                 "vtc2OnBlock": 8,
                 "damage": 70,
                 "stun": 100,
+                "hcWinVt": 18,
                 "kd": 103,
                 "kdr": 44,
                 "kdrb": 49,
@@ -1188,6 +1255,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "V-Skill 2",
                 "i": 41
             },
             "Bloody Kiss - Torero": {
@@ -1210,13 +1278,15 @@
                 "extraInfo": [
                     "2 bar V-Trigger",
                     "The rose itself is a physical object with 1 point of durability and is Projectile invincible",
-                    "If the rose hits; Vega launches himself forward towards the opponent (during which travel he is vulnerable) - but then upon close proximity Vega becomes fully invincible during the follow-up slashing attack",
+                    "If the rose hits; Vega launches himself forward towards the opponent (during which travel he is vulnerable) - but then upon close proximity Vega becomes fully invincible during the follow-up slashing attack until recovery",
+                    "The follow-up slashing attack breaks armor",
                     "Launches the opponent into a free juggle state (if this was the hit that initiated the juggle state)",
                     "Juggle Limit / Increase / Start: 10 / 0 / 0"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 42
             },
             "Bloody Kiss - Rojo": {
@@ -1230,8 +1300,8 @@
                 "damage": "30*70*80 (180)",
                 "stun": 200,
                 "kd": 81,
-                "kdr": 23,
-                "kdrb": 28,
+                "kdr": 22,
+                "kdrb": 27,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1239,7 +1309,8 @@
                 "extraInfo": [
                     "2 bar V-Trigger",
                     "The rose itself is a physical object with 1 point of durability and is Projectile invincible",
-                    "If the rose hits; Vega launches himself forward towards the opponent (during which travel he is vulnerable) - but then upon close proximity Vega becomes fully invincible during the follow-up slashing attack",
+                    "If the rose hits; Vega launches himself forward towards the opponent (during which travel he is projectile and throw invulnerable) - but then upon close proximity Vega becomes fully invincible during the follow-up slashing attack until recovery",
+                    "The follow-up slashing attack breaks armor",
                     "High pushback on Counter-Hit from frame 1 (aka Vega's collision boxes move far forward)",
                     "Crouch-sized hurtboxes on whiff recovery frames (but not actually considered a crouching state)",
                     "Juggle Limit / Increase / Start: 10 / 1*1*1 / 0*1*1"
@@ -1247,6 +1318,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 43
             },
             "Bloody Kiss - Azul": {
@@ -1269,8 +1341,9 @@
                 "extraInfo": [
                     "2 bar V-Trigger",
                     "The rose itself is a physical object with 1 point of durability and is Projectile invincible",
-                    "Projectile invincible for entire duration (even if the rose misses)",
-                    "If the rose hits then Vega becomes fully invincible during the follow-ups",
+                    "Projectile invincible for entire duration (even if the rose misses) until landing (any overlapping projectile will hit Vega as if standing upon landing)",
+                    "If the rose hits then Vega becomes fully invincible during the follow-ups until recovery",
+                    "The follow-up slashing attack breaks armor",
                     "Vega is in a crouching state during whiff recovery frames",
                     "Launches the opponent, launch duration is longer than Bloody Kiss - Torero",
                     "On grounded hit: Juggle Limit / Increase / Start: 10 / 0 / 1",
@@ -1279,6 +1352,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 44
             },
             "Alegrias": {
@@ -1287,7 +1361,7 @@
                 "numCmd": "HPHK (VT2 activation)",
                 "cmnName": "V-Trigger 2",
                 "startup": 1,
-                "recovery": 5,
+                "recovery": "5 (11)",
                 "total": 6,
                 "airmove": false,
                 "followUp": false,
@@ -1295,12 +1369,14 @@
                 "extraInfo": [
                     "2 bar V-Trigger",
                     "Duration of 2000 frames (~33 seconds)",
-                    "Gives access to Flash Arch series"
+                    "Gives access to Flash Arch series",
+                    "6F total duration when performed by itself, but 12F total duration when canceled from an attack, making it vulnerable to 12F startup V-Reversals"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 45
             },
             "Backslash": {
@@ -1320,6 +1396,7 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 46
             },
             "Short Backslash": {
@@ -1339,7 +1416,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3K",
+                "movesList": "V-Reversal",
                 "i": 47
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 48
+            },
+            "Beautiful Severance": {
+                "moveName": "Beautiful Severance",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 49
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1354,7 +1490,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 48
+                "i": 50
             },
             "Bloody Garden": {
                 "moveName": "Bloody Garden",
@@ -1377,7 +1513,8 @@
                 "moveButton": "2K",
                 "chargeDirection": "D",
                 "nonHittingMove": true,
-                "i": 49
+                "movesList": "Special",
+                "i": 51
             },
             "LK Flying Barcelona Movement": {
                 "moveName": "LK Flying Barcelona Movement",
@@ -1389,12 +1526,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Cannot be input with simple inputs (Forward, Down, Forward), must be input as Forward, Down, Down-Forward",
                     "Airborne on frame 8"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "DPE",
                 "moveButton": "LK",
-                "i": 50
+                "movesList": "Special (Barcelona)",
+                "i": 52
             },
             "MK Flying Barcelona Movement": {
                 "moveName": "MK Flying Barcelona Movement",
@@ -1406,12 +1545,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Cannot be input with simple inputs (Forward, Down, Forward), must be input as Forward, Down, Down-Forward",
                     "Airborne on frame 8"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "DPE",
                 "moveButton": "MK",
-                "i": 51
+                "i": 53
             },
             "HK Flying Barcelona Movement": {
                 "moveName": "HK Flying Barcelona Movement",
@@ -1423,12 +1563,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Cannot be input with simple inputs (Forward, Down, Forward), must be input as Forward, Down, Down-Forward",
                     "Airborne on frame 8"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "DPE",
                 "moveButton": "HK",
-                "i": 52
+                "i": 54
             },
             "EX Flying Barcelona Movement": {
                 "moveName": "EX Flying Barcelona Movement",
@@ -1445,7 +1586,9 @@
                 "projectile": false,
                 "extraInfo": [
                     "Airborne on frame 8",
+                    "CAN be input with simple inputs (Forward, Down, Forward)",
                     "Cannot hit crouching or cross-up",
+                    "Has no collision boxes until he reaches the wall",
                     "Launches opponent into a free juggle state (if this was the hit that initiated the juggle state)",
                     "Counts as its own hit for combo scaling purposes (10% damage penalty)",
                     "Juggle Limit / Increase / Start: 1 / 0 / 0"
@@ -1453,7 +1596,7 @@
                 "moveType": "movement-special",
                 "moveMotion": "DPE",
                 "moveButton": "2K",
-                "i": 53
+                "i": 55
             },
             "Flying Barcelona Attack (no claw)": {
                 "moveName": "Flying Barcelona Attack (no claw)",
@@ -1479,7 +1622,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 54
+                "movesList": "Special (Barcelona)",
+                "i": 56
             },
             "Flying Barcelona Attack (claw)": {
                 "moveName": "Flying Barcelona Attack (claw)",
@@ -1506,7 +1650,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 55
+                "i": 57
             },
             "EX Flying Barcelona Attack (no claw)": {
                 "moveName": "EX Flying Barcelona Attack (no claw)",
@@ -1534,7 +1678,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 56
+                "i": 58
             },
             "EX Flying Barcelona Attack (claw)": {
                 "moveName": "EX Flying Barcelona Attack (claw)",
@@ -1562,7 +1706,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 57
+                "i": 59
             },
             "Izuna Drop": {
                 "moveName": "Izuna Drop",
@@ -1586,12 +1730,14 @@
                 "extraInfo": [
                     "Can grab grounded and airborne opponents",
                     "Juggle Limit: 10",
-                    "Throw, negates ability to perform back-recovery on successful grab"
+                    "Throw, negates ability to perform back-recovery on successful grab",
+                    "Will increase total recovery of the Barcelona dive the higher the Izuna Drop is performed (right before landing: -1F, at head grabbing range on Ryu: -2F, at head grabbing range for Abigail: -3F)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 58
+                "movesList": "Special (Barcelona)",
+                "i": 60
             },
             "EX Izuna Drop": {
                 "moveName": "EX Izuna Drop",
@@ -1609,22 +1755,22 @@
                 "kdr": 14,
                 "kdrb": 14,
                 "attackLevel": "M",
-                "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "Can grab grounded and airborne opponents",
                     "Strike AND throw hitbox; can hit extended limbs and hurtboxes, but still negates ability to perform back-recovery on successful hit",
-                    "Juggle Limit: 10"
+                    "Juggle Limit: 10",
+                    "Will increase total recovery of the Barcelona dive the higher the Izuna Drop is performed (right before landing: -1F, at head grabbing range on Ryu: -2F, at head grabbing range for Abigail: -3F)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 59
+                "i": 61
             },
             "LP Grand Izuna Drop": {
                 "moveName": "LP Grand Izuna Drop",
-                "plnCmd": "hcb+LP (claw off)",
+                "plnCmd": "hcb+LP (no claw)",
                 "numCmd": "63214LP (no claw)",
                 "cmnName": "LP Command Grab",
                 "startup": 6,
@@ -1632,8 +1778,8 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": "50*80",
-                "stun": "100*100",
+                "damage": "50*80 (130)",
+                "stun": "100*100 (200)",
                 "kd": 63,
                 "kdr": 14,
                 "kdrb": 14,
@@ -1647,11 +1793,12 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
-                "i": 60
+                "movesList": "Special",
+                "i": 62
             },
             "MP Grand Izuna Drop": {
                 "moveName": "MP Grand Izuna Drop",
-                "plnCmd": "hcb+MP (claw off)",
+                "plnCmd": "hcb+MP (no claw)",
                 "numCmd": "63214MP (no claw)",
                 "cmnName": "MP Command Grab",
                 "startup": 6,
@@ -1659,8 +1806,8 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": "50*90",
-                "stun": "100*100",
+                "damage": "50*90 (140)",
+                "stun": "100*100 (200)",
                 "kd": 63,
                 "kdr": 14,
                 "kdrb": 14,
@@ -1674,11 +1821,11 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MP",
-                "i": 61
+                "i": 63
             },
             "HP Grand Izuna Drop": {
                 "moveName": "HP Grand Izuna Drop",
-                "plnCmd": "hcb+HP (claw off)",
+                "plnCmd": "hcb+HP (no claw)",
                 "numCmd": "63214HP (no claw)",
                 "cmnName": "HP Command Grab",
                 "startup": 6,
@@ -1686,8 +1833,8 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": "50*100",
-                "stun": "100*100",
+                "damage": "50*100 (150)",
+                "stun": "100*100 (200)",
                 "kd": 63,
                 "kdr": 14,
                 "kdrb": 14,
@@ -1701,11 +1848,11 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HP",
-                "i": 62
+                "i": 64
             },
             "EX Grand Izuna Drop": {
                 "moveName": "EX Grand Izuna Drop",
-                "plnCmd": "hcb+PP (claw off)",
+                "plnCmd": "hcb+PP (no claw)",
                 "numCmd": "63214PP (no claw)",
                 "cmnName": "EX Command Grab",
                 "startup": 6,
@@ -1713,8 +1860,8 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": "80*100",
-                "stun": "100*150",
+                "damage": "80*100 (180)",
+                "stun": "100*150 (250)",
                 "kd": 68,
                 "kdr": 19,
                 "kdrb": 19,
@@ -1729,7 +1876,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
-                "i": 63
+                "i": 65
             },
             "LK Crimson Terror": {
                 "moveName": "LK Crimson Terror",
@@ -1737,13 +1884,13 @@
                 "numCmd": "236LK",
                 "cmnName": "LK Rolling Attack",
                 "startup": 8,
-                "active": "2(17)5",
+                "active": "3(16)5",
                 "recovery": 12,
                 "total": 43,
                 "onHit": 2,
                 "onBlock": -6,
-                "damage": "20*60",
-                "stun": "20*150",
+                "damage": "20*60 (80)",
+                "stun": "20*130 (150)",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "su",
@@ -1763,7 +1910,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 64
+                "movesList": "Special",
+                "i": 66
             },
             "MK Crimson Terror": {
                 "moveName": "MK Crimson Terror",
@@ -1796,7 +1944,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 65
+                "i": 67
             },
             "HK Crimson Terror": {
                 "moveName": "HK Crimson Terror",
@@ -1832,7 +1980,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 66
+                "i": 68
             },
             "EX Crimson Terror": {
                 "moveName": "EX Crimson Terror",
@@ -1868,7 +2016,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 67
+                "i": 69
             },
             "LP Aurora Spin Edge": {
                 "moveName": "LP Aurora Spin Edge",
@@ -1902,7 +2050,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LP",
-                "i": 68
+                "movesList": "Special",
+                "i": 70
             },
             "MP Aurora Spin Edge": {
                 "moveName": "MP Aurora Spin Edge",
@@ -1935,7 +2084,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MP",
-                "i": 69
+                "i": 71
             },
             "HP Aurora Spin Edge": {
                 "moveName": "HP Aurora Spin Edge",
@@ -1973,7 +2122,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HP",
-                "i": 70
+                "i": 72
             },
             "EX Aurora Spin Edge": {
                 "moveName": "EX Aurora Spin Edge",
@@ -1986,8 +2135,10 @@
                 "total": 55,
                 "onHit": "KD",
                 "onBlock": -3,
-                "damage": "50*100",
-                "stun": "100*100",
+                "vtc2OnHit": "KD (+104/45/50)",
+                "vtc2OnBlock": 15,
+                "damage": "50*100 (150)",
+                "stun": "100*100 (200)",
                 "kd": 86,
                 "kdr": 27,
                 "kdrb": 32,
@@ -2001,14 +2152,14 @@
                 "extraInfo": [
                     "Completely throw invincible",
                     "First hit has 1 point of projectile durability",
-                    "Cancelable to Bloody Kiss: Torero on final hit only",
+                    "Second hit is cancelable into Bloody Kiss: Torero (Neutral VT1) and VT2 on hit or block",
                     "High juggle potential",
                     "Juggle Limit / Increase / Start: 5*6 / 1*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2P",
-                "i": 71
+                "i": 73
             },
             "Sky High Claw": {
                 "moveName": "Sky High Claw",
@@ -2052,7 +2203,8 @@
                 "moveButton": "P",
                 "chargeDirection": "D",
                 "nonHittingMove": true,
-                "i": 72
+                "movesList": "Special",
+                "i": 74
             },
             "EX Sky High Claw": {
                 "moveName": "EX Sky High Claw",
@@ -2087,14 +2239,14 @@
                     "Recovery varies slightly due to positioning, but significantly more recovery on blocked crossup (+4F extra)",
                     "Can hit crouching and crossup (but may miss if opponent is walking towards back wall)",
                     "Can cancel immediately into air VT1 with no projectile vulnerable gap (if not canceled into VT immediately upon connecting, the cancel will delay for 13F)",
-                    "Has slightly less hitbox range, 20 less damage and stun in barehand mode"
+                    "Has slightly less hitbox range, 20 less damage and 50 less stun in barehand mode"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "U",
                 "moveButton": "2P",
                 "chargeDirection": "D",
                 "nonHittingMove": true,
-                "i": 73
+                "i": 75
             },
             "Switch Claw": {
                 "moveName": "Switch Claw",
@@ -2117,7 +2269,8 @@
                 "moveMotion": "QCF",
                 "moveButton": "1P",
                 "nonHittingMove": true,
-                "i": 74
+                "movesList": "Switch Claw",
+                "i": 76
             },
             "Bloody Rain": {
                 "moveName": "Bloody Rain",
@@ -2125,9 +2278,9 @@
                 "numCmd": "236236P or 214214P",
                 "cmnName": "Super",
                 "startup": 9,
-                "recovery": 29,
+                "recovery": 40,
                 "onHit": "KD",
-                "onBlock": "-13(-15)",
+                "onBlock": -25,
                 "damage": 330,
                 "stun": 0,
                 "kd": 80,
@@ -2143,16 +2296,19 @@
                     "Active frames last until Claw reaches the corner and then again after flash until he reaches the ground",
                     "Can cross up",
                     "If first hit is successful; remains fully invincible until active frames of second hit expire",
-                    "Considered a true blockstring from first to second hit if the distance from the opponent to the wall is half of a screen or less",
                     "Juggle Limit: 10"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 75
-            }
+                "movesList": "Super",
+                "i": 77
+            },
+            "input": "None"
         },
-        "vtOne": {},
+        "vtOne": {
+            "input": "None"
+        },
         "vtTwo": {
             "Flash Arch - Rossa (stance)": {
                 "moveName": "Flash Arch - Rossa (stance)",
@@ -2179,6 +2335,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 45.01
             },
             "Flash Arch - Rossa (attack)": {
@@ -2190,11 +2347,11 @@
                 "active": "2(21)2",
                 "recovery": 26,
                 "onHit": "KD",
-                "damage": "50*100",
+                "damage": "50*100 (150)",
                 "stun": 200,
-                "kd": 114,
-                "kdr": 55,
-                "kdrb": 60,
+                "kd": 106,
+                "kdr": 47,
+                "kdrb": 52,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2208,6 +2365,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 45.02
             },
             "Flash Arch - Granate": {
@@ -2216,16 +2374,16 @@
                 "numCmd": "6HPHK (VT2)",
                 "cmnName": "V-Trigger 2 Launch",
                 "startup": 17,
-                "active": 4,
+                "active": "2(21)2",
                 "recovery": 27,
-                "total": 47,
+                "total": 61,
                 "onHit": "KD",
                 "onBlock": "-11 (-25)",
-                "damage": "60*60",
-                "stun": 150,
-                "kd": 111,
-                "kdr": 52,
-                "kdrb": 57,
+                "damage": "50*50 (100)",
+                "stun": 120,
+                "kd": 106,
+                "kdr": 47,
+                "kdrb": 52,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2233,7 +2391,7 @@
                 "extraInfo": [
                     "2 bar V-Trigger",
                     "Launches opponent into a free juggle state on hit (if this was the hit that initiated the juggle state)",
-                    "Spends the remaining V-Trigger timer",
+                    "Spends 1000 V-Meter (~50% V-Timer)",
                     "If first hit was blocked crouching then second hit will always miss due to locking opponent in crouching block state, and Vega is now -25 on block",
                     "Must be performed with a strict forward motion; down-forward and up-forward are invalid inputs and will result in a parry stance instead",
                     "Juggle Limit: 10"
@@ -2241,8 +2399,10 @@
                 "moveType": "vtrigger",
                 "moveMotion": "F",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 45.03
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
@@ -2258,7 +2418,7 @@
         "bDash": 21,
         "bDashCHFrames": "3-10",
         "color": "#29296F",
-        "phrase": "Let my beauty intoxicate you.",
+        "phrase": "Let my beauty intoxicate you",
         "fWalk": 5.5,
         "bWalk": 4.5,
         "fJumpDist": 195,
@@ -2267,6 +2427,6 @@
         "bDashDist": 122.5,
         "throwHurt": 0.4087,
         "throwRange": 0.8557,
-        "threeLetterCode": "blr"
+        "threeLetterCode": "veg"
     }
 }

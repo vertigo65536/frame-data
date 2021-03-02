@@ -21,6 +21,9 @@
                 "vtc2OnBlock": 0,
                 "damage": 30,
                 "stun": 70,
+                "hcWinSpCa": 11,
+                "hcWinTc": 11,
+                "hcWinVt": 11,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -59,6 +62,8 @@
                 "vtc2OnBlock": 6,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -97,11 +102,12 @@
                 "vtc2OnBlock": 8,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Spinning",
-                    "ccAdv": "22",
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*20",
+                "hcWinVt": 17,
+                "hcWinNotes": "*CA only",
+                "ccState": "Spinning",
+                "ccAdv": "22",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -140,11 +146,12 @@
                 "vtc2OnBlock": 12,
                 "damage": 100,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Spinning",
-                    "ccAdv": "31",
-                    "vG": "+150"
-                },
+                "hcWinSpCa": "22/*20",
+                "hcWinVt": 17,
+                "hcWinNotes": "*CA only",
+                "ccState": "Spinning",
+                "ccAdv": "31",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -164,6 +171,7 @@
                 "moveMotion": "N",
                 "moveButton": "HP",
                 "chargeDirection": "R",
+                "movesList": "Command Normal",
                 "i": 4
             },
             "Stand HP (release)": {
@@ -186,11 +194,12 @@
                 "vtc2OnBlock": 8,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Spinning",
-                    "ccAdv": "22",
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*19",
+                "hcWinVt": 17,
+                "hcWinNotes": "*CA only",
+                "ccState": "Spinning",
+                "ccAdv": "22",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -209,6 +218,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 5
             },
             "Stand LK": {
@@ -242,7 +252,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can tick throw most crouching jabs or any lights that move the opponent forward a bit (not a true tick grab on standing neutral",
+                    "Can tick throw most crouching jabs or any lights that move the opponent forward a bit (not a true tick grab on standing neutral)",
                     "Pushback on block leads right into a st.HP (hold) > st.MP xx MP Headbutt loop starter (this makes st.LK a very dangerous shimmy tool)"
                 ],
                 "moveType": "normal",
@@ -270,6 +280,7 @@
                 "vtc2OnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -489,6 +500,7 @@
                 "vtc2OnBlock": 6,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 22,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -504,6 +516,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 13
             },
             "Stand HK (hold)": {
@@ -526,6 +539,7 @@
                 "vtc2OnBlock": "5*10",
                 "damage": "50*50 (100)",
                 "stun": "100*50 (150)",
+                "hcWinVt": 19,
                 "attackLevel": "M",
                 "cancelsTo": [
                     "vt1",
@@ -544,6 +558,7 @@
                 "moveMotion": "N",
                 "moveButton": "HK",
                 "chargeDirection": "R",
+                "movesList": "Command Normal",
                 "i": 14
             },
             "Stand HK (crouch)": {
@@ -566,6 +581,7 @@
                 "vtc2OnBlock": 7,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 20,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -604,6 +620,7 @@
                 "vtc2OnBlock": "6*10",
                 "damage": "50*50 (100)",
                 "stun": "100*50 (150)",
+                "hcWinVt": 16,
                 "attackLevel": "M",
                 "cancelsTo": [
                     "vt1",
@@ -634,6 +651,7 @@
                 "recovery": 19,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 22,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -649,6 +667,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 17
             },
             "Crouch LP": {
@@ -709,6 +728,8 @@
                 "vtc2OnBlock": 2,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 13,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -747,6 +768,8 @@
                 "vtc2OnBlock": "7*6",
                 "damage": "50*40 (90)",
                 "stun": "75*75 (150)",
+                "hcWinSpCa": "16/18",
+                "hcWinVt": "16/18",
                 "kd": 104,
                 "kdr": 45,
                 "kdrb": 50,
@@ -830,6 +853,8 @@
                 "vtc2OnBlock": 6,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": "14/*16",
+                "hcWinNotes": "*VT2 Tackle",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -866,14 +891,13 @@
                 "vtc2OnBlock": 4,
                 "damage": 100,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 68,
                 "kdr": 19,
                 "kdrb": 24,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -1013,6 +1037,9 @@
                 "vtc2OnBlock": 7,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinTc": 15,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1031,6 +1058,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 30
             },
             "Terrible Smash": {
@@ -1056,6 +1084,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 31
             },
             "Quarrel Kick": {
@@ -1079,9 +1108,7 @@
                 "vtc2OnBlock": 7,
                 "damage": 90,
                 "stun": 150,
-                "kd": 93,
-                "kdr": 34,
-                "kdrb": 39,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -1096,6 +1123,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 32
             },
             "Killer Straight": {
@@ -1118,6 +1146,9 @@
                 "vtc2OnBlock": 1,
                 "damage": "30*45 (75)",
                 "stun": "70*72 (142)",
+                "hcWinSpCa": 15,
+                "hcWinTc": 11,
+                "hcWinVt": 15,
                 "multiActive": [
                     4,
                     5,
@@ -1138,6 +1169,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 33
             },
             "Break Rush": {
@@ -1160,6 +1192,8 @@
                 "vtc2OnBlock": 3,
                 "damage": "70*54 (124)",
                 "stun": "100*135 (235)",
+                "hcWinTc": 15,
+                "hcWinVt": 16,
                 "multiActive": [
                     7,
                     25,
@@ -1181,6 +1215,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 34
             },
             "Spartan Bomb (fwd)": {
@@ -1205,6 +1240,7 @@
                 "moveType": "throw",
                 "moveMotion": "F",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 35
             },
             "Spartan Bomb (back)": {
@@ -1229,6 +1265,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 36
             },
             "Metallic Aura": {
@@ -1250,6 +1287,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 37
             },
             "Indignant Thunder": {
@@ -1269,6 +1307,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 38
             },
             "1st Aegis Reflector (far)": {
@@ -1291,7 +1330,8 @@
                     "3 bar V-Trigger",
                     "Counter-hit state during first 4 frames of recovery",
                     "2F startup if canceled into from normals",
-                    "Spawns a 3-hit projectile hitbox Aegis Reflector during initial V-Trigger freeze frames (this cannot be stopped; Startup simply refers to when Aegis goes active)",
+                    "Spawns a 3-hit projectile hitbox Aegis Reflector (Startup simply refers to when Aegis goes active)",
+                    "Aegis Reflector does not spawn if Urien is hit during startup",
                     "Each hit of the Aegis can reflect any projectiles (multi-hits / EX / Supers / V-Triggers)",
                     "Duration of 230 frames",
                     "Juggle Limit / Increase / Start: 15*16*17 / 1 / 0"
@@ -1299,6 +1339,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 39
             },
             "1st Aegis Reflector (close)": {
@@ -1321,7 +1362,8 @@
                     "3 bar V-Trigger",
                     "Counter-hit state during first 9 frames of recovery",
                     "7F startup if canceled into from normals",
-                    "Spawns a 3-hit projectile hitbox Aegis Reflector during initial V-Trigger freeze frames (this cannot be stopped; Startup simply refers to when Aegis goes active)",
+                    "Spawns a 3-hit projectile hitbox Aegis Reflector (Startup simply refers to when Aegis goes active)",
+                    "Aegis Reflector does not spawn if Urien is hit during startup",
                     "Each hit of the Aegis can reflect any projectiles (multi-hits / EX / Supers / V-Triggers)",
                     "Duration of 250 frames",
                     "Juggle Limit / Increase / Start: 15*16*17 / 1 / 0"
@@ -1329,6 +1371,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "B",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 40
             },
             "1st Aegis Reflector (air)": {
@@ -1352,7 +1395,8 @@
                     "Counter-hit state during first 14 frames of recovery",
                     "Cannot hit crouch",
                     "12F startup if canceled into from normals",
-                    "Spawns a 3-hit projectile hitbox Aegis Reflector during initial V-Trigger freeze frames (this cannot be stopped; Startup simply refers to when Aegis goes active)",
+                    "Spawns a 3-hit projectile hitbox Aegis Reflector (Startup simply refers to when Aegis goes active)",
+                    "Aegis Reflector does not spawn if Urien is hit during startup",
                     "Each hit of the Aegis can reflect any projectiles (multi-hits / EX / Supers / V-Triggers)",
                     "Duration of 250 frames",
                     "Juggle Limit / Increase / Start: 15*16*17 / 1 / 0"
@@ -1360,6 +1404,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 41
             },
             "2nd Aegis Reflector (far)": {
@@ -1383,7 +1428,8 @@
                     "Counter-hit state during first 23 frames",
                     "The 24F startup refers to when the Aegis actually goes active",
                     "Startup shown in the parantheses refers to when the Aegis is spawned by Urien (and can thus be interrupted if Urien is hit before frame 10)",
-                    "Spawns a 3-hit projectile hitbox Aegis Reflector during initial V-Trigger freeze frames (this cannot be stopped; Startup simply refers to when Aegis goes active)",
+                    "Spawns a 3-hit projectile hitbox Aegis Reflector (Startup simply refers to when Aegis goes active)",
+                    "Aegis Reflector does not spawn if Urien is hit during startup",
                     "Each hit of the aegis can reflect any projectiles (multi-hits / EX / Supers / V-Triggers)",
                     "Duration of 230 frames",
                     "Juggle Limit / Increase / Start: 15*16*17 / 1 / 0"
@@ -1391,6 +1437,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 42
             },
             "2nd Aegis Reflector (close)": {
@@ -1414,7 +1461,8 @@
                     "Counter-hit state during first 13 frames",
                     "The 14F startup refers to when the Aegis actually goes active",
                     "Startup shown in the parantheses refers to when the Aegis is spawned by Urien (and can thus be interrupted if Urien is hit before frame 10)",
-                    "Spawns a 3-hit projectile hitbox Aegis Reflector during initial V-Trigger freeze frames (this cannot be stopped; Startup simply refers to when Aegis goes active)",
+                    "Spawns a 3-hit projectile hitbox Aegis Reflector (Startup simply refers to when Aegis goes active)",
+                    "Aegis Reflector does not spawn if Urien is hit during startup",
                     "Each hit of the aegis can reflect any projectiles (multi-hits / EX / Supers / V-Triggers)",
                     "Duration of 250 frames",
                     "Juggle Limit / Increase / Start: 15*16*17 / 1 / 0"
@@ -1422,6 +1470,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "B",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 43
             },
             "2nd Aegis Reflector (air)": {
@@ -1446,7 +1495,8 @@
                     "Cannot hit crouch",
                     "The 16F startup refers to when the Aegis actually goes active",
                     "Startup shown in the parantheses refers to when the Aegis is spawned by Urien (and can thus be interrupted if Urien is hit before frame 12)",
-                    "Spawns a 3-hit projectile hitbox Aegis Reflector during initial V-Trigger freeze frames (this cannot be stopped; Startup simply refers to when Aegis goes active)",
+                    "Spawns a 3-hit projectile hitbox Aegis Reflector (Startup simply refers to when Aegis goes active)",
+                    "Aegis Reflector does not spawn if Urien is hit during startup",
                     "Each hit of the aegis can reflect any projectiles (multi-hits / EX / Supers / V-Triggers)",
                     "Duration of 250 frames",
                     "Juggle Limit / Increase / Start: 15*16*17 / 1 / 0"
@@ -1454,6 +1504,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 44
             },
             "Tyrant Pressure": {
@@ -1476,6 +1527,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 45
             },
             "Anger Snap Fist": {
@@ -1504,7 +1556,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 46
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 47
+            },
+            "Tyrant Kick": {
+                "moveName": "Tyrant Kick",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 48
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1519,7 +1630,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 47
+                "i": 49
             },
             "LK Chariot Tackle": {
                 "moveName": "LK Chariot Tackle",
@@ -1534,9 +1645,6 @@
                 "onBlock": -5,
                 "damage": 80,
                 "stun": 150,
-                "kd": 87,
-                "kdr": 29,
-                "kdrb": 34,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1553,7 +1661,8 @@
                 "moveMotion": "F",
                 "moveButton": "LK",
                 "chargeDirection": "B",
-                "i": 48
+                "movesList": "Special",
+                "i": 50
             },
             "MK Chariot Tackle": {
                 "moveName": "MK Chariot Tackle",
@@ -1568,9 +1677,6 @@
                 "onBlock": -9,
                 "damage": 90,
                 "stun": 150,
-                "kd": 85,
-                "kdr": 26,
-                "kdrb": 31,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1587,7 +1693,7 @@
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 49
+                "i": 51
             },
             "HK Chariot Tackle": {
                 "moveName": "HK Chariot Tackle",
@@ -1622,7 +1728,7 @@
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 50
+                "i": 52
             },
             "EX Chariot Tackle": {
                 "moveName": "EX Chariot Tackle",
@@ -1681,7 +1787,7 @@
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 51
+                "i": 53
             },
             "LK Violence Knee Drop": {
                 "moveName": "LK Violence Knee Drop",
@@ -1690,7 +1796,7 @@
                 "cmnName": "LK Knee Drop",
                 "startup": 25,
                 "active": 12,
-                "recovery": 11,
+                "recovery": "11(17)",
                 "total": 47,
                 "onHit": "KD",
                 "onBlock": "-4(2)",
@@ -1706,6 +1812,7 @@
                 "extraInfo": [
                     "Airborne on frame 3",
                     "Frame advantage and KDA varies depending on how high / low the knee connects on the opponent (the lower it connects the more advantageous and KDA it has)",
+                    "17 frames recovery on whiff",
                     "Juggle Limit: 4",
                     "Takes 40 frames to charge",
                     "V-Skill 1 version builds 90 / 60 / 30 V-Gauge on Hit / Block / Whiff"
@@ -1714,7 +1821,8 @@
                 "moveMotion": "U",
                 "moveButton": "LK",
                 "chargeDirection": "D",
-                "i": 52
+                "movesList": "Special",
+                "i": 54
             },
             "MK Violence Knee Drop": {
                 "moveName": "MK Violence Knee Drop",
@@ -1723,7 +1831,7 @@
                 "cmnName": "MK Knee Drop",
                 "startup": 25,
                 "active": 13,
-                "recovery": 13,
+                "recovery": "13(17)",
                 "total": 50,
                 "onHit": "KD",
                 "onBlock": "-7(0)",
@@ -1739,6 +1847,7 @@
                 "extraInfo": [
                     "Airborne on frame 3",
                     "Frame advantage and KDA varies depending on how high / low the knee connects on the opponent (the lower it connects the more advantageous and KDA it has)",
+                    "17 frames recovery on whiff",
                     "Juggle Limit: 4",
                     "Takes 40 frames to charge",
                     "V-Skill 1 version builds 90 / 60 / 30 V-Gauge on Hit / Block / Whiff"
@@ -1747,7 +1856,7 @@
                 "moveMotion": "U",
                 "moveButton": "MK",
                 "chargeDirection": "D",
-                "i": 53
+                "i": 55
             },
             "HK Violence Knee Drop": {
                 "moveName": "HK Violence Knee Drop",
@@ -1756,7 +1865,7 @@
                 "cmnName": "HK Knee Drop",
                 "startup": 25,
                 "active": 18,
-                "recovery": 14,
+                "recovery": "14(17)",
                 "total": 56,
                 "onHit": "KD",
                 "onBlock": "-8(-1)",
@@ -1772,6 +1881,7 @@
                 "extraInfo": [
                     "Airborne on frame 3",
                     "Frame advantage and KDA varies depending on how high / low the knee connects on the opponent (the lower it connects the more advantageous and KDA it has)",
+                    "17 frames recovery on whiff",
                     "Juggle Limit: 4",
                     "Takes 40 frames to charge",
                     "V-Skill 1 version builds 90 / 60 / 30 V-Gauge on Hit / Block / Whiff"
@@ -1780,7 +1890,7 @@
                 "moveMotion": "U",
                 "moveButton": "HK",
                 "chargeDirection": "D",
-                "i": 54
+                "i": 56
             },
             "EX Violence Knee Drop": {
                 "moveName": "EX Violence Knee Drop",
@@ -1789,10 +1899,10 @@
                 "cmnName": "EX Knee Drop",
                 "startup": 25,
                 "active": 11,
-                "recovery": 10,
+                "recovery": "10(17)",
                 "total": 45,
                 "onHit": "KD",
-                "onBlock": "1(6)",
+                "onBlock": "-1(6)",
                 "damage": 150,
                 "stun": 200,
                 "kd": "91(96)",
@@ -1806,7 +1916,11 @@
                     "Airborne on frame 3",
                     "Can direct the angle of the attack using Left/Right",
                     "Frame advantage and KDA varies depending on how high / low the knee connects on the opponent (the lower it connects the more advantageous and KDA it has)",
+                    "17 frames recovery on whiff",
                     "-1 on block against Abigail at highest point",
+                    "0 on block against G and Sagat at highest point",
+                    "+1 on block against Birdie, Balrog, Cody, Falke, FANG, Gill, Guile, M. Bison, Poison, Seth, Urien, Vega, and Zangief",
+                    "+2 on block at worst against everyone else",
                     "Juggle Limit: 4",
                     "Takes 40 frames to charge",
                     "V-Skill 1 version builds 120 / 80 / 40 V-Gauge on Hit / Block / Whiff"
@@ -1815,7 +1929,7 @@
                 "moveMotion": "U",
                 "moveButton": "2K",
                 "chargeDirection": "D",
-                "i": 55
+                "i": 57
             },
             "LP Dangerous Headbutt": {
                 "moveName": "LP Dangerous Headbutt",
@@ -1845,7 +1959,8 @@
                 "moveMotion": "U",
                 "moveButton": "LP",
                 "chargeDirection": "D",
-                "i": 56
+                "movesList": "Special",
+                "i": 58
             },
             "MP Dangerous Headbutt": {
                 "moveName": "MP Dangerous Headbutt",
@@ -1875,7 +1990,7 @@
                 "moveMotion": "U",
                 "moveButton": "MP",
                 "chargeDirection": "D",
-                "i": 57
+                "i": 59
             },
             "HP Dangerous Headbutt": {
                 "moveName": "HP Dangerous Headbutt",
@@ -1908,7 +2023,7 @@
                 "moveMotion": "U",
                 "moveButton": "HP",
                 "chargeDirection": "D",
-                "i": 58
+                "i": 60
             },
             "EX Dangerous Headbutt": {
                 "moveName": "EX Dangerous Headbutt",
@@ -1917,7 +2032,7 @@
                 "cmnName": "EX Headbutt",
                 "startup": 12,
                 "active": 5,
-                "recovery": "3+26",
+                "recovery": "3+26(3+31)",
                 "total": 45,
                 "onHit": "KD",
                 "onBlock": -17,
@@ -1933,6 +2048,7 @@
                 "extraInfo": [
                     "Airborne on frames 5-19",
                     "Completely invincible on frames 1-16",
+                    "+5 frames extra recovery on whiff",
                     "Juggle Limit: 4",
                     "Takes 35 frames to charge",
                     "Urien is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
@@ -1942,7 +2058,7 @@
                 "moveMotion": "U",
                 "moveButton": "2P",
                 "chargeDirection": "D",
-                "i": 59
+                "i": 61
             },
             "LP Metallic Sphere": {
                 "moveName": "LP Metallic Sphere",
@@ -1969,7 +2085,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 60
+                "movesList": "Special",
+                "i": 62
             },
             "LP Metallic Sphere (hold)": {
                 "moveName": "LP Metallic Sphere (hold)",
@@ -1997,7 +2114,8 @@
                 "moveMotion": "QCF",
                 "moveButton": "LP",
                 "chargeDirection": "R",
-                "i": 61
+                "movesList": "Special",
+                "i": 63
             },
             "MP Metallic Sphere": {
                 "moveName": "MP Metallic Sphere",
@@ -2024,7 +2142,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 62
+                "i": 64
             },
             "MP Metallic Sphere (hold)": {
                 "moveName": "MP Metallic Sphere (hold)",
@@ -2052,7 +2170,7 @@
                 "moveMotion": "QCF",
                 "moveButton": "MP",
                 "chargeDirection": "R",
-                "i": 63
+                "i": 65
             },
             "HP Metallic Sphere": {
                 "moveName": "HP Metallic Sphere",
@@ -2078,7 +2196,7 @@
                 "moveMotion": "QCF",
                 "moveButton": "HP",
                 "antiAirMove": true,
-                "i": 64
+                "i": 66
             },
             "HP Metallic Sphere (hold)": {
                 "moveName": "HP Metallic Sphere (hold)",
@@ -2105,7 +2223,7 @@
                 "moveButton": "HP",
                 "chargeDirection": "R",
                 "antiAirMove": true,
-                "i": 65
+                "i": 67
             },
             "EX Metallic Sphere Ground": {
                 "moveName": "EX Metallic Sphere Ground",
@@ -2142,7 +2260,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 66
+                "movesList": "Special",
+                "i": 68
             },
             "EX Metallic Sphere Ground (hold)": {
                 "moveName": "EX Metallic Sphere Ground (hold)",
@@ -2180,7 +2299,8 @@
                 "moveMotion": "QCF",
                 "moveButton": "2P",
                 "chargeDirection": "R",
-                "i": 67
+                "movesList": "Special",
+                "i": 69
             },
             "EX Metallic Sphere Air": {
                 "moveName": "EX Metallic Sphere Air",
@@ -2208,7 +2328,8 @@
                 "moveMotion": "QCF",
                 "moveButton": "2P",
                 "antiAirMove": true,
-                "i": 68
+                "movesList": "Special",
+                "i": 70
             },
             "EX Metallic Sphere Air (hold)": {
                 "moveName": "EX Metallic Sphere Air (hold)",
@@ -2238,7 +2359,8 @@
                 "moveButton": "2P",
                 "chargeDirection": "R",
                 "antiAirMove": true,
-                "i": 69
+                "movesList": "Special",
+                "i": 71
             },
             "LP Metallic Sphere (V-Skill 2)": {
                 "moveName": "LP Metallic Sphere (V-Skill 2)",
@@ -2249,7 +2371,7 @@
                 "recovery": 36,
                 "total": 50,
                 "onHit": 3,
-                "onBlock": 2,
+                "onBlock": -2,
                 "damage": "20*20*50 (90) / 20*40 (60)",
                 "stun": "20*20*80 (120) / 20*80 (100)",
                 "attackLevel": "H",
@@ -2266,7 +2388,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 70
+                "i": 72
             },
             "LP Metallic Sphere (hold) (V-Skill 2)": {
                 "moveName": "LP Metallic Sphere (hold) (V-Skill 2)",
@@ -2277,7 +2399,7 @@
                 "recovery": 36,
                 "total": 89,
                 "onHit": 3,
-                "onBlock": 2,
+                "onBlock": -2,
                 "damage": "20*20*50 (90) / 20*40 (60)",
                 "stun": "20*20*80 (120) / 20*80 (100)",
                 "attackLevel": "H",
@@ -2295,7 +2417,7 @@
                 "moveMotion": "QCF",
                 "moveButton": "2P",
                 "chargeDirection": "R",
-                "i": 71
+                "i": 73
             },
             "MP Metallic Sphere (V-Skill 2)": {
                 "moveName": "MP Metallic Sphere (V-Skill 2)",
@@ -2306,7 +2428,7 @@
                 "recovery": 36,
                 "total": 50,
                 "onHit": 3,
-                "onBlock": 2,
+                "onBlock": -2,
                 "damage": "20*20*50 (90)",
                 "stun": "20*20*80 (120)",
                 "attackLevel": "H",
@@ -2323,7 +2445,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 72
+                "i": 74
             },
             "MP Metallic Sphere (hold) (V-Skill 2)": {
                 "moveName": "MP Metallic Sphere (hold) (V-Skill 2)",
@@ -2334,7 +2456,7 @@
                 "recovery": 36,
                 "total": 89,
                 "onHit": 3,
-                "onBlock": 2,
+                "onBlock": -2,
                 "damage": "20*20*50 (90)",
                 "stun": "20*20*80 (120)",
                 "attackLevel": "H",
@@ -2352,7 +2474,7 @@
                 "moveMotion": "QCF",
                 "moveButton": "2P",
                 "chargeDirection": "R",
-                "i": 73
+                "i": 75
             },
             "HP Metallic Sphere (V-Skill 2)": {
                 "moveName": "HP Metallic Sphere (V-Skill 2)",
@@ -2380,7 +2502,7 @@
                 "moveMotion": "QCF",
                 "moveButton": "2P",
                 "antiAirMove": true,
-                "i": 74
+                "i": 76
             },
             "HP Metallic Sphere (hold) (V-Skill 2)": {
                 "moveName": "HP Metallic Sphere (hold) (V-Skill 2)",
@@ -2409,7 +2531,7 @@
                 "moveButton": "2P",
                 "chargeDirection": "R",
                 "antiAirMove": true,
-                "i": 75
+                "i": 77
             },
             "EX Metallic Sphere Ground (V-Skill 2)": {
                 "moveName": "EX Metallic Sphere Ground (V-Skill 2)",
@@ -2452,7 +2574,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 76
+                "i": 78
             },
             "EX Metallic Sphere Ground (hold) (V-Skill 2)": {
                 "moveName": "EX Metallic Sphere Ground (hold) (V-Skill 2)",
@@ -2496,7 +2618,7 @@
                 "moveMotion": "QCF",
                 "moveButton": "2P",
                 "chargeDirection": "R",
-                "i": 77
+                "i": 79
             },
             "EX Metallic Sphere Air (V-Skill 2)": {
                 "moveName": "EX Metallic Sphere Air (V-Skill 2)",
@@ -2525,7 +2647,7 @@
                 "moveMotion": "QCF",
                 "moveButton": "2P",
                 "antiAirMove": true,
-                "i": 78
+                "i": 80
             },
             "EX Metallic Sphere Air (hold) (V-Skill 2)": {
                 "moveName": "EX Metallic Sphere Air (hold) (V-Skill 2)",
@@ -2555,14 +2677,14 @@
                 "moveButton": "2P",
                 "chargeDirection": "R",
                 "antiAirMove": true,
-                "i": 79
+                "i": 81
             },
             "Dominate Crush": {
                 "moveName": "Dominate Crush",
                 "plnCmd": "qcf,qcf+P",
                 "numCmd": "236236P",
                 "cmnName": "Super",
-                "startup": 6,
+                "startup": "6(2)",
                 "active": 19,
                 "recovery": 60,
                 "total": 84,
@@ -2580,15 +2702,20 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-26",
                     "Can connect OTG on Crush Counter Sweep or delayed wake-up",
+                    "2 frame startup if canceled into from Chariot Tackle",
                     "Hitbox counts as a strike but has some projectile properties (cannot avoid Urien's Super with projectile invincibility, but you can nullify hits of Urien's Super with projectiles / projectile nullifiers)"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 80
-            }
+                "movesList": "Super",
+                "i": 82
+            },
+            "input": "None"
         },
-        "vtOne": {},
+        "vtOne": {
+            "input": "None"
+        },
         "vtTwo": {
             "Tyrant Blaze": {
                 "moveName": "Tyrant Blaze",
@@ -2601,7 +2728,7 @@
                 "total": 66,
                 "onHit": "KD",
                 "onBlock": -2,
-                "damage": "60*60 (100)",
+                "damage": "60*60 (120)",
                 "stun": "100*50 (150)",
                 "kd": 100,
                 "kdr": 41,
@@ -2615,7 +2742,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "1 hit of armor on frames 3-14 (up to frame 60 if holding the charge to max)",
-                    "No armor once the charge is initiated",
+                    "No armor once the tackle is initiated",
                     "If V-Skill is applied, the entire move has 2 hits of armor and only wears off after both attacks are completed (frames 1-45)",
                     "V-Skill version also has dramatically improved horizontal hitbox range",
                     "Puts opponent into a limited juggle state on hit",
@@ -2625,6 +2752,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "chargeDirection": "R",
+                "movesList": "V-Trigger 2",
                 "i": 45.01
             },
             "Tyrant Blaze lvl 2": {
@@ -2638,7 +2766,7 @@
                 "total": "144(109)",
                 "onHit": "KD",
                 "onBlock": "KD (+4)",
-                "damage": "35x4 (120)",
+                "damage": "35x4 (140)",
                 "stun": "50x4 (200)",
                 "kd": 103,
                 "kdr": 44,
@@ -2664,8 +2792,10 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "chargeDirection": "R",
+                "movesList": "V-Trigger 2",
                 "i": 45.02
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

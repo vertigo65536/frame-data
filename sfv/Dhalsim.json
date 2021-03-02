@@ -5,14 +5,14 @@
                 "moveName": "Stand LP",
                 "plnCmd": "LP",
                 "numCmd": "5LP",
-                "startup": 3,
+                "startup": "3(4)",
                 "active": 3,
                 "recovery": 8,
                 "total": 13,
                 "onHit": 5,
                 "onBlock": 3,
-                "vtc1GapOnHit": -1,
-                "vtc1GapOnBlock": -3,
+                "vtc1GapOnHit": "N/A",
+                "vtc1GapOnBlock": -2,
                 "damage": 30,
                 "stun": 70,
                 "attackLevel": "H",
@@ -48,6 +48,9 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*14",
+                "hcWinVt": 13,
+                "hcWinNotes": "*CA only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -80,6 +83,9 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 60,
                 "stun": 150,
+                "hcWinSpCa": "*20",
+                "hcWinVt": 19,
+                "hcWinNotes": "*CA only",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "su",
@@ -108,8 +114,8 @@
                 "total": 13,
                 "onHit": 3,
                 "onBlock": 2,
-                "vtc1GapOnHit": -1,
-                "vtc1GapOnBlock": -2,
+                "vtc1GapOnHit": "N/A",
+                "vtc1GapOnBlock": -1,
                 "damage": 40,
                 "stun": 70,
                 "attackLevel": "H",
@@ -144,6 +150,8 @@
                 "vtc1GapOnBlock": -1,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": "*14",
+                "hcWinNotes": "*CA only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -175,11 +183,12 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 22,
-                    "vG": "+150"
-                },
+                "hcWinSpCa": "*16",
+                "hcWinVt": 16,
+                "hcWinNotes": "*CA only",
+                "ccState": "Stagger",
+                "ccAdv": 22,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -207,8 +216,8 @@
                 "total": 13,
                 "onHit": 4,
                 "onBlock": 1,
-                "vtc1GapOnHit": -2,
-                "vtc1GapOnBlock": -5,
+                "vtc1GapOnHit": -1,
+                "vtc1GapOnBlock": -4,
                 "damage": 30,
                 "stun": 70,
                 "attackLevel": "H",
@@ -234,16 +243,18 @@
                 "moveName": "Crouch MP",
                 "plnCmd": "d+MP",
                 "numCmd": "2MP",
-                "startup": 8,
+                "startup": 9,
                 "active": 4,
-                "recovery": 19,
-                "total": 30,
+                "recovery": 20,
+                "total": 32,
                 "onHit": -1,
                 "onBlock": -3,
                 "vtc1GapOnHit": "N/A",
                 "vtc1GapOnBlock": "N/A",
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -279,6 +290,8 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 20,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -298,16 +311,18 @@
                 "moveName": "Crouch LK",
                 "plnCmd": "d+LK",
                 "numCmd": "2LK",
+                "cmnName": "LK Slide",
                 "startup": 4,
                 "active": 6,
                 "recovery": 14,
                 "total": 23,
                 "onHit": -3,
                 "onBlock": -6,
-                "vtc1GapOnHit": -1,
-                "vtc1GapOnBlock": -4,
+                "vtc1GapOnHit": "N/A",
+                "vtc1GapOnBlock": -3,
                 "damage": 30,
                 "stun": 70,
+                "hcWinVt": 13,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -318,7 +333,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Low profile and top of hurtbox projectile invincible on frames 5-16",
-                    "+1 oH / -2 oB on last active frame"
+                    "+2 oH / -1 oB on last active frame"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -329,6 +344,7 @@
                 "moveName": "Crouch MK",
                 "plnCmd": "d+MK",
                 "numCmd": "2MK",
+                "cmnName": "MK Slide",
                 "startup": 7,
                 "active": 11,
                 "recovery": 12,
@@ -339,6 +355,7 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 22,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -360,6 +377,7 @@
                 "moveName": "Crouch HK",
                 "plnCmd": "d+HK",
                 "numCmd": "2HK",
+                "cmnName": "HK Slide",
                 "startup": 12,
                 "active": 16,
                 "recovery": 19,
@@ -370,14 +388,13 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 26,
                 "kd": 58,
                 "kdr": 9,
                 "kdrb": 14,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -551,6 +568,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "LK",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "MK Drill Kick": {
@@ -576,6 +594,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "HK Drill Kick": {
@@ -601,6 +620,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Yoga Anvil": {
@@ -618,14 +638,14 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 20,
+                "hcWinVt": 20,
                 "kd": 95,
                 "kdr": 36,
                 "kdrb": 41,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -646,6 +666,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Yoga Upper": {
@@ -663,6 +684,8 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 18,
+                "hcWinVt": 20,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -679,6 +702,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 23
             },
             "Divine Kick": {
@@ -696,6 +720,8 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 17,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -709,13 +735,14 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 24
             },
             "Thrust Kick": {
                 "moveName": "Thrust Kick",
                 "plnCmd": "db+MK",
                 "numCmd": "1MK",
-                "cmnName": "Low forward",
+                "cmnName": "db+MK",
                 "startup": 7,
                 "active": 3,
                 "recovery": 15,
@@ -726,6 +753,8 @@
                 "vtc1GapOnBlock": "N/A",
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -739,6 +768,7 @@
                 "moveType": "normal",
                 "moveMotion": "DB",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 25
             },
             "Yoga Rocket": {
@@ -763,6 +793,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 26
             },
             "Yoga Hoop": {
@@ -787,6 +818,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 27
             },
             "Yoga Float": {
@@ -802,6 +834,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Float and all actions after float until he touches the ground puts Dhalsim into a free juggle state if hit by a medium / heavy / command normal",
                     "Airborne starting on frame 6",
                     "28 frames until floating state, starts falling after 75 frames of float",
                     "All air normals from Float build 80 (~1/4th) V-Gauge on Hit and 40 (1/8th) on guard"
@@ -810,6 +843,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 28
             },
             "Yoga Float (airborne)": {
@@ -824,6 +858,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Float and all actions after float until he touches the ground puts Dhalsim into a free juggle state if hit by a medium / heavy / command normal",
                     "Cannot be performed until 11 frames into a jump",
                     "16 frames until floating state, starts falling at 75 frames",
                     "All air normals from Float build 80 (~1/4th) V-Gauge on Hit and 40 (1/8th) on guard"
@@ -832,6 +867,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 29
             },
             "Yoga Deep Breath": {
@@ -854,6 +890,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 30
             },
             "Yoga Deep Breath (airborne)": {
@@ -882,6 +919,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 31
             },
             "Yoga Burner": {
@@ -907,12 +945,12 @@
                     "2 bar V-Trigger",
                     "Fire carpet appears on frame 14, lasts 360 frames (6 seconds) and deals up to 200 white damage",
                     "Frames 14-16 is an active quarter-screen-length projectile hitbox knockdown that puts opponent into a limited juggle state (JC: 1)",
-                    "Hitting opponent with this V-Trigger attack / Yoga Flame / Yoga Gale increases the juggle counter too much for the downed opponent to be burned",
-                    "COOK UP LE MAN! - Yipes"
+                    "Hitting opponent with this V-Trigger attack / Yoga Flame / Yoga Gale increases the juggle counter too much for the downed opponent to be burned"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 32
             },
             "Yoga Sansara": {
@@ -950,6 +988,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 33
             },
             "Yoga Sansara (air)": {
@@ -985,6 +1024,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 34
             },
             "Yoga Mala": {
@@ -1013,7 +1053,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 35
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 0.82 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 36
+            },
+            "Yoga Bazooka": {
+                "moveName": "Yoga Bazooka",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 37
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1028,7 +1127,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 36
+                "i": 38
             },
             "LP Yoga Fire": {
                 "moveName": "LP Yoga Fire",
@@ -1055,7 +1154,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 37
+                "movesList": "Special",
+                "i": 39
             },
             "MP Yoga Fire": {
                 "moveName": "MP Yoga Fire",
@@ -1082,7 +1182,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 38
+                "i": 40
             },
             "HP Yoga Fire": {
                 "moveName": "HP Yoga Fire",
@@ -1109,7 +1209,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 39
+                "i": 41
             },
             "EX Yoga Fire": {
                 "moveName": "EX Yoga Fire",
@@ -1135,7 +1235,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 40
+                "i": 42
             },
             "LP Yoga Fire (V-Skill 2)": {
                 "moveName": "LP Yoga Fire (V-Skill 2)",
@@ -1158,6 +1258,7 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile that travels in an arc in the air",
+                    "Trajectory can be altered by hitting the Yoga Fire with Yoga Flame or Yoga Gale",
                     "Bounces one time if it hits the ground",
                     "Builds 60/30 V-Gauge on Hit/Block",
                     "Juggle Limit / Increase / Start: 1*1 / 1*1 / 1*1"
@@ -1165,7 +1266,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 41
+                "movesList": "V-Skill 2",
+                "i": 43
             },
             "MP Yoga Fire (V-Skill 2)": {
                 "moveName": "MP Yoga Fire (V-Skill 2)",
@@ -1188,6 +1290,7 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile that travels in an arc in the air",
+                    "Trajectory can be altered by hitting the Yoga Fire with Yoga Flame or Yoga Gale",
                     "Bounces one time if it hits the ground",
                     "Builds 60/30 V-Gauge on Hit/Block",
                     "Juggle Limit / Increase / Start: 1*1 / 1*1 / 1*1"
@@ -1195,7 +1298,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 42
+                "i": 44
             },
             "HP Yoga Fire (V-Skill 2)": {
                 "moveName": "HP Yoga Fire (V-Skill 2)",
@@ -1218,6 +1321,7 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile that travels in an arc in the air",
+                    "Trajectory can be altered by hitting the Yoga Fire with Yoga Flame or Yoga Gale",
                     "Bounces backwards if it hits the ground (even if offscreen)",
                     "Builds 60/30 V-Gauge on Hit/Block",
                     "Juggle Limit / Increase / Start: 1*1 / 1*1 / 1*1"
@@ -1225,7 +1329,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 43
+                "i": 45
             },
             "EX Yoga Fire (V-Skill 2)": {
                 "moveName": "EX Yoga Fire (V-Skill 2)",
@@ -1248,16 +1352,17 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Cancelable into V-Skill 1/2 on Hit/Block",
+                    "Cancelable into V-Skill 2 on Hit/Block",
                     "3-hit projectile that travels on ground",
                     "Projectile speed varies based on button combination (LP+MP: 0.3 / LP+HP: 0.38 / MP+HP: 0.46)",
+                    "Trajectory can be altered by hitting the Yoga Fire with Yoga Flame or Yoga Gale",
                     "Builds 60/30 V-Gauge on Hit/Block",
                     "Juggle Limit / Increase / Start: 2*2*3 / 0*0*1 / 3*3*3"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 44
+                "i": 46
             },
             "LP Yoga Flame": {
                 "moveName": "LP Yoga Flame",
@@ -1277,7 +1382,8 @@
                 "kdrb": 45,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1285,12 +1391,14 @@
                 "extraInfo": [
                     "Projectile Hitbox",
                     "Spawns a secondary hitbox that activates / alters the trajectory of the V-Trigger 2 projectile",
+                    "Can be canceled into VT2 on hit or block",
                     "Juggle Limit / Increase / Start: 0 / 3 / 4"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
-                "i": 45
+                "movesList": "Special",
+                "i": 47
             },
             "MP Yoga Flame": {
                 "moveName": "MP Yoga Flame",
@@ -1310,7 +1418,8 @@
                 "kdrb": 48,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1318,12 +1427,13 @@
                 "extraInfo": [
                     "Projectile Hitbox",
                     "Spawns a secondary hitbox that activates / alters the trajectory of the V-Trigger 2 projectile",
+                    "Can be canceled into VT2 on hit or block",
                     "Juggle Limit / Increase / Start: 0 / 7 / 7"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "MP",
-                "i": 46
+                "i": 48
             },
             "HP Yoga Flame": {
                 "moveName": "HP Yoga Flame",
@@ -1343,7 +1453,8 @@
                 "kdrb": 52,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1352,12 +1463,13 @@
                     "Launches grounded opponents into a free juggle state",
                     "Projectile Hitbox",
                     "Spawns a secondary hitbox that activates / alters the trajectory of the V-Trigger 2 projectile",
+                    "Can be canceled into VT2 on hit or block",
                     "Juggle Limit / Increase / Start: 0 / 1 / 0"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "HP",
-                "i": 47
+                "i": 49
             },
             "EX Yoga Flame": {
                 "moveName": "EX Yoga Flame",
@@ -1376,6 +1488,9 @@
                 "kdr": 57,
                 "kdrb": 62,
                 "attackLevel": "H",
+                "cancelsTo": [
+                    "vt2"
+                ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
@@ -1383,12 +1498,13 @@
                     "4-hit Projectile Hitboxes",
                     "Launches opponent into a limited juggle state",
                     "Spawns secondary hitboxes that activate / alter the trajectory of the V-Trigger 2 projectile",
+                    "Can be canceled into VT2 on hit or block",
                     "Juggle Limit / Increase / Start: 6 / 8 / 1 (3rd hit starts juggle: +1 and then 4th hit adds +8 Juggle Increase)"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
-                "i": 48
+                "i": 50
             },
             "LP Yoga Gale": {
                 "moveName": "LP Yoga Gale",
@@ -1422,7 +1538,8 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
-                "i": 49
+                "movesList": "Special",
+                "i": 51
             },
             "MP Yoga Gale": {
                 "moveName": "MP Yoga Gale",
@@ -1456,7 +1573,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "MP",
-                "i": 50
+                "i": 52
             },
             "HP Yoga Gale": {
                 "moveName": "HP Yoga Gale",
@@ -1490,7 +1607,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "HP",
-                "i": 51
+                "i": 53
             },
             "EX Yoga Gale": {
                 "moveName": "EX Yoga Gale",
@@ -1526,7 +1643,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
-                "i": 52
+                "i": 54
             },
             "Yoga Teleport": {
                 "moveName": "Yoga Teleport",
@@ -1550,7 +1667,8 @@
                 "moveMotion": "DPE",
                 "moveButton": "3Por3K",
                 "nonHittingMove": true,
-                "i": 53
+                "movesList": "Special",
+                "i": 55
             },
             "Yoga Teleport (B3K)": {
                 "moveName": "Yoga Teleport (B3K)",
@@ -1574,7 +1692,7 @@
                 "moveMotion": "RDP",
                 "moveButton": "3K",
                 "nonHittingMove": true,
-                "i": 54
+                "i": 56
             },
             "Yoga Teleport (air)": {
                 "moveName": "Yoga Teleport (air)",
@@ -1597,7 +1715,7 @@
                 "moveMotion": "DPE",
                 "moveButton": "3Por3K",
                 "nonHittingMove": true,
-                "i": 55
+                "i": 57
             },
             "Yoga Sunburst lvl 1": {
                 "moveName": "Yoga Sunburst lvl 1",
@@ -1630,7 +1748,8 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 56
+                "movesList": "Super",
+                "i": 58
             },
             "Yoga Sunburst lvl 2": {
                 "moveName": "Yoga Sunburst lvl 2",
@@ -1664,7 +1783,7 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 57
+                "i": 59
             },
             "Yoga Sunburst lvl 3": {
                 "moveName": "Yoga Sunburst lvl 3",
@@ -1698,7 +1817,7 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 58
+                "i": 60
             },
             "Air Yoga Sunburst lvl 1": {
                 "moveName": "Air Yoga Sunburst lvl 1",
@@ -1726,7 +1845,8 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 59
+                "movesList": "Super",
+                "i": 61
             },
             "Air Yoga Sunburst lvl 2": {
                 "moveName": "Air Yoga Sunburst lvl 2",
@@ -1754,7 +1874,7 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 60
+                "i": 62
             },
             "Air Yoga Sunburst lvl 3": {
                 "moveName": "Air Yoga Sunburst lvl 3",
@@ -1782,11 +1902,16 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 61
-            }
+                "i": 63
+            },
+            "input": "None"
         },
-        "vtOne": {},
-        "vtTwo": {}
+        "vtOne": {
+            "input": "None"
+        },
+        "vtTwo": {
+            "input": "None"
+        }
     },
     "stats": {
         "health": 950,
@@ -1801,7 +1926,7 @@
         "bDash": 25,
         "bDashCHFrames": "3-10",
         "color": "#D80500",
-        "phrase": "I'm not very fond of conflict.",
+        "phrase": "I'm not very fond of conflict",
         "fWalk": 2.2,
         "bWalk": 2,
         "fJumpDist": 224,

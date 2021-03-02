@@ -44,6 +44,8 @@
                 "vtcOnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -55,7 +57,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+1 bonus frame advantage on hit (+6) during V-Trigger 1/2"
+                    "+1 bonus frame advantage on hit (+6), 1 extra active frame (3), 1 less recovery (13), and decreased arm hurtbox during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -76,14 +78,14 @@
                 "vtcOnBlock": 8,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 19,
+                "hcWinVt": 21,
                 "kd": 89,
                 "kdr": 57,
                 "kdrb": 57,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -95,8 +97,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+1 bonus frame advantage on hit (+6) during V-Trigger 1/2",
-                    "Denies back-roll on Crush Counter (crumple state)"
+                    "+1 bonus frame advantage on hit (+2), 1 extra active frame (5), 1 less recovery (18), and decreased arm hurtbox during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -144,6 +145,9 @@
                 "vtcOnBlock": 5,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 17,
+                "hcWinTc": 17,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -176,11 +180,9 @@
                 "vtcOnBlock": 8,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 19,
-                    "vG": "+150"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 19,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -245,6 +247,8 @@
                 "vtcOnBlock": 8,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -256,7 +260,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+1 bonus frame advantage on hit (+6) during V-Trigger 1/2"
+                    "+1 bonus frame advantage on hit (+5) and 1 less recovery (12) during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -277,14 +281,14 @@
                 "vtcOnBlock": 8,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 18,
+                "hcWinVt": 20,
                 "kd": 98,
                 "kdr": 37,
                 "kdrb": 42,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -295,6 +299,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Faster startup (7f) and slightly farther horizontal reach during V-Trigger 1/2"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
@@ -341,6 +348,8 @@
                 "vtcOnBlock": 5,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -373,14 +382,13 @@
                 "vtcOnBlock": 5,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 18,
                 "kd": 72,
                 "kdr": 23,
                 "kdrb": 28,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -515,11 +523,9 @@
                 "onBlock": -7,
                 "damage": 80,
                 "stun": 100,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 20,
-                    "vG": "+200"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 20,
+                "ccVG": "+200",
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": false,
@@ -533,6 +539,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Road of the Sun (air)": {
@@ -559,6 +566,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Sacrificial Altar": {
@@ -573,6 +581,7 @@
                 "onBlock": -8,
                 "damage": "60*54 (114)",
                 "stun": "100*90 (190)",
+                "hcWinTc": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs1",
@@ -588,6 +597,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Sacrificial Altar Follow-Up": {
@@ -604,6 +614,10 @@
                 "vtcOnBlock": 11,
                 "damage": "60*54*32 (146)",
                 "stun": "100*90*40 (230)",
+                "hcWinSpCa": "*27",
+                "hcWinTc": 18,
+                "hcWinVt": 27,
+                "hcWinNotes": "*CA only",
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
@@ -624,6 +638,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MKMP",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Messenger of Chaos": {
@@ -640,6 +655,8 @@
                 "vtcOnBlock": 10,
                 "damage": "60*54*48 (162)",
                 "stun": "100*90*64 (254)",
+                "hcWinTc": 21,
+                "hcWinVt": 24,
                 "kd": 100,
                 "kdr": 41,
                 "kdrb": 46,
@@ -659,6 +676,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MKMP",
+                "movesList": "Command Normal",
                 "i": 23
             },
             "Soul Sealer": {
@@ -684,6 +702,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 24
             },
             "Soul Discriminator": {
@@ -709,6 +728,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 25
             },
             "Culminated Power": {
@@ -747,6 +767,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 26
             },
             "Crawling Beast": {
@@ -787,6 +808,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 27
             },
             "Torrent of Power": {
@@ -800,8 +822,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "3 bar V-Trigger",
-                    "Lasts until the end of the round",
+                    "2 bar V-Trigger",
+                    "Duration of 1000 frames (~17 seconds)",
                     "Enhances walk speeds by 10%, dash distance by 30%, and overall damage",
                     "Gives access to a new move (Clouded Mirror)",
                     "Necalli no longer requires to charge when canceling into The Disc's Guidance special while in V-Trigger",
@@ -813,6 +835,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 28
             },
             "Eruption of Power": {
@@ -839,6 +862,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 29
             },
             "The Calling": {
@@ -867,7 +891,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 30
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 31
+            },
+            "Midnight Howl": {
+                "moveName": "Midnight Howl",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 32
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -883,7 +966,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 31
+                "i": 33
             },
             "LP The Disc's Guidance": {
                 "moveName": "LP The Disc's Guidance",
@@ -915,7 +998,8 @@
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 32
+                "movesList": "Special",
+                "i": 34
             },
             "MP The Disc's Guidance": {
                 "moveName": "MP The Disc's Guidance",
@@ -947,7 +1031,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 33
+                "i": 35
             },
             "HP The Disc's Guidance": {
                 "moveName": "HP The Disc's Guidance",
@@ -979,7 +1063,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 34
+                "i": 36
             },
             "EX The Disc's Guidance": {
                 "moveName": "EX The Disc's Guidance",
@@ -1013,7 +1097,7 @@
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 35
+                "i": 37
             },
             "LP Raging Light": {
                 "moveName": "LP Raging Light",
@@ -1050,7 +1134,8 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "MP Raging Light": {
                 "moveName": "MP Raging Light",
@@ -1089,7 +1174,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 37
+                "i": 39
             },
             "HP Raging Light": {
                 "moveName": "HP Raging Light",
@@ -1128,7 +1213,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 38
+                "i": 40
             },
             "EX Raging Light": {
                 "moveName": "EX Raging Light",
@@ -1140,7 +1225,7 @@
                 "recovery": "23+19",
                 "total": 58,
                 "onHit": "KD",
-                "onBlock": -36,
+                "onBlock": -38,
                 "damage": "20x4*70 (150)",
                 "stun": "20x4*120 (200)",
                 "multiActive": [
@@ -1168,14 +1253,15 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-7",
                     "Airborne on frames 4-39",
-                    "-39 on block against taller characters",
+                    "Can hit crossups from frame 5 (2nd hit) onwards",
+                    "-36 on block against taller characters when stand blocking",
                     "Necalli is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Juggle Limit / Increase / Start: 3*3*4*5*6 / 1*1*1*1*30 / 1*1*1*1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 39
+                "i": 41
             },
             "LK Mask of Tlalli": {
                 "moveName": "LK Mask of Tlalli",
@@ -1202,7 +1288,8 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LK",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "MK Mask of Tlalli": {
                 "moveName": "MK Mask of Tlalli",
@@ -1229,7 +1316,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MK",
-                "i": 41
+                "i": 43
             },
             "HK Mask of Tlalli": {
                 "moveName": "HK Mask of Tlalli",
@@ -1256,7 +1343,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HK",
-                "i": 42
+                "i": 44
             },
             "EX Mask of Tlalli": {
                 "moveName": "EX Mask of Tlalli",
@@ -1268,8 +1355,8 @@
                 "recovery": 60,
                 "total": 69,
                 "onHit": "KD",
-                "damage": 60,
-                "stun": 50,
+                "damage": 80,
+                "stun": 70,
                 "kd": 92,
                 "kdr": 34,
                 "kdrb": 34,
@@ -1284,7 +1371,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 43
+                "i": 45
             },
             "LK Valiant Rebellion": {
                 "moveName": "LK Valiant Rebellion",
@@ -1316,7 +1403,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 44
+                "movesList": "Special",
+                "i": 46
             },
             "MK Valiant Rebellion": {
                 "moveName": "MK Valiant Rebellion",
@@ -1348,7 +1436,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 45
+                "i": 47
             },
             "HK Valiant Rebellion": {
                 "moveName": "HK Valiant Rebellion",
@@ -1380,7 +1468,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 46
+                "i": 48
             },
             "EX Valiant Rebellion": {
                 "moveName": "EX Valiant Rebellion",
@@ -1410,7 +1498,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 47
+                "i": 49
             },
             "Ceremony of Honor": {
                 "moveName": "Ceremony of Honor",
@@ -1439,8 +1527,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 48
-            }
+                "movesList": "Super",
+                "i": 50
+            },
+            "input": "None"
         },
         "vtOne": {
             "Stand LP": {
@@ -1480,6 +1570,7 @@
                 "onBlock": 0,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1489,7 +1580,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+1 bonus frame advantage on hit (+6) during V-Trigger 1/2"
+                    "+1 bonus frame advantage on hit (+6), 1 extra active frame (3), 1 less recovery (13), and decreased arm hurtbox during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -1508,14 +1599,13 @@
                 "onBlock": -2,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 19,
                 "kd": 89,
                 "kdr": 57,
                 "kdrb": 57,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1525,7 +1615,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Denies back-roll on Crush Counter (crumple state)"
+                    "+1 bonus frame advantage on hit (+2), 1 extra active frame (5), 1 less recovery (18), and decreased arm hurtbox during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -1565,6 +1655,8 @@
                 "onBlock": 2,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 17,
+                "hcWinTc": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1593,11 +1685,9 @@
                 "onBlock": -4,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 19,
-                    "vG": "+150"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 19,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1652,6 +1742,7 @@
                 "onBlock": 2,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1661,7 +1752,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+1 bonus frame advantage on hit (+5) during V-Trigger 1/2"
+                    "+1 bonus frame advantage on hit (+5) and 1 less recovery (12) during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -1680,14 +1771,13 @@
                 "onBlock": -4,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 18,
                 "kd": 98,
                 "kdr": 37,
                 "kdrb": 42,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1696,6 +1786,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Faster startup (7f) and slightly farther horizontal reach during V-Trigger 1/2"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
@@ -1734,6 +1827,7 @@
                 "onBlock": -4,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -1765,11 +1859,9 @@
                 "kd": 72,
                 "kdr": 23,
                 "kdrb": 28,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "airmove": false,
                 "followUp": false,
@@ -1900,11 +1992,9 @@
                 "onBlock": -7,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 20,
-                    "vG": "+200"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 20,
+                "ccVG": "+200",
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": false,
@@ -1932,11 +2022,9 @@
                 "onBlock": 2,
                 "damage": 100,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 26,
-                    "vG": "+300"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 26,
+                "ccVG": "+300",
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": false,
@@ -1949,6 +2037,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19.01
             },
             "Road of the Sun (air)": {
@@ -1987,6 +2076,7 @@
                 "onBlock": -8,
                 "damage": "60*54 (114)",
                 "stun": "100*90 (190)",
+                "hcWinTc": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs1",
@@ -2016,6 +2106,10 @@
                 "onBlock": -9,
                 "damage": "60*54*48 (162)",
                 "stun": "100*90*64 (254)",
+                "hcWinSpCa": "*27",
+                "hcWinTc": 18,
+                "hcWinVt": "**29",
+                "hcWinNotes": "*CA only, **VT1 Attack (Clouded Mirror)",
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
@@ -2047,6 +2141,7 @@
                 "onBlock": -5,
                 "damage": "60*54*48 (162)",
                 "stun": "100*90*64 (254)",
+                "hcWinTc": 21,
                 "kd": 100,
                 "kdr": 41,
                 "kdrb": 46,
@@ -2185,26 +2280,28 @@
                 "plnCmd": "HP+HK (VT1)",
                 "numCmd": "HPHK ",
                 "cmnName": "V-Trigger 1 Leap",
-                "startup": 43,
-                "active": "2(1)2",
+                "startup": 18,
+                "active": "4(21)2(1)2",
                 "recovery": 23,
                 "total": 70,
                 "onHit": "KD",
                 "onBlock": -2,
-                "damage": "50*20",
-                "stun": 100,
-                "kd": 50,
-                "kdr": 50,
-                "kdrb": 50,
+                "damage": "20*20*30 (70)",
+                "stun": "0*50*50 (100)",
+                "kd": 69,
+                "kdr": 37,
+                "kdrb": 42,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Hard Knockdown (+50 KDA) on hit",
+                    "First hit hits air only",
+                    "Deals (40+30) damage when the 1st attack whiffs",
                     "Projectile invincible on frames 16-47 (until the end of active frames)",
                     "Airborne on frames 17-44 (until after the first hit in air)",
-                    "Can be canceled into from special cancelable normals as well as from V-Skill"
+                    "Can be canceled into from Non-EX Valiant Rebellion, special cancelable normals, and V-Skill 1",
+                    "Juggle Limit / Juggle Increase / Start: 1*1*2 / 0*1*0 / 0*1*1"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
@@ -2222,11 +2319,11 @@
                 "total": 82,
                 "onHit": "KD",
                 "onBlock": 2,
-                "damage": "50*30",
-                "stun": 100,
-                "kd": 111,
-                "kdr": 52,
-                "kdrb": 57,
+                "damage": "30*20*50 (100)",
+                "stun": "0*0*120 (120)",
+                "kd": 110,
+                "kdr": 51,
+                "kdrb": 56,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2236,7 +2333,7 @@
                     "Second hit can OTG (but only launches into a limited juggle state if hit OTG)",
                     "Projectile invincible on frames 25-63 (until the end of active frames)",
                     "Airborne on frames 31-57 (until after the first hit in air)",
-                    "Can be canceled into from special cancelable normals as well as from V-Skill",
+                    "Can be canceled into from Non-EX Valiant Rebellion, special cancelable normals, and V-Skill 1",
                     "Has a lot of active frames for some oki potential"
                 ],
                 "moveType": "vtrigger",
@@ -2255,8 +2352,8 @@
                 "total": 45,
                 "onHit": "KD",
                 "onBlock": -6,
-                "damage": "20*80",
-                "stun": "0*150",
+                "damage": "20*80 (100)",
+                "stun": "0*150 (150)",
                 "multiActive": [
                     15,
                     16,
@@ -2275,13 +2372,13 @@
                     "Takes 30 frames to charge (but can be canceled into without requiring any charge)",
                     "Airborne on frames 15-31",
                     "Has 2 projectile durability on frames 6-20",
-                    "Juggle Limit / Increase / Start: 0*1 / 1*1 / 1*1"
+                    "Juggle Limit / Increase / Start: 1*0 / 1*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 32
+                "i": 34
             },
             "MP The Disc's Guidance": {
                 "moveName": "MP The Disc's Guidance",
@@ -2294,8 +2391,8 @@
                 "total": 49,
                 "onHit": "KD",
                 "onBlock": -6,
-                "damage": "20*100",
-                "stun": "0*150",
+                "damage": "20*100 (120)",
+                "stun": "0*150 (150)",
                 "multiActive": [
                     17,
                     18,
@@ -2320,7 +2417,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 33
+                "i": 35
             },
             "HP The Disc's Guidance": {
                 "moveName": "HP The Disc's Guidance",
@@ -2333,8 +2430,8 @@
                 "total": 52,
                 "onHit": "KD",
                 "onBlock": -6,
-                "damage": "20*120",
-                "stun": "0*150",
+                "damage": "20*120 (140)",
+                "stun": "0*150 (150)",
                 "multiActive": [
                     21,
                     22,
@@ -2359,7 +2456,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 34
+                "i": 36
             },
             "EX The Disc's Guidance": {
                 "moveName": "EX The Disc's Guidance",
@@ -2385,13 +2482,13 @@
                     "Takes 30 frames to charge (but can be canceled into without requiring any charge)",
                     "Airborne on frames 43-58",
                     "Has 2 projectile durability on frames 5-47",
-                    "Juggle Limit / Increase / Start: 0*1*2*3 / 1*1*1*1 / 1*1*1*1"
+                    "Juggle Limit / Increase / Start: 1*1*1*1 / 0*0*0*0 / 1*1*1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 35
+                "i": 37
             },
             "LP Raging Light": {
                 "moveName": "LP Raging Light",
@@ -2429,7 +2526,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 36
+                "i": 38
             },
             "MP Raging Light": {
                 "moveName": "MP Raging Light",
@@ -2468,7 +2565,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 37
+                "i": 39
             },
             "HP Raging Light": {
                 "moveName": "HP Raging Light",
@@ -2507,7 +2604,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 38
+                "i": 40
             },
             "EX Raging Light": {
                 "moveName": "EX Raging Light",
@@ -2547,14 +2644,15 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-7",
                     "Airborne on frames 4-39",
-                    "-39 on block against taller characters",
+                    "Can hit crossups from frame 5 (2nd hit) onwards",
+                    "-36 on block against taller characters when stand blocking",
                     "Necalli is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Juggle Limit / Increase / Start: 3*3*3*4*5*6 / 1*1*1*1*1*30 / 1*1*1*1*1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 39
+                "i": 41
             },
             "LK Mask of Tlalli": {
                 "moveName": "LK Mask of Tlalli",
@@ -2581,7 +2679,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LK",
-                "i": 40
+                "i": 42
             },
             "MK Mask of Tlalli": {
                 "moveName": "MK Mask of Tlalli",
@@ -2608,7 +2706,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MK",
-                "i": 41
+                "i": 43
             },
             "HK Mask of Tlalli": {
                 "moveName": "HK Mask of Tlalli",
@@ -2635,7 +2733,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HK",
-                "i": 42
+                "i": 44
             },
             "EX Mask of Tlalli": {
                 "moveName": "EX Mask of Tlalli",
@@ -2647,8 +2745,8 @@
                 "recovery": 60,
                 "total": 69,
                 "onHit": "KD",
-                "damage": 80,
-                "stun": 50,
+                "damage": 100,
+                "stun": 70,
                 "kd": 92,
                 "kdr": 34,
                 "kdrb": 34,
@@ -2663,7 +2761,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 43
+                "i": 45
             },
             "LK Valiant Rebellion": {
                 "moveName": "LK Valiant Rebellion",
@@ -2690,12 +2788,13 @@
                     "Has 1-hit projectile durability during active frames",
                     "Necalli leans back his hurtboxes during startup on frames 5-11 (can be used to avoid some hits / grabs)",
                     "The extended leg for the stomp is projectile invincible",
+                    "Can be canceled into Clouded Mirror on hit or block",
                     "Juggle Limit / Increase / Start: 1 / 1 /1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 44
+                "i": 46
             },
             "MK Valiant Rebellion": {
                 "moveName": "MK Valiant Rebellion",
@@ -2722,12 +2821,13 @@
                     "Has 1 projectile durability during active frames",
                     "Necalli leans back his hurtboxes during startup on frames 5-16 (can be used to avoid some hits / grabs)",
                     "The extended leg for the stomp is projectile invincible",
+                    "Can be canceled into Clouded Mirror on hit or block",
                     "Juggle Limit / Increase / Start: 1 / 1 /1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 45
+                "i": 47
             },
             "HK Valiant Rebellion": {
                 "moveName": "HK Valiant Rebellion",
@@ -2754,12 +2854,13 @@
                     "Has 1 projectile durability during active frames",
                     "Necalli leans back his hurtboxes during startup on frames 5-20 (can be used to avoid some hits / grabs)",
                     "The extended leg for the stomp is projectile invincible",
+                    "Can be canceled into Clouded Mirror on hit or block",
                     "Juggle Limit / Increase / Start: 1 / 1 /1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 46
+                "i": 48
             },
             "EX Valiant Rebellion": {
                 "moveName": "EX Valiant Rebellion",
@@ -2772,8 +2873,8 @@
                 "total": 58,
                 "onHit": 2,
                 "onBlock": 2,
-                "damage": 140,
-                "stun": "100*100",
+                "damage": "60*80 (140)",
+                "stun": "100*100 (200)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2787,7 +2888,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 47
+                "i": 49
             },
             "Soul Offering": {
                 "moveName": "Soul Offering",
@@ -2802,9 +2903,9 @@
                 "onBlock": -25,
                 "damage": 370,
                 "stun": 0,
-                "kd": 64,
-                "kdr": 20,
-                "kdrb": 20,
+                "kd": 70,
+                "kdr": 21,
+                "kdrb": 21,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2816,8 +2917,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 48.01
-            }
+                "movesList": "Super",
+                "i": 50.01
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Stand LP": {
@@ -2857,6 +2960,7 @@
                 "onBlock": 0,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2866,7 +2970,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+1 bonus frame advantage on hit (+6) during V-Trigger 1/2"
+                    "+1 bonus frame advantage on hit (+6), 1 extra active frame (3), 1 less recovery (13), and decreased arm hurtbox during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -2885,14 +2989,13 @@
                 "onBlock": -2,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 19,
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2902,7 +3005,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Denies back-roll on Crush Counter (crumple state)"
+                    "+1 bonus frame advantage on hit (+2), 1 extra active frame (5), 1 less recovery (18), and decreased arm hurtbox during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -2942,6 +3045,8 @@
                 "onBlock": 2,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 17,
+                "hcWinTc": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2970,11 +3075,9 @@
                 "onBlock": -4,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 19,
-                    "vG": "+150"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 19,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -3029,6 +3132,7 @@
                 "onBlock": 2,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -3038,7 +3142,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+1 bonus frame advantage on hit (+5) during V-Trigger 1/2"
+                    "+1 bonus frame advantage on hit (+5) and 1 less recovery (12) during V-Trigger 1/2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -3057,14 +3161,13 @@
                 "onBlock": -4,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 18,
                 "kd": 98,
                 "kdr": 37,
                 "kdrb": 42,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -3073,6 +3176,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Faster startup (7f) and slightly farther horizontal reach during V-Trigger 1/2"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
@@ -3111,6 +3217,7 @@
                 "onBlock": -4,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -3142,11 +3249,9 @@
                 "kd": 72,
                 "kdr": 23,
                 "kdrb": 28,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "airmove": false,
                 "followUp": false,
@@ -3277,11 +3382,9 @@
                 "onBlock": -6,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 20,
-                    "vG": "+200"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 20,
+                "ccVG": "+200",
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": false,
@@ -3309,11 +3412,9 @@
                 "onBlock": 2,
                 "damage": 100,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 26,
-                    "vG": "+200"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 26,
+                "ccVG": "+200",
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": false,
@@ -3326,6 +3427,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19.01
             },
             "Road of the Sun (air)": {
@@ -3366,6 +3468,7 @@
                 "onBlock": -8,
                 "damage": "60*54 (114)",
                 "stun": "100*90 (190)",
+                "hcWinTc": 17,
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vs1",
@@ -3396,6 +3499,9 @@
                 "onBlock": -9,
                 "damage": "60*54*48 (162)",
                 "stun": "100*90*64 (254)",
+                "hcWinSpCa": "*27",
+                "hcWinTc": 18,
+                "hcWinNotes": "*CA only",
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
@@ -3427,6 +3533,7 @@
                 "onBlock": -5,
                 "damage": "60*54*48 (162)",
                 "stun": "100*90*64 (254)",
+                "hcWinTc": 21,
                 "kd": 100,
                 "kdr": 41,
                 "kdrb": 46,
@@ -3449,8 +3556,8 @@
                 "numCmd": "LPLK",
                 "cmnName": "Throw",
                 "startup": 5,
-                "active": 2,
-                "recovery": 18,
+                "active": 3,
+                "recovery": 17,
                 "total": 24,
                 "onHit": "KD",
                 "onBlock": "KD",
@@ -3474,8 +3581,8 @@
                 "numCmd": "4LPLK",
                 "cmnName": "Back Throw",
                 "startup": 5,
-                "active": 2,
-                "recovery": 18,
+                "active": 3,
+                "recovery": 17,
                 "total": 24,
                 "onHit": "KD",
                 "onBlock": "KD",
@@ -3572,7 +3679,7 @@
                 "onHit": 6,
                 "onBlock": 1,
                 "damage": "5x10 (50)",
-                "stun": 70,
+                "stun": "0x4*70 (70)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -3585,6 +3692,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.01
             },
             "LP The Disc's Guidance": {
@@ -3598,8 +3706,8 @@
                 "total": 45,
                 "onHit": "KD",
                 "onBlock": -6,
-                "damage": "20*80",
-                "stun": "0*150",
+                "damage": "20*80 (100)",
+                "stun": "0*150 (150)",
                 "multiActive": [
                     15,
                     16,
@@ -3618,13 +3726,13 @@
                     "Takes 30 frames to charge (but can be canceled into without requiring any charge)",
                     "Airborne on frames 15-31",
                     "Has 2 projectile durability on frames 6-20",
-                    "Juggle Limit / Increase / Start: 0*1 / 1*1 / 1*1"
+                    "Juggle Limit / Increase / Start: 1*0 / 1*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 32
+                "i": 34
             },
             "MP The Disc's Guidance": {
                 "moveName": "MP The Disc's Guidance",
@@ -3637,8 +3745,8 @@
                 "total": 49,
                 "onHit": "KD",
                 "onBlock": -6,
-                "damage": "20*100",
-                "stun": "0*150",
+                "damage": "20*100 (120)",
+                "stun": "0*150 (150)",
                 "multiActive": [
                     17,
                     18,
@@ -3663,7 +3771,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 33
+                "i": 35
             },
             "HP The Disc's Guidance": {
                 "moveName": "HP The Disc's Guidance",
@@ -3676,8 +3784,8 @@
                 "total": 52,
                 "onHit": "KD",
                 "onBlock": -6,
-                "damage": "20*120",
-                "stun": "0*150",
+                "damage": "20*120 (140)",
+                "stun": "0*150 (150)",
                 "multiActive": [
                     21,
                     22,
@@ -3702,7 +3810,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 34
+                "i": 36
             },
             "EX The Disc's Guidance": {
                 "moveName": "EX The Disc's Guidance",
@@ -3728,13 +3836,13 @@
                     "Takes 30 frames to charge (but can be canceled into without requiring any charge)",
                     "Airborne on frames 43-58",
                     "Has 2 projectile durability on frames 5-47",
-                    "Juggle Limit / Increase / Start: 0*1*2*3 / 1*1*1*1 / 1*1*1*1"
+                    "Juggle Limit / Increase / Start: 1*1*1*1 / 0*0*0*0 / 1*1*1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 35
+                "i": 37
             },
             "LP Raging Light": {
                 "moveName": "LP Raging Light",
@@ -3772,7 +3880,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 36
+                "i": 38
             },
             "MP Raging Light": {
                 "moveName": "MP Raging Light",
@@ -3811,7 +3919,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 37
+                "i": 39
             },
             "HP Raging Light": {
                 "moveName": "HP Raging Light",
@@ -3850,7 +3958,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 38
+                "i": 40
             },
             "EX Raging Light": {
                 "moveName": "EX Raging Light",
@@ -3890,14 +3998,15 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-7",
                     "Airborne on frames 4-39",
-                    "-39 on block against taller characters",
+                    "Can hit crossups from frame 5 (2nd hit) onwards",
+                    "-36 on block against taller characters when stand blocking",
                     "Necalli is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Juggle Limit / Increase / Start: 3*3*3*4*5*6 / 1*1*1*1*1*30 / 1*1*1*1*1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 39
+                "i": 41
             },
             "LK Mask of Tlalli": {
                 "moveName": "LK Mask of Tlalli",
@@ -3924,7 +4033,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LK",
-                "i": 40
+                "i": 42
             },
             "MK Mask of Tlalli": {
                 "moveName": "MK Mask of Tlalli",
@@ -3951,7 +4060,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MK",
-                "i": 41
+                "i": 43
             },
             "HK Mask of Tlalli": {
                 "moveName": "HK Mask of Tlalli",
@@ -3978,7 +4087,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HK",
-                "i": 42
+                "i": 44
             },
             "EX Mask of Tlalli": {
                 "moveName": "EX Mask of Tlalli",
@@ -3990,8 +4099,8 @@
                 "recovery": 60,
                 "total": 69,
                 "onHit": "KD",
-                "damage": 80,
-                "stun": 50,
+                "damage": 100,
+                "stun": 70,
                 "kd": 92,
                 "kdr": 34,
                 "kdrb": 34,
@@ -4006,7 +4115,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 43
+                "i": 45
             },
             "LK Valiant Rebellion": {
                 "moveName": "LK Valiant Rebellion",
@@ -4038,7 +4147,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 44
+                "i": 46
             },
             "MK Valiant Rebellion": {
                 "moveName": "MK Valiant Rebellion",
@@ -4070,7 +4179,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 45
+                "i": 47
             },
             "HK Valiant Rebellion": {
                 "moveName": "HK Valiant Rebellion",
@@ -4102,7 +4211,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 46
+                "i": 48
             },
             "EX Valiant Rebellion": {
                 "moveName": "EX Valiant Rebellion",
@@ -4115,8 +4224,8 @@
                 "total": 61,
                 "onHit": 2,
                 "onBlock": 2,
-                "damage": 140,
-                "stun": "100*100",
+                "damage": "60*80 (140)",
+                "stun": "100*100 (200)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -4130,7 +4239,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 47
+                "i": 49
             },
             "Soul Offering": {
                 "moveName": "Soul Offering",
@@ -4159,8 +4268,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 48.01
-            }
+                "movesList": "Super",
+                "i": 50.01
+            },
+            "input": "None"
         }
     },
     "stats": {

@@ -22,6 +22,7 @@
                     "ch",
                     "sp",
                     "su",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -52,10 +53,13 @@
                 "vtc2DashOnBlock": "0(-5)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
                     "su",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -86,10 +90,14 @@
                 "vtc2DashOnBlock": "1(-4)",
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinVt": "*18/**19",
+                "hcWinNotes": "*VT1/VT2 2nd use, **VT2 1st use",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
                     "su",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -153,6 +161,7 @@
                 "vtc2DashOnBlock": "-6(-11)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -186,11 +195,10 @@
                 "vtc2DashOnBlock": "2(-3)",
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 20,
-                    "vG": "+150"
-                },
+                "hcWinVt": 18,
+                "ccState": "Stagger",
+                "ccAdv": 20,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -230,6 +238,7 @@
                     "ch",
                     "sp",
                     "su",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -260,10 +269,13 @@
                 "vtc2DashOnBlock": "-2(-7)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
                     "su",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -271,7 +283,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "2 extra recovery frames on whiff (12F"
+                    "2 extra recovery frames on whiff (12F)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -294,6 +306,9 @@
                 "vtc2DashOnBlock": "6(1)",
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*20",
+                "hcWinVt": 20,
+                "hcWinNotes": "*CA only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -357,10 +372,13 @@
                 "vtc2DashOnBlock": "-4(-9)",
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
                     "su",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -388,14 +406,13 @@
                 "vtc2DashOnBlock": "-3(-8)",
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 16,
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -542,12 +559,14 @@
                 "projectile": false,
                 "extraInfo": [
                     "Not actually airborne",
-                    "Can't hit cross-up (behind Cammy)",
+                    "Cannot hit cross-up (behind Cammy)",
+                    "CH bonus applies to both hits",
                     "Juggle Limit / Increase / Start: 0*0 / 0*4 / 0*1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Lift Upper": {
@@ -567,10 +586,14 @@
                 "vtc2DashOnBlock": "4(-1)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 13,
+                "hcWinTc": 13,
+                "hcWinVt": 13,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
                     "su",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -579,11 +602,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Forces stand on hit",
-                    "Cannot hit cross-up"
+                    "Cannot hit cross-up (behind Cammy)",
+                    "If canceled into V-Trigger 1, will have 11F recovery instead of 8F like other medium attacks"
                 ],
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Lift Combination": {
@@ -603,6 +628,9 @@
                 "vtc2DashOnBlock": "2(-3)",
                 "damage": "60*72 (132)",
                 "stun": "100*90 (190)",
+                "hcWinSpCa": "*18/27",
+                "hcWinVt": 18,
+                "hcWinNotes": "*TC version of EX Hooligan",
                 "kd": 87,
                 "kdr": 28,
                 "kdrb": 33,
@@ -610,6 +638,7 @@
                 "cancelsTo": [
                     "sp",
                     "su",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -624,6 +653,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 21
             },
             "Gyro Clipper": {
@@ -648,6 +678,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 22
             },
             "Delta Through": {
@@ -672,6 +703,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 23
             },
             "Neck Spiral": {
@@ -695,11 +727,13 @@
                 "extraInfo": [
                     "Denies back roll",
                     "Switches sides with opponent",
+                    "6 grounded recovery frames on a whiffed air throw",
                     "Cammycopter\u2122"
                 ],
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 24
             },
             "Axel Spin Knuckle": {
@@ -728,6 +762,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 25
             },
             "Spinning Attack": {
@@ -746,11 +781,9 @@
                 "kd": "86(100)",
                 "kdr": "27(41)",
                 "kdrb": "32(46)",
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -765,6 +798,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 26
             },
             "Delta Drive": {
@@ -773,7 +807,7 @@
                 "numCmd": "HPHK (VT1)",
                 "cmnName": "V-Trigger 1",
                 "startup": 1,
-                "recovery": 8,
+                "recovery": "8 (7) (10)",
                 "total": 44,
                 "airmove": false,
                 "followUp": false,
@@ -787,6 +821,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 27
             },
             "Delta Step": {
@@ -809,6 +844,7 @@
                 "moveMotion": "F",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 28
             },
             "Delta Ambush": {
@@ -836,6 +872,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 29
             },
             "Strike Back": {
@@ -863,7 +900,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3K",
+                "movesList": "V-Reversal",
                 "i": 30
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.04 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 31
+            },
+            "Counter Spike": {
+                "moveName": "Counter Spike",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 32
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -878,7 +974,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 31
+                "i": 33
             },
             "LK Spiral Arrow": {
                 "moveName": "LK Spiral Arrow",
@@ -911,7 +1007,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 32
+                "movesList": "Special",
+                "i": 34
             },
             "MK Spiral Arrow": {
                 "moveName": "MK Spiral Arrow",
@@ -944,7 +1041,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 33
+                "i": 35
             },
             "HK Spiral Arrow": {
                 "moveName": "HK Spiral Arrow",
@@ -991,7 +1088,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 34
+                "i": 36
             },
             "EX Spiral Arrow": {
                 "moveName": "EX Spiral Arrow",
@@ -1004,6 +1101,10 @@
                 "total": 43,
                 "onHit": "KD",
                 "onBlock": -11,
+                "vtc1OnHit": 6,
+                "vtc1OnBlock": 2,
+                "vtc2DashOnHit": 8,
+                "vtc2DashOnBlock": 4,
                 "damage": "70*70 (140)",
                 "stun": "50*150 (200)",
                 "multiActive": [
@@ -1024,6 +1125,10 @@
                 "kdr": 21,
                 "kdrb": 26,
                 "attackLevel": "H*H",
+                "cancelsTo": [
+                    "vt1",
+                    "vt2"
+                ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
@@ -1036,7 +1141,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 35
+                "i": 37
             },
             "LK Cannon Spike": {
                 "moveName": "LK Cannon Spike",
@@ -1071,7 +1176,8 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "MK Cannon Spike": {
                 "moveName": "MK Cannon Spike",
@@ -1106,7 +1212,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 37
+                "i": 39
             },
             "HK Cannon Spike": {
                 "moveName": "HK Cannon Spike",
@@ -1141,7 +1247,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 38
+                "i": 40
             },
             "EX Cannon Spike": {
                 "moveName": "EX Cannon Spike",
@@ -1166,13 +1272,14 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-10",
                     "Airborne on frames 5-37",
+                    "Can hit crossup from frame 3",
                     "Cammy is in counterhit state during entire move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Juggle Limit: 8"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2K",
-                "i": 39
+                "i": 41
             },
             "LK Cannon Strike": {
                 "moveName": "LK Cannon Strike",
@@ -1197,7 +1304,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "MK Cannon Strike": {
                 "moveName": "MK Cannon Strike",
@@ -1222,7 +1330,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 41
+                "i": 43
             },
             "HK Cannon Strike": {
                 "moveName": "HK Cannon Strike",
@@ -1247,7 +1355,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 42
+                "i": 44
             },
             "EX Cannon Strike": {
                 "moveName": "EX Cannon Strike",
@@ -1272,83 +1380,10 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 43
-            },
-            "LP Hooligan Combination": {
-                "moveName": "LP Hooligan Combination",
-                "plnCmd": "hcf+LP",
-                "numCmd": "41236LP",
-                "cmnName": "LP Hooligan",
-                "total": 39,
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "extraInfo": [
-                    "Airborne on frames 6-39",
-                    "Cancels into follow-ups on frames 24-39"
-                ],
-                "moveType": "special",
-                "moveMotion": "HCF",
-                "moveButton": "LP",
-                "i": 44
-            },
-            "MP Hooligan Combination ": {
-                "moveName": "MP Hooligan Combination ",
-                "plnCmd": "hcf+MP",
-                "numCmd": "41236MP",
-                "cmnName": "MP Hooligan",
-                "total": 39,
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "extraInfo": [
-                    "Airborne on frames 6-39",
-                    "Cancels into follow-ups on frames 24-39"
-                ],
-                "moveType": "special",
-                "moveMotion": "HCF",
-                "moveButton": "MP",
                 "i": 45
             },
-            "HP Hooligan Combination": {
-                "moveName": "HP Hooligan Combination",
-                "plnCmd": "hcf+HP",
-                "numCmd": "41236HP",
-                "cmnName": "HP Hooligan",
-                "total": 39,
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "extraInfo": [
-                    "Airborne on frames 6-39",
-                    "Cancels into follow-ups on frames 24-39"
-                ],
-                "moveType": "special",
-                "moveMotion": "HCF",
-                "moveButton": "HP",
-                "i": 46
-            },
-            "EX Hooligan Combination": {
-                "moveName": "EX Hooligan Combination",
-                "plnCmd": "hcf+PP",
-                "numCmd": "41236PP",
-                "cmnName": "EX Hooligan",
-                "total": 39,
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "extraInfo": [
-                    "Projectile and Throw invincible on frames 1-13",
-                    "Airborne on frames 6-39",
-                    "Cancels into follow-ups on frames 14-39"
-                ],
-                "moveType": "special",
-                "moveMotion": "HCF",
-                "moveButton": "2P",
-                "i": 47
-            },
-            "Razor Edge Slicer": {
-                "moveName": "Razor Edge Slicer",
+            "Hooligan Combination > Razor Edge Slicer": {
+                "moveName": "Hooligan Combination > Razor Edge Slicer",
                 "plnCmd": "hcf+P > no input",
                 "numCmd": "41236P > 5",
                 "cmnName": "Hooligan > Slide",
@@ -1365,7 +1400,7 @@
                 "kdrb": 40,
                 "attackLevel": "L",
                 "airmove": false,
-                "followUp": true,
+                "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "Puts opponent into a limited juggle state on hit",
@@ -1374,10 +1409,11 @@
                 "moveType": "special",
                 "moveMotion": "none",
                 "moveButton": "1P",
-                "i": 48
+                "movesList": "Special (Hooligan)",
+                "i": 46
             },
-            "EX Razor Edge Slicer": {
-                "moveName": "EX Razor Edge Slicer",
+            "EX Hooligan Combination > Razor Edge Slicer": {
+                "moveName": "EX Hooligan Combination > Razor Edge Slicer",
                 "plnCmd": "hcf+PP > no input",
                 "numCmd": "41236PP > 5",
                 "cmnName": "EX Hooligan > Slide",
@@ -1394,7 +1430,7 @@
                 "kdrb": 43,
                 "attackLevel": "L*L*L",
                 "airmove": false,
-                "followUp": true,
+                "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "Projectile and Throw invincible on first 13 frames of the EX Hooligan part",
@@ -1404,10 +1440,10 @@
                 "moveType": "special",
                 "moveMotion": "none",
                 "moveButton": "2P",
-                "i": 49
+                "i": 47
             },
-            "Fatal Leg Twister": {
-                "moveName": "Fatal Leg Twister",
+            "Hooligan Combination > Fatal Leg Twister": {
+                "moveName": "Hooligan Combination > Fatal Leg Twister",
                 "plnCmd": "hcf+P > LP+LK",
                 "numCmd": "41236P > LPLK",
                 "cmnName": "Hooligan > Throw",
@@ -1426,15 +1462,44 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Can only throw standing or airborne targets (cannot throw crouching targets)"
+                    "Can only throw standing or airborne opponents (cannot throw crouching opponents)"
                 ],
                 "moveType": "special",
                 "moveMotion": "none",
                 "moveButton": "LPLK",
-                "i": 50
+                "movesList": "Special (Hooligan)",
+                "i": 48
             },
-            "Cross Scissors Pressure": {
-                "moveName": "Cross Scissors Pressure",
+            "EX Hooligan Combination > Fatal Leg Twister": {
+                "moveName": "EX Hooligan Combination > Fatal Leg Twister",
+                "plnCmd": "hcf+PP > LP+LK",
+                "numCmd": "41236PP > LPLK",
+                "cmnName": "EX Hooligan > Throw",
+                "startup": "24+4",
+                "active": 2,
+                "recovery": 10,
+                "onHit": "KD",
+                "onBlock": "KD",
+                "damage": 150,
+                "stun": 250,
+                "kd": 55,
+                "kdr": 6,
+                "kdrb": 6,
+                "attackLevel": "T",
+                "airmove": true,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Projectile and Throw invincible on first 13 frames of the EX Hooligan part",
+                    "Can only throw standing or airborne opponents (cannot throw crouching opponents)"
+                ],
+                "moveType": "special",
+                "moveMotion": "none",
+                "moveButton": "LPLK",
+                "i": 49
+            },
+            "Hooligan Combination > Cross Scissors Pressure": {
+                "moveName": "Hooligan Combination > Cross Scissors Pressure",
                 "plnCmd": "hcf+P > LP+LK (air)",
                 "numCmd": "41236P > LP+LK (air)",
                 "cmnName": "Hooligan > Air Throw",
@@ -1453,15 +1518,44 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Can only throw standing or airborne targets (cannot throw crouching targets)"
+                    "Can only throw standing or airborne opponents (cannot throw crouching opponents)"
+                ],
+                "moveType": "special",
+                "moveMotion": "none",
+                "moveButton": "LPLK",
+                "movesList": "Special (Hooligan)",
+                "i": 50
+            },
+            "EX Hooligan Combination > Cross Scissors Pressure": {
+                "moveName": "EX Hooligan Combination > Cross Scissors Pressure",
+                "plnCmd": "hcf+PP > LP+LK (air)",
+                "numCmd": "41236PP > LP+LK (air)",
+                "cmnName": "EX Hooligan > Air Throw",
+                "startup": "24+4",
+                "active": 2,
+                "recovery": 10,
+                "onHit": "KD",
+                "onBlock": "KD",
+                "damage": 150,
+                "stun": 250,
+                "kd": 78,
+                "kdr": 19,
+                "kdrb": 19,
+                "attackLevel": "T",
+                "airmove": true,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Projectile and Throw invincible on first 13 frames of the EX Hooligan part",
+                    "Can only throw standing or airborne opponents (cannot throw crouching opponents)"
                 ],
                 "moveType": "special",
                 "moveMotion": "none",
                 "moveButton": "LPLK",
                 "i": 51
             },
-            "Cannon Strike (Hooligan)": {
-                "moveName": "Cannon Strike (Hooligan)",
+            "Hooligan Combination > Cannon Strike": {
+                "moveName": "Hooligan Combination > Cannon Strike",
                 "plnCmd": "hcf+P > K",
                 "numCmd": "41236P > K",
                 "cmnName": "Hooligan > Divekick",
@@ -1482,10 +1576,11 @@
                 "moveType": "special",
                 "moveMotion": "none",
                 "moveButton": "1K",
+                "movesList": "Special (Hooligan)",
                 "i": 52
             },
-            "EX Cannon Strike (Hooligan)": {
-                "moveName": "EX Cannon Strike (Hooligan)",
+            "EX Hooligan Combination > Cannon Strike": {
+                "moveName": "EX Hooligan Combination > Cannon Strike",
                 "plnCmd": "hcf+PP > K",
                 "numCmd": "41236PP > K",
                 "cmnName": "EX Hooligan > Divekick",
@@ -1508,7 +1603,7 @@
                 ],
                 "moveType": "special",
                 "moveMotion": "none",
-                "moveButton": "2K",
+                "moveButton": "1K",
                 "i": 53
             },
             "Cross Stinger Assault": {
@@ -1540,7 +1635,8 @@
                 "moveMotion": "DQCF",
                 "moveButton": "1K",
                 "i": 54
-            }
+            },
+            "input": "None"
         },
         "vtOne": {
             "LK Spiral Arrow": {
@@ -1569,13 +1665,15 @@
                 "extraInfo": [
                     "Projectile and Throw invincible on frames 5-15",
                     "Airborne on frames 4-22",
+                    "5 hits",
+                    "Always -13 on Block",
                     "Spends 1500 V-Timer (50% of V-Timer)",
                     "Juggle Limit / Increase / Start: 1*2*3*4*7 / 1*1*1*1*1 / 1*1*1*1*4"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 32
+                "i": 34
             },
             "MK Spiral Arrow": {
                 "moveName": "MK Spiral Arrow",
@@ -1603,13 +1701,15 @@
                 "extraInfo": [
                     "Projectile and Throw invincible on frames 5-15",
                     "Airborne on frames 4-22",
+                    "5 hits",
+                    "Always -13 on Block",
                     "Spends 1500 V-Timer (50% of V-Timer)",
                     "Juggle Limit / Increase / Start: 1*2*3*4*7 / 1*1*1*1*1 / 1*1*1*1*4"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 33
+                "i": 35
             },
             "HK Spiral Arrow": {
                 "moveName": "HK Spiral Arrow",
@@ -1637,13 +1737,15 @@
                 "extraInfo": [
                     "Projectile and Throw invincible on frames 5-15",
                     "Airborne on frames 4-22",
+                    "5 hits",
+                    "Always -13 on Block",
                     "Spends 1500 V-Timer (50% of V-Timer)",
                     "Juggle Limit / Increase / Start: 1*2*3*4*7 / 1*1*1*1*1 / 1*1*1*1*4"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 34
+                "i": 36
             },
             "LK Cannon Spike": {
                 "moveName": "LK Cannon Spike",
@@ -1684,6 +1786,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Fully invincible on frames 1-7",
+                    "Can hit crossup from frame 3",
                     "Cammy is in counterhit state during entire move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Can be canceled into Cannon Strike (V-Trigger 1 version) on hit",
                     "Spends 1500 V-Timer (50% of V-Timer)",
@@ -1692,7 +1795,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 36
+                "i": 38
             },
             "MK Cannon Spike": {
                 "moveName": "MK Cannon Spike",
@@ -1733,6 +1836,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Fully invincible on frames 1-7",
+                    "Can hit crossup from frame 3",
                     "Cammy is in counterhit state during entire move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Can be canceled into Cannon Strike (V-Trigger 1 version) on hit",
                     "Spends 1500 V-Timer (50% of V-Timer)",
@@ -1741,7 +1845,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 37
+                "i": 39
             },
             "HK Cannon Spike": {
                 "moveName": "HK Cannon Spike",
@@ -1782,6 +1886,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Fully invincible on frames 1-7",
+                    "Can hit crossup from frame 3",
                     "Cammy is in counterhit state during entire move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Can be canceled into Cannon Strike (V-Trigger 1 version) on hit",
                     "Spends 1500 V-Timer (50% of V-Timer)",
@@ -1790,7 +1895,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 38
+                "i": 40
             },
             "LK Cannon Strike": {
                 "moveName": "LK Cannon Strike",
@@ -1811,13 +1916,14 @@
                 "projectile": false,
                 "extraInfo": [
                     "Passes through opponent",
+                    "3 hits",
                     "Can be done at earliest 10 frames into forward jump",
                     "Spends 1500 V-Timer (50% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 40
+                "i": 42
             },
             "MK Cannon Strike": {
                 "moveName": "MK Cannon Strike",
@@ -1838,13 +1944,14 @@
                 "projectile": false,
                 "extraInfo": [
                     "Passes through opponent",
+                    "3 hits",
                     "Can be done at earliest 10 frames into forward jump",
                     "Spends 1500 V-Timer (50% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 41
+                "i": 43
             },
             "HK Cannon Strike": {
                 "moveName": "HK Cannon Strike",
@@ -1865,14 +1972,69 @@
                 "projectile": false,
                 "extraInfo": [
                     "Passes through opponent",
+                    "3 hits",
                     "Can be done at earliest 10 frames into forward jump",
                     "Spends 1500 V-Timer (50% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 42
-            }
+                "i": 44
+            },
+            "Hooligan Combination > Cannon Strike": {
+                "moveName": "Hooligan Combination > Cannon Strike",
+                "plnCmd": "hcf+P > K",
+                "numCmd": "41236P > K",
+                "cmnName": "Hooligan > Divekick",
+                "startup": "24+13",
+                "active": 11,
+                "recovery": 9,
+                "onHit": "4(9)",
+                "onBlock": "0(5)",
+                "damage": "40*20x2 (80)",
+                "stun": 100,
+                "attackLevel": "H",
+                "airmove": true,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Passes through opponent",
+                    "3 hits",
+                    "Spends 1500 V-Timer (50% of V-Timer)"
+                ],
+                "moveType": "special",
+                "moveMotion": "H",
+                "moveButton": "1K",
+                "i": 52
+            },
+            "EX Hooligan Combination > Cannon Strike": {
+                "moveName": "EX Hooligan Combination > Cannon Strike",
+                "plnCmd": "hcf+PP > K",
+                "numCmd": "41236PP > K",
+                "cmnName": "EX Hooligan > Divekick",
+                "startup": "14+13",
+                "active": 11,
+                "recovery": 9,
+                "onHit": "4(9)",
+                "onBlock": "0(5)",
+                "damage": "40*20x2 (80)",
+                "stun": 100,
+                "attackLevel": "H",
+                "airmove": true,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Passes through opponent",
+                    "3 hits",
+                    "Spends 1500 V-Timer (50% of V-Timer)",
+                    "Projectile and Throw invincible on first 13 frames of the EX Hooligan part"
+                ],
+                "moveType": "special",
+                "moveMotion": "H",
+                "moveButton": "1K",
+                "i": 53
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Delta Twist": {
@@ -1884,7 +2046,7 @@
                 "active": 2,
                 "recovery": 9,
                 "onHit": 7,
-                "damage": 120,
+                "damage": 150,
                 "stun": 0,
                 "attackLevel": "T",
                 "airmove": true,
@@ -1897,6 +2059,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 29.01
             },
             "Reverse Edge": {
@@ -1908,7 +2071,7 @@
                 "active": "4*3",
                 "recovery": 9,
                 "onHit": 3,
-                "onBlock": -2,
+                "onBlock": 2,
                 "damage": "40*30 (70)",
                 "stun": "70*30 (100)",
                 "attackLevel": "M*H",
@@ -1924,6 +2087,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 29.02
             },
             "Delta Step (secondary)": {
@@ -1944,6 +2108,7 @@
                 "moveMotion": "F",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 29.03
             },
             "Delta Ambush (secondary)": {
@@ -1967,6 +2132,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 29.04
             },
             "Delta Twist (secondary)": {
@@ -1978,7 +2144,7 @@
                 "active": 2,
                 "recovery": 13,
                 "onHit": 7,
-                "damage": 120,
+                "damage": 150,
                 "stun": 0,
                 "attackLevel": "T",
                 "airmove": true,
@@ -1991,6 +2157,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 29.05
             },
             "Reverse Edge (secondary)": {
@@ -2017,8 +2184,10 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 29.06
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

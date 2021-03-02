@@ -17,6 +17,9 @@
                 "runstopOB": "-15(-13)",
                 "damage": 30,
                 "stun": 70,
+                "hcWinSpCa": 9,
+                "hcWinTc": 10,
+                "hcWinVt": 9,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -31,7 +34,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Decent range for a cancelable jab",
-                    "LK Target Combo follow-up can whiff if LP connects from max range"
+                    "LK Target Combo follow-up can whiff if LP connects from max range",
+                    "Tick throw"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -54,6 +58,8 @@
                 "runstopOB": "-10(-8)",
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -91,6 +97,8 @@
                 "runstopOB": "-4(-2)",
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -155,6 +163,7 @@
                 "vtcOnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -185,11 +194,10 @@
                 "vtcOnBlock": 11,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": "+20",
-                    "vG": "+120"
-                },
+                "hcWinVt": 16,
+                "ccState": "Stagger",
+                "ccAdv": "+20",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -238,7 +246,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Lucia's only 3F normal",
-                    "Chains into cr.LP and cr.LK"
+                    "Chains into cr.LP and cr.LK",
+                    "Tick throw"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -261,6 +270,8 @@
                 "runstopOB": "-9(-7)",
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -297,6 +308,8 @@
                 "runstopOB": "-3(-1)",
                 "damage": 70,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -366,6 +379,8 @@
                 "runstopOB": "-11(-9)",
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 17,
+                "hcWinVt": 17,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -391,24 +406,23 @@
                 "moveName": "Crouch HK",
                 "plnCmd": "d+HK",
                 "numCmd": "2HK",
-                "startup": 9,
+                "startup": 8,
                 "active": 2,
                 "recovery": 22,
-                "total": 32,
+                "total": 31,
                 "onHit": "KD",
                 "onBlock": -10,
                 "vtcOnHit": "KD (+83/34/39)",
                 "vtcOnBlock": 3,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 16,
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -568,6 +582,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 19
             },
             "Knee Slide": {
@@ -589,11 +604,12 @@
                 "projectile": false,
                 "extraInfo": [
                     "Low profiles and the extended arm above her is projectile invincible on frames 4-20",
-                    "Can combo afterwards if spaced properly (+3/0 on last active frame)"
+                    "Can combo afterwards if spaced properly (+3 oH / +0 oB on last active frame)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "LK",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Elbow Crush": {
@@ -620,6 +636,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Quick Side-Kick": {
@@ -634,6 +651,7 @@
                 "onBlock": -6,
                 "damage": "30*27",
                 "stun": "70*45",
+                "hcWinTc": 10,
                 "attackLevel": "H*H",
                 "airmove": false,
                 "followUp": true,
@@ -644,6 +662,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "LK",
+                "movesList": "Target Combo",
                 "i": 22
             },
             "Spin Drive": {
@@ -658,6 +677,7 @@
                 "onBlock": -8,
                 "damage": "30*27*20x2 (97)",
                 "stun": "70*45*32x2 (179)",
+                "hcWinTc": 10,
                 "attackLevel": "H*H*H",
                 "airmove": false,
                 "followUp": true,
@@ -668,6 +688,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MK",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Street-Style Set": {
@@ -684,6 +705,7 @@
                 "vtcOnBlock": 6,
                 "damage": "30*27*20x2*42 (139)",
                 "stun": "70*45*32x2*84 (263)",
+                "hcWinTc": 22,
                 "kd": 81,
                 "kdr": 22,
                 "kdrb": 27,
@@ -703,6 +725,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Carry Bonus": {
@@ -716,6 +739,7 @@
                 "onHit": "KD",
                 "damage": "30*27*20x2*70 (167)",
                 "stun": "70*45*32x2*105 (284)",
+                "hcWinTc": 22,
                 "kd": 62,
                 "kdr": 13,
                 "kdrb": 13,
@@ -729,6 +753,7 @@
                 "moveType": "throw",
                 "moveMotion": "D",
                 "moveButton": "1P",
+                "movesList": "Target Combo",
                 "i": 25
             },
             "German Suplex": {
@@ -754,6 +779,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 26
             },
             "Back-Carry Throw": {
@@ -779,6 +805,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 27
             },
             "Tap-Kick": {
@@ -786,16 +813,19 @@
                 "plnCmd": "MP+MK (VS1)",
                 "numCmd": "MPMK (VS1)",
                 "cmnName": "V-Skill 1",
-                "startup": 9,
+                "startup": 8,
                 "active": "2(5)2(7)2",
                 "recovery": 20,
-                "total": 46,
+                "total": 45,
                 "onHit": 2,
                 "onBlock": -8,
                 "vtcOnHit": 6,
                 "vtcOnBlock": 1,
                 "damage": "10x3*30 (60)",
                 "stun": "10x2*20*60 (100)",
+                "hcWinSpCa": "*8/*10/*13",
+                "hcWinVt": "*8/*10/**15",
+                "hcWinNotes": "*CA only, **VTC only",
                 "attackLevel": "H*H*H",
                 "cancelsTo": [
                     "su",
@@ -814,6 +844,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 28
             },
             "Arrest Heel": {
@@ -846,6 +877,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 29
             },
             "Burning Fight": {
@@ -868,6 +900,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 30
             },
             "Weapon Fury": {
@@ -890,6 +923,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 31
             },
             "Hammer Knuckle": {
@@ -918,7 +952,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 32
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 33
+            },
+            "Peacekeeper": {
+                "moveName": "Peacekeeper",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 34
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -935,7 +1028,7 @@
                 "moveMotion": "N",
                 "moveButton": "3P3K",
                 "nonHittingMove": true,
-                "i": 33
+                "i": 35
             },
             "Gun Smoke": {
                 "moveName": "Gun Smoke",
@@ -953,25 +1046,27 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
-                "i": 34
+                "movesList": "Special",
+                "i": 36
             },
             "EX Gun Smoke": {
                 "moveName": "EX Gun Smoke",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "cmnName": "EX Run",
-                "startup": 11,
+                "startup": "9(11)",
                 "total": 45,
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancels into follow-ups on frames 11-33 (cancels 2F faster than non-EX version)"
+                    "Cancels into follow-ups on frames 9-33 (cancels 4F faster than non-EX version)",
+                    "Cancels into EX Braking (EX Stop) 2F later on frames 11-33"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 35
+                "i": 37
             },
             "Rough Chase": {
                 "moveName": "Rough Chase",
@@ -1001,17 +1096,18 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "EX Rough Chase": {
                 "moveName": "EX Rough Chase",
                 "plnCmd": "qcf+PP > P",
                 "numCmd": "236PP > P",
                 "cmnName": "EX Run Shoulder",
-                "startup": "11+7",
+                "startup": "9+7",
                 "active": 3,
                 "recovery": 27,
-                "total": 47,
+                "total": 45,
                 "onHit": "KD",
                 "onBlock": -8,
                 "vtcOnHit": "KD (+101/69/69)",
@@ -1036,7 +1132,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 37
+                "i": 39
             },
             "Tornado Spinner": {
                 "moveName": "Tornado Spinner",
@@ -1066,17 +1162,18 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 38
+                "movesList": "Special",
+                "i": 40
             },
             "EX Tornado Spinner": {
                 "moveName": "EX Tornado Spinner",
                 "plnCmd": "qcf+PP > K",
                 "numCmd": "236PP > K",
                 "cmnName": "EX Run Spin Kick",
-                "startup": "11+4",
+                "startup": "9+4",
                 "active": "2(14)3",
                 "recovery": "17+14",
-                "total": 65,
+                "total": 63,
                 "onHit": "KD",
                 "onBlock": -30,
                 "damage": "40x2*80 (160)",
@@ -1096,7 +1193,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 39
+                "i": 41
             },
             "Cyclone Spinner": {
                 "moveName": "Cyclone Spinner",
@@ -1111,6 +1208,7 @@
                 "onBlock": -8,
                 "damage": "60x2",
                 "stun": "50*100",
+                "hcWinTc": "15/15",
                 "kd": 88,
                 "kdr": 29,
                 "kdrb": 34,
@@ -1129,23 +1227,26 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "EX Cyclone Spinner": {
                 "moveName": "EX Cyclone Spinner",
                 "plnCmd": "qcf+PP > MP+MK (VS1)",
                 "numCmd": "236PP > MPMK (VS1)",
                 "cmnName": "EX Run V-Skill 1",
-                "startup": "11+5",
+                "startup": "9+5",
                 "active": "2(10)3",
                 "recovery": 19,
-                "total": 49,
+                "total": 47,
                 "onHit": "KD",
                 "onBlock": -6,
                 "vtcOnHit": 10,
                 "vtcOnBlock": 3,
                 "damage": "50x3 (150)",
                 "stun": "50x2*80 (180)",
+                "hcWinVt": "*19/*13",
+                "hcWinNotes": "*VT1 activation only",
                 "kd": 91,
                 "kdr": 32,
                 "kdrb": 37,
@@ -1166,7 +1267,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 41
+                "i": 43
             },
             "Nubbing Needle": {
                 "moveName": "Nubbing Needle",
@@ -1196,17 +1297,18 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 42
+                "movesList": "Special",
+                "i": 44
             },
             "EX Nubbing Needle": {
                 "moveName": "EX Nubbing Needle",
                 "plnCmd": "qcf+PP > MP+MK (VS2)",
                 "numCmd": "236PP > MPMK (VS2)",
                 "cmnName": "EX Run V-Skill 2",
-                "startup": "11+11",
+                "startup": "9+11",
                 "active": 5,
                 "recovery": 20,
-                "total": 46,
+                "total": 44,
                 "onHit": "KD",
                 "onBlock": -2,
                 "damage": "80*40 (120)",
@@ -1230,7 +1332,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 43
+                "i": 45
             },
             "Braking": {
                 "moveName": "Braking",
@@ -1248,7 +1350,8 @@
                 "moveType": "special",
                 "moveMotion": "B",
                 "nonHittingMove": true,
-                "i": 44
+                "movesList": "Special",
+                "i": 46
             },
             "EX Braking": {
                 "moveName": "EX Braking",
@@ -1266,7 +1369,7 @@
                 "moveType": "special",
                 "moveMotion": "B",
                 "nonHittingMove": true,
-                "i": 45
+                "i": 47
             },
             "Firecracker": {
                 "moveName": "Firecracker",
@@ -1289,13 +1392,14 @@
                     "1-hit projectile",
                     "Extended leg hurtbox on frames 9-22 is projectile invincible",
                     "Lots of active frames makes this a decent oki tool (up to +6/+2 on last active frame)",
-                    "Cancels into LK/MK/HK Fireball follow-ups on frame 19 (after active frames end)",
+                    "Cancels into any of the Fireball follow-ups (incuding the EX versions) on frame 19 (after active frames end)",
                     "Juggle Limit / Increase / Start: 1 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
-                "i": 46
+                "movesList": "Special",
+                "i": 48
             },
             "EX Firecracker": {
                 "moveName": "EX Firecracker",
@@ -1308,8 +1412,8 @@
                 "total": 37,
                 "onHit": 0,
                 "onBlock": -4,
-                "damage": 30,
-                "stun": 30,
+                "damage": 50,
+                "stun": 50,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1324,7 +1428,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 47
+                "i": 49
             },
             "LK Flipper Shot": {
                 "moveName": "LK Flipper Shot",
@@ -1361,7 +1465,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LK",
-                "i": 48
+                "movesList": "Special",
+                "i": 50
             },
             "MK Flipper Shot": {
                 "moveName": "MK Flipper Shot",
@@ -1396,7 +1501,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MK",
-                "i": 49
+                "i": 51
             },
             "HK Flipper Shot": {
                 "moveName": "HK Flipper Shot",
@@ -1431,7 +1536,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HK",
-                "i": 50
+                "i": 52
             },
             "EX LK Flipper Shot": {
                 "moveName": "EX LK Flipper Shot",
@@ -1466,7 +1571,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LK",
-                "i": 51
+                "i": 53
             },
             "EX MK Flipper Shot": {
                 "moveName": "EX MK Flipper Shot",
@@ -1500,7 +1605,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MK",
-                "i": 52
+                "i": 54
             },
             "EX HK Flipper Shot": {
                 "moveName": "EX HK Flipper Shot",
@@ -1534,7 +1639,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HK",
-                "i": 53
+                "i": 55
             },
             "LK Fire Spinner": {
                 "moveName": "LK Fire Spinner",
@@ -1545,7 +1650,7 @@
                 "active": 3,
                 "recovery": "9+12",
                 "total": 38,
-                "onHit": "KD",
+                "onHit": 0,
                 "onBlock": -4,
                 "damage": 60,
                 "stun": 100,
@@ -1561,7 +1666,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 54
+                "movesList": "Special",
+                "i": 56
             },
             "MK Fire Spinner": {
                 "moveName": "MK Fire Spinner",
@@ -1572,7 +1678,7 @@
                 "active": 3,
                 "recovery": "10+13",
                 "total": 43,
-                "onHit": "KD",
+                "onHit": 2,
                 "onBlock": -4,
                 "damage": 70,
                 "stun": 100,
@@ -1588,7 +1694,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 55
+                "i": 57
             },
             "HK Fire Spinner": {
                 "moveName": "HK Fire Spinner",
@@ -1618,7 +1724,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 56
+                "i": 58
             },
             "EX Fire Spinner": {
                 "moveName": "EX Fire Spinner",
@@ -1651,7 +1757,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 57
+                "i": 59
             },
             "LK Hurricane Spinner": {
                 "moveName": "LK Hurricane Spinner",
@@ -1675,6 +1781,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Invincible to airborne strikes on frames 1-10",
+                    "Cannot hit crossup",
                     "Projectile invincible on extended legs during spin on frames 13-30",
                     "Airborne on frames 6-42 (during which time the bottom of Lucia's hurtbox is projectile invincible like when jumping)",
                     "Lucia is in a counter-hit state for the entire duration of the move",
@@ -1684,7 +1791,8 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 58
+                "movesList": "Special",
+                "i": 60
             },
             "MK Hurricane Spinner": {
                 "moveName": "MK Hurricane Spinner",
@@ -1708,6 +1816,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Invincible to airborne strikes on frames 1-12",
+                    "Cannot hit crossup",
                     "Full-body Projectile invincibility on frames 7-12",
                     "Projectile invincible on extended legs during spin on frames 15-32",
                     "Airborne on frames 6-47 (during which time the bottom of Lucia's hurtbox is projectile invincible like when jumping)",
@@ -1718,7 +1827,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 59
+                "i": 61
             },
             "HK Hurricane Spinner": {
                 "moveName": "HK Hurricane Spinner",
@@ -1742,6 +1851,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Invincible to airborne strikes on frames 1-16",
+                    "Cannot hit crossup",
                     "Full-body Projectile invincibility on frames 11-16",
                     "Projectile invincible on extended legs during spin on frames 19-36",
                     "Airborne on frames 6-58 (during which time the bottom of Lucia's hurtbox is projectile invincible like when jumping)",
@@ -1752,7 +1862,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 60
+                "i": 62
             },
             "EX Hurricane Spinner": {
                 "moveName": "EX Hurricane Spinner",
@@ -1776,6 +1886,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Fully invincible on frames 1-10",
+                    "Cannot hit crossup",
                     "Projectile invincible on extended legs during spin on frames 12-32",
                     "Airborne on frames 6-56 (during which time the bottom of Lucia's hurtbox is projectile invincible like when jumping)",
                     "Lucia is in a counter-hit state for the entire duration of the move",
@@ -1786,7 +1897,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2K",
-                "i": 61
+                "i": 63
             },
             "Hard Hit Knee": {
                 "moveName": "Hard Hit Knee",
@@ -1799,7 +1910,7 @@
                 "total": 111,
                 "onHit": "KD",
                 "onBlock": -32,
-                "damage": 340,
+                "damage": "340(360)",
                 "stun": 0,
                 "kd": 13,
                 "kdr": 13,
@@ -1811,6 +1922,7 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-14",
                     "Hard Knockdown",
+                    "Does +20 extra damage (360) while in V-Trigger 1",
                     "Pushes back a lot on block after final kick; You need to dash in to get a punish",
                     "Invincibility ends after first hit but Lucia keeps her forward momentum doing two more spin kicks",
                     "Does 20 less damage for each kick Lucia whiffs before the full cutscene plays out on hit (Max: 340 damage / Minimum: 300 damage)",
@@ -1820,8 +1932,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCB",
                 "moveButton": "1K",
-                "i": 62
-            }
+                "movesList": "Super",
+                "i": 64
+            },
+            "input": "None"
         },
         "vtOne": {
             "Tap-Kick": {
@@ -1917,7 +2031,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 38
+                "i": 40
             },
             "Cyclone Spinner": {
                 "moveName": "Cyclone Spinner",
@@ -1951,7 +2065,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 40
+                "i": 42
             },
             "EX Cyclone Spinner": {
                 "moveName": "EX Cyclone Spinner",
@@ -1985,7 +2099,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 41
+                "i": 43
             },
             "Nubbing Needle": {
                 "moveName": "Nubbing Needle",
@@ -2018,7 +2132,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 42
+                "i": 44
             },
             "EX Nubbing Needle": {
                 "moveName": "EX Nubbing Needle",
@@ -2052,7 +2166,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 43
+                "i": 45
             },
             "Firecracker": {
                 "moveName": "Firecracker",
@@ -2065,8 +2179,8 @@
                 "total": 37,
                 "onHit": 0,
                 "onBlock": -4,
-                "damage": 30,
-                "stun": 30,
+                "damage": 50,
+                "stun": 50,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2081,7 +2195,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
-                "i": 46
+                "i": 48
             },
             "LK Flipper Shot": {
                 "moveName": "LK Flipper Shot",
@@ -2115,7 +2229,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LK",
-                "i": 48
+                "i": 50
             },
             "MK Flipper Shot": {
                 "moveName": "MK Flipper Shot",
@@ -2148,7 +2262,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MK",
-                "i": 49
+                "i": 51
             },
             "HK Flipper Shot": {
                 "moveName": "HK Flipper Shot",
@@ -2181,7 +2295,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HK",
-                "i": 50
+                "i": 52
             },
             "LK Fire Spinner": {
                 "moveName": "LK Fire Spinner",
@@ -2215,7 +2329,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
-                "i": 54
+                "i": 56
             },
             "MK Fire Spinner": {
                 "moveName": "MK Fire Spinner",
@@ -2249,7 +2363,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
-                "i": 55
+                "i": 57
             },
             "HK Fire Spinner": {
                 "moveName": "HK Fire Spinner",
@@ -2283,7 +2397,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
-                "i": 56
+                "i": 58
             },
             "EX Fire Spinner": {
                 "moveName": "EX Fire Spinner",
@@ -2305,19 +2419,11 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
-                "extraInfo": [
-                    "Spends 700 V-Meter (23% of V-Timer)",
-                    "2 hits",
-                    "Airborne and low crushes on frames 7-25",
-                    "Launches opponent into a limited juggle state",
-                    "Lucia can kick the LK Fireball follow-up of the Flipper Shot (QCF+K) special as it descends with this move to shoot the fireball horizontally full-screen at great speed (essentially this turns the LK Fireball follow-up into an MK Fireball follow-up)",
-                    "If only one hit connects and starts the juggle on an airborne opponent it results in a free juggle state (Juggle Start: +0)",
-                    "Juggle Limit / Increase / Start: 2*2 / 0*3 / 0*0"
-                ],
+                "extraInfo": "\"",
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
-                "i": 57
+                "i": 59
             },
             "LK Hurricane Spinner": {
                 "moveName": "LK Hurricane Spinner",
@@ -2342,6 +2448,7 @@
                 "extraInfo": [
                     "Spends 700 V-Meter (23% of V-Timer)",
                     "Fully invincible on frames 1-10",
+                    "Can't hit crossup",
                     "Projectile invincible on extended legs during spin on frames 12-32",
                     "Airborne on frames 6-56 (during which time the bottom of Lucia's hurtbox is projectile invincible like when jumping)",
                     "Lucia is in a counter-hit state for the entire duration of the move",
@@ -2352,7 +2459,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1K",
-                "i": 58
+                "i": 60
             },
             "MK Hurricane Spinner": {
                 "moveName": "MK Hurricane Spinner",
@@ -2377,6 +2484,7 @@
                 "extraInfo": [
                     "Spends 700 V-Meter (23% of V-Timer)",
                     "Fully invincible on frames 1-10",
+                    "Can't hit crossup",
                     "Projectile invincible on extended legs during spin on frames 12-32",
                     "Airborne on frames 6-56 (during which time the bottom of Lucia's hurtbox is projectile invincible like when jumping)",
                     "Lucia is in a counter-hit state for the entire duration of the move",
@@ -2387,7 +2495,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1K",
-                "i": 59
+                "i": 61
             },
             "HK Hurricane Spinner": {
                 "moveName": "HK Hurricane Spinner",
@@ -2412,6 +2520,7 @@
                 "extraInfo": [
                     "Spends 700 V-Meter (23% of V-Timer)",
                     "Fully invincible on frames 1-10",
+                    "Can't hit crossup",
                     "Projectile invincible on extended legs during spin on frames 12-32",
                     "Airborne on frames 6-56 (during which time the bottom of Lucia's hurtbox is projectile invincible like when jumping)",
                     "Lucia is in a counter-hit state for the entire duration of the move",
@@ -2422,7 +2531,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1K",
-                "i": 60
+                "i": 62
             },
             "EX Hurricane Spinner": {
                 "moveName": "EX Hurricane Spinner",
@@ -2447,6 +2556,7 @@
                 "extraInfo": [
                     "Spends 700 V-Meter (23% of V-Timer)",
                     "Fully invincible on frames 1-10",
+                    "Can't hit crossup",
                     "Projectile invincible on extended legs during spin on frames 12-32",
                     "Airborne on frames 6-56 (during which time the bottom of Lucia's hurtbox is projectile invincible like when jumping)",
                     "Lucia is in a counter-hit state for the entire duration of the move",
@@ -2457,8 +2567,9 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1K",
-                "i": 61
-            }
+                "i": 63
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Tactical Weapon": {
@@ -2496,13 +2607,15 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 31.01
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
         "health": 975,
-        "stun": 975,
+        "stun": 1000,
         "vgauge1": 900,
         "vgauge2": 600,
         "taunt": 61,

@@ -21,6 +21,9 @@
                 "BeanBallOB": -39,
                 "damage": 30,
                 "stun": 70,
+                "hcWinSpCa": 10,
+                "hcWinTc": 13,
+                "hcWinVt": 10,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "ch",
@@ -60,6 +63,8 @@
                 "BeanBallOB": -34,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 13,
+                "hcWinVt": 13,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -71,7 +76,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Decent range and good to convert into specials for far range whiff punish scenarios"
+                    "Decent range and good to convert into specials for far range whiff punish scenarios",
+                    "Arm and leg hurtboxes are projectile invincible on frame 6 only"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -87,20 +93,20 @@
                 "recovery": 21,
                 "total": 32,
                 "onHit": "4*3(1)",
-                "onBlock": "-9*-7",
+                "onBlock": "-9*-10",
                 "vtc1OnHit": "22*19",
-                "vtc1OnBlock": "11*11",
+                "vtc1OnBlock": "11*8",
                 "vtc2OnHit": "19*16",
-                "vtc2OnBlock": "8*8",
+                "vtc2OnBlock": "8*5",
                 "KnifeReloadOH": -2,
                 "KnifeReloadOB": -13,
                 "damage": "90*30",
                 "stun": "120*50",
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 19,
-                    "vG": "+100"
-                },
+                "hcWinSpCa": "2021-11-14T08:00:00.000Z",
+                "hcWinVt": "2020-11-16T08:00:00.000Z",
+                "ccState": "Stagger",
+                "ccAdv": 19,
+                "ccVG": "+100",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -114,7 +120,6 @@
                 "extraInfo": [
                     "Cody's head hurtbox is invincible to airborne strikes on startup frames 1-8",
                     "Forces stand",
-                    "Only 1st hit is fully cancelable (2nd hit only cancels into V-Trigger activations)",
                     "Changed Damage (70) / Stun (120) / Frame Advantage (+1/-7) if the 1st hit whiffs",
                     "Cody gets better frame advantage if canceled into V-Triggers on the 1st hit"
                 ],
@@ -178,6 +183,9 @@
                 "BeanBallOB": -32,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*14",
+                "hcWinVt": 14,
+                "hcWinNotes": "*VT2 specials only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -213,11 +221,12 @@
                 "BeanBallOB": -30,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 22,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*17",
+                "hcWinVt": 17,
+                "hcWinNotes": "*VT2 specials only",
+                "ccState": "Stagger",
+                "ccAdv": 22,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -296,6 +305,8 @@
                 "BeanBallOB": -32,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -308,7 +319,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Combo / Frametrap / Footsies tool",
-                    "2f additional recovery on whiff"
+                    "2 extra recovery frames on whiff (15F)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -333,6 +344,11 @@
                 "KnifeReloadOB": -12,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
+                "ccState": "Stagger",
+                "ccAdv": 19,
+                "ccVG": "+100",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -379,7 +395,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into cr.LP / st.LP (knife versions as well)"
+                    "Chains into cr.LP / st.LP (knife versions as well)",
+                    "Less pushback on rapid canceled version"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -404,6 +421,9 @@
                 "BeanBallOB": -34,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*14",
+                "hcWinVt": "**19/***16",
+                "hcWinNotes": "*VT2 specials only, **VT1, ***VT2",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -426,8 +446,8 @@
                 "numCmd": "2HK",
                 "startup": 9,
                 "active": 4,
-                "recovery": "25(23)",
-                "total": "37(35)",
+                "recovery": "21(23)",
+                "total": "33(35)",
                 "onHit": "KD",
                 "onBlock": -14,
                 "vtc1OnHit": "KD (+88/39/44)",
@@ -438,14 +458,15 @@
                 "BeanBallOB": -33,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": "*18",
+                "hcWinVt": 18,
+                "hcWinNotes": "*VT2 specials only",
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -457,7 +478,7 @@
                 "extraInfo": [
                     "With the hitbox positioned high up on Cody's leg and not having that much hurtbox above it makes this a decent anti-air from further away",
                     "Due to the shape of the hitbox/hurtbox on this sweep it becomes a great counter-poke and footsie tool against some high-hitting poke moves on much of the roster (such as the high-hitting st.MKs)",
-                    "2 less recovery frames on whiff",
+                    "2 extra recovery frames on whiff (23F)",
                     "KDA when canceled into V-Trigger 2 Pipe Swings (HP+HK | d+HP+HK) on hit: +50/1/6 | +47/-2/3"
                 ],
                 "moveType": "normal",
@@ -599,6 +620,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 19
             },
             "Air Raid Kick": {
@@ -617,6 +639,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LK",
+                "movesList": "Target Combo",
                 "i": 20
             },
             "Axel Knuckle": {
@@ -644,6 +667,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Hammer Kick": {
@@ -667,6 +691,10 @@
                 "BeanBallOB": -30,
                 "damage": "60*40",
                 "stun": "100*50",
+                "hcWinSpCa": 10,
+                "hcWinTc": "*13",
+                "hcWinVt": 10,
+                "hcWinNotes": "*TC into V-Skill",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "sp",
@@ -681,11 +709,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Only the 1st hit is cancelable into specials / super / V-Trigger",
-                    "Second hit is only cancelable into the V-Skill target combo follow-up"
+                    "Second hit is only cancelable into the V-Skill target combo follow-up",
+                    "CH bonus applies to both hits"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Slip Jab": {
@@ -700,6 +730,7 @@
                 "onBlock": -6,
                 "damage": "30*27",
                 "stun": "70*45",
+                "hcWinTc": 13,
                 "attackLevel": "H*H",
                 "airmove": false,
                 "followUp": true,
@@ -707,6 +738,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "LP",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Crime Blow": {
@@ -721,6 +753,7 @@
                 "onBlock": -7,
                 "damage": "30*27*40 (97)",
                 "stun": "70*45*64 (179)",
+                "hcWinTc": 13,
                 "attackLevel": "H*H*H",
                 "airmove": false,
                 "followUp": true,
@@ -728,6 +761,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "LP",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Final Combination": {
@@ -748,6 +782,10 @@
                 "BeanBallOB": -28,
                 "damage": "30*27*40*49 (146)",
                 "stun": "70*45*64*84 (263)",
+                "hcWinSpCa": "*16/**26",
+                "hcWinTc": 13,
+                "hcWinVt": 16,
+                "hcWinNotes": "*CA or Rock Toss, **VT2 Pipe Swings",
                 "kd": 86,
                 "kdr": 27,
                 "kdrb": 32,
@@ -766,6 +804,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "LP",
+                "movesList": "Target Combo",
                 "i": 25
             },
             "Final Combo Throw": {
@@ -778,6 +817,7 @@
                 "onHit": "KD",
                 "damage": "30*27*40*14x2*49 (179)",
                 "stun": "70*45*64*105 (284)",
+                "hcWinTc": 13,
                 "kd": 54,
                 "kdr": 5,
                 "kdrb": 5,
@@ -791,6 +831,7 @@
                 "moveType": "throw",
                 "moveMotion": "D",
                 "moveButton": "LP",
+                "movesList": "Target Combo",
                 "i": 26
             },
             "Bad Spray": {
@@ -802,15 +843,15 @@
                 "active": 4,
                 "recovery": 14,
                 "total": "42(37)",
-                "onHit": 2,
+                "onHit": 5,
                 "onBlock": -2,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Effectively functions as a 3F light attack on Quick-Rise",
-                    "Counts as a light attack (subject to the priority system of normals)",
+                    "Effectively functions as a 3F heavy attack on Quick-Rise",
+                    "Counts as a heavy attack (subject to the priority system of normals)",
                     "Crouching state during the entire duration",
                     "Strike hitbox",
                     "Startup depends on which version is used (from a face-up or face-down knockdown)",
@@ -822,6 +863,7 @@
                 "moveType": "special",
                 "moveMotion": "U",
                 "moveButton": "1P",
+                "movesList": "Command Normal",
                 "i": 27
             },
             "Trash Out": {
@@ -849,6 +891,7 @@
                 "moveType": "throw",
                 "moveMotion": "F",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 28
             },
             "Crime Throw": {
@@ -876,6 +919,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 29
             },
             "Double Kick": {
@@ -909,6 +953,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 30
             },
             "Crack Combination (V-Skill 1)": {
@@ -923,6 +968,7 @@
                 "onBlock": -18,
                 "damage": "60*40*72 (172)",
                 "stun": "100*50*63 (213)",
+                "hcWinTc": 13,
                 "kd": 75,
                 "kdr": 16,
                 "kdrb": 21,
@@ -938,6 +984,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 31
             },
             "Crime Combination (V-Skill 2)": {
@@ -952,6 +999,7 @@
                 "onBlock": -11,
                 "damage": "60*40*72 (172)",
                 "stun": "100*50*135 (285)",
+                "hcWinTc": 13,
                 "kd": 84,
                 "kdr": 25,
                 "kdrb": 30,
@@ -964,6 +1012,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 32
             },
             "Crime Sway (High)": {
@@ -980,13 +1029,13 @@
                     "Invincible to standing and airborne strikes and projectiles on frames 2-25",
                     "Follow-up (Wrench Fist) cancels begin on 12th frame",
                     "Follow-up (Wrench Fist) can be delayed up to 14 frames",
-                    "Counterhit state during move duration",
-                    "Builds 80 / 40 V-Gauge on Hit / Block"
+                    "Counterhit state during move duration"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 33
             },
             "Crime Sway (Low)": {
@@ -1003,13 +1052,13 @@
                     "Invincible to crouching strikes and projectiles on frames 2-25",
                     "Follow-up (Lumber Sweep) cancels begin on 14th frame",
                     "Follow-up (Lumber Sweep) can be delayed up to 12 frames",
-                    "Counterhit state during move duration",
-                    "Builds 80 / 40 V-Gauge on Hit / Block"
+                    "Counterhit state during move duration"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 34
             },
             "Wrench Fist": {
@@ -1035,6 +1084,7 @@
                 "kd": 88,
                 "kdr": 29,
                 "kdrb": 34,
+                "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -1045,11 +1095,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Projectile invincible on frames 1-8 (frames 1-20 overall if canceled into from Crime Sway (V-Skill 2) asap)",
+                    "Builds 80 / 40 V-Gauge on Hit / Block",
                     "Cannot cancel into specials, super, or V-Trigger 1 specials on block"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 2",
                 "i": 35
             },
             "Lumber Sweep": {
@@ -1074,6 +1127,7 @@
                 "kd": 90,
                 "kdr": 31,
                 "kdrb": 36,
+                "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -1082,11 +1136,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Projectile invincible on frames 1-10 (frames 1-24 overall if canceled into from Crime Sway (V-Skill 2) asap)",
+                    "Builds 80 / 40 V-Gauge on Hit / Block",
                     "Cannot cancel into V-Trigger 1 specials on block"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "1K",
+                "movesList": "V-Skill 2",
                 "i": 36
             },
             "Side Arm": {
@@ -1104,13 +1161,14 @@
                     "2 bar V-Trigger",
                     "Duration of 2000 frames (~33 seconds)",
                     "Changes all punch normals (except Overhead) to a Knife version",
-                    "Gains access to new Knife specials but also loses the use of Tornado Sweep (Fireball) while the V-Trigger is still active (but can perform Tornado Sweep with Knife in hand if the V-Trigger timer is no longer active)",
-                    "Cannot activate V-Trigger 1 if the Knife is currently in-hand"
+                    "Gains access to new Knife specials but also loses the use of Tornado Sweep (Fireball) while Knife is currently in-hand",
+                    "Cannot activate V-Trigger 1 from Knife st. MP or cr. MP"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 37
             },
             "Dirty Coach": {
@@ -1128,13 +1186,14 @@
                     "2 bar V-Trigger",
                     "Duration of 3000 frames (50 seconds)",
                     "Changes all HP punch normals (including Overhead) to a Pipe version",
-                    "Gains access to new special moves but also loses the use of Tornado Sweep (Fireball) while the V-Trigger is still active (but can perform Tornado Sweep with Pipe if hand if the V-Trigger timer is no longer active)",
+                    "Gains access to new Pipe special moves but also loses the use of Tornado Sweep (Fireball) while the Pipe is currently in-hand",
                     "Cannot activate V-Trigger 2 if the Pipe is currently in-hand"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 38
             },
             "Prison Breaker": {
@@ -1163,7 +1222,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 39
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 29
+            },
+            "Payback": {
+                "moveName": "Payback",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 30
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1190,7 +1308,7 @@
                 "active": 65,
                 "recovery": 31,
                 "total": 49,
-                "onHit": -2,
+                "onHit": 2,
                 "onBlock": -7,
                 "damage": 50,
                 "stun": 100,
@@ -1203,15 +1321,18 @@
                 "projectile": true,
                 "extraInfo": [
                     "1-hit projectile",
-                    "Projectile lasts on screen for 65 frames",
+                    "Projectile lasts on screen for 50 frames",
+                    "Projectile Speed: 0.055",
                     "Travels at the slowest speed of the non-EX fireballs but also the furthest distance",
                     "Projectile invincible on extended limb hurtboxes on frames 14-49",
                     "Not possible to do while the Knife (V-Trigger 1) or Pipe (V-Trigger 2) are equipped",
-                    "Can be canceled into Knife Reload on whiff"
+                    "Can be canceled into Knife Reload on whiff",
+                    "Juggle Limit / Increase / Start: 1 / 5 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
+                "movesList": "Special",
                 "i": 41
             },
             "MP Tornado Sweep": {
@@ -1223,7 +1344,7 @@
                 "active": 52,
                 "recovery": 31,
                 "total": 49,
-                "onHit": 0,
+                "onHit": 2,
                 "onBlock": -7,
                 "damage": 50,
                 "stun": 100,
@@ -1236,11 +1357,13 @@
                 "projectile": true,
                 "extraInfo": [
                     "1-hit projectile",
-                    "Projectile lasts on screen for 52 frames",
+                    "Projectile lasts on screen for 70 frames",
+                    "Projectile Speed: 0.045",
                     "Travels a medium distance at medium speed",
                     "Projectile invincible on extended limb hurtboxes on frames 14-49",
                     "Not possible to do while the Knife (V-Trigger 1) or Pipe (V-Trigger 2) are equipped",
-                    "Can be canceled into Knife Reload on whiff"
+                    "Can be canceled into Knife Reload on whiff",
+                    "Juggle Limit / Increase / Start: 1 / 5 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
@@ -1269,12 +1392,14 @@
                 "projectile": true,
                 "extraInfo": [
                     "1-hit projectile",
-                    "Projectile lasts on screen for 39 frames",
+                    "Projectile lasts on screen for 55 frames",
+                    "Projectile Speed: 0.04",
                     "Travels at the fastest speed of the non-EX fireballs but also the shortest distance",
                     "Projectile invincible on extended limb hurtboxes on frames 14-49",
                     "Can be spaced out to be more advantageous allowing for some new combos and follow-ups",
                     "Not possible to do while the Knife (V-Trigger 1) or Pipe (V-Trigger 2) are equipped",
-                    "Can be canceled into Knife Reload on whiff"
+                    "Can be canceled into Knife Reload on whiff",
+                    "Juggle Limit / Increase / Start: 1 / 5 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
@@ -1299,11 +1424,13 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile but can nullify up to 3 projectile hits",
+                    "Projectile Speed: 0.035",
                     "No limited duration on the projectile like the non-ex versions",
                     "Projectile invincible on extended limb hurtboxes on frames 14-45",
                     "Can be spaced out to be more advantageous allowing for some new combos and follow-ups",
                     "Not possible to do while the Knife (V-Trigger 1) or Pipe (V-Trigger 2) are equipped",
-                    "Can be canceled into Knife Reload on whiff"
+                    "Can be canceled into Knife Reload on whiff",
+                    "Juggle Limit / Increase / Start: 1*1 / 0*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
@@ -1344,6 +1471,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 45
             },
             "MK Ruffian Kick": {
@@ -1475,12 +1603,13 @@
                 "extraInfo": [
                     "Charges in 45 frames",
                     "Slightly lower hurtbox on frames 7-17",
-                    "1 more recovery frame on whiff",
+                    "1 extra recovery frames on whiff (21F)",
                     "KDA if juggled after EX Ruffian Kick: +89/30/35"
                 ],
                 "moveType": "special",
                 "moveButton": "1P",
                 "chargeDirection": "R",
+                "movesList": "Special",
                 "i": 49
             },
             "Zonk Knuckle Level 2": {
@@ -1507,6 +1636,7 @@
                 "extraInfo": [
                     "Charges in 300 frames",
                     "Slightly lower hurtbox on frames 3-17",
+                    "Causes limited juggle spin state on air opponents",
                     "KDA if juggled after EX Ruffian Kick: +93/34/39"
                 ],
                 "moveType": "special",
@@ -1552,6 +1682,7 @@
                 "moveType": "special",
                 "moveButton": "2P",
                 "chargeDirection": "R",
+                "movesList": "Special",
                 "i": 51
             },
             "EX Zonk Knuckle Level 2": {
@@ -1624,7 +1755,8 @@
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
                 "i": 53
-            }
+            },
+            "input": "None"
         },
         "vtOne": {
             "Stand LP": {
@@ -1649,7 +1781,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into st.LP / cr.LP / cr.LK"
+                    "Chains into st.LP / cr.LP / cr.LK",
+                    "Consumes 50 / 25 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -1668,6 +1801,9 @@
                 "onBlock": 4,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*14",
+                "hcWinTc": "**14",
+                "hcWinNotes": "*Knife specials only, **Knife MP > HP",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1675,7 +1811,7 @@
                 "extraInfo": [
                     "Fantastic poke tool and very + on block",
                     "Slightly further range than cr.MP (Knife)",
-                    "Consumes 80/2000 V-Meter"
+                    "Consumes 80 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -1694,6 +1830,7 @@
                 "onBlock": -2,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1705,8 +1842,8 @@
                 "extraInfo": [
                     "Slightly smaller head hurtbox on frames 4-32",
                     "Half-screen range",
-                    "1 extra recovery frame on whiff (20)",
-                    "Consumes 150/2000 V-Meter"
+                    "1 extra recovery frame on whiff (20F)",
+                    "Consumes 150 / 75 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -1735,7 +1872,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into st.LP / cr.LP / cr.LK"
+                    "Chains into st.LP / cr.LP / cr.LK",
+                    "Consumes 50 / 25 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -1754,13 +1892,15 @@
                 "onBlock": 4,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*16",
+                "hcWinNotes": "*Knife specials only",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "Really good for pokes / frametraps / tick throw / counter-hit cr.LP conversions",
-                    "Consumes 80/2000 V-Meter"
+                    "Consumes 80 / 40 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -1779,6 +1919,7 @@
                 "onBlock": -5,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1789,7 +1930,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Decent anti-air on later active frames (pretty slow though)",
-                    "Consumes 150/2000 V-Meter"
+                    "Consumes 150 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -1808,6 +1949,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Consumes 50 / 25 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LP",
@@ -1826,7 +1970,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Puts airborne opponents into a free juggle state"
+                    "Puts airborne opponents into a free juggle state",
+                    "Consumes 80 / 40 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -1846,7 +1991,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Extremely strong jump-in priority hitbox if used at an angle"
+                    "Extremely strong jump-in priority hitbox if used at an angle",
+                    "Consumes 150 / 75 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -1865,6 +2011,8 @@
                 "onBlock": -14,
                 "damage": "60*72",
                 "stun": "100*108",
+                "hcWinSpCa": 15,
+                "hcWinTc": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1875,11 +2023,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Follow-up HP still combos from max range st.MP",
-                    "Usually Cody can't special cancel from st.MP (Knife) but can with this Target Combo follow-up"
+                    "Usually Cody can't special cancel from st.MP (Knife) but can with this Target Combo follow-up",
+                    "Consumes 300 / 150 V-Meter on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 37.01
             },
             "Snipe Shot": {
@@ -1887,9 +2037,9 @@
                 "plnCmd": "HP+HK",
                 "numCmd": "5HPHK",
                 "cmnName": "Knife Throw",
-                "startup": 15,
+                "startup": 14,
                 "recovery": 22,
-                "total": 37,
+                "total": 36,
                 "onHit": "KD",
                 "onBlock": 3,
                 "KnifeReloadOH": "KD (~/~/~)",
@@ -1915,6 +2065,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 37.02
             },
             "Anti-Air Snipe Shot": {
@@ -1950,6 +2101,7 @@
                 "moveType": "special",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 37.03
             },
             "Reload": {
@@ -1964,12 +2116,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Pulling out more knives to shank baddies",
-                    "Spends 300 V-Timer (15% of V-Timer)",
+                    "Spends 300 V-Meter  (15% of V-Timer)",
                     "Can be cancelled on whiff to Snipe Shot or Anti-Air Snipe Shot"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 37.04
             },
             "Rapid Fire": {
@@ -1985,9 +2138,9 @@
                 "onBlock": 3,
                 "damage": "10x6*80 (140)",
                 "stun": 180,
-                "kd": "64(74)",
-                "kdr": "15(25)",
-                "kdrb": "20(30)",
+                "kd": "68(74)",
+                "kdr": "19(25)",
+                "kdrb": "24(30)",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1996,14 +2149,16 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Has a different animation and increased KDA (+10 extra) if using it depletes the rest of the V-Timer",
-                    "Spends 900 V-Timer (45% of V-Timer)"
+                    "Has a different animation and increased KDA (+6 extra) if using it depletes the rest of the V-Timer",
+                    "Spends 600 V-Meter (30% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 37.05
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Stand HP": {
@@ -2018,16 +2173,16 @@
                 "onBlock": -5,
                 "damage": 100,
                 "stun": 150,
+                "hcWinSpCa": "*16",
+                "hcWinNotes": "*VT2 specials only",
                 "BeanBallOH": -23,
                 "BeanBallOB": -32,
                 "kd": 97,
                 "kdr": 38,
                 "kdrb": 43,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2054,6 +2209,8 @@
                 "onBlock": -7,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": "16/*18",
+                "hcWinNotes": "*VT2 specials",
                 "BeanBallOH": -23,
                 "BeanBallOB": -32,
                 "attackLevel": "H",
@@ -2173,7 +2330,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Reflects projectiles (including: multi-hit fireballs / EX fireballs / V-Trigges / Supers)",
+                    "Reflects projectiles (including: multi-hit fireballs / EX fireballs / V-Triggers)",
                     "Can be canceled into from all normals and specials (specials only cancel on hit)",
                     "Can be canceled into Bean Ball (rock toss) on hit",
                     "Spends about 25% V-Timer if the pipe swing hitbox connects with the opponent on hit/block (does not spend V-Timer on whiff or when batting the rocks)",
@@ -2182,6 +2339,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 38.01
             },
             "Gentle Upper Swing": {
@@ -2211,7 +2369,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Reflects projectiles (including: multi-hit fireballs / EX fireballs / V-Triggers / Supers)",
+                    "Reflects projectiles (including: multi-hit fireballs / EX fireballs / V-Triggers)",
                     "Can be canceled into from all normals and specials (specials only cancel on hit)",
                     "Can be canceled into Bean Ball (rock toss) or Gentle Swing on hit",
                     "Launches the opponent into a free juggle state if this move started the juggle state",
@@ -2221,6 +2379,7 @@
                 "moveType": "special",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 38.02
             },
             "Gentle Swing > Bean Ball": {
@@ -2305,6 +2464,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 38.05
             },
             "Present Delivery (High)": {
@@ -2359,7 +2519,7 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Just Frame version results in 3-hit projectile that travels full-screen very fast",
+                    "Just Frame version results in 3-hit projectile that travels full-screen very fast and cannot be reflected or absorbed",
                     "Both the pipe and rock can hit the opponent on the same frame up close resulting combined damage / stun (250 damage / 300 stun) which only counts as a single move for the purpose of damage scaling",
                     "+3 on block if the rock and and pipe swing are used in close range (-3 on block if only the pipe swing is blocked)",
                     "KDA data shown goes from worst to best; close range -> (full-screen) - close range refers to if the pipe swing hits up close (the KDA shown in the parantheses refers to when the Just Frame rock hits from full-screen away)",
@@ -2444,7 +2604,7 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": "140 (150)",
+                "damage": "150 (160)",
                 "stun": 150,
                 "kd": "61(67)",
                 "kdr": "2(8)",
@@ -2458,13 +2618,15 @@
                     "Cancelable into Bean Ball after the follow-up hits",
                     "The follow-up smash depends on timing of a following punch button",
                     "This move covers 2 of the 3 versions of the follow-ups (the improperly ones)",
-                    "Damage differs between 140 or 150 depending on how close the timing is to the Just Frame (properly timed) version",
+                    "Damage differs between 150 or 160 depending on how close the timing is to the Just Frame (properly timed) version",
                     "KDA varies depending on timing of the follow-up pipe swing (+2 on QR/BR being the worst and only happens if no follow-up punch button is pressed)",
-                    "Recovery frames listed refer to the version on whiff (less recovery on hit)"
+                    "Recovery frames listed refer to the version on whiff (less recovery on hit)",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 38.1
             },
             "Toss & Smash (Just Frame)": {
@@ -2477,7 +2639,7 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": 220,
+                "damage": 230,
                 "stun": 300,
                 "kd": "88(82~86)",
                 "kdr": "29(23~32)",
@@ -2493,7 +2655,8 @@
                     "Try using visual cues to help with the Just Frame timing (like when Cody lifts up the front leg and bends his knee)",
                     "The KDA data outside the parantheses refers to when using the move when mid-screen",
                     "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)",
-                    "Recovery frames listed refer to the version on whiff (much less recovery on hit)"
+                    "Recovery frames listed refer to the version on whiff (much less recovery on hit)",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
@@ -2507,6 +2670,7 @@
                 "cmnName": "Cmd Grab > Bad Stone (Empty)",
                 "startup": "5+19",
                 "recovery": 30,
+                "onHit": "KD",
                 "damage": "140(150)",
                 "stun": 150,
                 "kd": "64(70)",
@@ -2521,7 +2685,8 @@
                     "This version of the move covers the KDA data for: Toss & Smash (improperly timed) > Bean Ball",
                     "This move covers 2 of the 3 versions of the follow-ups (the improperly ones)",
                     "Damage differs between 140 or 150 depending on how close the timing is to the Just Frame (properly timed) version",
-                    "KDA varies depending on timing of the follow-up pipe swing prior to canceling into this Bean Ball version (+5 on QR/BR being the worst and only happens if no follow-up punch button is pressed)"
+                    "KDA varies depending on timing of the follow-up pipe swing prior to canceling into this Bean Ball version (+5 on QR/BR being the worst and only happens if no follow-up punch button is pressed)",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
@@ -2535,7 +2700,8 @@
                 "cmnName": "Cmd Grab (Homerun) > Bad Stone (Empty)",
                 "startup": "5+19",
                 "recovery": 30,
-                "damage": 220,
+                "onHit": "KD",
+                "damage": 230,
                 "stun": 300,
                 "kd": 80,
                 "kdr": "21(15~24)",
@@ -2550,7 +2716,8 @@
                     "This Just Frame follow-up requires the player to press the punch button follow-up during a 3-frame cancel window which results in this improved version of the move",
                     "Try using visual cues to help with the Just Frame timing (like when Cody lifts up the front leg and bends his knee)",
                     "The KDA data outside the parantheses refers to when using the move when mid-screen",
-                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)"
+                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
@@ -2564,6 +2731,7 @@
                 "cmnName": "Cmd Grab > Bad Stone (High)",
                 "startup": "5+19+34",
                 "recovery": 25,
+                "onHit": "KD",
                 "damage": "140~150(100)",
                 "stun": "150(120)",
                 "kd": "34(40)",
@@ -2581,7 +2749,8 @@
                     "This version of the move covers the KDA data for: Toss & Smash (improperly timed) > Bean Ball > Present Delivery (High)",
                     "Damage / Stun numbers in the parentheses refer to the Bean Ball itself after being swung by the pipe swing follow-up",
                     "KDA varies depending on timing of the prior follow-up swing to the Toss & Smash (lower KDA the worse the timing was)",
-                    "All properties other than KDA it shares with Present Deliver (High) / Bad Stone (High) - Read those notes for more information"
+                    "All properties other than KDA it shares with Present Deliver (High) / Bad Stone (High) - Read those notes for more information",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
@@ -2595,6 +2764,7 @@
                 "cmnName": "Cmd Grab > Bad Stone (Just Frame)",
                 "startup": "5+19+36",
                 "recovery": 25,
+                "onHit": "KD",
                 "damage": "140~150(100)",
                 "stun": "150(150)",
                 "kd": "32(38)",
@@ -2612,7 +2782,8 @@
                     "This version of the move covers the KDA data for: Toss & Smash (improperly timed) > Bean Ball > Present Delivery (Mid)",
                     "Damage / Stun numbers in the parentheses refer to the Bean Ball itself after being swung by the pipe swing follow-up",
                     "KDA varies depending on timing of the prior follow-up swing to the Toss & Smash (lower KDA the worse the timing was)",
-                    "All properties other than KDA it shares with Present Deliver (Mid) / Bad Stone (Just Frame) - Read those notes for more information"
+                    "All properties other than KDA it shares with Present Deliver (Mid) / Bad Stone (Just Frame) - Read those notes for more information",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
@@ -2626,6 +2797,7 @@
                 "cmnName": "Cmd Grab > Bad Stone (Low)",
                 "startup": "5+19+39",
                 "recovery": 25,
+                "onHit": "KD",
                 "damage": "140~150(80)",
                 "stun": "150/100)",
                 "kd": "29(35)",
@@ -2643,7 +2815,8 @@
                     "This version of the move covers the KDA data for: Toss & Smash (improperly timed) > Bean Ball > Present Delivery (Low)",
                     "Damage / Stun numbers in the parentheses refer to the Bean Ball itself after being swung by the pipe swing follow-up",
                     "KDA varies depending on timing of the prior follow-up swing to the Toss & Smash (lower KDA the worse the timing was)",
-                    "All properties other than KDA it shares with Present Deliver (Low) / Bad Stone (Low) - Read those notes for more information"
+                    "All properties other than KDA it shares with Present Deliver (Low) / Bad Stone (Low) - Read those notes for more information",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
@@ -2657,6 +2830,7 @@
                 "cmnName": "Cmd Grab > Bad Stone (Air)",
                 "startup": "5+19+33",
                 "recovery": 13,
+                "onHit": "KD",
                 "damage": "140~150(80)",
                 "stun": "150(150)",
                 "kd": "46(52)",
@@ -2674,7 +2848,8 @@
                     "This version of the move covers the KDA data for: Toss & Smash (improperly timed) > Bean Ball > Unluck Gift (Upper Pipe Swing)",
                     "Damage / Stun numbers in the parentheses refer to the Bean Ball itself after being swung by the pipe swing follow-up",
                     "KDA varies depending on timing of the prior follow-up swing to the Toss & Smash (lower KDA the worse the timing was)",
-                    "All properties other than KDA it shares with Unluck Gift / Bad Stone (Air) - Read those notes for more information"
+                    "All properties other than KDA it shares with Unluck Gift / Bad Stone (Air) - Read those notes for more information",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "D",
@@ -2688,7 +2863,8 @@
                 "cmnName": "Cmd Grab (Homerun) > Bad Stone (High)",
                 "startup": "5+19+34",
                 "recovery": 25,
-                "damage": "220(100)",
+                "onHit": "KD",
+                "damage": "230(100)",
                 "stun": "300(120)",
                 "kd": "50(44~53)",
                 "kdr": "-9(-15~-6)",
@@ -2707,7 +2883,8 @@
                     "This Just Frame follow-up requires the player to press the punch button follow-up during a 3-frame cancel window which results in this improved version of the move",
                     "Try using visual cues to help with the Just Frame timing (like when Cody lifts up the front leg and bends his knee)",
                     "The KDA data outside the parantheses refers to when using the move when mid-screen",
-                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)"
+                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
@@ -2721,7 +2898,8 @@
                 "cmnName": "Cmd Grab (Homerun) > Bad Stone (JF)",
                 "startup": "5+19+36",
                 "recovery": 25,
-                "damage": "220(150)",
+                "onHit": "KD",
+                "damage": "230(150)",
                 "stun": "300(150)",
                 "kd": "48(42~51)",
                 "kdr": "-11(-17~-8)",
@@ -2740,7 +2918,8 @@
                     "This Just Frame follow-up requires the player to press the punch button follow-up during a 3-frame cancel window which results in this improved version of the move",
                     "Try using visual cues to help with the Just Frame timing (like when Cody lifts up the front leg and bends his knee)",
                     "The KDA data outside the parantheses refers to when using the move when mid-screen",
-                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)"
+                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
@@ -2754,7 +2933,8 @@
                 "cmnName": "Cmd Grab (Homerun) > Bad Stone (Low)",
                 "startup": "5+19+39",
                 "recovery": 25,
-                "damage": "220(80)",
+                "onHit": "KD",
+                "damage": "230(80)",
                 "stun": "300(100)",
                 "kd": "45(39~48)",
                 "kdr": "-14(-20~-11)",
@@ -2773,7 +2953,8 @@
                     "This Just Frame follow-up requires the player to press the punch button follow-up during a 3-frame cancel window which results in this improved version of the move",
                     "Try using visual cues to help with the Just Frame timing (like when Cody lifts up the front leg and bends his knee)",
                     "The KDA data outside the parantheses refers to when using the move when mid-screen",
-                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)"
+                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
@@ -2787,7 +2968,8 @@
                 "cmnName": "Cmd Grab (Homerun) > Bad Stone (Air)",
                 "startup": "5+19+33",
                 "recovery": 13,
-                "damage": "220(80)",
+                "onHit": "KD",
+                "damage": "230(80)",
                 "stun": "300(150)",
                 "kd": "62(56~65)",
                 "kdr": "3(-3~6)",
@@ -2806,13 +2988,15 @@
                     "This Just Frame follow-up requires the player to press the punch button follow-up during a 3-frame cancel window which results in this improved version of the move",
                     "Try using visual cues to help with the Just Frame timing (like when Cody lifts up the front leg and bends his knee)",
                     "The KDA data outside the parantheses refers to when using the move when mid-screen",
-                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)"
+                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)",
+                    "Spends 700 V-Meter (23% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
                 "i": 38.21
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

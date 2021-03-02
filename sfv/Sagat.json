@@ -47,6 +47,7 @@
                 "vtcOnBlock": 9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 13,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -70,13 +71,16 @@
                 "startup": 13,
                 "active": 3,
                 "recovery": "20(18)",
-                "total": 35,
+                "total": "35(33)",
                 "onHit": 4,
                 "onBlock": -2,
                 "vtcOnHit": 16,
                 "vtcOnBlock": 10,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": "*20",
+                "hcWinVt": 17,
+                "hcWinNotes": "*CA only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -142,6 +146,7 @@
                 "vtcOnBlock": 6,
                 "damage": 70,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -172,14 +177,15 @@
                 "vtcOnBlock": "12(8)",
                 "damage": "20*70 (80)",
                 "stun": "30*120",
+                "hcWinSpCa": "*31",
+                "hcWinVt": "2021-10-21T07:00:00.000Z",
+                "hcWinNotes": "**VT Specials Only",
                 "kd": 105,
                 "kdr": 46,
                 "kdrb": 51,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -252,6 +258,8 @@
                 "vtcOnBlock": 10,
                 "damage": 65,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -263,6 +271,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Upper half of the hitbox cannot hit airborne opponents (don't try to anti-air with this)",
                     "1 less recovery frames on whiff (14 instead of 15)",
                     "Solid range for a cancelable cr.MP"
                 ],
@@ -285,14 +294,13 @@
                 "vtcOnBlock": 10,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 102,
                 "kdr": 43,
                 "kdrb": 48,
-                "crushAdv": {
-                    "state": "Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -354,6 +362,8 @@
                 "vtcOnBlock": 3,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 16,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -365,6 +375,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Combos into HK Grand Tiger Shot (Low) even at max range",
                     "Minimal hurtbox extension before active frames (not as much hurtbox extensions as most other cr.MK on startup)"
                 ],
                 "moveType": "normal",
@@ -386,14 +397,13 @@
                 "vtcOnBlock": 0,
                 "damage": 100,
                 "stun": 150,
+                "hcWinVt": 16,
                 "kd": 72,
                 "kdr": 23,
                 "kdrb": 27,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -548,6 +558,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Step High Kick": {
@@ -565,11 +576,11 @@
                 "vtcOnBlock": 13,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 26,
-                    "vG": "+150"
-                },
+                "hcWinVt": "19/*17",
+                "hcWinNotes": "*19f on hit, 17f on block",
+                "ccState": "Stagger",
+                "ccAdv": 26,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -589,6 +600,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Step Low Kick": {
@@ -609,11 +621,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Kara cancelable on frame 18 (accepts buffers on frames 2-18)"
+                    "Kara cancelable on frame 18 (accepts buffers on frames 2-18)",
+                    "Effectively adds 18 frames of startup to moves if kara-canceling into them from this move (for comparison the f+HH kara only adds 9 frames of start-up)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Tiger Hang": {
@@ -641,6 +655,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 22
             },
             "Tiger Swing": {
@@ -668,6 +683,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 23
             },
             "Angry Charge": {
@@ -689,6 +705,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 24
             },
             "Hanuman Charge": {
@@ -709,6 +726,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 25
             },
             "Tiger Charge": {
@@ -731,6 +749,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 26
             },
             "Tiger Assault": {
@@ -753,6 +772,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 27
             },
             "Tiger Revenge": {
@@ -780,7 +800,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 28
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 29
+            },
+            "Tiger Tornado": {
+                "moveName": "Tiger Tornado",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 30
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -795,7 +874,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 29
+                "i": 31
             },
             "LP Tiger Shot": {
                 "moveName": "LP Tiger Shot",
@@ -814,25 +893,26 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
-                    "vt1",
-                    "vt2"
+                    "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
                     "1 hit projectile",
+                    "Projectile speed: 0.58",
                     "Cannot hit crouching",
                     "No hurtbox extensions whatsoever during startup frames",
                     "Projectile invincible on extended arm hurtbox on frames 13-22 (whole body hurtbox leans further forward as well on frames 13-34",
-                    "Juggle Limit / Increase / Start: 1/1/1",
                     "Startup if used after f+HK kara: 22~24",
-                    "Startup if used after f+MK kara: 28-31"
+                    "Startup if used after f+MK kara: 31",
+                    "Juggle Limit / Increase / Start: 1/1/1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 30
+                "movesList": "Special",
+                "i": 32
             },
             "MP Tiger Shot": {
                 "moveName": "MP Tiger Shot",
@@ -851,25 +931,25 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
-                    "vt1",
-                    "vt2"
+                    "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
                     "1 hit projectile",
+                    "Projectile speed: 0.70",
                     "Cannot hit crouching",
                     "No hurtbox extensions whatsoever during startup frames",
                     "Projectile invincible on extended arm hurtbox on frames 13-22 (whole body hurtbox leans further forward as well on frames 13-34",
                     "Juggle Limit / Increase / Start: 1/1/1",
-                    "Startup if used after f+HK kara: 22~24",
-                    "Startup if used after f+MK kara: 28-31"
+                    "Startup if used after f+MK kara: 31",
+                    "Startup if used after f+HK kara: 22~24"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 31
+                "i": 33
             },
             "HP Tiger Shot": {
                 "moveName": "HP Tiger Shot",
@@ -888,25 +968,25 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
-                    "vt1",
-                    "vt2"
+                    "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
                     "1 hit projectile",
+                    "Projectile speed: 1.05",
                     "Cannot hit crouching",
                     "No hurtbox extensions whatsoever during startup frames",
                     "Projectile invincible on extended arm hurtbox on frames 13-22 (whole body hurtbox leans further forward as well on frames 13-34",
-                    "Juggle Limit / Increase / Start: 1/1/1",
                     "Startup if used after f+HK kara: 22~24",
-                    "Startup if used after f+MK kara: 28-31"
+                    "Startup if used after f+MK kara: 31",
+                    "Juggle Limit / Increase / Start: 1/1/1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 32
+                "i": 34
             },
             "EX Tiger Shot": {
                 "moveName": "EX Tiger Shot",
@@ -918,13 +998,13 @@
                 "total": 38,
                 "onHit": "KD",
                 "onBlock": 6,
-                "vtcOnHit": "KD (+135/76/81)",
+                "vtcOnHit": "KD (+139/80/85)",
                 "vtcOnBlock": 29,
                 "damage": "50*50",
                 "stun": "75*75",
-                "kd": 112,
-                "kdr": 53,
-                "kdrb": 58,
+                "kd": 116,
+                "kdr": 57,
+                "kdrb": 62,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -935,19 +1015,20 @@
                 "projectile": true,
                 "extraInfo": [
                     "2 hit projectile",
+                    "Projectile speed: 1.10",
                     "Cannot hit crouching",
                     "Launches opponent into a limited juggle state on hit",
                     "No hurtbox extensions whatsoever during startup frames",
                     "Projectile invincible on extended arm hurtbox on frames 11-20 (whole body hurtbox leans further forward as well on frames 11-31",
-                    "Juggle Limit / Increase / Start: 0*1 / 0*3 / 0*3",
-                    "Does not increase the juggle state at all if only the first hit of the EX Tiger Shot lands on an airborne opponent (which means it's free juggle if the juggle count is still at 0 like after a Crush Counter stand HK -> EX Tiger Shot (1st hit only)",
                     "Startup if used after f+HK kara: 20~22",
-                    "Startup if used after f+MK kara: 26-29"
+                    "Startup if used after f+MK kara: 29",
+                    "Juggle Limit / Increase / Start: 0*1 / 0*3 / 0*3",
+                    "Does not increase the juggle state at all if only the first hit of the EX Tiger Shot lands on an airborne opponent (which means it's free juggle if the juggle count is still at 0 like after a Crush Counter stand HK -> EX Tiger Shot (1st hit only)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 33
+                "i": 35
             },
             "LK Grand Tiger Shot": {
                 "moveName": "LK Grand Tiger Shot",
@@ -966,27 +1047,27 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
-                    "vt1",
-                    "vt2"
+                    "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
                     "1-hit projectile",
-                    "No hurtbox extensions whatsoever during startup frames",
+                    "Projectile speed: 0.615",
+                    "No hurtbox extensions whatsoever during startup frames (very favorable hurtboxes for a fireball move)",
                     "Projectile invincible on all extended limb hurtboxes on frames 13-44 (for the entire recovery frames)",
                     "Projectile invincible on head on frames 1-29",
                     "Sagat is considered in a standing state on frames 13-44 (so can get hit by High Tiger Shots on frames 30-44 after the Projectile invincibility on his head on frames 1-29 runs out)",
                     "Startup if used after f+HK kara: 22~24",
-                    "Startup if used after f+MK kara: 28-31",
-                    "Juggle Limit / Increase / Start: 1/1/1",
-                    "Very favorable hurtboxes for a fireball"
+                    "Startup if used after f+MK kara: 31",
+                    "Juggle Limit / Increase / Start: 1/1/1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 34
+                "movesList": "Special",
+                "i": 36
             },
             "MK Grand Tiger Shot": {
                 "moveName": "MK Grand Tiger Shot",
@@ -1005,27 +1086,26 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
-                    "vt1",
-                    "vt2"
+                    "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
                     "1-hit projectile",
-                    "No hurtbox extensions whatsoever during startup frames",
+                    "Projectile speed: 0.675",
+                    "No hurtbox extensions whatsoever during startup frames (very favorable hurtboxes for a fireball move)",
                     "Projectile invincible on all extended limb hurtboxes on frames 13-44 (for the entire recovery frames)",
                     "Projectile invincible on head on frames 1-29",
                     "Sagat is considered in a standing state on frames 13-44 (so can get hit by High Tiger Shots on frames 30-44 after the Projectile invincibility on his head on frames 1-29 runs out)",
                     "Startup if used after f+HK kara: 22~24",
-                    "Startup if used after f+MK kara: 28-31",
-                    "Juggle Limit / Increase / Start: 1/1/1",
-                    "Very favorable hurtboxes for a fireball"
+                    "Startup if used after f+MK kara: 31",
+                    "Juggle Limit / Increase / Start: 1/1/1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 35
+                "i": 37
             },
             "HK Grand Tiger Shot": {
                 "moveName": "HK Grand Tiger Shot",
@@ -1044,27 +1124,26 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
-                    "vt1",
-                    "vt2"
+                    "vt1"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
                     "1-hit projectile",
-                    "No hurtbox extensions whatsoever during startup frames",
+                    "Projectile speed: 0.92",
+                    "No hurtbox extensions whatsoever during startup frames (very favorable hurtboxes for a fireball move)",
                     "Projectile invincible on all extended limb hurtboxes on frames 13-44 (for the entire recovery frames)",
                     "Projectile invincible on head on frames 1-29",
                     "Sagat is considered in a standing state on frames 13-44 (so can get hit by High Tiger Shots on frames 30-44 after the Projectile invincibility on his head on frames 1-29 runs out)",
                     "Startup if used after f+HK kara: 22~24",
-                    "Startup if used after f+MK kara: 28-31",
-                    "Juggle Limit / Increase / Start: 1/1/1",
-                    "Very favorable hurtboxes for a fireball"
+                    "Startup if used after f+MK kara: 31",
+                    "Juggle Limit / Increase / Start: 1/1/1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 36
+                "i": 38
             },
             "EX Grand Tiger Shot": {
                 "moveName": "EX Grand Tiger Shot",
@@ -1093,19 +1172,21 @@
                 "projectile": true,
                 "extraInfo": [
                     "2 hit projectile",
+                    "Projectile Speed: 1.10",
                     "Launches opponent into a limited juggle state on hit",
-                    "No hurtbox extensions whatsoever during startup frames",
+                    "No hurtbox extensions whatsoever during startup frames (very favorable hurtboxes for a fireball move)",
                     "Projectile invincible on all extended limb hurtboxes on frames 11-42 (for the entire recovery frames)",
                     "Projectile invincible on head on frames 1-37",
                     "Sagat is considered in a standing state on frames 11-42 (so can get hit by High Tiger Shots on frames 38-42 after the Projectile invincibility on his head on frames 1-37 runs out)",
+                    "Startup if used after f+HK kara: 20~22",
+                    "Startup if used after f+MK kara: 29",
                     "Juggle Limit / Increase / Start: 3*3 / 0*4 / 0*4",
-                    "Does not increase the juggle state at all if only the first hit of the EX Tiger Shot lands on an airborne opponent (which means it's free juggle if the juggle count is still at 0 like after a Crush Counter stand HK -> EX Tiger Shot (1st hit only)",
-                    "Very favorable hurtboxes for a fireball"
+                    "Does not increase the juggle state at all if only the first hit of the EX Tiger Shot lands on an airborne opponent (which means it's free juggle if the juggle count is still at 0 like after a Crush Counter stand HK -> EX Tiger Shot (1st hit only))"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 37
+                "i": 39
             },
             "LP Tiger Uppercut": {
                 "moveName": "LP Tiger Uppercut",
@@ -1117,7 +1198,7 @@
                 "recovery": "31+17",
                 "total": 60,
                 "onHit": "KD",
-                "onBlock": "-39(-34)",
+                "onBlock": -39,
                 "damage": "130(110)",
                 "stun": "150(120)",
                 "kd": 74,
@@ -1133,19 +1214,19 @@
                 "extraInfo": [
                     "Invincible to airborne strikes on frames 1-12",
                     "Airborne on frames 6-43",
+                    "Sagat is in a counter-hit state for the entire duration",
+                    "Cannot hit crossups",
                     "Deals 20 less damage (110) and 30 less stun (120) after the first 2 active frames",
-                    "Deals 30 more damage and stun on the V-Skill version",
-                    "Has increased knockback distance (but no difference in KDA) and increased hitfreeze (helps with confirms and blowing through projectiles on screen) on the V-Skill 1 version",
-                    "Less negative on block (-34 instead of -39) on the V-Skill 1 version",
-                    "Juggle Limit: 2 (3 with V-Skill 1 version)",
+                    "Has increased damage / stun / KDA / knockback / hitstop / Juggle Limit on the V-Skill 1 version (see more details on the V-Skill 1 version of this move)",
                     "Startup if used after f+HK kara: 12~14",
-                    "Startup if used after f+MK kara: 18-21",
-                    "Counterhit state for the entire duration"
+                    "Startup if used after f+MK kara: 21",
+                    "Juggle Limit: 2"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 38
+                "movesList": "Special",
+                "i": 40
             },
             "MP Tiger Uppercut": {
                 "moveName": "MP Tiger Uppercut",
@@ -1157,7 +1238,7 @@
                 "recovery": "31+17",
                 "total": 62,
                 "onHit": "KD",
-                "onBlock": "-39(-34)",
+                "onBlock": -39,
                 "damage": "130(110)",
                 "stun": "150(120)",
                 "kd": 74,
@@ -1173,19 +1254,18 @@
                 "extraInfo": [
                     "Strike and Projectile invincible on frames 3-7",
                     "Airborne on frames 8-45",
+                    "Sagat is in a counter-hit state for the entire duration",
+                    "Cannot hit crossups",
                     "Deals 20 less damage (110) and 30 less stun (120) after the first 2 active frames",
-                    "Deals 30 more damage and stun on the V-Skill version",
-                    "Has increased knockback distance (but no difference in KDA) and increased hitfreeze (helps with confirms and blowing through projectiles on screen) on the V-Skill version",
-                    "Less negative on block (-34 instead of -39) on the V-Skill 1 version",
-                    "Juggle Limit: 2 (3 with V-Skill 1 version)",
+                    "Has increased damage / stun / KDA / knockback / hitstop / Juggle Limit on the V-Skill 1 version (see more details on the V-Skill 1 version of this move)",
                     "Startup if used after f+HK kara: 14~16",
-                    "Startup if used after f+MK kara: 20-23",
-                    "Counterhit state for the entire duration"
+                    "Startup if used after f+MK kara: 23",
+                    "Juggle Limit: 2 (3 with V-Skill 1 version)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 39
+                "i": 41
             },
             "HP Tiger Uppercut": {
                 "moveName": "HP Tiger Uppercut",
@@ -1197,7 +1277,7 @@
                 "recovery": "32+16",
                 "total": 64,
                 "onHit": "KD",
-                "onBlock": "-39(-34)",
+                "onBlock": -39,
                 "damage": "130(110)",
                 "stun": "150(120)",
                 "kd": 74,
@@ -1214,19 +1294,18 @@
                     "Throw invincible on frames 1-9",
                     "Invincible to airborne strikes on frames 1-16",
                     "Airborne on frames 10-48",
+                    "Sagat is in a counter-hit state for the entire duration",
+                    "Cannot hit crossups",
                     "Deals 20 less damage (110) and 30 less stun (120) after the first 2 active frames",
-                    "Deals 30 more damage and stun on the V-Skill version",
-                    "Has increased knockback distance (but no difference in KDA) and increased hitfreeze (helps with confirms and blowing through projectiles on screen) on the V-Skill 1 version",
-                    "Less negative on block (-34 instead of -39) on the V-Skill 1 version",
-                    "Juggle Limit: 2 (3 with V-Skill 1 version)",
+                    "Has increased damage / stun / KDA / knockback / hitstop / Juggle Limit on the V-Skill 1 version (see more details on the V-Skill 1 version of this move)",
                     "Startup if used after f+HK kara: 16~18",
-                    "Startup if used after f+MK kara: 22-25",
-                    "Counterhit state for the entire duration"
+                    "Startup if used after f+MK kara: 25",
+                    "Juggle Limit: 2 (3 with V-Skill 1 version)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 40
+                "i": 42
             },
             "EX Tiger Uppercut": {
                 "moveName": "EX Tiger Uppercut",
@@ -1234,16 +1313,16 @@
                 "numCmd": "623PP",
                 "cmnName": "EX DP",
                 "startup": 4,
-                "active": 9,
+                "active": "2*2*1*1*1*2",
                 "recovery": "32+20",
                 "total": 64,
                 "onHit": "KD",
-                "onBlock": -38,
+                "onBlock": "-38(-39)",
                 "damage": "60*20x5 (160)",
-                "stun": "90*110",
-                "kd": "77(90)",
-                "kdr": "18(31)",
-                "kdrb": "23(36)",
+                "stun": "90*11",
+                "kd": 77,
+                "kdr": 18,
+                "kdrb": 23,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1251,35 +1330,205 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-10",
                     "Airborne on frames 7-44",
-                    "Juggle Limit: 20",
-                    "Deals 20 more damage and 30 more stun on the V-Skill version",
-                    "Has increased hitfreeze (helps with confirms and blowing through projectiles on screen) on the V-Skill 1 version",
-                    "Has increased knockdown advantage on V-Skill 1 version",
+                    "Cannot hit crossups",
+                    "Sagat is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Has increased damage / stun / KDA / knockback / hitstop / Juggle Limit on the V-Skill 1 version (see more details on the V-Skill 1 version of this move)",
+                    "-39 against crouching opponents",
                     "Startup if used after f+HK kara: 12~14",
-                    "Startup if used after f+MK kara: 18-21",
-                    "Sagat is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
+                    "Startup if used after f+MK kara: 21",
+                    "Juggle Limit: 20"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 41
+                "i": 43
+            },
+            "LP Tiger Uppercut (V-Skill 2)": {
+                "moveName": "LP Tiger Uppercut (V-Skill 2)",
+                "plnCmd": "f,d,df+LP",
+                "numCmd": "623LP",
+                "cmnName": "LP DP (VS2)",
+                "startup": 4,
+                "active": 9,
+                "recovery": "31+12",
+                "total": 55,
+                "onHit": "KD",
+                "onBlock": -34,
+                "damage": "160(140)",
+                "stun": "180(150)",
+                "kd": 84,
+                "kdr": 25,
+                "kdrb": 30,
+                "attackLevel": "H",
+                "cancelsTo": [
+                    "su"
+                ],
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Invincible to airborne strikes on frames 1-12",
+                    "Airborne on frames 6-43",
+                    "Sagat is in a counter-hit state for the entire duration",
+                    "Cannot hit crossups",
+                    "Deals 20 less damage (140) and 30 less stun (150) after the first 2 active frames",
+                    "This V-Skill 1 version deals 30 more damage and stun than a regular LP DP",
+                    "This V-Skill 1 version has increased knockback distance as well as +10 extra KDA",
+                    "This V-Skill 1 version has increased hitfreeze which helps with confirms and blowing through projectiles on screen",
+                    "This V-Skill 1 version is less negative on block (-34 instead of -39) than a regular LP DP",
+                    "Startup if used after f+HK kara: 12~14",
+                    "Startup if used after f+MK kara: 21",
+                    "Juggle Limit: 2 (3 with V-Skill 1 version)",
+                    "Builds 80/40 V-Gauge on Hit / Block and an extra 20 V-Gauge on use (1 V-Bar = 300 Gauge)"
+                ],
+                "moveType": "special",
+                "moveMotion": "DP",
+                "moveButton": "LP",
+                "movesList": "V-Skill 1",
+                "i": 44
+            },
+            "MP Tiger Uppercut (V-Skill 2)": {
+                "moveName": "MP Tiger Uppercut (V-Skill 2)",
+                "plnCmd": "f,d,df+MP",
+                "numCmd": "623MP",
+                "cmnName": "MP DP (VS2)",
+                "startup": 6,
+                "active": 9,
+                "recovery": "31+12",
+                "total": 57,
+                "onHit": "KD",
+                "onBlock": -34,
+                "damage": "160(140)",
+                "stun": "180(150)",
+                "kd": 84,
+                "kdr": 25,
+                "kdrb": 30,
+                "attackLevel": "H",
+                "cancelsTo": [
+                    "su"
+                ],
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Strike and Projectile invincible on frames 3-7",
+                    "Airborne on frames 8-45",
+                    "Sagat is in a counter-hit state for the entire duration",
+                    "Cannot hit crossups",
+                    "Deals 20 less damage (110) and 30 less stun (120) after the first 2 active frames",
+                    "This V-Skill 1 version deals 30 more damage and stun than a regular MP DP",
+                    "This V-Skill 1 version has increased knockback distance as well as +10 extra KDA",
+                    "This V-Skill 1 version has increased hitfreeze which helps with confirms and blowing through projectiles on screen",
+                    "This V-Skill 1 version is less negative on block (-34 instead of -39) than a regular MP DP",
+                    "Startup if used after f+HK kara: 14~16",
+                    "Startup if used after f+MK kara: 23",
+                    "Juggle Limit: 2 (3 with V-Skill 1 version)",
+                    "Builds 80/40 V-Gauge on Hit / Block and an extra 20 V-Gauge on use (1 V-Bar = 300 Gauge)"
+                ],
+                "moveType": "special",
+                "moveMotion": "DP",
+                "moveButton": "MP",
+                "i": 45
+            },
+            "HP Tiger Uppercut (V-Skill 2)": {
+                "moveName": "HP Tiger Uppercut (V-Skill 2)",
+                "plnCmd": "f,d,df+HP",
+                "numCmd": "623HP",
+                "cmnName": "HP DP (VS2)",
+                "startup": 8,
+                "active": 9,
+                "recovery": "32+11",
+                "total": 59,
+                "onHit": "KD",
+                "onBlock": -34,
+                "damage": "160(140)",
+                "stun": "180(150)",
+                "kd": 84,
+                "kdr": 25,
+                "kdrb": 30,
+                "attackLevel": "H",
+                "cancelsTo": [
+                    "su"
+                ],
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Throw invincible on frames 1-9",
+                    "Invincible to airborne strikes on frames 1-16",
+                    "Airborne on frames 10-48",
+                    "Sagat is in a counter-hit state for the entire duration",
+                    "Cannot hit crossups",
+                    "Deals 20 less damage (110) and 30 less stun (120) after the first 2 active frames",
+                    "This V-Skill 1 version deals 30 more damage and stun than a regular HP DP",
+                    "This V-Skill 1 version has increased knockback distance as well as +10 extra KDA",
+                    "This V-Skill 1 version has increased hitfreeze which helps with confirms and blowing through projectiles on screen",
+                    "This V-Skill 1 version is less negative on block (-34 instead of -39) than a regular HP DP",
+                    "Less negative on block (-34 instead of -39) on the V-Skill 1 version",
+                    "Startup if used after f+HK kara: 16~18",
+                    "Startup if used after f+MK kara: 25",
+                    "Juggle Limit: 2 (3 with V-Skill 1 version)",
+                    "Builds 80/40 V-Gauge on Hit / Block and an extra 20 V-Gauge on use (1 V-Bar = 300 Gauge)"
+                ],
+                "moveType": "special",
+                "moveMotion": "DP",
+                "moveButton": "HP",
+                "i": 46
+            },
+            "EX Tiger Uppercut (V-Skill 2)": {
+                "moveName": "EX Tiger Uppercut (V-Skill 2)",
+                "plnCmd": "f,d,df+PP",
+                "numCmd": "623PP",
+                "cmnName": "EX DP (VS2)",
+                "startup": 4,
+                "active": "2*2*1*1*1*2",
+                "recovery": "32+20",
+                "total": 64,
+                "onHit": "KD",
+                "onBlock": "-38(-39)",
+                "damage": "80*20x5 (180)",
+                "stun": "100*130",
+                "kd": 90,
+                "kdr": 31,
+                "kdrb": 36,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible on frames 1-10",
+                    "Airborne on frames 7-44",
+                    "Cannot hit crossups",
+                    "Sagat is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "This V-Skill 1 version deals 30 more damage and stun than a regular EX DP",
+                    "This V-Skill 1 version has increased knockback distance as well as +13 extra KDA (has 9 less landing recovery frames on hit only for better oki)",
+                    "This V-Skill 1 version has increased hitfreeze which helps with confirms and blowing through projectiles on screen",
+                    "Startup if used after f+HK kara: 12~14",
+                    "Startup if used after f+MK kara: 21",
+                    "Juggle Limit: 20",
+                    "Builds 80/40 V-Gauge on Hit / Block and an extra 20 V-Gauge on use (1 V-Bar = 300 Gauge)"
+                ],
+                "moveType": "special",
+                "moveMotion": "DP",
+                "moveButton": "2P",
+                "i": 47
             },
             "LK Tiger Knee Crush": {
                 "moveName": "LK Tiger Knee Crush",
                 "plnCmd": "f,d,df+LK",
                 "numCmd": "623LK",
                 "cmnName": "LK Knee",
-                "startup": 12,
+                "startup": "12(7)",
                 "active": 7,
-                "recovery": "8+13(8+15)",
-                "total": "39(41)",
+                "recovery": "8+12(8+15)",
+                "total": "38(41)",
                 "onHit": "KD",
-                "onBlock": "-6(0)",
+                "onBlock": "-5(1)",
                 "damage": 80,
                 "stun": 150,
-                "kd": "93(99)",
-                "kdr": "34(40)",
-                "kdrb": "39(45)",
+                "kd": "94(100)",
+                "kdr": "35(41)",
+                "kdrb": "40(46)",
                 "attackLevel": "H",
                 "airmove": true,
                 "followUp": false,
@@ -1288,26 +1537,29 @@
                     "Airborne on frames 11-26",
                     "Can corpse hop",
                     "Cannot hit cross-up",
-                    "2 extra landing recovery frames on whiff (as shown in the parentheses data)",
+                    "3 extra landing recovery frames on whiff (as shown in the parentheses data)",
                     "Block and knockdown advantage with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
+                    "Startup if used after f+HK kara: 16~18",
+                    "Startup if used after f+MK kara: 25",
                     "Juggle Limit / Increase / Start: 3 / 3 / 3"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 42
+                "movesList": "Special",
+                "i": 48
             },
             "MK Tiger Knee Crush": {
                 "moveName": "MK Tiger Knee Crush",
                 "plnCmd": "f,d,df+MK",
                 "numCmd": "623MK",
                 "cmnName": "MK Knee",
-                "startup": 14,
+                "startup": "14(9)",
                 "active": 9,
                 "recovery": "9+9(9+11)",
                 "total": "40(42)",
                 "onHit": "KD",
-                "onBlock": "-9(-1)",
+                "onBlock": "-7(1)",
                 "damage": 90,
                 "stun": 150,
                 "kd": "90(98)",
@@ -1323,19 +1575,21 @@
                     "Cannot hit cross-up",
                     "2 extra landing recovery frames on whiff (as shown in the parentheses data)",
                     "Block and knockdown advantage with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
+                    "Startup if used after f+HK kara: 18~20",
+                    "Startup if used after f+MK kara: 27",
                     "Juggle Limit / Increase / Start: 3 / 3 / 3"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 43
+                "i": 49
             },
             "HK Tiger Knee Crush": {
                 "moveName": "HK Tiger Knee Crush",
                 "plnCmd": "f,d,df+HK",
                 "numCmd": "623HK",
                 "cmnName": "HK Knee",
-                "startup": 20,
+                "startup": "20(15)",
                 "active": 11,
                 "recovery": "7+10(7+14)",
                 "total": "47(51)",
@@ -1356,19 +1610,21 @@
                     "Cannot hit cross-up",
                     "4 extra landing recovery frames on whiff (as shown in the parentheses data)",
                     "Block and knockdown advantage with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
+                    "Startup if used after f+HK kara: 24~26",
+                    "Startup if used after f+MK kara: 33",
                     "Juggle Limit / Increase / Start: 3 / 3 / 3"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 44
+                "i": 50
             },
             "EX Tiger Knee Crush": {
                 "moveName": "EX Tiger Knee Crush",
                 "plnCmd": "f,d,df+KK",
                 "numCmd": "623KK",
                 "cmnName": "EX Knee",
-                "startup": 14,
+                "startup": "14(9)",
                 "active": 9,
                 "recovery": "7+11",
                 "total": 40,
@@ -1388,19 +1644,21 @@
                     "Cannot hit cross-up",
                     "Active / Recovery frames shown refers to the version that plays out on whiff (transitions into a follow-up move on hit)",
                     "Framedata advantage on block with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
+                    "Startup if used after f+HK kara: 18~20",
+                    "Startup if used after f+MK kara: 27",
                     "Juggle Limit / Increase / Start: 10 / 1 / 5"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2K",
-                "i": 45
+                "i": 51
             },
             "LK Tiger Knee Crush (V-Skill 2)": {
                 "moveName": "LK Tiger Knee Crush (V-Skill 2)",
                 "plnCmd": "f,d,df+LK",
                 "numCmd": "623LK",
                 "cmnName": "LK Knee (VS2)",
-                "startup": 12,
+                "startup": "12(7)",
                 "active": 7,
                 "recovery": "8+11(8+15)",
                 "total": "37(41)",
@@ -1421,25 +1679,29 @@
                     "Cannot hit cross-up",
                     "4 extra landing recovery frames on whiff (as shown in the parentheses data)",
                     "Block and knockdown advantage with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
-                    "Juggle Limit / Increase / Start: 3 / 0 / 3",
-                    "V-Skill 2 version has no knee hurtbox (way stronger hitbox priority) | improved on block advantage (-0 up to +6) | 2F less recovery frames on hit/block | Increased KDA | And improved juggles (Juggle Increase: 0)"
+                    "Startup if used after f+HK kara: 16~18",
+                    "Startup if used after f+MK kara: 25",
+                    "Juggle Limit / Increase / Start: 4 / 0 / 3",
+                    "V-Skill 2 version has no knee hurtbox (way stronger hitbox priority) | improved on block advantage (-0 up to +6) | 2F less recovery frames on hit/block | Increased KDA | And improved juggles (Juggle Increase: 0)",
+                    "Builds 40/20 V-Gauge on Hit / Block and an extra 20 V-Gauge on use (1 V-Bar = 300 Gauge)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 46
+                "movesList": "V-Skill 2",
+                "i": 52
             },
             "MK Tiger Knee Crush (V-Skill 2)": {
                 "moveName": "MK Tiger Knee Crush (V-Skill 2)",
                 "plnCmd": "f,d,df+MK",
                 "numCmd": "623MK",
                 "cmnName": "MK Knee (VS2)",
-                "startup": 14,
+                "startup": "14(9)",
                 "active": 9,
                 "recovery": "9+7(9+11)",
                 "total": "38(42)",
                 "onHit": "KD",
-                "onBlock": "-4(4)",
+                "onBlock": "-2(6)",
                 "damage": 90,
                 "stun": 150,
                 "kd": "96(104)",
@@ -1453,22 +1715,25 @@
                     "Airborne on frames 13-31",
                     "Can corpse hop",
                     "Cannot hit cross-up",
-                    "2 extra landing recovery frames on whiff (as shown in the parentheses data)",
+                    "4 extra landing recovery frames on whiff (as shown in the parentheses data)",
                     "Block and knockdown advantage with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
-                    "Juggle Limit / Increase / Start: 3 / 0 / 3",
-                    "V-Skill 2 version has no knee hurtbox (way stronger hitbox priority) | improved on block advantage (-4 up to +4) | 2F less recovery frames on hit/block | Increased KDA | And improved juggles (Juggle Increase: 0)"
+                    "Startup if used after f+HK kara: 18~20",
+                    "Startup if used after f+MK kara: 27",
+                    "Juggle Limit / Increase / Start: 4 / 0 / 3",
+                    "V-Skill 2 version has no knee hurtbox (way stronger hitbox priority) | improved on block advantage (-4 up to +4) | 2F less recovery frames on hit/block | Increased KDA | And improved juggles (Juggle Increase: 0)",
+                    "Builds 40/20 V-Gauge on Hit / Block and an extra 20 V-Gauge on use (1 V-Bar = 300 Gauge)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 47
+                "i": 53
             },
             "HK Tiger Knee Crush (V-Skill 2)": {
                 "moveName": "HK Tiger Knee Crush (V-Skill 2)",
                 "plnCmd": "f,d,df+HK",
                 "numCmd": "623HK",
                 "cmnName": "HK Knee (VS2)",
-                "startup": 20,
+                "startup": "20(15)",
                 "active": 11,
                 "recovery": "7+8(7+14)",
                 "total": "45(51)",
@@ -1487,22 +1752,25 @@
                     "Airborne on frames 19-37",
                     "Can corpse hop",
                     "Cannot hit cross-up",
-                    "4 extra landing recovery frames on whiff (as shown in the parentheses data)",
+                    "6 extra landing recovery frames on whiff (as shown in the parentheses data)",
                     "Block and knockdown advantage with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
-                    "Juggle Limit / Increase / Start: 3 / 0 / 3",
-                    "V-Skill 2 version has no knee hurtbox (way stronger hitbox priority) | improved on block advantage (-2 up to +8) | 2F less recovery frames on hit/block | Increased KDA | And improved juggles (Juggle Increase: 0)"
+                    "Startup if used after f+HK kara: 24~26",
+                    "Startup if used after f+MK kara: 33",
+                    "Juggle Limit / Increase / Start: 4 / 0 / 3",
+                    "V-Skill 2 version has no knee hurtbox (way stronger hitbox priority) | improved on block advantage (-2 up to +8) | 2F less recovery frames on hit/block | Increased KDA | And improved juggles (Juggle Increase: 0)",
+                    "Builds 40/20 V-Gauge on Hit / Block and an extra 20 V-Gauge on use (1 V-Bar = 300 Gauge)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 48
+                "i": 54
             },
             "EX Tiger Knee Crush (V-Skill 2)": {
                 "moveName": "EX Tiger Knee Crush (V-Skill 2)",
                 "plnCmd": "f,d,df+KK",
                 "numCmd": "623KK",
                 "cmnName": "EX Knee (VS2)",
-                "startup": 14,
+                "startup": "14(9)",
                 "active": 9,
                 "recovery": "7+9",
                 "total": 38,
@@ -1522,13 +1790,16 @@
                     "Cannot hit cross-up",
                     "Active / Recovery frames shown refers to the version that plays out on whiff (transitions into a follow-up move on hit)",
                     "Framedata advantage on block with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
+                    "Startup if used after f+HK kara: 18~20",
+                    "Startup if used after f+MK kara: 27",
                     "Juggle Limit / Increase / Start: 10 / 1 / 5",
-                    "V-Skill 2 version has no knee hurtbox (way stronger hitbox priority) | improved on block advantage (0 up to +8) | 2F less recovery frames on hit/block"
+                    "V-Skill 2 version has no knee hurtbox (way stronger hitbox priority) | improved on block advantage (0 up to +8) | 2F less recovery frames on hit/block",
+                    "Builds 40/20 V-Gauge on Hit / Block and an extra 20 V-Gauge on use (1 V-Bar = 300 Gauge)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2K",
-                "i": 49
+                "i": 55
             },
             "Tiger Rampage": {
                 "moveName": "Tiger Rampage",
@@ -1559,8 +1830,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 50
-            }
+                "movesList": "Super",
+                "i": 56
+            },
+            "input": "None"
         },
         "vtOne": {
             "Tiger Cannon": {
@@ -1584,6 +1857,8 @@
                 "projectile": true,
                 "extraInfo": [
                     "5-hit projectile",
+                    "Projectile speed: 1.20",
+                    "Can be thrown even if there is another projectile thrown by Sagat still on screen",
                     "Projectile invincible on any extended limb hurtboxes on frames 1-35",
                     "Uses 50% V-Meter",
                     "Launches the opponent on hit into a limited juggle state",
@@ -1592,8 +1867,10 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 26.01
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Tiger Spike (level 1)": {
@@ -1629,6 +1906,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 27.01
             },
             "Tiger Spike (level 2)": {
@@ -1664,6 +1942,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 27.02
             },
             "Tiger Spike (level 3)": {
@@ -1676,7 +1955,7 @@
                 "recovery": 19,
                 "total": 70,
                 "onHit": "KD",
-                "onBlock": 25,
+                "onBlock": "25(GB)",
                 "damage": 140,
                 "stun": 200,
                 "kd": 111,
@@ -1699,6 +1978,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 27.03
             },
             "Tiger Rush": {
@@ -1733,8 +2013,10 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 27.04
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
@@ -1750,7 +2032,7 @@
         "bDash": 24,
         "bDashCHFrames": "3-10",
         "color": "#B86412",
-        "phrase": "Your words are not needed.",
+        "phrase": "Your words are not needed",
         "fWalk": 3.65,
         "bWalk": 2.77,
         "fJumpDist": 179.4,

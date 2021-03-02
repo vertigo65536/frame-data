@@ -13,6 +13,8 @@
                 "onBlock": 3,
                 "vtc1OnHit": 1,
                 "vtc1OnBlock": 0,
+                "damage": 30,
+                "stun": 70,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -40,6 +42,12 @@
                 "onBlock": -2,
                 "vtc1OnHit": 9,
                 "vtc1OnBlock": 5,
+                "damage": 50,
+                "stun": 100,
+                "hcWinSpCa": "*15",
+                "hcWinTc": 16,
+                "hcWinVt": 14,
+                "hcWinNotes": "*VS1 specials only (Menat orb recall = 14f)",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "ia",
@@ -70,6 +78,10 @@
                 "onBlock": -4,
                 "vtc1OnHit": 16,
                 "vtc1OnBlock": 7,
+                "damage": 80,
+                "stun": 150,
+                "hcWinSpCa": 17,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -81,7 +93,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "-3 less frames of recovery on block"
+                    "3 less frames of recovery on block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -100,6 +112,8 @@
                 "onBlock": 3,
                 "vtc1OnHit": 6,
                 "vtc1OnBlock": 5,
+                "damage": 40,
+                "stun": 70,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -130,6 +144,11 @@
                 "onBlock": -2,
                 "vtc1OnHit": 10,
                 "vtc1OnBlock": 7,
+                "damage": 70,
+                "stun": 100,
+                "hcWinSpCa": "*16",
+                "hcWinVt": 14,
+                "hcWinNotes": "*VS1 specials only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "ia",
@@ -159,6 +178,11 @@
                 "onBlock": "-6(-10)",
                 "vtc1OnHit": "KD (+117/58/63)",
                 "vtc1OnBlock": "8(4)",
+                "damage": "40*40 (80)",
+                "stun": "70*80 (150)",
+                "hcWinSpCa": "*27",
+                "hcWinVt": 19,
+                "hcWinNotes": "*26f for cancel into VS2, 21f for Gill stolen VS1 move, 18f for Ibuki and Menat stolen VS1 moves",
                 "kd": 103,
                 "kdr": 44,
                 "kdrb": 49,
@@ -199,6 +223,8 @@
                 "onBlock": 2,
                 "vtc1OnHit": 2,
                 "vtc1OnBlock": 0,
+                "damage": 30,
+                "stun": 70,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -229,6 +255,10 @@
                 "onBlock": 2,
                 "vtc1OnHit": 10,
                 "vtc1OnBlock": 7,
+                "damage": 60,
+                "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -252,6 +282,7 @@
                 "moveName": "Crouch HP",
                 "plnCmd": "d+HP",
                 "numCmd": "2HP",
+                "cmnName": "Slide",
                 "startup": 12,
                 "active": 4,
                 "recovery": 26,
@@ -260,6 +291,11 @@
                 "onBlock": -10,
                 "vtc1OnHit": "KD (+87/38/43)",
                 "vtc1OnBlock": 8,
+                "damage": 80,
+                "stun": 150,
+                "hcWinSpCa": "*18",
+                "hcWinVt": 18,
+                "hcWinNotes": "*VS1 specials only",
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
@@ -273,7 +309,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Low profiles and is Projectile invincible on upper body during frames 8-40"
+                    "Low profiles and is Projectile invincible on upper body during frames 8-40",
+                    "-6 oB on last active frame"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -292,6 +329,8 @@
                 "onBlock": 2,
                 "vtc1OnHit": 0,
                 "vtc1OnBlock": -1,
+                "damage": 20,
+                "stun": 70,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "ia",
@@ -321,6 +360,10 @@
                 "onBlock": -2,
                 "vtc1OnHit": 6,
                 "vtc1OnBlock": 1,
+                "damage": 60,
+                "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 14,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -352,6 +395,11 @@
                 "onBlock": -4,
                 "vtc1OnHit": 14,
                 "vtc1OnBlock": 8,
+                "damage": 90,
+                "stun": 150,
+                "hcWinSpCa": "*18",
+                "hcWinVt": 18,
+                "hcWinNotes": "*CA and VS1 specials",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -376,6 +424,8 @@
                 "numCmd": "j.LP",
                 "startup": 4,
                 "active": 5,
+                "damage": 40,
+                "stun": 70,
                 "attackLevel": "M",
                 "airmove": true,
                 "followUp": false,
@@ -391,6 +441,8 @@
                 "numCmd": "j.MP",
                 "startup": 7,
                 "active": "2*4",
+                "damage": "35*35",
+                "stun": "50*50",
                 "attackLevel": "M",
                 "cancelsTo": [
                     "sp"
@@ -414,6 +466,8 @@
                 "numCmd": "j.HP",
                 "startup": 9,
                 "active": 6,
+                "damage": 90,
+                "stun": 150,
                 "attackLevel": "M",
                 "airmove": true,
                 "followUp": false,
@@ -429,10 +483,16 @@
                 "numCmd": "j.LK",
                 "startup": 4,
                 "active": 6,
+                "damage": 40,
+                "stun": 70,
                 "attackLevel": "M",
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Cross-up",
+                    "Mid-air dab attack!"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LK",
@@ -444,6 +504,8 @@
                 "numCmd": "j.MK",
                 "startup": 7,
                 "active": 7,
+                "damage": 60,
+                "stun": 100,
                 "attackLevel": "M",
                 "airmove": true,
                 "followUp": false,
@@ -459,6 +521,8 @@
                 "numCmd": "j.HK",
                 "startup": 10,
                 "active": 5,
+                "damage": 80,
+                "stun": 150,
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": false,
@@ -476,12 +540,19 @@
                 "moveName": "Step Shoot",
                 "plnCmd": "f+MP",
                 "numCmd": "6MP",
+                "cmnName": "f+MP",
                 "startup": 9,
                 "active": 3,
                 "recovery": 17,
                 "total": 29,
                 "onHit": 2,
                 "onBlock": -2,
+                "damage": 60,
+                "stun": 100,
+                "hcWinSpCa": "**15",
+                "hcWinTc": 18,
+                "hcWinVt": 15,
+                "hcWinNotes": "**VS1 Menat orb recall only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -496,12 +567,14 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Hazard Blow": {
                 "moveName": "Hazard Blow",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
+                "cmnName": "f+HP",
                 "startup": 20,
                 "active": 3,
                 "recovery": 23,
@@ -510,14 +583,17 @@
                 "onBlock": -4,
                 "vtc1OnHit": 14,
                 "vtc1OnBlock": 9,
+                "damage": 90,
+                "stun": 150,
+                "hcWinSpCa": "*19/**17",
+                "hcWinVt": 18,
+                "hcWinNotes": "*CA and **VS1 Menat orb recall",
                 "kd": 85,
                 "kdr": 53,
                 "kdrb": 53,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "C",
-                    "vG": "+120"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "C",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -533,6 +609,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Head Hunter": {
@@ -546,6 +623,10 @@
                 "total": 45,
                 "onHit": 1,
                 "onBlock": -7,
+                "damage": 80,
+                "stun": 150,
+                "hcWinSpCa": "**18",
+                "hcWinNotes": "**VS1 Menat orb recall only",
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": false,
@@ -557,6 +638,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Turning Slicer": {
@@ -572,6 +654,11 @@
                 "onBlock": -2,
                 "vtc1OnHit": 10,
                 "vtc1OnBlock": 4,
+                "damage": 90,
+                "stun": 150,
+                "hcWinSpCa": "**17",
+                "hcWinTc": 17,
+                "hcWinNotes": "**VS1 Menat orb recall only",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -587,6 +674,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Twin Claw": {
@@ -601,6 +689,12 @@
                 "onBlock": -12,
                 "vtc1OnHit": 4,
                 "vtc1OnBlock": -3,
+                "damage": "50*54 (104)",
+                "stun": "100*90 (190)",
+                "hcWinSpCa": 20,
+                "hcWinTc": 16,
+                "hcWinVt": 20,
+                "hcWinNotes": "*specials on hit only; 33f for VS1 cancel on hit",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "sp",
@@ -619,6 +713,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Tanden Combination": {
@@ -630,6 +725,9 @@
                 "active": 25,
                 "recovery": 19,
                 "onHit": 2,
+                "damage": "50*54*8*42 (154)",
+                "stun": "100*90 (190)",
+                "hcWinTc": 22,
                 "attackLevel": "H*H*H",
                 "airmove": false,
                 "followUp": true,
@@ -641,6 +739,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Shoot Slicer": {
@@ -650,11 +749,17 @@
                 "cmnName": "f+MP > HK",
                 "startup": "9+11",
                 "active": 3,
-                "recovery": 21,
+                "recovery": "21(24)",
                 "onHit": 2,
-                "onBlock": -5,
+                "onBlock": -8,
                 "vtc1OnHit": 12,
                 "vtc1OnBlock": 5,
+                "damage": "60*54 (114)",
+                "stun": "100*72 (172)",
+                "hcWinSpCa": "**15",
+                "hcWinTc": 15,
+                "hcWinVt": 15,
+                "hcWinNotes": "**VS1 Menat orb recall only",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt1",
@@ -664,11 +769,14 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancelable into Install Art: Menat Orb Recall"
+                    "Cancelable into Install Art: Menat Orb Recall",
+                    "+3 extra recovery on block (24F)",
+                    "+5 extra recovery frames on whiff (26F) if that somehow happens"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 25
             },
             "Fatal Rush": {
@@ -683,6 +791,12 @@
                 "onBlock": -12,
                 "vtc1OnHit": "KD (+97/38/43)",
                 "vtc1OnBlock": 8,
+                "damage": "60*54*56 (170)",
+                "stun": "100*72*80 (252)",
+                "hcWinSpCa": "**18",
+                "hcWinTc": 19,
+                "hcWinVt": 18,
+                "hcWinNotes": "**VS1 Menat orb recall only",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -700,6 +814,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 26
             },
             "Death Throw (fwd)": {
@@ -714,9 +829,9 @@
                 "onHit": "KD",
                 "damage": 130,
                 "stun": 150,
-                "kd": 64,
-                "kdr": 15,
-                "kdrb": 15,
+                "kd": 61,
+                "kdr": 12,
+                "kdrb": 12,
                 "attackLevel": "T",
                 "airmove": "throw",
                 "followUp": "N",
@@ -763,7 +878,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "3 bar V-Trigger",
-                    "Duration of 4000 frames (~66.66 seconds)",
+                    "Duration of 3000 frames (50 seconds)",
                     "Gives access to V-Trigger 1 followups which can be canceled into from most of Seth's normals and specials",
                     "The recovery frames listed in the parentheses (20) refer to when canceling into V-Trigger 1 activation from Twin Claw (MP > HP)",
                     "Has 1 frame of invincibility on activation if canceled into V-Trigger 1 from Twin Claw (MP > HP)"
@@ -771,6 +886,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "nonHittingMove": true,
                 "i": 29
             },
             "Tanden Maneuver": {
@@ -803,6 +919,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 30
             },
             "Tanden Explode": {
@@ -832,6 +949,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 31
             },
             "Tanden Engine": {
@@ -847,6 +965,8 @@
                 "onBlock": -2,
                 "damage": 10,
                 "stun": 0,
+                "hcWinSpCa": "*28",
+                "hcWinNotes": "*into VS1 Steal",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -859,6 +979,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 32
             },
             "Tanden Install": {
@@ -890,6 +1011,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 1",
                 "i": 33
             },
             "Install Art | [Abigail] Abigail Punch": {
@@ -1020,7 +1142,7 @@
                     "Hard Knockdown",
                     "Airborne frames 10-28",
                     "Only canceled version can hit airborne opponents",
-                    "Cancelable into Mad Spin (Air Drill) and V-Trigger 2"
+                    "Cancelable into Mad Spin Special Edition (Teleport Stomp) and V-Trigger 2"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -1229,6 +1351,41 @@
                 "moveButton": "MPMK",
                 "i": 43
             },
+            "Install Art | [Dan] Dankukyaku": {
+                "moveName": "Install Art | [Dan] Dankukyaku",
+                "plnCmd": "MP+MK (Dan)",
+                "numCmd": "MPMK (Dan)",
+                "cmnName": "[Dan] Dankukyaku",
+                "startup": 16,
+                "active": "3(9)3(10)3",
+                "recovery": "12+11",
+                "total": 66,
+                "onHit": "KD",
+                "onBlock": -4,
+                "damage": "20*30*40 (90)",
+                "stun": "20*50*50 (120)",
+                "kd": 87,
+                "kdr": 28,
+                "kdrb": 33,
+                "attackLevel": "H",
+                "cancelsTo": [
+                    "vt1"
+                ],
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Airborne on frames 12-55",
+                    "Can corpse hop",
+                    "Cancelable into Cyclone Disaster (Teleport Spin Kick)",
+                    "Puts airborne opponents into a limited juggle state",
+                    "Juggle Limit / Increase / Start: 10*11*12 / 1*1*1 / 1*1*1"
+                ],
+                "moveType": "vskill",
+                "moveMotion": "N",
+                "moveButton": "MPMK",
+                "i": 43.01
+            },
             "Install Art | [Dhalsim] Yoga Flame": {
                 "moveName": "Install Art | [Dhalsim] Yoga Flame",
                 "plnCmd": "MP+MK (Dhalsim)",
@@ -1310,12 +1467,12 @@
                 "recovery": "11+16(~)",
                 "total": 66,
                 "onHit": "KD",
-                "onBlock": -12,
-                "damage": "120(90)",
+                "onBlock": -4,
+                "damage": "120(100)",
                 "stun": "150(100)",
-                "kd": 85,
-                "kdr": 26,
-                "kdrb": 31,
+                "kd": 93,
+                "kdr": 34,
+                "kdrb": 39,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1333,7 +1490,7 @@
                     "Startup frames listed refer to the start of the grounded Sumo Headbutt (startup of airborne Sumo Headbutt is shown in the parantheses data)",
                     "Recovery and Total frames listed refers to the whiffed version (11+20 recovery frames on hit / 11+16 recovery frames on block)",
                     "Has fixed KDA (KDA does not vary depending on distance traveled)",
-                    "Cancelable into Titanomachy (Teleport Punch), V-Trigger 2 and super during first 3 active frames only",
+                    "Cancelable into Titanomachy (Teleport Punch), V-Trigger 2 and Super",
                     "Juggle Limit / Increase / Start: 10 / 1 / 1"
                 ],
                 "moveType": "vskill",
@@ -1396,7 +1553,7 @@
                 "extraInfo": [
                     "Spawns Trap which is a 1-hit projectile hitbox that lasts for 120 frames",
                     "Seth's extended hands are projectile invincible during frames 21-27",
-                    "Cancelable into Titanomachy (Teleport Punch), V-Trigger 2, and super"
+                    "Cancelable into Titanomachy (Teleport Punch), V-Trigger 2, and Super"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2622,12 +2779,13 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 86
             },
             "Hecatoncheires Glide": {
                 "moveName": "Hecatoncheires Glide",
-                "plnCmd": "MP+MK > qcf+P (VS2)",
-                "numCmd": "MPMK > 236P (VS2)",
+                "plnCmd": "MP+MK (VS2) > qcf+P",
+                "numCmd": "MPMK (VS2) > 236P",
                 "cmnName": "V-Skill 2 Rapid Punch",
                 "startup": "11+14",
                 "active": "2(4)2(4)2(4)2(4)2(4)2(4)2(4)2",
@@ -2650,12 +2808,13 @@
                 "moveType": "vskill",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
+                "movesList": "V-Skill 2",
                 "i": 87
             },
             "Mad Spiral": {
                 "moveName": "Mad Spiral",
-                "plnCmd": "MP+MK > f,df,f+P (VS2)",
-                "numCmd": "MPMK > 623P (VS2)",
+                "plnCmd": "MP+MK (VS2) > f,df,f+P",
+                "numCmd": "MPMK (VS2) > 623P",
                 "cmnName": "V-Skill 2 DP",
                 "startup": "11+7",
                 "active": 18,
@@ -2684,12 +2843,13 @@
                 "moveType": "vskill",
                 "moveMotion": "DP",
                 "moveButton": "1P",
+                "movesList": "V-Skill 2",
                 "i": 88
             },
             "Spin Pendulum": {
                 "moveName": "Spin Pendulum",
-                "plnCmd": "MP+MK > qcb+K (VS2)",
-                "numCmd": "MPMK > 214K (VS2)",
+                "plnCmd": "MP+MK (VS2) > qcb+K",
+                "numCmd": "MPMK (VS2) > 214K",
                 "cmnName": "V-Skill 2 Tatsu",
                 "startup": "11+5",
                 "active": "2(2)2(2)2(2)2(2)2(10)3",
@@ -2716,12 +2876,13 @@
                 "moveType": "vskill",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
+                "movesList": "V-Skill 2",
                 "i": 89
             },
             "Tanden Booster (Stop)": {
                 "moveName": "Tanden Booster (Stop)",
-                "plnCmd": "MP+MK > MP+MK (VS2)",
-                "numCmd": "MPMK > MPMK (VS2)",
+                "plnCmd": "MP+MK (VS2) > MP+MK",
+                "numCmd": "MPMK (VS2) > MPMK",
                 "cmnName": "V-Skill 2 Stop",
                 "startup": 11,
                 "recovery": 19,
@@ -2736,6 +2897,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 90
             },
             "Calamity Shutter": {
@@ -2764,7 +2926,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 91
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 0.95 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 92
+            },
+            "Hell's Punishment": {
+                "moveName": "Hell's Punishment",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 93
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -2781,7 +3002,7 @@
                 "moveMotion": "N",
                 "moveButton": "3P3K",
                 "nonHittingMove": true,
-                "i": 92
+                "i": 94
             },
             "LP Hecatoncheires": {
                 "moveName": "LP Hecatoncheires",
@@ -2817,7 +3038,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 93
+                "movesList": "Special",
+                "i": 95
             },
             "MP Hecatoncheires": {
                 "moveName": "MP Hecatoncheires",
@@ -2853,7 +3075,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 94
+                "i": 96
             },
             "HP Hecatoncheires": {
                 "moveName": "HP Hecatoncheires",
@@ -2889,7 +3111,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 95
+                "i": 97
             },
             "EX Hecatoncheires": {
                 "moveName": "EX Hecatoncheires",
@@ -2928,7 +3150,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 96
+                "i": 98
             },
             "LP Mad Cradle": {
                 "moveName": "LP Mad Cradle",
@@ -2959,13 +3181,15 @@
                     "Throw invincible from frames 1-3",
                     "Airborne from frames 4-35",
                     "Cancelable into Mad Spin (Air Drill)",
+                    "30 less dmg after first 2 active frames",
                     "Seth is in a Counter-Hit state for the entire duration",
                     "Juggle Limit / Increase / Start: 0 / 5 / 5 (+30 Juggle Start on airborne on first 2 active frames | +35 Juggle Increase / Juggle Start after first 2 active frames)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 97
+                "movesList": "Special",
+                "i": 99
             },
             "MP Mad Cradle": {
                 "moveName": "MP Mad Cradle",
@@ -2996,13 +3220,14 @@
                     "Invincible to airborne attacks from frames 1-6",
                     "Airborne from frames 5-42",
                     "Cancelable into Mad Spin (Air Drill)",
+                    "50 less dmg after first 2 active frames",
                     "Seth is in a Counter-Hit state for the entire duration",
                     "Juggle Limit / Increase / Start: 1 / 5 / 5 (+30 Juggle Start on airborne on first 2 active frames | +35 Juggle Increase / Juggle Start after first 2 active frames)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 98
+                "i": 100
             },
             "HP Mad Cradle": {
                 "moveName": "HP Mad Cradle",
@@ -3034,13 +3259,14 @@
                     "Invincible to airborne attacks from frames 1-10",
                     "Airborne from frames 10-53",
                     "Cancelable into Mad Spin (Air Drill)",
+                    "60 less dmg after first 2 active frames",
                     "Seth is in a Counter-Hit state for the entire duration",
                     "Juggle Limit / Increase / Start: 1 / 5 / 5 (+30 Juggle Start on airborne on first 2 active frames | +35 Juggle Increase / Juggle Start after first 2 active frames)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 99
+                "i": 101
             },
             "EX Mad Cradle": {
                 "moveName": "EX Mad Cradle",
@@ -3052,7 +3278,7 @@
                 "recovery": "30+15",
                 "total": 64,
                 "onHit": "KD",
-                "onBlock": -40,
+                "onBlock": "-35(-40)",
                 "damage": "60*20x3*30 (150)",
                 "stun": 150,
                 "kd": 87,
@@ -3069,6 +3295,7 @@
                     "Cannot hit crossup",
                     "Fully invincible on frames 1-9",
                     "Airborne from frames 4-49",
+                    "-40 on block against crouching opponents",
                     "Cancelable into Mad Spin (Air Drill)",
                     "Seth is in a Counter-Hit state for the entire duration",
                     "Juggle Limit: 15-25"
@@ -3076,7 +3303,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 100
+                "i": 102
             },
             "LK Cruel Disaster": {
                 "moveName": "LK Cruel Disaster",
@@ -3111,7 +3338,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 101
+                "movesList": "Special",
+                "i": 103
             },
             "MK Cruel Disaster": {
                 "moveName": "MK Cruel Disaster",
@@ -3140,13 +3368,14 @@
                 "extraInfo": [
                     "Projectile invincible from frames 4-18",
                     "Active frames in the parentheses (8) refers to the projectile nullification hitbox",
+                    "2 frames less recovery (26f) on block",
                     "Cancelable into Cyclone Disaster (Teleport Spin Kick)",
                     "Juggle Limit / Increase / Start: 3 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 102
+                "i": 104
             },
             "HK Cruel Disaster": {
                 "moveName": "HK Cruel Disaster",
@@ -3175,13 +3404,14 @@
                 "extraInfo": [
                     "Projectile invincible from frames 4-26",
                     "Active frames in the parentheses (8) refers to the projectile nullification hitbox",
+                    "7 frames less recovery (21f) on block",
                     "Cancelable into Cyclone Disaster (Teleport Spin Kick)",
                     "Juggle Limit / Increase / Start: 15 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 103
+                "i": 105
             },
             "EX Cruel Disaster": {
                 "moveName": "EX Cruel Disaster",
@@ -3218,7 +3448,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 104
+                "i": 106
             },
             "LK Annihilate Sword": {
                 "moveName": "LK Annihilate Sword",
@@ -3227,9 +3457,9 @@
                 "cmnName": "LK Axe Kick",
                 "startup": 14,
                 "active": 6,
-                "recovery": 9,
-                "onHit": "-4(6)",
-                "onBlock": "-5(2)",
+                "recovery": "11(13)",
+                "onHit": "-2(4)",
+                "onBlock": "-4(0)",
                 "damage": 70,
                 "stun": 150,
                 "attackLevel": "H",
@@ -3241,17 +3471,19 @@
                 "projectile": false,
                 "extraInfo": [
                     "Very variable frame advantage depending on height / angle / opponent (see following notes for a full breakdown)",
-                    "Frame Advantage VS Medium Height characters on Hit / Block: +2(+7) / -2(1) (Standing) | +2(+7) / -2(2) (Crouching)",
-                    "Frame Advantage vs Tall Height characters (Abigail / Birdie / Zangief) on Hit / Block: -1(+4) / -5(-2) (Standing) | +2(+6) / -2(0) (Crouching)",
-                    "Instant Axe Kick frame advantage vs Medium Height characters on Hit / Block: +2/-2 (Standing) | +6/+2 (Crouching)",
-                    "Instant Axe Kick frame advantage vs Tall Height characters (Abigail / Birdie / Zangief): +2/-2 (Standing and Crouching)",
+                    "Instant Axe Kick frame advantage vs Medium Height characters on Hit / Block: 0/-4 (Standing) | +4/0 (Crouching)",
+                    "Instant Axe Kick frame advantage vs Tall Height characters (Abigail / Birdie / Zangief): 0/-4 (Standing and Crouching)",
+                    "Frame Advantage VS Medium Height characters on Hit / Block: 0(+2) / -2(-4) (Standing) | +1(+4) / -3(0) (Crouching)",
+                    "Frame Advantage vs Tall Height characters (Abigail / Birdie / Zangief) on Hit / Block: +1(+2) / -2(-3) (Standing) | +1(+2) / -2(-3) (Crouching)",
+                    "2 extra recovery frames on whiff (13 instead of 11)",
                     "Cancelable into Hell's Gate (Teleport Uppercut)",
                     "Juggle Limit / Increase / Start: 5/1/1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 105
+                "movesList": "Special",
+                "i": 107
             },
             "MK Annihilate Sword": {
                 "moveName": "MK Annihilate Sword",
@@ -3260,9 +3492,9 @@
                 "cmnName": "MK Axe Kick",
                 "startup": 23,
                 "active": 6,
-                "recovery": 9,
-                "onHit": "-1(2)",
-                "onBlock": "-7(-4)",
+                "recovery": "9(13)",
+                "onHit": "-1(5)",
+                "onBlock": "0(-5)",
                 "damage": 80,
                 "stun": 150,
                 "attackLevel": "H",
@@ -3274,17 +3506,18 @@
                 "projectile": false,
                 "extraInfo": [
                     "Very variable frame advantage depending on height / angle / opponent (see following notes for a full breakdown)",
-                    "Frame Advantage VS Medium Height characters on Hit / Block: +1(+7) / -5(1) (Standing) | +2(+7) / -2(2) (Crouching)",
-                    "Frame Advantage vs Tall Height characters (Abigail / Birdie / Zangief) on Hit / Block: -1(+4) / -5(-2) (Standing) | +2(+6) / -2(0) (Crouching)",
                     "Instant Axe Kick frame advantage vs Medium Height characters on Hit / Block: +2/-4 (Standing and Crouching)",
-                    "Instant Axe Kick frame advantage vs Tall Height characters (Abigail / Birdie / Zangief): +2/-2 (Standing and Crouching)",
+                    "Instant Axe Kick frame advantage vs Tall Height characters (Abigail / Birdie / Zangief): +2/-4 (Standing and Crouching)",
+                    "Frame Advantage VS Medium Height characters on Hit / Block: +2(+3) / -5(-4) (Standing) | +2(+5) / -1(-4) (Crouching)",
+                    "Frame Advantage vs Tall Height characters (Abigail / Birdie / Zangief) on Hit / Block: -1(+4) / -5(-2) (Standing) | +2(+6) / -2(0) (Crouching)",
+                    "4 extra frames of recovery on whiff (13 instead of 9)",
                     "Cancelable into Hell's Gate (Teleport Uppercut)",
                     "Juggle Limit / Increase / Start: 5/1/1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 106
+                "i": 108
             },
             "HK Annihilate Sword": {
                 "moveName": "HK Annihilate Sword",
@@ -3293,7 +3526,7 @@
                 "cmnName": "HK Axe Kick",
                 "startup": 27,
                 "active": 6,
-                "recovery": 16,
+                "recovery": "16(20)",
                 "onHit": "KD",
                 "onBlock": "-5(0)",
                 "damage": 90,
@@ -3314,13 +3547,14 @@
                     "Frame Advantage vs Tall Height characters (Abigail / Birdie / Zangief) on Hit / Block: KD (+68/9/14) / -5(2) (Standing) | KD (+70/11/16) / -3(2) (Crouching)",
                     "Instant Axe Kick frame advantage vs Medium Height characters on Hit / Block: KD (+70/11/16) / -3 (Standing) | KD (+73/14/19) / 0 (Crouching)",
                     "Instant Axe Kick frame advantage vs Tall Height characters (Abigail / Birdie / Zangief): KD (+70/11/16) / -3 (Standing and Crouching)",
+                    "4 extra frames of recovery on whiff (20 instead of 16)",
                     "Cancelable into Hell's Gate (Teleport Uppercut)",
                     "Juggle Limit / Increase / Start: 10 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 107
+                "i": 109
             },
             "EX Annihilate Sword": {
                 "moveName": "EX Annihilate Sword",
@@ -3329,7 +3563,7 @@
                 "cmnName": "EX Axe Kick",
                 "startup": 10,
                 "active": "7(10)5",
-                "recovery": 13,
+                "recovery": "13(17)",
                 "onHit": "KD",
                 "onBlock": "-7(-1)",
                 "damage": "50*80 (130)",
@@ -3350,13 +3584,14 @@
                     "Frame Advantage vs Tall Height characters (Abigail / Birdie / Zangief) on Hit / Block: KD (+71/12/17) / -7(-5) (Standing) | KD (+75/16/21) / -3 (Crouching)",
                     "Instant Axe Kick frame advantage vs Medium Height characters on Hit / Block: KDA (+76/17/22) / -2 (Standing) | KD (+77/18/23) / -1 (Crouching)",
                     "Instant Axe Kick frame advantage vs Tall Height characters (Abigail / Birdie / Zangief): KD (+76/17/22) / -2 (Standing and Crouching)",
+                    "4 extra frames of recovery on whfif (17 instead of 13)",
                     "Cancelable into Hell's Gate (Teleport Uppercut)",
                     "Juggle Limit / Increase / Start: 5*8 / 1*4 / 1*1 (First hit as Juggle Start +3 on airborne)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 108
+                "i": 110
             },
             "Tanden Destruction": {
                 "moveName": "Tanden Destruction",
@@ -3364,9 +3599,9 @@
                 "numCmd": "236236P",
                 "cmnName": "Super",
                 "startup": 6,
-                "active": 10,
-                "recovery": 42,
-                "total": 57,
+                "active": 5,
+                "recovery": 47,
+                "total": 62,
                 "onHit": "KD",
                 "onBlock": -30,
                 "damage": 330,
@@ -3379,15 +3614,17 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Fully invincible on frames 1-15",
+                    "Fully invincible on frames 1-10",
                     "Hard Knockdown (+12 KDA)",
                     "Deals +20 extra damage if done during V-Trigger 1"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 109
-            }
+                "movesList": "Super",
+                "i": 111
+            },
+            "input": "None"
         },
         "vtOne": {
             "Titanomachy": {
@@ -3417,6 +3654,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.01
             },
             "Mad Spin": {
@@ -3428,10 +3666,10 @@
                 "active": "4x16(64)",
                 "recovery": 21,
                 "total": "91*",
-                "onHit": 2,
+                "onHit": "2/KD",
                 "onBlock": -2,
-                "damage": "10x16",
-                "stun": "20+10x16",
+                "damage": "10x16 (160)",
+                "stun": "20+10x16 (180)",
                 "kd": 85,
                 "kdr": 26,
                 "kdrb": 31,
@@ -3440,11 +3678,14 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Uses 1000 V-Meter (25% meter)"
+                    "Uses 700 V-Meter (16% meter)",
+                    "Causes knockdowns from most cancels",
+                    "+2 on hit if canceled really late on block from some cancels"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.02
             },
             "Mad Spin Special Edition": {
@@ -3457,7 +3698,7 @@
                 "recovery": 75,
                 "total": 96,
                 "onHit": "KD",
-                "onBlock": "-56 (-72)",
+                "onBlock": -2,
                 "damage": 80,
                 "stun": 100,
                 "kd": 19,
@@ -3468,14 +3709,15 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "If Install Air Stampede is blocked, Seth usually pushes Alex back so far that the Mad Spin Special Edition will miss entirely, leaving him at -72 instead of -56 as listed",
+                    "If Install Air Stampede is blocked, this version is used",
                     "Like Air Stampede, this move has hard knockdown",
                     "Invincible from frames 1-6, after which he teleports in",
-                    "Uses 1000 V-Meter (25% meter)"
+                    "Uses 700 V-Meter (16% meter)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.03
             },
             "Cyclone Disaster": {
@@ -3501,11 +3743,12 @@
                 "extraInfo": [
                     "KDA varies based on which version of Spin Kick you cancel from",
                     "KDA shown is LK/MK/HK/EX",
-                    "Uses 1000 V-Meter (25% meter)"
+                    "Uses 700 V-Meter (16% meter)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.04
             },
             "Hell's Gate": {
@@ -3529,11 +3772,12 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Uses 1000 V-Meter (25% meter)"
+                    "Uses 700 V-Meter (16% meter)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.05
             },
             "Tanden Extreme": {
@@ -3542,9 +3786,9 @@
                 "numCmd": "236236P",
                 "cmnName": "Super (V-Trigger 1)",
                 "startup": 6,
-                "active": 10,
-                "recovery": 42,
-                "total": 57,
+                "active": 5,
+                "recovery": 47,
+                "total": 62,
                 "onHit": "KD",
                 "onBlock": -30,
                 "damage": 350,
@@ -3557,20 +3801,23 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Fully invincible on frames 1-15",
+                    "Fully invincible on frames 1-10",
                     "Hard Knockdown (+12 KDA)",
-                    "Deals +20 extra damage if done during V-Trigger 1"
+                    "Deals +20 extra damage if done during V-Trigger 1",
+                    "Seth is left slightly farther away after VT1 Super, so meaty cr HK whiffs"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 29.06
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Tanden Maneuver Additional Control": {
                 "moveName": "Tanden Maneuver Additional Control",
-                "plnCmd": "HP+HK",
+                "plnCmd": "HP+HK (+ direction)",
                 "numCmd": "HPHK",
                 "cmnName": "Orb Additional Movement (V-Trigger 2)",
                 "startup": 7,
@@ -3584,7 +3831,7 @@
                 "projectile": true,
                 "extraInfo": [
                     "This move refers to the additional orb movement Seth can do after initial activation",
-                    "Seth can move the orb up to 4 times during initial activation (Seth can also move it once after the initial activation using any direction+HP+HK as well as manually explode it (HP+HK)",
+                    "Seth can move the orb up to 4 times during initial activation (Seth can also move it once after the initial activation using direction+HP+HK as well as manually explode it (HP+HK)",
                     "If a moving orb (whether it's during initial activation or post-activation) hits the opponent, the orb will dissipate without an explosion if Seth doesn't give the orb any further commands (such as moving or explode) - However; If the moving orb doesn't hit the opponent during its travel, it will NOT dissipate shortly afterwards allowing Seth to use it again at a later time",
                     "A moving orb has 1-hit of projectile durability",
                     "Orb has an active projectile hitbox when sitting in place (On contact; Does trigger a hit but not an explosion) ",
@@ -3594,13 +3841,15 @@
                 "moveType": "vtrigger",
                 "moveMotion": "ANY",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 30.01
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
-        "health": 925,
-        "stun": 925,
+        "health": 900,
+        "stun": 900,
         "vgauge1": 600,
         "vgauge2": 600,
         "taunt": 61,

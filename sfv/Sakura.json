@@ -31,7 +31,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into st.LP and cr.LP"
+                    "Chains into st.LP and cr.LP",
+                    "Combos into EX Tatsu if canceled into it due to 3F start start-up on the EX Tatsu"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -54,6 +55,7 @@
                 "vtcOnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs2",
@@ -87,6 +89,8 @@
                 "vtcOnBlock": 6,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 17,
+                "hcWinVt": 21,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -161,6 +165,7 @@
                 "vtcOnBlock": 9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs2",
@@ -197,11 +202,10 @@
                 "vtcOnBlock": 3,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 20,
-                    "vG": "+120"
-                },
+                "hcWinVt": 25,
+                "ccState": "Stagger",
+                "ccAdv": 20,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs2",
@@ -213,7 +217,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Pretty good range and poke tool",
-                    "On Crush Counter can dash up 4fr or do walk up st.HP combos if you're close enough"
+                    "+20 advantage on Crush Counter (can dash up into 4F moves for example)",
+                    "+4 on Crush Counter if canceled into the V-Skill 2 roll"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -250,7 +255,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into st.LP and cr.LP"
+                    "Chains into st.LP and cr.LP",
+                    "Combos into EX Tatsu if canceled into it due to 3F start start-up on the EX Tatsu"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -273,6 +279,8 @@
                 "vtcOnBlock": 5,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -309,6 +317,8 @@
                 "vtcOnBlock": 4,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 19,
+                "hcWinVt": 23,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -376,6 +386,8 @@
                 "vtcOnBlock": 1,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -413,14 +425,13 @@
                 "vtcOnBlock": 0,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 18,
                 "kd": 66,
                 "kdr": 17,
                 "kdrb": 22,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vs2",
@@ -512,7 +523,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Crossup"
+                    "Cross-up"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -532,7 +543,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Crossup"
+                    "Cross-up"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -580,6 +591,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Furiko Upper": {
@@ -599,14 +611,14 @@
                 "vtcOnBlock": 10,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 18,
+                "hcWinVt": 18,
                 "kd": 108,
                 "kdr": 49,
                 "kdrb": 54,
-                "crushAdv": {
-                    "state": "Flipping Juggle",
-                    "ccAdv": "J",
-                    "vG": "+150"
-                },
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -624,18 +636,19 @@
                     "Tiny bit less range than st.LK",
                     "Last active frame does not crush counter and cannot hit grounded opponents",
                     "Last active frame can anti-air (but not easy to time this)",
-                    "Combos into HK tastu after the April 2018 patch (which means Sakura can now consistently combo into a +2 mixup between st.MP / Throw every time she lands b+HP"
+                    "Combos into HK tastu which means Sakura can consistently combo into a +2 mixup between st.MP or Throw every time she lands b+HP"
                 ],
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Chin Buster Kick": {
                 "moveName": "Chin Buster Kick",
                 "plnCmd": "df+HK",
                 "numCmd": "3HK",
-                "cmnName": "Panty Shot",
+                "cmnName": "Split Kick",
                 "startup": 12,
                 "active": 3,
                 "recovery": 20,
@@ -648,6 +661,7 @@
                 "vtcOnBlock": 13,
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs2",
@@ -658,12 +672,15 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Counter-hit combo starter / situational anti-air / meaty setups / air resets",
-                    "Can hit crossup air attacks and be used as a ground crossup"
+                    "Counter-hit combo starter / anti-air / meaty setups",
+                    "Can hit crossup air attacks and be used as a ground crossup",
+                    "Puts airborne opponents into a limited juggle state",
+                    "Juggle Limit / Increase / Start: 0 / 1 / 1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Hanakaze": {
@@ -688,6 +705,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 22
             },
             "Sakura Shoulder Throw": {
@@ -712,6 +730,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 23
             },
             "Sailor Hop": {
@@ -725,19 +744,22 @@
                 "onHit": "KD",
                 "damage": 160,
                 "stun": 200,
-                "kd": "55(59)",
-                "kdr": "1(10)",
-                "kdrb": "1(10)",
+                "kd": "61(69)",
+                "kdr": "2(10)",
+                "kdrb": "2(10)",
                 "attackLevel": "T",
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "KDA varies depending on height of opponent when thrown (the higher up the throw is performed, the lower the KDA is)"
+                    "KDA varies depending on height of opponent when thrown (the higher up the throw is performed, the lower the KDA is)",
+                    "Denies backroll",
+                    "6 grounded recovery frames on a whiffed air throw"
                 ],
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 24
             },
             "Haru Kaze": {
@@ -761,6 +783,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 25
             },
             "Sakura Otoshi": {
@@ -788,11 +811,13 @@
                     "Cancels into the follow-up punches can be delayed up to 17 frames after hitting with the initial punch",
                     "Block advantage and KDA varies depending on how high/low the punch lands",
                     "If the punch connects on the last possible frame before landing, Sakura will immediately land instead of bouncing up again (this allows for alternative follow-up juggles to be possible and greatly increases the KDA)",
-                    "The KDA in the parentheses (X) refers to the KDA when the punch is delayed to the last frame so Sakura lands immediately"
+                    "The KDA in the parentheses (X) refers to the KDA when the punch is delayed to the last frame so Sakura lands immediately",
+                    "Juggle Limit / Increase / Start: 20 / 1 / 1"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 1",
                 "i": 26
             },
             "Sakura Otoshi 2nd": {
@@ -804,6 +829,7 @@
                 "active": 3,
                 "recovery": 6,
                 "onHit": "KD",
+                "onBlock": "-3(9)",
                 "damage": "50*45 (95)",
                 "stun": "40*72 (112)",
                 "kd": "75~80(94)",
@@ -819,11 +845,13 @@
                     "Cancels into the follow-up punches can be delayed up to 17 frames after hitting with the initial punch",
                     "Block advantage and KDA varies depending on how high/low the punch lands",
                     "If the punch connects on the last possible frame before landing, Sakura will immediately land instead of bouncing up again (this allows for alternative follow-up juggles to be possible and greatly increases the KDA)",
-                    "The KDA in the parentheses (X) refers to the KDA when the punch is delayed to the last frame so Sakura lands immediately"
+                    "The KDA in the parentheses (X) refers to the KDA when the punch is delayed to the last frame so Sakura lands immediately",
+                    "Juggle Limit / Increase / Start: 20 / 1 / 1"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 1",
                 "i": 27
             },
             "Sakura Otoshi 3rd": {
@@ -847,11 +875,13 @@
                 "extraInfo": [
                     "Overhead",
                     "This 3rd hit builds 50/25 V-Gauge on hit/block",
-                    "No juggles possible after the 3rd last punch as the last hit causes a spiked knockdown"
+                    "No juggles possible after the 3rd last punch as the last hit causes a spiked knockdown",
+                    "Juggle Limit: 20"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 1",
                 "i": 28
             },
             "Oukakyaku": {
@@ -873,11 +903,13 @@
                 "extraInfo": [
                     "Not an Overhead",
                     "Puts airborne opponents into a limited juggle state",
-                    "Builds 60/30 V-Gauge on hit/block"
+                    "Builds 60/30 V-Gauge on hit/block",
+                    "Juggle Limit / Increase / Start: 20 / 1 / 1"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "V-Skill 1",
                 "i": 29
             },
             "Kashinfu": {
@@ -906,6 +938,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "V-Skill 1",
                 "i": 30
             },
             "Haru Hayate": {
@@ -919,7 +952,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can cancel into V-Skill 2 from every normal other than overhead",
+                    "Can cancel into V-Skill 2 from every normal other than the Overhead (f+MK)",
                     "Cancels into attack follow-up on the 22nd frame if buttons are held down until then",
                     "Not projectile invincible"
                 ],
@@ -927,6 +960,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 31
             },
             "Haru Hayate (attack)": {
@@ -951,11 +985,14 @@
                 "projectile": false,
                 "extraInfo": [
                     "Puts opponent in limited juggle state",
-                    "Builds 80 / 40 V-Gauge on Hit / Block"
+                    "Airborne frames 5-23",
+                    "Builds 80 / 40 V-Gauge on Hit / Block",
+                    "Juggle Limit / Increase / Start: 10 / 1 / 2"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 32
             },
             "Haru Arashi": {
@@ -978,6 +1015,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 33
             },
             "Sakura Senpu": {
@@ -1000,6 +1038,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 34
             },
             "Floral Spin": {
@@ -1028,7 +1067,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3K",
+                "movesList": "V-Reversal",
                 "i": 35
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.09 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 36
+            },
+            "Floral Side-Kick": {
+                "moveName": "Floral Side-Kick",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 37
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1045,7 +1143,7 @@
                 "moveMotion": "N",
                 "moveButton": "3P3K",
                 "nonHittingMove": true,
-                "i": 36
+                "i": 38
             },
             "LP Hadoken": {
                 "moveName": "LP Hadoken",
@@ -1068,12 +1166,16 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Projectile persists on screen for 42 frames and travels about 60% screen-length"
+                    "1-hit projectile",
+                    "Projectile Speed: 0.45",
+                    "Projectile persists on screen for 42 frames and travels about 60% screen-length",
+                    "Juggle Limit / Increase / Start: 0 / 4 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 37
+                "movesList": "Special",
+                "i": 39
             },
             "MP Hadoken": {
                 "moveName": "MP Hadoken",
@@ -1096,12 +1198,15 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Projectile persists on screen for 49 frames and travels about 80% screen-length"
+                    "1-hit projectile",
+                    "Projectile Speed: 0.55",
+                    "Projectile persists on screen for 49 frames and travels about 80% screen-length",
+                    "Juggle Limit / Increase / Start: 0 / 4 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 38
+                "i": 40
             },
             "HP Hadoken": {
                 "moveName": "HP Hadoken",
@@ -1124,12 +1229,15 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Projectile persists on screen for 56 frames and travels full-screen (but not beyond full-screen)"
+                    "1-hit projectile",
+                    "Projectile Speed: 0.65",
+                    "Projectile persists on screen for 56 frames and travels full-screen (but not beyond full-screen)",
+                    "Juggle Limit / Increase / Start: 0 / 4 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 39
+                "i": 41
             },
             "Hadoken lvl 2": {
                 "moveName": "Hadoken lvl 2",
@@ -1143,7 +1251,7 @@
                 "onBlock": 3,
                 "vsc2OnHit": "KD (+85/26/31)",
                 "vsc2OnBlock": -21,
-                "damage": "40*40",
+                "damage": "40*40 (80)",
                 "stun": 150,
                 "kd": 109,
                 "kdr": 50,
@@ -1158,18 +1266,21 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "2-hit projectile,",
+                    "2-hit projectile",
+                    "Projectile Speed: 0.45",
                     "Cancelable into V-Skill hop on frames 47-53",
                     "The projectile is not limited to a duration or length like Sakura's non-EX projectiles",
                     "Launches opponent on-hit into a free juggle state",
                     "Cancels into V-Skill on hit/block/whiff on frame 47 (6 frames after firing the charged-up fireball)",
-                    "Takes 34 frames to charge up (Sakura cannot fire the regular fireball version after holding down P for 34 frames)"
+                    "Takes 34 frames to charge up (Sakura cannot fire the regular fireball version after holding down P for 34 frames)",
+                    "Juggle Limit / Increase / Start: 4*4 / 0*0 / 0*0"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
                 "chargeDirection": "R",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "EX Hadoken": {
                 "moveName": "EX Hadoken",
@@ -1183,7 +1294,7 @@
                 "onBlock": 1,
                 "vtcOnHit": "KD (+118/59/64)",
                 "vtcOnBlock": 18,
-                "damage": "50*50",
+                "damage": "50*50 (100)",
                 "stun": 150,
                 "kd": 101,
                 "kdr": 42,
@@ -1198,13 +1309,15 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile",
+                    "Projectile Speed: 0.60",
                     "The projectile is not limited to a duration or length like Sakura's non-EX projectiles",
-                    "Puts opponent into a limited juggle state on-hit"
+                    "Puts opponent into a limited juggle state on-hit",
+                    "Juggle Limit / Increase / Start: 4*4 / 0*4 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 41
+                "i": 43
             },
             "Tengyo Hadoken": {
                 "moveName": "Tengyo Hadoken",
@@ -1230,14 +1343,18 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "1-hit projectile",
+                    "Projectile Speed: 0.55",
                     "Cannot hit crouching",
                     "Projectile persists on screen for 27 frames and travels about 50% screen-length",
-                    "Was massively buffed from -8 to +4 on block in the April 2018 patch (maybe use it in uncrouchable setups?)"
+                    "Really good frame advantage on block (can be good for uncrouchable setups during oki)",
+                    "Juggle Limit / Increase / Start: 0 / 10 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
-                "i": 42
+                "movesList": "Special",
+                "i": 44
             },
             "Tengyo Hadoken lvl 2": {
                 "moveName": "Tengyo Hadoken lvl 2",
@@ -1252,7 +1369,7 @@
                 "onBlock": 1,
                 "vsc2OnHit": "KD (+71/18/23)",
                 "vsc2OnBlock": -23,
-                "damage": "40*60",
+                "damage": "40*60 (100)",
                 "stun": 150,
                 "kd": 95,
                 "kdr": 37,
@@ -1267,18 +1384,21 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "2 -hit projectile",
+                    "2-hit projectile",
+                    "Projectile Speed: 0.60",
                     "Cannot hit crouching",
                     "Cancelable into V-Skill hop on frames 47-58",
                     "Projectile persists on screen for 34 frames and travels about 50% screen-length",
                     "Puts opponent into a free juggle state",
-                    "Takes 32 frames to charge up (Sakura cannot fire the regular fireball version after holding down P for 32 frames)"
+                    "Takes 32 frames to charge up (Sakura cannot fire the regular fireball version after holding down P for 32 frames)",
+                    "Juggle Limit / Increase / Start: 4*4 / 0*0 / 0*0"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
                 "chargeDirection": "R",
-                "i": 43
+                "movesList": "Special",
+                "i": 45
             },
             "EX Tengyo Hadoken": {
                 "moveName": "EX Tengyo Hadoken",
@@ -1293,7 +1413,7 @@
                 "onBlock": -1,
                 "vtcOnHit": "KD (+106/48/53)",
                 "vtcOnBlock": 9,
-                "damage": "40*60",
+                "damage": "40*60 (100)",
                 "stun": 150,
                 "kd": 98,
                 "kdr": 40,
@@ -1308,13 +1428,15 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile",
+                    "Projectile Speed: 0.60",
                     "The projectile is not limited to a duration or length like Sakura's non-EX projectiles",
-                    "Puts opponent into a limited juggle state on-hit"
+                    "Puts opponent into a limited juggle state on-hit",
+                    "Juggle Limit / Increase / Start: 4*4 / 0*2 / 0*4"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 44
+                "i": 46
             },
             "LP Shouoken": {
                 "moveName": "LP Shouoken",
@@ -1341,12 +1463,16 @@
                 "projectile": false,
                 "extraInfo": [
                     "3 hits",
-                    "No form of invincibility properties (and no counter-hit state during recovery frames"
+                    "No form of invincibility properties (and no counter-hit state during recovery frames)",
+                    "An effective anti-air despite no form of invincibility due to its strong hitboxes",
+                    "Cannot hit cross-up (behind Sakura)",
+                    "Juggle Limit: 10"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 45
+                "movesList": "Special",
+                "i": 47
             },
             "MP Shouoken": {
                 "moveName": "MP Shouoken",
@@ -1373,12 +1499,15 @@
                 "projectile": false,
                 "extraInfo": [
                     "5 hits",
-                    "No form of invincibility properties (and no counter-hit state during recovery frames"
+                    "No form of invincibility properties (and no counter-hit state during recovery frames)",
+                    "An effective anti-air despite no form of invincibility due to its strong hitboxes",
+                    "Cannot hit cross-up (behind Sakura)",
+                    "Juggle Limit: 11"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 46
+                "i": 48
             },
             "HP Shouoken": {
                 "moveName": "HP Shouoken",
@@ -1405,12 +1534,15 @@
                 "projectile": false,
                 "extraInfo": [
                     "7 hits",
-                    "No form of invincibility properties (and no counter-hit state during recovery frames"
+                    "No form of invincibility properties (and no counter-hit state during recovery frames)",
+                    "An effective anti-air despite no form of invincibility due to its strong hitboxes",
+                    "Cannot hit cross-up (behind Sakura)",
+                    "Juggle Limit: 9"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 47
+                "i": 49
             },
             "EX Shouoken": {
                 "moveName": "EX Shouoken",
@@ -1435,12 +1567,14 @@
                 "extraInfo": [
                     "9 hits",
                     "Fully invincible on frames 1-12",
-                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
+                    "Cannot hit crossups",
+                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Juggle Limit: 20"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 48
+                "i": 50
             },
             "LK Shunpukyaku": {
                 "moveName": "LK Shunpukyaku",
@@ -1451,7 +1585,7 @@
                 "active": 2,
                 "recovery": "13+9",
                 "total": 40,
-                "onHit": 1,
+                "onHit": 2,
                 "onBlock": -2,
                 "damage": 60,
                 "stun": 150,
@@ -1460,12 +1594,15 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frames 11-31"
+                    "Airborne on frames 11-31",
+                    "Puts airborne opponents into a free juggle state",
+                    "Juggle Limit / Increase / Start: 10 / 1 / 0"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 49
+                "movesList": "Special",
+                "i": 51
             },
             "MK Shunpukyaku": {
                 "moveName": "MK Shunpukyaku",
@@ -1485,12 +1622,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frames 18-46"
+                    "Airborne on frames 18-46",
+                    "Both hits can put airborne opponents into a free juggle state (but the 2nd hit does increase the juggle count if the prior hit started the juggle)",
+                    "Juggle Limit / Increase / Start: 15*15 / 0*9 / 0*0"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 50
+                "i": 52
             },
             "HK Shunpukyaku": {
                 "moveName": "HK Shunpukyaku",
@@ -1511,12 +1650,14 @@
                 "projectile": false,
                 "extraInfo": [
                     "Airborne and projectile invincible on lower body and legs on frames 22-57",
-                    "Combos if canceled into from b+HP which leads into an up close loopable +2 mixup between st.MP / Throw every time Sakura lands b+HP"
+                    "Combos if canceled into from b+HP which leads into an up close loopable +2 mixup between st.MP / Throw every time Sakura lands b+HP",
+                    "All three hits can put airborne opponents into a free juggle state (but the 3rd hit does increase the juggle count if the prior hits started the juggle)",
+                    "Juggle Limit / Increase / Start: 15*15*15 / 0*0*9 / 0*0*0"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 51
+                "i": 53
             },
             "EX Shunpukyaku": {
                 "moveName": "EX Shunpukyaku",
@@ -1529,25 +1670,32 @@
                 "total": "56 (83)",
                 "onHit": "KD",
                 "onBlock": -2,
+                "vtcOnHit": 13,
+                "vtcOnBlock": 4,
                 "damage": "20x3*60 (120)",
                 "stun": 150,
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
                 "attackLevel": "H",
+                "cancelsTo": [
+                    "vt1",
+                    "vt2"
+                ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "Cancels into an extended version on hit",
                     "Launches into a limited juggle state if this move starts the juggle (but doesn't increase juggle state at all if this move hits after juggle state has started)",
-                    "Faster startup if canceled from st.LP or cr.MK",
+                    "Faster startup (12F) if canceled from crouch LP / stand LP / crouch MK",
+                    "Cancels into V-Trigger activations on the 3rd hit (before the knockdown)",
                     "Juggle Limit / Increase / Start: 15/0/8"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 52
+                "i": 54
             },
             "LK Airborne Shunpukyaku": {
                 "moveName": "LK Airborne Shunpukyaku",
@@ -1572,12 +1720,14 @@
                     "Not an Overhead",
                     "Can only be performed during a forward jump",
                     "Cannot crossup",
-                    "Frame Advantage varies depending on angle and height"
+                    "Frame Advantage varies depending on angle and height",
+                    "Juggle Limit / Increase / Start: 2 / 8 / 99"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 53
+                "movesList": "Special",
+                "i": 55
             },
             "MK Airborne Shunpukyaku": {
                 "moveName": "MK Airborne Shunpukyaku",
@@ -1602,12 +1752,13 @@
                     "Not an Overhead",
                     "Can only be performed during a forward jump",
                     "Cannot crossup",
-                    "Frame Advantage varies depending on angle and height"
+                    "Frame Advantage varies depending on angle and height",
+                    "Juggle Limit / Increase / Start: 2 / 8 / 99"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 54
+                "i": 56
             },
             "HK Airborne Shunpukyaku": {
                 "moveName": "HK Airborne Shunpukyaku",
@@ -1632,12 +1783,13 @@
                     "Not an Overhead",
                     "Can only be performed during a forward jump",
                     "Cannot crossup",
-                    "Frame Advantage varies depending on angle and height"
+                    "Frame Advantage varies depending on angle and height",
+                    "Juggle Limit / Increase / Start: 2 / 8 / 99"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 55
+                "i": 57
             },
             "EX Airborne Shunpukyaku": {
                 "moveName": "EX Airborne Shunpukyaku",
@@ -1657,12 +1809,14 @@
                 "extraInfo": [
                     "Not an Overhead",
                     "Can only be performed during a forward jump",
-                    "Cannot crossup"
+                    "Cannot crossup",
+                    "Puts opponents into a free juggle state and also doesn't increase juggle state at all if this move hits after juggle state has started",
+                    "Juggle Limit / Increase / Start: 10 / 0 / 0"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 56
+                "i": 58
             },
             "Sakura Rain": {
                 "moveName": "Sakura Rain",
@@ -1694,8 +1848,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 57
-            }
+                "movesList": "Super",
+                "i": 59
+            },
+            "input": "None"
         },
         "vtOne": {
             "LP Hadoken": {
@@ -1726,15 +1882,17 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile",
+                    "Projectile Speed: 0.??",
                     "Cancelable into V-Skill hop on frames 19-28",
                     "The projectile is not limited to a duration or length like Sakura's non-EX projectiles",
                     "Puts opponent into a limited juggle state on-hit",
-                    "Spends 800 V-meter on use (27% of meter)"
+                    "Spends 800 V-meter on use (27% of meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 37
+                "i": 39
             },
             "MP Hadoken": {
                 "moveName": "MP Hadoken",
@@ -1764,15 +1922,17 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile",
+                    "Projectile Speed: 0.??",
                     "Cancelable into V-Skill hop on frames 19-28",
                     "The projectile is not limited to a duration or length like Sakura's non-EX projectiles",
                     "Puts opponent into a limited juggle state on-hit",
-                    "Spends 800 V-meter on use (27% of meter)"
+                    "Spends 800 V-meter on use (27% of meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 38
+                "i": 40
             },
             "HP Hadoken": {
                 "moveName": "HP Hadoken",
@@ -1802,15 +1962,17 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile",
+                    "Projectile Speed: 0.??",
                     "Cancelable into V-Skill hop on frames 19-28",
                     "The projectile is not limited to a duration or length like Sakura's non-EX projectiles",
                     "Puts opponent into a limited juggle state on-hit",
-                    "Spends 800 V-meter on use (27% of meter)"
+                    "Spends 800 V-meter on use (27% of meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 39
+                "i": 41
             },
             "Hadoken lvl 2": {
                 "moveName": "Hadoken lvl 2",
@@ -1840,18 +2002,20 @@
                 "projectile": true,
                 "extraInfo": [
                     "3-hit projectile,",
+                    "Projectile Speed: 0.??",
                     "Cancelable into V-Skill hop on frames 23-44",
                     "The projectile is not limited to a duration or length like Sakura's non-EX projectiles",
                     "Launches opponent on-hit into a free juggle state",
                     "Cancels into V-Skill on hit/block/whiff on frame 36 (3 frames after firing the charged-up fireball)",
                     "Takes 26 frames to charge up (Sakura cannot fire the regular fireball version after holding down P for 26 frames)",
-                    "Spends 800 V-meter on use (27% of meter)"
+                    "Spends 800 V-meter on use (27% of meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
                 "chargeDirection": "R",
-                "i": 40
+                "i": 42
             },
             "Tengyo Hadoken": {
                 "moveName": "Tengyo Hadoken",
@@ -1882,16 +2046,18 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit projectile",
+                    "Projectile Speed: 0.??",
                     "Cannot hit crouching",
                     "Cancelable into V-Skill hop on frames 20-30",
                     "Projectile persists on screen for 34 frames and travels about 50% screen length",
                     "Puts opponent into a limited juggle state on-hit",
-                    "Spends 500 V-meter on use (25% of meter)"
+                    "Spends 500 V-meter on use (25% of meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
-                "i": 42
+                "i": 44
             },
             "Tengyo Hadoken lvl 2": {
                 "moveName": "Tengyo Hadoken lvl 2",
@@ -1922,18 +2088,20 @@
                 "projectile": true,
                 "extraInfo": [
                     "3 -hit projectile",
+                    "Projectile Speed: 0.??",
                     "Cannot hit crouching",
                     "Cancelable into V-Skill hop on frames 40-50",
                     "Projectile persists on screen for 29 frames and travels about 50% screen-length",
                     "Puts opponent into a free juggle state",
                     "Takes 34 frames to charge up (Sakura cannot fire the regular fireball version after holding down P for 26 frames)",
-                    "Spends 500 V-meter on use (25% of meter)"
+                    "Spends 500 V-meter on use (25% of meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
                 "chargeDirection": "R",
-                "i": 43
+                "i": 45
             },
             "Hogasho": {
                 "moveName": "Hogasho",
@@ -1948,6 +2116,8 @@
                 "onBlock": 5,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*20",
+                "hcWinNotes": "*V-Skill Cancel",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs1"
@@ -1957,16 +2127,18 @@
                 "projectile": true,
                 "extraInfo": [
                     "1-hit Projectile hitbox",
+                    "5 extra recovery frames (22F) on whiff",
                     "Puts an airborne opponent into a limited juggle state",
                     "Projectile invincible on extended arms and legs on frames 20-44 (until the end)",
                     "Cancelable into V-Skill 1 on hit / block",
                     "Sakura cannot special cancel into this move",
                     "Spends 500 V-Meter on use (17% of meter)",
-                    "5 extra recovery frames (22) on whiff"
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "antiAirMove": "Special",
                 "i": 33.01
             },
             "Sakura Rain": {
@@ -1994,13 +2166,16 @@
                     "Close-range version causes HKD (other version is just a regular KD) and does 80 more damage",
                     "The long-range version has variable KDA based on distance away from opponent when used (but at the clostest range that it can come out it's +90/21/26)",
                     "Up close version deals 20 more damage if used during V-Trigger 1",
-                    "Further away version deals 30 more damage if used during V-Trigger 1"
+                    "Further away version deals 30 more damage if used during V-Trigger 1",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
+                "antiAirMove": "Super",
                 "i": 33.02
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "LP Shouoken": {
@@ -2011,7 +2186,7 @@
                 "startup": 4,
                 "active": "5(1)3(20)4(1)8(2)2",
                 "recovery": "26+25",
-                "total": 55,
+                "total": 100,
                 "onHit": "KD",
                 "onBlock": -33,
                 "damage": "20x3*10*20*10x5*30 (170)",
@@ -2031,13 +2206,14 @@
                     "Fully invincible on frames 1-12",
                     "Airborne on frames 10-74",
                     "Spends 1000 V-meter on use (~29% meter)",
-                    "Hard knockdown on hits 1-4",
-                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
+                    "Hard knockdown on the first four hits",
+                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 45
+                "i": 47
             },
             "MP Shouoken": {
                 "moveName": "MP Shouoken",
@@ -2047,7 +2223,7 @@
                 "startup": 4,
                 "active": "5(1)3(20)4(1)8(2)2",
                 "recovery": "26+25",
-                "total": 64,
+                "total": 100,
                 "onHit": "KD",
                 "onBlock": -33,
                 "damage": "20x3*10*20*10x5*30 (170)",
@@ -2067,13 +2243,14 @@
                     "Fully invincible on frames 1-12",
                     "Airborne on frames 10-74",
                     "Spends 1000 V-meter on use (~29% meter)",
-                    "Hard knockdown on hits 1-4",
-                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
+                    "Hard knockdown on the first four hits",
+                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 46
+                "i": 48
             },
             "HP Shouoken": {
                 "moveName": "HP Shouoken",
@@ -2083,7 +2260,7 @@
                 "startup": 4,
                 "active": "5(1)3(20)4(1)8(2)2",
                 "recovery": "26+25",
-                "total": 81,
+                "total": 100,
                 "onHit": "KD",
                 "onBlock": -33,
                 "damage": "20x3*10*20*10x5*30 (170)",
@@ -2103,13 +2280,51 @@
                     "Fully invincible on frames 1-12",
                     "Airborne on frames 10-74",
                     "Spends 1000 V-meter on use (~29% meter)",
-                    "Hard knockdown on hits 1-4",
-                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
+                    "Hard knockdown on the first four hits",
+                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 47
+                "i": 49
+            },
+            "EX Shouoken": {
+                "moveName": "EX Shouoken",
+                "plnCmd": "f,d,df+PP",
+                "numCmd": "623PP",
+                "cmnName": "EX DP",
+                "startup": 4,
+                "active": "5(1)3(20)4(1)8(2)2",
+                "recovery": "26+25",
+                "total": 100,
+                "onHit": "KD",
+                "onBlock": -33,
+                "damage": "20x3*10*20*10x5*30 (170)",
+                "stun": 200,
+                "kd": 78,
+                "kdr": 19,
+                "kdrb": 24,
+                "attackLevel": "H",
+                "cancelsTo": [
+                    "su"
+                ],
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "11 hits",
+                    "Fully invincible on frames 1-12",
+                    "Airborne on frames 10-74",
+                    "Spends 1000 V-meter on use (~29% meter)",
+                    "Hard knockdown on the first four hits",
+                    "Sakura is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Juggle Limit / Increase / Start: ?"
+                ],
+                "moveType": "special",
+                "moveMotion": "DP",
+                "moveButton": "HP",
+                "i": 50
             },
             "LK Shunpukyaku": {
                 "moveName": "LK Shunpukyaku",
@@ -2142,12 +2357,13 @@
                     "Cancelable into V-Skill on hit only",
                     "Cancels into an extended version on hit",
                     "Hurtbox on the V-Trigger version of Sakura's tatsu is a bit smaller while in-air (can hop over some abilities hitboxes)",
-                    "Spends 1000 V-meter on use (~29% meter)"
+                    "Spends 1000 V-meter on use (~29% meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 49
+                "i": 51
             },
             "MK Shunpukyaku": {
                 "moveName": "MK Shunpukyaku",
@@ -2180,12 +2396,13 @@
                     "Cancelable into V-Skill on hit only",
                     "Cancels into an extended version on hit",
                     "Hurtbox on the V-Trigger version of Sakura's tatsu is a bit smaller while in-air (can hop over some abilities hitboxes)",
-                    "Spends 1000 V-meter on use (~29% meter)"
+                    "Spends 1000 V-meter on use (~29% meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 50
+                "i": 52
             },
             "HK Shunpukyaku": {
                 "moveName": "HK Shunpukyaku",
@@ -2218,13 +2435,54 @@
                     "Cancelable into V-Skill on hit only",
                     "Cancels into an extended version on hit",
                     "Hurtbox on the V-Trigger version of Sakura's tatsu is a bit smaller while in-air (can hop over some abilities hitboxes)",
-                    "Spends 1000 V-meter on use (~29% meter)"
+                    "Spends 1000 V-meter on use (~29% meter)",
+                    "Juggle Limit / Increase / Start: ?"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 51
-            }
+                "i": 53
+            },
+            "EX Shunpukyaku": {
+                "moveName": "EX Shunpukyaku",
+                "plnCmd": "qcb+KK",
+                "numCmd": "214KK",
+                "cmnName": "EX Tatsu",
+                "startup": 12,
+                "active": "2(6)2(7)2",
+                "recovery": "4+22(29)",
+                "total": "56(88)",
+                "onHit": "KD",
+                "onBlock": -10,
+                "vs2OnHit": "KD (+112/53/58)",
+                "damage": "30x4 (120)",
+                "stun": "30x3*60 (150)",
+                "kd": 113,
+                "kdr": 54,
+                "kdrb": 59,
+                "attackLevel": "H",
+                "cancelsTo": [
+                    "vs1",
+                    "vs2"
+                ],
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Launches opponent into a limited juggle state on-hit only",
+                    "Airborne on frames 11-35",
+                    "Cancelable into V-Skill on hit only",
+                    "Cancels into an extended version on hit",
+                    "Hurtbox on the V-Trigger version of Sakura's tatsu is a bit smaller while in-air (can hop over some abilities hitboxes)",
+                    "Spends 1000 V-meter on use (~29% meter)",
+                    "Juggle Limit / Increase / Start: ?"
+                ],
+                "moveType": "special",
+                "moveMotion": "QCB",
+                "moveButton": "HK",
+                "i": 54
+            },
+            "input": "None"
         }
     },
     "stats": {

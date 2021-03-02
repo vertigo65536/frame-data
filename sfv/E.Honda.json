@@ -15,6 +15,9 @@
                 "vtcOnBlock": "7(8)",
                 "damage": 40,
                 "stun": 90,
+                "hcWinSpCa": 13,
+                "hcWinTc": 10,
+                "hcWinVt": 10,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -50,6 +53,10 @@
                 "vtcOnBlock": "10(12)",
                 "damage": 70,
                 "stun": 120,
+                "hcWinSpCa": "*15",
+                "hcWinTc": 18,
+                "hcWinVt": 15,
+                "hcWinNotes": "*VS2 Hands only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -84,6 +91,8 @@
                 "vtcOnBlock": 14,
                 "damage": "90(80)",
                 "stun": 150,
+                "hcWinSpCa": 17,
+                "hcWinVt": 20,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -141,16 +150,18 @@
                 "moveName": "Stand MK",
                 "plnCmd": "MK",
                 "numCmd": "5MK",
-                "startup": 6,
+                "startup": 5,
                 "active": 2,
                 "recovery": 14,
-                "total": 21,
+                "total": 20,
                 "onHit": 7,
                 "onBlock": 4,
                 "vtcOnHit": 16,
                 "vtcOnBlock": 13,
                 "damage": 60,
                 "stun": 120,
+                "hcWinSpCa": 13,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -185,6 +196,9 @@
                 "vtcOnBlock": "16*19",
                 "damage": "90(80)",
                 "stun": 150,
+                "hcWinSpCa": "*14/*17",
+                "hcWinVt": "14/17",
+                "hcWinNotes": "*VS2 Hands only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -195,7 +209,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "First hit forces standing",
-                    "Second hit cannot hit crouching and 10 deals less damage (80) by itself",
+                    "Second hit cannot hit crouching and deals 10 less damage (80) by itself",
                     "-4 on block vs crouching when the second hit whiffs",
                     "Decent anti-air on 2nd hit (albeit a bit slow startup)"
                 ],
@@ -254,6 +268,9 @@
                 "vtcOnBlock": 12,
                 "damage": 60,
                 "stun": 120,
+                "hcWinSpCa": "*14",
+                "hcWinVt": 14,
+                "hcWinNotes": "*VS2 Hands only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -286,11 +303,12 @@
                 "vtcOnBlock": 16,
                 "damage": 100,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 25,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*16",
+                "hcWinVt": 16,
+                "hcWinNotes": "*VS2 Hands only",
+                "ccState": "Stagger",
+                "ccAdv": 25,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -333,7 +351,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Chains into cr.LP",
-                    "Can cancel into Hundred Hand Slap special or V-Trigger activation / specials"
+                    "Can cancel into Hundred Hand Slap special or V-Trigger activation / specials",
+                    "If canceled into VT1 or VT2 activation, recovery is 11F instead of 6F"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -344,16 +363,19 @@
                 "moveName": "Crouch MK",
                 "plnCmd": "d+MK",
                 "numCmd": "2MK",
-                "startup": 7,
+                "startup": 6,
                 "active": 3,
                 "recovery": 14,
-                "total": 23,
-                "onHit": 4,
+                "total": 22,
+                "onHit": 5,
                 "onBlock": -2,
-                "vtcOnHit": 9,
+                "vtcOnHit": 10,
                 "vtcOnBlock": 3,
                 "damage": 60,
                 "stun": 120,
+                "hcWinSpCa": "*15",
+                "hcWinVt": 15,
+                "hcWinNotes": "*VS2 Hands only",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -364,7 +386,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Decent hitbox priority for a cr.MK",
-                    "Deals 20 more stun (120) compared to most medium attacks in the game"
+                    "Deals 20 more stun (120) compared to most medium attacks in the game",
+                    "If canceled into VT1 or VT2 activation, recovery is 11F instead of 6F"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -385,14 +408,15 @@
                 "vtcOnBlock": 10,
                 "damage": 100,
                 "stun": 150,
+                "hcWinSpCa": "*16",
+                "hcWinVt": 16,
+                "hcWinNotes": "*VS2 Hands only",
                 "kd": 71,
                 "kdr": 22,
                 "kdrb": 27,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -407,7 +431,7 @@
                     "Only the first hit (front) can cancel into V-Trigger",
                     "Second hit (behind) cannot hit airborne or targets in front of E.Honda",
                     "Second hit does not play out if the first hit connects to opponent (hit or block)",
-                    "+3F recovery on whiff"
+                    "3 extra recovery frames on whiff (17F)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -458,7 +482,7 @@
             },
             "Jump HP": {
                 "moveName": "Jump HP",
-                "plnCmd": "u+HP",
+                "plnCmd": "ub or uf+HP",
                 "numCmd": "j.HP",
                 "startup": 7,
                 "active": 3,
@@ -477,6 +501,7 @@
                 "moveName": "Neutral Jump HP",
                 "plnCmd": "u+HP",
                 "numCmd": "8HP",
+                "cmnName": "Stop Sign",
                 "startup": 10,
                 "active": 5,
                 "damage": 90,
@@ -557,7 +582,7 @@
                 "moveName": "Flying Sumo Press",
                 "plnCmd": "d+MK (air)",
                 "numCmd": "2MK (air)",
-                "cmnName": "Cross-up",
+                "cmnName": "Body Splash",
                 "startup": 12,
                 "active": 9,
                 "damage": 70,
@@ -573,6 +598,9 @@
                     "Deals 10 more damage (70) and 20 more stun (120) compared to most medium jump-ins in the game"
                 ],
                 "moveType": "normal",
+                "moveMotion": "D",
+                "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Harai-Geri": {
@@ -590,11 +618,12 @@
                 "vtcOnBlock": 12,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 20,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*18",
+                "hcWinVt": 18,
+                "hcWinNotes": "*VS2 Hands only",
+                "ccState": "Stagger",
+                "ccAdv": 20,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -609,6 +638,9 @@
                     "Juggle Limit: 1"
                 ],
                 "moveType": "normal",
+                "moveMotion": "F",
+                "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Chikara-Ashi": {
@@ -621,11 +653,14 @@
                 "recovery": 16,
                 "total": 41,
                 "onHit": 5,
-                "onBlock": 2,
+                "onBlock": 4,
                 "vtcOnHit": 20,
-                "vtcOnBlock": 17,
+                "vtcOnBlock": 19,
                 "damage": 90,
                 "stun": 120,
+                "hcWinSpCa": "*17",
+                "hcWinVt": 17,
+                "hcWinNotes": "*VS2 Hands only",
                 "kd": 70,
                 "kdr": 9,
                 "kdrb": 14,
@@ -647,6 +682,9 @@
                     "Juggle Limit: 5"
                 ],
                 "moveType": "normal",
+                "moveMotion": "DF",
+                "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Tokoshizume": {
@@ -661,8 +699,9 @@
                 "onBlock": 2,
                 "vtcOnHit": 20,
                 "vtcOnBlock": 17,
-                "damage": 70,
-                "stun": 100,
+                "damage": "70*63 (133)",
+                "stun": "100*110 (210)",
+                "hcWinTc": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -676,9 +715,13 @@
                     "Great oki and mixup tool",
                     "Can be kara-canceled from frames 12-19 (before active) into all special moves (including V-trigger specials) and super (Critical Art)",
                     "Kara-canceling into Sumo Headbutt requires a plink input",
-                    "Juggle Limit on df+HK: 5"
+                    "Juggle Limit on df+HK: 5",
+                    "70dmg / 100 stun if only df HK hits"
                 ],
                 "moveType": "normal",
+                "moveMotion": "DF",
+                "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Tsurane Harite": {
@@ -691,10 +734,13 @@
                 "recovery": 19,
                 "onHit": "KD",
                 "onBlock": -6,
-                "vtcOnHit": "KD",
+                "vtcOnHit": "KD (+112/53/58)",
                 "vtcOnBlock": 10,
-                "damage": 50,
-                "stun": 100,
+                "damage": "40*45 (85)",
+                "stun": "90*90 (180)",
+                "hcWinSpCa": 13,
+                "hcWinTc": 10,
+                "hcWinVt": 13,
                 "kd": 96,
                 "kdr": 37,
                 "kdrb": 42,
@@ -714,6 +760,9 @@
                     "Puts grounded opponents into a limited juggle state (Juggle Start: +1)"
                 ],
                 "moveType": "normal",
+                "moveMotion": "N",
+                "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Hirate": {
@@ -725,9 +774,12 @@
                 "active": 4,
                 "recovery": 24,
                 "onHit": "KD",
-                "vtcOnHit": "KD",
-                "damage": 70,
-                "stun": 120,
+                "vtcOnHit": "KD (+118/57/62)",
+                "damage": "40*45*56 (141)",
+                "stun": "90*90*96 (276)",
+                "hcWinSpCa": 13,
+                "hcWinTc": 13,
+                "hcWinVt": 13,
                 "kd": 97,
                 "kdr": 36,
                 "kdrb": 41,
@@ -746,6 +798,9 @@
                     "Puts opponent into a limited juggle state (Juggle Count: 1)",
                     "Juggle Limit / Increase / Start: 3 / 0 / 1"
                 ],
+                "moveMotion": "N",
+                "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 25
             },
             "Saba-Ori": {
@@ -770,6 +825,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 26
             },
             "Tawara Throw": {
@@ -797,6 +853,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 27
             },
             "Neko Damashi": {
@@ -804,10 +861,10 @@
                 "plnCmd": "MP+MK (VS1)",
                 "numCmd": "MPMK (VS1)",
                 "cmnName": "V-Skill 1",
-                "startup": 15,
+                "startup": 12,
                 "active": 4,
-                "recovery": 24,
-                "total": 42,
+                "recovery": 23,
+                "total": 39,
                 "onHit": 3,
                 "onBlock": -6,
                 "vtcOnHit": 24,
@@ -830,6 +887,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 28
             },
             "Sumo Spirit": {
@@ -850,6 +908,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 29
             },
             "Onigawara": {
@@ -871,6 +930,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 30
             },
             "Tajikarao": {
@@ -892,6 +952,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 31
             },
             "Raiden-Ho": {
@@ -919,7 +980,66 @@
                 ],
                 "moveType": "alpha",
                 "moveMotion": "F",
+                "movesList": "V-Reversal",
                 "i": 32
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 0.95 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 33
+            },
+            "Super Sumo Impact": {
+                "moveName": "Super Sumo Impact",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 34
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -936,7 +1056,7 @@
                 "moveMotion": "N",
                 "moveButton": "3P3K",
                 "nonHittingMove": true,
-                "i": 33
+                "i": 35
             },
             "LP Hundred Hand Slap": {
                 "moveName": "LP Hundred Hand Slap",
@@ -971,7 +1091,8 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "LP",
-                "i": 34
+                "movesList": "Special",
+                "i": 36
             },
             "MP Hundred Hand Slap": {
                 "moveName": "MP Hundred Hand Slap",
@@ -1006,7 +1127,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "MP",
-                "i": 35
+                "i": 37
             },
             "HP Hundred Hand Slap": {
                 "moveName": "HP Hundred Hand Slap",
@@ -1041,7 +1162,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "HP",
-                "i": 36
+                "i": 38
             },
             "EX Hundred Hand Slap": {
                 "moveName": "EX Hundred Hand Slap",
@@ -1076,7 +1197,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "2P",
-                "i": 37
+                "i": 39
             },
             "LP Sumo Headbutt": {
                 "moveName": "LP Sumo Headbutt",
@@ -1091,9 +1212,9 @@
                 "onBlock": -4,
                 "damage": "120(100)",
                 "stun": "180(150)",
-                "kd": 90,
-                "kdr": 31,
-                "kdrb": 36,
+                "kd": 96,
+                "kdr": 37,
+                "kdrb": 42,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1111,13 +1232,16 @@
                     "Startup frames listed refer to the start of the grounded Sumo Headbutt (startup of airborne Sumo Headbutt is shown in the parantheses data)",
                     "Recovery and Total frames listed refers to the whiffed version (11+15 recovery frames on hit / block)",
                     "Has fixed KDA (KDA does not vary depending on distance traveled) on grounded opponents",
+                    "Can cancel into Oni-Daikaku (VT1 Headbutt) on hit",
+                    "KDA varies if canceled into VT1 Headbutt (see Oni-Daikaku for KDA data)",
                     "Juggle Limit / Increase / Start: 0 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 38
+                "movesList": "Special",
+                "i": 40
             },
             "MP Sumo Headbutt": {
                 "moveName": "MP Sumo Headbutt",
@@ -1132,9 +1256,9 @@
                 "onBlock": -7,
                 "damage": "140(110)",
                 "stun": "180(150)",
-                "kd": 92,
-                "kdr": 33,
-                "kdrb": 38,
+                "kd": 93,
+                "kdr": 34,
+                "kdrb": 39,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1152,13 +1276,15 @@
                     "Startup frames listed refer to the start of the grounded Sumo Headbutt (startup of airborne Sumo Headbutt is shown in the parantheses data)",
                     "Recovery and Total frames listed refers to the whiffed version (11+15 recovery frames on hit / block)",
                     "Has fixed KDA (KDA does not vary depending on distance traveled) on grounded opponents",
+                    "Can cancel into Oni-Daikaku (VT1 Headbutt) on hit",
+                    "KDA varies if canceled into VT1 Headbutt (see Oni-Daikaku for KDA data)",
                     "Juggle Limit / Increase / Start: 0 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 39
+                "i": 41
             },
             "HP Sumo Headbutt": {
                 "moveName": "HP Sumo Headbutt",
@@ -1173,9 +1299,9 @@
                 "onBlock": -12,
                 "damage": "160(120)",
                 "stun": "180(150)",
-                "kd": 90,
-                "kdr": 31,
-                "kdrb": 36,
+                "kd": 97,
+                "kdr": 38,
+                "kdrb": 43,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1194,6 +1320,8 @@
                     "Startup frames listed refer to the start of the grounded Sumo Headbutt (startup of airborne Sumo Headbutt is shown in the parantheses data)",
                     "Recovery and Total frames listed refers to the whiffed version (11+15 recovery frames on hit / 11+23 recovery frames on block)",
                     "Has fixed KDA (KDA does not vary depending on distance traveled)",
+                    "Can cancel into Oni-Daikaku (VT1 Headbutt) on hit",
+                    "KDA varies if canceled into VT1 Headbutt (see Oni-Daikaku for KDA data)",
                     "Juggle Limit / Increase / Start: 0 / 1 / 1"
                 ],
                 "moveType": "special",
@@ -1201,7 +1329,7 @@
                 "moveButton": "HP",
                 "chargeDirection": "B",
                 "antiAirMove": true,
-                "i": 40
+                "i": 42
             },
             "EX Sumo Headbutt": {
                 "moveName": "EX Sumo Headbutt",
@@ -1228,7 +1356,7 @@
                     "1 hit of armor on frames 3-9 and then another 1 hit of armor on frames 10-35",
                     "Airborne on frames 10-44 on whiff",
                     "Travels full-screen",
-                    "Hits 2 times if used up close for 100+40 damage and 150+50 stun (otherwise only does 1 hit for 120 damage and 180 stun if connected while Honda is airborne)",
+                    "Hits 2 times if used up close for 100+60 damage and 150+50 stun (otherwise only does 1 hit for 130 damage and 180 stun if connected while Honda is airborne)",
                     "Recovery and Total frames listed refers to the whiffed version (11+26 recovery frames on hit / 11+36 recovery frames on block)",
                     "Has fixed KDA (but KDA does differ depending on if both hits connect (up close) or just one hit connects)",
                     "KDA shown in parantheses (X) refers to when both hits connect (up close)",
@@ -1238,13 +1366,13 @@
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 41
+                "i": 43
             },
             "LK Sumo Smash": {
                 "moveName": "LK Sumo Smash",
                 "plnCmd": "d,u+LK",
                 "numCmd": "28LK",
-                "cmnName": "LK Butt Smash",
+                "cmnName": "LK Butt Slam",
                 "startup": 11,
                 "active": "3(18)6",
                 "recovery": 24,
@@ -1276,13 +1404,14 @@
                 "moveMotion": "U",
                 "moveButton": "LK",
                 "chargeDirection": "D",
-                "i": 42
+                "movesList": "Special",
+                "i": 44
             },
             "MK Sumo Smash": {
                 "moveName": "MK Sumo Smash",
                 "plnCmd": "d,u+MK",
                 "numCmd": "28MK",
-                "cmnName": "MK Butt Smash",
+                "cmnName": "MK Butt Slam",
                 "startup": 13,
                 "active": "3(19)7",
                 "recovery": 24,
@@ -1314,13 +1443,13 @@
                 "moveMotion": "U",
                 "moveButton": "MK",
                 "chargeDirection": "D",
-                "i": 43
+                "i": 45
             },
             "HK Sumo Smash": {
                 "moveName": "HK Sumo Smash",
                 "plnCmd": "d,u+HK",
                 "numCmd": "28HK",
-                "cmnName": "HK Butt Smash",
+                "cmnName": "HK Butt Slam",
                 "startup": 16,
                 "active": "3(19)13",
                 "recovery": 24,
@@ -1336,18 +1465,29 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
-                "extraInfo": "\"Requires 40 frames of charge\", [\"Second hit is an overhead and can hit cross-up\", \"Airborne on frames 10-50\", \"First hit usually won't hit grounded opponents\", \"Deals 20 less damage (100) and stun (160) if only the second hit connects in front\", \"Block advantage varies depending on how tall the opponent (the taller they are the less advantageous it is)\", \"Less frame advantage if blocked cross-up (-4~6) and less damage (80) and stun (120)\", \"KDA shown in parantheses (X) refers to when both hits connect\", \"KDA varies depending on how tall / high in the air opponent is (higher KDA the closer to ground the collision happens)\", \"Juggle Limit / Increase / Start: 1*2 / 1*1 / 1*1\"]",
+                "extraInfo": [
+                    "Requires 40 frames of charge",
+                    "Second hit is an overhead and can hit cross-up",
+                    "Airborne on frames 10-50",
+                    "First hit usually won't hit grounded opponents",
+                    "Deals 20 less damage (100) and stun (160) if only the second hit connects in front",
+                    "Block advantage varies depending on how tall the opponent (the taller they are the less advantageous it is)",
+                    "Less frame advantage if blocked cross-up (-4~6) and less damage (80) and stun (120)",
+                    "KDA shown in parantheses (X) refers to when both hits connect",
+                    "KDA varies depending on how tall / high in the air opponent is (higher KDA the closer to ground the collision happens)",
+                    "Juggle Limit / Increase / Start: 1*2 / 1*1 / 1*1"
+                ],
                 "moveType": "special",
                 "moveMotion": "U",
                 "moveButton": "HK",
                 "chargeDirection": "D",
-                "i": 44
+                "i": 46
             },
             "EX Sumo Smash": {
                 "moveName": "EX Sumo Smash",
                 "plnCmd": "d,u+KK",
                 "numCmd": "28KK",
-                "cmnName": "EX Butt Smash",
+                "cmnName": "EX Butt Slam",
                 "startup": 8,
                 "active": "8(14)10",
                 "recovery": 19,
@@ -1380,7 +1520,7 @@
                 "moveMotion": "U",
                 "moveButton": "2K",
                 "chargeDirection": "D",
-                "i": 45
+                "i": 47
             },
             "LP Oicho Throw": {
                 "moveName": "LP Oicho Throw",
@@ -1408,7 +1548,8 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
-                "i": 46
+                "movesList": "Special",
+                "i": 48
             },
             "MP Oicho Throw": {
                 "moveName": "MP Oicho Throw",
@@ -1436,7 +1577,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "MP",
-                "i": 47
+                "i": 49
             },
             "HP Oicho Throw": {
                 "moveName": "HP Oicho Throw",
@@ -1464,7 +1605,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "HP",
-                "i": 48
+                "i": 50
             },
             "EX Oicho Throw": {
                 "moveName": "EX Oicho Throw",
@@ -1472,8 +1613,8 @@
                 "numCmd": "63214PP",
                 "cmnName": "EX Command Grab",
                 "startup": 5,
-                "active": 2,
-                "recovery": 60,
+                "active": 3,
+                "recovery": 59,
                 "total": 66,
                 "onHit": "KD",
                 "damage": 200,
@@ -1492,7 +1633,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
-                "i": 49
+                "i": 51
             },
             "Kamigashima": {
                 "moveName": "Kamigashima",
@@ -1526,8 +1667,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 50
-            }
+                "movesList": "Super",
+                "i": 52
+            },
+            "input": "None"
         },
         "vtOne": {
             "Oni-Daikaku": {
@@ -1540,7 +1683,7 @@
                 "recovery": "10+10(11+14)",
                 "total": 56,
                 "onHit": "KD",
-                "onBlock": -4,
+                "onBlock": -2,
                 "damage": "120(100)",
                 "stun": 200,
                 "kd": 90,
@@ -1568,6 +1711,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 30.01
             },
             "Oni-Daikaku (Hold)": {
@@ -1583,9 +1727,9 @@
                 "onBlock": 27,
                 "damage": "180(160)",
                 "stun": 200,
-                "kd": 90,
-                "kdr": 31,
-                "kdrb": 36,
+                "kd": "90(87)",
+                "kdr": "31(8)",
+                "kdrb": "36(13)",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1597,19 +1741,22 @@
                 "extraInfo": [
                     "Spends 1000 V-Meter (33% V-Timer)",
                     "Airborne frames 65-96",
-                    "Causes guard crush (+27 frame advantage)",
+                    "Causes guard crush (+27 frame advantage) when fully charged",
                     "Only cancelable into Super (Critical Art) on first 3 active frames (up close)",
                     "Has 1 point of armor on frame 4 and onwards during hold (if released early on frames 8-51 then the armor disappears and the headbutt active frames start 3F after release)",
                     "Another 1 hit of armor if fully charged on frames 58-62 (during first few active frames up close)",
                     "Fully charged version has projectile invincibility on frames 63-87 (while mid-air) after the initial 3 active frames",
                     "Deals 20 less damage (100) after the first 3 active frames (after Honda goes airborne)",
-                    "Recovery and Total frames listed refers to the whiffed version (11+14 recovery frames on hit / block)",
                     "Has fixed KDA (KDA does not vary depending on distance traveled) on grounded opponents",
+                    "If canceled into from Headbutt, deals 80 less damage (100) first 3 active frames (up close) and 80 less dmg (80) on later active frames (far away)",
+                    "KDA listed in parentheses is refers to Sumo Headbutt canceled into VT1 Headbutt (+2 extra KDA in corner)",
+                    "Recovery and Total frames listed refers to the whiffed version (11+14 recovery frames on hit / block)",
                     "Juggle Limit / Increase / Start: 10 / 1 / 1"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "hold",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 30.02
             },
             "Oni-Daikaku (Release)": {
@@ -1622,12 +1769,12 @@
                 "recovery": "10+10(11+14)",
                 "total": 49,
                 "onHit": "KD",
-                "onBlock": -4,
+                "onBlock": -2,
                 "damage": "120(100)",
                 "stun": 200,
-                "kd": 90,
-                "kdr": 31,
-                "kdrb": 36,
+                "kd": "90(87)",
+                "kdr": "31(8)",
+                "kdrb": "36(13)",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1642,13 +1789,17 @@
                     "Airborne on frames 8-39",
                     "Only cancelable into Super (Critical Art) on first 3 active frames (up close)",
                     "Deals 20 less damage (100) after the first 3 active frames (after Honda goes airborne)",
+                    "If canceled into from Headbutt, deals 20 less damage (60) first 3 active frames (up close)",
                     "Recovery and Total frames listed refers to the whiffed version (11+14 recovery frames on hit / block)",
                     "Has fixed KDA (KDA does not vary depending on distance traveled) on grounded opponents",
+                    "If canceled into from Headbutt, deals 80 less damage (100) first 3 active frames (up close) and 80 less dmg (80) on later active frames (far away)",
+                    "KDA listed in parentheses is refers to Sumo Headbutt canceled into VT1 Headbutt (+2 extra KDA in corner)",
                     "Juggle Limit / Increase / Start: 10 / 1 / 1"
                 ],
                 "moveType": "vtrigger",
                 "moveButton": "HPHK",
                 "chargeDirection": "R",
+                "movesList": "Special",
                 "i": 30.03
             },
             "Oni-Muso": {
@@ -1662,11 +1813,11 @@
                 "total": 49,
                 "onHit": "KD",
                 "onBlock": "KD",
-                "damage": "40*80",
-                "stun": "100*100",
-                "kd": 92,
-                "kdr": 33,
-                "kdrb": 38,
+                "damage": "120*72*36 (228)",
+                "stun": "200*90*90 (380)",
+                "kd": "92(91)",
+                "kdr": "33(32)",
+                "kdrb": "38(37)",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1678,15 +1829,19 @@
                     "Secondary Headbutt follow-up to that spends additional 1200 V-Meter (40% V-Timer)",
                     "Can only be activated if opponent is in blowback state (airborne hitstun) - Cannot be used after: Armor Break / Armor Absorb / Parry",
                     "Only cancelable into Super (Critical Art) on first 3 active frames (up close)",
-                    "Recovery and Total frames listed refers to the whiffed version (11+14 recovery frames on hit)",
+                    "If canceled into from Headbutt, deals 20 less damage (60) first 3 active frames (up close)",
                     "Has fixed KDA (KDA does not vary depending on distance traveled) on grounded opponents",
+                    "KDA listed in parentheses is refers to Sumo Headbutt canceled into VT1 Headbutt",
+                    "Recovery and Total frames listed refers to the whiffed version (11+14 recovery frames on hit)",
                     "Juggle Limit: 11"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 30.04
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Iwato Biraki": {
@@ -1718,8 +1873,10 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 31.01
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

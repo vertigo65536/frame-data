@@ -49,6 +49,8 @@
                 "vtc1OnBlock": 9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -83,6 +85,8 @@
                 "vtc1OnBlock": 10,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 17,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -147,12 +151,15 @@
                 "active": 3,
                 "recovery": 16,
                 "total": 26,
-                "onHit": 2,
+                "onHit": 4,
                 "onBlock": -2,
-                "vtc1OnHit": 9,
+                "vtc1OnHit": 11,
                 "vtc1OnBlock": 5,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinTc": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -181,17 +188,16 @@
                 "active": 3,
                 "recovery": 23,
                 "total": 37,
-                "onHit": 4,
+                "onHit": 3,
                 "onBlock": -4,
                 "vtc1OnHit": 17,
                 "vtc1OnBlock": 10,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 26,
-                    "vG": "+150"
-                },
+                "hcWinVt": 17,
+                "ccState": "Stagger",
+                "ccAdv": 26,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -201,7 +207,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Far range whiffs on crouchers",
+                    "Can whiff on crouching from further away",
                     "Cannot cancel into VT1 Psycho Schrot and Psycho Panzer shots, but can cancel into activation"
                 ],
                 "moveType": "normal",
@@ -247,16 +253,19 @@
                 "moveName": "Crouch MP",
                 "plnCmd": "d+MP",
                 "numCmd": "2MP",
-                "startup": 9,
+                "startup": 8,
                 "active": 2,
-                "recovery": 18,
-                "total": 28,
+                "recovery": 16,
+                "total": 25,
                 "onHit": 4,
                 "onBlock": -2,
                 "vtc1OnHit": 12,
                 "vtc1OnBlock": 6,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": "*13",
+                "hcWinVt": "13/**18",
+                "hcWinNotes": "*VT2 Specials only, **VT2 activation",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -354,6 +363,9 @@
                 "vtc1OnBlock": 5,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*13",
+                "hcWinVt": 13,
+                "hcWinNotes": "*CA and VT2 Specials only",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "su",
@@ -385,14 +397,13 @@
                 "vtc1OnBlock": 2,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 16,
                 "kd": 73,
                 "kdr": 24,
                 "kdrb": 29,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -512,7 +523,7 @@
                 "moveName": "Jump HK",
                 "plnCmd": "u+HK",
                 "numCmd": "j.HK",
-                "startup": 9,
+                "startup": 7,
                 "active": 5,
                 "damage": 90,
                 "stun": 150,
@@ -541,7 +552,7 @@
                 "onBlock": "~(1)",
                 "damage": 60,
                 "stun": 100,
-                "attackLevel": "M",
+                "attackLevel": "H",
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
@@ -559,6 +570,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Blaukraehe": {
@@ -576,6 +588,7 @@
                 "vtc1OnBlock": 10,
                 "damage": "70(40)",
                 "stun": "150(100)",
+                "hcWinVt": 20,
                 "kd": 60,
                 "kdr": 11,
                 "kdrb": 16,
@@ -598,6 +611,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Psycho Spitze": {
@@ -615,14 +629,15 @@
                 "vtc1OnBlock": 5,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": "*16",
+                "hcWinVt": "16/**21",
+                "hcWinNotes": "*VT1 and VT2 Specials only, **VT2 activation",
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
-                "crushAdv": {
-                    "state": "Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+100"
-                },
+                "ccState": "Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+100",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -638,31 +653,8 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 21
-            },
-            "Wirbel Wind": {
-                "moveName": "Wirbel Wind",
-                "plnCmd": "LP+LK",
-                "numCmd": "LPLK",
-                "cmnName": "Throw",
-                "startup": 5,
-                "active": 3,
-                "recovery": 17,
-                "total": 24,
-                "onHit": "KD",
-                "damage": 140,
-                "stun": 150,
-                "kd": 60,
-                "kdr": 11,
-                "kdrb": 11,
-                "attackLevel": "T",
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "moveType": "throw",
-                "moveMotion": "N",
-                "moveButton": "LPLK",
-                "i": 22
             },
             "Zweitrit": {
                 "moveName": "Zweitrit",
@@ -678,6 +670,10 @@
                 "vtc1OnBlock": -1,
                 "damage": "60*63 (123)",
                 "stun": "100*90 (190)",
+                "hcWinSpCa": "*17",
+                "hcWinTc": 14,
+                "hcWinVt": 17,
+                "hcWinNotes": "*VT2 Specials and Psycho Mine only",
                 "kd": 96,
                 "kdr": 37,
                 "kdrb": 42,
@@ -690,12 +686,13 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Can be followed up with V-Skill 2"
+                    "Can be followed up with V-Skill 2 (Psycho Mine)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
-                "i": 23
+                "movesList": "Target Combo",
+                "i": 22
             },
             "Psycho Seele": {
                 "moveName": "Psycho Seele",
@@ -720,6 +717,32 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "Target Combo",
+                "i": 23
+            },
+            "Wirbel Wind": {
+                "moveName": "Wirbel Wind",
+                "plnCmd": "LP+LK",
+                "numCmd": "LPLK",
+                "cmnName": "Throw",
+                "startup": 5,
+                "active": 3,
+                "recovery": 17,
+                "total": 24,
+                "onHit": "KD",
+                "damage": 140,
+                "stun": 150,
+                "kd": 60,
+                "kdr": 11,
+                "kdrb": 11,
+                "attackLevel": "T",
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "moveType": "throw",
+                "moveMotion": "N",
+                "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 24
             },
             "Luftstrom": {
@@ -744,6 +767,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 25
             },
             "Windstoss": {
@@ -757,20 +781,22 @@
                 "onHit": "KD",
                 "damage": 140,
                 "stun": 200,
-                "kd": "56(60)",
-                "kdr": "7(11)",
-                "kdrb": "7(11)",
+                "kd": "64(66)",
+                "kdr": "5(7)",
+                "kdrb": "5(7)",
                 "attackLevel": "T",
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "KDA differs depending on how high / low to the ground the air throw connects (increased KDA the lower it was)",
+                    "Denies backroll",
                     "6 grounded recovery frames on a whiffed air throw"
                 ],
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 26
             },
             "Psycho Trombe": {
@@ -812,6 +838,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 27
             },
             "Psycho Mine": {
@@ -851,6 +878,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 28
             },
             "Staerken": {
@@ -875,6 +903,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 29
             },
             "Psycho Angriff": {
@@ -908,6 +937,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 30
             },
             "Psycho Impulse": {
@@ -935,7 +965,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3K",
+                "movesList": "V-Reversal",
                 "i": 31
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 32
+            },
+            "Psycho Aufstand": {
+                "moveName": "Psycho Aufstand",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 33
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -950,7 +1039,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 32
+                "i": 34
             },
             "Psycho Kugel": {
                 "moveName": "Psycho Kugel",
@@ -985,7 +1074,8 @@
                 "moveMotion": "N",
                 "moveButton": "1P",
                 "chargeDirection": "R",
-                "i": 33
+                "movesList": "Special",
+                "i": 35
             },
             "Psycho Kanonen": {
                 "moveName": "Psycho Kanonen",
@@ -1021,7 +1111,8 @@
                 "moveMotion": "D",
                 "moveButton": "1P",
                 "chargeDirection": "R",
-                "i": 34
+                "movesList": "Special",
+                "i": 36
             },
             "Psycho Feder": {
                 "moveName": "Psycho Feder",
@@ -1038,13 +1129,15 @@
                 "projectile": true,
                 "extraInfo": [
                     "Charges in 50 frames",
-                    "9 frames of recovery upon landing"
+                    "9 frames of recovery upon landing",
+                    "Projectile Speed 0.066 Horizontal / -0.09 Vertical"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
                 "chargeDirection": "R",
-                "i": 35
+                "movesList": "Special",
+                "i": 37
             },
             "Psycho Schneide": {
                 "moveName": "Psycho Schneide",
@@ -1053,8 +1146,8 @@
                 "cmnName": "Upper",
                 "startup": 8,
                 "active": 6,
-                "recovery": 39,
-                "total": 51,
+                "recovery": "33(38)",
+                "total": "46(51)",
                 "onHit": "KD",
                 "onBlock": -17,
                 "damage": "50*70 (120)",
@@ -1072,14 +1165,17 @@
                 "projectile": false,
                 "extraInfo": [
                     "Pretty good anti-air as well (but not good against opponents right above Falke's head)",
+                    "Can hit crossup",
                     "No hurtbox on Falke's head on frames 1-10",
+                    "Recovery and total frames in the parentheses refers to the On Hit version",
                     "Juggle Increase: 0*1 (first hit doesn't increase the current juggle count on a juggled opponent at all",
                     "Juggle Limit: 5"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2P",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "EX Psycho Schneide": {
                 "moveName": "EX Psycho Schneide",
@@ -1105,12 +1201,13 @@
                     "Fully invincible on frames 1-16",
                     "Strong anti-air hitboxes",
                     "Pretty slow startup so this can be baited",
+                    "Can hit crossup",
                     "Falke is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "3P",
-                "i": 37
+                "i": 39
             },
             "Katapult": {
                 "moveName": "Katapult",
@@ -1119,8 +1216,8 @@
                 "cmnName": "Vault",
                 "startup": 16,
                 "active": 4,
-                "recovery": 31,
-                "total": 50,
+                "recovery": "26(31)",
+                "total": "45(50)",
                 "onHit": "KD",
                 "onBlock": -10,
                 "damage": 90,
@@ -1137,6 +1234,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Framedata in parentheses refers to On Hit data",
                     "Furthest range option for her special cancelable confirms",
                     "No actual airborne frames and hurtbox stays grounded throughout the entire animation",
                     "If canceled into V-Trigger 2 on hit results in KDA: +95/36/41"
@@ -1144,7 +1242,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2K",
-                "i": 38
+                "movesList": "Special",
+                "i": 40
             },
             "EX Katapult": {
                 "moveName": "EX Katapult",
@@ -1174,7 +1273,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "3K",
-                "i": 39
+                "i": 41
             },
             "Psycho Fluegel": {
                 "moveName": "Psycho Fluegel",
@@ -1203,8 +1302,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 40
-            }
+                "movesList": "Super",
+                "i": 42
+            },
+            "input": "None"
         },
         "vtOne": {
             "Psycho Schrot": {
@@ -1218,8 +1319,8 @@
                 "total": 39,
                 "onHit": "KD",
                 "onBlock": 4,
-                "damage": "30+30x3 (120)",
-                "stun": "60+30x3 (150)",
+                "damage": "30*30x3 (120)",
+                "stun": "60*30x3 (150)",
                 "kd": 101,
                 "kdr": 42,
                 "kdrb": 47,
@@ -1240,6 +1341,7 @@
                 "moveMotion": "N",
                 "moveButton": "1P",
                 "chargeDirection": "R",
+                "movesList": "Special",
                 "i": 29.01
             },
             "Psycho Panzer": {
@@ -1277,6 +1379,7 @@
                 "moveMotion": "D",
                 "moveButton": "1P",
                 "chargeDirection": "R",
+                "movesList": "Special",
                 "i": 29.02
             },
             "Psycho Jaeger": {
@@ -1305,8 +1408,10 @@
                 "moveMotion": "N",
                 "moveButton": "1P",
                 "chargeDirection": "R",
+                "movesList": "Special",
                 "i": 29.03
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Psycho Strum": {
@@ -1322,12 +1427,13 @@
                 "onBlock": -11,
                 "damage": 100,
                 "stun": 150,
-                "kd": 88,
-                "kdr": 29,
-                "kdrb": 34,
+                "kd": "88(63)",
+                "kdr": "29(4)",
+                "kdrb": "34(9)",
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vs2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1335,11 +1441,14 @@
                 "extraInfo": [
                     "Pretty good range horizontal strike",
                     "Can be canceled into from any grounded normal / special / V-Skill",
+                    "Can be canceled into V-Skill 2 on hit or block",
+                    "KDA listed in parentheses refers to canceling Psycho Strum into V-Skill 2",
                     "Spends 1000 V-Timer (33% V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 30.01
             },
             "Psycho Klinge": {
@@ -1347,11 +1456,11 @@
                 "plnCmd": "d+HP+HK",
                 "numCmd": "2HPHK",
                 "cmnName": "V-Trigger 2 Overhead",
-                "startup": 33,
+                "startup": 29,
                 "active": 5,
                 "recovery": "7+5",
-                "total": 49,
-                "onHit": 7,
+                "total": 45,
+                "onHit": 8,
                 "onBlock": 3,
                 "damage": 90,
                 "stun": 150,
@@ -1371,6 +1480,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 30.02
             },
             "Psycho Trombe": {
@@ -1383,9 +1493,10 @@
                 "recovery": 22,
                 "total": 50,
                 "onHit": "KD",
-                "onBlock": -10,
+                "onBlock": -6,
                 "damage": "10x3*40 (70)",
                 "stun": "20x3*40 (100)",
+                "hcWinSpCa": 30,
                 "kd": 87,
                 "kdr": 28,
                 "kdrb": 33,
@@ -1406,8 +1517,10 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Special",
                 "i": 27
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

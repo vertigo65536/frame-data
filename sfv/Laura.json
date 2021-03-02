@@ -54,6 +54,9 @@
                 "vsc2OnBlock": -33,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinTc": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -93,11 +96,11 @@
                 "vsc2OnBlock": "-36(-34)",
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 16,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": 18,
+                "hcWinVt": 18,
+                "ccState": "Stagger",
+                "ccAdv": 16,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -174,6 +177,7 @@
                 "vsc2OnBlock": "-37(-36)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs1",
@@ -206,11 +210,12 @@
                 "vtcOnBlock": 7,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 16,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*17",
+                "hcWinVt": 17,
+                "hcWinNotes": "*CA only",
+                "ccState": "Stagger",
+                "ccAdv": 16,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -282,6 +287,8 @@
                 "vsc2OnBlock": -33,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -321,6 +328,8 @@
                 "vsc2OnBlock": "-36(-33)",
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 22,
+                "hcWinVt": 22,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -399,6 +408,8 @@
                 "vsc2OnBlock": "-38(-37)",
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 17,
+                "hcWinVt": 17,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -433,14 +444,13 @@
                 "vtcOnBlock": 0,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 74,
                 "kdr": 25,
                 "kdrb": 30,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -611,6 +621,8 @@
                 "vtcOnBlock": 6,
                 "damage": 80,
                 "stun": 120,
+                "hcWinTc": 22,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -622,6 +634,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Twist Barrage": {
@@ -641,6 +654,8 @@
                 "vsc2OnHit": "KD (+88/29/34)",
                 "damage": 54,
                 "stun": 90,
+                "hcWinSpCa": 17,
+                "hcWinTc": 22,
                 "kd": 93,
                 "kdr": 32,
                 "kdrb": 37,
@@ -663,6 +678,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 20
             },
             "Dual Crash": {
@@ -682,6 +698,9 @@
                 "vsc2OnHit": "KD (+88/29/34)",
                 "damage": "60*54 (114)",
                 "stun": "100*90 (190)",
+                "hcWinSpCa": 14,
+                "hcWinTc": 16,
+                "hcWinVt": 14,
                 "kd": 96,
                 "kdr": 37,
                 "kdrb": 42,
@@ -704,6 +723,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MK",
+                "movesList": "Target Combo",
                 "i": 21
             },
             "Seoi Throw": {
@@ -729,6 +749,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 22
             },
             "Pullback Hold": {
@@ -754,6 +775,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 23
             },
             "Volty Line": {
@@ -771,11 +793,9 @@
                 "kd": 93,
                 "kdr": 44,
                 "kdrb": 49,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": false,
@@ -791,6 +811,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 24
             },
             "Linear Movement Avante": {
@@ -798,13 +819,14 @@
                 "plnCmd": "f+MP+MK (VS1)",
                 "numCmd": "6MPMK (VS1)",
                 "cmnName": "V-Skill 1 Fwd",
-                "recovery": 21,
-                "total": 21,
+                "recovery": "21(20)",
+                "total": "21(20)",
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "21 frames total when used standalone, but 18 frames when canceled from LM:E (backwards V-Skill)",
+                    "Can be performed with 1F shorter duration (20F) if buffered into during the 5F buffer window of SFV (and having already released the MP+MK buttons before the move starts)",
                     "Increased distance during V-Trigger",
                     "Smaller height hurtbox during this dash",
                     "Counter-hit state on frames 1-17",
@@ -814,6 +836,7 @@
                 "moveMotion": "F",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 25
             },
             "Linear Movement Equiva": {
@@ -836,6 +859,7 @@
                 "moveMotion": "B",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 26
             },
             "Linear Movement Finta": {
@@ -857,6 +881,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 27
             },
             "Volty Sprink": {
@@ -887,6 +912,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 28
             },
             "Thunder Spike": {
@@ -903,6 +929,7 @@
                 "followUp": true,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "1-hit Projectile",
                     "Duration / Speed / Trajectory of the projectile depends on strength of button used (LP/MP/HP)",
                     "LP Projectile persists for 50 frames (travels shortest distance and disappears before it touches the ground)",
@@ -915,6 +942,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 2",
                 "i": 29
             },
             "Thunder Spike Lvl 2": {
@@ -931,6 +959,7 @@
                 "followUp": true,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "2-hit Projectile",
                     "This (hold) version is only available during V-Trigger 1",
                     "Duration / Speed / Trajectory of the projectile depends on strength of button used (LP/MP/HP)",
@@ -944,6 +973,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 2",
                 "i": 30
             },
             "Heavy Heel": {
@@ -972,6 +1002,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "V-Skill 2",
                 "i": 31
             },
             "Spark Show": {
@@ -997,6 +1028,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 32
             },
             "Shock Stance": {
@@ -1019,6 +1051,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 33
             },
             "Double Slap": {
@@ -1048,7 +1081,66 @@
                 "moveMotion": "F",
                 "moveButton": "3P",
                 "nonHittingMove": true,
+                "movesList": "V-Reversal",
                 "i": 34
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 35
+            },
+            "Neutralize": {
+                "moveName": "Neutralize",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 36
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1064,7 +1156,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 35
+                "i": 37
             },
             "LP Bolt Charge": {
                 "moveName": "LP Bolt Charge",
@@ -1090,7 +1182,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "MP Bolt Charge": {
                 "moveName": "MP Bolt Charge",
@@ -1116,7 +1209,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 37
+                "i": 39
             },
             "HP Bolt Charge": {
                 "moveName": "HP Bolt Charge",
@@ -1145,17 +1238,17 @@
                 "moveMotion": "QCF",
                 "moveButton": "HP",
                 "antiAirMove": true,
-                "i": 38
+                "i": 40
             },
             "EX Bolt Charge": {
                 "moveName": "EX Bolt Charge",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "cmnName": "EX Elbow",
-                "startup": 14,
+                "startup": 12,
                 "active": 3,
                 "recovery": 22,
-                "total": 38,
+                "total": 36,
                 "onHit": 0,
                 "onBlock": -17,
                 "damage": 80,
@@ -1165,13 +1258,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "One hit of armor on frames 3-16",
+                    "One hit of armor on frames 3-14",
                     "Can cancel into the Split River / Rodeo Break follow-ups on hit only"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 39
+                "i": 41
             },
             "Split River": {
                 "moveName": "Split River",
@@ -1182,21 +1275,23 @@
                 "onHit": "KD",
                 "damage": 63,
                 "stun": 135,
-                "kd": 67,
-                "kdr": 18,
-                "kdrb": 18,
+                "kd": "67(68)",
+                "kdr": "18(19)",
+                "kdrb": "18(19)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
                     "Switches side with the opponent",
-                    "Denies back-roll (Throw)"
+                    "Denies back-roll (Throw)",
+                    "+1 extra KDA (+68/19/19) when followed up from EX Bolt Charge resulting in +2 mixup after a forward dash"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "Rodeo Break": {
                 "moveName": "Rodeo Break",
@@ -1207,21 +1302,23 @@
                 "onHit": "KD",
                 "damage": 63,
                 "stun": 135,
-                "kd": 67,
-                "kdr": 18,
-                "kdrb": 18,
+                "kd": "67(68)",
+                "kdr": "18(19)",
+                "kdrb": "18(19)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
                     "Stays on same side of the opponent",
-                    "Denies back-roll (Throw)"
+                    "Denies back-roll (Throw)",
+                    "+1 extra KDA (+68/19/19) when followed up from EX Bolt Charge resulting in +2 mixup after a forward dash"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 41
+                "movesList": "Special",
+                "i": 43
             },
             "Thunder Clap Lvl 1": {
                 "moveName": "Thunder Clap Lvl 1",
@@ -1230,9 +1327,9 @@
                 "cmnName": "Fireball Lvl 1",
                 "startup": 19,
                 "active": 40,
-                "recovery": 28,
-                "total": 47,
-                "onHit": 0,
+                "recovery": 26,
+                "total": 45,
+                "onHit": 2,
                 "onBlock": -5,
                 "vtcOnHit": 17,
                 "vtcOnBlock": 12,
@@ -1254,30 +1351,33 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "1-hit Projectile (Lvl 1 Thunder Claps)",
                     "Speed and reach of projectile depends on strength of button used (LP/MP/HP)",
                     "LP Projectile Speed: 0.05",
                     "MP Projectile Speed: 0.15",
                     "HP Projectile Speed: 0.27",
-                    "Projectile persists for 40 frames (Lvl 1 Thunder Claps)",
+                    "Projectile persists for 45 frames (Lvl 1 Thunder Claps)",
+                    "Can cancel into V-Skill 1 and 2 during V-Trigger 1",
                     "Juggle Limit / Increase / Start: 0 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1P",
-                "i": 42
+                "movesList": "Special",
+                "i": 44
             },
             "Thunder Clap Lvl 2": {
                 "moveName": "Thunder Clap Lvl 2",
                 "plnCmd": "qcb+P (brief-hold)",
                 "numCmd": "214P (brief-hold)",
                 "cmnName": "Fireball Lvl 2",
-                "startup": 41,
+                "startup": 36,
                 "active": 80,
-                "recovery": 27,
-                "total": 68,
-                "onHit": 9,
-                "onBlock": 0,
+                "recovery": 25,
+                "total": 61,
+                "onHit": 11,
+                "onBlock": 2,
                 "vtcOnHit": 25,
                 "vtcOnBlock": 16,
                 "vsc1OnHit": "12(4)",
@@ -1298,19 +1398,20 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "2-hit Projectile (Lvl 2 Thunder Claps)",
                     "Speed and reach of projectile depends on strength of button used (LP/MP/HP)",
                     "LP Projectile Speed: 0.05",
                     "MP Projectile Speed: 0.15",
                     "HP Projectile Speed: 0.27",
                     "Projectile persists for 80 frames (Lvl 2 Thunder Claps)",
-                    "V-Skill cancel data is less advantageous (+4 on hit) if only the first hit of the projectile hits when canceled (like when performed mid-screen)",
+                    "Can cancel into V-Skill 1 and 2 during V-Trigger 1",
                     "Juggle Limit / Increase / Start: 0*0 / 0*1 / 0*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1P",
-                "i": 43
+                "i": 45
             },
             "Thunder Clap Lvl 3": {
                 "moveName": "Thunder Clap Lvl 3",
@@ -1343,19 +1444,20 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "3-hit Projectile (Lvl 3 Thunder Claps)",
                     "Speed and reach of projectile depends on strength of button used (LP/MP/HP)",
                     "LP Projectile Speed: 0.05",
                     "MP Projectile Speed: 0.15",
                     "HP Projectile Speed: 0.27",
                     "Projectile persists for 100 frames (Lvl 3 Thunder Claps)",
-                    "V-Skill cancel data is less advantageous (+4/+3) if only the first hit of the projectile connects when canceled (like when performed mid-screen)",
+                    "Can cancel into V-Skill 1 and 2 during V-Trigger 1",
                     "Juggle Limit / Increase / Start: 0*0*0 / 0*0*1 / 0*0*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1P",
-                "i": 44
+                "i": 46
             },
             "LPMP Thunder Clap": {
                 "moveName": "LPMP Thunder Clap",
@@ -1390,19 +1492,20 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "2-hit Projectile",
                     "Projectile Speed: 0.06",
                     "Projectile persists for 40 frames",
                     "Speed and reach of projectile depends on which 2 button strengths are used (LPMP / LPHP / MPHP)",
                     "Launches opponent on hit into a limited juggle state (Juggle Start: +1)",
                     "On hit, do st.HP xx V-Skill (hold slightly) for cross under or st.hp xx V-Skill (tap) for same side",
-                    "V-Skill cancel data is less advantageous (only +1 on block) if only the first hit of the projectile is blocked when canceled (like when performed mid-screen)",
+                    "Can cancel into V-Skill 1 and 2 during V-Trigger 1",
                     "Juggle Limit / Increase / Start: 0*0 / 0*2 / 0*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LPMP",
-                "i": 45
+                "i": 47
             },
             "LPHP Thunder Clap": {
                 "moveName": "LPHP Thunder Clap",
@@ -1437,19 +1540,20 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "2-hit Projectile",
                     "Projectile Speed: 0.16",
                     "Projectile persists for 170 frames",
                     "Speed and reach of projectile depends on which 2 button strengths are used (LPMP / LPHP / MPHP)",
                     "Launches opponent on hit into a limited juggle state (Juggle Start: +1)",
                     "On hit, do st.HP xx V-Skill (hold slightly) for cross under or st.hp xx V-Skill (tap) for same side",
-                    "V-Skill cancel data is less advantageous (only +1 on block) if only the first hit of the projectile is blocked when canceled (like when performed mid-screen)",
+                    "Can cancel into V-Skill 1 and 2 during V-Trigger 1",
                     "Juggle Limit / Increase / Start: 0*0 / 0*2 / 0*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LPHP",
-                "i": 46
+                "i": 48
             },
             "MPHP Thunder Clap": {
                 "moveName": "MPHP Thunder Clap",
@@ -1484,19 +1588,19 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "2-hit Projectile",
                     "Projectile Speed: 0.28",
                     "Projectile persists for 170 frames",
                     "Speed and reach of projectile depends on which 2 button strengths are used (LPMP / LPHP / MPHP)",
                     "Launches opponent on hit into a limited juggle state (Juggle Start: +1)",
                     "On hit, do st.HP xx V-Skill (hold slightly) for cross under or st.hp xx V-Skill (tap) for same side",
-                    "V-Skill cancel data is less advantageous (only +1 on block) if only the first hit of the projectile is blocked when canceled (like when performed mid-screen)",
                     "Juggle Limit / Increase / Start: 0*0 / 0*2 / 0*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MPHP",
-                "i": 47
+                "i": 49
             },
             "LK Sunset Wheel": {
                 "moveName": "LK Sunset Wheel",
@@ -1527,7 +1631,8 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LK",
-                "i": 48
+                "movesList": "Special",
+                "i": 50
             },
             "MK Sunset Wheel": {
                 "moveName": "MK Sunset Wheel",
@@ -1557,7 +1662,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MK",
-                "i": 49
+                "i": 51
             },
             "HK Sunset Wheel": {
                 "moveName": "HK Sunset Wheel",
@@ -1587,17 +1692,17 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HK",
-                "i": 50
+                "i": 52
             },
             "EX Sunset Wheel": {
                 "moveName": "EX Sunset Wheel",
                 "plnCmd": "hcb+KK",
                 "numCmd": "63214KK",
                 "cmnName": "EX Command Grab",
-                "startup": 20,
+                "startup": 18,
                 "active": 2,
                 "recovery": 60,
-                "total": 67,
+                "total": 79,
                 "onHit": "KD",
                 "onBlock": "KD",
                 "damage": "80*100 (180)",
@@ -1617,7 +1722,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 51
+                "i": 53
             },
             "Inazuma Spin Hold": {
                 "moveName": "Inazuma Spin Hold",
@@ -1646,8 +1751,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1K",
-                "i": 52
-            }
+                "movesList": "Super",
+                "i": 54
+            },
+            "input": "None"
         },
         "vtOne": {
             "Volty Line": {
@@ -1794,7 +1901,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 36
+                "i": 38
             },
             "MP Bolt Charge": {
                 "moveName": "MP Bolt Charge",
@@ -1821,7 +1928,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 37
+                "i": 39
             },
             "HP Bolt Charge": {
                 "moveName": "HP Bolt Charge",
@@ -1842,7 +1949,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+10 damage and 50 stun during V-Trigger 1",
+                    "+10 damage and +50 stun during V-Trigger 1",
                     "Upper body invincible on frames 1-11",
                     "Airborne on frames 7-31",
                     "Juggle Limit: 3"
@@ -1851,19 +1958,19 @@
                 "moveMotion": "QCF",
                 "moveButton": "HP",
                 "antiAirMove": true,
-                "i": 38
+                "i": 40
             },
             "EX Bolt Charge": {
                 "moveName": "EX Bolt Charge",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "cmnName": "EX Elbow",
-                "startup": 14,
+                "startup": 12,
                 "active": 3,
                 "recovery": 22,
-                "total": 38,
+                "total": 36,
                 "onHit": 0,
-                "onBlock": -11,
+                "onBlock": -17,
                 "damage": 90,
                 "stun": 100,
                 "attackLevel": "H",
@@ -1871,14 +1978,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+10 damage and 50 stun during V-Trigger 1",
-                    "One hit of armor on frames 3-16",
+                    "+10 damage and +50 stun during V-Trigger 1",
+                    "One hit of armor on frames 3-14",
                     "Can cancel into the Split River / Rodeo Break follow-ups on hit only"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 39
+                "i": 41
             },
             "Split River": {
                 "moveName": "Split River",
@@ -1899,12 +2006,13 @@
                 "extraInfo": [
                     "+18 damage during V-Trigger 1",
                     "Switches side with the opponent",
-                    "Denies back-roll (Throw)"
+                    "Denies back-roll (Throw)",
+                    "+1 extra KDA (+68/19/19) when followed up from EX Bolt Charge resulting in +2 mixup after a forward dash"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 40
+                "i": 42
             },
             "Rodeo Break": {
                 "moveName": "Rodeo Break",
@@ -1925,12 +2033,13 @@
                 "extraInfo": [
                     "+18 damage during V-Trigger 1",
                     "Stays on same side of the opponent",
-                    "Denies back-roll (Throw)"
+                    "Denies back-roll (Throw)",
+                    "+1 extra KDA (+68/19/19) when followed up from EX Bolt Charge resulting in +2 mixup after a forward dash"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 41
+                "i": 43
             },
             "Thunder Clap Lvl 1": {
                 "moveName": "Thunder Clap Lvl 1",
@@ -1940,11 +2049,13 @@
                 "startup": 19,
                 "active": 80,
                 "recovery": 28,
-                "total": 47,
-                "onHit": 0,
+                "total": 45,
+                "onHit": 2,
                 "onBlock": -5,
                 "vsc1OnHit": 4,
                 "vsc1OnBlock": -1,
+                "vsc2OnHit": -27,
+                "vsc2OnBlock": -32,
                 "damage": 60,
                 "stun": 60,
                 "attackLevel": "H",
@@ -1957,6 +2068,7 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "1-hit Projectile (Lvl 1 Thunder Claps)",
                     "Speed and reach of projectile depends on strength of button used (LP/MP/HP)",
                     "LP Projectile Speed: 0.05",
@@ -1968,7 +2080,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1P",
-                "i": 42
+                "i": 44
             },
             "Thunder Clap Lvl 2": {
                 "moveName": "Thunder Clap Lvl 2",
@@ -1978,11 +2090,13 @@
                 "startup": 25,
                 "active": 80,
                 "recovery": 27,
-                "total": 52,
-                "onHit": 9,
-                "onBlock": 0,
+                "total": 50,
+                "onHit": 11,
+                "onBlock": 2,
                 "vsc1OnHit": "12(4)",
                 "vsc1OnBlock": 3,
+                "vsc2OnHit": -19,
+                "vsc2OnBlock": -28,
                 "damage": "60*30 (90)",
                 "stun": "60*30 (90)",
                 "attackLevel": "H",
@@ -1995,6 +2109,7 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "2-hit Projectile (Lvl 2 Thunder Claps)",
                     "Speed and reach of projectile depends on strength of button used (LP/MP/HP)",
                     "LP Projectile Speed: 0.05",
@@ -2008,7 +2123,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1P",
-                "i": 43
+                "i": 45
             },
             "Thunder Clap Lvl 3": {
                 "moveName": "Thunder Clap Lvl 3",
@@ -2023,6 +2138,8 @@
                 "onBlock": 18,
                 "vsc1OnHit": "20(4)",
                 "vsc1OnBlock": "7(3)",
+                "vsc2OnHit": -11,
+                "vsc2OnBlock": -24,
                 "damage": "60*30*30 (120)",
                 "stun": "60*30*30 (120)",
                 "attackLevel": "H",
@@ -2035,6 +2152,7 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "3-hit Projectile (Lvl 3 Thunder Claps)",
                     "Speed and reach of projectile depends on strength of button used (LP/MP/HP)",
                     "LP Projectile Speed: 0.05",
@@ -2048,7 +2166,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1P",
-                "i": 44
+                "i": 46
             },
             "LPMP Thunder Clap": {
                 "moveName": "LPMP Thunder Clap",
@@ -2063,6 +2181,8 @@
                 "onBlock": 7,
                 "vsc1OnHit": "8 * KD (+115/56/61)",
                 "vsc1OnBlock": "9(1)",
+                "vsc2OnHit": "-15 * KD (+84/25/30)",
+                "vsc2OnBlock": -22,
                 "damage": "60*30*30 (120)",
                 "stun": "60*30*30 (120)",
                 "kd": 113,
@@ -2077,10 +2197,10 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "Projectile persists for 80 frames (double the normal LPMP Fireball duration in this V-Trigger 1 version)",
                     "2-hit Projectile",
                     "Projectile Speed: 0.16",
-                    "Projectile persists for 40 frames",
                     "Speed and reach of projectile depends on which 2 button strengths are used (LPMP / LPHP / MPHP)",
                     "Launches opponent on hit into a limited juggle state (Juggle Start: +1)",
                     "On hit, do st.HP xx V-Skill (hold slightly) for cross under or st.hp xx V-Skill (tap) for same side",
@@ -2090,7 +2210,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2P",
-                "i": 45
+                "i": 47
             },
             "LPHP Thunder Clap": {
                 "moveName": "LPHP Thunder Clap",
@@ -2105,6 +2225,8 @@
                 "onBlock": 7,
                 "vsc1OnHit": "8 * KD (+115/56/61)",
                 "vsc1OnBlock": "9(1)",
+                "vsc2OnHit": "-15 * KD (+84/25/30)",
+                "vsc2OnBlock": -22,
                 "damage": "60*30*30 (120)",
                 "stun": "60*30*30 (120)",
                 "kd": 113,
@@ -2119,10 +2241,10 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "Projectile persists for 190 frames (20 extra frames duration in this V-Trigger 1 version)",
                     "2-hit Projectile",
                     "Projectile Speed: 0.28",
-                    "Projectile persists for 40 frames",
                     "Speed and reach of projectile depends on which 2 button strengths are used (LPMP / LPHP / MPHP)",
                     "Launches opponent on hit into a limited juggle state (Juggle Start: +1)",
                     "On hit, do st.HP xx V-Skill (hold slightly) for cross under or st.hp xx V-Skill (tap) for same side",
@@ -2132,7 +2254,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2P",
-                "i": 46
+                "i": 48
             },
             "MPHP Thunder Clap": {
                 "moveName": "MPHP Thunder Clap",
@@ -2147,6 +2269,8 @@
                 "onBlock": 7,
                 "vsc1OnHit": "8 * KD (+115/56/61)",
                 "vsc1OnBlock": "9(1)",
+                "vsc2OnHit": "-15 * KD (+84/25/30)",
+                "vsc2OnBlock": -22,
                 "damage": "60*30*30 (120)",
                 "stun": "60*30*30 (120)",
                 "kd": 113,
@@ -2161,10 +2285,10 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
+                    "Projectile immediately disappears if Laura is successfully hit",
                     "Projectile persists for 190 frames (20 extra frames duration in this V-Trigger 1 version)",
                     "2-hit Projectile",
                     "Projectile Speed: 0.06",
-                    "Projectile persists for 40 frames",
                     "Speed and reach of projectile depends on which 2 button strengths are used (LPMP / LPHP / MPHP)",
                     "Launches opponent on hit into a limited juggle state (Juggle Start: +1)",
                     "On hit, do st.HP xx V-Skill (hold slightly) for cross under or st.hp xx V-Skill (tap) for same side",
@@ -2174,7 +2298,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2P",
-                "i": 47
+                "i": 49
             },
             "LK Sunset Wheel": {
                 "moveName": "LK Sunset Wheel",
@@ -2207,7 +2331,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LK",
-                "i": 48
+                "i": 50
             },
             "MK Sunset Wheel": {
                 "moveName": "MK Sunset Wheel",
@@ -2239,7 +2363,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MK",
-                "i": 49
+                "i": 51
             },
             "HK Sunset Wheel": {
                 "moveName": "HK Sunset Wheel",
@@ -2271,17 +2395,17 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HK",
-                "i": 50
+                "i": 52
             },
             "EX Sunset Wheel": {
                 "moveName": "EX Sunset Wheel",
                 "plnCmd": "hcb+KK",
                 "numCmd": "63214KK",
                 "cmnName": "EX Command Grab",
-                "startup": 20,
+                "startup": 18,
                 "active": 2,
                 "recovery": 60,
-                "total": 67,
+                "total": 79,
                 "onHit": "KD",
                 "onBlock": "KD",
                 "damage": "80*130 (210)",
@@ -2302,7 +2426,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 51
+                "i": 53
             },
             "Inazuma Spin Hold": {
                 "moveName": "Inazuma Spin Hold",
@@ -2331,8 +2455,9 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1K",
-                "i": 52
-            }
+                "i": 54
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Matsuda Sway": {
@@ -2350,13 +2475,14 @@
                 "extraInfo": [
                     "Strike and Projectile invincible on frames 3-33",
                     "Can be canceled into the Shock Choke and V-Skill follow-ups on frames 13-33",
-                    "Startup framedata refers to the startup of the invincibility frames and the data in the parentheses refers to the cancel frames",
+                    "Startup framedata refers to the startup of the invincibility frames and the data in the parentheses refers to when the cancel frames start",
                     "The sway itself doesn't cost any V-Timer"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 33.01
             },
             "Shock Choke": {
@@ -2369,7 +2495,7 @@
                 "recovery": 51,
                 "total": 72,
                 "onHit": 19,
-                "damage": 60,
+                "damage": 100,
                 "stun": 0,
                 "attackLevel": "T",
                 "airmove": false,
@@ -2377,14 +2503,16 @@
                 "projectile": false,
                 "extraInfo": [
                     "A throw that leaves the opponent in an extended hitstun for follow-up combos",
+                    "Invincible to airborne strikes and projectiles on frames 1-8",
                     "Overall startup is 20 frames if you include the prior Sway",
-                    "Strike and Projectile invincible on frames 3-13 if you include the prior Sway",
+                    "Strike and Projectile invincible on frames 3-21 if you include the prior Sway (as well as invincible to airborne strikes on frames 14-21)",
                     "This grab follow-up auto-corrects upon its startup (like if the opponent goes behind Laura during her prior Matsuda Sway animation)",
                     "This grab follow-up spends 1000 V-Timer (40% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 33.02
             },
             "Matsuda Sway > V-Skill 1 Dash": {
@@ -2410,6 +2538,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 33.03
             },
             "Matsuda Sway > V-Skill Dash > Shock Choke": {
@@ -2430,13 +2559,15 @@
                 "projectile": false,
                 "extraInfo": [
                     "A throw that leaves the opponent in an extended hitstun for follow-up combos",
-                    "Overall startup is 41 frames if you include the prior Sway > V-Skill dash",
-                    "Strike invincible on frames 3-13 and Projectile invincible on frames 3-31 if you include the prior Sway > V-Skill dash",
+                    "Invincible to airborne strikes and projectiles on frames 1-8 (frames 32-39 overall if you include the prior Sway > V-Skill dash)",
+                    "Overall startup is 38 frames if you include the prior Sway > V-Skill dash",
+                    "Strike invincible on frames 3-13 and Projectile invincible on frames 3-39 if you include the prior Sway > V-Skill dash",
                     "This grab follow-up spends 1000 V-Timer (40% of V-Timer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 33.04
             },
             "Matsuda Sway > V-Skill Dash > Volty Line": {
@@ -2455,11 +2586,9 @@
                 "kd": 93,
                 "kdr": 44,
                 "kdrb": 49,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "M",
                 "airmove": false,
                 "followUp": true,
@@ -2473,6 +2602,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Special",
                 "i": 33.05
             },
             "Matsuda Sway > V-Skill 2 Leap": {
@@ -2497,8 +2627,10 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Special",
                 "i": 33.06
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

@@ -58,6 +58,8 @@
                 "rollcOnBlock": -14,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 11,
+                "hcWinVt": 11,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -97,11 +99,11 @@
                 "rollcOnBlock": -15,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 17,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": 20,
+                "hcWinVt": 20,
+                "ccState": "Stagger",
+                "ccAdv": 17,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -176,6 +178,7 @@
                 "vtc2OnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -208,14 +211,13 @@
                 "vtc2OnBlock": 9,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 19,
                 "kd": 107,
                 "kdr": 48,
                 "kdrb": 53,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -289,6 +291,8 @@
                 "rollcOnBlock": -14,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -328,17 +332,18 @@
                 "rollcOnBlock": -14,
                 "damage": "40*40 (80)",
                 "stun": "50*100 (150)",
+                "hcWinSpCa": 12,
+                "hcWinVt": "12/*11/**19",
+                "hcWinNotes": "*VT1 second hit, **VT2 second hit",
                 "multiActive": [
                     9,
                     10,
                     12,
                     13
                 ],
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 20,
-                    "vG": "+120"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 20,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -414,6 +419,8 @@
                 "rollcOnBlock": -19,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 19,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -450,11 +457,9 @@
                 "kd": 67,
                 "kdr": 18,
                 "kdrb": 23,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -480,6 +485,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Builds 40/20 V-Gauge on Hit/Block if used during V-Skill 2"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LP",
@@ -498,7 +506,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancels into airborne Eagle Spike"
+                    "Cancels into airborne Eagle Spike",
+                    "Builds 40/20 V-Gauge on Hit/Block if used during V-Skill 2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -517,6 +526,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Builds 40/20 V-Gauge on Hit/Block if used during V-Skill 2"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "HP",
@@ -534,6 +546,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Builds 40/20 V-Gauge on Hit/Block if used during V-Skill 2"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LK",
@@ -553,7 +568,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Can cross up",
-                    "Smaller size vertical hurtbox than regular jumping hurtbox (but a wider hurtbox on frames 4-14)"
+                    "Smaller size vertical hurtbox than regular jumping hurtbox (but a wider hurtbox on frames 4-14)",
+                    "Builds 40/20 V-Gauge on Hit/Block if used during V-Skill 2"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -572,6 +588,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Builds 40/20 V-Gauge on Hit/Block if used during V-Skill 2"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "HK",
@@ -596,6 +615,8 @@
                 "rollcOnBlock": -16,
                 "damage": "50*20 (70)",
                 "stun": "70*30 (100)",
+                "hcWinSpCa": 10,
+                "hcWinVt": 10,
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "sp",
@@ -616,6 +637,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Beak Assault": {
@@ -641,6 +663,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Spinning Mixer (run)": {
@@ -668,6 +691,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 21
             },
             "Spinning Mixer (lvl 2) (run)": {
@@ -786,6 +810,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 25
             },
             "Eagle Spike (run) (wind)": {
@@ -825,11 +850,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Wall jumps can be performed between jumping frames 16-27"
+                    "Puts Rashid into a free juggle state if hit by a medium / heavy / command normal",
+                    "Wall jumps can be performed between jumping frames 16-27",
+                    "Can perform a triangle jump with down forward"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "UF",
                 "nonHittingMove": true,
+                "movesList": "Wall Jump",
                 "i": 27
             },
             "Riding Glider": {
@@ -854,6 +882,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 28
             },
             "Rising Sun": {
@@ -878,6 +907,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 29
             },
             "Front Flip": {
@@ -900,6 +930,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 30
             },
             "LK Airborne Eagle Spike (V-Skill 1)": {
@@ -929,6 +960,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "LK",
+                "movesList": "V-Skill 1",
                 "i": 31
             },
             "MK Airborne Eagle Spike (V-Skill 1)": {
@@ -1037,6 +1069,7 @@
                 "moveMotion": "D",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 35
             },
             "Nail Assault": {
@@ -1052,12 +1085,16 @@
                 "onBlock": -6,
                 "damage": 80,
                 "stun": 100,
+                "hcWinSpCa": "*17",
+                "hcWinVt": "**17",
+                "hcWinNotes": "*CA only, **VT2 only",
                 "kd": 101,
                 "kdr": 42,
                 "kdrb": 47,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": true,
@@ -1070,6 +1107,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "V-Skill 1",
                 "i": 36
             },
             "Wing Stroke": {
@@ -1094,6 +1132,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 37
             },
             "Wing Spike": {
@@ -1124,6 +1163,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "V-Skill 2",
                 "i": 38
             },
             "EX Wing Spike": {
@@ -1174,6 +1214,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 40
             },
             "LK Wing Spike (Airborne)": {
@@ -1200,6 +1241,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "LK",
+                "movesList": "V-Skill 2",
                 "i": 41
             },
             "MK Wing Spike (Airborne)": {
@@ -1309,6 +1351,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 45
             },
             "Easifa": {
@@ -1332,6 +1375,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 46
             },
             "Sliding Roll": {
@@ -1351,7 +1395,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 47
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 48
+            },
+            "Eagle Slash": {
+                "moveName": "Eagle Slash",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 49
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1367,7 +1470,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 48
+                "i": 50
             },
             "LP Spinning Mixer": {
                 "moveName": "LP Spinning Mixer",
@@ -1397,7 +1500,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 49
+                "movesList": "Special",
+                "i": 51
             },
             "LP Spinning Mixer (lvl 2)": {
                 "moveName": "LP Spinning Mixer (lvl 2)",
@@ -1418,12 +1522,12 @@
                 "projectile": false,
                 "extraInfo": [
                     "Airborne on frames 11-30",
-                    "Cancels into super on first 2 hits only"
+                    "Mash punches to do lvl 2 and lvl 3 mixer on hit or whiff"
                 ],
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "LP",
-                "i": 50
+                "i": 52
             },
             "LP Spinning Mixer (lvl 3)": {
                 "moveName": "LP Spinning Mixer (lvl 3)",
@@ -1447,12 +1551,12 @@
                 "projectile": false,
                 "extraInfo": [
                     "Airborne on frames 11-39",
-                    "Cancels into super on first 2 hits only"
+                    "Mash punches to do lvl 2 and lvl 3 mixer on hit or whiff"
                 ],
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "LP",
-                "i": 51
+                "i": 53
             },
             "MP Spinning Mixer": {
                 "moveName": "MP Spinning Mixer",
@@ -1484,7 +1588,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 52
+                "i": 54
             },
             "MP Spinning Mixer (lvl 2)": {
                 "moveName": "MP Spinning Mixer (lvl 2)",
@@ -1517,7 +1621,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "MP",
-                "i": 53
+                "i": 55
             },
             "MP Spinning Mixer (lvl 3)": {
                 "moveName": "MP Spinning Mixer (lvl 3)",
@@ -1545,7 +1649,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "MP",
-                "i": 54
+                "i": 56
             },
             "HP Spinning Mixer": {
                 "moveName": "HP Spinning Mixer",
@@ -1569,12 +1673,14 @@
                 "projectile": false,
                 "extraInfo": [
                     "Airborne on frame 6",
-                    "Very strong hitboxes on both sides of Rashid"
+                    "Very strong hitboxes on both sides of Rashid",
+                    "Can hit crossups",
+                    "Mash punches to do lvl 2 and lvl 3 mixer on hit or whiff"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 55
+                "i": 57
             },
             "HP Spinning Mixer (lvl 2)": {
                 "moveName": "HP Spinning Mixer (lvl 2)",
@@ -1597,12 +1703,13 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frame 6"
+                    "Airborne on frame 6",
+                    "Mash punches to do lvl 2 and lvl 3 mixer on hit or whiff"
                 ],
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "HP",
-                "i": 56
+                "i": 58
             },
             "HP Spinning Mixer (lvl 3)": {
                 "moveName": "HP Spinning Mixer (lvl 3)",
@@ -1625,12 +1732,13 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frame 6"
+                    "Airborne on frame 6",
+                    "Mash punches to do lvl 2 and lvl 3 mixer on hit or whiff"
                 ],
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "HP",
-                "i": 57
+                "i": 59
             },
             "Spinning Mixer (wind)": {
                 "moveName": "Spinning Mixer (wind)",
@@ -1659,7 +1767,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 58
+                "i": 60
             },
             "EX Spinning Mixer": {
                 "moveName": "EX Spinning Mixer",
@@ -1684,12 +1792,13 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-12",
                     "Airborne on frame 11",
+                    "Cannot hit crossups",
                     "Rashid is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 59
+                "i": 61
             },
             "EX Spinning Mixer (lvl 2)": {
                 "moveName": "EX Spinning Mixer (lvl 2)",
@@ -1712,12 +1821,13 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-12",
                     "Airborne on frame 11",
+                    "Cannot hit crossups",
                     "Rashid is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
                 ],
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "2P",
-                "i": 60
+                "i": 62
             },
             "EX Spinning Mixer (lvl 3)": {
                 "moveName": "EX Spinning Mixer (lvl 3)",
@@ -1740,12 +1850,13 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-12",
                     "Airborne on frame 11",
+                    "Cannot hit crossups",
                     "Rashid is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
                 ],
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "2P",
-                "i": 61
+                "i": 63
             },
             "EX Spinning Mixer (wind)": {
                 "moveName": "EX Spinning Mixer (wind)",
@@ -1769,12 +1880,12 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-12",
                     "Airborne on frame 11",
-                    "Rashid is in counterhit state during move duration (does not take additional 20% damage) and can avoid this state upon landing by canceling into any move in mid-air"
+                    "Rashid is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%) and can avoid this state upon landing by canceling into any move in mid-air"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 62
+                "i": 64
             },
             "LK Eagle Spike": {
                 "moveName": "LK Eagle Spike",
@@ -1804,7 +1915,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 63
+                "movesList": "Special",
+                "i": 65
             },
             "MK Eagle Spike": {
                 "moveName": "MK Eagle Spike",
@@ -1833,7 +1945,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 64
+                "i": 66
             },
             "HK Eagle Spike": {
                 "moveName": "HK Eagle Spike",
@@ -1862,7 +1974,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 65
+                "i": 67
             },
             "Eagle Spike (wind)": {
                 "moveName": "Eagle Spike (wind)",
@@ -1884,12 +1996,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frame 3"
+                    "Airborne on frame 3",
+                    "Cancelable into V-Skill 2 on frames 10-24 after Eagle Spike connects"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
-                "i": 66
+                "i": 68
             },
             "EX Eagle Spike": {
                 "moveName": "EX Eagle Spike",
@@ -1920,7 +2033,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 67
+                "i": 69
             },
             "EX Eagle Spike (wind)": {
                 "moveName": "EX Eagle Spike (wind)",
@@ -1931,7 +2044,7 @@
                 "recovery": "?",
                 "total": "?",
                 "onHit": "KD",
-                "onBlock": -3,
+                "onBlock": "-3(+1)",
                 "damage": 160,
                 "stun": 200,
                 "kd": 111,
@@ -1945,12 +2058,13 @@
                     "Projectile invincible if touched by Wind until collision",
                     "Airborne on frame 4",
                     "+4 extra KDA if hit far away",
+                    "Block advantage varies greatly based on distance to opponent when starting (+1 at best fullscreen)",
                     "Improved framedata and doesn't bounce off the opponent on block like the normal version of EX Eagle Spike"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 68
+                "i": 70
             },
             "LK Airborne Eagle Spike": {
                 "moveName": "LK Airborne Eagle Spike",
@@ -1975,7 +2089,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 69
+                "movesList": "Special",
+                "i": 71
             },
             "MK Airborne Eagle Spike": {
                 "moveName": "MK Airborne Eagle Spike",
@@ -2000,7 +2115,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 70
+                "i": 72
             },
             "HK Airborne Eagle Spike": {
                 "moveName": "HK Airborne Eagle Spike",
@@ -2025,7 +2140,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 71
+                "i": 73
             },
             "EX Airborne Eagle Spike": {
                 "moveName": "EX Airborne Eagle Spike",
@@ -2036,8 +2151,8 @@
                 "recovery": "49+16(~)",
                 "onHit": "KD",
                 "onBlock": -35,
-                "damage": "70*70",
-                "stun": "100*100",
+                "damage": "70*70 (140)",
+                "stun": "100*100 (200)",
                 "attackLevel": "M",
                 "airmove": true,
                 "followUp": false,
@@ -2050,7 +2165,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 72
+                "i": 74
             },
             "EX Airborne Eagle Spike (wind)": {
                 "moveName": "EX Airborne Eagle Spike (wind)",
@@ -2059,8 +2174,8 @@
                 "cmnName": "EX Air Lunge Kick (wind)",
                 "startup": 15,
                 "onHit": "KD",
-                "damage": "85*85",
-                "stun": "100*100",
+                "damage": "85*85 (170)",
+                "stun": "100*100 (200)",
                 "attackLevel": "M",
                 "airmove": true,
                 "followUp": false,
@@ -2068,12 +2183,12 @@
                 "extraInfo": [
                     "Projectile invincible for the entire duration unti landing",
                     "KDA varies depending on height and angle",
-                    "Rising kick followup can hit crossup"
+                    "Only accessible by canceling into from a wind-enhanced EX Spinning Mixer"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 73
+                "i": 75
             },
             "LK Whirlwind Shot": {
                 "moveName": "LK Whirlwind Shot",
@@ -2102,7 +2217,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 74
+                "movesList": "Special",
+                "i": 76
             },
             "MK Whirlwind Shot": {
                 "moveName": "MK Whirlwind Shot",
@@ -2115,8 +2231,8 @@
                 "total": 60,
                 "onHit": 1,
                 "onBlock": -2,
-                "damage": "30*30",
-                "stun": "70*70",
+                "damage": "30*30 (60)",
+                "stun": "70*70 (140)",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -2131,7 +2247,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 75
+                "i": 77
             },
             "HK Whirlwind Shot": {
                 "moveName": "HK Whirlwind Shot",
@@ -2146,10 +2262,14 @@
                 "onBlock": 1,
                 "rollcOnHit": "5(23)",
                 "rollcOnBlock": "2(20)",
-                "damage": "30*30",
-                "stun": "70*70",
+                "damage": "30*30 (60)",
+                "stun": "70*70 (140)",
                 "attackLevel": "H",
-                "cancelsTo": "vs/su",
+                "cancelsTo": [
+                    "su",
+                    "vs1",
+                    "vs2"
+                ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
@@ -2163,7 +2283,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 76
+                "i": 78
             },
             "EX Whirlwind Shot": {
                 "moveName": "EX Whirlwind Shot",
@@ -2178,10 +2298,13 @@
                 "onBlock": 9,
                 "rollcOnHit": "13(40)",
                 "rollcOnBlock": "10(37)",
-                "damage": "30x3",
-                "stun": "60x3",
+                "damage": "30x3 (90)",
+                "stun": "60x3 (180)",
                 "attackLevel": "H",
-                "cancelsTo": "vs",
+                "cancelsTo": [
+                    "vs1",
+                    "vs2"
+                ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
@@ -2196,7 +2319,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 77
+                "i": 79
             },
             "Altair": {
                 "moveName": "Altair",
@@ -2227,7 +2350,8 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 78
+                "movesList": "Super",
+                "i": 80
             },
             "Forward Dash (run)": {
                 "moveName": "Forward Dash (run)",
@@ -2247,10 +2371,14 @@
                 "moveType": "movement-special",
                 "moveMotion": "DF",
                 "moveButton": 66,
-                "i": 79
-            }
+                "movesList": "Dash",
+                "i": 81
+            },
+            "input": "None"
         },
-        "vtOne": {},
+        "vtOne": {
+            "input": "None"
+        },
         "vtTwo": {
             "Front Flip": {
                 "moveName": "Front Flip",
@@ -2296,7 +2424,8 @@
                 "extraInfo": [
                     "Rashid does not bounce off on block in this V-Trigger 2 enhanced version (so much safer on block in general)",
                     "KDA varies depending on how high or low the Eagle Spike hits (more KDA if it hits low)",
-                    "17 landing recovery frames"
+                    "17 landing recovery frames",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2324,7 +2453,8 @@
                 "extraInfo": [
                     "Rashid does not bounce off on block in this V-Trigger 2 enhanced version (so much safer on block in general)",
                     "KDA varies depending on how high or low the Eagle Spike hits (more KDA if it hits low)",
-                    "17 landing recovery frames"
+                    "17 landing recovery frames",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2352,7 +2482,8 @@
                 "extraInfo": [
                     "Rashid does not bounce off on block in this V-Trigger 2 enhanced version (so much safer on block in general)",
                     "KDA varies depending on how high or low the Eagle Spike hits (more KDA if it hits low)",
-                    "17 landing recovery frames"
+                    "17 landing recovery frames",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2382,7 +2513,8 @@
                     "Rashid does not bounce off on block in this V-Trigger 2 enhanced version (so much safer on block in general)",
                     "Can perform a wall jump after successfully hitting the opponent (allows for unique follow-up scenarios)",
                     "KDA varies depending on how high or low the Eagle Spike hits (more KDA if it hits low)",
-                    "If the 1st hit doesn't connect then Rashid still attempts the second hit which results in much more recovery frames on block / whiff (31+17 instead of just 17 landing recovery frames)"
+                    "If the 1st hit doesn't connect then Rashid still attempts the second hit which results in much more recovery frames on block / whiff (31+17 instead of just 17 landing recovery frames)",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2431,7 +2563,9 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Projectile invincible from frames 1-29"
+                    "Projectile invincible from frames 1-29",
+                    "Spends 750 V-Timer (25% V-Timer)",
+                    "Spends 500 V-Timer (16.6% V-Timer) when canceled into from Whirlwind Shot or Haboob"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2459,7 +2593,9 @@
                 "projectile": false,
                 "extraInfo": [
                     "Cannot hit crouching opponents",
-                    "Projectile invincible from frames 1-28"
+                    "Projectile invincible from frames 1-28",
+                    "Spends 750 V-Timer (25% V-Timer)",
+                    "Spends 500 V-Timer (16.6% V-Timer) when canceled into from Whirlwind Shot or Haboob"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2503,7 +2639,8 @@
                 "extraInfo": [
                     "KDA varies depending on height",
                     "20 landing recovery frames on whiff or if it connects really low on the opponent on hit / block",
-                    "Recovery frames listed refers to the regular hit / block version (but only has 20 recovery frames on whiff or if Rashid connects really low on opponents legs on hit / block)"
+                    "Recovery frames listed refers to the regular hit / block version (but only has 20 recovery frames on whiff or if Rashid connects really low on opponents legs on hit / block)",
+                    "Spends 750 V-Timer (25% V-Timer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2528,7 +2665,8 @@
                 "extraInfo": [
                     "KDA varies depending on height",
                     "20 landing recovery frames on whiff or if it connects really low on the opponent on hit / block",
-                    "Recovery frames listed refers to the regular hit / block version (but only has 20 recovery frames on whiff or if Rashid connects really low on opponents legs on hit / block)"
+                    "Recovery frames listed refers to the regular hit / block version (but only has 20 recovery frames on whiff or if Rashid connects really low on opponents legs on hit / block)",
+                    "Spends 750 V-Timer (25% V-Timer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2553,7 +2691,8 @@
                 "extraInfo": [
                     "KDA varies depending on height",
                     "20 landing recovery frames on whiff or if it connects really low on the opponent on hit / block",
-                    "Recovery frames listed refers to the regular hit / block version (but only has 20 recovery frames on whiff or if Rashid connects really low on opponents legs on hit / block)"
+                    "Recovery frames listed refers to the regular hit / block version (but only has 20 recovery frames on whiff or if Rashid connects really low on opponents legs on hit / block)",
+                    "Spends 750 V-Timer (25% V-Timer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2578,7 +2717,8 @@
                 "extraInfo": [
                     "Projectile invincible on frames 1-48",
                     "KDA varies depending on height and angle",
-                    "Recovery frames listed refers to the version played out on block (cancels into another follow-up move on hit or whiff)"
+                    "Recovery frames listed refers to the version played out on block (cancels into another follow-up move on hit or whiff)",
+                    "Spends 750 V-Timer (25% V-Timer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
@@ -2611,12 +2751,13 @@
                 "extraInfo": [
                     "Airborne on frames 4-29",
                     "This V-Trigger 2 enhanced version is cancelable into an enhanced invincibility super during recovery on frames 30-32 (pretty late into the move, just after Rashid lands)",
-                    "KDA depends on how late into the active frames it hits"
+                    "KDA depends on how late into the active frames it hits",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 63
+                "i": 65
             },
             "MK Eagle Spike": {
                 "moveName": "MK Eagle Spike",
@@ -2644,12 +2785,13 @@
                 "extraInfo": [
                     "Airborne on frames 4-29",
                     "This V-Trigger 2 enhanced version is cancelable into an enhanced invincibility super during recovery on frames 30-32 (pretty late into the move, just after Rashid lands)",
-                    "KDA depends on how late into the active frames it hits"
+                    "KDA depends on how late into the active frames it hits",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 64
+                "i": 66
             },
             "HK Eagle Spike": {
                 "moveName": "HK Eagle Spike",
@@ -2677,12 +2819,13 @@
                 "extraInfo": [
                     "Airborne on frames 4-29",
                     "This V-Trigger 2 enhanced version is cancelable into an enhanced invincibility super during recovery on frames 30-32 (pretty late into the move, just after Rashid lands)",
-                    "KDA depends on how late into the active frames it hits"
+                    "KDA depends on how late into the active frames it hits",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 65
+                "i": 67
             },
             "EX Eagle Spike": {
                 "moveName": "EX Eagle Spike",
@@ -2694,7 +2837,7 @@
                 "recovery": "5+19",
                 "total": 48,
                 "onHit": "KD",
-                "onBlock": -8,
+                "onBlock": "-8(-4)",
                 "damage": 100,
                 "stun": 150,
                 "kd": "107(111)",
@@ -2711,12 +2854,13 @@
                     "Airborne on frames 4-29",
                     "No collision boxes on frames 18-34",
                     "Block advantage varies greatly based on distance to opponent when starting (-4 at best fullscreen)",
-                    "KDA depends on how late into the active frames it hits and has increased KDA not listed here if Rashid flies into the corner early on"
+                    "KDA depends on how late into the active frames it hits and has increased KDA not listed here if Rashid flies into the corner early on",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 67
+                "i": 69
             },
             "LK Airborne Eagle Spike": {
                 "moveName": "LK Airborne Eagle Spike",
@@ -2739,12 +2883,13 @@
                 "extraInfo": [
                     "Rashid does not bounce off on block in this V-Trigger 2 enhanced version (so much safer on block in general)",
                     "KDA varies depending on how high or low the Eagle Spike hits (more KDA if it hits low)",
-                    "17 landing recovery frames"
+                    "17 landing recovery frames",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 69
+                "i": 71
             },
             "MK Airborne Eagle Spike": {
                 "moveName": "MK Airborne Eagle Spike",
@@ -2767,12 +2912,13 @@
                 "extraInfo": [
                     "Rashid does not bounce off on block in this V-Trigger 2 enhanced version (so much safer on block in general)",
                     "KDA varies depending on how high or low the Eagle Spike hits (more KDA if it hits low)",
-                    "17 landing recovery frames"
+                    "17 landing recovery frames",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 70
+                "i": 72
             },
             "HK Airborne Eagle Spike": {
                 "moveName": "HK Airborne Eagle Spike",
@@ -2795,12 +2941,13 @@
                 "extraInfo": [
                     "Rashid does not bounce off on block in this V-Trigger 2 enhanced version (so much safer on block in general)",
                     "KDA varies depending on how high or low the Eagle Spike hits (more KDA if it hits low)",
-                    "17 landing recovery frames"
+                    "17 landing recovery frames",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 71
+                "i": 73
             },
             "EX Airborne Eagle Spike": {
                 "moveName": "EX Airborne Eagle Spike",
@@ -2825,12 +2972,13 @@
                     "Rashid does not bounce off on block in this V-Trigger 2 enhanced version (so much safer on block in general)",
                     "Can perform a wall jump after successfully hitting the opponent (allows for unique follow-up scenarios)",
                     "KDA varies depending on how high or low the Eagle Spike hits (more KDA if it hits low)",
-                    "If the 1st hit doesn't connect then Rashid still attempts the second hit which results in much more recovery frames on block / whiff (31+17 instead of just 17 landing recovery frames)"
+                    "If the 1st hit doesn't connect then Rashid still attempts the second hit which results in much more recovery frames on block / whiff (31+17 instead of just 17 landing recovery frames)",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 72
+                "i": 74
             },
             "LK Whirlwind Shot": {
                 "moveName": "LK Whirlwind Shot",
@@ -2860,12 +3008,13 @@
                     "Sends a 2-hit projectile forth that starts angling upwards at about 55% screen length",
                     "Can be canceled into either V-Skill Flip or Roll on frames 23-28",
                     "Roll Cancel Framedata shown is when using it with the opponent cornered (Roll cancel advantage increases the further away Rashid spaces the Whirlwind shot with the opponent cornered)",
-                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)"
+                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 74
+                "i": 76
             },
             "MK Whirlwind Shot": {
                 "moveName": "MK Whirlwind Shot",
@@ -2895,12 +3044,13 @@
                     "Sends a 3-hit projectile forth that starts angling upwards at about 50% screen length",
                     "Can be canceled into either V-Skill Flip or Roll on frames 29-34",
                     "Roll Cancel Framedata shown is when using it with the opponent cornered (Roll cancel advantage increases the further away Rashid spaces the Whirlwind shot with the opponent cornered)",
-                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)"
+                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 75
+                "i": 77
             },
             "HK Whirlwind Shot": {
                 "moveName": "HK Whirlwind Shot",
@@ -2931,12 +3081,13 @@
                     "Can be cancelled into either V-Skill Flip or Roll on frames 37-49",
                     "Grants wind enhancements if Rashid touches it",
                     "Roll Cancel Framedata shown is when using it with the opponent cornered (Roll cancel advantage increases the further away Rashid spaces the Whirlwind shot with the opponent cornered)",
-                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)"
+                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 76
+                "i": 78
             },
             "EX Whirlwind Shot": {
                 "moveName": "EX Whirlwind Shot",
@@ -2970,12 +3121,13 @@
                     "Can be cancelled into either V-Skill Flip or Roll on frames 24-37",
                     "Grants wind enhancements if Rashid touches it",
                     "Roll Cancel Framedata shown is when using it with the opponent cornered (Roll cancel advantage increases the further away Rashid spaces the Whirlwind shot with the opponent cornered)",
-                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)"
+                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 77
+                "i": 79
             },
             "Haboob": {
                 "moveName": "Haboob",
@@ -3008,13 +3160,16 @@
                     "Can be cancelled into either V-Skill Flip or Roll on frames 25-32",
                     "Grants wind enhancements if Rashid touches it",
                     "Roll Cancel Framedata shown is when using it with the opponent cornered (Roll cancel advantage increases the further away Rashid spaces the Whirlwind shot with the opponent cornered)",
-                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)"
+                    "A lot less Roll Cancel advantage when used in mid-screen situations (often even punishable)",
+                    "Spends 1000 V-Timer (33% VTimer)"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 46.01
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

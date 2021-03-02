@@ -17,6 +17,9 @@
                 "vtc2OnBlock": 4,
                 "damage": 30,
                 "stun": 70,
+                "hcWinSpCa": 10,
+                "hcWinTc": 11,
+                "hcWinVt": 10,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "ch",
@@ -51,6 +54,9 @@
                 "vtc2OnBlock": "7(9)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": "15/*17",
+                "hcWinNotes": "*VT2",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -82,11 +88,11 @@
                 "vtc2OnBlock": 1,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 18,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": 17,
+                "hcWinVt": 17,
+                "ccState": "Stagger",
+                "ccAdv": 18,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -97,6 +103,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "The Neutral"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
@@ -149,6 +158,10 @@
                 "vtc2OnBlock": 4,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinTc": 16,
+                "hcWinVt": "16/*18",
+                "hcWinNotes": "*VT2",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -180,11 +193,10 @@
                 "vtc2OnBlock": 2,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 23,
-                    "vG": "+150"
-                },
+                "hcWinVt": 17,
+                "ccState": "Stagger",
+                "ccAdv": 23,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -246,12 +258,15 @@
                 "total": 21,
                 "onHit": 5,
                 "onBlock": 2,
-                "vtc1GapOnHit": "NA",
+                "vtc1GapOnHit": "N/A",
                 "vtc1GapOnBlock": "N/A(-2)",
                 "vtc2OnHit": 10,
                 "vtc2OnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": "14/*17",
+                "hcWinNotes": "*VT2",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -283,6 +298,8 @@
                 "vtc2OnBlock": 5,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 17,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -347,6 +364,9 @@
                 "vtc2OnBlock": "5(6)",
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": "*14",
+                "hcWinVt": "16/**20",
+                "hcWinNotes": "*CA only, **VT2",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "su",
@@ -369,20 +389,26 @@
                 "plnCmd": "d+HK",
                 "numCmd": "2HK",
                 "startup": 10,
-                "active": 2,
+                "active": "2(22)2",
                 "recovery": 24,
                 "total": 59,
+                "onHit": "KD",
+                "onBlock": -12,
                 "vtc1GapOnHit": "N/A",
                 "vtc1GapOnBlock": "N/A",
                 "vtc2OnHit": "9(10)",
                 "vtc2OnBlock": "7(8)",
-                "damage": 60,
-                "stun": 100,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": "-18",
-                    "vG": "+60"
-                },
+                "damage": "60*40 (100)",
+                "stun": "100*50 (150)",
+                "hcWinSpCa": "*17",
+                "hcWinVt": 18,
+                "hcWinNotes": "*First hit only",
+                "kd": 84,
+                "kdr": 25,
+                "kdrb": 30,
+                "ccState": "Stagger",
+                "ccAdv": "-18",
+                "ccVG": "+60",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -397,47 +423,14 @@
                     "1st hit is cancelable into specials on HIT only",
                     "1st hit is cancelable into both V-Triggers on hit or block",
                     "1st hit has juggle properties",
-                    "22 frame gap between 1st and 2nd hit"
+                    "22 frame gap between 1st and 2nd hit",
+                    "If only 2nd hit connects as a Crush Counter, then player gains 100 V-Gauge instead of 60",
+                    "Hard Knockdown if only 2nd hit connects as a Cruish Counter"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HK",
                 "i": 12
-            },
-            "Crouch HK 2nd hit": {
-                "moveName": "Crouch HK 2nd hit",
-                "plnCmd": "d+HK",
-                "numCmd": "2HK",
-                "startup": 34,
-                "active": 2,
-                "recovery": 24,
-                "total": 59,
-                "onHit": "KD",
-                "onBlock": -12,
-                "damage": 40,
-                "stun": 50,
-                "kd": 84,
-                "kdr": 25,
-                "kdrb": 30,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+60"
-                },
-                "attackLevel": "L",
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "extraInfo": [
-                    "1st hit is cancelable on HIT only, 2nd hit cannot cancel in any way",
-                    "1st hit has juggle properties",
-                    "22 frame gap between 1st and 2nd hit",
-                    "If only 2nd hit connects as a Crush Counter, then player gains 100 V-Gauge instead of 60"
-                ],
-                "moveType": "normal",
-                "moveMotion": "D",
-                "moveButton": "HK",
-                "i": 13
             },
             "Jump LP": {
                 "moveName": "Jump LP",
@@ -456,7 +449,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LP",
-                "i": 14
+                "i": 13
             },
             "Jump MP": {
                 "moveName": "Jump MP",
@@ -475,7 +468,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "MP",
-                "i": 15
+                "i": 14
             },
             "Jump HP": {
                 "moveName": "Jump HP",
@@ -494,7 +487,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "HP",
-                "i": 16
+                "i": 15
             },
             "Jump LK": {
                 "moveName": "Jump LK",
@@ -516,7 +509,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LK",
-                "i": 17
+                "i": 16
             },
             "Jump MK": {
                 "moveName": "Jump MK",
@@ -538,7 +531,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "MK",
-                "i": 18
+                "i": 17
             },
             "Jump HK": {
                 "moveName": "Jump HK",
@@ -557,7 +550,7 @@
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "HK",
-                "i": 19
+                "i": 18
             },
             "Icicle Stamp": {
                 "moveName": "Icicle Stamp",
@@ -574,6 +567,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Puts Kolin into a free juggle state if hit by a medium / heavy / command normal",
                     "Shoots out a projectile behind from behind Kolin that has 13fr startup",
                     "Double Jump can only be activated during neutral or forward jump on frames 14-25",
                     "Can also be activated during HK or MKHK Vanity Step",
@@ -582,7 +576,8 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MK",
-                "i": 20
+                "movesList": "Command Normal",
+                "i": 19
             },
             "Blizzard Heel": {
                 "moveName": "Blizzard Heel",
@@ -607,7 +602,8 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MK",
-                "i": 21
+                "movesList": "Command Normal",
+                "i": 20
             },
             "Sniping Kick": {
                 "moveName": "Sniping Kick",
@@ -626,14 +622,14 @@
                 "vtc2OnBlock": 5,
                 "damage": 90,
                 "stun": 150,
-                "kd": 93,
-                "kdr": 34,
-                "kdrb": 39,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "hcWinVt": "18/*26",
+                "hcWinNotes": "*VT2",
+                "kd": 95,
+                "kdr": 36,
+                "kdrb": 41,
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -643,10 +639,15 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "The Neutral: Part 2",
+                    "Whiffs on crouching opponents at far range"
+                ],
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HK",
-                "i": 22
+                "movesList": "Command Normal",
+                "i": 21
             },
             "Frost Spike 1st": {
                 "moveName": "Frost Spike 1st",
@@ -664,6 +665,8 @@
                 "vtc2OnBlock": 7,
                 "damage": "30*36 (66)",
                 "stun": "70*54 (124)",
+                "hcWinTc": 11,
+                "hcWinVt": 15,
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt1",
@@ -675,7 +678,8 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
-                "i": 23
+                "movesList": "Target Combo",
+                "i": 22
             },
             "Frost Spike 2nd": {
                 "moveName": "Frost Spike 2nd",
@@ -693,6 +697,9 @@
                 "vtc2OnBlock": 0,
                 "damage": "30*36*48 (114)",
                 "stun": "70*54*64 (188)",
+                "hcWinSpCa": 18,
+                "hcWinTc": "2020-11-17T08:00:00.000Z",
+                "hcWinVt": 18,
                 "attackLevel": "H*H*H",
                 "cancelsTo": [
                     "sp",
@@ -710,7 +717,8 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
-                "i": 24
+                "movesList": "Target Combo",
+                "i": 23
             },
             "White Out 1st": {
                 "moveName": "White Out 1st",
@@ -728,6 +736,10 @@
                 "vtc2OnBlock": 0,
                 "damage": "50*45 (95)",
                 "stun": "100*63 (163)",
+                "hcWinSpCa": 16,
+                "hcWinTc": 16,
+                "hcWinVt": "16/*18",
+                "hcWinNotes": "*VT2",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt1",
@@ -739,7 +751,8 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
-                "i": 25
+                "movesList": "Target Combo",
+                "i": 24
             },
             "White Out 2nd": {
                 "moveName": "White Out 2nd",
@@ -757,6 +770,9 @@
                 "vtc2OnBlock": 15,
                 "damage": "50*45*48 (143)",
                 "stun": "100*63*80 (243)",
+                "hcWinTc": 17,
+                "hcWinVt": "17/*19",
+                "hcWinNotes": "*VT2",
                 "kd": 78,
                 "kdr": 19,
                 "kdrb": 24,
@@ -771,7 +787,8 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 26
+                "movesList": "Target Combo",
+                "i": 25
             },
             "White Pressure": {
                 "moveName": "White Pressure",
@@ -784,6 +801,7 @@
                 "onHit": "KD",
                 "damage": "50*45*80 (175)",
                 "stun": "100*63*120 (283)",
+                "hcWinTc": 17,
                 "kd": 0,
                 "kdr": 0,
                 "kdrb": 0,
@@ -796,7 +814,8 @@
                     "Hard Knockdown (+0)",
                     "Builds 100 V-Gauge on hit"
                 ],
-                "i": 27
+                "movesList": "Target Combo",
+                "i": 26
             },
             "Pressure Ridge": {
                 "moveName": "Pressure Ridge",
@@ -820,7 +839,8 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 28
+                "movesList": "Normal Throw",
+                "i": 27
             },
             "Sublimation": {
                 "moveName": "Sublimation",
@@ -844,7 +864,8 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
-                "i": 29
+                "movesList": "Normal Throw",
+                "i": 28
             },
             "Avalanche Lock": {
                 "moveName": "Avalanche Lock",
@@ -870,7 +891,8 @@
                 "moveType": "throw",
                 "moveMotion": "U",
                 "moveButton": "LPLK",
-                "i": 30
+                "movesList": "Normal Throw",
+                "i": 29
             },
             "Inside Slash": {
                 "moveName": "Inside Slash",
@@ -897,10 +919,11 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 31
+                "movesList": "V-Skill 1",
+                "i": 30
             },
-            "Inside Slash (Counter)": {
-                "moveName": "Inside Slash (Counter)",
+            "Inside Slash (counter)": {
+                "moveName": "Inside Slash (counter)",
                 "plnCmd": "MP+MK (VS1)",
                 "numCmd": "MPMK (VS1) Counter",
                 "cmnName": "V-Skill 1 Counter",
@@ -921,12 +944,14 @@
                 "extraInfo": [
                     "Look at the non-counter version of this move for regular hit / block advantage framedata",
                     "Builds 100 V-Gauge on a successful parry and its follow-up attack",
-                    "If Kolin performed the counter during the last 2 frames of her counter window, this attack does a different version that hits for 50*100 damage"
+                    "If Kolin performed the counter during the last 2 frames of her counter window, this attack does a different version that hits for 50*100 damage",
+                    "Follow-up attack is completely invincible until last 2 frames"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 32
+                "movesList": "V-Skill 1",
+                "i": 31
             },
             "Glacier Through": {
                 "moveName": "Glacier Through",
@@ -949,12 +974,13 @@
                 "extraInfo": [
                     "Freezes opponent's stun meter on hit and does not wear off unless the opponent gets a clean hit on Kolin",
                     "Hard Knockdown (+0)",
-                    "Builds 100 V-Gauge on hit"
+                    "Builds 125 V-Gauge on hit"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 33
+                "movesList": "V-Skill 2",
+                "i": 32
             },
             "Diamond Dust": {
                 "moveName": "Diamond Dust",
@@ -988,7 +1014,8 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "i": 34
+                "movesList": "V-Trigger 1",
+                "i": 33
             },
             "Diamond Dust  2nd": {
                 "moveName": "Diamond Dust  2nd",
@@ -1020,7 +1047,8 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "i": 35
+                "movesList": "V-Trigger 1",
+                "i": 34
             },
             "Absolute Zero": {
                 "moveName": "Absolute Zero",
@@ -1035,8 +1063,9 @@
                 "projectile": false,
                 "extraInfo": [
                     "2 bar V-Trigger",
-                    "Duration 2800 frames (~47 seconds)",
+                    "Duration 2500 frames (~41.6 seconds)",
                     "Improves Kolin's normal punches (standing / crouching / air / target combos) with more range and 10 more damage",
+                    "Punch normals decrease V-Timer on hit or block",
                     "Enhances her Hailstorm projectiles (snowballs) size and damage by 10",
                     "Gives Kolin access to 2 new moves (Frost Edge and Reverse Javelin) while active",
                     "Gives access to a slide if Kolin holds forward during her dash forward frames which gives her follow-up normals and V-Skill sliding momentum as well as altering her jump arcs used from the slide"
@@ -1045,7 +1074,8 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
-                "i": 36
+                "movesList": "V-Trigger 2",
+                "i": 35
             },
             "Third Eye": {
                 "moveName": "Third Eye",
@@ -1064,7 +1094,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3K",
+                "movesList": "V-Reversal",
+                "i": 36
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
                 "i": 37
+            },
+            "Cold Snap": {
+                "moveName": "Cold Snap",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 38
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1079,7 +1168,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 38
+                "i": 39
             },
             "LP Frost Touch": {
                 "moveName": "LP Frost Touch",
@@ -1110,7 +1199,8 @@
                 "moveMotion": "QCB",
                 "moveButton": "LP",
                 "nonHittingMove": true,
-                "i": 39
+                "movesList": "Special",
+                "i": 40
             },
             "MP Frost Touch": {
                 "moveName": "MP Frost Touch",
@@ -1142,7 +1232,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "MP",
                 "nonHittingMove": true,
-                "i": 40
+                "i": 41
             },
             "HP Frost Touch": {
                 "moveName": "HP Frost Touch",
@@ -1173,7 +1263,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "HP",
                 "nonHittingMove": true,
-                "i": 41
+                "i": 42
             },
             "LPMP Frost Touch": {
                 "moveName": "LPMP Frost Touch",
@@ -1204,7 +1294,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "LPMP",
                 "nonHittingMove": true,
-                "i": 42
+                "i": 43
             },
             "LPHP Frost Touch": {
                 "moveName": "LPHP Frost Touch",
@@ -1236,7 +1326,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "LPHP",
                 "nonHittingMove": true,
-                "i": 43
+                "i": 44
             },
             "MPHP Frost Touch": {
                 "moveName": "MPHP Frost Touch",
@@ -1267,7 +1357,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "MPHP",
                 "nonHittingMove": true,
-                "i": 44
+                "i": 45
             },
             "LP Parabellum": {
                 "moveName": "LP Parabellum",
@@ -1295,7 +1385,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 45
+                "movesList": "Special",
+                "i": 46
             },
             "MP Parabellum": {
                 "moveName": "MP Parabellum",
@@ -1323,7 +1414,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 46
+                "i": 47
             },
             "HP Parabellum": {
                 "moveName": "HP Parabellum",
@@ -1355,7 +1446,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 47
+                "i": 48
             },
             "EX Parabellum": {
                 "moveName": "EX Parabellum",
@@ -1387,7 +1478,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 48
+                "i": 49
             },
             "LP Hailstorm": {
                 "moveName": "LP Hailstorm",
@@ -1417,7 +1508,8 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 49
+                "movesList": "Special",
+                "i": 50
             },
             "MP Hailstorm": {
                 "moveName": "MP Hailstorm",
@@ -1447,7 +1539,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 50
+                "i": 51
             },
             "HP Hailstorm": {
                 "moveName": "HP Hailstorm",
@@ -1477,7 +1569,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 51
+                "i": 52
             },
             "LP Hailstorm Projectile": {
                 "moveName": "LP Hailstorm Projectile",
@@ -1502,7 +1594,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1P",
-                "i": 52
+                "i": 53
             },
             "MP Hailstorm Projectile": {
                 "moveName": "MP Hailstorm Projectile",
@@ -1527,7 +1619,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1P",
-                "i": 53
+                "i": 54
             },
             "HP Hailstorm Projectile": {
                 "moveName": "HP Hailstorm Projectile",
@@ -1552,7 +1644,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1P",
-                "i": 54
+                "i": 55
             },
             "LPMP Hailstorm": {
                 "moveName": "LPMP Hailstorm",
@@ -1583,7 +1675,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LPMP",
-                "i": 55
+                "i": 56
             },
             "LPHP Hailstorm": {
                 "moveName": "LPHP Hailstorm",
@@ -1614,7 +1706,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LPHP",
-                "i": 56
+                "i": 57
             },
             "MPHP Hailstorm": {
                 "moveName": "MPHP Hailstorm",
@@ -1645,7 +1737,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MPHP",
-                "i": 57
+                "i": 58
             },
             "EX Hailstorm Projectile": {
                 "moveName": "EX Hailstorm Projectile",
@@ -1669,7 +1761,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 58
+                "i": 59
             },
             "LK Vanity Step": {
                 "moveName": "LK Vanity Step",
@@ -1690,7 +1782,8 @@
                 "moveMotion": "QCB",
                 "moveButton": "LK",
                 "nonHittingMove": true,
-                "i": 59
+                "movesList": "Special",
+                "i": 60
             },
             "> Silver Edge": {
                 "moveName": "> Silver Edge",
@@ -1723,7 +1816,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 60
+                "i": 61
             },
             "MK Vanity Step": {
                 "moveName": "MK Vanity Step",
@@ -1746,7 +1839,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "MK",
                 "nonHittingMove": true,
-                "i": 61
+                "i": 62
             },
             "> Cold Low": {
                 "moveName": "> Cold Low",
@@ -1786,7 +1879,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HK",
-                "i": 62
+                "i": 63
             },
             "> Brinicle": {
                 "moveName": "> Brinicle",
@@ -1829,7 +1922,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
-                "i": 63
+                "i": 64
             },
             "> Snow Grain": {
                 "moveName": "> Snow Grain",
@@ -1867,7 +1960,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
-                "i": 64
+                "i": 65
             },
             "HK Vanity Step": {
                 "moveName": "HK Vanity Step",
@@ -1892,7 +1985,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "HK",
                 "nonHittingMove": true,
-                "i": 65
+                "i": 66
             },
             "> White Spear": {
                 "moveName": "> White Spear",
@@ -1919,7 +2012,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MK",
-                "i": 66
+                "i": 67
             },
             "LKMK Vanity Step": {
                 "moveName": "LKMK Vanity Step",
@@ -1941,7 +2034,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "LKMK",
                 "nonHittingMove": true,
-                "i": 67
+                "i": 68
             },
             "> EX Silver Edge": {
                 "moveName": "> EX Silver Edge",
@@ -1974,7 +2067,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 68
+                "i": 69
             },
             "LKHK Vanity Step": {
                 "moveName": "LKHK Vanity Step",
@@ -1997,7 +2090,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "LKHK",
                 "nonHittingMove": true,
-                "i": 69
+                "i": 70
             },
             "MKHK Vanity Step": {
                 "moveName": "MKHK Vanity Step",
@@ -2025,7 +2118,7 @@
                 "moveMotion": "QCB",
                 "moveButton": "MKHK",
                 "nonHittingMove": true,
-                "i": 70
+                "i": 71
             },
             "Frost Tower": {
                 "moveName": "Frost Tower",
@@ -2048,14 +2141,15 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "completely invincibile on frames 1-9",
-                    "Pick Battle Costume for optimal camera angles"
+                    "Completely invincibile on frames 1-9"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 71
-            }
+                "movesList": "Super",
+                "i": 72
+            },
+            "input": "None"
         },
         "vtOne": {
             "Inside Slash": {
@@ -2082,8 +2176,9 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 31
-            }
+                "i": 30
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Stand LP": {
@@ -2098,6 +2193,8 @@
                 "onBlock": 2,
                 "damage": 40,
                 "stun": 70,
+                "hcWinSpCa": 10,
+                "hcWinTc": 11,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "ch",
@@ -2108,7 +2205,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into st.LP / cr.LP / cr.LK"
+                    "Chains into st.LP / cr.LP / cr.LK",
+                    "Spends 80 / 40 V-Timer on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -2127,6 +2225,7 @@
                 "onBlock": 2,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2135,6 +2234,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Spends 100 / 50 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
@@ -2152,11 +2254,10 @@
                 "onBlock": -4,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 18,
-                    "vG": "+150"
-                },
+                "hcWinSpCa": 17,
+                "ccState": "Stagger",
+                "ccAdv": 18,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2165,6 +2266,10 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "The Neutral",
+                    "Spends 150 / 75 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
@@ -2192,7 +2297,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into st.LP / cr.LP / cr.LK"
+                    "Chains into st.LP / cr.LP / cr.LK",
+                    "Spends 80 / 40 V-Timer on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -2211,6 +2317,8 @@
                 "onBlock": 2,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinTc": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2219,6 +2327,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Spends 100 / 50 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MP",
@@ -2244,6 +2355,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Spends 150 / 75 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
@@ -2264,10 +2378,13 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Spends 80 / 40 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LP",
-                "i": 14
+                "i": 13
             },
             "Jump MP": {
                 "moveName": "Jump MP",
@@ -2280,14 +2397,18 @@
                 "onBlock": "7(9)",
                 "damage": 80,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "attackLevel": "M",
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Spends 100 / 50 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "MP",
-                "i": 15
+                "i": 14
             },
             "Jump HP": {
                 "moveName": "Jump HP",
@@ -2300,14 +2421,18 @@
                 "onBlock": "9(12)",
                 "damage": 100,
                 "stun": 150,
+                "hcWinSpCa": 17,
                 "attackLevel": "M",
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Spends 150 / 75 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "HP",
-                "i": 16
+                "i": 15
             },
             "Frost Spike 1st": {
                 "moveName": "Frost Spike 1st",
@@ -2322,14 +2447,18 @@
                 "onBlock": -6,
                 "damage": "40*45 (85)",
                 "stun": "70*54 (124)",
+                "hcWinTc": 11,
                 "attackLevel": "H*H",
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
+                "extraInfo": [
+                    "Spends 125 / 62 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
-                "i": 23
+                "i": 22
             },
             "Frost Spike 2nd": {
                 "moveName": "Frost Spike 2nd",
@@ -2344,6 +2473,8 @@
                 "onBlock": -9,
                 "damage": "40*45*56 (141)",
                 "stun": "70*54*64 (188)",
+                "hcWinSpCa": 18,
+                "hcWinTc": "2020-11-17T08:00:00.000Z",
                 "attackLevel": "H*H*H",
                 "cancelsTo": [
                     "sp",
@@ -2353,12 +2484,13 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancels into V-Trigger 2 but not V-Trigger 1"
+                    "Cancels into V-Trigger 2 but not V-Trigger 1",
+                    "Spends 185/ 92 V-Timer on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
-                "i": 24
+                "i": 23
             },
             "White Out 1st": {
                 "moveName": "White Out 1st",
@@ -2373,14 +2505,19 @@
                 "onBlock": -9,
                 "damage": "50*54 (104)",
                 "stun": "100*63 (163)",
+                "hcWinSpCa": 16,
+                "hcWinTc": 16,
                 "attackLevel": "H*H",
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
+                "extraInfo": [
+                    "Spends 75 / 37 V-Timer on Hit / Block"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
-                "i": 25
+                "i": 24
             },
             "White Out 2nd": {
                 "moveName": "White Out 2nd",
@@ -2395,6 +2532,7 @@
                 "onBlock": -12,
                 "damage": "50*54*56 (160)",
                 "stun": "100*63*80 (243)",
+                "hcWinTc": 17,
                 "kd": 78,
                 "kdr": 19,
                 "kdrb": 24,
@@ -2405,7 +2543,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 26
+                "i": 25
             },
             "White Pressure": {
                 "moveName": "White Pressure",
@@ -2418,6 +2556,7 @@
                 "onHit": "KD",
                 "damage": "50*54*80 (184)",
                 "stun": "100*63*120 (283)",
+                "hcWinTc": 17,
                 "kd": 0,
                 "kdr": 0,
                 "kdrb": 0,
@@ -2429,7 +2568,7 @@
                     "Freezes opponent's stun meter on hit and does not wear off unless the opponent gets a clean hit on Kolin",
                     "Hard Knockdown (+0)"
                 ],
-                "i": 27
+                "i": 26
             },
             "> Brinicle": {
                 "moveName": "> Brinicle",
@@ -2461,12 +2600,13 @@
                     "Minimal startup from LKHK Step; 36F",
                     "6 extra recovery frames on hit",
                     "Both hits are V-Trigger cancelable",
-                    "The cr.HP is -2 oB in this Target Combo instead of the usual -3 oB"
+                    "The cr.HP is -2 oB in this Target Combo instead of the usual -3 oB",
+                    "Spends 75 / 37 V-Timer on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
-                "i": 63
+                "i": 64
             },
             "> Snow Grain": {
                 "moveName": "> Snow Grain",
@@ -2493,12 +2633,13 @@
                     "Minimal overall startup from MK Step; 44F",
                     "Minimal startup from LKHK Step; 38F",
                     "Both hits are V-Trigger cancelable",
-                    "Careful; the frame advantage on the st.HP in this Target Combo is much more negative than normally on st.HP"
+                    "Careful; the frame advantage on the st.HP in this Target Combo is much more negative than normally on st.HP",
+                    "Spends 75 / 37 V-Timer on Hit / Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
-                "i": 64
+                "i": 65
             },
             "Inside Slash": {
                 "moveName": "Inside Slash",
@@ -2518,44 +2659,17 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Counter attack window on frames 8-16, if hit by a strike during these frames, performs a counter move that knocks down, instead of the regular slash attack",
+                    "Counter attack window on frames 8-16 (4-12 if done from ice skate), if hit by a strike during these frames, performs a counter move that knocks down, instead of the regular slash attack",
                     "Can counter any strike, even Supers, but cannot counter projectiles",
                     "Bit further range on the hitbox than normal on this V-Trigger 2 version",
                     "2F faster hitstun/blockstun timing than normal version",
-                    "2F faster recovery on whiff than normal version"
+                    "2F (4F if done from ice skate) faster recovery on whiff than normal version"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 31
-            },
-            "Inside Slash (dash)": {
-                "moveName": "Inside Slash (dash)",
-                "plnCmd": "f,f,MP+MK (VS1)",
-                "numCmd": "66 > MPMK (VS1) Slash",
-                "cmnName": "Dash V-Skill 1",
-                "startup": 11,
-                "active": 2,
-                "recovery": 23,
-                "total": 35,
-                "onHit": 3,
-                "onBlock": -7,
-                "damage": 60,
-                "stun": 100,
-                "attackLevel": "H",
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "extraInfo": [
-                    "Counter attack window on frames 4-12, if hit by a strike during these frames, performs a counter move that knocks down, instead of the regular slash attack",
-                    "Can counter any strike, even Supers, but cannot counter projectiles",
-                    "Bit further range on the hitbox than normal on this V-Trigger 2 version",
-                    "Recovers 4F faster on whiff than normal version"
-                ],
-                "moveType": "vskill",
-                "moveMotion": "N",
-                "moveButton": "MPMK",
-                "i": 31.01
+                "movesList": "V-Skill 1",
+                "i": 30
             },
             "Inside Slash (counter)": {
                 "moveName": "Inside Slash (counter)",
@@ -2583,7 +2697,8 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 31.02
+                "movesList": "V-Skill 1",
+                "i": 31
             },
             "LP Hailstorm": {
                 "moveName": "LP Hailstorm",
@@ -2613,7 +2728,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 49
+                "i": 50
             },
             "MP Hailstorm": {
                 "moveName": "MP Hailstorm",
@@ -2643,7 +2758,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 50
+                "i": 51
             },
             "HP Hailstorm": {
                 "moveName": "HP Hailstorm",
@@ -2673,7 +2788,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 51
+                "i": 52
             },
             "LP Hailstorm Projectile": {
                 "moveName": "LP Hailstorm Projectile",
@@ -2699,7 +2814,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1P",
-                "i": 52
+                "i": 53
             },
             "MP Hailstorm Projectile": {
                 "moveName": "MP Hailstorm Projectile",
@@ -2725,7 +2840,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1P",
-                "i": 53
+                "i": 54
             },
             "HP Hailstorm Projectile": {
                 "moveName": "HP Hailstorm Projectile",
@@ -2751,7 +2866,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1P",
-                "i": 54
+                "i": 55
             },
             "LPMP Hailstorm": {
                 "moveName": "LPMP Hailstorm",
@@ -2782,7 +2897,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LPMP",
-                "i": 55
+                "i": 56
             },
             "LPHP Hailstorm": {
                 "moveName": "LPHP Hailstorm",
@@ -2813,7 +2928,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LPHP",
-                "i": 56
+                "i": 57
             },
             "MPHP Hailstorm": {
                 "moveName": "MPHP Hailstorm",
@@ -2844,7 +2959,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MPHP",
-                "i": 57
+                "i": 58
             },
             "EX Hailstorm Projectile": {
                 "moveName": "EX Hailstorm Projectile",
@@ -2869,7 +2984,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 58
+                "i": 59
             },
             "Frost Edge": {
                 "moveName": "Frost Edge",
@@ -2900,7 +3015,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "i": 36.01
+                "movesList": "Special",
+                "i": 35.01
             },
             "Reverse Javelin": {
                 "moveName": "Reverse Javelin",
@@ -2933,7 +3049,8 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "i": 36.02
+                "movesList": "Special",
+                "i": 35.02
             },
             "Reverse Javelin 2nd": {
                 "moveName": "Reverse Javelin 2nd",
@@ -2967,7 +3084,8 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "i": 36.03
+                "movesList": "Special",
+                "i": 35.03
             },
             "Forward Dash (Slide)": {
                 "moveName": "Forward Dash (Slide)",
@@ -2987,13 +3105,15 @@
                     "If Kolin cancels the slide into either of the two unique jump arcs she can follow-up with air normals that have increased Juggle Limit (0 -> 2)",
                     "After the first 7 frames of the dash, if not holding forward, Kolin will instead perform stop which takes 11 frames (totaling 17 frames like her regular forward dash duration) during which period Kolin can not block",
                     "Framedata in the parentheses (X) refers to the version if holding forward and skating for the entire duration (51 total frames)",
-                    "Initiating the slide (holding forward past frame 7 spends 700 V-Timer (25% V-Timer)"
+                    "Initiating the slide (holding forward past frame 7 spends 600 V-Timer (25% V-Timer)"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "DF",
                 "moveButton": 66,
-                "i": 36.04
-            }
+                "movesList": "Special",
+                "i": 35.04
+            },
+            "input": "None"
         }
     },
     "stats": {

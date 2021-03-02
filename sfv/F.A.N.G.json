@@ -54,8 +54,10 @@
                 "vtc2OnBlock": 5,
                 "LKorMKDashOH": -10,
                 "LKorMKDashOB": -14,
-                "damage": "40*20",
-                "stun": "50*50",
+                "damage": "40*20 (60)",
+                "stun": "50*50 (100)",
+                "hcWinSpCa": "*9",
+                "hcWinNotes": "*First hit only",
                 "multiActive": [
                     7,
                     8,
@@ -74,7 +76,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Only 1st hit is cancelable",
-                    "2nd hit cannot hit airborne"
+                    "2nd hit cannot hit airborne",
+                    "CH bonus applies to both hits"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -99,11 +102,11 @@
                 "LKorMKDashOB": -10,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 16,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": 18,
+                "hcWinVt": 18,
+                "ccState": "Stagger",
+                "ccAdv": 16,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -171,8 +174,10 @@
                 "vtc2OnBlock": "5*6",
                 "LKorMKDashOH": -9,
                 "LKorMKDashOB": -14,
-                "damage": "30*30",
-                "stun": "50*50",
+                "damage": "30*30 (60)",
+                "stun": "50*50 (100)",
+                "hcWinSpCa": "*8",
+                "hcWinNotes": "*First hit only",
                 "multiActive": [
                     5,
                     6,
@@ -193,7 +198,8 @@
                     "2nd hit is a great anti-air (frames 7-8)",
                     "1st hit cannot hit airborne",
                     "2nd hit cannot hit crouch",
-                    "Both hits are special cancelable"
+                    "Both hits are special cancelable",
+                    "CH bonus applies to both hits"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -210,14 +216,16 @@
                 "total": 40,
                 "onHit": 6,
                 "onBlock": 1,
-                "vtc1OnHit": "11*13",
+                "vtc1OnHit": "12*13",
                 "vtc1OnBlock": "8*8",
                 "vtc2OnHit": "11*13",
                 "vtc2OnBlock": "8*8",
                 "LKorMKDashOH": -8,
                 "LKorMKDashOB": -11,
-                "damage": "40*75",
-                "stun": "40*75",
+                "damage": "40*75 (115)",
+                "stun": "40*75 (115)",
+                "hcWinSpCa": "*10",
+                "hcWinNotes": "*First hit only",
                 "multiActive": [
                     12,
                     13,
@@ -235,7 +243,10 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Only 1st hit is special cancelable"
+                    "1st hit puts airborne opponents into a limited juggle state",
+                    "Only 1st hit is special cancelable",
+                    "CH bonus applies to both hits",
+                    "Juggle Limit / Increase / Start: 2*3 / 1*1 / 1*1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -293,6 +304,8 @@
                 "LKorMKDashOB": -14,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 12,
+                "hcWinVt": 12,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -324,8 +337,11 @@
                 "vtc2OnBlock": "7*5",
                 "LKorMKDashOH": "KD (+25)*(-2)",
                 "LKorMKDashOB": "-12*-14",
-                "damage": "50*40",
-                "stun": "75*75",
+                "damage": "50*40 (90)",
+                "stun": "75*75 (150)",
+                "hcWinSpCa": "*15",
+                "hcWinVt": "15/10",
+                "hcWinNotes": "*Only first hit cancel can combo, 2nd hit air resets",
                 "multiActive": [
                     9,
                     10,
@@ -345,7 +361,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Only 1st hit is special cancelable",
-                    "First hit puts opponent into a free juggle state (although second hit will usually air reset them out of this)"
+                    "First hit puts opponent into a free juggle state (although second hit will usually air reset them out of this)",
+                    "CH bonus applies to both hits"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -397,8 +414,10 @@
                 "vtc2OnBlock": "5*8",
                 "LKorMKDashOH": "-10*-13",
                 "LKorMKDashOB": "-14*-13",
-                "damage": "20*40",
-                "stun": "50*50",
+                "damage": "20*40 (60)",
+                "stun": "50*50 (100)",
+                "hcWinSpCa": "*9",
+                "hcWinNotes": "*First hit only",
                 "multiActive": [
                     7,
                     8,
@@ -418,7 +437,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Only 1st hit is special cancelable",
-                    "2nd hit cannot hit airborne"
+                    "2nd hit cannot hit airborne",
+                    "CH bonus applies to both hits"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -439,8 +459,10 @@
                 "vtc1OnBlock": 4,
                 "vtc2OnHit": 7,
                 "vtc2OnBlock": 4,
-                "damage": "50*50",
-                "stun": "75*75",
+                "damage": "50*50 9100)",
+                "stun": "75*75 (150)",
+                "hcWinVt": "*11",
+                "hcWinNotes": "*First hit only",
                 "multiActive": [
                     9,
                     10,
@@ -450,11 +472,9 @@
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L*L",
                 "cancelsTo": [
                     "vt1",
@@ -566,8 +586,8 @@
                 "numCmd": "j.MK",
                 "startup": 5,
                 "active": "2*2",
-                "damage": "35*35",
-                "stun": "50*50",
+                "damage": "35*35 (70)",
+                "stun": "50*50 (100)",
                 "multiActive": [
                     5,
                     6,
@@ -593,8 +613,8 @@
                 "numCmd": "j.HK",
                 "startup": 9,
                 "active": "2*2",
-                "damage": "48*48",
-                "stun": "90*90",
+                "damage": "40*40 (80)",
+                "stun": "75*75 (150)",
                 "multiActive": [
                     9,
                     10,
@@ -627,12 +647,15 @@
                 "total": 42,
                 "onHit": 0,
                 "onBlock": -5,
-                "vtc1OnHit": 13,
-                "vtc1OnBlock": 7,
-                "vtc2OnHit": 13,
-                "vtc2OnBlock": 7,
-                "damage": "60*40",
-                "stun": "100*100",
+                "vtc1OnHit": "13/12",
+                "vtc1OnBlock": "7*7",
+                "vtc2OnHit": "13/12",
+                "vtc2OnBlock": "7*7",
+                "damage": "60*40 (100)",
+                "stun": "100*100 (200)",
+                "hcWinSpCa": "*18",
+                "hcWinVt": "14/13",
+                "hcWinNotes": "*First hit only",
                 "multiActive": [
                     12,
                     13,
@@ -650,15 +673,39 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "First hit is cancelable into Specials / V-Triggers"
+                    "First hit is cancelable into Specials"
                 ],
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Senpukuga": {
                 "moveName": "Senpukuga",
+                "plnCmd": "d+PPP",
+                "numCmd": "2PPP",
+                "cmnName": "Coward Crouch",
+                "startup": 1,
+                "recovery": "53 (85)",
+                "total": "54 (86)",
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Initial d+PPP has a crouching hurtbox on frame 7 followed up by Upper/Mid-body invincibility on frames 8 and onwards until rising",
+                    "Hold down to extend time spent coward-crouching, up to a total of 86 frames",
+                    "Can cancel into kick follow-up on frames 11-66 or Poison Balls on frames 21-86",
+                    "Much lower collision box on frames 11-77 while holding the crouch down"
+                ],
+                "moveType": "normal",
+                "moveMotion": "N",
+                "moveButton": "1K",
+                "movesList": "Command Normal",
+                "i": 20
+            },
+            "Senpukuga > Kick": {
+                "moveName": "Senpukuga > Kick",
                 "plnCmd": "d+PPP > K",
                 "numCmd": "2PPP > K",
                 "cmnName": "Coward Crouch > K",
@@ -672,8 +719,9 @@
                 "vtc1OnBlock": "7*7",
                 "vtc2OnHit": "11*11",
                 "vtc2OnBlock": "7*7",
-                "damage": "30*40",
-                "stun": "50*50",
+                "damage": "30*40 (70)",
+                "stun": "50*50 (100)",
+                "hcWinVt": "12/9",
                 "multiActive": [
                     10,
                     11,
@@ -689,15 +737,17 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Initial d+PPP has a crouching hurtbox on frame 7 followed up Upper/Mid-body invincibility on frames 8 and onwards until rising",
-                    "Hold down to extend time spent coward-crouching, up to a total of 87 frames",
-                    "Can cancel into kick follow-up on frames 11-66 or Poison Balls on frames 21-87",
-                    "Much lower collision box on frames 11-77 while holding the crouch down"
+                    "Crouching sized hurtbox on frames 1-25",
+                    "Good pressure tool",
+                    "Both hits put airborne opponents into a limited juggle state",
+                    "CH bonus applies to both hits",
+                    "Juggle Limit: 3*4 / 1*1 / 1*1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 20
+                "movesList": "Command Normal",
+                "i": 21
             },
             "Simonshu": {
                 "moveName": "Simonshu",
@@ -709,8 +759,8 @@
                 "recovery": 17,
                 "total": 24,
                 "onHit": "KD",
-                "damage": "60*60",
-                "stun": "0*150",
+                "damage": "60*60 (120)",
+                "stun": "0*150 (150)",
                 "kd": 65,
                 "kdr": 6,
                 "kdrb": 6,
@@ -721,7 +771,8 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 21
+                "movesList": "Normal Throw",
+                "i": 22
             },
             "Kyoshitsugeki": {
                 "moveName": "Kyoshitsugeki",
@@ -733,8 +784,8 @@
                 "recovery": 17,
                 "total": 24,
                 "onHit": "KD",
-                "damage": "10*110",
-                "stun": "0*150",
+                "damage": "10*110 (120)",
+                "stun": "0*150 (150)",
                 "kd": 72,
                 "kdr": 13,
                 "kdrb": 13,
@@ -745,7 +796,8 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
-                "i": 22
+                "movesList": "Normal Throw",
+                "i": 23
             },
             "Nishodoku": {
                 "moveName": "Nishodoku",
@@ -763,13 +815,14 @@
                 "extraInfo": [
                     "The poison does 50 damage by itself over 8 seconds (~6 damage per second)",
                     "Poison wears off if F.A.N.G. gets hit",
-                    "Builds 70 V-Gauge (~23% V-bar) on hit"
+                    "Builds 70 V-Gauge (~23% V-bar) on hit/block"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
-                "i": 23
+                "movesList": "V-Skill 1",
+                "i": 24
             },
             "Sodokubu": {
                 "moveName": "Sodokubu",
@@ -793,13 +846,14 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
-                "i": 24
+                "movesList": "V-Skill 2",
+                "i": 25
             },
-            "Sodokubu (Counter)": {
-                "moveName": "Sodokubu (Counter)",
-                "plnCmd": "MP+MK (VS1)",
-                "numCmd": "MP+MK (VS1)",
-                "cmnName": "V-Skill 2 Counter Attack",
+            "Sodokubu (Attack)": {
+                "moveName": "Sodokubu (Attack)",
+                "plnCmd": "MP+MK (VS2) (Attack)",
+                "numCmd": "MPMK (VS2) (Attack)",
+                "cmnName": "V-Skill 2 Attack",
                 "startup": 3,
                 "active": "2(5)2(9)2(7)2",
                 "recovery": 62,
@@ -827,7 +881,8 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 25
+                "movesList": "V-Skill 2",
+                "i": 26
             },
             "Dokunomu": {
                 "moveName": "Dokunomu",
@@ -852,11 +907,12 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
-                "i": 26
+                "movesList": "V-Trigger 1",
+                "i": 27
             },
             "Koryo Dokuda": {
                 "moveName": "Koryo Dokuda",
-                "plnCmd": "HP+HK",
+                "plnCmd": "HP+HK (VT2)",
                 "numCmd": "HPHK (VT2)",
                 "cmnName": "V-Trigger 2",
                 "startup": 1,
@@ -874,7 +930,8 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
-                "i": 27
+                "movesList": "V-Trigger 2",
+                "i": 28
             },
             "Nikaiho": {
                 "moveName": "Nikaiho",
@@ -893,7 +950,66 @@
                 "moveMotion": "F",
                 "moveButton": "3P",
                 "nonHittingMove": true,
-                "i": 28
+                "movesList": "V-Reversal",
+                "i": 29
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 30
+            },
+            "Ryosenbu": {
+                "moveName": "Ryosenbu",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "vtc2OnHit": 60,
+                "vtc2OnBlock": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 31
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -908,7 +1024,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 29
+                "i": 32
             },
             "LP Nishikyu": {
                 "moveName": "LP Nishikyu",
@@ -922,8 +1038,8 @@
                 "onBlock": -11,
                 "vtc2OnHit": 11,
                 "vtc2OnBlock": 7,
-                "damage": "20*20",
-                "stun": "50*50",
+                "damage": "20*20 (40)",
+                "stun": "50*50 (100)",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "su",
@@ -936,7 +1052,7 @@
                     "Takes 35 frames to charge",
                     "Projectile is onscreen for 84 frames",
                     "Puts opponent in juggle state when hitting them airborne",
-                    "Frames 40-42 cancel into EX Nikankyaku (EX Teleport)",
+                    "Frames 40-42 cancel into EX Nikankyaku (EX Slide)",
                     "Cancelable into V-Trigger 2 on whiff as well as hit and block",
                     "Causes poison effect on hit"
                 ],
@@ -944,7 +1060,8 @@
                 "moveMotion": "U",
                 "moveButton": "LP",
                 "chargeDirection": "D",
-                "i": 30
+                "movesList": "Special",
+                "i": 33
             },
             "MP Nishikyu": {
                 "moveName": "MP Nishikyu",
@@ -958,8 +1075,8 @@
                 "onBlock": -11,
                 "vtc2OnHit": 11,
                 "vtc2OnBlock": 7,
-                "damage": "20*20",
-                "stun": "50*50",
+                "damage": "20*20 (40)",
+                "stun": "50*50 (100)",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "su",
@@ -972,7 +1089,7 @@
                     "Takes 35 frames to charge",
                     "Projectile is onscreen for 66 frames",
                     "Puts opponent in juggle state when hitting them airborne",
-                    "Frames 40-42 cancel into EX Nikankyaku (EX Teleport)",
+                    "Frames 40-42 cancel into EX Nikankyaku (EX Slide)",
                     "Cancelable into V-Trigger 2 on whiff as well as hit and block",
                     "Causes poison effect on hit"
                 ],
@@ -980,7 +1097,7 @@
                 "moveMotion": "U",
                 "moveButton": "MP",
                 "chargeDirection": "D",
-                "i": 31
+                "i": 34
             },
             "HP Nishikyu": {
                 "moveName": "HP Nishikyu",
@@ -994,8 +1111,8 @@
                 "onBlock": -11,
                 "vtc2OnHit": 11,
                 "vtc2OnBlock": 7,
-                "damage": "20*20",
-                "stun": "50*50",
+                "damage": "20*20 (40)",
+                "stun": "50*50 (100)",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "su",
@@ -1008,7 +1125,7 @@
                     "Takes 35 frames to charge",
                     "Projectile is onscreen for 60 frames",
                     "Puts opponent in juggle state when hitting them airborne",
-                    "Frames 40-42 cancel into EX Nikankyaku (EX Teleport)",
+                    "Frames 40-42 cancel into EX Nikankyaku (EX Slide)",
                     "Cancelable into V-Trigger 2 on whiff as well as hit and block",
                     "Causes poison effect on hit"
                 ],
@@ -1016,7 +1133,7 @@
                 "moveMotion": "U",
                 "moveButton": "HP",
                 "chargeDirection": "D",
-                "i": 32
+                "i": 35
             },
             "EX Nishikyu": {
                 "moveName": "EX Nishikyu",
@@ -1030,8 +1147,8 @@
                 "onBlock": -1,
                 "vtc2OnHit": 12,
                 "vtc2OnBlock": 8,
-                "damage": "45*45",
-                "stun": "50*50",
+                "damage": "45*45 (90)",
+                "stun": "50*50 (100)",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt2"
@@ -1051,7 +1168,7 @@
                 "moveMotion": "U",
                 "moveButton": "2P",
                 "chargeDirection": "D",
-                "i": 33
+                "i": 36
             },
             "LP Sotoja": {
                 "moveName": "LP Sotoja",
@@ -1066,8 +1183,8 @@
                 "onBlock": -11,
                 "vtc2OnHit": 7,
                 "vtc2OnBlock": 1,
-                "damage": "40*30",
-                "stun": "100*100",
+                "damage": "40*30 (70)",
+                "stun": "100*100 (200)",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "su",
@@ -1077,15 +1194,18 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "2-hit projectile hitbox",
                     "Extended arms projectile invincible from frames 15-35",
-                    "Causes poison effect on hit"
+                    "Causes poison effect on hit",
+                    "Juggle Limit / Increase / Start: 4*4 / 1*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 34
+                "movesList": "Special",
+                "i": 37
             },
             "MP Sotoja": {
                 "moveName": "MP Sotoja",
@@ -1100,8 +1220,8 @@
                 "onBlock": -9,
                 "vtc2OnHit": "KD (+102/43/48)*10",
                 "vtc2OnBlock": 2,
-                "damage": "40*40",
-                "stun": "100*100",
+                "damage": "40*40 (80)",
+                "stun": "100*100 (200)",
                 "kd": 92,
                 "kdr": 33,
                 "kdrb": 38,
@@ -1114,15 +1234,17 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "2-hit projectile hitbox",
                     "Extended arms projectile invincible from frames 19-39",
-                    "Causes poison effect on hit"
+                    "Causes poison effect on hit",
+                    "Juggle Limit / Increase / Start: 4*4 / 1*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 35
+                "i": 38
             },
             "HP Sotoja": {
                 "moveName": "HP Sotoja",
@@ -1137,8 +1259,8 @@
                 "onBlock": -10,
                 "vtc2OnHit": "KD (+102/43/48)*10",
                 "vtc2OnBlock": 2,
-                "damage": "50*50",
-                "stun": "100*100",
+                "damage": "50*50 (100)",
+                "stun": "100*100 (200)",
                 "kd": 91,
                 "kdr": 32,
                 "kdrb": 37,
@@ -1151,15 +1273,17 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "2-hit projectile hitbox",
                     "Extended arms projectile invincible from frames 21-40",
-                    "Causes poison effect on hit"
+                    "Causes poison effect on hit",
+                    "Juggle Limit / Increase / Start: 4*4 / 1*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 36
+                "i": 39
             },
             "EX Sotoja": {
                 "moveName": "EX Sotoja",
@@ -1174,8 +1298,8 @@
                 "onBlock": -2,
                 "vtc2OnHit": "KD (+101/42/47)*10",
                 "vtc2OnBlock": 4,
-                "damage": "50*50",
-                "stun": "100*100",
+                "damage": "50*50 (100)",
+                "stun": "100*100 (200)",
                 "kd": 95,
                 "kdr": 36,
                 "kdrb": 41,
@@ -1187,15 +1311,17 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Takes 40 frames to charge",
                     "2-hit projectile hitbox",
                     "Extended arms projectile invincible from frames 14-32",
-                    "Causes poison effect on hit"
+                    "Causes poison effect on hit",
+                    "Juggle Limit / Increase / Start: 6*7 / 1*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 37
+                "i": 40
             },
             "LK Ryobenda": {
                 "moveName": "LK Ryobenda",
@@ -1210,8 +1336,8 @@
                 "onBlock": -9,
                 "vtc2OnHit": "KD (+112/53/58)",
                 "vtc2OnBlock": 12,
-                "damage": "30*30",
-                "stun": "100*100",
+                "damage": "30*30 (60)",
+                "stun": "100*100 (200)",
                 "kd": 91,
                 "kdr": 32,
                 "kdrb": 37,
@@ -1224,17 +1350,19 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Requires 40 frames of charge",
+                    "Takes 40 frames to charge",
                     "Airborne on frames 22-36",
                     "Cancelable into V-Trigger 2 on whiff as well as hit and block",
                     "Strike and projectile hitboxes that nullify 2 hits of projectiles overall",
-                    "Causes poison effect on hit"
+                    "Causes poison effect on hit",
+                    "Juggle Limit / Increase / Start: 0*2 / 1*1 / 1*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "LK",
                 "chargeDirection": "B",
-                "i": 38
+                "movesList": "Special",
+                "i": 41
             },
             "MK Ryobenda": {
                 "moveName": "MK Ryobenda",
@@ -1259,7 +1387,7 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Requires 40 frames of charge",
+                    "Takes 40 frames to charge",
                     "Spawns MK Trap which is a 1-hit projectile hitbox that lasts for 80 frames",
                     "Fang extended hands are projectile invincible during frames 17-23"
                 ],
@@ -1267,7 +1395,7 @@
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 39
+                "i": 42
             },
             "MK Ryobenda Trap": {
                 "moveName": "MK Ryobenda Trap",
@@ -1286,16 +1414,18 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Trap is left behind if Ryobenda doesn't hit initially",
+                    "Trap is left behind if Ryobenda does not hit initially",
                     "MK Trap is a 1-hit projectile hitbox that lasts for 80 frames",
                     "Frame Advantage shown is the hitstun / blockstun of the trap when it connects",
-                    "Causes poison effect on hit"
+                    "Juggle Limit / Increase / Start: 0 / 1 / 1",
+                    "Causes poison effect on hit",
+                    "Trap does not persist if F.A.N.G is successfully hit with an attack"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 40
+                "i": 43
             },
             "HK Ryobenda": {
                 "moveName": "HK Ryobenda",
@@ -1320,7 +1450,7 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Requires 40 frames of charge",
+                    "Takes 40 frames to charge",
                     "Spawns HK Trap which is a 1-hit projectile hitbox that lasts for 120 frames",
                     "Fang extended hands are projectile invincible during frames 21-27"
                 ],
@@ -1328,7 +1458,7 @@
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 41
+                "i": 44
             },
             "HK Ryobenda Trap": {
                 "moveName": "HK Ryobenda Trap",
@@ -1350,13 +1480,15 @@
                     "Trap is left behind if Ryobenda doesn't hit initially",
                     "HK Trap is a 1-hit projectile hitbox that lasts for 120 frames",
                     "Frame Advantage shown is the hitstun / blockstun of the trap when it connects",
-                    "Causes poison effect on hit"
+                    "Juggle Limit / Increase / Start: 0 / 1 / 1",
+                    "Causes poison effect on hit",
+                    "Trap does not persist if F.A.N.G is successfully hit with an attack"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 42
+                "i": 45
             },
             "EX Ryobenda": {
                 "moveName": "EX Ryobenda",
@@ -1371,8 +1503,8 @@
                 "onBlock": 2,
                 "vtc2OnHit": "KD (+111/52/57)",
                 "vtc2OnBlock": 15,
-                "damage": "30*30",
-                "stun": "100*100",
+                "damage": "30*30 (60)",
+                "stun": "100*100 (200)",
                 "kd": 84,
                 "kdr": 24,
                 "kdrb": 79,
@@ -1384,7 +1516,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Requires 40 frames of charge",
+                    "Takes 40 frames to charge",
                     "Initial 2 hits count as strike (but also nullifies 2 hits of projectiles)",
                     "Leaves behind an EX Trap that is a 2-hit projectile hitbox and lasts for 220 frames",
                     "Frames 25-39 airborne",
@@ -1396,7 +1528,7 @@
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 43
+                "i": 46
             },
             "EX Ryobenda Trap": {
                 "moveName": "EX Ryobenda Trap",
@@ -1408,8 +1540,8 @@
                 "recovery": 30,
                 "onHit": 27,
                 "onBlock": 24,
-                "damage": "20*20",
-                "stun": "22*22",
+                "damage": "20*20 (40)",
+                "stun": "22*22 (44)",
                 "attackLevel": "H*H",
                 "airmove": false,
                 "followUp": false,
@@ -1418,13 +1550,16 @@
                     "Trap is left behind if Ryobenda doesn't hit initially",
                     "EX Trap is a 2-hit projectile hitbox that lasts for 220 frames",
                     "Frame Advantage shown is the hitstun / blockstun of the trap when it connects",
-                    "Causes poison effect on hit"
+                    "Juggle Limit / Increase / Start: 2*3 / 1*1 / 3*3",
+                    "JuggleStart 1*1 on airborne opponents",
+                    "Causes poison effect on hit",
+                    "Trap does not persist if F.A.N.G is successfully hit with an attack"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 44
+                "i": 47
             },
             "Nikyoushu": {
                 "moveName": "Nikyoushu",
@@ -1443,13 +1578,15 @@
                     "No height restriction on jump ascent but slight height restriction right before landing from jump",
                     "Can be performed from any jump direction",
                     "Can be performed after EX Ryobenda",
-                    "If no attack is performed in the air at all, F.A.N.G. will land with 9F landing recovery"
+                    "If no attack is performed in the air at all, F.A.N.G. will land with 9F landing recovery",
+                    "Puts F.A.N.G into a free juggle state if hit by a medium / heavy / command normal"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "3P",
                 "nonHittingMove": true,
-                "i": 45
+                "movesList": "Special",
+                "i": 48
             },
             "LK Nikankyaku": {
                 "moveName": "LK Nikankyaku",
@@ -1470,7 +1607,8 @@
                 "moveMotion": "DP",
                 "moveButton": "LK",
                 "nonHittingMove": true,
-                "i": 46
+                "movesList": "Special",
+                "i": 49
             },
             "MK Nikankyaku": {
                 "moveName": "MK Nikankyaku",
@@ -1491,7 +1629,7 @@
                 "moveMotion": "DP",
                 "moveButton": "MK",
                 "nonHittingMove": true,
-                "i": 47
+                "i": 50
             },
             "HK Nikankyaku": {
                 "moveName": "HK Nikankyaku",
@@ -1512,7 +1650,7 @@
                 "moveMotion": "DP",
                 "moveButton": "HK",
                 "nonHittingMove": true,
-                "i": 48
+                "i": 51
             },
             "EX Nikankyaku": {
                 "moveName": "EX Nikankyaku",
@@ -1533,7 +1671,7 @@
                 "moveMotion": "DP",
                 "moveButton": "2K",
                 "nonHittingMove": true,
-                "i": 49
+                "i": 52
             },
             "Shishiruirui": {
                 "moveName": "Shishiruirui",
@@ -1544,7 +1682,7 @@
                 "active": 7,
                 "recovery": "49+21",
                 "onHit": "KD",
-                "damage": 292,
+                "damage": 301.5,
                 "stun": 0,
                 "kd": 96,
                 "kdr": 27,
@@ -1556,13 +1694,18 @@
                 "extraInfo": [
                     "Airborne on frame 1",
                     "Completely invincible on frames 1-18",
+                    "Cannot hit cross-up (behind Fang)",
+                    "CA does 301.50 damage instead of 292 (damage displayed in game) due to first poison ball hit ticking down damage before CA finishes",
+                    "Causes poison effect on hit",
                     "Inspired by Nelly Furtado"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 50
-            }
+                "movesList": "Super",
+                "i": 53
+            },
+            "input": "None"
         },
         "vtOne": {
             "Nishodoku": {
@@ -1573,17 +1716,17 @@
                 "startup": 22,
                 "recovery": 23,
                 "total": 45,
-                "onHit": 2,
-                "onBlock": -2,
-                "damage": "30+50",
-                "stun": 50,
+                "onHit": 4,
+                "onBlock": 0,
+                "damage": "30*30 (60)",
+                "stun": "50*50 (100)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
                     "Projectile hitbox",
-                    "Becomes a special attack instead of a v-skill attack for purposes of canceling",
+                    "Becomes a special attack instead of a V-Skill attack for purposes of canceling",
                     "Does an initial damage of 30 and then 50 extra poison damage over 8 seconds (~6 damage per second)",
                     "The poison damage does not stop when F.A.N.G. gets hit",
                     "Can exist on the screen at the same time as F.A.N.G.'s Nishikyu (Poison Balls) even though both are projectiles",
@@ -1592,12 +1735,12 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 23
+                "i": 24
             },
-            "Sodokubu (Counter)": {
-                "moveName": "Sodokubu (Counter)",
-                "plnCmd": "MP+MK (VS1)",
-                "numCmd": "MP+MK (VS1)",
+            "Sodokubu (Attack)": {
+                "moveName": "Sodokubu (Attack)",
+                "plnCmd": "MP+MK (VS2) (Attack)",
+                "numCmd": "MPMK (VS2) (Attack)",
                 "cmnName": "V-Skill 2 Counter Attack",
                 "startup": 3,
                 "active": "2(5)2(9)2(7)2",
@@ -1619,14 +1762,15 @@
                     "If first hit whiffs then FANG is vulnerable for the rest of the animation",
                     "Slightly lower KDA if any hits whiff; 3 hit is 63/4/9, 2 hit is 61/2/7",
                     "In the incredibly rare instance where Parry is blocked, it is -42 on block",
-                    "Increased damage and stun in V-Trigger 1 (80 / 150)",
+                    "Increased damage and stun in V-Trigger 1 (80/150)",
                     "Causes poison effect on hit"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 25
-            }
+                "i": 26
+            },
+            "input": "None"
         },
         "vtTwo": {
             "LP Nishikyu": {
@@ -1652,14 +1796,14 @@
                     "2 seperate poison balls each with 2 projectile hitboxes",
                     "Takes 35 frames to charge",
                     "Puts airborne opponents into a limited juggle state",
-                    "Frames 40-42 cancel into any Nikankyaku (Teleport)",
+                    "Frames 40-42 cancel into any Nikankyaku (Slide)",
                     "If the poison balls come into contact with the ground they emit a 20 frame active projectile explosion in a moderately sized radius around them"
                 ],
                 "moveType": "special",
                 "moveMotion": "U",
                 "moveButton": "LP",
                 "chargeDirection": "D",
-                "i": 30
+                "i": 33
             },
             "MP Nishikyu": {
                 "moveName": "MP Nishikyu",
@@ -1684,14 +1828,14 @@
                     "2 seperate poison balls each with 2 projectile hitboxes",
                     "Takes 35 frames to charge",
                     "Puts airborne opponents into a limited juggle state",
-                    "Frames 40-42 cancel into any Nikankyaku (Teleport)",
+                    "Frames 40-42 cancel into any Nikankyaku (Slide)",
                     "If the poison balls come into contact with the ground they emit a 20 frame active projectile explosion in a moderately sized radius around them"
                 ],
                 "moveType": "special",
                 "moveMotion": "U",
                 "moveButton": "MP",
                 "chargeDirection": "D",
-                "i": 31
+                "i": 34
             },
             "HP Nishikyu": {
                 "moveName": "HP Nishikyu",
@@ -1716,14 +1860,14 @@
                     "2 seperate poison balls each with 2 projectile hitboxes",
                     "Takes 35 frames to charge",
                     "Puts airborne opponents into a limited juggle state",
-                    "Frames 40-42 cancel into any Nikankyaku (Teleport)",
+                    "Frames 40-42 cancel into any Nikankyaku (Slide)",
                     "If the poison balls come into contact with the ground they emit a 20 frame active projectile explosion in a moderately sized radius around them"
                 ],
                 "moveType": "special",
                 "moveMotion": "U",
                 "moveButton": "HP",
                 "chargeDirection": "D",
-                "i": 32
+                "i": 35
             },
             "EX Nishikyu": {
                 "moveName": "EX Nishikyu",
@@ -1748,14 +1892,14 @@
                     "2 seperate poison balls each with 2 projectile hitboxes",
                     "Takes 35 frames to charge",
                     "Puts opponent in juggle state when hitting them airborne",
-                    "Frames 40-42 cancel into any Nikankyaku (Teleport)",
+                    "Frames 40-42 cancel into any Nikankyaku (Slide)",
                     "At the end of their duration the poison balls emit a 20 frame active projectile explosion in a moderately sized radius around them that launches the opponent into a free juggle state on hit"
                 ],
                 "moveType": "special",
                 "moveMotion": "U",
                 "moveButton": "2P",
                 "chargeDirection": "D",
-                "i": 33
+                "i": 36
             },
             "LK Ryobenda": {
                 "moveName": "LK Ryobenda",
@@ -1781,16 +1925,17 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Requires 40 frames of charge",
+                    "Takes 40 frames to charge",
                     "Frames 22-36 airborne",
                     "Strike and projectile hitbox that nullifies 1 hit of projectiles",
+                    "Juggle Limit / Increase / Start: 0*2 / 1*1 / 3*3",
                     "Initial 2 hits also spawn at at the same time a modarately sized explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "LK",
                 "chargeDirection": "B",
-                "i": 38
+                "i": 41
             },
             "MK Ryobenda": {
                 "moveName": "MK Ryobenda",
@@ -1815,15 +1960,15 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Requires 40 frames of charge",
-                    "Does an initial projectile hit which launches opponent into a limited juggle state while also spawning a trap which is a 1-hit projectile hitbox (but it absorbs 2 hits of projectiles) that lasts for 80 frames and then emits a modarately sized explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent",
-                    "Fang extended hands are projectile invincible during frames 17-23"
+                    "Takes 40 frames to charge",
+                    "Does an initial projectile hit which launches opponent into a limited juggle state (Juggle Limit / Increase / Start: 0 / 1 / 1) while also spawning a trap which is a 1-hit projectile hitbox (but it absorbs 2 hits of projectiles) that lasts for 80 frames and then emits a modarately sized explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent",
+                    "Fang's extended hands are projectile invincible during frames 17-23"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 39
+                "i": 42
             },
             "MK Ryobenda Trap": {
                 "moveName": "MK Ryobenda Trap",
@@ -1842,13 +1987,14 @@
                 "projectile": true,
                 "extraInfo": [
                     "Trap is left behind if Ryobenda doesn't hit initially",
-                    "MK Trap is a 1-hit projectile hitbox (but it absorbs 2 hits of projectiles) that lasts for 80 frames and then combusts in a modarately sized projectile explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent"
+                    "MK Trap is a 1-hit projectile hitbox (but it absorbs 2 hits of projectiles) that lasts for 80 frames and then combusts in a modarately sized projectile explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent",
+                    "Trap does not persist if F.A.N.G is successfully hit with an attack"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 40
+                "i": 43
             },
             "HK Ryobenda": {
                 "moveName": "HK Ryobenda",
@@ -1873,15 +2019,15 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Requires 40 frames of charge",
-                    "Does an initial projectile hit which launches opponent into a limited juggle state while also spawning a trap which is a 1-hit projectile hitbox (but it absorbs 2 hits of projectiles) that lasts for 120 frames and then combusts in a modarately sized projectile explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent",
+                    "Takes 40 frames to charge",
+                    "Does an initial projectile hit which launches opponent into a limited juggle state (Juggle Limit / Increase / Start: 0 / 1 / 1) while also spawning a trap which is a 1-hit projectile hitbox (but it absorbs 2 hits of projectiles) that lasts for 120 frames and then combusts in a modarately sized projectile explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent",
                     "Fang extended hands are projectile invincible during frames 21-27"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 41
+                "i": 44
             },
             "HK Ryobenda Trap": {
                 "moveName": "HK Ryobenda Trap",
@@ -1900,13 +2046,14 @@
                 "projectile": true,
                 "extraInfo": [
                     "Trap is left behind if Ryobenda doesn't hit initially",
-                    "MK Trap is a 1-hit projectile hitbox (but it absorbs 2 hits of projectiles) that lasts for 120 frames and then combusts in a modarately sized projectile explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent"
+                    "MK Trap is a 1-hit projectile hitbox (but it absorbs 2 hits of projectiles) that lasts for 120 frames and then combusts in a modarately sized projectile explosion (active for 20 frames) that launches opponents into a free juggle state if only this part hits the opponent",
+                    "Trap does not persist if F.A.N.G is successfully hit with an attack"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 42
+                "i": 45
             },
             "EX Ryobenda": {
                 "moveName": "EX Ryobenda",
@@ -1929,9 +2076,11 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Requires 40 frames of charge",
+                    "Takes 40 frames to charge",
                     "Initial 2 hits count as strike (but also nullifies 2 hits of projectiles)",
                     "Leaves behind an EX Trap that is a 2-hit projectile hitbox and lasts for 220 frames and then combusts in a modarately sized projectile explosion (active for 20 frames) that launches opponents into a limited juggle state if only this part hits the opponent",
+                    "Juggle Limit / Increase / Start: 2*3 / 1*1 / 3*3",
+                    "JuggleStart 1*1 on airborne opponents",
                     "Frames 25-39 airborne",
                     "Fang extended hands are projectile invincible during frames 15-21"
                 ],
@@ -1939,7 +2088,7 @@
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 43
+                "i": 46
             },
             "EX Ryobenda Trap": {
                 "moveName": "EX Ryobenda Trap",
@@ -1958,14 +2107,16 @@
                 "projectile": true,
                 "extraInfo": [
                     "Trap is left behind if Ryobenda doesn't hit initially",
-                    "EX Trap is a 2-hit projectile hitbox that lasts for 220 frames and then combusts in a moderately sized projectile explosion (active for 20 frames) that launches opponents into a limited juggle state if only this part hits the opponent"
+                    "EX Trap is a 2-hit projectile hitbox that lasts for 220 frames and then combusts in a moderately sized projectile explosion (active for 20 frames) that launches opponents into a limited juggle state if only this part hits the opponent",
+                    "Trap does not persist if F.A.N.G is successfully hit with an attack"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 44
-            }
+                "i": 47
+            },
+            "input": "None"
         }
     },
     "stats": {

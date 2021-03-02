@@ -30,7 +30,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Not a true blockstring when canceled into V-Trigger 1",
-                    "Chains into any of the other light normals"
+                    "Chains into any of the other light normals",
+                    "When canceling stand LP into Flicker (Hands) the Flicker reaches quite a bit further than normal (Infiltration tech)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -45,14 +46,15 @@
                 "active": 3,
                 "recovery": 16,
                 "total": 24,
-                "onHit": 9,
+                "onHit": 10,
                 "onBlock": 3,
-                "vtc1GapOnHit": -1,
+                "vtc1GapOnHit": 0,
                 "vtc1GapOnBlock": -7,
-                "vtc2OnHit": 15,
+                "vtc2OnHit": 16,
                 "vtc2OnBlock": 9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -61,6 +63,10 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Very plus on hit",
+                    "Main combo starter"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
@@ -70,10 +76,10 @@
                 "moveName": "Stand HP",
                 "plnCmd": "HP",
                 "numCmd": "5HP",
-                "startup": 11,
+                "startup": "11(10)",
                 "active": 3,
                 "recovery": 21,
-                "total": 34,
+                "total": "34(33)",
                 "onHit": 2,
                 "onBlock": -2,
                 "vtc1GapOnHit": -3,
@@ -82,14 +88,15 @@
                 "vtc2OnBlock": 9,
                 "damage": 90,
                 "stun": 150,
-                "kd": 93,
-                "kdr": 34,
-                "kdrb": 39,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*17",
+                "hcWinVt": 19,
+                "hcWinNotes": "*CA only",
+                "kd": 96,
+                "kdr": 37,
+                "kdrb": 42,
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -100,7 +107,10 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can be held to initiate Psycho Knuckle, or released early into the st.HP (release) version instead"
+                    "Can be held to initiate the Psycho Knuckle or release it early into the stand HP (release) version instead",
+                    "Crush Counters into a free juggle state (see knockdown advantage)",
+                    "Can be executed in only 10F start-up if you hold the stand HP for exactly 6F and release it on that frame of start-up (Not sure if this is intentional or not)",
+                    "If you hold the stand HP and release on the 4th frame of start-up it will result in being 12F instead of 11F (Thanks Capcom!)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -111,10 +121,10 @@
                 "moveName": "Stand HP (release)",
                 "plnCmd": "HP (release)",
                 "numCmd": "5HP (release)",
-                "startup": 8,
+                "startup": "8(4)",
                 "active": 3,
                 "recovery": 21,
-                "total": 34,
+                "total": "31(27)",
                 "onHit": 2,
                 "onBlock": -2,
                 "vtc1GapOnHit": -3,
@@ -123,14 +133,15 @@
                 "vtc2OnBlock": 9,
                 "damage": 90,
                 "stun": 150,
-                "kd": 93,
-                "kdr": 34,
-                "kdrb": 39,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "hcWinSpCa": "*17",
+                "hcWinVt": 19,
+                "hcWinNotes": "*CA only",
+                "kd": 96,
+                "kdr": 37,
+                "kdrb": 42,
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -142,7 +153,10 @@
                 "projectile": false,
                 "extraInfo": [
                     "This move refers to the half-charged version of the Psycho Knuckle",
-                    "Ed's st.HP releases in 8 frames if held for at least 3 frames of startup"
+                    "Start-up varies depending on which frame Ed releases the button during the start-up of stand HP",
+                    "Releases in 8 frames if held for 0-4 frames during start-up (0 meaning you buffered into the stand HP)",
+                    "Releases in 6 frames if held for exactly 5 frames during start-up",
+                    "Releases in 4 frames (fastest possible) if held for exactly 6 frames during start-up"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -199,6 +213,7 @@
                 "vtc2OnBlock": 10,
                 "damage": 70,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -219,10 +234,10 @@
                 "moveName": "Stand HK",
                 "plnCmd": "HK",
                 "numCmd": "5HK",
-                "startup": 15,
+                "startup": 14,
                 "active": 4,
                 "recovery": "5+17",
-                "total": 40,
+                "total": 39,
                 "onHit": 2,
                 "onBlock": -4,
                 "vtc1GapOnHit": -4,
@@ -231,11 +246,10 @@
                 "vtc2OnBlock": 3,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 20,
-                    "vG": "+120"
-                },
+                "hcWinVt": 22,
+                "ccState": "Stagger",
+                "ccAdv": 20,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -305,6 +319,8 @@
                 "vtc2OnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -336,14 +352,14 @@
                 "vtc2OnBlock": 12,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "kd": 123,
                 "kdr": 64,
                 "kdrb": 69,
-                "crushAdv": {
-                    "state": "Flipping Juggle",
-                    "ccAdv": "J",
-                    "vG": "+120"
-                },
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -414,6 +430,8 @@
                 "vtc2OnBlock": 4,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 14,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -448,14 +466,13 @@
                 "vtc2OnBlock": 9,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 19,
                 "kd": 68,
                 "kdr": 19,
                 "kdrb": 24,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -592,9 +609,9 @@
                 "onHit": "KD",
                 "damage": 130,
                 "stun": 150,
-                "kd": 64,
-                "kdr": 15,
-                "kdrb": 15,
+                "kd": 63,
+                "kdr": 14,
+                "kdrb": 14,
                 "attackLevel": "T",
                 "airmove": false,
                 "followUp": false,
@@ -602,6 +619,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 20
             },
             "Cheat & Smash": {
@@ -626,6 +644,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 21
             },
             "Psycho Snatcher (Ground)": {
@@ -660,6 +679,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 22
             },
             "Psycho Snatcher (Ground) (hold)": {
@@ -694,6 +714,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 23
             },
             "Psycho Snatcher (Air)": {
@@ -724,6 +745,7 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 24
             },
             "Psycho Snatcher (Air) (hold)": {
@@ -755,6 +777,7 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 25
             },
             "Psycho Swing": {
@@ -791,6 +814,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 26
             },
             "Psycho Swing (hold)": {
@@ -826,6 +850,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 27
             },
             "Psycho Smash": {
@@ -861,6 +886,7 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 28
             },
             "Psycho Smash (hold)": {
@@ -894,6 +920,7 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 29
             },
             "Psycho Cannon": {
@@ -906,8 +933,8 @@
                 "total": "25(21)",
                 "onHit": "KD",
                 "onBlock": "~48",
-                "damage": "20x4*40 (120)",
-                "stun": "30x5 (150)",
+                "damage": "20x7 (140)",
+                "stun": "25x7 (175)",
                 "kd": 161,
                 "kdr": 102,
                 "kdrb": 107,
@@ -917,16 +944,18 @@
                 "projectile": true,
                 "extraInfo": [
                     "2 bar V-Trigger",
-                    "5-hit Projectile Hitbox",
-                    "4th hit launches opponent into a free juggle state",
-                    "5th hit launches opponent into a limited juggle state",
+                    "7-hit Projectile Hitbox",
+                    "6th hit launches opponent into a free juggle state",
+                    "7th hit launches opponent into a limited juggle state",
                     "Can OTG after Air V-Skill (hold)",
                     "Fast version (hold forward) has 12f startup",
-                    "Ghetto Decapre"
+                    "Ghetto Decapre",
+                    "Jugle Limit / Increase / Start: 15 / 0x6*1 / 0x6*1"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 30
             },
             "Enhanced Snatcher": {
@@ -950,6 +979,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 31
             },
             "Kill Step": {
@@ -969,7 +999,66 @@
                 "moveMotion": "F",
                 "moveButton": "3K",
                 "nonHittingMove": true,
+                "movesList": "V-Reversal",
                 "i": 32
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 0.97 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 33
+            },
+            "Psycho Split": {
+                "moveName": "Psycho Split",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 34
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -988,7 +1077,7 @@
                 "moveMotion": "N",
                 "moveButton": "3P3K",
                 "nonHittingMove": true,
-                "i": 33
+                "i": 35
             },
             "Psycho Knuckle": {
                 "moveName": "Psycho Knuckle",
@@ -999,8 +1088,10 @@
                 "active": 12,
                 "recovery": 27,
                 "total": 68,
-                "onHit": "KD",
+                "onHit": "KD (7)",
                 "onBlock": -2,
+                "vtc2OnHit": "KD (+101/69/69)",
+                "vtc2OnBlock": 14,
                 "damage": 100,
                 "stun": 150,
                 "kd": 85,
@@ -1013,16 +1104,19 @@
                 "extraInfo": [
                     "On hit; puts the opponent into a crumpled state",
                     "Switches side with the opponent upon connection (doesn't switch sides on BLOCK if opponent is cornered)",
+                    "On Hit data in the parantheses (7) refers to the fact that Ed can follow-up with a grounded combo (7 frame or faster) on the opponent before they go into an airborne state during the crumple animation",
+                    "Has fixed framedata on hit/block (but mind that Ed's frame advantage on crumple is less if Psycho Knuckle hits late or from far away)",
                     "Recovery framedata listed here is on whiff (they change if the move connects on hit or block)",
-                    "Has fixed framedata on hit/block (but Ed's frame advantage on crumple is less if Psycho Knuckle hits late or from far away)",
                     "Cancelable to V-Trigger 2 activation on hit or block",
-                    "Special cancelable into V-Trigger 2 post-activation on hit or block"
+                    "Special cancelable into V-Trigger 2 post-activation on hit or block",
+                    "Juggle Limit / Increase / Start: 5 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HP",
                 "chargeDirection": "R",
-                "i": 34
+                "movesList": "Special",
+                "i": 36
             },
             "Psycho Spark": {
                 "moveName": "Psycho Spark",
@@ -1037,6 +1131,8 @@
                 "onBlock": -2,
                 "damage": 50,
                 "stun": 80,
+                "hcWinSpCa": "*15/**19/***25",
+                "hcWinNotes": "*CA only, **VT2 Snatchers, ***Fireball only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1050,12 +1146,14 @@
                     "Projectile Invincible on his outward head, leg, and arm on frames 1~30",
                     "1-Hit Projectile hitbox",
                     "Can OTG after Air V-Skill (hold)",
-                    "Special cancelable into V-Trigger 2 post-activation on hit or block"
+                    "Special cancelable into V-Trigger 2 post-activation on hit or block",
+                    "Juggle Limit / Increase / Start: 0 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "MP",
-                "i": 35
+                "movesList": "Special",
+                "i": 37
             },
             "Psycho Shot": {
                 "moveName": "Psycho Shot",
@@ -1080,12 +1178,14 @@
                     "1-hit projectile",
                     "Can be spaced out during combos to hit meaty for good combo potential",
                     "Projectile Invincible on outstretched hand during animation",
-                    "Special cancelable into V-Trigger 2 post-activation on hit / block / whiff"
+                    "Special cancelable into V-Trigger 2 post-activation on hit / block / whiff",
+                    "Juggle Limit / Increase / Start: 2 / 4 / 3"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "EX Psycho Shot": {
                 "moveName": "EX Psycho Shot",
@@ -1115,14 +1215,15 @@
                     "2-hit projectile",
                     "Projectile Invincible on outstretched hand during animation",
                     "KDA shown is when doing EX Psycho Shot after connecting f+MP",
-                    "KDA varies depending on distance from opponent",
+                    "KDA varies depending on distance from opponent (increased KDA the further away it hits)",
                     "Cancelable to V-Trigger 2 activation on hit or block",
-                    "Special cancelable into V-Trigger 2 post-activation on hit / block / whiff"
+                    "Special cancelable into V-Trigger 2 post-activation on hit / block / whiff",
+                    "Juggle Limit / Increase / Start: 2*2 / 1*1 / 0*4"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2P",
-                "i": 37
+                "i": 39
             },
             "Psycho Upper": {
                 "moveName": "Psycho Upper",
@@ -1135,6 +1236,8 @@
                 "total": 53,
                 "onHit": "KD",
                 "onBlock": -16,
+                "vtc2OnHit": "KD (+124/55/60)",
+                "vtc2OnBlock": 12,
                 "damage": 120,
                 "stun": 150,
                 "kd": 86,
@@ -1142,22 +1245,24 @@
                 "kdrb": 32,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Moves hurtbox slightly during initial startup frames",
                     "Crouch sized hurtbox (but not crouching state) on frames 1-12",
                     "Can OTG after air V-Skill (hold)",
+                    "Cancelable into V-Trigger 2 activation on Hit or Block",
                     "Special cancelable into V-Trigger 2 post-activation on hit or block",
-                    "Juggle Limit / Increase / Start: 4 / 1 / 10"
+                    "Juggle Limit / Increase / Start: 4 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2P",
-                "i": 38
+                "movesList": "Special",
+                "i": 40
             },
             "EX Psycho Upper": {
                 "moveName": "EX Psycho Upper",
@@ -1184,12 +1289,13 @@
                     "Can OTG after air V-Skill (hold)",
                     "Special cancelable into V-Trigger 2 post-activation on hit or block",
                     "Startup reduced to 13f if cancelled from a normal attack",
-                    "Ed is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
+                    "Ed is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Juggle Limit / Increase / Start: 8*9 / 1*20 / 1*99"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "3P",
-                "i": 39
+                "i": 41
             },
             "Psycho Flicker": {
                 "moveName": "Psycho Flicker",
@@ -1202,6 +1308,8 @@
                 "total": 49,
                 "onHit": 3,
                 "onBlock": -2,
+                "vtc2OnHit": 11,
+                "vtc2OnBlock": 7,
                 "damage": "20*20*40 (80)",
                 "stun": "50*50*50 (150)",
                 "attackLevel": "H",
@@ -1214,13 +1322,16 @@
                 "projectile": false,
                 "extraInfo": [
                     "Can OTG after Air V-Skill (hold)",
-                    "Special cancelable into V-Trigger 2 post-activation on hit or block",
-                    "Machinegun Bl-... Nevermind"
+                    "Special cancelable into V-Trigger 2 and its special attacks (but can only cancel into V-Trigger 2 activation on the 2nd hit)",
+                    "Reaches further if canceled into (and even further if canceled into from stand LP specifically)",
+                    "Juggle Limit / Increase / Start: 7*8*9 / 1*1*10 / 1*1*1",
+                    "Machinegun Blo-... Nevermind"
                 ],
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "Psycho Rising": {
                 "moveName": "Psycho Rising",
@@ -1246,14 +1357,18 @@
                     "Projectile invincible on frames 3-9",
                     "Fully invincible on frames 10-14",
                     "Airborne on frames 13-51",
-                    "Counter-hit state during move duration",
+                    "Counter-hit state during the entire move duration",
                     "Can cancel into Psycho Splash on HIT on frames 23-41",
-                    "Can OTG after Air V-Skill (hold)"
+                    "Can OTG after Air V-Skill (hold)",
+                    "The horizontal hitbox reaches quite a bit further if canceled into",
+                    "Juggle Limit / Increase / Start against grounded opponents: 0*2 / 1*1 / 1*1",
+                    "Juggle Limit / Increase / Start against airborne opponents: 0*2 / 2*1 / 2*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2K",
-                "i": 41
+                "movesList": "Special",
+                "i": 43
             },
             "Psycho Splash": {
                 "moveName": "Psycho Splash",
@@ -1262,7 +1377,6 @@
                 "cmnName": "Dive",
                 "startup": "23+14",
                 "recovery": 26,
-                "total": "?",
                 "onHit": "KD",
                 "damage": "30*20*63 (113)",
                 "stun": "50*50*90 (190)",
@@ -1277,13 +1391,14 @@
                     "26 grounded recovery frames",
                     "Active until it lands on ground",
                     "KDA shown is when the Psycho Splash followup is done ASAP",
-                    "KDA varies greatly depending on timing / angle of Psycho Splash",
+                    "KDA varies greatly depending on timing / angle of Psycho Splash (lower KDA the more you delay the Superman dive follow-up)",
                     "Juggle Limit / Increase / Start: 3 / 20 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 42
+                "movesList": "Special",
+                "i": 44
             },
             "EX Psycho Splash": {
                 "moveName": "EX Psycho Splash",
@@ -1292,7 +1407,6 @@
                 "cmnName": "EX Dive",
                 "startup": "23+14",
                 "recovery": 13,
-                "total": "?",
                 "onHit": "KD",
                 "damage": "30*20*72 (122)",
                 "stun": "50*50*90 (190)",
@@ -1308,22 +1422,23 @@
                     "13 grounded recovery frames",
                     "Active until it lands on ground",
                     "KDA shown is when the Psycho Splash followup is done ASAP",
-                    "KDA varies greatly depending on timing / angle of EX Psycho Splash"
+                    "KDA varies greatly depending on timing / angle of EX Psycho Splash (lower KDA the more you delay the Superman dive follow-up)",
+                    "Juggle Limit / Increase / Start: 3 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2P",
-                "i": 43
+                "i": 45
             },
             "Psycho Barrage": {
                 "moveName": "Psycho Barrage",
                 "plnCmd": "qcf,qcf+P",
                 "numCmd": "236236P",
                 "cmnName": "Super",
-                "startup": 13,
+                "startup": "10(13)",
                 "active": "2(6)2(15)2(9)2(24)2(20)2(19)2",
                 "recovery": 49,
-                "total": 168,
+                "total": "165(168)",
                 "onHit": "KD",
                 "onBlock": -21,
                 "damage": 340,
@@ -1338,15 +1453,20 @@
                 "extraInfo": [
                     "Fully invincible on frames 1~22 (first 2 hits)",
                     "Fully invincible if any of the punches connect",
-                    "Juggles fully on airborne into the cutscene"
+                    "Juggles fully on airborne into the cutscene",
+                    "3F slower start-up (13F) when canceled from stand HP or specials"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 44
-            }
+                "movesList": "Super",
+                "i": 46
+            },
+            "input": "None"
         },
-        "vtOne": {},
+        "vtOne": {
+            "input": "None"
+        },
         "vtTwo": {
             "Ultra Snatcher - Ground": {
                 "moveName": "Ultra Snatcher - Ground",
@@ -1358,7 +1478,7 @@
                 "recovery": "44(56)",
                 "total": "70(86)",
                 "onHit": 6,
-                "onBlock": 3,
+                "onBlock": "3(GB)",
                 "damage": 80,
                 "stun": 100,
                 "attackLevel": "H",
@@ -1370,6 +1490,7 @@
                     "Nullifies 1 hit of projectiles but a secondary hitbox still travels forward but only deals 10 damage to the opponent and doesn't pull Ed towards them (but it has extensive hitstun and Ed can even dash up and still follow-up combo from it in some scenarios)",
                     "Projectile invincible on extended arms and legs on frames 26-36",
                     "If the V-Trigger connects on hit or block, Ed immediately becomes fully invincible and pulls himself towards the opponent with +6/+3 frame advantage",
+                    "Causes a guard break on block (+3 guard break advantage)",
                     "Cannot hit airborne opponents",
                     "Framedata in the parentheses refers to when canceling into this attack from other moves",
                     "Recovery frames refer to the version on whiff (cancels into another version of itself on hit or block)",
@@ -1378,6 +1499,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 31.01
             },
             "Ultra Snatcher - Air": {
@@ -1395,6 +1517,9 @@
                 "kd": "89(93)",
                 "kdr": "30(34)",
                 "kdrb": "35(39)",
+                "cancelsTo": [
+                    "su"
+                ],
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1406,13 +1531,16 @@
                     "Framedata in the parentheses refers to when canceling into this attack from other moves (Except for in the KDA section)",
                     "KDA varies depending on how high in the air the opponent is when it connects (the higher up they are the higher the KDA is)",
                     "Recovery frames refer to the version on whiff (cancels into another version of itself on hit)",
-                    "Spends 1300 V-Timer (~33% V-Timer)"
+                    "Spends 1300 V-Timer (~33% V-Timer)",
+                    "Juggle Limit / Increase / Start: 30 / 10 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 31.02
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

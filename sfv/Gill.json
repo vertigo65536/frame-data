@@ -11,8 +11,11 @@
                 "total": 15,
                 "onHit": 4,
                 "onBlock": 2,
+                "vtcOnHit": 9,
+                "vtcOnBlock": 7,
                 "damage": 30,
                 "stun": 70,
+                "hcWinTc": 12,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -41,8 +44,12 @@
                 "total": 22,
                 "onHit": 6,
                 "onBlock": 3,
+                "vtcOnHit": 15,
+                "vtcOnBlock": 12,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -78,6 +85,8 @@
                 "vtcOnBlock": 11,
                 "damage": 90,
                 "stun": 120,
+                "hcWinSpCa": 19,
+                "hcWinVt": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -111,6 +120,8 @@
                 "total": 14,
                 "onHit": 5,
                 "onBlock": 3,
+                "vtcOnHit": 9,
+                "vtcOnBlock": 7,
                 "damage": 30,
                 "stun": 70,
                 "attackLevel": "H",
@@ -141,8 +152,11 @@
                 "total": 27,
                 "onHit": 3,
                 "onBlock": -4,
+                "vtcOnHit": 15,
+                "vtcOnBlock": 8,
                 "damage": 70,
                 "stun": 100,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -175,6 +189,7 @@
                 "vtcOnBlock": 12,
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -238,10 +253,14 @@
                 "active": 2,
                 "recovery": 16,
                 "total": 23,
-                "onHit": 2,
+                "onHit": 4,
                 "onBlock": -2,
+                "vtcOnHit": 15,
+                "vtcOnBlock": 9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 13,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -271,8 +290,13 @@
                 "onHit": "KD",
                 "onBlock": -9,
                 "retribution": "KD (+110/51/56)",
+                "vtcOnHit": "KD (+121/62/67)",
+                "vtcOnBlock": 8,
                 "damage": "40*40",
                 "stun": "50*100",
+                "hcWinSpCa": "10/*19",
+                "hcWinVt": "10/*19",
+                "hcWinNotes": "*Only 2nd hit can cancel",
                 "kd": 104,
                 "kdr": 45,
                 "kdrb": 50,
@@ -289,7 +313,7 @@
                 "extraInfo": [
                     "Ice Element (Retribution effect only applies to 2nd hit)",
                     "Second hit launches into a limited juggle state",
-                    "Only second hit is cancelable",
+                    "Only second hit is cancelable and can hit crossup",
                     "Retribution effect on grounded: Free juggle state",
                     "Retribution effect on airborne: Juggle Start 1*0 (Free Juggle state if only 2nd hit connects) | Juggle Increase 1*1",
                     "Does 10 less damage (70) on 2nd hit if the 1st hit whiffs",
@@ -310,8 +334,11 @@
                 "total": 13,
                 "onHit": 3,
                 "onBlock": 0,
+                "vtcOnHit": 6,
+                "vtcOnBlock": 3,
                 "damage": 20,
                 "stun": 70,
+                "hcWinTc": 12,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -338,8 +365,12 @@
                 "total": 26,
                 "onHit": 2,
                 "onBlock": -2,
+                "vtcOnHit": 14,
+                "vtcOnBlock": 10,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 13,
+                "hcWinVt": 13,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -369,8 +400,12 @@
                 "onHit": "KD",
                 "onBlock": -13,
                 "retribution": "HKD (+62)",
+                "retributionVTC": "HKD (+83)",
+                "vtcOnHit": "KDA (+90/41/46)",
+                "vtcOnBlock": 8,
                 "damage": 90,
                 "stun": 120,
+                "hcWinVt": 17,
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
@@ -561,6 +596,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Pyro Quarrel Kick": {
@@ -570,8 +606,8 @@
                 "cmnName": "Step Kick",
                 "startup": 15,
                 "active": 4,
-                "recovery": "21(15)",
-                "total": "39(33)",
+                "recovery": "15(21)",
+                "total": "33(39)",
                 "onHit": 4,
                 "onBlock": -6,
                 "retribution": "KD (+107/48/53)",
@@ -580,6 +616,7 @@
                 "vtcOnBlock": 12,
                 "damage": 90,
                 "stun": 120,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -591,7 +628,8 @@
                 "extraInfo": [
                     "Fire Element",
                     "Good horizontal hitbox priority during active frames",
-                    "6 less recovery frames (15) on HIT only",
+                    "+6 extra recovery frames on whiff and block (21F)",
+                    "Canceling into Flame Javelin does not combo on most crouching opponents (works against Abigail, Birdie, Zangief)",
                     "Normal hit causes a limited juggle state on airborne opponents (Juggle Start: 6 | Juggle Increase: +7)",
                     "Retribution effect on grounded: Free juggle state",
                     "Retribution effect on airborne: Juggle Start 0 (Free Juggle) | Juggle Increase +7",
@@ -601,6 +639,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Cryo Rise Kick": {
@@ -612,14 +651,16 @@
                 "active": 4,
                 "recovery": 21,
                 "total": 33,
-                "onHit": 3,
+                "onHit": 5,
                 "onBlock": -7,
                 "retribution": "13/KD (~)",
                 "retributionVTC": 30,
-                "vtcOnHit": 20,
+                "vtcOnHit": 22,
                 "vtcOnBlock": 10,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 18,
+                "hcWinVt": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -644,6 +685,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Guilty Straight": {
@@ -660,6 +702,9 @@
                 "vtcOnBlock": 11,
                 "damage": "30*54",
                 "stun": "70*90",
+                "hcWinSpCa": 14,
+                "hcWinTc": 12,
+                "hcWinVt": 15,
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "sp",
@@ -676,6 +721,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 22
             },
             "Penalty Break": {
@@ -692,6 +738,8 @@
                 "vtcOnBlock": 1,
                 "damage": "20*45",
                 "stun": "70*90",
+                "hcWinTc": 12,
+                "hcWinVt": 16,
                 "attackLevel": "L*L",
                 "cancelsTo": [
                     "vt1",
@@ -706,6 +754,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MK",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Impact Claw": {
@@ -730,6 +779,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 24
             },
             "Guilty Bomb": {
@@ -754,6 +804,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 25
             },
             "Divine Comet": {
@@ -762,8 +813,8 @@
                 "numCmd": "MPMK (VS1)",
                 "cmnName": "V-Skill 1",
                 "startup": 44,
-                "recovery": 9,
-                "total": 53,
+                "recovery": 6,
+                "total": 50,
                 "onHit": 18,
                 "onBlock": 15,
                 "retribution": "38/KD (~)",
@@ -789,6 +840,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 26
             },
             "Blocking": {
@@ -817,6 +869,7 @@
                 "moveType": "vskill",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 27
             },
             "Primal Fire": {
@@ -840,6 +893,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 28
             },
             "Ice of Doom": {
@@ -863,6 +917,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 29
             },
             "Pyro Reverse Kick": {
@@ -891,7 +946,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3K",
+                "movesList": "V-Reversal",
                 "i": 30
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 33
+            },
+            "Radiant Judgement": {
+                "moveName": "Radiant Judgement",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 34
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -942,6 +1056,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
+                "movesList": "Special",
                 "i": 32
             },
             "MP Pyrokinesis": {
@@ -1028,7 +1143,7 @@
                 "retributionVTC": "KD (+138/79/84)",
                 "vtcOnHit": 27,
                 "vtcOnBlock": 26,
-                "damage": "40*50",
+                "damage": "40*50 (90)",
                 "stun": 80,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1049,7 +1164,8 @@
                     "Retribution effect on airborne: Juggle Start 3 | Juggle Increase +2",
                     "Deals 30 more damage (120) if it triggers Retribution",
                     "Extended hurtboxes on arms and legs are projectile invincible",
-                    "Juggle Limit / Increase / Start: 2*2 / 0*2 / 1*1"
+                    "Juggle Limit / Increase / Start: 2*2 / 0*2 / 1*1",
+                    "Can be canceled into Tree of Frost on hit or block"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
@@ -1070,7 +1186,7 @@
                 "retributionVTC": "KD (+138/79/84)",
                 "vtcOnHit": 27,
                 "vtcOnBlock": 26,
-                "damage": "40*50",
+                "damage": "40*50 (90)",
                 "stun": 80,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1092,7 +1208,8 @@
                     "Retribution effect on airborne: Juggle Start 3 | Juggle Increase +2",
                     "Deals 30 more damage (120) if it triggers Retribution",
                     "Extended hurtboxes on arms and legs are projectile invincible",
-                    "Juggle Limit / Increase / Start: 2*2 / 0*2 / 1*1"
+                    "Juggle Limit / Increase / Start: 2*2 / 0*2 / 1*1",
+                    "Can be canceled into Tree of Frost on hit or block"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
@@ -1108,7 +1225,7 @@
                 "recovery": 29,
                 "total": 43,
                 "retribution": "KD (~)",
-                "damage": "40*50",
+                "damage": "40*50 (90)",
                 "stun": 80,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1170,6 +1287,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LP",
+                "movesList": "Special",
                 "i": 38
             },
             "MP Cryokinesis": {
@@ -1256,7 +1374,7 @@
                 "retributionVTC": "KD (+138/79/84)",
                 "vtcOnHit": 25,
                 "vtcOnBlock": 26,
-                "damage": "20*30",
+                "damage": "20*30 (50)",
                 "stun": 140,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1298,7 +1416,7 @@
                 "retributionVTC": "KD (+138/79/84)",
                 "vtcOnHit": 25,
                 "vtcOnBlock": 26,
-                "damage": "20*30",
+                "damage": "20*30 (50)",
                 "stun": 140,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1317,7 +1435,7 @@
                     "Travels forward at a slanted trajectory with very high speed",
                     "Retribution effect on grounded: Free Juggle State",
                     "Retribution effect on airborne: Juggle Start 3 | Juggle Increase +2",
-                    "Deals 30 more damage (120) if it triggers Retribution",
+                    "Deals 30 more stun (170) if it triggers Retribution",
                     "Extended hurtboxes on arms and legs are projectile invincible",
                     "Juggle Limit / Increase / Start: 2*2 / 0*2 / 1*1"
                 ],
@@ -1335,7 +1453,7 @@
                 "recovery": 29,
                 "total": 51,
                 "retribution": "KD (~)",
-                "damage": "20*30",
+                "damage": "20*30 (50)",
                 "stun": 140,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1354,7 +1472,7 @@
                     "Travels upwards with high speed",
                     "Cannot hit grounded opponents",
                     "Retribution effect on airborne: Juggle Start 3 | Juggle Increase +2",
-                    "Deals 30 more damage (120) if it triggers Retribution",
+                    "Deals 30 more stun (170) if it triggers Retribution",
                     "Extended hurtboxes on arms and legs are projectile invincible",
                     "Juggle Limit / Increase / Start: 2*2 / 0*2 / 1*1"
                 ],
@@ -1375,8 +1493,8 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+109/50/55)",
-                "damage": "40*40",
-                "stun": "40*40",
+                "damage": "40*40 (80)",
+                "stun": "40*80 (120)",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -1398,6 +1516,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 44
             },
             "MK Pyro Cyber Lariat": {
@@ -1412,8 +1531,8 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+109/50/55)",
-                "damage": "40*60",
-                "stun": "40*40",
+                "damage": "40*60 (100)",
+                "stun": "40*40 (80)",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -1449,11 +1568,11 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+109/50/55)",
-                "damage": "40*80",
-                "stun": "40*40",
-                "kd": 77,
-                "kdr": 18,
-                "kdrb": 23,
+                "damage": "40*80 (120)",
+                "stun": "40*40 (80)",
+                "kd": 79,
+                "kdr": 20,
+                "kdrb": 25,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1486,8 +1605,8 @@
                 "onHit": "KD",
                 "onBlock": -12,
                 "retribution": "KD (+111/52/57)",
-                "damage": "40*80",
-                "stun": "40*40",
+                "damage": "40*80 (120)",
+                "stun": "40*40 (80)",
                 "kd": 71,
                 "kdr": 12,
                 "kdrb": 17,
@@ -1523,8 +1642,8 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+109/50/55)",
-                "damage": "30*30",
-                "stun": "60*60",
+                "damage": "30*30 (60)",
+                "stun": "40*80 (120)",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -1546,6 +1665,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 48
             },
             "MK Cryo Cyber Lariat": {
@@ -1560,8 +1680,8 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+109/50/55)",
-                "damage": "30*30",
-                "stun": "60*80",
+                "damage": "30*30 (60)",
+                "stun": "60*80 (140)",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -1597,11 +1717,11 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+109/50/55)",
-                "damage": "30*30",
-                "stun": "60*100",
-                "kd": 77,
-                "kdr": 18,
-                "kdrb": 23,
+                "damage": "30*30 (60)",
+                "stun": "60*100 (160)",
+                "kd": 79,
+                "kdr": 20,
+                "kdrb": 25,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1634,8 +1754,8 @@
                 "onHit": "KD",
                 "onBlock": -12,
                 "retribution": "KD (+111/52/57)",
-                "damage": "30*30",
-                "stun": "60*100",
+                "damage": "30*30 (60)",
+                "stun": "60*100 (160)",
                 "kd": 71,
                 "kdr": 12,
                 "kdrb": 17,
@@ -1669,7 +1789,7 @@
                 "recovery": 11,
                 "total": 48,
                 "onHit": "KD",
-                "onBlock": "-2(14)",
+                "onBlock": "-2/14",
                 "damage": 100,
                 "stun": 120,
                 "kd": "84(100)",
@@ -1691,6 +1811,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 52
             },
             "MK Moonsault Knee Drop": {
@@ -1703,7 +1824,7 @@
                 "recovery": 11,
                 "total": 50,
                 "onHit": "KD",
-                "onBlock": "-2(14)",
+                "onBlock": "-2/14",
                 "damage": 100,
                 "stun": 120,
                 "kd": "84(100)",
@@ -1737,7 +1858,7 @@
                 "recovery": 11,
                 "total": 50,
                 "onHit": "KD",
-                "onBlock": "-2(14)",
+                "onBlock": "-2/14",
                 "damage": 100,
                 "stun": 120,
                 "kd": "84(100)",
@@ -1825,8 +1946,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1K",
+                "movesList": "Super",
                 "i": 56
-            }
+            },
+            "input": "None"
         },
         "vtOne": {
             "LP Pyrokinesis": {
@@ -1961,8 +2084,8 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+113/54/59)",
-                "damage": "40*40",
-                "stun": "40*40",
+                "damage": "40*40 (80)",
+                "stun": "40*40 (80)",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -2003,8 +2126,8 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+113/54/59)",
-                "damage": "40*60",
-                "stun": "40*40",
+                "damage": "40*60 (100)",
+                "stun": "40*40 (80)",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -2045,11 +2168,11 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+113/54/59)",
-                "damage": "40*80",
-                "stun": "40*40",
-                "kd": 77,
-                "kdr": 18,
-                "kdrb": 23,
+                "damage": "40*80 (120)",
+                "stun": "40*40 (80)",
+                "kd": 79,
+                "kdr": 20,
+                "kdrb": 25,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -2081,8 +2204,8 @@
                 "numCmd": "MPMK (VS1)",
                 "cmnName": "V-Skill 1",
                 "startup": 44,
-                "recovery": 9,
-                "total": 53,
+                "recovery": 6,
+                "total": 50,
                 "onHit": 24,
                 "onBlock": 21,
                 "retribution": "41/KD (~)",
@@ -2154,6 +2277,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 28.01
             },
             "Flame Javelin": {
@@ -2168,7 +2292,7 @@
                 "onHit": "KD",
                 "onBlock": -2,
                 "retribution": "KDA +8 extra",
-                "damage": "40*50",
+                "damage": "40*50 (90)",
                 "stun": 100,
                 "kd": "107(111)",
                 "kdr": "48(52)",
@@ -2197,6 +2321,7 @@
                 "moveType": "special",
                 "moveMotion": "DBorDorDF",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 28.02
             },
             "Volcanic Storm": {
@@ -2211,7 +2336,7 @@
                 "onBlock": -4,
                 "retribution": "KD (~)",
                 "damage": "30*30*60*36*45 (201)",
-                "stun": "80*90",
+                "stun": "80*90 (170)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": true,
@@ -2229,8 +2354,10 @@
                 "moveType": "special",
                 "moveMotion": "DBorDorDF",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 28.03
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "LP Cryokinesis": {
@@ -2262,6 +2389,7 @@
                     "1-hit projectile",
                     "Projectile Speed: 0.45",
                     "Can be canceled into V-Skill 1 on hit or block",
+                    "Can be canceled into Tree of Frost on hit or block",
                     "Slow startup ground projectile trajectory with slow speed",
                     "Retribution effect on grounded & airborne: Juggle Start & Increase +1",
                     "Deals 30 more stun (150) if it triggers Retribution",
@@ -2302,6 +2430,7 @@
                     "1-hit projectile",
                     "Projectile Speed: 0.50",
                     "Can be canceled into V-Skill 1 on hit or block",
+                    "Can be canceled into Tree of Frost on hit or block",
                     "Slow startup and travels forward at a slanted trajectory with slow speed",
                     "Lower half of the projectile hitbox cannot hit grounded opponents",
                     "Retribution effect on grounded & airborne: Juggle Start & Increase +1",
@@ -2341,6 +2470,7 @@
                     "1-hit projectile",
                     "Projectile Speed: 0.35",
                     "Can be canceled into V-Skill 1 on hit or block (good luck blocking in the air though)",
+                    "Can be canceled into Tree of Frost on hit or block",
                     "Slow startup and travels upwards with slow speed",
                     "Cannot hit grounded opponents",
                     "Retribution effect on airborne: Juggle Start & Increase +1",
@@ -2365,8 +2495,8 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+111/52/57)",
-                "damage": "30*30",
-                "stun": "60*60",
+                "damage": "30*30 (60)",
+                "stun": "40*80 (120)",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -2407,8 +2537,8 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+111/52/57)",
-                "damage": "30*30",
-                "stun": "60*80",
+                "damage": "30*30 (60)",
+                "stun": "60*80 (140)",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -2449,11 +2579,11 @@
                 "onHit": "KD",
                 "onBlock": -6,
                 "retribution": "KD (+111/52/57)",
-                "damage": "30*30",
-                "stun": "60*100",
-                "kd": 77,
-                "kdr": 18,
-                "kdrb": 23,
+                "damage": "30*30 (60)",
+                "stun": "60*100 (160)",
+                "kd": 79,
+                "kdr": 20,
+                "kdrb": 25,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -2485,8 +2615,8 @@
                 "numCmd": "MPMK (VS1)",
                 "cmnName": "V-Skill 1",
                 "startup": 44,
-                "recovery": 9,
-                "total": 53,
+                "recovery": 6,
+                "total": 50,
                 "onHit": 24,
                 "onBlock": 21,
                 "retribution": "41/KD (~)",
@@ -2538,7 +2668,7 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Spends 1000 V-Meter (~33% of V-Timer)",
+                    "Spends 700 V-Meter (~23% of V-Timer)",
                     "Ice Element",
                     "Freezes enemy stun bar on hit (Anti-Type attacks will trigger Retribution on hit)",
                     "Stun bar remains frozen until one of these 3 conditions is met; Gill gets hit by the enemy | Anti-Type attack triggers Retribution | Enemy gets stunned",
@@ -2555,6 +2685,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.01
             },
             "Delay Freeze Lance": {
@@ -2593,13 +2724,15 @@
                 "moveType": "special",
                 "moveMotion": "DBorDorDF",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.02
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
-        "health": 1000,
-        "stun": 1000,
+        "health": 1025,
+        "stun": 1050,
         "vgauge1": 600,
         "vgauge2": 600,
         "taunt": 61,

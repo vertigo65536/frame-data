@@ -50,6 +50,8 @@
                 "vtcOnBlock": 8,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 15,
+                "hcWinVt": 18,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -81,14 +83,16 @@
                 "vtcOnBlock": 15,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*17/**18",
+                "hcWinTc": "19/***27",
+                "hcWinVt": 17,
+                "hcWinNotes": "*VT2 specials only, **CA only, ***On block",
                 "kd": 106,
                 "kdr": 42,
                 "kdrb": 47,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+100"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+100",
                 "cancelsTo": [
                     "su",
                     "vt1",
@@ -99,7 +103,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancels into some V-Trigger 2 enhanced specials on hit/block"
+                    "Can cancel into V-Trigger 2 enhanced specials on hit or block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -151,6 +155,8 @@
                 "vtcOnBlock": 2,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 21,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -186,11 +192,13 @@
                 "vtcOnBlock": 7,
                 "damage": 80,
                 "stun": 120,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 10,
-                    "vG": "+150"
-                },
+                "hcWinSpCa": "*17",
+                "hcWinTc": 17,
+                "hcWinVt": 25,
+                "hcWinNotes": "*VT2 specials only",
+                "ccState": "Stagger",
+                "ccAdv": 10,
+                "ccVG": "+150",
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -201,7 +209,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Whiffs on crouchers",
-                    "Cancels into some V-Trigger 2 enhanced specials on hit/block"
+                    "Can cancels into V-Trigger 2 enhanced specials on hit/block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -257,6 +265,8 @@
                 "vtcOnBlock": 5,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 20,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -291,14 +301,15 @@
                 "vtcOnBlock": 13,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*23",
+                "hcWinVt": 18,
+                "hcWinNotes": "*VT2 specials only",
                 "kd": 92,
                 "kdr": 60,
                 "kdrb": 60,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "C",
-                    "vG": "+120"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "C",
+                "ccVG": "+120",
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -310,7 +321,7 @@
                 "extraInfo": [
                     "Forces Stand",
                     "4 extra recovery frames on whiff (20)",
-                    "Cancels into some V-Trigger 2 enhanced specials on hit/block"
+                    "Can cancels into V-Trigger 2 enhanced specials on hit/block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -354,14 +365,16 @@
                 "numCmd": "2MK",
                 "startup": 6,
                 "active": 2,
-                "recovery": 14,
-                "total": 21,
-                "onHit": 3,
-                "onBlock": -1,
+                "recovery": 15,
+                "total": 22,
+                "onHit": 2,
+                "onBlock": -2,
                 "vtcOnHit": 9,
                 "vtcOnBlock": 5,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 19,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -396,14 +409,15 @@
                 "vtcOnBlock": 14,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": "*16",
+                "hcWinVt": 16,
+                "hcWinNotes": "*VT2 specials only",
                 "kd": 67,
                 "kdr": 18,
                 "kdrb": 23,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -414,7 +428,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Juggle Limit: 2 (works after LK Tatsu)",
-                    "Cancels into some V-Trigger 2 enhanced specials on hit/block",
+                    "KDA after LK tatsu into cr HK (+68/19/24)",
+                    "Can cancels into V-Trigger 2 enhanced specials on hit/block",
                     "10 extra recovery frames on block (34)",
                     "3 extra recovery frames on whiff (27)"
                 ],
@@ -435,6 +450,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Can be used as an Instant Overhead"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LP",
@@ -562,6 +580,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Zugaihasatsu": {
@@ -587,6 +606,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Sekiseiken": {
@@ -600,8 +620,11 @@
                 "total": 54,
                 "onHit": 5,
                 "onBlock": -2,
+                "vtcOnHit": 14,
+                "vtcOnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 28,
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -618,6 +641,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Tenha": {
@@ -635,6 +659,8 @@
                 "vtcOnBlock": "15*10",
                 "damage": 90,
                 "stun": 200,
+                "hcWinSpCa": "15/17",
+                "hcWinVt": 34,
                 "kd": 101,
                 "kdr": 42,
                 "kdrb": 47,
@@ -657,6 +683,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Kikokurenzan": {
@@ -673,6 +700,9 @@
                 "vtcOnBlock": 7,
                 "damage": "80*45 (125)",
                 "stun": "120*63 (183)",
+                "hcWinSpCa": "*19",
+                "hcWinTc": 17,
+                "hcWinNotes": "*VT2 specials only",
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -684,6 +714,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Kongoken": {
@@ -700,6 +731,9 @@
                 "vtcOnBlock": 11,
                 "damage": "80*54 (134)",
                 "stun": "150*72 (222)",
+                "hcWinTc": "19/*27",
+                "hcWinVt": 23,
+                "hcWinNotes": "*On block",
                 "kd": 92,
                 "kdr": 33,
                 "kdrb": 38,
@@ -712,11 +746,12 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "+2 extra KDA on counter-hit"
+                    "+2 extra KDA on Crush Counter"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Goshoha": {
@@ -742,6 +777,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 25
             },
             "Shuretsuzan": {
@@ -767,6 +803,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 26
             },
             "Rakan": {
@@ -781,7 +818,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "armor on frames 3-14",
+                    "Armor on frames 3-14",
                     "Cancels into follow-ups on the 10th frame",
                     "Standing V-Skill parries standing and airborne state attacks",
                     "Crouch V-Skill (input: down + V-Skill) parries crouching state attacks",
@@ -792,6 +829,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 27
             },
             "Rakan Gosho": {
@@ -808,6 +846,9 @@
                 "vtcOnBlock": 12,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": "*23",
+                "hcWinVt": 23,
+                "hcWinNotes": "*VT2 specials only",
                 "kd": 84,
                 "kdr": 25,
                 "kdrb": 30,
@@ -821,14 +862,15 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "armor on frames 3-10",
+                    "Armor on frames 3-10",
                     "Gains 120 V-Gauge (40% of a V-Bar on a successful parry",
                     "Gains 80 more V-Gauge (~27% of a V-Bar) on follow-up hit and 40 V-Gauge if blocked",
-                    "Cancels into some V-Trigger 2 enhanced specials on hit/block"
+                    "Can cancel into V-Trigger 2 enhanced specials on hit/block"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "V-Skill 1",
                 "i": 28
             },
             "Rakan Gokyaku": {
@@ -845,6 +887,8 @@
                 "vtcOnBlock": 9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 19,
+                "hcWinVt": 19,
                 "kd": 109,
                 "kdr": 50,
                 "kdrb": 55,
@@ -860,14 +904,16 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "armor on frames 3-10",
+                    "Armor on frames 3-10",
                     "Launches into a limited juggle state",
+                    "Can only cancel into specials on hit",
                     "Gains 120 V-Gauge (40% of a V-Bar on a successful parry",
                     "Gains 80 more V-Gauge (~27% of a V-Bar) on follow-up hit and 40 V-Gauge if blocked"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "V-Skill 1",
                 "i": 29
             },
             "Kiai": {
@@ -913,6 +959,7 @@
                 "moveMotion": "N",
                 "moveButton": "1P",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 30
             },
             "Sekia Goshoha (V-Skill 2)": {
@@ -951,6 +998,7 @@
                 "moveType": "vskill",
                 "moveMotion": "HCB",
                 "moveButton": "1P",
+                "movesList": "V-Skill 2",
                 "i": 31
             },
             "Sekia Goshoha EX (V-Skill 2)": {
@@ -988,6 +1036,7 @@
                 "moveType": "vskill",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
+                "movesList": "V-Skill 2",
                 "i": 32
             },
             "Sekia Goshoha Just Frame (V-Skill 2)": {
@@ -1027,6 +1076,7 @@
                 "moveType": "vskill",
                 "moveMotion": "HCB",
                 "moveButton": "1P",
+                "movesList": "V-Skill 2",
                 "i": 33
             },
             "Sekia Goshoha EX Just Frame (V-Skill 2)": {
@@ -1065,6 +1115,7 @@
                 "moveType": "vskill",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
+                "movesList": "V-Skill 2",
                 "i": 34
             },
             "Dohatsu Shoten": {
@@ -1087,6 +1138,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 35
             },
             "Shiretsu Hasshi": {
@@ -1110,6 +1162,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 36
             },
             "Gosenkyaku": {
@@ -1138,7 +1191,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3K",
+                "movesList": "V-Reversal",
                 "i": 37
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 38
+            },
+            "Rasen Shuto Uchi": {
+                "moveName": "Rasen Shuto Uchi",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "cancelsTo": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 39
             },
             "Taunt Stomp": {
                 "moveName": "Taunt Stomp",
@@ -1154,8 +1266,8 @@
                 "damage": 70,
                 "stun": 100,
                 "kd": 122,
-                "kdr": 53,
-                "kdrb": 58,
+                "kdr": 63,
+                "kdrb": 68,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -1176,7 +1288,8 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 38
+                "movesList": "Taunt Attack",
+                "i": 40
             },
             "Neutral Stomp": {
                 "moveName": "Neutral Stomp",
@@ -1201,7 +1314,8 @@
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
-                "i": 39
+                "movesList": "Idle Attack",
+                "i": 41
             },
             "LP Gohadoken": {
                 "moveName": "LP Gohadoken",
@@ -1233,12 +1347,14 @@
                 "extraInfo": [
                     "Projectile active for 45 frames (90% screen range) and then followed up by a projectile burst with 8 active frames that does the same damage but 20 less stun (100)",
                     "Framedata in the parentheses refers to the worst-case scenario of the longer range version (fireball works differently at further range)",
-                    "Can only cancel into V-Trigger activation up close on hit/block"
+                    "Can only cancel into V-Trigger activation up close on hit/block",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit/block; EX Red Fireball / EX Tatsu / EX DP / EX Demon Flip / Teleport"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "MP Gohadoken": {
                 "moveName": "MP Gohadoken",
@@ -1270,12 +1386,13 @@
                 "extraInfo": [
                     "Projectile active for 35 frames (80% screen range) and then followed up by a projectile burst with 8 active frames that does the same damage but 20 less stun (100)",
                     "Framedata in the parentheses refers to the worst-case scenario of the longer range version (fireball works differently at further range)",
-                    "Can only cancel into V-Trigger activation up close on hit/block"
+                    "Can only cancel into V-Trigger activation up close on hit/block",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit/block; EX Red Fireball / EX Tatsu / EX DP / EX Demon Flip / Teleport"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 41
+                "i": 43
             },
             "HP Gohadoken": {
                 "moveName": "HP Gohadoken",
@@ -1307,12 +1424,13 @@
                 "extraInfo": [
                     "Projectile active for 23 frames (60% screen range) and then followed up by a projectile burst with 8 active frames that does the same damage but 20 less stun (100)",
                     "Framedata in the parentheses refers to the worst-case scenario of the longer range version (fireball works differently at further range)",
-                    "Can only cancel into V-Trigger activation up close on hit/block"
+                    "Can only cancel into V-Trigger activation up close on hit/block",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit/block; EX Red Fireball / EX Tatsu / EX DP / EX Demon Flip / Teleport"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 42
+                "i": 44
             },
             "EX Gohadoken": {
                 "moveName": "EX Gohadoken",
@@ -1344,12 +1462,13 @@
                     "Projectile duration does not run out like the non-EX versions",
                     "Framedata in the parentheses refers to the worst-case scenario of the longer range version (fireball works differently at further range)",
                     "Cancels into some V-Trigger 2 enhanced specials on hit/block; EX Red Fireball / EX Tatsu / EX DP / EX Demon Flip",
-                    "Can only cancel into V-Trigger activation up close on hit/block"
+                    "Can only cancel into V-Trigger activation up close on hit/block",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit/block; EX Red Fireball / EX Tatsu / EX DP / EX Demon Flip / Teleport"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 43
+                "i": 45
             },
             "LP Zanku Hadoken": {
                 "moveName": "LP Zanku Hadoken",
@@ -1371,7 +1490,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 44
+                "movesList": "Special",
+                "i": 46
             },
             "MP Zanku Hadoken": {
                 "moveName": "MP Zanku Hadoken",
@@ -1393,7 +1513,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 45
+                "i": 47
             },
             "HP Zanku Hadoken": {
                 "moveName": "HP Zanku Hadoken",
@@ -1415,7 +1535,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 46
+                "i": 48
             },
             "EX Zanku Hadoken": {
                 "moveName": "EX Zanku Hadoken",
@@ -1423,7 +1543,7 @@
                 "numCmd": "236PP (air)",
                 "cmnName": "EX Air Fireball",
                 "startup": "5*38",
-                "recovery": 4,
+                "recovery": 9,
                 "damage": "20x4*70 (150)",
                 "stun": "25x4*50 (150)",
                 "attackLevel": "H",
@@ -1431,14 +1551,15 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "4 frames of landing recovery",
+                    "9 frames of landing recovery",
                     "Frame advantage and KDA varies greatly depending on height & angle",
-                    "Has a 2-hit projectile box on frames 5-34 that nullifies projectiles before launching the 5-hit fireball"
+                    "Has a 2-hit projectile box on frames 5-34 that nullifies projectiles before launching the 5-hit fireball",
+                    "If Akuma is struck from frame 5 onwards, Akuma's fireball will go away"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 47
+                "i": 49
             },
             "EX Zanku Hadoken Initial Hit": {
                 "moveName": "EX Zanku Hadoken Initial Hit",
@@ -1447,7 +1568,7 @@
                 "cmnName": "EX Air Fireball Initial Hit",
                 "startup": 5,
                 "active": 30,
-                "recovery": 4,
+                "recovery": 9,
                 "damage": "20*30*20*50 (120)",
                 "stun": "25*50*25*50 (150)",
                 "attackLevel": "H",
@@ -1456,12 +1577,13 @@
                 "projectile": true,
                 "extraInfo": [
                     "This is data for the initial 2-hit projectile box",
-                    "If the initial hit connects, launches a less powerful follow-up fireball with 4 hits overall instead of 5"
+                    "If the initial hit connects, launches a less powerful follow-up fireball with 4 hits overall instead of 5",
+                    "Initial hit projectile goes away if Akuma is hit"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 48
+                "i": 50
             },
             "LP Sekia Goshoha": {
                 "moveName": "LP Sekia Goshoha",
@@ -1491,12 +1613,14 @@
                 "projectile": true,
                 "extraInfo": [
                     "1-hit Projectile hitbox",
-                    "Can only cancel into V-Trigger activation up close on hit/block"
+                    "Can only cancel into V-Trigger activation up close on hit/block",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip / Teleport"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
-                "i": 49
+                "movesList": "Special",
+                "i": 51
             },
             "MP Sekia Goshoha": {
                 "moveName": "MP Sekia Goshoha",
@@ -1526,12 +1650,13 @@
                 "projectile": true,
                 "extraInfo": [
                     "2-hit Projectile hitbox",
-                    "Can only cancel into V-Trigger activation up close on hit/block"
+                    "Can only cancel into V-Trigger activation up close on hit/block",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip / Teleport"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "MP",
-                "i": 50
+                "i": 52
             },
             "HP Sekia Goshoha": {
                 "moveName": "HP Sekia Goshoha",
@@ -1561,12 +1686,13 @@
                 "projectile": true,
                 "extraInfo": [
                     "3-hit Projectile hitbox",
-                    "Can only cancel into V-Trigger activation up close on hit/block"
+                    "Can only cancel into V-Trigger activation up close on hit/block",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip / Teleport"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "HP",
-                "i": 51
+                "i": 53
             },
             "EX Sekia Goshoha": {
                 "moveName": "EX Sekia Goshoha",
@@ -1596,13 +1722,13 @@
                 "extraInfo": [
                     "4-hit Projectile hitbox",
                     "Does grey damage (not affected by scaling) on frames 2-20 before launching the fireball",
-                    "Cancels into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip",
-                    "Can only cancel into V-Trigger activation up close on hit/block"
+                    "Can only cancel into V-Trigger activation up close on hit/block",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit/block; EX Fireball / EX Tatsu / EX DP / EX Demon Flip / Teleport"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
-                "i": 52
+                "i": 54
             },
             "LP Goshoryuken": {
                 "moveName": "LP Goshoryuken",
@@ -1633,16 +1759,19 @@
                 "projectile": false,
                 "extraInfo": [
                     "Throw invincible on frames 1-3",
-                    "Airborne on frames 4-?",
+                    "Airborne on frames 4-38",
+                    "Cannot hit crossup",
                     "Less damage (60) and stun (100) after first 2 active frames",
                     "Active frames 1-2: Juggle Limit / Increase / Start: 2 / 25 / 5",
                     "Active frames 3-12: Juggle Limit / Increase / Start: 2 / 25 / 99",
-                    "Akuma is in counterhit state during move duration"
+                    "Akuma is in counterhit state during move duration",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Fireball / EX Red Fireball / EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 53
+                "movesList": "Special",
+                "i": 55
             },
             "MP Goshoryuken": {
                 "moveName": "MP Goshoryuken",
@@ -1674,14 +1803,16 @@
                 "extraInfo": [
                     "Invincible to airborne strike attacks on frames 1-6",
                     "Airborne on frames 6-40",
+                    "Cannot hit crossup",
                     "Active frames 1-4 (1st hit): Juggle Limit / Increase / Start: 2 / 1 / 1 (but 4th active frame has +99 Juggle Start)",
                     "Active frames 4-12 (2nd hit): Juggle Limit / Increase / Start: 3 / 99 / 99",
-                    "Akuma is in counterhit state during move duration"
+                    "Akuma is in counterhit state during move duration",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Fireball / EX Red Fireball / EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 54
+                "i": 56
             },
             "HP Goshoryuken": {
                 "moveName": "HP Goshoryuken",
@@ -1696,8 +1827,8 @@
                 "onBlock": -33,
                 "vtcOnHit": "KD (+110/51/56)",
                 "vtcOnBlock": -5,
-                "damage": "60*30x2 (120)",
-                "stun": "10*30*20 (150)",
+                "damage": "80*30x2 (140)",
+                "stun": "100*30*20 (150)",
                 "kd": 83,
                 "kdr": 24,
                 "kdrb": 29,
@@ -1712,17 +1843,19 @@
                 "projectile": false,
                 "extraInfo": [
                     "Strike and Projectile invincible on frames 3-6",
-                    "Airborne on frames 7-?",
+                    "Airborne on frames 7-43",
+                    "Cannot hit crossups",
                     "-1 KDA if VTC on 2nd hit",
                     "Active frame 1 (1st hit): Juggle Limit / Increase / Start: 3 / 1 / 1",
                     "Active frames 2-4 (2nd hit): Juggle Limit / Increase / Start: 4 / 1 / 1",
                     "Active frames 5-11 (3rd hit): Juggle Limit / Increase / Start: 5 / 99 / 99",
-                    "Akuma is in counterhit state during move duration"
+                    "Akuma is in counterhit state during move duration",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Fireball / EX Red Fireball / EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 55
+                "i": 57
             },
             "EX Goshoryuken": {
                 "moveName": "EX Goshoryuken",
@@ -1735,10 +1868,10 @@
                 "total": 107,
                 "onHit": "KD",
                 "onBlock": -44,
-                "vtcOnHit": "KD (+81/81/81)",
+                "vtcOnHit": "KD (+81/20/25)",
                 "vtcOnBlock": -6,
                 "damage": "30*20x2*30x3 (160)",
-                "stun": 200,
+                "stun": "0x3*50*50*100 (200)",
                 "multiActive": [
                     3,
                     4,
@@ -1787,15 +1920,17 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-15",
                     "Airborne on frames 6-30 and again on frames 44-92",
+                    "Can hit crossup from frame 6 onwards",
                     "+1 KDA if VTC on 2nd hit",
                     "Cancels into some V-Trigger 2 enhanced specials on hit; Air EX Fireball / Air EX Tatsu",
                     "Juggle Limit: 12",
-                    "Akuma is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
+                    "Akuma is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Fireball / EX Red Fireball / EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 56
+                "i": 58
             },
             "LK Tatsumaki Zankukyaku": {
                 "moveName": "LK Tatsumaki Zankukyaku",
@@ -1813,6 +1948,9 @@
                 "kd": 101,
                 "kdr": 42,
                 "kdrb": 47,
+                "cancelsTo": [
+                    "vt2"
+                ],
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1821,12 +1959,14 @@
                     "Whiffs on crouchers",
                     "Airborne on frames 6-26",
                     "Launches opponents into a limited juggle state (+2 Juggle Start / Increase)",
-                    "Juggle Limit / Increase / Start: 0 / 2 / 2"
+                    "Juggle Limit / Increase / Start: 0 / 2 / 2",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 57
+                "movesList": "Special",
+                "i": 59
             },
             "MK Tatsumaki Zankukyaku": {
                 "moveName": "MK Tatsumaki Zankukyaku",
@@ -1867,12 +2007,13 @@
                     "Airborne and Projectile invincible on lower body and extended legs on frames 6-35 (until landing)",
                     "The last 2 hits do 40 damage / 60 stun each (80/120 total) if the first hit whiffs",
                     "Block Advantage against most crouching opponents is -7 (-8 against Abigail / Birdie / Zangief)",
-                    "Juggle Limit / Increase / Start: 1*1*12 / 1*1*3 / 1*12*1 (2nd hit does +13 Juggle Increase and +1 Juggle Start on airborne)"
+                    "Juggle Limit / Increase / Start: 1*1*12 / 1*1*3 / 1*12*1 (2nd hit does +13 Juggle Increase and +1 Juggle Start on airborne)",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 58
+                "i": 60
             },
             "HK Tatsumaki Zankukyaku": {
                 "moveName": "HK Tatsumaki Zankukyaku",
@@ -1914,12 +2055,13 @@
                 "extraInfo": [
                     "Airborne and Projectile invincible on lower body and extended legs on frames 6-57 (until landing)",
                     "Hits 2, 3 and 4 whiffs on crouchers",
-                    "Juggle Limit: 3"
+                    "Juggle Limit: 3",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 59
+                "i": 61
             },
             "EX Tatsumaki Zankukyaku": {
                 "moveName": "EX Tatsumaki Zankukyaku",
@@ -1949,6 +2091,9 @@
                 "kd": 91,
                 "kdr": 32,
                 "kdrb": 37,
+                "cancelsTo": [
+                    "vt2"
+                ],
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1962,7 +2107,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 60
+                "i": 62
             },
             "LK Air Tatsumaki Zankukyaku": {
                 "moveName": "LK Air Tatsumaki Zankukyaku",
@@ -1976,6 +2121,9 @@
                 "onBlock": "-4(1)",
                 "damage": 70,
                 "stun": 100,
+                "cancelsTo": [
+                    "vt2"
+                ],
                 "attackLevel": "H",
                 "airmove": true,
                 "followUp": false,
@@ -1985,12 +2133,14 @@
                     "2nd hit can cross up",
                     "15 frames of landing recovery",
                     "Frame advantage varies on height; on block: -4 -> +1",
-                    "If this is blocked as a cross-up, vacuums in the opponent up close to Akuma"
+                    "If this is blocked as a cross-up, vacuums in the opponent up close to Akuma",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 61
+                "movesList": "Special",
+                "i": 63
             },
             "MK Air Tatsumaki Zankukyaku": {
                 "moveName": "MK Air Tatsumaki Zankukyaku",
@@ -2004,6 +2154,9 @@
                 "onBlock": "-4(1)",
                 "damage": 70,
                 "stun": 100,
+                "cancelsTo": [
+                    "vt2"
+                ],
                 "attackLevel": "H",
                 "airmove": true,
                 "followUp": false,
@@ -2013,12 +2166,13 @@
                     "2nd hit can cross up",
                     "15 frames of landing recovery",
                     "Frame advantage varies on height; on block: -4 -> +1",
-                    "If this is blocked as a cross-up, vacuums in the opponent up close to Akuma"
+                    "If this is blocked as a cross-up, vacuums in the opponent up close to Akuma",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 62
+                "i": 64
             },
             "HK Air Tatsumaki Zankukyaku": {
                 "moveName": "HK Air Tatsumaki Zankukyaku",
@@ -2032,6 +2186,9 @@
                 "onBlock": "-4(1)",
                 "damage": 70,
                 "stun": 100,
+                "cancelsTo": [
+                    "vt2"
+                ],
                 "attackLevel": "H",
                 "airmove": true,
                 "followUp": false,
@@ -2041,12 +2198,13 @@
                     "2nd hit can cross up",
                     "15 frames of landing recovery",
                     "Frame advantage varies on height; on block: -4 -> +1",
-                    "If this is blocked as a cross-up, vacuums in the opponent up close to Akuma"
+                    "If this is blocked as a cross-up, vacuums in the opponent up close to Akuma",
+                    "Can cancel into some V-Trigger 2 enhanced specials on hit; EX Air Fireball / EX Air Tatsu"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 63
+                "i": 65
             },
             "EX Air Tatsumaki Zankukyaku": {
                 "moveName": "EX Air Tatsumaki Zankukyaku",
@@ -2059,6 +2217,9 @@
                 "onHit": "KD",
                 "damage": "30x4*40 (160)",
                 "stun": "40x4*90 (250)",
+                "cancelsTo": [
+                    "vt2"
+                ],
                 "attackLevel": "H",
                 "airmove": true,
                 "followUp": false,
@@ -2071,7 +2232,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 64
+                "i": 66
             },
             "LK Hyakki Gozan": {
                 "moveName": "LK Hyakki Gozan",
@@ -2093,12 +2254,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frames 7-41"
+                    "Airborne on frames 7-41",
+                    "Cancels into follow-ups on frames 23-40"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCF",
                 "moveButton": "LK",
-                "i": 65
+                "movesList": "Special (Demon Flip)",
+                "i": 67
             },
             "MK Hyakki Gozan": {
                 "moveName": "MK Hyakki Gozan",
@@ -2120,12 +2283,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frames 7-42"
+                    "Airborne on frames 7-42",
+                    "Cancels into follow-ups on frames 23-41"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCF",
                 "moveButton": "MK",
-                "i": 66
+                "i": 68
             },
             "HK Hyakki Gozan": {
                 "moveName": "HK Hyakki Gozan",
@@ -2147,12 +2311,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frames 7-43"
+                    "Airborne on frames 7-43",
+                    "Cancels into follow-ups on frames 23-42"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCF",
                 "moveButton": "HK",
-                "i": 67
+                "i": 69
             },
             "EX Hyakki Gozan": {
                 "moveName": "EX Hyakki Gozan",
@@ -2195,19 +2360,20 @@
                 "projectile": false,
                 "extraInfo": [
                     "Airborne and Projectile invincible on frames 4-38",
-                    "Can be steered"
+                    "Can be steered",
+                    "Cancels into follow-ups on frames 20-26"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCF",
                 "moveButton": "2K",
-                "i": 68
+                "i": 70
             },
             "LK Hyakkishu > Hyakki Gosho": {
                 "moveName": "LK Hyakkishu > Hyakki Gosho",
                 "plnCmd": "hcf+LK > P",
                 "numCmd": "41236LK > P",
                 "cmnName": "LK Demon Flip > Palm",
-                "startup": "22+8",
+                "startup": "23+8",
                 "active": 4,
                 "recovery": "10+6",
                 "onHit": "KD",
@@ -2225,19 +2391,21 @@
                     "Airborne on frame 7",
                     "6 landing recovery frames",
                     "KDA numbers stated are for latest possible palm hit",
-                    "Frame Advantage and KDA varies greatly depending on height"
+                    "Frame Advantage and KDA varies greatly depending on height",
+                    "Has 1 hit of projectile nullification"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 69
+                "movesList": "Special (Demon Flip)",
+                "i": 71
             },
             "MK Hyakkishu > Hyakki Gosho": {
                 "moveName": "MK Hyakkishu > Hyakki Gosho",
                 "plnCmd": "hcf+MK > P",
                 "numCmd": "41236MK > P",
                 "cmnName": "MK Demon Flip > Palm",
-                "startup": "22+8",
+                "startup": "23+8",
                 "active": 4,
                 "recovery": "11+6",
                 "onHit": "KD",
@@ -2255,19 +2423,20 @@
                     "Airborne on frame 7",
                     "6 landing recovery frames",
                     "KDA numbers stated are for latest possible palm hit",
-                    "Frame Advantage and KDA varies greatly depending on height"
+                    "Frame Advantage and KDA varies greatly depending on height",
+                    "Has 1 hit of projectile nullification"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 70
+                "i": 72
             },
             "HK Hyakkishu > Hyakki Gosho": {
                 "moveName": "HK Hyakkishu > Hyakki Gosho",
                 "plnCmd": "hcf+HK > P",
                 "numCmd": "41236HK > P",
                 "cmnName": "HK Demon Flip > Palm",
-                "startup": "22+8",
+                "startup": "23+8",
                 "active": 4,
                 "recovery": "13+6",
                 "onHit": "KD",
@@ -2285,12 +2454,13 @@
                     "Airborne on frame 7",
                     "6 landing recovery frames",
                     "KDA numbers stated are for latest possible palm hit",
-                    "Frame Advantage and KDA varies greatly depending on height"
+                    "Frame Advantage and KDA varies greatly depending on height",
+                    "Has 1 hit of projectile nullification"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 71
+                "i": 73
             },
             "EX Hyakkishu > Hyakki Gosho": {
                 "moveName": "EX Hyakkishu > Hyakki Gosho",
@@ -2316,12 +2486,13 @@
                     "6 landing recovery frames",
                     "Projectile invincible on frames 4 and until the follow-up move is initiated",
                     "KDA numbers stated are for latest possible palm hit",
-                    "Frame Advantage and KDA varies greatly depending on height"
+                    "Frame Advantage and KDA varies greatly depending on height",
+                    "Has 1 hit of projectile nullification"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 72
+                "i": 74
             },
             "LK Hyakkishu > Hyakki Gojin": {
                 "moveName": "LK Hyakkishu > Hyakki Gojin",
@@ -2347,7 +2518,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 73
+                "movesList": "Special (Demon Flip)",
+                "i": 75
             },
             "MK Hyakkishu > Hyakki Gojin": {
                 "moveName": "MK Hyakkishu > Hyakki Gojin",
@@ -2373,7 +2545,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 74
+                "i": 76
             },
             "HK Hyakkishu > Hyakki Gojin": {
                 "moveName": "HK Hyakkishu > Hyakki Gojin",
@@ -2399,7 +2571,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 75
+                "i": 77
             },
             "EX Hyakkishu > Hyakki Gojin": {
                 "moveName": "EX Hyakkishu > Hyakki Gojin",
@@ -2429,7 +2601,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 76
+                "i": 78
             },
             "LK Hyakkishu > Hyakki Gosai": {
                 "moveName": "LK Hyakkishu > Hyakki Gosai",
@@ -2458,7 +2630,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 77
+                "movesList": "Special (Demon Flip)",
+                "i": 79
             },
             "MK Hyakkishu > Hyakki Gosai": {
                 "moveName": "MK Hyakkishu > Hyakki Gosai",
@@ -2487,7 +2660,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 78
+                "i": 80
             },
             "HK Hyakkishu > Hyakki Gosai": {
                 "moveName": "HK Hyakkishu > Hyakki Gosai",
@@ -2516,7 +2689,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 79
+                "i": 81
             },
             "EX Hyakkishu > Hyakki Gosai": {
                 "moveName": "EX Hyakkishu > Hyakki Gosai",
@@ -2546,11 +2719,11 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 80
+                "i": 82
             },
             "EX Hyakkishu > Hyakki Gozanku": {
                 "moveName": "EX Hyakkishu > Hyakki Gozanku",
-                "plnCmd": "hcf+KK > QCF+P",
+                "plnCmd": "hcf+KK > qcf+P",
                 "numCmd": "41236KK > 236P",
                 "cmnName": "EX  Demon Flip > Fireball",
                 "startup": "6*24",
@@ -2573,11 +2746,12 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
-                "i": 81
+                "movesList": "Special (Demon Flip)",
+                "i": 83
             },
             "EX Hyakkishu > Hyakki Gorasen": {
                 "moveName": "EX Hyakkishu > Hyakki Gorasen",
-                "plnCmd": "hcf+KK > QCB+K",
+                "plnCmd": "hcf+KK > qcb+K",
                 "numCmd": "41236KK > 421K",
                 "cmnName": "EX  Demon Flip > Tatsu",
                 "startup": 6,
@@ -2599,7 +2773,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
-                "i": 82
+                "movesList": "Special (Demon Flip)",
+                "i": 84
             },
             "Ashura Senku (fwd)": {
                 "moveName": "Ashura Senku (fwd)",
@@ -2620,7 +2795,8 @@
                 "moveMotion": "DP",
                 "moveButton": "3K",
                 "nonHittingMove": true,
-                "i": 83
+                "movesList": "Special",
+                "i": 85
             },
             "Ashura Senku (back)": {
                 "moveName": "Ashura Senku (back)",
@@ -2641,7 +2817,8 @@
                 "moveMotion": "RDP",
                 "moveButton": "3K",
                 "nonHittingMove": true,
-                "i": 84
+                "movesList": "Special",
+                "i": 86
             },
             "Sekia Kuretsuha": {
                 "moveName": "Sekia Kuretsuha",
@@ -2669,8 +2846,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 85
-            }
+                "movesList": "Super",
+                "i": 87
+            },
+            "input": "None"
         },
         "vtOne": {
             "LP Gohadoken": {
@@ -2702,7 +2881,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 40
+                "i": 42
             },
             "MP Gohadoken": {
                 "moveName": "MP Gohadoken",
@@ -2733,7 +2912,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 41
+                "i": 43
             },
             "HP Gohadoken": {
                 "moveName": "HP Gohadoken",
@@ -2764,7 +2943,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 42
+                "i": 44
             },
             "LP Goshoryuken": {
                 "moveName": "LP Goshoryuken",
@@ -2775,7 +2954,7 @@
                 "active": 11,
                 "recovery": 46,
                 "onHit": "KD",
-                "onBlock": -19,
+                "onBlock": -36,
                 "damage": 180,
                 "stun": 230,
                 "kd": 35,
@@ -2791,6 +2970,7 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-8",
                     "Airborne frame 6",
+                    "Cannot hit crossup",
                     "Hard Knockdown",
                     "Spends 1500 V-Timer (37,5% V-Timer)",
                     "Akuma is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
@@ -2798,7 +2978,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 53
+                "i": 55
             },
             "MP Goshoryuken": {
                 "moveName": "MP Goshoryuken",
@@ -2809,7 +2989,7 @@
                 "active": 11,
                 "recovery": 46,
                 "onHit": "KD",
-                "onBlock": -19,
+                "onBlock": -36,
                 "damage": 180,
                 "stun": 230,
                 "kd": 35,
@@ -2825,6 +3005,7 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-9",
                     "Airborne frame 7",
+                    "Cannot hit crossup",
                     "Hard Knockdown",
                     "Spends 1500 V-Timer (37,5% V-Timer)",
                     "Akuma is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
@@ -2832,7 +3013,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 54
+                "i": 56
             },
             "HP Goshoryuken": {
                 "moveName": "HP Goshoryuken",
@@ -2843,7 +3024,7 @@
                 "active": 11,
                 "recovery": 46,
                 "onHit": "KD",
-                "onBlock": -17,
+                "onBlock": -36,
                 "damage": 180,
                 "stun": 230,
                 "kd": 35,
@@ -2859,6 +3040,7 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-10",
                     "Airborne frame 8",
+                    "Cannot hit crossup",
                     "Hard Knockdown",
                     "Spends 1500 V-Timer (37,5% V-Timer)",
                     "Akuma is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)"
@@ -2866,7 +3048,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 55
+                "i": 57
             },
             "LP Zanku Hadoken": {
                 "moveName": "LP Zanku Hadoken",
@@ -2874,7 +3056,7 @@
                 "numCmd": "236LP (air)",
                 "cmnName": "LP Air Fireball",
                 "startup": 9,
-                "recovery": 4,
+                "recovery": 5,
                 "damage": "40*40 (80)",
                 "stun": "50*50 (100)",
                 "attackLevel": "H",
@@ -2889,7 +3071,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 44
+                "i": 46
             },
             "MP Zanku Hadoken": {
                 "moveName": "MP Zanku Hadoken",
@@ -2897,7 +3079,7 @@
                 "numCmd": "236MP (air)",
                 "cmnName": "MP Air Fireball",
                 "startup": 9,
-                "recovery": 4,
+                "recovery": 5,
                 "damage": "40*40 (80)",
                 "stun": "50*50 (100)",
                 "attackLevel": "H",
@@ -2912,7 +3094,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 45
+                "i": 47
             },
             "HP Zanku Hadoken": {
                 "moveName": "HP Zanku Hadoken",
@@ -2920,7 +3102,7 @@
                 "numCmd": "236HP (air)",
                 "cmnName": "HP Air Fireball",
                 "startup": 9,
-                "recovery": 4,
+                "recovery": 5,
                 "damage": "40*40 (80)",
                 "stun": "50*50 (100)",
                 "attackLevel": "H",
@@ -2935,7 +3117,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 46
+                "i": 48
             },
             "Raging Demon": {
                 "moveName": "Raging Demon",
@@ -2964,8 +3146,10 @@
                 "moveType": "super",
                 "moveMotion": "N",
                 "moveButton": "DemonS",
-                "i": 85.01
-            }
+                "movesList": "Super",
+                "i": 87.01
+            },
+            "input": "None"
         },
         "vtTwo": {
             "EX V-Gohadoken": {
@@ -2996,6 +3180,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
+                "movesList": "Special",
                 "i": 36.01
             },
             "EX V-Sekia Goshoha": {
@@ -3025,6 +3210,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
+                "movesList": "Special",
                 "i": 36.02
             },
             "EX V-Zanku Hadoken": {
@@ -3033,7 +3219,7 @@
                 "numCmd": "236PP (air)",
                 "cmnName": "EX Air Fireball (V-Trigger 2)",
                 "startup": "5*38",
-                "recovery": 4,
+                "recovery": 9,
                 "damage": "20*30*20x2 (90)",
                 "stun": "25*50*20x2 (115)",
                 "attackLevel": "H",
@@ -3049,6 +3235,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
+                "movesList": "Special",
                 "i": 36.03
             },
             "EX V-Goshoryuken": {
@@ -3113,6 +3300,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
+                "movesList": "Special",
                 "i": 36.04
             },
             "EX V-Tatsumaki Zankukyaku": {
@@ -3156,6 +3344,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
+                "movesList": "Special",
                 "i": 36.05
             },
             "EX V-Air Tatsumaki Zankukyaku": {
@@ -3181,6 +3370,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
+                "movesList": "Special",
                 "i": 36.06
             },
             "EX V-Hyakki Gozan": {
@@ -3230,6 +3420,7 @@
                 "moveType": "special",
                 "moveMotion": "HCF",
                 "moveButton": "2K",
+                "movesList": "Special (Demon Flip)",
                 "i": 36.07
             },
             "EX V-Hyakkishu > Hyakki Gosho": {
@@ -3262,6 +3453,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "Special (Demon Flip)",
                 "i": 36.08
             },
             "EX V-Hyakkishu > Hyakki Gojin": {
@@ -3293,6 +3485,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "Special (Demon Flip)",
                 "i": 36.09
             },
             "EX V-Hyakkishu > Hyakki Gosai": {
@@ -3324,11 +3517,12 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Special (Demon Flip)",
                 "i": 36.1
             },
             "EX V-Hyakkishu > Hyakki Gozanku": {
                 "moveName": "EX V-Hyakkishu > Hyakki Gozanku",
-                "plnCmd": "hcf+KK > QCF+P",
+                "plnCmd": "hcf+KK > qcf+P",
                 "numCmd": "41236KK > 236P",
                 "cmnName": "EX  Demon Flip > Fireball (V-Trigger 2)",
                 "startup": "6*24",
@@ -3352,11 +3546,12 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
+                "movesList": "Special (Demon Flip)",
                 "i": 36.11
             },
             "EX V-Hyakkishu > Hyakki Gorasen": {
                 "moveName": "EX V-Hyakkishu > Hyakki Gorasen",
-                "plnCmd": "hcf+KK > QCB+K",
+                "plnCmd": "hcf+KK > qcb+K",
                 "numCmd": "41236KK > 421K",
                 "cmnName": "EX  Demon Flip > Tatsu (V-Trigger 2)",
                 "startup": 6,
@@ -3379,6 +3574,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "1K",
+                "movesList": "Special (Demon Flip)",
                 "i": 36.12
             },
             "Ashura Senku (fwd)": {
@@ -3401,7 +3597,7 @@
                 "moveMotion": "DP",
                 "moveButton": "3K",
                 "nonHittingMove": true,
-                "i": 83
+                "i": 85
             },
             "Ashura Senku (back)": {
                 "moveName": "Ashura Senku (back)",
@@ -3423,8 +3619,9 @@
                 "moveMotion": "RDP",
                 "moveButton": "3K",
                 "nonHittingMove": true,
-                "i": 84
-            }
+                "i": 86
+            },
+            "input": "None"
         }
     },
     "stats": {
@@ -3440,7 +3637,7 @@
         "bDash": 21,
         "bDashCHFrames": "3-10",
         "color": "#404050",
-        "phrase": "HMPH... so it's you.",
+        "phrase": "HMPH... so it's you",
         "fWalk": 5.2,
         "bWalk": 3.6,
         "fJumpDist": 212.8,
@@ -3449,6 +3646,6 @@
         "bDashDist": 109.6,
         "throwHurt": 0.25,
         "throwRange": 0.8,
-        "threeLetterCode": "gok"
+        "threeLetterCode": "aku"
     }
 }

@@ -53,6 +53,7 @@
                 "vtcOnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -85,14 +86,14 @@
                 "PPonBlock": -43,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 19,
+                "hcWinVt": 18,
                 "kd": 99,
                 "kdr": 40,
                 "kdrb": 45,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -166,6 +167,7 @@
                 "vtcOnBlock": 12,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -198,6 +200,9 @@
                 "vtcOnBlock": "14*14",
                 "damage": "50*40 (80)",
                 "stun": "75*75 (100)",
+                "hcWinSpCa": "*14",
+                "hcWinVt": "14/13",
+                "hcWinNotes": "*CA only, 1st hit",
                 "kd": "67(71)",
                 "kdr": "8(12)",
                 "kdrb": "13(17)",
@@ -280,6 +285,8 @@
                 "PPonBlock": -46,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -292,9 +299,6 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
-                "extraInfo": [
-                    "First active frames can miss certain crouching characters up close (like Vega(Claw)) at point blank, resulting in increased frame advantage (+6/+3) and enables unique frame traps"
-                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MP",
@@ -318,6 +322,8 @@
                 "PPonBlock": -43,
                 "damage": "90(80)",
                 "stun": "150(100)",
+                "hcWinSpCa": 18,
+                "hcWinVt": 24,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -334,7 +340,7 @@
                     "Forces stand on hit",
                     "10 less damage (80) and 50 less stun (100) after the 1st active frame",
                     "Solid anti-air on frames 9-11",
-                    "Last 2 active frames can hit cross-up"
+                    "Last active frame can hit cross-up"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -382,6 +388,7 @@
                 "vtcOnBlock": 4,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 17,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -410,22 +417,23 @@
                 "onBlock": -14,
                 "vsc2OnHit": "KD (+45/-4/+1)",
                 "vsc2OnBlock": -40,
-                "vtcOnHit": "KD (+86/37/42)",
+                "vtcOnHit": "KD (+90/41/46)",
                 "vtcOnBlock": 5,
-                "PPonHit": "KD (+27/-22/-17)",
+                "PPonHit": "KD (+31/-18/-13)",
                 "PPonBlock": -54,
-                "KKonHit": "KD (+27/-22/-17)",
+                "KKonHit": "KD (+31/-18/-13)",
                 "KKonBlock": -54,
                 "damage": 100,
                 "stun": 150,
-                "kd": 67,
-                "kdr": 18,
-                "kdrb": 23,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+100"
-                },
+                "hcWinSpCa": "*23",
+                "hcWinVt": 17,
+                "hcWinNotes": "*Speech/Level Up Only",
+                "kd": 71,
+                "kdr": 22,
+                "kdrb": 27,
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+100",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -472,6 +480,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Causes a spiked knockdown on airborne opponents"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "MP",
@@ -489,9 +500,6 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
-                "extraInfo": [
-                    "Causes a spiked knockdown on airborne opponents"
-                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "HP",
@@ -511,7 +519,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancels into airborne V-Skill 1 on hit or block"
+                    "Cancels into airborne V-Skill 1 on hit or block",
+                    "Instant Overhead into V-Skill 1 is -3 on Block"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -559,6 +568,7 @@
                 "moveName": "Flying President",
                 "plnCmd": "d+MP during f jump",
                 "numCmd": "9 > 2MP",
+                "cmnName": "Body Splash",
                 "startup": 9,
                 "active": 7,
                 "damage": 60,
@@ -573,10 +583,11 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 19
             },
-            "Wing President": {
-                "moveName": "Wing President",
+            "Wild President": {
+                "moveName": "Wild President",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
                 "cmnName": "Spinning Back Fist",
@@ -596,11 +607,12 @@
                 "KKonBlock": -49,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 16,
-                    "vG": "+150"
-                },
+                "hcWinSpCa": "*27",
+                "hcWinVt": 20,
+                "hcWinNotes": "*Speech/Level Up Only",
+                "ccState": "Stagger",
+                "ccAdv": 16,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -617,6 +629,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Strong President": {
@@ -640,6 +653,8 @@
                 "KKonBlock": -49,
                 "damage": "40*40 (80)",
                 "stun": "50*50 (100)",
+                "hcWinSpCa": "2020-12-21T08:00:00.000Z",
+                "hcWinVt": "2020-12-19T08:00:00.000Z",
                 "kd": 100,
                 "kdr": 41,
                 "kdrb": 46,
@@ -656,7 +671,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "1st hit forces stand on hit (does not force stand on block)",
+                    "1st hit forces stand on hit",
                     "2nd hit whiffs on crouching (resulting in -6 on block on crouchers instead of -5)",
                     "1st hit can't hit airborne",
                     "Great anti-air hitbox on 2nd hit (frames 10-13)",
@@ -667,6 +682,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Crash President": {
@@ -693,6 +709,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Message To The People (Speech 1)": {
@@ -722,6 +739,7 @@
                 "moveMotion": "DD",
                 "moveButton": "2K",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 23
             },
             "Message To The People (Speech 2)": {
@@ -804,6 +822,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 26
             },
             "Destroy President": {
@@ -828,6 +847,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 27
             },
             "Shining President": {
@@ -855,6 +875,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 28
             },
             "G Barrier": {
@@ -862,8 +883,8 @@
                 "plnCmd": "MP+MK (VS1)",
                 "numCmd": "MPMK (VS1)",
                 "cmnName": "V-Skill 1",
-                "startup": "13(9)",
-                "active": "13(27)",
+                "startup": 13,
+                "active": "13(23)",
                 "recovery": "25(35)(23)",
                 "total": "50(60)(48)",
                 "onHit": "KD",
@@ -876,6 +897,9 @@
                 "KKonBlock": -51,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": "*26",
+                "hcWinVt": 25,
+                "hcWinNotes": "*Speech/Level Up Only",
                 "kd": 94,
                 "kdr": 35,
                 "kdrb": 40,
@@ -889,10 +913,10 @@
                 "projectile": false,
                 "extraInfo": [
                     "Absorbs 1 hit of projectile (but also has a strike hitbox that knocks down on hit)",
-                    "Startup and Active frames listed refers to the Strike hitbox (13F startup with 13 active frames) and the Projectile Absorb hitbox (9F startup with 27 active frames)",
+                    "Startup and Active frames listed refers to the Strike hitbox (13F startup with 13 active frames) and the Projectile Absorb hitbox (13F startup with 23 active frames)",
                     "Recovery frames listed refers to versions that play out on Whiff (25F recovery) - Hit / Block (35F recovery) - Projectile Absorb (23F recovery)",
                     "Builds 120 / 60 V-Gauge on Hit / Block (Builds 80 V-Gauge upon successfully absorbing a projectile)",
-                    "Cancelable into G Charge (PP), Message to the People (KK), or G Protection (V-Skill 2) on hit or block (even though this move isn't special cancelable)",
+                    "Cancelable into G Charge (PP) or Message to the People (KK) (even though this move isn't special cancelable)",
                     "Can Cross-up (hit opponents behind G)",
                     "Lower hurtbox (no head or shoulder hurtbox) on frames 5-25",
                     "Forward extending arm and leg are projectile invincible on frames 9-25",
@@ -901,6 +925,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 29
             },
             "Airborne G Barrier": {
@@ -931,6 +956,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 30
             },
             "G Protection": {
@@ -952,6 +978,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 31
             },
             "Maximum President": {
@@ -960,22 +987,27 @@
                 "numCmd": "HPHK (VT1)",
                 "cmnName": "V-Trigger 1",
                 "startup": 1,
-                "recovery": 4,
-                "total": 5,
+                "recovery": "4 (9)",
+                "total": "5 (10)",
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "3 bar V-Trigger",
-                    "Duration of 3000 frames (50 seconds)",
+                    "V-Timer based on Presidentiality Level when V-Trigger is activated.",
+                    "Level 1 Duration of 2500 frames (42 seconds)",
+                    "Level 2 Duration of 3000 frames (50 seconds)",
+                    "Level 3 Duration of 3500 frames (58 seconds)",
                     "Increases G's Presidental Power to maximum (Level 3) and allows canceling from one special into another (every special or cancel costs him 300 V-Timer (10% of his V-Timer))",
                     "Also improves both grounded and airborne V-Skills and allows for canceling into them from specials",
                     "The V-Trigger 1 version of his specials are not all the same as they are normally at maximum Presidential Power (Level 3)",
-                    "G reverts back to his prior Presidential Power (Level) status that he had before activating V-Trigger after the V-Timer runs out"
+                    "G reverts back to his prior Presidential Power (Level) status that he had before activating V-Trigger after the V-Timer runs out",
+                    "If G canceled into this from a Level 3 or EX Smash attack, the recovery increases from 4f to 9f (10f total duration) but the first five frames are invulnerable."
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 32
             },
             "Dangerous President": {
@@ -991,12 +1023,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "2 bar V-Trigger",
-                    "Duration of 2000 frames (~33 seconds)",
+                    "Duration of 3000 frames (~50 seconds)",
                     "Gives G access to new special moves; G Explosion (explosive combo extension) and G Rage (armored command grab)"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 33
             },
             "G Revenge": {
@@ -1024,7 +1057,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 34
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 35
+            },
+            "G Elimination": {
+                "moveName": "G Elimination",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 36
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1043,7 +1135,7 @@
                 "moveMotion": "N",
                 "moveButton": "3P3K",
                 "nonHittingMove": true,
-                "i": 35
+                "i": 37
             },
             "Neutral Attack": {
                 "moveName": "Neutral Attack",
@@ -1071,7 +1163,8 @@
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "LP G Smash Over (Level 1)": {
                 "moveName": "LP G Smash Over (Level 1)",
@@ -1113,7 +1206,8 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 37
+                "movesList": "Special",
+                "i": 39
             },
             "MP G Smash Over (Level 1)": {
                 "moveName": "MP G Smash Over (Level 1)",
@@ -1155,7 +1249,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 38
+                "i": 40
             },
             "HP G Smash Over (Level 1)": {
                 "moveName": "HP G Smash Over (Level 1)",
@@ -1198,7 +1292,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 39
+                "i": 41
             },
             "LP G Smash Over (Level 2)": {
                 "moveName": "LP G Smash Over (Level 2)",
@@ -1240,7 +1334,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 40
+                "i": 42
             },
             "MP G Smash Over (Level 2)": {
                 "moveName": "MP G Smash Over (Level 2)",
@@ -1282,7 +1376,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 41
+                "i": 43
             },
             "HP G Smash Over (Level 2)": {
                 "moveName": "HP G Smash Over (Level 2)",
@@ -1325,7 +1419,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 42
+                "i": 44
             },
             "G Smash Over (Level 3)": {
                 "moveName": "G Smash Over (Level 3)",
@@ -1359,7 +1453,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancelable into G Charge (PP), Message to the People (KK), or G Protection (V-Skill 2) on 2nd hit only (even though this move isn't special cancelable)",
+                    "Cancelable into G Charge (PP), Message to the People (KK), or G Protection (V-Skill 2) on 2nd hit only",
+                    "Cancelable into any EX move on hit or block",
                     "Only 1st hit is cancelable into V-Trigger 1 on hit or block",
                     "Only 2nd hit is special cancelable into V-Trigger 2 post-activation on hit",
                     "1st hit hit launches opponent on hit into a free juggle state",
@@ -1372,7 +1467,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1P",
-                "i": 43
+                "i": 45
             },
             "EX G Smash Over": {
                 "moveName": "EX G Smash Over",
@@ -1418,7 +1513,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 44
+                "i": 46
             },
             "LK G Smash Under (Level 1)": {
                 "moveName": "LK G Smash Under (Level 1)",
@@ -1461,7 +1556,8 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 45
+                "movesList": "Special",
+                "i": 47
             },
             "MK G Smash Under (Level 1)": {
                 "moveName": "MK G Smash Under (Level 1)",
@@ -1505,7 +1601,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 46
+                "i": 48
             },
             "HK G Smash Under (Level 1)": {
                 "moveName": "HK G Smash Under (Level 1)",
@@ -1549,7 +1645,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 47
+                "i": 49
             },
             "LK G Smash Under (Level 2)": {
                 "moveName": "LK G Smash Under (Level 2)",
@@ -1592,7 +1688,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 48
+                "i": 50
             },
             "MK G Smash Under (Level 2)": {
                 "moveName": "MK G Smash Under (Level 2)",
@@ -1636,7 +1732,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 49
+                "i": 51
             },
             "HK G Smash Under (Level 2)": {
                 "moveName": "HK G Smash Under (Level 2)",
@@ -1681,7 +1777,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 50
+                "i": 52
             },
             "G Smash Under (Level 3)": {
                 "moveName": "G Smash Under (Level 3)",
@@ -1715,7 +1811,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancelable into G Charge (PP), Message to the People (KK), or G Protection (V-Skill 2) on 2nd hit only (even though this move isn't special cancelable)",
+                    "Cancelable into G Charge (PP), Message to the People (KK), or G Protection (V-Skill 2) on 2nd hit only",
+                    "Cancelable into any EX move on hit or block",
                     "Startup frames based on proximity range to target (up to 18F startup if not in range yet)",
                     "Launches opponent into a limited juggle state on hit",
                     "Only 1st hit is cancelable into V-Trigger 1 on hit or block",
@@ -1725,7 +1822,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1K",
-                "i": 51
+                "i": 53
             },
             "EX G Smash Under": {
                 "moveName": "EX G Smash Under",
@@ -1768,7 +1865,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2K",
-                "i": 52
+                "i": 54
             },
             "LP G Burst (Level 1)": {
                 "moveName": "LP G Burst (Level 1)",
@@ -1777,10 +1874,10 @@
                 "cmnName": "LP Fireball (Level 1)",
                 "startup": 15,
                 "active": 11,
-                "recovery": 31,
-                "total": 46,
-                "onHit": -3,
-                "onBlock": -8,
+                "recovery": 34,
+                "total": 49,
+                "onHit": -6,
+                "onBlock": -11,
                 "vsc2OnHit": -39,
                 "vsc2OnBlock": -44,
                 "PPonHit": -53,
@@ -1806,7 +1903,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 53
+                "movesList": "Special",
+                "i": 55
             },
             "MP G Burst (Level 1)": {
                 "moveName": "MP G Burst (Level 1)",
@@ -1844,7 +1942,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 54
+                "i": 56
             },
             "HP G Burst (Level 1)": {
                 "moveName": "HP G Burst (Level 1)",
@@ -1882,7 +1980,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 55
+                "i": 57
             },
             "LP G Burst (Level 2)": {
                 "moveName": "LP G Burst (Level 2)",
@@ -1891,10 +1989,10 @@
                 "cmnName": "LP Fireball (Level 2)",
                 "startup": 15,
                 "active": 11,
-                "recovery": 31,
-                "total": 46,
-                "onHit": 0,
-                "onBlock": -5,
+                "recovery": 34,
+                "total": 49,
+                "onHit": -3,
+                "onBlock": -8,
                 "vsc2OnHit": -36,
                 "vsc2OnBlock": -41,
                 "PPonHit": -50,
@@ -1920,7 +2018,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 56
+                "i": 58
             },
             "MP G Burst (Level 2)": {
                 "moveName": "MP G Burst (Level 2)",
@@ -1958,7 +2056,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 57
+                "i": 59
             },
             "HP G Burst (Level 2)": {
                 "moveName": "HP G Burst (Level 2)",
@@ -1996,7 +2094,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 58
+                "i": 60
             },
             "G Burst (Level 3)": {
                 "moveName": "G Burst (Level 3)",
@@ -2034,6 +2132,7 @@
                 "projectile": true,
                 "extraInfo": [
                     "Cancelable into G Charge (PP), Message to the People (KK), or G Protection (V-Skill 2) on hit, block, and whiff (even though this move isn't special cancelable)",
+                    "Cancelable into any EX move on hit or block",
                     "Special cancelable into V-Trigger 2 post-activation on hit or block",
                     "Canceling into V-Skill 2 is less punishable if fireball hits (-11); KDA listed is if fireball only hits (corner) / splash hitbox (midscreen)",
                     "2-hit projectile hitbox seperated by active frames (13+16) so it's not as good at nullifying other 2-hit fireballs as Level 2 Fireball is",
@@ -2043,7 +2142,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
-                "i": 59
+                "i": 61
             },
             "EX G Burst": {
                 "moveName": "EX G Burst",
@@ -2089,7 +2188,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 60
+                "i": 62
             },
             "LK G Spin Kick (Level 1)": {
                 "moveName": "LK G Spin Kick (Level 1)",
@@ -2129,7 +2228,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 61
+                "movesList": "Special",
+                "i": 63
             },
             "MK G Spin Kick (Level 1)": {
                 "moveName": "MK G Spin Kick (Level 1)",
@@ -2169,7 +2269,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 62
+                "i": 64
             },
             "HK G Spin Kick (Level 1)": {
                 "moveName": "HK G Spin Kick (Level 1)",
@@ -2209,7 +2309,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 63
+                "i": 65
             },
             "LK G Spin Kick (Level 2)": {
                 "moveName": "LK G Spin Kick (Level 2)",
@@ -2249,7 +2349,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 64
+                "i": 66
             },
             "MK G Spin Kick (Level 2)": {
                 "moveName": "MK G Spin Kick (Level 2)",
@@ -2289,7 +2389,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 65
+                "i": 67
             },
             "HK G Spin Kick (Level 2)": {
                 "moveName": "HK G Spin Kick (Level 2)",
@@ -2329,7 +2429,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 66
+                "i": 68
             },
             "G Spin Kick (Level 3)": {
                 "moveName": "G Spin Kick (Level 3)",
@@ -2356,6 +2456,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Cancelable into G Charge (PP), Message to the People (KK), or G Protection (V-Skill 2) on hit only (even though this move isn't special cancelable)",
+                    "Cancelable into any EX move on hit or block",
                     "Projectile invincible on frames 4-30",
                     "Airborne on frames 16-30",
                     "1st hit and first 5 active frames of the 2nd hit cannot hit grounded (doesn't connect on grounded opponents until frame 25)"
@@ -2363,7 +2464,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
-                "i": 67
+                "i": 69
             },
             "EX G Spin Kick": {
                 "moveName": "EX G Spin Kick",
@@ -2397,7 +2498,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 68
+                "i": 70
             },
             "G Impact (Level 1)": {
                 "moveName": "G Impact (Level 1)",
@@ -2425,7 +2526,8 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "1K",
-                "i": 69
+                "movesList": "Special",
+                "i": 71
             },
             "G Impact (Level 2)": {
                 "moveName": "G Impact (Level 2)",
@@ -2465,7 +2567,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "1K",
-                "i": 70
+                "i": 72
             },
             "G Impact (Level 3)": {
                 "moveName": "G Impact (Level 3)",
@@ -2503,7 +2605,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "1K",
-                "i": 71
+                "i": 73
             },
             "EX G Impact": {
                 "moveName": "EX G Impact",
@@ -2516,8 +2618,8 @@
                 "total": "73(68)",
                 "onHit": "KD",
                 "PPonHit": "KD (+58/-1/-1)",
-                "damage": "20*30x2 (80)",
-                "stun": 120,
+                "damage": "30*40x2 (110)",
+                "stun": 150,
                 "kd": 108,
                 "kdr": 49,
                 "kdrb": 49,
@@ -2541,7 +2643,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 72
+                "i": 74
             },
             "G Charge": {
                 "moveName": "G Charge",
@@ -2564,7 +2666,8 @@
                 "moveMotion": "DD",
                 "moveButton": "2P",
                 "nonHittingMove": true,
-                "i": 73
+                "movesList": "Special",
+                "i": 75
             },
             "G Charge (Hold)": {
                 "moveName": "G Charge (Hold)",
@@ -2586,7 +2689,7 @@
                 "moveMotion": "DD",
                 "moveButton": "2P",
                 "nonHittingMove": true,
-                "i": 74
+                "i": 76
             },
             "G Charge (Cancel)": {
                 "moveName": "G Charge (Cancel)",
@@ -2609,7 +2712,7 @@
                 "moveMotion": "N",
                 "moveButton": "2P",
                 "nonHittingMove": true,
-                "i": 75
+                "i": 77
             },
             "Pangaea Burst": {
                 "moveName": "Pangaea Burst",
@@ -2643,8 +2746,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 76
-            }
+                "movesList": "Super",
+                "i": 78
+            },
+            "input": "None"
         },
         "vtOne": {
             "G Smash Over (V-Trigger 1)": {
@@ -2690,6 +2795,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 32.01
             },
             "G Smash Under (V-Trigger 1)": {
@@ -2732,6 +2838,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 32.02
             },
             "G Burst (V-Trigger 1)": {
@@ -2774,6 +2881,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 32.03
             },
             "G Spin Kick (V-Trigger 1)": {
@@ -2804,7 +2912,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can be canceled into another V-Trigger 1 special on hit or block (but only 1 special cancel is allowed)",
+                    "Can be canceled into another V-Trigger 1 special on hit, block, or whiff (but only 1 special cancel is allowed)",
                     "Cancelable into Message to the People (KK) on 2nd hit only (even though this move isn't special cancelable) but not cancelable into G Charge (PP) like normally outside V-Trigger 1",
                     "Projectile invincible on frames 4-30",
                     "Airborne on frames 16-30",
@@ -2814,6 +2922,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 32.04
             },
             "G Impact (V-Trigger 1)": {
@@ -2854,13 +2963,14 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 32.05
             },
             "G Barrier": {
                 "moveName": "G Barrier",
                 "plnCmd": "MP+MK (VS1)",
                 "numCmd": "MPMK (VS1)",
-                "cmnName": "V-Skill 1 (V-Trigger 1)",
+                "cmnName": "V-Skill 1",
                 "startup": "13*32(9)",
                 "active": "26(30)",
                 "recovery": 25,
@@ -2885,18 +2995,19 @@
                     "Lower hurtbox (no head or shoulder hurtbox) on frames 5-50",
                     "Forward extending arm and leg are projectile invincible on frames 9-50",
                     "Juggle Limit / Increase / Start: 3*70 / 10*1 / 1*1",
-                    "Spends 300 V-Timer (10% of V-Timer)"
+                    "Spends 500 V-Timer (20% of Level 1 V-Timer, 17% of Level 2 V-Timer, 14% of Level 3 V-Timer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 29
             },
             "Airborne G Barrier": {
                 "moveName": "Airborne G Barrier",
                 "plnCmd": "MP+MK (VS1) (air)",
                 "numCmd": "MPMK (VS1) (air)",
-                "cmnName": "Airborne V-Skill (V-Trigger 1)",
+                "cmnName": "Airborne V-Skill",
                 "startup": "13*31(9)",
                 "active": "24(28)",
                 "recovery": 11,
@@ -2917,13 +3028,15 @@
                     "11F landing recovery frames",
                     "Secondary hurtbox extension during active frames (frames 13-49) are projectile invincible (but the initial hurtbox behind it is not projectile invincible)",
                     "Juggle Limit / Increase / Start: 1*70 / 1*1 / 2*1",
-                    "Spends 300 V-Timer (10% of V-Timer)"
+                    "Spends 500 V-Timer (20% of Level 1 V-Timer, 17% of Level 2 V-Timer, 14% of Level 3 V-Timer)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 30
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "G Explosion": {
@@ -2943,11 +3056,11 @@
                 "PPonBlock": -51,
                 "KKonHit": "KD (+67/8/13)",
                 "KKonBlock": -51,
-                "damage": "50*100 (150)",
+                "damage": "50*120 (170)",
                 "stun": 200,
-                "kd": 94,
-                "kdr": 35,
-                "kdrb": 40,
+                "kd": 93,
+                "kdr": 34,
+                "kdrb": 39,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2961,6 +3074,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 33.01
             },
             "G Rage": {
@@ -2991,8 +3105,10 @@
                 "moveType": "special",
                 "moveMotion": "D",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 33.02
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

@@ -41,12 +41,16 @@
                 "active": 3,
                 "recovery": 10,
                 "total": 17,
-                "onHit": 7,
-                "onBlock": 1,
+                "onHit": 6,
+                "onBlock": 2,
                 "vtcOnHit": 11,
                 "vtcOnBlock": 5,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*17",
+                "hcWinTc": 19,
+                "hcWinVt": 16,
+                "hcWinNotes": "*MP > HP",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -79,16 +83,18 @@
                 "vtcOnBlock": 8,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 20,
+                "hcWinTc": 20,
+                "hcWinVt": 22,
                 "kd": 99,
                 "kdr": 35,
                 "kdrb": 40,
-                "crushAdv": {
-                    "state": "Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
+                    "sp",
                     "su",
                     "vt1",
                     "vt2"
@@ -98,7 +104,6 @@
                 "projectile": false,
                 "extraInfo": [
                     "Crush Counters into a free juggle Knockdown state (see KDA data)",
-                    "Special Cancelable during V-Trigger 1 / 2",
                     "Cannot hit cross-up (behind Ryu) while in V-Trigger 1 / 2 (don't ask me why)"
                 ],
                 "moveType": "normal",
@@ -153,6 +158,7 @@
                 "vtcOnBlock": 7,
                 "damage": 70,
                 "stun": 100,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -184,11 +190,10 @@
                 "vtcOnBlock": "-1(16)",
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 15,
-                    "vG": "+150"
-                },
+                "hcWinVt": 23,
+                "ccState": "Stagger",
+                "ccAdv": 15,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -199,8 +204,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Cannot hit crouch",
-                    "This move IS cancelable on block into V-Triggers but you have to delay it and time it properly to get the most frame advantage out of it (varies from -1 -> +16 on block)",
-                    "Capcom doesn't know how to do scripts properly"
+                    "This move IS cancelable on block into V-Triggers but you have to delay the VT input until AFTER the block hitstop is over to get the most frame advantage out of it (varies from -1 -> +16 on block)",
+                    "Capcom doesn't know how to do cancel scripts properly"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -254,6 +259,8 @@
                 "vtcOnBlock": 8,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -283,6 +290,8 @@
                 "vtcOnBlock": 9,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 15,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -296,7 +305,8 @@
                 "extraInfo": [
                     "Forces standing state on hit",
                     "70 damage and not cancelable after first active frame",
-                    "Can't hit cross-up (behind Ryu)"
+                    "Cannot hit cross-up (behind Ryu)",
+                    "Reduced arm hurtbox on first active frame during VT1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -338,16 +348,18 @@
                 "moveName": "Crouch MK",
                 "plnCmd": "d+MK",
                 "numCmd": "2MK",
-                "startup": 7,
+                "startup": 6,
                 "active": 3,
                 "recovery": 13,
-                "total": 22,
+                "total": 21,
                 "onHit": 2,
                 "onBlock": -1,
                 "vtcOnHit": 9,
                 "vtcOnBlock": 6,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -371,24 +383,23 @@
                 "moveName": "Crouch HK",
                 "plnCmd": "d+HK",
                 "numCmd": "2HK",
-                "startup": 8,
+                "startup": 7,
                 "active": 2,
                 "recovery": 22,
-                "total": 31,
+                "total": 30,
                 "onHit": "KD",
                 "onBlock": -11,
                 "vtcOnHit": "KD (+83/34/39)",
                 "vtcOnBlock": 12,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 16,
                 "kd": 69,
                 "kdr": 20,
                 "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -549,6 +560,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Solar Plexus Strike": {
@@ -562,8 +574,13 @@
                 "total": 39,
                 "onHit": 8,
                 "onBlock": -2,
+                "vtcOnHit": 13,
+                "vtcOnBlock": 7,
                 "damage": "40*40",
                 "stun": "75*75",
+                "hcWinSpCa": "*29",
+                "hcWinVt": "**31",
+                "hcWinNotes": "*DP only, **VT2 Parry",
                 "multiActive": [
                     17,
                     18,
@@ -572,18 +589,21 @@
                 ],
                 "attackLevel": "H*H",
                 "cancelsTo": [
-                    "sp"
+                    "sp",
+                    "vt1",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "Can be canceled into Shoryuken on hit or block",
-                    "If 2nd part whiffs it results in +8/-7"
+                    "Can be canceled into VT2 Parry on hit/block and during most of recovery"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Axe Kick": {
@@ -601,6 +621,9 @@
                 "vtcOnBlock": "17*12",
                 "damage": "40*40",
                 "stun": "60*90",
+                "hcWinSpCa": "17/19",
+                "hcWinVt": "14/19/*17/*28",
+                "hcWinNotes": "*VT2 Parry",
                 "multiActive": [
                     8,
                     9,
@@ -628,6 +651,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Jodan Sanrengeki 1st": {
@@ -640,10 +664,12 @@
                 "recovery": "21(28)",
                 "onHit": -2,
                 "onBlock": -9,
-                "vtcOnHit": 12,
-                "vtcOnBlock": 5,
+                "vtcOnHit": "12(11)",
+                "vtcOnBlock": "5(4)",
                 "damage": "60*63 (123)",
                 "stun": "100*90 (190)",
+                "hcWinTc": 19,
+                "hcWinVt": 17,
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt1",
@@ -653,11 +679,14 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "+7 extra Recovery frames on whiff"
+                    "HP has +7 extra Recovery frames on whiff",
+                    "Second hit (HP) can be substituted with crouch HP instead to force stand on a crouching opponent",
+                    "Crouch HP version has 1 less VTC advantage"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 22
             },
             "Jodan Sanrengeki 2nd": {
@@ -674,11 +703,14 @@
                 "vtcOnBlock": 9,
                 "damage": "60*63*56 (179)",
                 "stun": "100*90*80 (270)",
+                "hcWinTc": "19/20",
+                "hcWinVt": 13,
                 "kd": 80,
                 "kdr": 27,
                 "kdrb": 32,
                 "attackLevel": "H*H*H",
                 "cancelsTo": [
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -686,12 +718,15 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
+                    "Second hit (HP) can be substituted with crouch HP instead to force stand on a crouching opponent",
                     "Last hit (HK) cannot hit crouch",
-                    "Last hit (HK) puts grounded opponents into a free juggle state"
+                    "Last hit (HK) puts grounded opponents into a free juggle state",
+                    "Can be canceled on hit into V-Skill 2 (KDA +86/27/32)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Jodan Nirengeki": {
@@ -708,11 +743,14 @@
                 "vtcOnBlock": 9,
                 "damage": "90*63 (153)",
                 "stun": "150*90 (240)",
+                "hcWinTc": 20,
+                "hcWinVt": 13,
                 "kd": 80,
                 "kdr": 27,
                 "kdrb": 32,
                 "attackLevel": "H*H",
                 "cancelsTo": [
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -722,11 +760,13 @@
                 "extraInfo": [
                     "Second hit (HK) cannot hit crouch",
                     "Second hit (HK) keeps the opponent in a free juggle state if the first hit (HP) was a Crush Counter",
-                    "Last hit (HK) puts grounded opponents into a free juggle state"
+                    "Second hit (HK) puts grounded opponents into a free juggle state",
+                    "Can be canceled on hit into V-Skill 2 (KDA +86/27/32)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Shoulder Throw": {
@@ -752,6 +792,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 25
             },
             "Somersault Throw": {
@@ -777,6 +818,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 26
             },
             "Mind's Eye": {
@@ -793,7 +835,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Can parry any kind of strike or projectile attack",
-                    "Upon a successful parry; Can cancel into another V-Skill or V-Trigger 2 parry",
+                    "Upon a successful parry; Ryu gains 50 V-Gauge and can cancel into any EX special, Super, another V-Skill, or V-Trigger 2 parry",
                     "V-Skill parry has 1-frame startup if canceled into from a prior V-Skill parry",
                     "5 frames of recovery on a successful parry",
                     "When a parry is successful the game freezes momentarily (18F hitstop) where 1F into the freeze Ryu becomes fully invincible for 1 frame and then Projectile invincible for 15 frames (after 18 freeze frames, the opponent starts moving again and Ryu has 5 frames of recovery with no form of invincibility)",
@@ -804,6 +846,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 27
             },
             "Thrust Strike": {
@@ -812,14 +855,14 @@
                 "numCmd": "MPMK (VS2)",
                 "cmnName": "V-Skill 2",
                 "startup": "25(10)",
-                "active": 2,
-                "recovery": "21(26)",
+                "active": 4,
+                "recovery": "19(26)",
                 "total": "47(52)",
                 "onHit": "KD",
                 "onBlock": -4,
                 "vtcOnHit": "KD (+103/44/49)",
                 "vtcOnBlock": 10,
-                "damage": "60(120)",
+                "damage": "70(120)",
                 "stun": "100(200)",
                 "kd": "89(79/60)",
                 "kdr": "30(20/28)",
@@ -842,11 +885,14 @@
                     "Startup / Active / Recovery frames shown refers to the non-parry version (Startup shown in the parantheses (10) refers to the startup of the parry window)",
                     "5 extra recovery frames on whiff (26F)",
                     "KDA data shown in the parantheses (X/Y) refers to the successful parry version (2-hits/1-hit ONLY)",
+                    "Gains 60 / 30 V-Gauge on Hit / Block",
+                    "Succcessful parry version gains 100 / 50 V-Gauge on Hit / Block",
                     "Juggle Limit: 10"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 28
             },
             "Denjin Renki": {
@@ -862,7 +908,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "2 bar V-Trigger",
-                    "Duration of 800 frames (~13 seconds)",
+                    "Duration of 100 frames (~16.6 seconds)",
                     "Enhances Shinku Hadoken to Denjin Hadoken",
                     "Improves all of Ryu's punches / Fireballs / Shoryukens"
                 ],
@@ -870,6 +916,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 29
             },
             "Kakko Fubatsu": {
@@ -886,12 +933,14 @@
                 "extraInfo": [
                     "2 bar V-Trigger",
                     "Duration of 3000 frames (50 seconds)",
-                    "Allows Ryu to perform an enhanced parry via the HP+HK input"
+                    "Allows Ryu to perform an enhanced parry via the HP+HK input",
+                    "Can also perform a strike version of the parry when canceling from non-EX Shoryuken, non-EX Donkey Kick, and all Fireballs"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 30
             },
             "Hashogeki": {
@@ -920,7 +969,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 31
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.09 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 32
+            },
+            "Fumikomi Joden Kagizuki": {
+                "moveName": "Fumikomi Joden Kagizuki",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 33
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -937,7 +1045,7 @@
                 "moveMotion": "N",
                 "moveButton": "3P3K",
                 "nonHittingMove": true,
-                "i": 32
+                "i": 34
             },
             "LP Hadoken": {
                 "moveName": "LP Hadoken",
@@ -953,7 +1061,8 @@
                 "stun": 100,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -962,12 +1071,14 @@
                     "1-hit projectile",
                     "Projectile Speed: 0.53",
                     "Not projectile invincible on extended arms or leg during startup",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +72/13/18)",
                     "Juggle Limit / Increase / Start: 0 / 4 / 3"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 33
+                "movesList": "Special",
+                "i": 35
             },
             "MP Hadoken": {
                 "moveName": "MP Hadoken",
@@ -983,7 +1094,8 @@
                 "stun": 100,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -992,12 +1104,13 @@
                     "1-hit projectile",
                     "Projectile Speed: 0.66",
                     "Not projectile invincible on extended arms or leg during startup",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +72/13/18)",
                     "Juggle Limit / Increase / Start: 0 / 4 / 3"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 34
+                "i": 36
             },
             "HP Hadoken": {
                 "moveName": "HP Hadoken",
@@ -1013,7 +1126,8 @@
                 "stun": 100,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1022,19 +1136,20 @@
                     "1-hit projectile",
                     "Projectile Speed: 0.80",
                     "Not projectile invincible on extended arms or leg during startup",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +72/13/18)",
                     "Juggle Limit / Increase / Start: 0 / 4 / 3"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 35
+                "i": 37
             },
             "EX Hadoken": {
                 "moveName": "EX Hadoken",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "cmnName": "EX Fireball",
-                "startup": 11,
+                "startup": "11(10)",
                 "recovery": 31,
                 "total": 42,
                 "onHit": "KD",
@@ -1043,9 +1158,9 @@
                 "vtcOnBlock": 19,
                 "damage": "40*60",
                 "stun": "0*150",
-                "kd": 95,
-                "kdr": 37,
-                "kdrb": 42,
+                "kd": 97,
+                "kdr": 39,
+                "kdrb": 44,
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt1",
@@ -1059,12 +1174,14 @@
                     "Projectile Speed: 0.85",
                     "V-Trigger cancelable on hit/block",
                     "No hurtbox on extended arms of legs until frame 13",
-                    "Juggle Limit / Increase / Start: 4*4 / 0*4 / 0*4"
+                    "1 frame less startup when done from crouch LP",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +74/15/21)",
+                    "Juggle Limit / Increase / Start: 4*4 / 0*4 / 0*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 36
+                "i": 38
             },
             "LP Shoryuken": {
                 "moveName": "LP Shoryuken",
@@ -1077,14 +1194,15 @@
                 "total": 44,
                 "onHit": "KD",
                 "onBlock": -24,
-                "damage": "100(60)",
+                "damage": "110(60)",
                 "stun": "150(100)",
                 "kd": 89,
                 "kdr": 30,
                 "kdrb": 35,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1094,7 +1212,7 @@
                     "Airborne on frames 3-33",
                     "60 dmg / 100 stun on later active frames",
                     "Ryu is in counterhit state during move duration",
-                    "Cancelable into early from a successful V-Trigger 2 Parry",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +72/13/18)",
                     "Active frames 1-2: Juggle Limit / Increase / Start: 0 / 5 / 5",
                     "Active frames 3-4: Juggle Limit / Increase / Start: 0 / 5 / 99",
                     "Active frames 5-12: Juggle Limit / Increase / Start: 0 / 99 / 99",
@@ -1103,7 +1221,8 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 37
+                "movesList": "Special",
+                "i": 39
             },
             "MP Shoryuken": {
                 "moveName": "MP Shoryuken",
@@ -1123,7 +1242,8 @@
                 "kdrb": 27,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1133,7 +1253,7 @@
                     "Airborne on frames 6-40",
                     "60 dmg / 100 stun on later active frames",
                     "Ryu is in counterhit state during move duration",
-                    "Cancelable into early from a successful V-Trigger 2 Parry",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +72/13/18)",
                     "Active frames 1-2: Juggle Limit / Increase / Start: 0 / 5 / 5",
                     "Active frames 3-4: Juggle Limit / Increase / Start: 0 / 5 / 99",
                     "Active frames 5-11: Juggle Limit / Increase / Start: 0 / 99 / 99",
@@ -1142,7 +1262,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 38
+                "i": 40
             },
             "HP Shoryuken": {
                 "moveName": "HP Shoryuken",
@@ -1162,7 +1282,8 @@
                 "kdrb": 25,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1173,16 +1294,16 @@
                     "Deals 10 less damage (120) on the second active frame",
                     "60 dmg / 150 stun on later active frames",
                     "Ryu is in counterhit state during move duration",
-                    "Cancelable into early from a successful V-Trigger 2 Parry",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +74/15/20)",
                     "Active frames 1-2: Juggle Limit / Increase / Start: 0 / 5 / 5",
                     "Active frames 3-4: Juggle Limit / Increase / Start: 0 / 5 / 99",
-                    "Active frames 5-10: Juggle Limit / Increase / Start: 0 / 99 / 99",
+                    "Active frames 5-10: Juggle Limit / Increase / Start: 1 / 99 / 99",
                     "Juggle Limit increased from 0 -> 6 in V-Trigger 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 39
+                "i": 41
             },
             "EX Shoryuken": {
                 "moveName": "EX Shoryuken",
@@ -1207,14 +1328,16 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-15",
                     "Airborne on frames 5-43",
+                    "Can hit crossups from 5th frame (2nd hit)",
                     "Ryu is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Cancelable into early from a successful V-Trigger 2 Parry",
+                    "Only does one hit on block/armor",
                     "Juggle Limit: 7 (Juggle Limit increased from 7 -> 8 in V-Trigger 1)"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 40
+                "i": 42
             },
             "LK Tatsumaki Senpukyaku": {
                 "moveName": "LK Tatsumaki Senpukyaku",
@@ -1227,7 +1350,7 @@
                 "total": 41,
                 "onHit": "KD",
                 "onBlock": -10,
-                "damage": 90,
+                "damage": 80,
                 "stun": 150,
                 "kd": 95,
                 "kdr": 36,
@@ -1238,13 +1361,14 @@
                 "projectile": false,
                 "extraInfo": [
                     "Airborne on frames 6-29",
-                    "Juggle Limit / Increase / Start: 0 / 9 / 8",
+                    "Juggle Limit / Increase / Start: 1 / 9 / 8",
                     "Less Juggle Increase (+8) when canceled into from stand HP during V-Trigger 1 / 2"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 41
+                "movesList": "Special",
+                "i": 43
             },
             "MK Tatsumaki Senpukyaku": {
                 "moveName": "MK Tatsumaki Senpukyaku",
@@ -1257,7 +1381,7 @@
                 "total": 59,
                 "onHit": "KD",
                 "onBlock": -12,
-                "damage": 100,
+                "damage": 90,
                 "stun": 150,
                 "kd": 77,
                 "kdr": 18,
@@ -1269,12 +1393,12 @@
                 "extraInfo": [
                     "Airborne on frames 7-47",
                     "Lower body is Projectile invincible on frames 6-45",
-                    "Juggle Limit / Increase / Start: 0*0 / 99*99 / 5*5"
+                    "Juggle Limit / Increase / Start: 1*1 / 99*99 / 5*5"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 42
+                "i": 44
             },
             "HK Tatsumaki Senpukyaku": {
                 "moveName": "HK Tatsumaki Senpukyaku",
@@ -1287,7 +1411,7 @@
                 "total": 75,
                 "onHit": "KD",
                 "onBlock": -13,
-                "damage": 110,
+                "damage": 100,
                 "stun": 150,
                 "kd": 64,
                 "kdr": 5,
@@ -1299,12 +1423,12 @@
                 "extraInfo": [
                     "Airborne on frames 7-63",
                     "Lower body is Projectile invincible on frames 9-61",
-                    "Juggle Limit / Increase / Start: 0*0*0 / 99*99*99 / 5*5*5"
+                    "Juggle Limit / Increase / Start: 1*1*1 / 99*99*99 / 5*5*5"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 43
+                "i": 45
             },
             "EX Tatsumaki Senpukyaku": {
                 "moveName": "EX Tatsumaki Senpukyaku",
@@ -1329,12 +1453,12 @@
                 "extraInfo": [
                     "Airborne on frames 5-46",
                     "Lower body is Projectile invincible on frames 7-36",
-                    "Juggle Limit / Increase / Start: 0 / 1*0*0*0*4 / 0*0*0*0*1"
+                    "Juggle Limit / Increase / Start: 2 / 0*0*0*0*6 / 0*0*0*0*1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 44
+                "i": 46
             },
             "LK Air Tatsumaki Senpukyaku": {
                 "moveName": "LK Air Tatsumaki Senpukyaku",
@@ -1361,7 +1485,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 45
+                "movesList": "Special",
+                "i": 47
             },
             "MK Air Tatsumaki Senpukyaku": {
                 "moveName": "MK Air Tatsumaki Senpukyaku",
@@ -1388,7 +1513,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 46
+                "i": 48
             },
             "HK Air Tatsumaki Senpukyaku": {
                 "moveName": "HK Air Tatsumaki Senpukyaku",
@@ -1415,7 +1540,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 47
+                "i": 49
             },
             "EX Air Tatsumaki Senpukyaku": {
                 "moveName": "EX Air Tatsumaki Senpukyaku",
@@ -1440,7 +1565,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 48
+                "i": 50
             },
             "LK Jodan Sokutou Geri": {
                 "moveName": "LK Jodan Sokutou Geri",
@@ -1452,27 +1577,30 @@
                 "recovery": 28,
                 "total": 39,
                 "onHit": "KD",
-                "onBlock": -16,
-                "damage": 70,
+                "onBlock": -15,
+                "damage": 90,
                 "stun": 150,
                 "kd": 83,
                 "kdr": 24,
                 "kdrb": 29,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "Fastest but shortest range of the Donkey Kicks",
-                    "Juggle Limit / Increase / Start: 2 / 1 / 1"
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +75/16/21)",
+                    "Juggle Limit / Increase / Start: 6 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 49
+                "movesList": "Special",
+                "i": 51
             },
             "MK Jodan Sokutou Geri": {
                 "moveName": "MK Jodan Sokutou Geri",
@@ -1484,39 +1612,7 @@
                 "recovery": 28,
                 "total": 45,
                 "onHit": "KD",
-                "onBlock": -16,
-                "damage": 80,
-                "stun": 150,
-                "kd": 83,
-                "kdr": 24,
-                "kdrb": 29,
-                "attackLevel": "H",
-                "cancelsTo": [
-                    "su"
-                ],
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "extraInfo": [
-                    "Same horizontal range as LK Donkey Kick",
-                    "Juggle Limit / Increase / Start: 6 / 1 / 1"
-                ],
-                "moveType": "special",
-                "moveMotion": "QCF",
-                "moveButton": "MK",
-                "i": 50
-            },
-            "HK Jodan Sokutou Geri": {
-                "moveName": "HK Jodan Sokutou Geri",
-                "plnCmd": "hcf+HK",
-                "numCmd": "41236HK",
-                "cmnName": "HK Donkey Kick",
-                "startup": 18,
-                "active": 2,
-                "recovery": 28,
-                "total": 47,
-                "onHit": "KD",
-                "onBlock": -16,
+                "onBlock": -15,
                 "damage": 100,
                 "stun": 150,
                 "kd": 83,
@@ -1524,36 +1620,73 @@
                 "kdrb": 29,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt2"
+                ],
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Same horizontal range as LK Donkey Kick",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +75/16/21)",
+                    "Juggle Limit / Increase / Start: 6 / 1 / 1"
+                ],
+                "moveType": "special",
+                "moveMotion": "QCF",
+                "moveButton": "MK",
+                "i": 52
+            },
+            "HK Jodan Sokutou Geri": {
+                "moveName": "HK Jodan Sokutou Geri",
+                "plnCmd": "hcf+HK",
+                "numCmd": "41236HK",
+                "cmnName": "HK Donkey Kick",
+                "startup": "18(17)",
+                "active": 2,
+                "recovery": 28,
+                "total": 47,
+                "onHit": "KD",
+                "onBlock": -15,
+                "damage": 110,
+                "stun": 150,
+                "kd": 83,
+                "kdr": 24,
+                "kdrb": 29,
+                "attackLevel": "H",
+                "cancelsTo": [
+                    "su",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
                     "Slowest but furthest range of the Donkey Kicks",
+                    "Cancelable into early from a successful V-Trigger 2 Parry (KDA +75/16/21)",
+                    "1 frame less starup when done from standing MP",
                     "Juggle Limit / Increase / Start: 6 / 1 / 1"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 51
+                "i": 53
             },
             "EX Jodan Sokutou Geri": {
                 "moveName": "EX Jodan Sokutou Geri",
                 "plnCmd": "hcf+KK",
                 "numCmd": "41236KK",
                 "cmnName": "EX Donkey Kick",
-                "startup": 18,
+                "startup": 17,
                 "active": 2,
-                "recovery": 36,
-                "total": 55,
+                "recovery": 33,
+                "total": 51,
                 "onHit": "KD",
-                "onBlock": -16,
+                "onBlock": -13,
                 "damage": 80,
                 "stun": 150,
-                "kd": 84,
-                "kdr": 31,
-                "kdrb": 31,
+                "kd": "86(85~81)",
+                "kdr": "33(28~32)",
+                "kdrb": "33(28~32)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1563,13 +1696,14 @@
                     "Denies the opponent from doing back recovery",
                     "Cancelable during last few recovery frames into Tatsu (qcb+K) on HIT only",
                     "Cancelable into early from a successful V-Trigger 2 Parry",
+                    "The KDA data inside the parantheses (x~y) refers to the varying KDA data depending on how close / far away the wall is (less KDA the closer the wall is)",
                     "Juggle Limit / Increase / Start: 3 / 1 / 0",
                     "Less Juggle Increase (+0) when canceled into from stand HP during V-Trigger 1 / 2"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 52
+                "i": 54
             },
             "Shinkuu Hadoken": {
                 "moveName": "Shinkuu Hadoken",
@@ -1580,7 +1714,7 @@
                 "recovery": 61,
                 "total": 65,
                 "onHit": "KD",
-                "onBlock": -17,
+                "onBlock": -25,
                 "damage": 320,
                 "stun": 0,
                 "kd": 80,
@@ -1599,8 +1733,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 53
-            }
+                "movesList": "Special",
+                "i": 55
+            },
+            "input": "None"
         },
         "vtOne": {
             "Stand LP": {
@@ -1611,7 +1747,7 @@
                 "active": 2,
                 "recovery": 7,
                 "total": 11,
-                "onHit": 4,
+                "onHit": 6,
                 "onBlock": 2,
                 "damage": 30,
                 "stun": 100,
@@ -1624,7 +1760,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Ryu is in throw range after block up close"
+                    "Ryu is in throw range after block up close",
+                    "Cannot hit crossup during V-Trigger 1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -1639,10 +1776,12 @@
                 "active": 3,
                 "recovery": 10,
                 "total": 17,
-                "onHit": 7,
-                "onBlock": 1,
+                "onHit": 8,
+                "onBlock": 2,
                 "damage": 60,
                 "stun": 130,
+                "hcWinSpCa": 17,
+                "hcWinTc": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1652,7 +1791,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Combo and frametrap tool"
+                    "Combo and frametrap tool",
+                    "Cannot hit crossup during V-Trigger 1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -1667,17 +1807,18 @@
                 "active": 3,
                 "recovery": 20,
                 "total": 29,
-                "onHit": 3,
+                "onHit": 5,
                 "onBlock": -1,
                 "damage": 90,
                 "stun": 180,
+                "hcWinSpCa": "*20/**20",
+                "hcWinTc": 20,
+                "hcWinNotes": "*in VT only, **CA (no VT needed), ***HP > HK",
                 "kdr": 31,
                 "kdrb": 41,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1688,7 +1829,8 @@
                 "projectile": false,
                 "extraInfo": [
                     "Crush Counters into a free juggle Knockdown state (see KDA data)",
-                    "Special Cancelable during V-Trigger 1 / 2"
+                    "Special Cancelable during V-Trigger 1 / 2",
+                    "Cannot hit crossup during V-Trigger 1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -1703,7 +1845,7 @@
                 "active": 3,
                 "recovery": 5,
                 "total": 11,
-                "onHit": 3,
+                "onHit": 5,
                 "onBlock": 2,
                 "damage": 30,
                 "stun": 100,
@@ -1715,6 +1857,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Cannot hit crossup during V-Trigger 1"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "LP",
@@ -1728,10 +1873,11 @@
                 "active": 3,
                 "recovery": 12,
                 "total": 20,
-                "onHit": 4,
-                "onBlock": 3,
+                "onHit": 6,
+                "onBlock": 2,
                 "damage": 60,
                 "stun": 130,
+                "hcWinSpCa": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1741,7 +1887,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "+1 extra frame advantage on block during V-Trigger 1"
+                    "+1 extra frame advantage on block (+3) during V-Trigger 1",
+                    "Cannot hit crossup during V-Trigger 1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -1756,10 +1903,11 @@
                 "active": 4,
                 "recovery": 24,
                 "total": 33,
-                "onHit": -7,
+                "onHit": -5,
                 "onBlock": -10,
                 "damage": 90,
                 "stun": 180,
+                "hcWinSpCa": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -1771,7 +1919,8 @@
                 "extraInfo": [
                     "Forces standing state on hit",
                     "70 damage and not cancelable after first active frame",
-                    "Can't hit cross-up (behind Ryu)"
+                    "Cannot hit cross-up (behind Ryu)",
+                    "Reduced arm hurtbox on first active frame during VT1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -1801,8 +1950,8 @@
                 "numCmd": "8MP",
                 "startup": 7,
                 "active": "3(2)3",
-                "damage": "30*30",
-                "stun": "65*65",
+                "damage": "30*30 (60)",
+                "stun": "65*65 (130)",
                 "attackLevel": "M",
                 "cancelsTo": [
                     "sp"
@@ -1847,8 +1996,8 @@
                 "total": 40,
                 "onHit": 1,
                 "onBlock": -7,
-                "damage": "30*30",
-                "stun": "60*70",
+                "damage": "30*30 (60)",
+                "stun": "60*70 (130)",
                 "attackLevel": "M*M",
                 "airmove": false,
                 "followUp": false,
@@ -1873,8 +2022,10 @@
                 "total": 39,
                 "onHit": 8,
                 "onBlock": -2,
-                "damage": "45*45",
-                "stun": "90*90",
+                "damage": "45*45 (90)",
+                "stun": "90*90 (180)",
+                "hcWinSpCa": "*29",
+                "hcWinNotes": "*DP only",
                 "multiActive": [
                     17,
                     18,
@@ -1890,7 +2041,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "Can be canceled into Shoryuken on hit or block",
-                    "If 2nd hit whiffs it results in +8/-7"
+                    "Cannot hit crossup during V-Trigger 1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
@@ -1965,7 +2116,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 33
+                "i": 35
             },
             "MP Hadoken": {
                 "moveName": "MP Hadoken",
@@ -1998,7 +2149,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 34
+                "i": 36
             },
             "HP Hadoken": {
                 "moveName": "HP Hadoken",
@@ -2031,19 +2182,19 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 35
+                "i": 37
             },
             "Hadoken Lvl 2": {
                 "moveName": "Hadoken Lvl 2",
                 "plnCmd": "qcf+P (hold)",
                 "numCmd": "236P (hold lvl2)",
                 "cmnName": "Fireball lvl 2",
-                "startup": "20+5",
+                "startup": "19+5",
                 "recovery": 31,
                 "total": 56,
                 "onHit": "KD",
                 "onBlock": 0,
-                "damage": "50*50",
+                "damage": "50*50 (100)",
                 "stun": 200,
                 "kd": 97,
                 "kdr": 38,
@@ -2065,7 +2216,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
-                "i": 35.01
+                "movesList": "Special",
+                "i": 37.01
             },
             "Hadoken Lvl 3": {
                 "moveName": "Hadoken Lvl 3",
@@ -2100,7 +2252,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
-                "i": 35.02
+                "movesList": "Special",
+                "i": 37.02
             },
             "EX Hadoken": {
                 "moveName": "EX Hadoken",
@@ -2126,12 +2279,12 @@
                     "Projectile Speed: 1.20",
                     "V-Trigger cancelable on hit/block",
                     "No hurtbox on extended arms of legs until frame 13",
-                    "Juggle Limit / Increase / Start: 4*4 / 0*4 / 0*4"
+                    "Juggle Limit / Increase / Start: 6*6 / 0*6 / 0*2"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 36
+                "i": 38
             },
             "EX Hadoken Lvl 2": {
                 "moveName": "EX Hadoken Lvl 2",
@@ -2157,12 +2310,13 @@
                     "Projectile Speed: 1.30",
                     "Not projectile invincible on extended arms or leg during startup",
                     "Takes 59 frames to charge",
-                    "Juggle Limit / Increase / Start: 0*4 / 0*4 / 0*4"
+                    "Juggle Limit / Increase / Start: 6*6 / 0*6 / 0*2"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 36.01
+                "movesList": "Special",
+                "i": 38.01
             },
             "LP Shoryuken": {
                 "moveName": "LP Shoryuken",
@@ -2175,7 +2329,7 @@
                 "total": 44,
                 "onHit": "KD",
                 "onBlock": -24,
-                "damage": "110(80)",
+                "damage": "120(80)",
                 "stun": "200(150)",
                 "kd": 89,
                 "kdr": 30,
@@ -2199,7 +2353,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 37
+                "i": 39
             },
             "MP Shoryuken": {
                 "moveName": "MP Shoryuken",
@@ -2236,7 +2390,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 38
+                "i": 40
             },
             "HP Shoryuken": {
                 "moveName": "HP Shoryuken",
@@ -2275,7 +2429,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 39
+                "i": 41
             },
             "EX Shoryuken": {
                 "moveName": "EX Shoryuken",
@@ -2288,7 +2442,7 @@
                 "total": 58,
                 "onHit": "KD",
                 "onBlock": -37,
-                "damage": "100*80",
+                "damage": "100*80 (180)",
                 "stun": 200,
                 "kd": 72,
                 "kdr": 13,
@@ -2300,13 +2454,15 @@
                 "extraInfo": [
                     "Fully invincible on frames 1-15",
                     "Airborne on frames 5-43",
+                    "Can hit crossups from frame 5 (2nd hit)",
                     "Ryu is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
+                    "Only does one hit on block/armor",
                     "Juggle Limit: 8"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 40
+                "i": 42
             },
             "Shinkuu Hadoken": {
                 "moveName": "Shinkuu Hadoken",
@@ -2333,52 +2489,17 @@
                     "7-hit projectile",
                     "Travels at different speeds depending on button pressed (LP/MP/HP Speeds: 0.90 / 1.20 / 1.50)",
                     "Depletes remaining V-Trigger timer",
-                    "Juggle Limit: 10 (Juggle Limit: 11 if canceled into from a Shoryuken during V-Trigger 1)",
+                    "Juggle Limit: 10 (Juggle Limit: 20 if canceled into from a Shoryuken during V-Trigger 1)",
                     "Actually named Denjin Hadoken (but we kept the same name on FAT for clarification purposes)"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 53
-            }
+                "i": 55
+            },
+            "input": "None"
         },
         "vtTwo": {
-            "Stand HP": {
-                "moveName": "Stand HP",
-                "plnCmd": "HP",
-                "numCmd": "5HP",
-                "startup": 8,
-                "active": 3,
-                "recovery": 20,
-                "total": 30,
-                "onHit": 3,
-                "onBlock": -1,
-                "damage": 90,
-                "stun": 150,
-                "kd": 99,
-                "kdr": 35,
-                "kdrb": 40,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
-                "attackLevel": "H",
-                "cancelsTo": [
-                    "sp",
-                    "su"
-                ],
-                "airmove": false,
-                "followUp": false,
-                "projectile": false,
-                "extraInfo": [
-                    "Special Cancelable during V-Trigger 1 / 2"
-                ],
-                "moveType": "normal",
-                "moveMotion": "N",
-                "moveButton": "HP",
-                "i": 3
-            },
             "Kakko Fubatsu": {
                 "moveName": "Kakko Fubatsu",
                 "plnCmd": "HP+HK",
@@ -2400,6 +2521,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Can perform the attack portion from non-EX Shoryuken, non-EX Donkey Kick, and all Fireballs",
                     "On a successful parry, Ryu becomes fully invincible and a 2-frame active strike hitbox surrounds Ryu. Any hurtboxes hit in that area will immediately be pulled to in front of Ryu and put into a free juggle crumple state",
                     "If parried but the attack whiffs; Ryu can cancel this into another 1F startup V-Skill or V-Trigger 2 parry",
                     "V-Trigger 2 parry has only 1-frame startup if canceled into from a successful V-Skill or V-Trigger 2 parry",
@@ -2408,13 +2530,15 @@
                     "Ryu is fully invincible the entire time after a succesful parry (so he can block any immediate follow-up hits after recovery such as a 2-hit fireball string up close)",
                     "Can cancel a successful parry into any Shoryuken or an EX Donkey Kick early on during the recovery frames for a follow-up combo",
                     "Ryu is suspect to counter-hits during recovery frames (but has no counter-hit frames if canceling into this parry from a previous V-Skill or VT2 Parry)",
-                    "Spends 800 V-Meter (~27% of meter)"
+                    "Spends 1500 V-Timer (50%) and the rest of the V-Timer if the parry was successful",
+                    "Spends 1500 V-Timer (50%) when canceling into the attack version of this move from Fireballs / Shoryuken / Donkey Kick"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "i": 30
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

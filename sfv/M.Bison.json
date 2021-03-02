@@ -45,6 +45,8 @@
                 "vtcOnBlock": 7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinTc": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -72,6 +74,8 @@
                 "vtcOnBlock": 4,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 17,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -135,6 +139,7 @@
                 "vtcOnBlock": 2,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -157,22 +162,21 @@
                 "numCmd": "5HK",
                 "startup": 9,
                 "active": 3,
-                "recovery": 13,
-                "total": 24,
+                "recovery": "13(18)",
+                "total": "24(29)",
                 "onHit": 6,
                 "onBlock": 3,
                 "vtcOnHit": 10,
                 "vtcOnBlock": 7,
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 110,
                 "kdr": 68,
                 "kdrb": 68,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "C",
-                    "vG": "+120"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "C",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -182,7 +186,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Forces standing state on hit"
+                    "Forces standing state on hit",
+                    "+5 extra recovery frames on whiff (18)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -230,6 +235,8 @@
                 "vtcOnBlock": 4,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -260,6 +267,7 @@
                 "vtcOnBlock": 5,
                 "damage": 100,
                 "stun": 150,
+                "hcWinVt": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -268,6 +276,10 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Good vertical anti-air",
+                    "First 2 active frames can't hit cross-up (active frames 3-5 can)"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
@@ -312,12 +324,14 @@
                 "active": 2,
                 "recovery": 13,
                 "total": 23,
-                "onHit": -1,
+                "onHit": 0,
                 "onBlock": -2,
-                "vtcOnHit": 3,
+                "vtcOnHit": 4,
                 "vtcOnBlock": 2,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -338,24 +352,24 @@
                 "moveName": "Crouch HK",
                 "plnCmd": "d+HK",
                 "numCmd": "2HK",
+                "cmnName": "Slide",
                 "startup": 15,
                 "active": 10,
-                "recovery": 18,
-                "total": 42,
+                "recovery": "18(23)",
+                "total": "42(47)",
                 "onHit": "KD",
                 "onBlock": -12,
                 "vtcOnHit": "KD (+85/36/41)",
                 "vtcOnBlock": 4,
                 "damage": 90,
                 "stun": 150,
-                "kd": 69,
-                "kdr": 20,
-                "kdrb": 25,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "hcWinVt": 26,
+                "kd": "69(78)",
+                "kdr": "20(29)",
+                "kdrb": "25(34)",
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -365,7 +379,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Crouching state for entire move duration (can slide under attacks that can't hit crouch)"
+                    "Crouching state for entire move duration (can slide under attacks that can't hit crouch)",
+                    "+5 extra recovery frames on whiff",
+                    "-3 oB on last active frame"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -505,6 +521,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 19
             },
             "Psycho Axe": {
@@ -522,11 +539,11 @@
                 "vtcOnBlock": 11,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 15,
-                    "vG": "+120"
-                },
+                "hcWinVt": "18/*17",
+                "hcWinNotes": "*VT2 Command Grab",
+                "ccState": "Stagger",
+                "ccAdv": 15,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -544,6 +561,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Shadow Axe": {
@@ -561,11 +579,11 @@
                 "vtcOnBlock": 1,
                 "damage": "60*45 (105)",
                 "stun": "100*108 (208)",
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 15,
-                    "vG": "+120"
-                },
+                "hcWinTc": 14,
+                "hcWinVt": 18,
+                "ccState": "Stagger",
+                "ccAdv": 15,
+                "ccVG": "+120",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt1",
@@ -574,9 +592,13 @@
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
+                "extraInfo": [
+                    "Not cancelable into Psycho Charge (Command Grab)"
+                ],
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 21
             },
             "Psycho Impact": {
@@ -601,6 +623,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 22
             },
             "Psycho Fall": {
@@ -625,6 +648,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 23
             },
             "Psycho Reflect": {
@@ -651,6 +675,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 24
             },
             "Psycho Reflect (release)": {
@@ -680,6 +705,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 25
             },
             "Psycho Reflect (parry)": {
@@ -710,6 +736,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 26
             },
             "Hell's Warp": {
@@ -745,6 +772,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 27
             },
             "Psycho Power": {
@@ -768,6 +796,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 28
             },
             "Psycho Nightmare": {
@@ -791,6 +820,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 29
             },
             "Psycho Burst": {
@@ -820,7 +850,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 30
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.23 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 31
+            },
+            "Psycho Fist": {
+                "moveName": "Psycho Fist",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 32
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -836,7 +925,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 31
+                "i": 33
             },
             "LP Psycho Blast": {
                 "moveName": "LP Psycho Blast",
@@ -872,7 +961,8 @@
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 32
+                "movesList": "Special",
+                "i": 34
             },
             "MP Psycho Blast": {
                 "moveName": "MP Psycho Blast",
@@ -908,7 +998,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 33
+                "i": 35
             },
             "HP Psycho Blast": {
                 "moveName": "HP Psycho Blast",
@@ -944,7 +1034,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 34
+                "i": 36
             },
             "EX Psycho Blast": {
                 "moveName": "EX Psycho Blast",
@@ -980,7 +1070,7 @@
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 35
+                "i": 37
             },
             "LK Double Knee Press": {
                 "moveName": "LK Double Knee Press",
@@ -1020,7 +1110,8 @@
                 "moveMotion": "F",
                 "moveButton": "LK",
                 "chargeDirection": "B",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "MK Double Knee Press": {
                 "moveName": "MK Double Knee Press",
@@ -1060,7 +1151,7 @@
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 37
+                "i": 39
             },
             "HK Double Knee Press": {
                 "moveName": "HK Double Knee Press",
@@ -1100,7 +1191,7 @@
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 38
+                "i": 40
             },
             "EX Double Knee Press": {
                 "moveName": "EX Double Knee Press",
@@ -1135,7 +1226,7 @@
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 39
+                "i": 41
             },
             "LK Head Press": {
                 "moveName": "LK Head Press",
@@ -1164,7 +1255,8 @@
                 "moveMotion": "U",
                 "moveButton": "LK",
                 "chargeDirection": "D",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "MK Head Press": {
                 "moveName": "MK Head Press",
@@ -1193,7 +1285,7 @@
                 "moveMotion": "U",
                 "moveButton": "MK",
                 "chargeDirection": "D",
-                "i": 41
+                "i": 43
             },
             "HK Head Press": {
                 "moveName": "HK Head Press",
@@ -1222,7 +1314,7 @@
                 "moveMotion": "U",
                 "moveButton": "HK",
                 "chargeDirection": "D",
-                "i": 42
+                "i": 44
             },
             "EX Head Press": {
                 "moveName": "EX Head Press",
@@ -1244,7 +1336,6 @@
                 "projectile": false,
                 "extraInfo": [
                     "Hits Overhead",
-                    "Strike invincible on frames 3-7",
                     "Projectile invincible until stomp connects",
                     "Airborne on frame 6",
                     "Cancelable into Devil's Reverse on frame 9",
@@ -1255,7 +1346,7 @@
                 "moveMotion": "U",
                 "moveButton": "2K",
                 "chargeDirection": "D",
-                "i": 43
+                "i": 45
             },
             "Somersault Skull Diver": {
                 "moveName": "Somersault Skull Diver",
@@ -1285,7 +1376,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 44
+                "movesList": "Special",
+                "i": 46
             },
             "Devil Reverse": {
                 "moveName": "Devil Reverse",
@@ -1313,7 +1405,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 45
+                "movesList": "Special",
+                "i": 47
             },
             "EX Devil Reverse": {
                 "moveName": "EX Devil Reverse",
@@ -1340,7 +1433,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 46
+                "i": 48
             },
             "LP Psycho Inferno": {
                 "moveName": "LP Psycho Inferno",
@@ -1375,7 +1468,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LP",
-                "i": 47
+                "movesList": "Special",
+                "i": 49
             },
             "MP Psycho Inferno": {
                 "moveName": "MP Psycho Inferno",
@@ -1410,7 +1504,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MP",
-                "i": 48
+                "i": 50
             },
             "HP Psycho Inferno": {
                 "moveName": "HP Psycho Inferno",
@@ -1445,7 +1539,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HP",
-                "i": 49
+                "i": 51
             },
             "EX Psycho Inferno": {
                 "moveName": "EX Psycho Inferno",
@@ -1460,7 +1554,7 @@
                 "onBlock": -1,
                 "vtcOnHit": "KD (+138/79/84)",
                 "vtcOnBlock": 27,
-                "damage": "20x4*60 (140)",
+                "damage": "20x4*40 (120)",
                 "stun": "20x4*70 (150)",
                 "kd": 110,
                 "kdr": 51,
@@ -1479,7 +1573,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2P",
-                "i": 50
+                "i": 52
             },
             "Ultimate Psycho Crusher": {
                 "moveName": "Ultimate Psycho Crusher",
@@ -1502,16 +1596,18 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Hard Knockdown",
                     "Projectile hitboxes",
                     "Can be done grounded or in the air",
                     "Fully invincible on frames 1-20",
-                    "Airborne on frames 4-64 (if done from the ground) followed by 19 grounded recovery frames",
-                    "14 grounded recovery frames after landing (if it whiffs in the air)"
+                    "Not actually airborne at all if done on the ground",
+                    "If used in the air this has 14 grounded recovery frames on landing"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 51
+                "movesList": "Super",
+                "i": 53
             },
             "Forward Dash": {
                 "moveName": "Forward Dash",
@@ -1529,8 +1625,10 @@
                 "moveType": "movement-special",
                 "moveMotion": "F",
                 "nonHittingMove": true,
-                "i": 52
-            }
+                "movesList": "Dash",
+                "i": 54
+            },
+            "input": "None"
         },
         "vtOne": {
             "LP Psycho Blast": {
@@ -1565,7 +1663,7 @@
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
-                "i": 32
+                "i": 34
             },
             "MP Psycho Blast": {
                 "moveName": "MP Psycho Blast",
@@ -1599,7 +1697,7 @@
                 "moveMotion": "F",
                 "moveButton": "MP",
                 "chargeDirection": "B",
-                "i": 33
+                "i": 35
             },
             "HP Psycho Blast": {
                 "moveName": "HP Psycho Blast",
@@ -1633,7 +1731,7 @@
                 "moveMotion": "F",
                 "moveButton": "HP",
                 "chargeDirection": "B",
-                "i": 34
+                "i": 36
             },
             "EX Psycho Blast": {
                 "moveName": "EX Psycho Blast",
@@ -1666,7 +1764,7 @@
                 "moveMotion": "F",
                 "moveButton": "2P",
                 "chargeDirection": "B",
-                "i": 35
+                "i": 37
             },
             "LK Double Knee Press": {
                 "moveName": "LK Double Knee Press",
@@ -1705,7 +1803,7 @@
                 "moveMotion": "F",
                 "moveButton": "LK",
                 "chargeDirection": "B",
-                "i": 36
+                "i": 38
             },
             "MK Double Knee Press": {
                 "moveName": "MK Double Knee Press",
@@ -1744,7 +1842,7 @@
                 "moveMotion": "F",
                 "moveButton": "MK",
                 "chargeDirection": "B",
-                "i": 37
+                "i": 39
             },
             "HK Double Knee Press": {
                 "moveName": "HK Double Knee Press",
@@ -1783,7 +1881,7 @@
                 "moveMotion": "F",
                 "moveButton": "HK",
                 "chargeDirection": "B",
-                "i": 38
+                "i": 40
             },
             "EX Double Knee Press": {
                 "moveName": "EX Double Knee Press",
@@ -1824,7 +1922,7 @@
                 "moveMotion": "F",
                 "moveButton": "2K",
                 "chargeDirection": "B",
-                "i": 39
+                "i": 41
             },
             "LK Head Press": {
                 "moveName": "LK Head Press",
@@ -1834,7 +1932,6 @@
                 "startup": 38,
                 "active": 10,
                 "recovery": 25,
-                "total": 72,
                 "onHit": "KD",
                 "onBlock": 1,
                 "damage": 120,
@@ -1861,7 +1958,7 @@
                 "moveMotion": "U",
                 "moveButton": "LK",
                 "chargeDirection": "D",
-                "i": 40
+                "i": 42
             },
             "MK Head Press": {
                 "moveName": "MK Head Press",
@@ -1871,7 +1968,6 @@
                 "startup": 38,
                 "active": 10,
                 "recovery": 25,
-                "total": "?",
                 "onHit": "KD",
                 "onBlock": 1,
                 "damage": 120,
@@ -1898,7 +1994,7 @@
                 "moveMotion": "U",
                 "moveButton": "MK",
                 "chargeDirection": "D",
-                "i": 41
+                "i": 43
             },
             "HK Head Press": {
                 "moveName": "HK Head Press",
@@ -1908,7 +2004,6 @@
                 "startup": 38,
                 "active": 10,
                 "recovery": 25,
-                "total": "?",
                 "onHit": "KD",
                 "onBlock": 1,
                 "damage": 120,
@@ -1935,7 +2030,7 @@
                 "moveMotion": "U",
                 "moveButton": "HK",
                 "chargeDirection": "D",
-                "i": 42
+                "i": 44
             },
             "EX Head Press": {
                 "moveName": "EX Head Press",
@@ -1945,7 +2040,6 @@
                 "startup": 35,
                 "active": 12,
                 "recovery": 21,
-                "total": "?",
                 "onHit": "KD",
                 "onBlock": -2,
                 "damage": "10*70*100 (180)",
@@ -1969,7 +2063,7 @@
                 "moveMotion": "U",
                 "moveButton": "2K",
                 "chargeDirection": "D",
-                "i": 43
+                "i": 45
             },
             "Devil Reverse": {
                 "moveName": "Devil Reverse",
@@ -1979,7 +2073,6 @@
                 "startup": 32,
                 "active": 22,
                 "recovery": 7,
-                "total": "?",
                 "onHit": "KD",
                 "onBlock": 8,
                 "damage": 100,
@@ -2001,7 +2094,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 45
+                "i": 47
             },
             "EX Devil Reverse": {
                 "moveName": "EX Devil Reverse",
@@ -2011,7 +2104,6 @@
                 "startup": 40,
                 "active": 24,
                 "recovery": 10,
-                "total": "?",
                 "onHit": "KD",
                 "onBlock": 13,
                 "damage": "80*80 (160)",
@@ -2030,7 +2122,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 46
+                "i": 48
             },
             "LP Psycho Inferno": {
                 "moveName": "LP Psycho Inferno",
@@ -2063,7 +2155,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LP",
-                "i": 47
+                "i": 49
             },
             "MP Psycho Inferno": {
                 "moveName": "MP Psycho Inferno",
@@ -2096,7 +2188,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MP",
-                "i": 48
+                "i": 50
             },
             "HP Psycho Inferno": {
                 "moveName": "HP Psycho Inferno",
@@ -2129,7 +2221,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HP",
-                "i": 49
+                "i": 51
             },
             "EX Psycho Inferno": {
                 "moveName": "EX Psycho Inferno",
@@ -2159,7 +2251,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2P",
-                "i": 50
+                "i": 52
             },
             "Ultimate Psycho Crusher": {
                 "moveName": "Ultimate Psycho Crusher",
@@ -2167,7 +2259,7 @@
                 "numCmd": "236236P",
                 "cmnName": "Super",
                 "startup": 6,
-                "active": 30,
+                "active": 15,
                 "recovery": "44+19",
                 "total": 83,
                 "onHit": "KD",
@@ -2182,15 +2274,17 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Hard Knockdown",
                     "Projectile hitboxes",
                     "Can be done grounded or in the air",
                     "Fully invincible on frames 1-20",
-                    "Airborne on frames 4-64 (if done from the ground) followed by 19 grounded recovery frames"
+                    "Not actually airborne at all if done on the ground",
+                    "If used in the air this has 14 grounded recovery frames on landing"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 51
+                "i": 53
             },
             "Forward Dash": {
                 "moveName": "Forward Dash",
@@ -2207,8 +2301,9 @@
                 ],
                 "moveMotion": "F",
                 "nonHittingMove": true,
-                "i": 52
-            }
+                "i": 54
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Psycho Crusher": {
@@ -2248,6 +2343,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 29.01
             },
             "Psycho Charge": {
@@ -2280,13 +2376,14 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 29.02
             },
             "Psycho Judgement": {
                 "moveName": "Psycho Judgement",
                 "plnCmd": "hcb+k (bomb)",
                 "numCmd": "63214+K (bomb)",
-                "cmnName": "Bomb activation",
+                "cmnName": "Bomb Activation",
                 "startup": 15,
                 "active": 12,
                 "recovery": 22,
@@ -2312,8 +2409,10 @@
                 "moveType": "vtrigger",
                 "moveMotion": "HCB",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 29.03
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
@@ -2339,6 +2438,6 @@
         "vfDashDist": 227,
         "throwHurt": 0.25,
         "throwRange": 0.9,
-        "threeLetterCode": "veg"
+        "threeLetterCode": "bsn"
     }
 }

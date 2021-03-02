@@ -57,6 +57,8 @@
                 "whipCancelOB": -3,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -86,7 +88,7 @@
                 "recovery": "22(24)",
                 "total": "35(37)",
                 "onHit": 5,
-                "onBlock": -3,
+                "onBlock": -6,
                 "vsc2OnHit": 0,
                 "vsc2OnBlock": -8,
                 "vtcOnHit": 20,
@@ -95,6 +97,9 @@
                 "whipCancelOB": -2,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*17",
+                "hcWinVt": 17,
+                "hcWinNotes": "*Only 15f to confirm if opponent is crouching",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -157,10 +162,10 @@
                 "numCmd": "5MK",
                 "startup": 7,
                 "active": 3,
-                "recovery": 16,
-                "total": 25,
-                "onHit": 2,
-                "onBlock": -2,
+                "recovery": 18,
+                "total": 27,
+                "onHit": 0,
+                "onBlock": -4,
                 "vsc2OnHit": -9,
                 "vsc2OnBlock": -13,
                 "vtcOnHit": 11,
@@ -169,6 +174,8 @@
                 "whipCancelOB": -7,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -205,11 +212,10 @@
                 "vtcOnBlock": 10,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 22,
-                    "vG": "+120"
-                },
+                "hcWinVt": 17,
+                "ccState": "Stagger",
+                "ccAdv": 22,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -278,12 +284,14 @@
                 "onBlock": 4,
                 "vsc2OnHit": "-6(-4)",
                 "vsc2OnBlock": -8,
-                "vtcOnHit": 14,
+                "vtcOnHit": "14(16)",
                 "vtcOnBlock": 12,
                 "whipCancelOH": "-1(2)",
                 "whipCancelOB": "-3(-2)",
                 "damage": "60(70)",
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -297,6 +305,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Cannot hit cross-up (behind Poison) on active frames 3-5",
                     "Good anti-air / frametrap / combo / oki tool (this button does everything)",
                     "Deals 10 extra damage (70) on active frames 3-5",
                     "Has 2 extra hitstun on active frames 3-5 (resulting in +2 frame advantage on hit or when whip canceling)",
@@ -323,7 +332,8 @@
                 "vtcOnBlock": 4,
                 "damage": 80,
                 "stun": 150,
-                "attackLevel": "H",
+                "hcWinVt": 17,
+                "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -389,6 +399,9 @@
                 "vtcOnBlock": 6,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*14",
+                "hcWinVt": 14,
+                "hcWinNotes": "*CA/V-Skill 2 only",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "su",
@@ -423,14 +436,13 @@
                 "vtcOnBlock": 1,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 74,
                 "kdr": 25,
                 "kdrb": 30,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -547,7 +559,7 @@
                     "Builds 30/15 V-Gauge on Hit/Block if used after V-Skill rope swing",
                     "Puts airborne opponents into a limited juggle state (better than jump MP)",
                     "Juggle Limit / Increase / Start: 5 / 2 / 2",
-                    "After V-Skill swing Juggle Limit / Increase / Start: 5 / 3 / 2  (Active frames 3-5 have +4 Juggle Increase instead of +3 and only first active frame builds V-Gauge; Thanks Capcom)"
+                    "After V-Skill swing Juggle Limit / Increase / Start: 5 / 3*2*4 / 2  (Only first active frame builds V-Gauge; Thanks Capcom)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -594,6 +606,7 @@
                     "After V-Skill Juggle Limit / Increase / Start: 5 / 3 / 1"
                 ],
                 "moveType": "normal",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Slap & Smash": {
@@ -616,14 +629,15 @@
                     "KDA varies depending on height (increased KDA the closer to ground Poison is when the second hit lands)"
                 ],
                 "moveType": "normal",
+                "movesList": "Target Combo",
                 "i": 20
             },
             "Slap & Slash": {
                 "moveName": "Slap & Slash",
-                "plnCmd": "MP> f+HP (air)",
+                "plnCmd": "MP > f+HP (air)",
                 "numCmd": "8MP > 96+HP",
                 "cmnName": "j.MP > f+HP (fwd jump)",
-                "startup": "6+9",
+                "startup": "6+7",
                 "active": 7,
                 "onHit": "KD",
                 "damage": 70,
@@ -638,6 +652,7 @@
                     "Juggle Limit / Increase / Start: 2*10 / 6*30 / 6*1"
                 ],
                 "moveType": "normal",
+                "movesList": "Target Combo",
                 "i": 21
             },
             "Slap Shot": {
@@ -663,6 +678,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 22
             },
             "Frankensteiner": {
@@ -688,6 +704,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 23
             },
             "Perfume Swing": {
@@ -699,6 +716,8 @@
                 "active": "18(22)",
                 "recovery": "24+4",
                 "total": 72,
+                "onHit": "KD",
+                "onBlock": "KD",
                 "damage": 60,
                 "stun": 80,
                 "kd": "77(94)",
@@ -722,6 +741,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 24
             },
             "Cartwheel": {
@@ -737,13 +757,14 @@
                 "extraInfo": [
                     "Crouching hurtbox frames 4-20",
                     "Passes through opponents",
-                    "Counter hit state during entire duration",
+                    "Counter hit state until last 3 frames of recovery",
                     "Cancels into attack follow-up on frame 24 if V-Skill is held down"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 25
             },
             "Cartwheel (attack)": {
@@ -758,6 +779,8 @@
                 "onHit": "KD",
                 "onBlock": -12,
                 "whipCancelOH": "KD (+83/24/29)",
+                "damage": "20*40 (60)",
+                "stun": "20*80 (100)",
                 "kd": 97,
                 "kdr": 38,
                 "kdrb": 43,
@@ -782,6 +805,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 26
             },
             "Poison Cocktail": {
@@ -803,6 +827,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 27
             },
             "Toxic Glamor": {
@@ -824,6 +849,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 28
             },
             "Power Cord": {
@@ -853,7 +879,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 29
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 33
+            },
+            "Danger Zone": {
+                "moveName": "Danger Zone",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 34
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -883,8 +968,8 @@
                 "total": 43,
                 "onHit": 1,
                 "onBlock": -7,
-                "damage": 70,
-                "stun": "50+50 (100)",
+                "damage": 60,
+                "stun": "50*50 (100)",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -900,6 +985,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
+                "movesList": "Special",
                 "i": 31
             },
             "MP Avant Line": {
@@ -913,8 +999,8 @@
                 "total": 43,
                 "onHit": 2,
                 "onBlock": "-8(-21)",
-                "damage": "50+40 (90)",
-                "stun": "80+70 (150)",
+                "damage": "40*40 (80)",
+                "stun": "80*70 (150)",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -947,8 +1033,8 @@
                 "total": "43(82)",
                 "onHit": "KD",
                 "onBlock": "-17(-23)",
-                "damage": "40+40+40 (120)",
-                "stun": "50+50+50 (150)",
+                "damage": "30*40*40 (110)",
+                "stun": "50x3 (150)",
                 "kd": 83,
                 "kdr": 24,
                 "kdrb": 29,
@@ -982,7 +1068,7 @@
                 "recovery": 35,
                 "total": "59(116)",
                 "onHit": "KD",
-                "onBlock": -16,
+                "onBlock": -2,
                 "damage": "15x6*30 (120)",
                 "stun": 150,
                 "kd": 92,
@@ -1017,6 +1103,8 @@
                 "total": "49(54)",
                 "onHit": 2,
                 "onBlock": -6,
+                "hcWinSpCa": "*16",
+                "hcWinNotes": "*CA/VT Specials Only",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "su"
@@ -1032,6 +1120,7 @@
                 ],
                 "moveType": "special",
                 "moveMotion": "QCB",
+                "movesList": "Special",
                 "i": 35
             },
             "LP Heart Raid Release": {
@@ -1045,7 +1134,7 @@
                 "total": 36,
                 "onHit": 2,
                 "onBlock": -6,
-                "damage": 90,
+                "damage": 80,
                 "stun": 150,
                 "attackLevel": "L",
                 "cancelsTo": [
@@ -1060,6 +1149,7 @@
                 "moveType": "special",
                 "moveButton": "LP",
                 "chargeDirection": "R",
+                "movesList": "Special",
                 "i": 36
             },
             "MP Heart Raid": {
@@ -1073,6 +1163,8 @@
                 "total": 49,
                 "onHit": 2,
                 "onBlock": -6,
+                "hcWinSpCa": "*16",
+                "hcWinNotes": "*CA/VT Specials Only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -1101,7 +1193,7 @@
                 "total": 36,
                 "onHit": -2,
                 "onBlock": -6,
-                "damage": 100,
+                "damage": 90,
                 "stun": 150,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1157,7 +1249,7 @@
                 "recovery": 17,
                 "total": 28,
                 "onHit": "KD",
-                "damage": 120,
+                "damage": 110,
                 "stun": 200,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1189,6 +1281,7 @@
                 ],
                 "moveType": "special",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 41
             },
             "Heart Raid Step": {
@@ -1226,8 +1319,8 @@
                 "onBlock": -2,
                 "vtcOnHit": 15,
                 "vtcOnBlock": 14,
-                "damage": "60+60",
-                "stun": "50+50",
+                "damage": "60*60 (120)",
+                "stun": "50*50 (100)",
                 "kd": 91,
                 "kdr": 32,
                 "kdrb": 37,
@@ -1257,16 +1350,16 @@
                 "plnCmd": "qcb+LPHP",
                 "numCmd": "214LPHP",
                 "cmnName": "EX Whip Stance (Mid)",
-                "startup": 18,
+                "startup": 19,
                 "active": "3(13)2",
                 "recovery": 24,
                 "total": 59,
                 "onHit": 2,
-                "onBlock": 2,
+                "onBlock": 1,
                 "vtcOnHit": 15,
                 "vtcOnBlock": 14,
-                "damage": "70+60",
-                "stun": "100+100",
+                "damage": "70*60 (130)",
+                "stun": "100*100 (200)",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt1",
@@ -1298,8 +1391,8 @@
                 "recovery": 29,
                 "total": 55,
                 "onHit": "KD",
-                "damage": "70+70",
-                "stun": "100+100",
+                "damage": "70*70 (140)",
+                "stun": "100*100 (200)",
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "vt1",
@@ -1340,7 +1433,9 @@
                 "kdrb": 38,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt1",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1355,6 +1450,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 46
             },
             "MK Shocking Heel": {
@@ -1375,7 +1471,9 @@
                 "kdrb": 38,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt1",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1408,7 +1506,9 @@
                 "kdrb": 46,
                 "attackLevel": "H",
                 "cancelsTo": [
-                    "su"
+                    "su",
+                    "vt1",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1441,7 +1541,9 @@
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs1",
-                    "vs2"
+                    "vs2",
+                    "vt1",
+                    "vt2"
                 ],
                 "airmove": false,
                 "followUp": false,
@@ -1484,6 +1586,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 50
             },
             "MK Love Me Tender": {
@@ -1606,8 +1709,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
+                "movesList": "Super",
                 "i": 54
-            }
+            },
+            "input": "None"
         },
         "vtOne": {
             "Fire Squall": {
@@ -1623,7 +1728,7 @@
                 "onBlock": -2,
                 "vs2OnHit": "KD (+83/24/29)",
                 "vs2OnBlock": -21,
-                "damage": "60(51)",
+                "damage": "40(51)",
                 "stun": 100,
                 "kd": 102,
                 "kdr": 43,
@@ -1646,6 +1751,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 27.01
             },
             "Fire Squall (Air)": {
@@ -1661,7 +1767,7 @@
                 "onBlock": -2,
                 "vs2OnHit": "KD (+83/24/29)",
                 "vs2OnBlock": -21,
-                "damage": "60(51)",
+                "damage": "40(51)",
                 "stun": 100,
                 "kd": 102,
                 "kdr": 43,
@@ -1684,8 +1790,10 @@
                 "moveType": "special",
                 "moveMotion": "B",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 27.02
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Toxic Hold": {
@@ -1693,10 +1801,10 @@
                 "plnCmd": "HP+HK",
                 "numCmd": "5HPHK",
                 "cmnName": "Command Grab (close)",
-                "startup": 6,
+                "startup": 5,
                 "active": 3,
-                "recovery": 52,
-                "total": 60,
+                "recovery": 51,
+                "total": 59,
                 "onHit": "KD",
                 "damage": 170,
                 "stun": 200,
@@ -1715,6 +1823,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 28.01
             },
             "Toxic Bind": {
@@ -1722,13 +1831,13 @@
                 "plnCmd": "f+HP+HK",
                 "numCmd": "6HPHK",
                 "cmnName": "Command Grab (far)",
-                "startup": 29,
+                "startup": 24,
                 "active": "2(4)",
                 "recovery": "44(46)",
-                "total": "74(76)",
+                "total": "70(76)",
                 "onHit": "KD",
-                "damage": 150,
-                "stun": 150,
+                "damage": 180,
+                "stun": 200,
                 "kd": 22,
                 "kdr": 22,
                 "kdrb": 22,
@@ -1747,8 +1856,10 @@
                 "moveType": "special",
                 "moveMotion": "F",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 28.02
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

@@ -55,6 +55,8 @@
                 "transfOB": -7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 13,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -92,6 +94,8 @@
                 "transfOB": 1,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "kd": 85,
                 "kdr": 26,
                 "kdrb": 31,
@@ -165,6 +169,7 @@
                 "vt1dashOB": -9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -198,11 +203,10 @@
                 "vt1dashOB": -2,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": "+21",
-                    "vG": "+120"
-                },
+                "hcWinVt": 18,
+                "ccState": "Stagger",
+                "ccAdv": "+21",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -269,6 +273,7 @@
                 "vt1dashOB": -9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 13,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -304,14 +309,14 @@
                 "transfOB": -4,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 18,
+                "hcWinVt": 18,
                 "kd": 103,
                 "kdr": 44,
                 "kdrb": 49,
-                "crushAdv": {
-                    "state": "Flipping Juggle",
-                    "ccAdv": "J",
-                    "vG": "+120"
-                },
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -337,10 +342,10 @@
                 "moveName": "Crouch LK",
                 "plnCmd": "d+LK",
                 "numCmd": "2LK",
-                "startup": 5,
+                "startup": 4,
                 "active": 2,
                 "recovery": 8,
-                "total": 14,
+                "total": 13,
                 "onHit": 4,
                 "onBlock": 2,
                 "vtc1OnHit": 2,
@@ -378,6 +383,8 @@
                 "vt1dashOB": -8,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -414,14 +421,13 @@
                 "vt1dashOB": -7,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 74,
                 "kdr": 21,
                 "kdrb": 26,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -567,6 +573,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Tsurigane Otoshi": {
@@ -591,6 +598,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 20
             },
             "Mikoshi": {
@@ -615,6 +623,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 21
             },
             "Fukuro": {
@@ -649,6 +658,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 22
             },
             "Kuchiyose - Shii": {
@@ -677,7 +687,7 @@
                     "Eagle flies in and drops a firecracker",
                     "If Zeku is hit before the firecracker is dropped, the eagle goes away",
                     "Can alter where eagle drops firecracker with back, neutral, and forward inputs",
-                    "Eagle is generated on frame 29",
+                    "Eagle is generated on frame 29 and has a hitbox while it is falling",
                     "Zeku can stance switch on frames 30-64",
                     "After eagle is generated, it takes 124/155/190 (B/N/F) frames for firecracker to explode",
                     "Firecracker explosion is a projectile",
@@ -687,6 +697,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 23
             },
             "Bushinryu Shingekiko": {
@@ -707,6 +718,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 24
             },
             "Idaten": {
@@ -731,6 +743,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-trigger 1",
                 "i": 25
             },
             "Bushin Bakujasho": {
@@ -768,6 +781,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 26
             },
             "Karura Tenzan": {
@@ -808,6 +822,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 27
             },
             "Karura Tenzan (Secondary)": {
@@ -848,6 +863,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 28
             },
             "Toushi": {
@@ -876,7 +892,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 29
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 30
+            },
+            "Bushin Murakumo": {
+                "moveName": "Bushin Murakumo",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 31
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -891,7 +966,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 30
+                "i": 32
             },
             "Shukumyo": {
                 "moveName": "Shukumyo",
@@ -911,7 +986,8 @@
                 "moveType": "special",
                 "moveMotion": "DD",
                 "moveButton": "2P",
-                "i": 31
+                "movesList": "Special",
+                "i": 33
             },
             "LK Bushin Gram - Koku": {
                 "moveName": "LK Bushin Gram - Koku",
@@ -950,7 +1026,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 32
+                "movesList": "Special",
+                "i": 34
             },
             "LK Bushin Gram - Koku (Projectile)": {
                 "moveName": "LK Bushin Gram - Koku (Projectile)",
@@ -986,7 +1063,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 33
+                "i": 35
             },
             "MK Bushin Gram - Koku": {
                 "moveName": "MK Bushin Gram - Koku",
@@ -1024,7 +1101,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 34
+                "i": 36
             },
             "MK Bushin Gram - Koku (Projectile)": {
                 "moveName": "MK Bushin Gram - Koku (Projectile)",
@@ -1060,7 +1137,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 35
+                "i": 37
             },
             "HK Bushin Gram - Koku": {
                 "moveName": "HK Bushin Gram - Koku",
@@ -1098,7 +1175,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 36
+                "i": 38
             },
             "HK Bushin Gram - Koku (Projectile)": {
                 "moveName": "HK Bushin Gram - Koku (Projectile)",
@@ -1134,7 +1211,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 37
+                "i": 39
             },
             "EX Bushin Gram - Koku": {
                 "moveName": "EX Bushin Gram - Koku",
@@ -1172,7 +1249,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 38
+                "i": 40
             },
             "EX Bushin Gram - Koku (Projectile)": {
                 "moveName": "EX Bushin Gram - Koku (Projectile)",
@@ -1211,7 +1288,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 39
+                "i": 41
             },
             "LK Bushin Gram - Teki": {
                 "moveName": "LK Bushin Gram - Teki",
@@ -1252,7 +1329,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 40
+                "movesList": "Special",
+                "i": 42
             },
             "LK Bushin Gram - Teki (Projectile)": {
                 "moveName": "LK Bushin Gram - Teki (Projectile)",
@@ -1291,7 +1369,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 41
+                "i": 43
             },
             "MK Bushin Gram - Teki": {
                 "moveName": "MK Bushin Gram - Teki",
@@ -1332,7 +1410,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 42
+                "i": 44
             },
             "MK Bushin Gram - Teki (Projectile)": {
                 "moveName": "MK Bushin Gram - Teki (Projectile)",
@@ -1371,7 +1449,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 43
+                "i": 45
             },
             "HK Bushin Gram - Teki": {
                 "moveName": "HK Bushin Gram - Teki",
@@ -1412,7 +1490,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 44
+                "i": 46
             },
             "HK Bushin Gram - Teki (Projectile)": {
                 "moveName": "HK Bushin Gram - Teki (Projectile)",
@@ -1451,7 +1529,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 45
+                "i": 47
             },
             "EX Bushin Gram - Teki": {
                 "moveName": "EX Bushin Gram - Teki",
@@ -1491,7 +1569,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 46
+                "i": 48
             },
             "EX Bushin Gram - Teki (Projectile)": {
                 "moveName": "EX Bushin Gram - Teki (Projectile)",
@@ -1531,7 +1609,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 47
+                "i": 49
             },
             "LK Bushin Gram - Ban": {
                 "moveName": "LK Bushin Gram - Ban",
@@ -1559,15 +1637,16 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "No form of invincibility (but still suspect to Counter-Hits during recovery frames; Thanks Capcom)",
+                    "Throw invincible on frames 1-5",
                     "1-hit strike hitbox with 2 active frames followed by (10) active frames of a vertical projectile hitbox that only spawns if the initial strike whiffs",
                     "The secondary projectile hitboxes can hit crouching/standing opponents (so can be used to make the move safe/plus on block)",
-                    "A lot more - on block if canceled into from EX QCB (EX Teki)"
+                    "Zeku is in counterhit state during move duration"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 48
+                "movesList": "Special",
+                "i": 50
             },
             "LK Bushin Gram - Ban (Projectile)": {
                 "moveName": "LK Bushin Gram - Ban (Projectile)",
@@ -1591,17 +1670,17 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "No form of invincibility (but still suspect to Counter-Hits during recovery frames; Thanks Capcom)",
+                    "Throw invincible on frames 1-5",
                     "1-hit strike hitbox with 2 active frames followed by (10) active frames of a vertical projectile hitbox that only spawns if the initial strike whiffs",
                     "The secondary projectile hitboxes can hit crouching/standing opponents (so can be used to make the move safe/plus on block) - but the later active frames function as an uncrouchable setup vs most of the cast and can thus be avoided with wake-up crouch buttons or crouch-sized hurtbox startup moves (like a DP)",
-                    "A lot more - on block if canceled into from EX QCB (EX Teki)",
                     "Framedata advantages shown with the parentheses format; x(y) - refers to worst(x) to best(y) frame advantage possible depending on how late into active frames it connects",
-                    "The KDA data on Transform cancel refers to when canceled from the first active frame of the secondary projectile hitboxes (increase the KDA accordingly depending on how late into the active frames this connects)"
+                    "The KDA data on Transform cancel refers to when canceled from the first active frame of the secondary projectile hitboxes (increase the KDA accordingly depending on how late into the active frames this connects)",
+                    "Zeku is in counterhit state during move duration"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LK",
-                "i": 49
+                "i": 51
             },
             "MK Bushin Gram - Ban": {
                 "moveName": "MK Bushin Gram - Ban",
@@ -1629,7 +1708,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Throw invincible on frames 1-7",
+                    "Projectile invincible on frames 3-12",
                     "1-hit strike hitbox with 2 active frames followed by (13) active frames of a vertical projectile hitbox that only spawns if the initial strike whiffs",
                     "The secondary projectile hitboxes can hit standing opponents (whiffs on crouching for the most part)",
                     "A lot more - on block if canceled into from EX QCB (EX Teki)",
@@ -1638,7 +1717,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 50
+                "i": 52
             },
             "MK Bushin Gram - Ban (Projectile)": {
                 "moveName": "MK Bushin Gram - Ban (Projectile)",
@@ -1662,7 +1741,7 @@
                 "followUp": false,
                 "projectile": true,
                 "extraInfo": [
-                    "Throw invincible on frames 1-7",
+                    "Projectile invincible on frames 3-12",
                     "1-hit strike hitbox with 2 active frames followed by (13) active frames of a vertical projectile hitbox that only spawns if the initial strike whiffs",
                     "The secondary projectile hitboxes can hit standing opponents (whiffs on crouching for the most part)",
                     "A lot more - on block if canceled into from EX QCB (EX Teki)",
@@ -1673,7 +1752,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MK",
-                "i": 51
+                "i": 53
             },
             "HK Bushin Gram - Ban": {
                 "moveName": "HK Bushin Gram - Ban",
@@ -1710,7 +1789,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 52
+                "i": 54
             },
             "HK Bushin Gram - Ban (Projectile)": {
                 "moveName": "HK Bushin Gram - Ban (Projectile)",
@@ -1745,7 +1824,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HK",
-                "i": 53
+                "i": 55
             },
             "EX Bushin Gram - Ban": {
                 "moveName": "EX Bushin Gram - Ban",
@@ -1783,7 +1862,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2K",
-                "i": 54
+                "i": 56
             },
             "EX Bushin Gram - Ban (Projectile)": {
                 "moveName": "EX Bushin Gram - Ban (Projectile)",
@@ -1820,7 +1899,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2K",
-                "i": 55
+                "i": 57
             },
             "Bushin Jakura": {
                 "moveName": "Bushin Jakura",
@@ -1844,7 +1923,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
-                "i": 56
+                "movesList": "Special (Bushin)",
+                "i": 58
             },
             "EX Bushin Jakura": {
                 "moveName": "EX Bushin Jakura",
@@ -1853,7 +1933,7 @@
                 "cmnName": "EX Bushin Flip",
                 "startup": 24,
                 "active": 21,
-                "recovery": "1+7",
+                "recovery": "1+4",
                 "total": 52,
                 "airmove": false,
                 "followUp": false,
@@ -1868,7 +1948,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 57
+                "i": 59
             },
             "Bushin Gekirinchu": {
                 "moveName": "Bushin Gekirinchu",
@@ -1896,7 +1976,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 58
+                "movesList": "Special (Bushin)",
+                "i": 60
             },
             "Bushin Kirinkyaku": {
                 "moveName": "Bushin Kirinkyaku",
@@ -1923,7 +2004,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 59
+                "movesList": "Special (Bushin)",
+                "i": 61
             },
             "Bushin Tengen": {
                 "moveName": "Bushin Tengen",
@@ -1950,7 +2032,8 @@
                 "moveType": "command-grab",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 60
+                "movesList": "Special (Bushin)",
+                "i": 62
             },
             "EX Bushin Gekirinchu": {
                 "moveName": "EX Bushin Gekirinchu",
@@ -1978,7 +2061,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 61
+                "i": 63
             },
             "EX Bushin Kirinkyaku": {
                 "moveName": "EX Bushin Kirinkyaku",
@@ -2005,7 +2088,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 62
+                "i": 64
             },
             "EX Bushin Tengen": {
                 "moveName": "EX Bushin Tengen",
@@ -2032,7 +2115,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 63
+                "i": 65
             },
             "Batsuzan Gaisei": {
                 "moveName": "Batsuzan Gaisei",
@@ -2062,8 +2145,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1K",
-                "i": 64
-            }
+                "movesList": "Super",
+                "i": 66
+            },
+            "input": "None"
         },
         "vtOne": {
             "Stand LP": {
@@ -2464,9 +2549,12 @@
                 "moveMotion": "D",
                 "moveButton": "HK",
                 "i": 12
-            }
+            },
+            "input": "None"
         },
-        "vtTwo": {}
+        "vtTwo": {
+            "input": "None"
+        }
     },
     "stats": {
         "health": 1000,

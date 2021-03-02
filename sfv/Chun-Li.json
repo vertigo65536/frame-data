@@ -11,8 +11,8 @@
                 "total": 13,
                 "onHit": 5,
                 "onBlock": 2,
-                "vtcOnHit": 5,
-                "vtcOnBlock": 2,
+                "vtc1OnHit": 5,
+                "vtc1OnBlock": 2,
                 "vtc2GapOnBlock": -9,
                 "damage": 30,
                 "stun": 70,
@@ -47,11 +47,13 @@
                 "total": 16,
                 "onHit": 6,
                 "onBlock": 3,
-                "vtcOnHit": 8,
-                "vtcOnBlock": 5,
+                "vtc1OnHit": 8,
+                "vtc1OnBlock": 5,
                 "vtc2GapOnBlock": -2,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -82,11 +84,14 @@
                 "total": 30,
                 "onHit": 0,
                 "onBlock": -4,
-                "vtcOnHit": 14,
-                "vtcOnBlock": 10,
+                "vtc1OnHit": 14,
+                "vtc1OnBlock": 10,
                 "vtc2GapOnBlock": -4,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*17/**19",
+                "hcWinVt": 21,
+                "hcWinNotes": "*CA only, **VT2 Secondary Activation",
                 "cancelsTo": [
                     "su",
                     "vt1",
@@ -114,8 +119,8 @@
                 "total": 13,
                 "onHit": 1,
                 "onBlock": -3,
-                "vtcOnHit": 1,
-                "vtcOnBlock": -3,
+                "vtc1OnHit": 1,
+                "vtc1OnBlock": -3,
                 "vtc2GapOnBlock": -10,
                 "damage": 40,
                 "stun": 70,
@@ -132,7 +137,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Whiffs on most crouching character"
+                    "Whiffs on most crouching characters"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -149,11 +154,12 @@
                 "total": 25,
                 "onHit": 2,
                 "onBlock": -2,
-                "vtcOnHit": 7,
-                "vtcOnBlock": 3,
+                "vtc1OnHit": 7,
+                "vtc1OnBlock": 3,
                 "vtc2GapOnBlock": -4,
                 "damage": 70,
                 "stun": 100,
+                "hcWinVt": 16,
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -181,16 +187,17 @@
                 "total": 30,
                 "onHit": 1,
                 "onBlock": -2,
-                "vtcOnHit": 6,
-                "vtcOnBlock": 3,
+                "vtc1OnHit": 6,
+                "vtc1OnBlock": 3,
                 "vtc2GapOnBlock": -3,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 21,
-                    "vG": "+150"
-                },
+                "hcWinSpCa": "*19",
+                "hcWinVt": 24,
+                "hcWinNotes": "*VT2 Secondary Activation",
+                "ccState": "Stagger",
+                "ccAdv": 21,
+                "ccVG": "+150",
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -218,8 +225,8 @@
                 "total": 11,
                 "onHit": 5,
                 "onBlock": 2,
-                "vtcOnHit": 3,
-                "vtcOnBlock": 0,
+                "vtc1OnHit": 3,
+                "vtc1OnBlock": 0,
                 "vtc2GapOnBlock": -7,
                 "damage": 30,
                 "stun": 70,
@@ -254,11 +261,12 @@
                 "total": 36,
                 "onHit": -3,
                 "onBlock": -8,
-                "vtcOnHit": 5,
-                "vtcOnBlock": 0,
+                "vtc1OnHit": 5,
+                "vtc1OnBlock": 0,
                 "vtc2GapOnBlock": -7,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 22,
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -288,11 +296,14 @@
                 "total": 37,
                 "onHit": 2,
                 "onBlock": -5,
-                "vtcOnHit": 12,
-                "vtcOnBlock": 9,
+                "vtc1OnHit": 12,
+                "vtc1OnBlock": 9,
                 "vtc2GapOnBlock": "N/A",
                 "damage": "50*40",
                 "stun": "100*50",
+                "hcWinSpCa": "*17",
+                "hcWinVt": "*16",
+                "hcWinNotes": "*1st hit only",
                 "multiActive": [
                     7,
                     8,
@@ -329,13 +340,14 @@
                 "total": 12,
                 "onHit": 2,
                 "onBlock": -1,
-                "vtcOnHit": 2,
-                "vtcOnBlock": 1,
+                "vtc1OnHit": 2,
+                "vtc1OnBlock": 1,
                 "vtc2GapOnBlock": -8,
                 "damage": 20,
                 "stun": 70,
                 "cancelsTo": [
                     "ch",
+                    "sp",
                     "vt1",
                     "vt2"
                 ],
@@ -362,11 +374,13 @@
                 "total": 23,
                 "onHit": 2,
                 "onBlock": -2,
-                "vtcOnHit": 10,
-                "vtcOnBlock": 6,
+                "vtc1OnHit": 10,
+                "vtc1OnBlock": 6,
                 "vtc2GapOnBlock": -1,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 17,
+                "hcWinVt": 17,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -397,19 +411,18 @@
                 "total": 34,
                 "onHit": "KD",
                 "onBlock": -12,
-                "vtcOnHit": "KD (+81/+32/37)",
-                "vtcOnBlock": 5,
+                "vtc1OnHit": "KD (+81/+32/37)",
+                "vtc1OnBlock": 5,
                 "vtc2GapOnBlock": -2,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 18,
                 "kd": 65,
                 "kdr": 16,
                 "kdrb": 21,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -591,11 +604,12 @@
                 "total": 20,
                 "onHit": 3,
                 "onBlock": 0,
-                "vtcOnHit": 7,
-                "vtcOnBlock": 4,
+                "vtc1OnHit": 7,
+                "vtc1OnBlock": 4,
                 "vtc2GapOnBlock": -3,
                 "damage": 65,
                 "stun": 100,
+                "hcWinVt": 14,
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -611,6 +625,7 @@
                 "moveType": "normal",
                 "moveMotion": "BorF",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Hakkei": {
@@ -620,23 +635,23 @@
                 "cmnName": "b+HP (EY!)",
                 "startup": 7,
                 "active": 5,
-                "recovery": 13,
-                "total": 24,
+                "recovery": "13(18)",
+                "total": "24(29)",
                 "onHit": 3,
                 "onBlock": 2,
-                "vtcOnHit": 11,
-                "vtcOnBlock": 10,
+                "vtc1OnHit": 11,
+                "vtc1OnBlock": 10,
                 "vtc2GapOnBlock": -1,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": 21,
+                "hcWinVt": 21,
                 "kd": 97,
                 "kdr": 38,
                 "kdrb": 43,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -651,11 +666,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Good counter-poke and oki tool",
+                    "5 extra recovery frames on whiff (18f)",
                     "Juggle Limit / Increase / Start: 0 / 1 / 1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Senenshu": {
@@ -683,6 +700,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Tenkukyaku": {
@@ -696,11 +714,12 @@
                 "total": 25,
                 "onHit": 2,
                 "onBlock": 0,
-                "vtcOnHit": 9,
-                "vtcOnBlock": 7,
+                "vtc1OnHit": 9,
+                "vtc1OnBlock": 7,
                 "vtc2GapOnBlock": "N/A",
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": 19,
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -720,6 +739,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 23
             },
             "Yokusenkyaku": {
@@ -735,11 +755,9 @@
                 "onBlock": -2,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 18,
-                    "vG": "+100"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 18,
+                "ccVG": "+100",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -753,6 +771,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 24
             },
             "Kakurakukyaku": {
@@ -782,6 +801,7 @@
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 25
             },
             "Yosokyaku": {
@@ -810,6 +830,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 26
             },
             "Wall Jump": {
@@ -820,8 +841,12 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Puts Chun-Li into a free juggle state if hit by a medium / heavy / command normal"
+                ],
                 "moveType": "movement-special",
                 "moveMotion": "UF",
+                "movesList": "Wall Jump",
                 "i": 27
             },
             "Koshuto": {
@@ -847,6 +872,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 28
             },
             "Tenshin Shushu": {
@@ -872,6 +898,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 29
             },
             "Ryuseiraku": {
@@ -894,11 +921,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Denies backroll",
                     "6F landing recovery frames if air throw whiffs"
                 ],
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 30
             },
             "Rankyaku": {
@@ -926,7 +955,8 @@
                     "Puts opponent into a limited juggle state",
                     "Cancelable into from special cancelable grounded normals",
                     "Cancels on hit into any air normals / air legs (Air Hyakuretsukyaku) or air throw on frames 13-23 (cancels later on block / whiff on frames 25-39)",
-                    "Can also follow-up with airborne V-Skill (Souseikyaku) on frames 22 and onward",
+                    "All air normals from V-Skill build 30 / 15 V-Gauge on Hit / Block",
+                    "Can also follow-up with airborne V-Skill Kick (Souseikyaku) on frames 22 and onward",
                     "Can do wall-jump from V-Skill if colliding with the wall if Chun-Li has not already followed-up with anything else in-air",
                     "6F landing recovery",
                     "V-Gauge on Hit / Block: 80 / 40",
@@ -935,6 +965,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 31
             },
             "Souseikyaku": {
@@ -959,6 +990,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 32
             },
             "Hazanshu": {
@@ -972,14 +1004,14 @@
                 "total": "43(49)",
                 "onHit": "KD",
                 "onBlock": -4,
-                "vtcOnHit": "KD (+100/41/46)",
-                "vtcOnBlock": 3,
+                "vtc1OnHit": "KD (+100/41/46)",
+                "vtc1OnBlock": 3,
                 "vtc2GapOnBlock": -4,
                 "damage": 80,
                 "stun": 120,
-                "kd": "93(75)",
-                "kdr": "34(16)",
-                "kdrb": "39(21)",
+                "kd": 75,
+                "kdr": 16,
+                "kdrb": 21,
                 "cancelsTo": [
                     "vt1",
                     "vt2"
@@ -989,12 +1021,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can hit OTG (On-The-Ground) which forces opponent into another knockdown state (KDA data for the OTG version shown in parantheses)",
+                    "Can hit OTG (On-The-Ground) which forces opponent into a knockdown state (KDA data is for the OTG version)",
                     "Airborne on frames 6-25",
-                    "Projectile invincible hurtbox extends below Chun-Li on frames 8-21",
+                    "Projectile invincible hurtbox extends below Chun-Li on frames 6-21",
                     "Cancelable into from special cancelable normals",
                     "Cancels into V-Trigger activations / V-Trigger 2 specials on hit / block",
                     "Can hold back when doing V-Skill to do a shorter version of Hazanshu",
+                    "6 extra recovery frames on block and whiff (20f)",
                     "V-Gauge on Hit / Block: 80 / 40",
                     "6 extra recovery frames (20) on whiff",
                     "Juggle Limit / Increase / Start: 20 / 30 / 4"
@@ -1002,6 +1035,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 33
             },
             "Renkiko": {
@@ -1024,6 +1058,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 34
             },
             "Kikosho": {
@@ -1060,6 +1095,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 35
             },
             "Sohakkei": {
@@ -1088,6 +1124,64 @@
                 "moveButton": "3P",
                 "i": 36
             },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.36 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 29
+            },
+            "Ensenbu": {
+                "moveName": "Ensenbu",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "cancelsTo": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 30
+            },
             "Taunt": {
                 "moveName": "Taunt",
                 "plnCmd": "PPP+KKK",
@@ -1113,8 +1207,8 @@
                 "total": 46,
                 "onHit": 0,
                 "onBlock": -6,
-                "vtcOnHit": 24,
-                "vtcOnBlock": 18,
+                "vtc1OnHit": 24,
+                "vtc1OnBlock": 18,
                 "vtc2GapOnBlock": "N/A",
                 "damage": 60,
                 "stun": 100,
@@ -1138,6 +1232,7 @@
                 "moveMotion": "F",
                 "moveButton": "LP",
                 "chargeDirection": "B",
+                "movesList": "Special",
                 "i": 38
             },
             "MP Kikoken": {
@@ -1150,8 +1245,8 @@
                 "total": 45,
                 "onHit": -1,
                 "onBlock": -5,
-                "vtcOnHit": 24,
-                "vtcOnBlock": 20,
+                "vtc1OnHit": 24,
+                "vtc1OnBlock": 20,
                 "vtc2GapOnBlock": "N/A",
                 "damage": 60,
                 "stun": 100,
@@ -1187,8 +1282,8 @@
                 "total": 44,
                 "onHit": -1,
                 "onBlock": -4,
-                "vtcOnHit": 25,
-                "vtcOnBlock": 22,
+                "vtc1OnHit": 25,
+                "vtc1OnBlock": 22,
                 "vtc2GapOnBlock": "N/A",
                 "damage": 60,
                 "stun": 100,
@@ -1224,8 +1319,8 @@
                 "total": 38,
                 "onHit": 4,
                 "onBlock": 1,
-                "vtcOnHit": 23,
-                "vtcOnBlock": 20,
+                "vtc1OnHit": 23,
+                "vtc1OnBlock": 20,
                 "vtc2GapOnBlock": "N/A",
                 "damage": "40*60",
                 "stun": "0*100",
@@ -1261,8 +1356,8 @@
                 "total": 49,
                 "onHit": 4,
                 "onBlock": -8,
-                "vtcOnHit": 6,
-                "vtcOnBlock": 0,
+                "vtc1OnHit": 9,
+                "vtc1OnBlock": 3,
                 "vtc2GapOnBlock": -6,
                 "damage": "15x4 (60)",
                 "stun": "20x4 (80)",
@@ -1283,6 +1378,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 42
             },
             "MK Hyakuretsukyaku": {
@@ -1296,8 +1392,8 @@
                 "total": 55,
                 "onHit": 3,
                 "onBlock": -9,
-                "vtcOnHit": 6,
-                "vtcOnBlock": 0,
+                "vtc1OnHit": 9,
+                "vtc1OnBlock": 3,
                 "vtc2GapOnBlock": -6,
                 "damage": "16x5 (80)",
                 "stun": "25x4*20 (120)",
@@ -1331,9 +1427,9 @@
                 "recovery": 20,
                 "total": 60,
                 "onHit": "KD",
-                "onBlock": -10,
-                "vtcOnHit": 6,
-                "vtcOnBlock": 0,
+                "onBlock": -12,
+                "vtc1OnHit": 9,
+                "vtc1OnBlock": 3,
                 "vtc2GapOnBlock": -6,
                 "damage": "15x5*25 (100)",
                 "stun": "20x6 (120)",
@@ -1372,8 +1468,8 @@
                 "total": 59,
                 "onHit": "KD",
                 "onBlock": -2,
-                "vtcOnHit": 6,
-                "vtcOnBlock": 4,
+                "vtc1OnHit": 6,
+                "vtc1OnBlock": 4,
                 "vtc2GapOnBlock": "N/A",
                 "damage": "10x9*50 (140)",
                 "stun": 200,
@@ -1423,6 +1519,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
+                "movesList": "Special",
                 "i": 46
             },
             "MK Air Hyakuretsukyaku": {
@@ -1545,6 +1642,7 @@
                 "moveMotion": "U",
                 "moveButton": "LK",
                 "chargeDirection": "D",
+                "movesList": "Special",
                 "i": 50
             },
             "MK Spinning Bird Kick": {
@@ -1654,10 +1752,10 @@
                 "cmnName": "EX Spinning Bird Kick",
                 "startup": 5,
                 "active": "7(1)4(1)4(1)2",
-                "recovery": 31,
-                "total": 51,
+                "recovery": 35,
+                "total": 55,
                 "onHit": "KD",
-                "onBlock": -16,
+                "onBlock": -20,
                 "damage": "25x4*50 (150)",
                 "stun": "30x4*80 (200)",
                 "multiActive": [
@@ -1691,6 +1789,7 @@
                     "Projectile invincible on frames 9-33",
                     "Takes 45 frames to charge",
                     "Airborne on frame 5",
+                    "Can hit crossup from frame 8",
                     "5 hits",
                     "Chun-Li is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Juggle Limit / Increase / Start: 5*6*7*8*9 / 1 / 1"
@@ -1722,13 +1821,15 @@
                 "projectile": false,
                 "extraInfo": [
                     "Fully invincible on frames 1-6",
-                    "Juggle Limit: 12"
+                    "Juggle Limit: 50"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1K",
+                "movesList": "Super",
                 "i": 54
-            }
+            },
+            "input": "None"
         },
         "vtOne": {
             "Stand LP": {
@@ -1775,6 +1876,7 @@
                 "onBlock": 3,
                 "damage": 70,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -1802,12 +1904,14 @@
                 "numCmd": "5HP",
                 "startup": 11,
                 "active": 4,
-                "recovery": 16,
+                "recovery": 18,
                 "total": 30,
                 "onHit": 2,
                 "onBlock": -5,
                 "damage": 90,
                 "stun": 150,
+                "hcWinSpCa": "*19",
+                "hcWinNotes": "*CA only",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1896,11 +2000,9 @@
                 "kd": 114,
                 "kdr": 55,
                 "kdrb": 60,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1990,6 +2092,7 @@
                 "onBlock": -2,
                 "damage": "65*45",
                 "stun": "100*50",
+                "hcWinSpCa": "*17",
                 "multiActive": [
                     7,
                     8,
@@ -2030,7 +2133,8 @@
                 "damage": 30,
                 "stun": 70,
                 "cancelsTo": [
-                    "ch"
+                    "ch",
+                    "sp"
                 ],
                 "attackLevel": "L",
                 "airmove": false,
@@ -2057,6 +2161,7 @@
                 "onBlock": -2,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 17,
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -2093,11 +2198,9 @@
                 "kd": 82,
                 "kdr": 23,
                 "kdrb": 28,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "airmove": false,
                 "followUp": false,
@@ -2306,14 +2409,13 @@
                 "onBlock": 2,
                 "damage": 100,
                 "stun": 150,
+                "hcWinSpCa": 21,
                 "kd": 99,
                 "kdr": 40,
                 "kdrb": 45,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "cancelsTo": [
                     "sp",
                     "su",
@@ -2404,11 +2506,9 @@
                 "onBlock": -2,
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 18,
-                    "vG": "+100"
-                },
+                "ccState": "Stagger",
+                "ccAdv": 18,
+                "ccVG": "+100",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2555,6 +2655,7 @@
                 "onBlock": -4,
                 "damage": 90,
                 "stun": 130,
+                "hcWinVt": 18,
                 "kd": "93(75)",
                 "kdr": "34(16)",
                 "kdrb": "39(21)",
@@ -2591,9 +2692,7 @@
                 "damage": 60,
                 "stun": 100,
                 "cancelsTo": [
-                    "su",
-                    "vt1",
-                    "vt2"
+                    "su"
                 ],
                 "attackLevel": "H",
                 "airmove": false,
@@ -2625,9 +2724,7 @@
                 "damage": 60,
                 "stun": 100,
                 "cancelsTo": [
-                    "su",
-                    "vt1",
-                    "vt2"
+                    "su"
                 ],
                 "attackLevel": "H",
                 "airmove": false,
@@ -2659,9 +2756,7 @@
                 "damage": 60,
                 "stun": 100,
                 "cancelsTo": [
-                    "su",
-                    "vt1",
-                    "vt2"
+                    "su"
                 ],
                 "attackLevel": "H",
                 "airmove": false,
@@ -2692,10 +2787,6 @@
                 "onBlock": 1,
                 "damage": "50*70",
                 "stun": "0*100",
-                "cancelsTo": [
-                    "vt1",
-                    "vt2"
-                ],
                 "attackLevel": "H*H",
                 "airmove": false,
                 "followUp": false,
@@ -2727,9 +2818,7 @@
                 "damage": "15x3*25 (70)",
                 "stun": "20x4 (80)",
                 "cancelsTo": [
-                    "su",
-                    "vt1",
-                    "vt2"
+                    "su"
                 ],
                 "attackLevel": "H",
                 "airmove": false,
@@ -2758,9 +2847,7 @@
                 "damage": "16x4*26 (90)",
                 "stun": "25x4*20 (120)",
                 "cancelsTo": [
-                    "su",
-                    "vt1",
-                    "vt2"
+                    "su"
                 ],
                 "attackLevel": "H",
                 "airmove": false,
@@ -2785,16 +2872,14 @@
                 "recovery": 20,
                 "total": 60,
                 "onHit": 2,
-                "onBlock": -10,
+                "onBlock": -12,
                 "damage": "15x5*35 (110)",
                 "stun": "20x6 (120)",
-                "kd": 88,
-                "kdr": 29,
-                "kdrb": 34,
+                "kd": 83,
+                "kdr": 24,
+                "kdrb": 29,
                 "cancelsTo": [
-                    "su",
-                    "vt1",
-                    "vt2"
+                    "su"
                 ],
                 "attackLevel": "H",
                 "airmove": false,
@@ -3131,6 +3216,7 @@
                     "Projectile invincible on frames 9-33",
                     "Takes 45 frames to charge",
                     "Airborne on frame 5",
+                    "Can hit crossup from frame 8",
                     "5 hits",
                     "Chun-Li is in counterhit state during move duration and takes 20% additional damage from the first hit (total of 144%)",
                     "Juggle Limit / Increase / Start: 5*6*7*8*9 / 1 / 1"
@@ -3140,7 +3226,8 @@
                 "moveButton": "2K",
                 "chargeDirection": "D",
                 "i": 53
-            }
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Kikosho (release)": {
@@ -3174,6 +3261,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 35.01
             },
             "Kikosho (hold)": {
@@ -3186,7 +3274,7 @@
                 "recovery": 7,
                 "total": 79,
                 "onHit": "KD",
-                "onBlock": 18,
+                "onBlock": "18(GB)",
                 "damage": "20x4*40 (120)",
                 "stun": 150,
                 "kd": 109,
@@ -3208,8 +3296,10 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 35.02
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
@@ -3225,7 +3315,7 @@
         "bDash": 21,
         "bDashCHFrames": "3-10",
         "color": "#488ED6",
-        "phrase": "Want to see my Kung-Fu? I'll show you.",
+        "phrase": "Want to see my Kung-Fu? I'll show you",
         "fWalk": 5.35,
         "bWalk": 3.4,
         "fJumpDist": 205,

@@ -13,10 +13,11 @@
                 "onBlock": 3,
                 "damage": 40,
                 "stun": 70,
-                "vtc1OnHit": 8,
-                "vtc1OnBlock": 7,
-                "vtc2OnHit": 8,
-                "vtc2OnBlock": 7,
+                "hcWinSpCa": 12,
+                "hcWinTc": 14,
+                "hcWinVt": 12,
+                "vtcOnHit": 8,
+                "vtcOnBlock": 7,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -49,10 +50,10 @@
                 "onBlock": 5,
                 "damage": 70,
                 "stun": 100,
-                "vtc1OnHit": 21,
-                "vtc1OnBlock": 19,
-                "vtc2OnHit": 21,
-                "vtc2OnBlock": 19,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
+                "vtcOnHit": 21,
+                "vtcOnBlock": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -65,8 +66,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "First active frame whiffs on most crouching characters (hits: Abigail, Birdie, Urien, Zangief)",
-                    "Can hit crossups"
+                    "First active frame whiffs on most crouching characters (hits: Abigail, Birdie, G, Gill, Urien, Sagat, Zangief)",
+                    "Can hit crossups",
+                    "4f trap when canceling into Run Grab"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -85,18 +87,15 @@
                 "onBlock": -3,
                 "damage": 90,
                 "stun": 150,
-                "vtc1OnHit": 25,
-                "vtc1OnBlock": 22,
-                "vtc2OnHit": 25,
-                "vtc2OnBlock": 22,
+                "hcWinVt": 18,
+                "vtcOnHit": 25,
+                "vtcOnBlock": 22,
                 "kd": 102,
                 "kdr": 70,
                 "kdrb": 70,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "C",
-                    "vG": "+120"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "C",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -126,10 +125,8 @@
                 "onBlock": 3,
                 "damage": 50,
                 "stun": 70,
-                "vtc1OnHit": 11,
-                "vtc1OnBlock": 10,
-                "vtc2OnHit": 11,
-                "vtc2OnBlock": 10,
+                "vtcOnHit": 11,
+                "vtcOnBlock": 10,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -141,6 +138,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Can hit crossups"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "LK",
@@ -158,10 +158,9 @@
                 "onBlock": 0,
                 "damage": 80,
                 "stun": 100,
-                "vtc1OnHit": 16,
-                "vtc1OnBlock": 14,
-                "vtc2OnHit": 16,
-                "vtc2OnBlock": 14,
+                "hcWinVt": 14,
+                "vtcOnHit": 16,
+                "vtcOnBlock": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -170,6 +169,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Steps on the gas"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MK",
@@ -187,18 +189,17 @@
                 "onBlock": -8,
                 "damage": 90,
                 "stun": 150,
-                "vtc1OnHit": "KD (+113/54/59)",
-                "vtc1OnBlock": 18,
-                "vtc2OnHit": "KD (+113/54/59)",
-                "vtc2OnBlock": 18,
+                "hcWinSpCa": "*18",
+                "hcWinVt": 18,
+                "hcWinNotes": "*CA only",
+                "vtcOnHit": "KD (+113/54/59)",
+                "vtcOnBlock": 18,
                 "kd": 87,
                 "kdr": 28,
                 "kdrb": 33,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -230,10 +231,11 @@
                 "onBlock": 3,
                 "damage": 40,
                 "stun": 70,
-                "vtc1OnHit": 8,
-                "vtc1OnBlock": 7,
-                "vtc2OnHit": 8,
-                "vtc2OnBlock": 7,
+                "hcWinSpCa": 12,
+                "hcWinTc": 15,
+                "hcWinVt": 12,
+                "vtcOnHit": 8,
+                "vtcOnBlock": 7,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -245,6 +247,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Great harassment tool"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "LP",
@@ -262,10 +267,11 @@
                 "onBlock": -3,
                 "damage": 70,
                 "stun": 100,
-                "vtc1OnHit": 17,
-                "vtc1OnBlock": 12,
-                "vtc2OnHit": 17,
-                "vtc2OnBlock": 12,
+                "hcWinSpCa": "15/*14",
+                "hcWinVt": "15/*14",
+                "hcWinNotes": "*Hits on Active Frame 2 unless point blank, making confirm window 14f",
+                "vtcOnHit": 17,
+                "vtcOnBlock": 12,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -298,18 +304,16 @@
                 "onBlock": -18,
                 "damage": 90,
                 "stun": 150,
-                "vtc1OnHit": 20,
-                "vtc1OnBlock": 15,
-                "vtc2OnHit": 20,
-                "vtc2OnBlock": 15,
+                "hcWinSpCa": 19,
+                "hcWinVt": 19,
+                "vtcOnHit": 20,
+                "vtcOnBlock": 15,
                 "kd": 87,
                 "kdr": 28,
                 "kdrb": 33,
-                "crushAdv": {
-                    "state": "Flipping Juggle",
-                    "ccAdv": "J",
-                    "vG": "+150"
-                },
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -322,7 +326,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can only Crush Counter on the first 2 active frames",
+                    "Can only Crush Counter on the first active frame",
                     "Puts airborne opponents into a limited juggle state",
                     "Can hit crossups"
                 ],
@@ -343,10 +347,8 @@
                 "onBlock": 2,
                 "damage": 40,
                 "stun": 70,
-                "vtc1OnHit": 11,
-                "vtc1OnBlock": 8,
-                "vtc2OnHit": 11,
-                "vtc2OnBlock": 8,
+                "vtcOnHit": 11,
+                "vtcOnBlock": 8,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -355,6 +357,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Combos into b+HP on counter-hit"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "LK",
@@ -372,10 +377,10 @@
                 "onBlock": -3,
                 "damage": 60,
                 "stun": 100,
-                "vtc1OnHit": 16,
-                "vtc1OnBlock": 13,
-                "vtc2OnHit": 16,
-                "vtc2OnBlock": 13,
+                "hcWinSpCa": 16,
+                "hcWinVt": 13,
+                "vtcOnHit": 16,
+                "vtcOnBlock": 13,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -408,18 +413,16 @@
                 "onBlock": -14,
                 "damage": "50*70 (120)",
                 "stun": "50*100 (150)",
-                "vtc1OnHit": 25,
-                "vtc1OnBlock": 16,
-                "vtc2OnHit": 25,
-                "vtc2OnBlock": 16,
+                "hcWinVt": "*16",
+                "hcWinNotes": "*1st hit only",
+                "vtcOnHit": 25,
+                "vtcOnBlock": 16,
                 "kd": 61,
                 "kdr": 12,
                 "kdrb": 17,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H*L",
                 "cancelsTo": [
                     "vt1",
@@ -591,6 +594,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 19
             },
             "Abi Lift": {
@@ -606,10 +610,10 @@
                 "onBlock": 1,
                 "damage": 90,
                 "stun": 150,
-                "vtc1OnHit": 20,
-                "vtc1OnBlock": 17,
-                "vtc2OnHit": 20,
-                "vtc2OnBlock": 17,
+                "hcWinSpCa": 19,
+                "hcWinVt": 19,
+                "vtcOnHit": 20,
+                "vtcOnBlock": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -630,6 +634,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Abi Blaster": {
@@ -645,10 +650,11 @@
                 "onBlock": -6,
                 "damage": 90,
                 "stun": 150,
-                "vtc1OnHit": 22,
-                "vtc1OnBlock": 19,
-                "vtc2OnHit": 22,
-                "vtc2OnBlock": 19,
+                "hcWinSpCa": 17,
+                "hcWinTc": 16,
+                "hcWinVt": 16,
+                "vtcOnHit": 22,
+                "vtcOnBlock": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -661,13 +667,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can nullify 1-hit projectiles (rewards 1/10th of CA meter upon absorption",
+                    "Can nullify 1-hit projectiles (rewards 1/10th of CA meter upon absorption)",
                     "Can hit cross-up",
                     "+5 extra recovery frames on whiff"
                 ],
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Abi Scissor": {
@@ -681,20 +688,17 @@
                 "total": 44,
                 "onHit": "KD",
                 "onBlock": -14,
-                "damage": 90,
+                "damage": 100,
                 "stun": 150,
-                "vtc1OnHit": "KD (+90/41/46)",
-                "vtc1OnBlock": 11,
-                "vtc2OnHit": "KD (+90/41/46)",
-                "vtc2OnBlock": 11,
+                "hcWinVt": 16,
+                "vtcOnHit": "KD (+90/41/46)",
+                "vtcOnBlock": 11,
                 "kd": 65,
                 "kdr": 16,
                 "kdrb": 21,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -709,6 +713,7 @@
                 "moveType": "normal",
                 "moveMotion": "DB",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Abi Twist": {
@@ -724,10 +729,11 @@
                 "onBlock": -9,
                 "damage": "90*81 (171)",
                 "stun": "150*135 (285)",
-                "vtc1OnHit": "KD (+110/51/56)",
-                "vtc1OnBlock": 14,
-                "vtc2OnHit": "KD (+110/51/56)",
-                "vtc2OnBlock": 14,
+                "hcWinSpCa": "*16",
+                "hcWinVt": 16,
+                "hcWinNotes": "*CA only",
+                "vtcOnHit": "KD (+110/51/56)",
+                "vtcOnBlock": 14,
                 "kd": 87,
                 "kdr": 28,
                 "kdrb": 33,
@@ -741,11 +747,13 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Launches the opponent into a free juggle state"
+                    "Main oki tool",
+                    "Launches the opponent into a free juggle state on V-Trigger cancel"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Vroom Vroom": {
@@ -761,10 +769,10 @@
                 "onBlock": 3,
                 "damage": "40*27 (67)",
                 "stun": "70*63 (133)",
-                "vtc1OnHit": 6,
-                "vtc1OnBlock": 5,
-                "vtc2OnHit": 6,
-                "vtc2OnBlock": 5,
+                "hcWinSpCa": 10,
+                "hcWinVt": 14,
+                "vtcOnHit": 6,
+                "vtcOnBlock": 5,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -783,6 +791,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "LP",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Bang Bang": {
@@ -798,10 +807,10 @@
                 "onBlock": 3,
                 "damage": "40*27 (67)",
                 "stun": "70*63 (133)",
-                "vtc1OnHit": 5,
-                "vtc1OnBlock": 4,
-                "vtc2OnHit": 5,
-                "vtc2OnBlock": 4,
+                "hcWinSpCa": 11,
+                "hcWinVt": 14,
+                "vtcOnHit": 5,
+                "vtcOnBlock": 4,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -819,6 +828,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "LP",
+                "movesList": "Target Combo",
                 "i": 25
             },
             "Red Leaf": {
@@ -843,6 +853,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 26
             },
             "Hit & Run": {
@@ -867,13 +878,14 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 27
             },
             "Hungabee High": {
                 "moveName": "Hungabee High",
                 "plnCmd": "MP+MK (VS1)",
                 "numCmd": "MPMK (VS1)",
-                "cmnName": "V-Skill 1 high",
+                "cmnName": "V-Skill 1 High",
                 "startup": 3,
                 "active": 10,
                 "recovery": 31,
@@ -890,13 +902,14 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 28
             },
             "Hungabee Low": {
                 "moveName": "Hungabee Low",
                 "plnCmd": "d+MP+MK (VS1)",
                 "numCmd": "2MPMK (VS1)",
-                "cmnName": "V-Skill 1 low",
+                "cmnName": "V-Skill 1 Low",
                 "startup": 3,
                 "active": 10,
                 "recovery": 31,
@@ -913,13 +926,14 @@
                 "moveMotion": "D",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 1",
                 "i": 29
             },
             "Hungabee Parry": {
                 "moveName": "Hungabee Parry",
-                "plnCmd": "Parry",
-                "numCmd": "Parry",
-                "cmnName": "Parry",
+                "plnCmd": "Parry Attack",
+                "numCmd": "Parry Attack",
+                "cmnName": "Parry Attack",
                 "startup": 4,
                 "active": 8,
                 "recovery": 20,
@@ -946,6 +960,7 @@
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
+                "movesList": "V-Skill 1",
                 "i": 30
             },
             "C'mon Spare Tire": {
@@ -979,6 +994,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 31
             },
             "Max Power": {
@@ -1003,6 +1019,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 32
             },
             "Hybrid Charge": {
@@ -1025,6 +1042,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 33
             },
             "Ontario Drop": {
@@ -1055,7 +1073,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3K",
+                "movesList": "V-Reversal",
                 "i": 34
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 35
+            },
+            "Abigail Junker": {
+                "moveName": "Abigail Junker",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 36
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1071,7 +1148,7 @@
                 "moveMotion": "N",
                 "moveButton": "3P3K",
                 "nonHittingMove": true,
-                "i": 35
+                "i": 37
             },
             "LP Abigail Punch": {
                 "moveName": "LP Abigail Punch",
@@ -1086,10 +1163,10 @@
                 "onBlock": -12,
                 "damage": 100,
                 "stun": 120,
-                "vtc2OnHit": "KD (+108/49/54)",
-                "kd": 86,
-                "kdr": 27,
-                "kdrb": 32,
+                "vtcOnHit": "KD (+108/49/54)",
+                "kd": 87,
+                "kdr": 28,
+                "kdrb": 33,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1100,14 +1177,15 @@
                 "projectile": false,
                 "extraInfo": [
                     "First hit causes hard knockdown",
-                    "Puts the opponent into a free juggle state",
+                    "Puts the opponent into a free juggle state on V-Trigger 2 cancel",
                     "Cannot VT2 cancel on block",
                     "4 less recovery frames on hit"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 36
+                "movesList": "Special",
+                "i": 38
             },
             "LP Abigail Punch mash": {
                 "moveName": "LP Abigail Punch mash",
@@ -1121,10 +1199,10 @@
                 "onBlock": -12,
                 "damage": 120,
                 "stun": 150,
-                "vtc2OnHit": "KD (+114/55/60)",
-                "kd": 80,
-                "kdr": 21,
-                "kdrb": 26,
+                "vtcOnHit": "KD (+114/55/60)",
+                "kd": 85,
+                "kdr": 26,
+                "kdrb": 31,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1135,14 +1213,15 @@
                 "projectile": false,
                 "extraInfo": [
                     "First hit causes hard knockdown",
-                    "Puts the opponent into a free juggle state",
+                    "Puts the opponent into a free juggle state on V-Trigger 2 cancel",
                     "Cannot VT2 cancel on block",
                     "4 less recovery frames on hit"
                 ],
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 37
+                "movesList": "Special",
+                "i": 39
             },
             "MP Abigail Punch": {
                 "moveName": "MP Abigail Punch",
@@ -1157,10 +1236,10 @@
                 "onBlock": -19,
                 "damage": 110,
                 "stun": 120,
-                "vtc2OnHit": "KD (+108/49/54)",
-                "kd": 86,
-                "kdr": 27,
-                "kdrb": 32,
+                "vtcOnHit": "KD (+108/49/54)",
+                "kd": 87,
+                "kdr": 28,
+                "kdrb": 33,
                 "attackLevel": "T",
                 "cancelsTo": [
                     "su",
@@ -1171,7 +1250,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "First hit causes hard knockdown",
-                    "Puts the opponent into a free juggle state",
+                    "Puts the opponent into a free juggle state on V-Trigger 2 cancel",
                     "Furthest horizontal range of the non-EX Abigail Punches",
                     "Cannot VT2 cancel on block",
                     "4 less recovery frames on hit"
@@ -1179,7 +1258,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 38
+                "i": 40
             },
             "MP Abigail Punch Mash": {
                 "moveName": "MP Abigail Punch Mash",
@@ -1193,10 +1272,10 @@
                 "onBlock": -19,
                 "damage": 130,
                 "stun": 150,
-                "vtc2OnHit": "KD (+113/54/59)",
-                "kd": 80,
-                "kdr": 21,
-                "kdrb": 26,
+                "vtcOnHit": "KD (+113/54/59)",
+                "kd": 85,
+                "kdr": 26,
+                "kdrb": 31,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1207,7 +1286,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "First hit causes hard knockdown",
-                    "Puts the opponent into a free juggle state",
+                    "Puts the opponent into a free juggle state on V-Trigger 2 cancel",
                     "Furthest horizontal range of the non-EX Abigail Punches",
                     "Cannot VT2 cancel on block",
                     "4 less recovery frames on hit"
@@ -1215,7 +1294,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 39
+                "i": 41
             },
             "HP Abigail Punch": {
                 "moveName": "HP Abigail Punch",
@@ -1230,10 +1309,10 @@
                 "onBlock": -16,
                 "damage": 120,
                 "stun": 120,
-                "vtc2OnHit": "KD (+108/49/54)",
-                "kd": 86,
-                "kdr": 27,
-                "kdrb": 32,
+                "vtcOnHit": "KD (+108/49/54)",
+                "kd": 87,
+                "kdr": 28,
+                "kdrb": 33,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1244,7 +1323,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "First hit causes hard knockdown",
-                    "Puts the opponent into a free juggle state",
+                    "Puts the opponent into a free juggle state on V-Trigger 2 cancel",
                     "4 less recovery frames on hit",
                     "Cannot VT2 cancel on block",
                     "Punches high into the air (cannot hit crouching)"
@@ -1252,7 +1331,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 40
+                "i": 42
             },
             "HP Abigail Punch Mash": {
                 "moveName": "HP Abigail Punch Mash",
@@ -1266,10 +1345,10 @@
                 "onBlock": -16,
                 "damage": 140,
                 "stun": 150,
-                "vtc2OnHit": "KD (+114/55/60)",
-                "kd": 80,
-                "kdr": 21,
-                "kdrb": 26,
+                "vtcOnHit": "KD (+114/55/60)",
+                "kd": 85,
+                "kdr": 26,
+                "kdrb": 31,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1280,7 +1359,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "First hit causes hard knockdown",
-                    "Puts the opponent into a free juggle state",
+                    "Puts the opponent into a free juggle state on V-Trigger 2 cancel",
                     "4 less recovery frames on hit",
                     "Cannot VT2 cancel on block",
                     "Punches high into the air (cannot hit crouching)"
@@ -1288,7 +1367,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 41
+                "i": 43
             },
             "EX Abigail Punch": {
                 "moveName": "EX Abigail Punch",
@@ -1303,7 +1382,7 @@
                 "onBlock": -23,
                 "damage": 140,
                 "stun": 150,
-                "vtc2OnHit": "KD (+121/62/67)",
+                "vtcOnHit": "KD (+121/62/67)",
                 "kd": 89,
                 "kdr": 30,
                 "kdrb": 35,
@@ -1318,7 +1397,7 @@
                 "extraInfo": [
                     "1 hit of armor on frames 3-13",
                     "First hit causes hard knockdown",
-                    "Puts the opponent into a free juggle state",
+                    "Puts the opponent into a free juggle state on V-Trigger 2 cancel",
                     "Cannot VT2 cancel on block",
                     "Furthest horizontal range of the Abigail Punches",
                     "Can cancel launching hit into Tire, leaves Abigail -8 after"
@@ -1326,7 +1405,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 42
+                "i": 44
             },
             "EX Abigail Punch Mash": {
                 "moveName": "EX Abigail Punch Mash",
@@ -1340,10 +1419,10 @@
                 "onBlock": -23,
                 "damage": 160,
                 "stun": 200,
-                "vtc2OnHit": "KD (+130/71/76)",
-                "kd": 82,
-                "kdr": 23,
-                "kdrb": 28,
+                "vtcOnHit": "KD (+130/71/76)",
+                "kd": 90,
+                "kdr": 31,
+                "kdrb": 36,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vs2",
@@ -1355,7 +1434,7 @@
                 "extraInfo": [
                     "1 hit of armor on frames 3-13",
                     "First hit causes hard knockdown",
-                    "Puts the opponent into a free juggle state",
+                    "Puts the opponent into a free juggle state on V-Trigger 2 cancel",
                     "Cannot VT2 cancel on block",
                     "Furthest horizontal range of the Abigail Punches",
                     "Can cancel launching hit into Tire, leaves Abigail +1 after"
@@ -1363,7 +1442,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 43
+                "i": 45
             },
             "LP Giant Flip": {
                 "moveName": "LP Giant Flip",
@@ -1389,12 +1468,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "3 active frames of strike hitbox, followed up with 4 active frames of projectile hitbox (which nullifies 1 hit of projectile)"
+                    "3 active frames of strike hitbox, followed up with 4 active frames of projectile hitbox (which nullifies 1 hit of projectile)",
+                    "3 frame gap when canceled from cr HP"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
-                "i": 44
+                "movesList": "Special",
+                "i": 46
             },
             "MP Giant Flip": {
                 "moveName": "MP Giant Flip",
@@ -1427,7 +1508,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "MP",
-                "i": 45
+                "i": 47
             },
             "HP Giant Flip": {
                 "moveName": "HP Giant Flip",
@@ -1460,7 +1541,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "HP",
-                "i": 46
+                "i": 48
             },
             "EX Giant Flip": {
                 "moveName": "EX Giant Flip",
@@ -1494,13 +1575,13 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
-                "i": 47
+                "i": 49
             },
             "EX Giant Flip Mash": {
                 "moveName": "EX Giant Flip Mash",
                 "plnCmd": "hcb+PP (mash)",
                 "numCmd": "63214+PP (mash)",
-                "cmnName": "EX Flip mash",
+                "cmnName": "EX Flip Mash",
                 "startup": 30,
                 "active": "4*2",
                 "recovery": 26,
@@ -1526,7 +1607,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 48
+                "i": 50
             },
             "LK Abigail Smash": {
                 "moveName": "LK Abigail Smash",
@@ -1550,7 +1631,8 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LK",
-                "i": 49
+                "movesList": "Special",
+                "i": 51
             },
             "MK Abigail Smash": {
                 "moveName": "MK Abigail Smash",
@@ -1574,7 +1656,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MK",
-                "i": 50
+                "i": 52
             },
             "HK Abigail Smash": {
                 "moveName": "HK Abigail Smash",
@@ -1598,7 +1680,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HK",
-                "i": 51
+                "i": 53
             },
             "EX Abigail Smash (corner)": {
                 "moveName": "EX Abigail Smash (corner)",
@@ -1610,8 +1692,8 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": 80,
-                "stun": 100,
+                "damage": 100,
+                "stun": 120,
                 "kd": 92,
                 "kdr": 33,
                 "kdrb": 33,
@@ -1626,7 +1708,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 52
+                "i": 54
             },
             "EX Abigail Smash (midscreen)": {
                 "moveName": "EX Abigail Smash (midscreen)",
@@ -1638,8 +1720,8 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": 80,
-                "stun": 100,
+                "damage": 100,
+                "stun": 120,
                 "kd": 101,
                 "kdr": 42,
                 "kdrb": 42,
@@ -1654,7 +1736,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 53
+                "i": 55
             },
             "Nitro Blitz ": {
                 "moveName": "Nitro Blitz ",
@@ -1673,7 +1755,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2K",
-                "i": 54
+                "movesList": "Special (Stance)",
+                "i": 56
             },
             "Nitro Charge": {
                 "moveName": "Nitro Charge",
@@ -1694,7 +1777,9 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2K",
-                "i": 55
+                "nonHittingMove": true,
+                "movesList": "Special (Stance)",
+                "i": 57
             },
             "Nitro Blitz  > Drop Back": {
                 "moveName": "Nitro Blitz  > Drop Back",
@@ -1712,7 +1797,8 @@
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "B",
-                "i": 56
+                "movesList": "Special (Stance)",
+                "i": 58
             },
             "Nitro Blitz  > Dynamite Punch": {
                 "moveName": "Nitro Blitz  > Dynamite Punch",
@@ -1726,8 +1812,8 @@
                 "onBlock": -9,
                 "damage": 100,
                 "stun": 200,
-                "vtc2OnHit": "KD (+110/51/56)",
-                "vtc2OnBlock": 16,
+                "vtcOnHit": "KD (+110/51/56)",
+                "vtcOnBlock": 16,
                 "kd": 85,
                 "kdr": 26,
                 "kdrb": 31,
@@ -1746,7 +1832,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 57
+                "movesList": "Special (Stance)",
+                "i": 59
             },
             "Nitro Blitz  > Avalanche Press": {
                 "moveName": "Nitro Blitz  > Avalanche Press",
@@ -1778,7 +1865,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 58
+                "movesList": "Special (Stance)",
+                "i": 60
             },
             "Nitro Blitz  > Bay Area Sunrise": {
                 "moveName": "Nitro Blitz  > Bay Area Sunrise",
@@ -1805,13 +1893,14 @@
                 "moveType": "command-grab",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 59
+                "movesList": "Special (Stance)",
+                "i": 61
             },
             "Nitro Blitz  > Nitro Hungabee High": {
                 "moveName": "Nitro Blitz  > Nitro Hungabee High",
                 "plnCmd": "KK > MP+MK",
                 "numCmd": "KK > MPMK",
-                "cmnName": "Run V-Skill high",
+                "cmnName": "Run V-Skill High",
                 "startup": "Run+3",
                 "active": 10,
                 "recovery": 31,
@@ -1822,19 +1911,19 @@
                 "extraInfo": [
                     "Parries standing and aerial state attacks only on frames 3-12",
                     "Cannot parry Critical Arts",
-                    "Minimum startup from Run is 24 frames (21+3)",
-                    "Gains 100 V-Meter on successful parry"
+                    "Minimum startup from Run is 24 frames (21+3)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 60
+                "movesList": "Special (Stance)",
+                "i": 62
             },
             "Nitro Blitz  > Nitro Hungabee Low": {
                 "moveName": "Nitro Blitz  > Nitro Hungabee Low",
                 "plnCmd": "KK > d+MP+MK",
                 "numCmd": "KK > 2MPMK",
-                "cmnName": "Run V-Skill low",
+                "cmnName": "Run V-Skill Low",
                 "startup": "Run+3",
                 "active": 10,
                 "recovery": 31,
@@ -1845,19 +1934,19 @@
                 "extraInfo": [
                     "Parries crouching state attacks only on frames 3-12",
                     "Cannot parry Critical Arts",
-                    "Minimum startup from Run is 24 frames (21+3)",
-                    "Gains 100 V-Meter on successful parry"
+                    "Minimum startup from Run is 24 frames (21+3)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
-                "i": 61
+                "movesList": "Special (Stance)",
+                "i": 63
             },
             "Nitro Blitz  > Nitro Hungabee Parry": {
                 "moveName": "Nitro Blitz  > Nitro Hungabee Parry",
-                "plnCmd": "KK > Parry",
-                "numCmd": "5KK > Parry",
-                "cmnName": "Run Parry",
+                "plnCmd": "KK > Parry Attack",
+                "numCmd": "5KK > Parry Attack",
+                "cmnName": "Run Parry Attack",
                 "startup": 4,
                 "active": 8,
                 "recovery": 20,
@@ -1874,14 +1963,17 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
+                    "This is framedata for the parry that triggers on a successful V-Skill absorb (This is not the startup of the V-Skill itself)",
                     "Strike and Throw (not projectile) invincible on frames 1-11",
                     "Puts airborne opponents into a limited juggle state",
                     "Cancels on the 4th frame into specials or super",
-                    "Cannot cancel on whiff (or when parrying projectiles)"
+                    "Cannot cancel on whiff (or when parrying projectiles)",
+                    "Builds 100 V-Meter if attack connects with opponent"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
-                "i": 62
+                "movesList": "Special (Stance)",
+                "i": 64
             },
             "EX Nitro Charge": {
                 "moveName": "EX Nitro Charge",
@@ -1914,7 +2006,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "3K",
-                "i": 63
+                "movesList": "Special (Stance)",
+                "i": 65
             },
             "EX Nitro Charge > EX Dynamite Punch": {
                 "moveName": "EX Nitro Charge > EX Dynamite Punch",
@@ -1928,10 +2021,10 @@
                 "onBlock": -9,
                 "damage": 100,
                 "stun": 150,
-                "vtc2OnHit": "KD (+113/81/81)",
-                "vtc2OnBlock": 16,
+                "vtcOnHit": "KD (+113/81/81)",
+                "vtcOnBlock": 16,
                 "kd": 88,
-                "kdr": 51,
+                "kdr": 56,
                 "kdrb": 56,
                 "attackLevel": "H",
                 "cancelsTo": [
@@ -1950,7 +2043,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 64
+                "i": 66
             },
             "EX Nitro Charge > EX Avalanche Press": {
                 "moveName": "EX Nitro Charge > EX Avalanche Press",
@@ -1975,14 +2068,13 @@
                     "Overhead",
                     "1 hit of armor on frames 5-20",
                     "Airborne and Projectile invincible on frames 4-25",
-                    "The first hit is split into 2 different hitboxes and if the lower hitbox connects with an airborne opponent and the 2nd grounded hit whiffs; it causes a Hard Knockdown (+?)",
                     "Minimum startup from EX Run is 38 frames (17+21)",
                     "Can OTG with last hit (KDA in parenthesis)"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 65
+                "i": 67
             },
             "EX Nitro Charge > EX Bay Area Sunrise": {
                 "moveName": "EX Nitro Charge > EX Bay Area Sunrise",
@@ -2009,7 +2101,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 66
+                "i": 68
             },
             "EX Nitro Charge > EX Nitro Hungabee": {
                 "moveName": "EX Nitro Charge > EX Nitro Hungabee",
@@ -2025,19 +2117,18 @@
                 "extraInfo": [
                     "Parries standing, airborne AND crouching state attacks only on frames 2-11",
                     "CAN parry Critical Arts (but will still lose to multi-hit projectiles ones since the Parry follow-up isn't Projectile invincible)",
-                    "Minimum startup from EX Run is 19 frames (17+2)",
-                    "Gains 150 V-Meter on successful parry"
+                    "Minimum startup from EX Run is 19 frames (17+2)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 67
+                "i": 69
             },
             "EX Nitro Charge > EX Nitro Hungabee (Parry)": {
                 "moveName": "EX Nitro Charge > EX Nitro Hungabee (Parry)",
-                "plnCmd": "KKK > Parry",
-                "numCmd": "5KKK > Parry",
-                "cmnName": "EX Run Parry",
+                "plnCmd": "KKK > Parry Attack",
+                "numCmd": "5KKK > Parry Attack",
+                "cmnName": "EX Run Parry Attack",
                 "startup": 4,
                 "active": 8,
                 "recovery": 20,
@@ -2056,11 +2147,11 @@
                     "Puts airborne opponents into a limited juggle state",
                     "Cancels on the 4th frame into specials or super",
                     "Cannot cancel on whiff (or when parrying projectiles)",
-                    "Gains 150 V-Meter on successful parry"
+                    "Builds 150 V-Meter if attack connects with opponent"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
-                "i": 68
+                "i": 70
             },
             "Abigail Special": {
                 "moveName": "Abigail Special",
@@ -2092,8 +2183,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 69
-            }
+                "movesList": "Super",
+                "i": 71
+            },
+            "input": "None"
         },
         "vtOne": {
             "Stand LP": {
@@ -2108,6 +2201,8 @@
                 "onBlock": 3,
                 "damage": 46,
                 "stun": 70,
+                "hcWinSpCa": 12,
+                "hcWinTc": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2138,6 +2233,7 @@
                 "onBlock": 5,
                 "damage": 80,
                 "stun": 100,
+                "hcWinSpCa": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2148,8 +2244,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "First active frame whiffs on most crouching characters (hits: Abigail, Birdie, Urien, Zangief)",
-                    "Can hit crossups"
+                    "First active frame whiffs on most crouching characters (hits: Abigail, Birdie, G, Gill, Urien, Sagat, Zangief)",
+                    "Can hit crossups",
+                    "4f trap when canceling into Run Grab"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -2171,11 +2268,9 @@
                 "kd": 102,
                 "kdr": 70,
                 "kdrb": 70,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "C",
-                    "vG": "+120"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "C",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -2219,6 +2314,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 3.01
             },
             "Stand HP (lvl 3)": {
@@ -2230,7 +2326,7 @@
                 "recovery": 25,
                 "total": 73,
                 "onHit": "KD",
-                "onBlock": 18,
+                "onBlock": "18(GB)",
                 "damage": 115,
                 "stun": 150,
                 "kd": 97,
@@ -2250,6 +2346,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 3.02
             },
             "Stand HP (release)": {
@@ -2272,12 +2369,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "This is framedata for when Abigail let's go off the button half-way through the stand HP charge",
+                    "This is framedata for when Abigail let's go of the button half-way through the stand HP charge",
                     "This release version can be performed at the earliest on frame 15 of startup"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 3.03
             },
             "Stand LK": {
@@ -2325,6 +2423,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Steps on the gas"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MK",
@@ -2342,14 +2443,14 @@
                 "onBlock": -8,
                 "damage": 103,
                 "stun": 150,
+                "hcWinSpCa": "*18",
+                "hcWinNotes": "*CA only",
                 "kd": 84,
                 "kdr": 25,
                 "kdrb": 30,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su"
@@ -2379,6 +2480,8 @@
                 "onBlock": 3,
                 "damage": 46,
                 "stun": 70,
+                "hcWinSpCa": 12,
+                "hcWinTc": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2389,8 +2492,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "2nd active frame whiffs on most crouching characters",
-                    "Last active frame whiffs on most standing characters"
+                    "Great harassment tool"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -2409,6 +2511,8 @@
                 "onBlock": -3,
                 "damage": 80,
                 "stun": 100,
+                "hcWinSpCa": "15/*14",
+                "hcWinNotes": "*Hits on Active Frame 2 unless point blank, making confirm window 14f",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2439,14 +2543,13 @@
                 "onBlock": -18,
                 "damage": 103,
                 "stun": 150,
+                "hcWinSpCa": 19,
                 "kd": 87,
                 "kdr": 28,
                 "kdrb": 33,
-                "crushAdv": {
-                    "state": "Flipping Juggle",
-                    "ccAdv": "J",
-                    "vG": "+150"
-                },
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2458,7 +2561,7 @@
                 "projectile": false,
                 "extraInfo": [
                     "1 hit of armor on frame 5 (yes just frame 5)",
-                    "Can only Crush Counter on the first 2 active frames",
+                    "Can only Crush Counter on the first active frame",
                     "Puts airborne opponents into a limited juggle state",
                     "Can hit crossups"
                 ],
@@ -2479,6 +2582,7 @@
                 "onBlock": -18,
                 "damage": 103,
                 "stun": 150,
+                "hcWinSpCa": 21,
                 "kd": 89,
                 "kdr": 30,
                 "kdrb": 35,
@@ -2501,7 +2605,8 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
-                "i": 10.01
+                "movesList": "Held Normal",
+                "i": 9.01
             },
             "Crouch HP (lvl 3)": {
                 "moveName": "Crouch HP (lvl 3)",
@@ -2512,9 +2617,10 @@
                 "recovery": 35,
                 "total": 78,
                 "onHit": "KD",
-                "onBlock": 1,
+                "onBlock": "1(GB)",
                 "damage": 103,
                 "stun": 150,
+                "hcWinSpCa": 21,
                 "kd": 89,
                 "kdr": 30,
                 "kdrb": 35,
@@ -2538,7 +2644,8 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
-                "i": 10.02
+                "movesList": "Held Normal",
+                "i": 9.02
             },
             "Crouch HP (release)": {
                 "moveName": "Crouch HP (release)",
@@ -2552,6 +2659,7 @@
                 "onBlock": -18,
                 "damage": 103,
                 "stun": 150,
+                "hcWinSpCa": 19,
                 "kd": "~ (89)",
                 "kdr": "~ (30)",
                 "kdrb": "~ (35)",
@@ -2571,7 +2679,8 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
-                "i": 10.03
+                "movesList": "Held Normal",
+                "i": 9.03
             },
             "Crouch LK": {
                 "moveName": "Crouch LK",
@@ -2589,6 +2698,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Combos into b+HP on counter-hit"
+                ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "LK",
@@ -2606,6 +2718,8 @@
                 "onBlock": -3,
                 "damage": 69,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 13,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "sp",
@@ -2636,14 +2750,14 @@
                 "onBlock": -14,
                 "damage": "57*80 (137)",
                 "stun": "50*100 (150)",
+                "hcWinVt": "*16",
+                "hcWinNotes": "*1st hit only",
                 "kd": 61,
                 "kdr": 12,
                 "kdrb": 17,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+150"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+150",
                 "attackLevel": "L",
                 "airmove": false,
                 "followUp": false,
@@ -2670,6 +2784,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Solid air-to-air"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LP",
@@ -2708,7 +2825,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Causes juggle state on mid-air hit"
+                    "Causes juggle state on airborne",
+                    "Does more damage than most heavy jumpin normals"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -2727,6 +2845,9 @@
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Has no hurtbox extensions at all and a pretty good air-to-air hitbox"
+                ],
                 "moveType": "normal",
                 "moveMotion": "U",
                 "moveButton": "LK",
@@ -2745,7 +2866,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can cross up"
+                    "Can cross up, with exceptions",
+                    "The hitbox on his outreaching leg cannot hit cross-up",
+                    "The back-leg hitbox can ONLY hit cross-up and not hit in front, creating whiff/mixup opportunities"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -2765,7 +2888,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Causes spiked knockdown on airborne opponents"
+                    "Causes spiked knockdown on airborne opponents",
+                    "No hurtbox extension until 1F before active frames combined with the slow startup and Abigail's low jump arc can make this a pretty deceptive jump-in to anti-air at the right time"
                 ],
                 "moveType": "normal",
                 "moveMotion": "U",
@@ -2813,6 +2937,7 @@
                 "onBlock": 1,
                 "damage": 103,
                 "stun": 150,
+                "hcWinSpCa": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2846,6 +2971,7 @@
                 "onBlock": 1,
                 "damage": 103,
                 "stun": 200,
+                "hcWinSpCa": 21,
                 "kd": 99,
                 "kdr": 40,
                 "kdrb": 40,
@@ -2869,6 +2995,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 20.01
             },
             "Abi Lift lvl 3": {
@@ -2881,9 +3008,10 @@
                 "recovery": 18,
                 "total": 57,
                 "onHit": "KD",
-                "onBlock": 14,
+                "onBlock": 13,
                 "damage": 103,
                 "stun": 200,
+                "hcWinSpCa": 21,
                 "kd": 112,
                 "kdr": 53,
                 "kdrb": 53,
@@ -2902,12 +3030,13 @@
                     "Cannot hit cross-up (cannot anti-air opponents behind him in the air)",
                     "Causes wall bounce on hit",
                     "Puts airborne opponent in a limited juggle state",
-                    "Guard breaks (+14) when fully charged",
+                    "Guard breaks (+13) when fully charged",
                     "Spends 500 V-Timer (18% of V-Timer)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 20.02
             },
             "Abi Lift (release)": {
@@ -2923,6 +3052,7 @@
                 "onBlock": 1,
                 "damage": 103,
                 "stun": "150 (200)",
+                "hcWinSpCa": 19,
                 "kd": "~ (99)",
                 "kdr": "~ (40)",
                 "kdrb": "~ (40)",
@@ -2942,6 +3072,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 20.03
             },
             "Abi Blaster": {
@@ -2957,6 +3088,8 @@
                 "onBlock": -6,
                 "damage": 103,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinTc": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -2988,6 +3121,8 @@
                 "onBlock": -6,
                 "damage": 103,
                 "stun": 200,
+                "hcWinSpCa": 18,
+                "hcWinTc": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -3006,6 +3141,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 21.01
             },
             "Abi Blaster lvl 3": {
@@ -3021,6 +3157,11 @@
                 "onBlock": 9,
                 "damage": 103,
                 "stun": 200,
+                "hcWinSpCa": 18,
+                "hcWinTc": 18,
+                "kd": 83,
+                "kdr": 24,
+                "kdrb": 29,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -3040,6 +3181,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 21.02
             },
             "Abi Blaster (release)": {
@@ -3055,6 +3197,7 @@
                 "onBlock": -6,
                 "damage": 103,
                 "stun": "150 (200)",
+                "hcWinSpCa": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -3071,6 +3214,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "HP",
+                "movesList": "Held Normal",
                 "i": 21.03
             },
             "Abi Scissor": {
@@ -3089,11 +3233,9 @@
                 "kd": 65,
                 "kdr": 16,
                 "kdrb": 21,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "airmove": false,
                 "followUp": false,
@@ -3119,6 +3261,8 @@
                 "onBlock": -9,
                 "damage": "103*93 (196)",
                 "stun": "150*135 (285)",
+                "hcWinSpCa": "*16",
+                "hcWinNotes": "*CA only",
                 "kd": 87,
                 "kdr": 28,
                 "kdrb": 33,
@@ -3130,7 +3274,7 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Knocks opponents down"
+                    "Main oki tool"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -3150,6 +3294,8 @@
                 "onBlock": -9,
                 "damage": "103*93 (196)",
                 "stun": "150*135 (285)",
+                "hcWinSpCa": "*18",
+                "hcWinNotes": "*CA only",
                 "kd": 88,
                 "kdr": 29,
                 "kdrb": 34,
@@ -3161,13 +3307,13 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Launches airborne opponents high into a free juggle state",
-                    "Knocks grounded opponents down",
+                    "Launches airborne and grounded opponents high into a free juggle state",
                     "Spends 500 V-Timer (18% of V-Timer)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Held Target Combo",
                 "i": 23.01
             },
             "Abi Twist lvl 3": {
@@ -3183,6 +3329,8 @@
                 "onBlock": -9,
                 "damage": "103*93 (196)",
                 "stun": "150*135 (285)",
+                "hcWinSpCa": "*18",
+                "hcWinNotes": "*CA only",
                 "kd": 108,
                 "kdr": 49,
                 "kdrb": 54,
@@ -3195,11 +3343,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Launches airborne and grounded opponents high into a free juggle state",
-                    "Spends 500 V-Timer (18% of V-Timer)"
+                    "Spends 500 V-Timer (18% of V-Timer)",
+                    "KDA from guard break (+88/29/34)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Held Target Combo",
                 "i": 23.02
             },
             "Vroom Vroom": {
@@ -3215,6 +3365,7 @@
                 "onBlock": 3,
                 "damage": "46*31 (77)",
                 "stun": "70*63 (133)",
+                "hcWinSpCa": 10,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -3246,6 +3397,7 @@
                 "onBlock": 3,
                 "damage": "46*31 (77)",
                 "stun": "70*63 (133)",
+                "hcWinSpCa": 11,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -3312,8 +3464,8 @@
                 "cmnName": "V-Skill 1 high",
                 "startup": 3,
                 "active": 10,
-                "recovery": 31,
-                "total": "?",
+                "recovery": 36,
+                "total": 48,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -3334,8 +3486,8 @@
                 "cmnName": "V-Skill 1 low",
                 "startup": 3,
                 "active": 10,
-                "recovery": 31,
-                "total": "?",
+                "recovery": 36,
+                "total": 48,
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -3351,13 +3503,13 @@
             },
             "Hungabee Parry": {
                 "moveName": "Hungabee Parry",
-                "plnCmd": "Parry",
-                "numCmd": "Parry",
-                "cmnName": "Parry",
+                "plnCmd": "Parry Attack",
+                "numCmd": "Parry Attack",
+                "cmnName": "Parry Attack",
                 "startup": 4,
                 "active": 8,
                 "recovery": 20,
-                "total": "?",
+                "total": 31,
                 "onHit": 22,
                 "onBlock": -6,
                 "damage": 34,
@@ -3371,7 +3523,9 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
+                    "This is framedata for the parry that triggers on a successful V-Skill absorb (This is not the startup of the V-Skill itself)",
                     "Strike and Throw (not projectile) invincible on frames 1-11",
+                    "Puts airborne opponents into a limited juggle state",
                     "Cancels on the 4th frame into specials or super",
                     "Cannot cancel on whiff (or when parrying projectiles)"
                 ],
@@ -3439,7 +3593,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 36
+                "i": 38
             },
             "LP Abigail Punch mash": {
                 "moveName": "LP Abigail Punch mash",
@@ -3469,7 +3623,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 37
+                "i": 39
             },
             "MP Abigail Punch": {
                 "moveName": "MP Abigail Punch",
@@ -3501,7 +3655,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 38
+                "i": 40
             },
             "MP Abigail Punch Mash": {
                 "moveName": "MP Abigail Punch Mash",
@@ -3532,7 +3686,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 39
+                "i": 41
             },
             "HP Abigail Punch": {
                 "moveName": "HP Abigail Punch",
@@ -3564,7 +3718,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 40
+                "i": 42
             },
             "HP Abigail Punch Mash": {
                 "moveName": "HP Abigail Punch Mash",
@@ -3595,7 +3749,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 41
+                "i": 43
             },
             "EX Abigail Punch": {
                 "moveName": "EX Abigail Punch",
@@ -3628,7 +3782,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 42
+                "i": 44
             },
             "EX Abigail Punch Mash": {
                 "moveName": "EX Abigail Punch Mash",
@@ -3660,7 +3814,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 43
+                "i": 45
             },
             "LP Giant Flip": {
                 "moveName": "LP Giant Flip",
@@ -3686,12 +3840,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "3 active frames of strike hitbox, followed up with 4 active frames of projectile hitbox (which nullifies 1 hit of projectile)"
+                    "3 active frames of strike hitbox, followed up with 4 active frames of projectile hitbox (which nullifies 1 hit of projectile)",
+                    "3 frame gap when canceled from cr HP"
                 ],
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "LP",
-                "i": 44
+                "i": 46
             },
             "MP Giant Flip": {
                 "moveName": "MP Giant Flip",
@@ -3724,7 +3879,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "MP",
-                "i": 45
+                "i": 47
             },
             "HP Giant Flip": {
                 "moveName": "HP Giant Flip",
@@ -3757,7 +3912,7 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "HP",
-                "i": 46
+                "i": 48
             },
             "EX Giant Flip": {
                 "moveName": "EX Giant Flip",
@@ -3791,13 +3946,13 @@
                 "moveType": "special",
                 "moveMotion": "HCB",
                 "moveButton": "2P",
-                "i": 47
+                "i": 49
             },
             "EX Giant Flip Mash": {
                 "moveName": "EX Giant Flip Mash",
                 "plnCmd": "hcb+PP (mash)",
                 "numCmd": "63214+PP (mash)",
-                "cmnName": "EX Flip mash",
+                "cmnName": "EX Flip Mash",
                 "startup": 30,
                 "active": "4*2",
                 "recovery": 26,
@@ -3823,7 +3978,7 @@
                 "moveType": "special",
                 "moveMotion": "mash",
                 "moveButton": "1P",
-                "i": 48
+                "i": 50
             },
             "LK Abigail Smash": {
                 "moveName": "LK Abigail Smash",
@@ -3847,7 +4002,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "LK",
-                "i": 49
+                "i": 51
             },
             "MK Abigail Smash": {
                 "moveName": "MK Abigail Smash",
@@ -3871,7 +4026,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "MK",
-                "i": 50
+                "i": 52
             },
             "HK Abigail Smash": {
                 "moveName": "HK Abigail Smash",
@@ -3895,7 +4050,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "HK",
-                "i": 51
+                "i": 53
             },
             "EX Abigail Smash (corner)": {
                 "moveName": "EX Abigail Smash (corner)",
@@ -3907,8 +4062,8 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": 92,
-                "stun": 100,
+                "damage": 115,
+                "stun": 120,
                 "kd": 92,
                 "kdr": 33,
                 "kdrb": 33,
@@ -3923,7 +4078,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 52
+                "i": 54
             },
             "EX Abigail Smash (midscreen)": {
                 "moveName": "EX Abigail Smash (midscreen)",
@@ -3935,8 +4090,8 @@
                 "recovery": 60,
                 "total": 67,
                 "onHit": "KD",
-                "damage": 92,
-                "stun": 100,
+                "damage": 115,
+                "stun": 120,
                 "kd": 101,
                 "kdr": 42,
                 "kdrb": 42,
@@ -3951,7 +4106,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "HCB",
                 "moveButton": "2K",
-                "i": 53
+                "i": 55
             },
             "Nitro Blitz ": {
                 "moveName": "Nitro Blitz ",
@@ -3970,7 +4125,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2K",
-                "i": 54
+                "i": 56
             },
             "Nitro Charge": {
                 "moveName": "Nitro Charge",
@@ -3992,7 +4147,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "2K",
-                "i": 55
+                "i": 57
             },
             "Nitro Blitz  > Drop Back": {
                 "moveName": "Nitro Blitz  > Drop Back",
@@ -4010,7 +4165,7 @@
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "B",
-                "i": 56
+                "i": 58
             },
             "Nitro Blitz  > Dynamite Punch": {
                 "moveName": "Nitro Blitz  > Dynamite Punch",
@@ -4040,7 +4195,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 57
+                "i": 59
             },
             "Nitro Blitz  > Avalanche Press": {
                 "moveName": "Nitro Blitz  > Avalanche Press",
@@ -4072,7 +4227,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 58
+                "i": 60
             },
             "Nitro Blitz  > Bay Area Sunrise": {
                 "moveName": "Nitro Blitz  > Bay Area Sunrise",
@@ -4099,13 +4254,13 @@
                 "moveType": "command-grab",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 59
+                "i": 61
             },
             "Nitro Blitz  > Nitro Hungabee High": {
                 "moveName": "Nitro Blitz  > Nitro Hungabee High",
                 "plnCmd": "KK > MP+MK",
                 "numCmd": "KK > MPMK",
-                "cmnName": "Run V-Skill high",
+                "cmnName": "Run V-Skill High",
                 "startup": "Run+3",
                 "active": 10,
                 "recovery": 31,
@@ -4121,13 +4276,13 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 60
+                "i": 62
             },
             "Nitro Blitz  > Nitro Hungabee Low": {
                 "moveName": "Nitro Blitz  > Nitro Hungabee Low",
                 "plnCmd": "KK > d+MP+MK",
                 "numCmd": "KK > 2MPMK",
-                "cmnName": "Run V-Skill low",
+                "cmnName": "Run V-Skill Low",
                 "startup": "Run+3",
                 "active": 10,
                 "recovery": 31,
@@ -4143,13 +4298,13 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
-                "i": 61
+                "i": 63
             },
             "Nitro Blitz  > Nitro Hungabee Parry": {
                 "moveName": "Nitro Blitz  > Nitro Hungabee Parry",
-                "plnCmd": "KK > Parry",
-                "numCmd": "5KK > Parry",
-                "cmnName": "Run Parry",
+                "plnCmd": "KK > Parry Attack",
+                "numCmd": "5KK > Parry Attack",
+                "cmnName": "Run Parry Attack",
                 "startup": 4,
                 "active": 8,
                 "recovery": 20,
@@ -4166,13 +4321,15 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
+                    "This is framedata for the parry that triggers on a successful V-Skill absorb (This is not the startup of the V-Skill itself)",
                     "Strike and Throw (not projectile) invincible on frames 1-11",
+                    "Puts airborne opponents into a limited juggle state",
                     "Cancels on the 4th frame into specials or super",
                     "Cannot cancel on whiff (or when parrying projectiles)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
-                "i": 62
+                "i": 64
             },
             "EX Nitro Charge": {
                 "moveName": "EX Nitro Charge",
@@ -4204,7 +4361,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "3K",
-                "i": 63
+                "i": 65
             },
             "EX Nitro Charge > EX Dynamite Punch": {
                 "moveName": "EX Nitro Charge > EX Dynamite Punch",
@@ -4234,7 +4391,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 64
+                "i": 66
             },
             "EX Nitro Charge > EX Avalanche Press": {
                 "moveName": "EX Nitro Charge > EX Avalanche Press",
@@ -4265,7 +4422,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1K",
-                "i": 65
+                "i": 67
             },
             "EX Nitro Charge > EX Bay Area Sunrise": {
                 "moveName": "EX Nitro Charge > EX Bay Area Sunrise",
@@ -4292,7 +4449,7 @@
                 "moveType": "command-grab",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "i": 66
+                "i": 68
             },
             "EX Nitro Charge > EX Nitro Hungabee": {
                 "moveName": "EX Nitro Charge > EX Nitro Hungabee",
@@ -4313,13 +4470,13 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
-                "i": 67
+                "i": 69
             },
             "EX Nitro Charge > EX Nitro Hungabee (Parry)": {
                 "moveName": "EX Nitro Charge > EX Nitro Hungabee (Parry)",
-                "plnCmd": "KKK > Parry",
-                "numCmd": "5KKK > Parry",
-                "cmnName": "EX Run Parry",
+                "plnCmd": "KKK > Parry Attack",
+                "numCmd": "5KKK > Parry Attack",
+                "cmnName": "EX Run Parry Attack",
                 "startup": 4,
                 "active": 8,
                 "recovery": 20,
@@ -4334,13 +4491,15 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
+                    "This is framedata for the parry that triggers on a successful V-Skill absorb (This is not the startup of the V-Skill itself)",
                     "Strike and Throw (not projectile) invincible on frames 1-11",
+                    "Puts airborne opponents into a limited juggle state",
                     "Cancels on the 4th frame into specials or super",
                     "Cannot cancel on whiff (or when parrying projectiles)"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
-                "i": 68
+                "i": 70
             },
             "Abigail Special": {
                 "moveName": "Abigail Special",
@@ -4353,7 +4512,7 @@
                 "total": 125,
                 "onHit": "KD",
                 "onBlock": -95,
-                "damage": "23*34x7*80*57 (398)",
+                "damage": 398,
                 "stun": 0,
                 "kd": 29,
                 "kdr": 29,
@@ -4372,8 +4531,9 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 69
-            }
+                "i": 71
+            },
+            "input": "None"
         },
         "vtTwo": {
             "Metro Crash": {
@@ -4381,9 +4541,9 @@
                 "plnCmd": "HP+HK (lvl1)",
                 "numCmd": "HPHK (lvl1)",
                 "cmnName": "V-Trigger 2 Charge",
-                "startup": "10+23",
+                "startup": "10+14",
                 "active": 10,
-                "recovery": 18,
+                "recovery": "18(28)",
                 "total": 60,
                 "onHit": "KD",
                 "onBlock": -2,
@@ -4401,12 +4561,15 @@
                 "projectile": false,
                 "extraInfo": [
                     "99 hits of armor on frames 2-10 while charging up (the armor stays as long as the button is held down)",
-                    "Loses all armor once the charge is initiated (23 frame startup on the charge itself)",
-                    "Deals chip damage on block"
+                    "Loses all armor once the charge is initiated (14 frame startup on the charge itself)",
+                    "Deals chip damage on block",
+                    "10 extra recovery frames on whiff",
+                    "Consumes 1500/4500 V-Gauge"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 33.01
             },
             "Metro Crash lvl 2": {
@@ -4414,9 +4577,9 @@
                 "plnCmd": "HP+HK (lvl2)",
                 "numCmd": "HPHK (lvl2)",
                 "cmnName": "V-Trigger 2 Charge lvl 2",
-                "startup": "27+23",
+                "startup": "28+14",
                 "active": 13,
-                "recovery": 17,
+                "recovery": "17(27)",
                 "total": 80,
                 "onHit": "KD",
                 "onBlock": 5,
@@ -4434,12 +4597,15 @@
                 "projectile": false,
                 "extraInfo": [
                     "99 hits of armor on frames 2-28 while charging up (the armor stays as long as the button is held down)",
-                    "Loses all armor once the charge is initiated (23 frame startup on the charge itself)",
-                    "Deals chip damage on block"
+                    "Loses all armor once the charge is initiated (14 frame startup on the charge itself)",
+                    "Deals chip damage on block",
+                    "10 extra recovery frames on whiff",
+                    "Consumes 1500/4500 V-Gauge"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 33.02
             },
             "Metro Crash lvl 3": {
@@ -4447,12 +4613,12 @@
                 "plnCmd": "HP+HK (lvl3)",
                 "numCmd": "HPHK (lvl3)",
                 "cmnName": "V-Trigger 2 Charge lvl 3",
-                "startup": 67,
+                "startup": "53+14",
                 "active": 16,
-                "recovery": 31,
+                "recovery": "31(41)",
                 "total": 113,
                 "onHit": "KD",
-                "onBlock": 20,
+                "onBlock": "20(GB)",
                 "damage": "30x7*40 (250)",
                 "stun": 300,
                 "kd": 85,
@@ -4467,13 +4633,17 @@
                 "projectile": false,
                 "extraInfo": [
                     "99 hit of armor on frames 2-54 while charging up and then an extra 2 hits of armor on frames 55-82 (until the end of active frames)",
-                    "Last hit causes a guard break for +20 frame advantage"
+                    "Last hit causes a guard break for +20 frame advantage",
+                    "10 extra recovery frames on whiff",
+                    "Consumes 1500/4500 V-Gauge"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "Special",
                 "i": 33.03
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

@@ -46,8 +46,8 @@
                 "active": 4,
                 "recovery": 7,
                 "total": 16,
-                "onHit": "5(9)",
-                "onBlock": "3(7)",
+                "onHit": "5(8)",
+                "onBlock": "3(6)",
                 "vtcOnHit": 11,
                 "vtcOnBlock": 9,
                 "damage": 30,
@@ -89,6 +89,8 @@
                 "ocOnBlock": -4,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "oc",
@@ -102,6 +104,9 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "3 frames less recovery on whiff (13f)"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
@@ -115,12 +120,13 @@
                 "active": 6,
                 "recovery": 20,
                 "total": 31,
-                "onHit": "-2(1)",
-                "onBlock": "-8(-6)",
+                "onHit": "-2(3)",
+                "onBlock": "-8(-3)",
                 "vtcOnHit": 18,
                 "vtcOnBlock": 12,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -154,6 +160,8 @@
                 "ocOnBlock": -2,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 19,
+                "hcWinVt": 19,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "oc",
@@ -186,14 +194,13 @@
                 "vtcOnBlock": 12,
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": 19,
                 "kd": 82,
                 "kdr": 33,
                 "kdrb": 38,
-                "crushAdv": {
-                    "state": "Spinning Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+100"
-                },
+                "ccState": "Spinning Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+100",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -262,6 +269,8 @@
                 "ocOnBlock": -6,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": "*14",
+                "hcWinNotes": "*Orb Recall/Explode only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "oc",
@@ -292,11 +301,12 @@
                 "ocOnBlock": 0,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 27,
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*17",
+                "hcWinVt": 17,
+                "hcWinNotes": "*Orb Recall/Explode only",
+                "ccState": "Stagger",
+                "ccAdv": 27,
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "oc",
@@ -329,14 +339,13 @@
                 "vtcOnBlock": 14,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 91,
                 "kdr": 59,
                 "kdrb": 59,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "C",
-                    "vG": "+120"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "C",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -442,6 +451,8 @@
                 "ocOnBlock": -4,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "oc",
@@ -468,12 +479,14 @@
                 "active": 6,
                 "recovery": 13,
                 "total": 25,
-                "onHit": "2(6)",
-                "onBlock": "-3(1)",
+                "onHit": "2(7)",
+                "onBlock": "-3(2)",
                 "vtcOnHit": 15,
                 "vtcOnBlock": 10,
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 16,
+                "hcWinVt": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -511,14 +524,14 @@
                 "ocOnBlock": -3,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 18,
+                "hcWinVt": 18,
                 "kd": 105,
                 "kdr": 57,
                 "kdrb": 62,
-                "crushAdv": {
-                    "state": "Flipping Juggle",
-                    "ccAdv": "J",
-                    "vG": "+150"
-                },
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "oc",
@@ -556,14 +569,14 @@
                 "vtcOnBlock": 13,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 19,
+                "hcWinVt": 19,
                 "kd": 95,
                 "kdr": 47,
                 "kdrb": 52,
-                "crushAdv": {
-                    "state": "Flipping Juggle",
-                    "ccAdv": "J",
-                    "vG": "+150"
-                },
+                "ccState": "Flipping Juggle",
+                "ccAdv": "J",
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -638,6 +651,8 @@
                 "ocOnBlock": -3,
                 "damage": 50,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "oc",
@@ -675,11 +690,9 @@
                 "kd": 65,
                 "kdr": 16,
                 "kdrb": 21,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "oc",
@@ -711,14 +724,13 @@
                 "vtcOnBlock": 14,
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 15,
                 "kd": 57,
                 "kdr": 8,
                 "kdrb": 13,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -949,11 +961,12 @@
                 "extraInfo": [
                     "Slight low profile and Projectile invincible on upper body on frames 11-35",
                     "Not cancelable in any way",
-                    "+4/0 on Hit/Block on last active frame (can be spaced)"
+                    "+4 oH / +0 oB on last active frame (can be spaced)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "DF",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 31
             },
             "Divine Retribution": {
@@ -971,6 +984,8 @@
                 "ocOnBlock": -3,
                 "damage": "30*30",
                 "stun": "50*50",
+                "hcWinSpCa": "*13",
+                "hcWinNotes": "*Orb Recall/Explode only",
                 "attackLevel": "M*M",
                 "cancelsTo": [
                     "oc"
@@ -985,6 +1000,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 32
             },
             "LK Khamun Kick": {
@@ -1012,6 +1028,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "LK",
+                "movesList": "Command Normal",
                 "i": 33
             },
             "MK Khamun Kick": {
@@ -1039,6 +1056,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 34
             },
             "HK Khamun Kick": {
@@ -1066,6 +1084,7 @@
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 35
             },
             "Overflowing Nile": {
@@ -1093,6 +1112,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 36
             },
             "Pyramid Hopscotch": {
@@ -1117,6 +1137,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 37
             },
             "Soul Reflect: Kamal": {
@@ -1136,6 +1157,9 @@
                 "ocOnBlock": 0,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*18/**21",
+                "hcWinVt": 21,
+                "hcWinNotes": "*Orb Recall/Explode only, **CA only",
                 "kd": 88,
                 "kdr": 29,
                 "kdrb": 34,
@@ -1162,6 +1186,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 38
             },
             "Soul Reflect: Stella": {
@@ -1181,9 +1206,12 @@
                 "ocOnBlock": 0,
                 "damage": 80,
                 "stun": 150,
-                "kd": 102,
-                "kdr": 43,
-                "kdrb": 48,
+                "hcWinSpCa": "*18/**45",
+                "hcWinVt": 29,
+                "hcWinNotes": "*Orb Recall/Explode only, **CA only",
+                "kd": 106,
+                "kdr": 47,
+                "kdrb": 52,
                 "cancelsTo": [
                     "oc",
                     "su",
@@ -1207,6 +1235,7 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 39
             },
             "Soul Reflect: Kamal (Orb)": {
@@ -1224,6 +1253,9 @@
                 "vtcOnBlock": 16,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*20",
+                "hcWinVt": 20,
+                "hcWinNotes": "*CA only",
                 "kd": 76,
                 "kdr": 17,
                 "kdrb": 22,
@@ -1250,6 +1282,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 40
             },
             "Soul Reflect: Stella (Orb)": {
@@ -1263,10 +1296,13 @@
                 "total": 51,
                 "onHit": "KD",
                 "onBlock": -16,
-                "vtcOnHit": "KD (+121/62/67)",
+                "vtcOnHit": "KD (+138/79/84)",
                 "vtcOnBlock": 16,
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*45",
+                "hcWinVt": 29,
+                "hcWinNotes": "*CA only",
                 "kd": 89,
                 "kdr": 30,
                 "kdrb": 35,
@@ -1292,6 +1328,7 @@
                 "moveType": "vskill",
                 "moveMotion": "D",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 41
             },
             "Soul Spiral": {
@@ -1311,6 +1348,9 @@
                 "ocOnBlock": -8,
                 "damage": 70,
                 "stun": 120,
+                "hcWinSpCa": "*22",
+                "hcWinVt": 22,
+                "hcWinNotes": "*Orb Recall/Explode and CA only",
                 "kd": 77,
                 "kdr": 18,
                 "kdrb": 23,
@@ -1326,11 +1366,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Builds 60/30 V-gauge (hit/block)",
-                    "Can only special cancel into Soul Sphere Ankh (recall) and Soul Spark"
+                    "Can only special cancel into Soul Sphere Ankh (recall) and Soul Spark",
+                    "Juggle Limit / Increase / Start: 1 / 1 / 1"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 42
             },
             "Soul Spiral (Orb)": {
@@ -1348,6 +1390,9 @@
                 "vtcOnBlock": 12,
                 "damage": 70,
                 "stun": 120,
+                "hcWinSpCa": "*24",
+                "hcWinVt": 24,
+                "hcWinNotes": "*CA only",
                 "kd": 83,
                 "kdr": 24,
                 "kdrb": 29,
@@ -1361,11 +1406,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Absorbs 1 hit of projectile",
-                    "Builds 60/30 V-gauge (hit/block)"
+                    "Builds 60/30 V-gauge (hit/block)",
+                    "Juggle Limit / Increase / Start: 1 / 1 / 1"
                 ],
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 43
             },
             "Wisdom of Thoth": {
@@ -1385,7 +1432,7 @@
                     "3 bar V-Trigger",
                     "Duration of 2000 frames (~33 seconds)",
                     "Projectile-type attack",
-                    "Each orb is assigned to its own normal that are released via pressing and releasing said button",
+                    "Each orb is assigned to its own button that are released via pressing and releasing said button",
                     "The orbs manifest in 9 frames after a button is released",
                     "Orbs do not shoot out unless a button is held & released or pressed at least 9 frames into the duration / animation of a NORMAL (does not apply to when inputting special moves, then the corresponding orb will shoot out immediately unless the button is held down)",
                     "LP & LK (Highest 2 orbs) can only hit airborne opponents if used from standing position (but crouching and air versions of LP & LK can hit standing)"
@@ -1394,6 +1441,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 44
             },
             "Prophecy of Thoth": {
@@ -1410,13 +1458,15 @@
                 "extraInfo": [
                     "2 bar V-Trigger",
                     "Duration of 2000 frames (~33 seconds)",
-                    "Gives access to a new move where Menat sends out the orbs all at once in a different arcs depending on buttons used",
+                    "Gives access to a new move, Judgement of Thoth (QCB+P), where Menat sends out the orbs all at once in different arcs depending on strength of punch button",
+                    "Reload orbs after sending with HP+HK",
                     "V-Trigger 2 orbs have a projectile hitbox"
                 ],
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 45
             },
             "Left Eye of the Lion": {
@@ -1439,7 +1489,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 46
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.12 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 47
+            },
+            "Sistrum of Fortune": {
+                "moveName": "Sistrum of Fortune",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 48
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1457,7 +1566,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 47
+                "i": 49
             },
             "LK Guardian of the Sun": {
                 "moveName": "LK Guardian of the Sun",
@@ -1481,6 +1590,7 @@
                 "extraInfo": [
                     "Cannot be performed without the orb in hand",
                     "Only hits airborne",
+                    "Cannot hit crossup",
                     "Strike hitbox",
                     "Denies backroll on wake-up",
                     "Crouching hurtbox during startup"
@@ -1489,7 +1599,8 @@
                 "moveMotion": "DP",
                 "moveButton": "LK",
                 "antiAirMove": true,
-                "i": 48
+                "movesList": "Special",
+                "i": 50
             },
             "MK Guardian of the Sun": {
                 "moveName": "MK Guardian of the Sun",
@@ -1513,6 +1624,7 @@
                 "extraInfo": [
                     "Cannot be performed without the orb in hand",
                     "Only hits airborne",
+                    "Cannot hit crossup",
                     "Strike hitbox",
                     "Denies backroll on wake-up",
                     "Crouching hurtbox during startup"
@@ -1521,7 +1633,7 @@
                 "moveMotion": "DP",
                 "moveButton": "MK",
                 "antiAirMove": true,
-                "i": 49
+                "i": 51
             },
             "HK Guardian of the Sun": {
                 "moveName": "HK Guardian of the Sun",
@@ -1545,6 +1657,7 @@
                 "extraInfo": [
                     "Cannot be performed without the orb in hand",
                     "Only hits airborne",
+                    "Cannot hit crossup",
                     "Strike hitbox",
                     "Denies backroll on wake-up",
                     "Crouching hurtbox during startup"
@@ -1553,7 +1666,7 @@
                 "moveMotion": "DP",
                 "moveButton": "HK",
                 "antiAirMove": true,
-                "i": 50
+                "i": 52
             },
             "EX Guardian of the Sun": {
                 "moveName": "EX Guardian of the Sun",
@@ -1578,6 +1691,7 @@
                     "Fully invincible on frames 5-20",
                     "Cannot be performed without the orb in hand",
                     "Only hits airborne",
+                    "Cannot hit crossup",
                     "Strike hitbox",
                     "Denies backroll on wake-up",
                     "Crouching hurtbox during startup"
@@ -1586,7 +1700,7 @@
                 "moveMotion": "DP",
                 "moveButton": "2K",
                 "antiAirMove": true,
-                "i": 51
+                "i": 53
             },
             "Soul Spark": {
                 "moveName": "Soul Spark",
@@ -1619,7 +1733,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
-                "i": 52
+                "movesList": "Special",
+                "i": 54
             },
             "LP Soul Sphere": {
                 "moveName": "LP Soul Sphere",
@@ -1627,7 +1742,7 @@
                 "numCmd": "236LP",
                 "cmnName": "LP Orb Set",
                 "startup": 14,
-                "active": "3(26)",
+                "active": 29,
                 "recovery": 24,
                 "total": 38,
                 "onHit": 2,
@@ -1645,13 +1760,13 @@
                     "1-hit Projectile hitbox",
                     "Cannot hit airborne opponents",
                     "Places the ball down on the floor at 50% screen range",
-                    "Ball dissipates and goes back into Menat's hands if it collides with another projectile during its active frames",
-                    "The (X) numbers refers to the overall active frames of the fireball"
+                    "Ball dissipates and goes back into Menat's hands if it collides with another projectile during its active frames"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 53
+                "movesList": "Special",
+                "i": 55
             },
             "MP Soul Sphere": {
                 "moveName": "MP Soul Sphere",
@@ -1659,7 +1774,7 @@
                 "numCmd": "236MP",
                 "cmnName": "MP Orb Set",
                 "startup": 14,
-                "active": "3(33)",
+                "active": 36,
                 "recovery": 29,
                 "total": 43,
                 "onHit": 1,
@@ -1677,13 +1792,12 @@
                     "1-hit Projectile hitbox",
                     "Cannot hit airborne opponents",
                     "Places the ball above floor at 75% screen range",
-                    "Ball dissipates and goes back into Menat's hands if it collides with another projectile during its active frames",
-                    "The (X) numbers refers to the overall active frames of the fireball"
+                    "Ball dissipates and goes back into Menat's hands if it collides with another projectile during its active frames"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 54
+                "i": 56
             },
             "HP Soul Sphere": {
                 "moveName": "HP Soul Sphere",
@@ -1691,7 +1805,7 @@
                 "numCmd": "236HP",
                 "cmnName": "HP Orb Set",
                 "startup": 14,
-                "active": "3(33)",
+                "active": 36,
                 "recovery": 22,
                 "total": 36,
                 "onHit": 4,
@@ -1711,13 +1825,12 @@
                     "Only version of Soul Sphere that can hit airborne opponents",
                     "Places the ball above the opponent at full-screen range",
                     "Ball dissipates and goes back into Menat's hands if it collides with another projectile during its active frames",
-                    "The (X) numbers refers to the overall active frames of the fireball",
                     "Cannot hit crouching"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 55
+                "i": 57
             },
             "LPMP Soul Sphere": {
                 "moveName": "LPMP Soul Sphere",
@@ -1725,7 +1838,7 @@
                 "numCmd": "236LPMP",
                 "cmnName": "LPMP Orb Set",
                 "startup": 19,
-                "active": "2(21)",
+                "active": 23,
                 "recovery": 28,
                 "total": 47,
                 "onHit": 7,
@@ -1741,13 +1854,12 @@
                     "Cannot hit airborne opponents",
                     "On Hit: Pulls in opponent for a combo extender and puts the ball back in the hands of Menat",
                     "On Whiff: Places the ball down on the floor at 50% screen range",
-                    "Ball does NOT dissipate back into Menat's hands if it collides with other fireballs",
-                    "The (X) numbers refers to the overall active frames of the fireball"
+                    "Ball does NOT dissipate back into Menat's hands if it collides with other fireballs"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LPMP",
-                "i": 56
+                "i": 58
             },
             "LPHP Soul Sphere": {
                 "moveName": "LPHP Soul Sphere",
@@ -1755,7 +1867,7 @@
                 "numCmd": "236LPHP",
                 "cmnName": "LPHP Orb Set",
                 "startup": 10,
-                "active": "2(21)",
+                "active": 23,
                 "recovery": 41,
                 "total": 51,
                 "onHit": "KD",
@@ -1774,13 +1886,12 @@
                     "Cannot hit airborne opponents",
                     "On Hit: Knocks down opponent and denies backroll wake-up",
                     "On Whiff: Places the ball above floor at 50% screen range",
-                    "Ball does NOT dissipate back into Menat's hands if it collides with other fireballs",
-                    "The (X) numbers refers to the overall active frames of the fireball"
+                    "Ball does NOT dissipate back into Menat's hands if it collides with other fireballs"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LPHP",
-                "i": 57
+                "i": 59
             },
             "MPHP Soul Sphere": {
                 "moveName": "MPHP Soul Sphere",
@@ -1788,7 +1899,7 @@
                 "numCmd": "236MPHP",
                 "cmnName": "MPHP Orb Set",
                 "startup": 10,
-                "active": "2(21)",
+                "active": 23,
                 "recovery": 30,
                 "total": 40,
                 "onHit": 0,
@@ -1796,6 +1907,9 @@
                 "damage": 40,
                 "stun": 70,
                 "attackLevel": "H",
+                "cancelsTo": [
+                    "vs2"
+                ],
                 "airmove": false,
                 "followUp": false,
                 "projectile": true,
@@ -1804,13 +1918,12 @@
                     "Only has the canned in follow-up attack animation against airborne opponents (not worth using on grounded opponents)",
                     "Places the ball above the opponent at 60% screen range",
                     "Ball does NOT dissipate back into Menat's hands if it collides with other fireballs",
-                    "The (X) numbers refers to the overall active frames of the fireball",
-                    "Cancelable into V-Trigger 2 orb firing and reload"
+                    "Cancelable into V-Trigger 2 orb firing and reload on hit and block"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MPHP",
-                "i": 58
+                "i": 60
             },
             "MPHP Soul Sphere Air": {
                 "moveName": "MPHP Soul Sphere Air",
@@ -1818,7 +1931,7 @@
                 "numCmd": "236MPHP Air",
                 "cmnName": "MPHP Orb Set Air",
                 "startup": 10,
-                "active": "2(21)",
+                "active": 23,
                 "recovery": 30,
                 "total": 40,
                 "onHit": "KD",
@@ -1837,13 +1950,12 @@
                     "Only has the canned in follow-up attack animation against airborne opponents (not worth using on grounded opponents)",
                     "On airborne hit: Hard Knockdown",
                     "On whiff: Places the ball above the opponent at 60% screen range",
-                    "Ball does NOT dissipate back into Menat's hands if it collides with other fireballs",
-                    "The (X) numbers refers to the overall active frames of the fireball"
+                    "Ball does NOT dissipate back into Menat's hands if it collides with other fireballs"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MPHP",
-                "i": 59
+                "i": 61
             },
             "Soul Sphere Ankh": {
                 "moveName": "Soul Sphere Ankh",
@@ -1875,7 +1987,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "1P",
-                "i": 60
+                "movesList": "Special",
+                "i": 62
             },
             "The Nefertem": {
                 "moveName": "The Nefertem",
@@ -1900,16 +2013,19 @@
                 "extraInfo": [
                     "Completely invincible on frames 1-19",
                     "Strike hitbox (not a projectile)",
-                    "Hard Knockdown",
-                    "Pick Battle Costume for optimal camera angles"
+                    "Hard Knockdown"
                 ],
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "i": 61
-            }
+                "movesList": "Super",
+                "i": 63
+            },
+            "input": "None"
         },
-        "vtOne": {},
+        "vtOne": {
+            "input": "None"
+        },
         "vtTwo": {
             "LP Judgement of Thoth": {
                 "moveName": "LP Judgement of Thoth",
@@ -1919,8 +2035,8 @@
                 "startup": 11,
                 "recovery": 26,
                 "total": 37,
-                "damage": "20x6",
-                "stun": "20x6",
+                "damage": "20x6 (120)",
+                "stun": "20x6 (120)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1935,6 +2051,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "QCB",
                 "moveButton": "LP",
+                "movesList": "Special",
                 "i": 45.01
             },
             "MP Judgement of Thoth": {
@@ -1945,8 +2062,8 @@
                 "startup": 11,
                 "recovery": 26,
                 "total": 37,
-                "damage": "20x6",
-                "stun": "20x6",
+                "damage": "20x6 (120)",
+                "stun": "20x6 (120)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1961,6 +2078,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "QCB",
                 "moveButton": "MP",
+                "movesList": "Special",
                 "i": 45.02
             },
             "HP Judgement of Thoth": {
@@ -1971,8 +2089,8 @@
                 "startup": 11,
                 "recovery": 26,
                 "total": 37,
-                "damage": "20x6",
-                "stun": "20x6",
+                "damage": "20x6 (120)",
+                "stun": "20x6 (120)",
                 "attackLevel": "H",
                 "airmove": false,
                 "followUp": false,
@@ -1987,6 +2105,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "QCB",
                 "moveButton": "HP",
+                "movesList": "Special",
                 "i": 45.03
             },
             "Prophecy of Thoth ": {
@@ -2008,8 +2127,10 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 45.04
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {
@@ -2026,7 +2147,7 @@
         "bDashCHFrames": "3-11",
         "color": "#8c20d1",
         "phrase": "Do you believe in fate?",
-        "fWalk": "4",
+        "fWalk": 4,
         "bWalk": "3.2",
         "fJumpDist": 205,
         "bJumpDist": 184.5,

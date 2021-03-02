@@ -17,6 +17,7 @@
                 "vtc2DashOnBlock": "-4(-14)",
                 "damage": 30,
                 "stun": 70,
+                "hcWinTc": 10,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "ch",
@@ -29,7 +30,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into any of the other light buttons"
+                    "Chains into any of the other light buttons",
+                    "Good tick throw"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -52,6 +54,9 @@
                 "vtc2DashOnBlock": "-1(-11)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 17,
+                "hcWinTc": 17,
+                "hcWinVt": 17,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -86,11 +91,11 @@
                 "vtc2DashOnBlock": "5(-5)",
                 "damage": 90,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": 14,
-                    "vG": "+150"
-                },
+                "hcWinSpCa": 21,
+                "hcWinVt": 21,
+                "ccState": "Stagger",
+                "ccAdv": 14,
+                "ccVG": "+150",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -113,18 +118,21 @@
                 "moveName": "Stand LK",
                 "plnCmd": "LK",
                 "numCmd": "5LK",
-                "startup": 4,
+                "startup": 3,
                 "active": 3,
                 "recovery": 7,
-                "total": 13,
-                "onHit": 4,
-                "onBlock": 3,
-                "vtc1OnHit": 2,
-                "vtc1OnBlock": 1,
-                "vtc2DashOnHit": "-3(-13)",
-                "vtc2DashOnBlock": "-4(-14)",
+                "total": 12,
+                "onHit": 2,
+                "onBlock": 1,
+                "vtc1OnHit": 0,
+                "vtc1OnBlock": -1,
+                "vtc2DashOnHit": "-5(-15)",
+                "vtc2DashOnBlock": "-6(-16)",
                 "damage": 30,
                 "stun": 70,
+                "hcWinSpCa": 11,
+                "hcWinTc": 12,
+                "hcWinVt": 11,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -136,7 +144,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can chain into this from st.LP or cr.LP."
+                    "Nash's only 3F move",
+                    "Can chain into this from st.LP or cr.LP.",
+                    "Can be used to tick throw 4F characters"
                 ],
                 "moveType": "normal",
                 "moveMotion": "N",
@@ -159,6 +169,8 @@
                 "vtc2DashOnBlock": "3(-7)",
                 "damage": 70,
                 "stun": 100,
+                "hcWinTc": 13,
+                "hcWinVt": 12,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -196,6 +208,7 @@
                 "vtc2DashOnBlock": "1(-9)",
                 "damage": 80,
                 "stun": 150,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -219,15 +232,15 @@
                 "plnCmd": "d+LP",
                 "numCmd": "2LP",
                 "startup": 4,
-                "active": 2,
-                "recovery": 7,
+                "active": 3,
+                "recovery": 6,
                 "total": 12,
                 "onHit": 4,
-                "onBlock": 2,
+                "onBlock": 3,
                 "vtc1OnHit": 2,
-                "vtc1OnBlock": 0,
+                "vtc1OnBlock": 1,
                 "vtc2DashOnHit": "-3(-13)",
-                "vtc2DashOnBlock": "-5(-15)",
+                "vtc2DashOnBlock": "-4(-14)",
                 "damage": 30,
                 "stun": 70,
                 "attackLevel": "H",
@@ -242,7 +255,9 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Chains into any of the other light buttons"
+                    "Good frametrap / pressure tool",
+                    "Chains into any of the other light buttons",
+                    "Good tick throw"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -258,13 +273,15 @@
                 "recovery": 13,
                 "total": 21,
                 "onHit": 6,
-                "onBlock": 2,
+                "onBlock": 3,
                 "vtc1OnHit": 12,
-                "vtc1OnBlock": 8,
+                "vtc1OnBlock": 9,
                 "vtc2DashOnHit": "7(-3)",
-                "vtc2DashOnBlock": "3(-7)",
+                "vtc2DashOnBlock": "4(-6)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinTc": 16,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -299,6 +316,9 @@
                 "vtc2DashOnBlock": "7(-3)",
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": "*16",
+                "hcWinVt": 16,
+                "hcWinNotes": "*CA only",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -342,7 +362,8 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Can chain into this from st.LP or cr.LP."
+                    "Can chain into this from st.LP or cr.LP.",
+                    "Can be used to tick throw 4F characters"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
@@ -365,6 +386,7 @@
                 "vtc2DashOnBlock": "0(-10)",
                 "damage": 50,
                 "stun": 100,
+                "hcWinVt": 13,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -394,14 +416,13 @@
                 "vtc2DashOnBlock": "-2(-12)",
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 16,
                 "kd": 73,
                 "kdr": 24,
                 "kdrb": 29,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -569,7 +590,7 @@
             "Knee Bazooka": {
                 "moveName": "Knee Bazooka",
                 "plnCmd": "f+LK",
-                "numCmd": "6HK",
+                "numCmd": "6LK",
                 "cmnName": "f+LK",
                 "startup": 7,
                 "active": 6,
@@ -591,6 +612,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "LK",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Jumping Sobat": {
@@ -618,6 +640,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 21
             },
             "Chopping Assault": {
@@ -639,12 +662,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Throw invincible on frames 9-22 (hops into the air; can hop over some low hitting attacks)",
-                    "Not airborne",
+                    "Not actually airborne",
                     "Juggle Limit: 1"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MP",
+                "movesList": "Command Normal",
                 "i": 22
             },
             "Step Kick": {
@@ -654,8 +678,8 @@
                 "cmnName": "f+HK",
                 "startup": 14,
                 "active": 4,
-                "recovery": 15,
-                "total": 32,
+                "recovery": "15(17)",
+                "total": "32(34)",
                 "onHit": 3,
                 "onBlock": -3,
                 "vtc1OnHit": 12,
@@ -673,11 +697,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "+2 extra recovery frames on whiff (17F)",
                     "Strong horizontal hitbox priority"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HK",
+                "movesList": "Command Normal",
                 "i": 23
             },
             "Spinning Back Knuckle": {
@@ -697,14 +723,13 @@
                 "vtc2DashOnBlock": "5(-5)",
                 "damage": 90,
                 "stun": 150,
+                "hcWinVt": 17,
                 "kd": 97,
                 "kdr": 61,
                 "kdrb": 61,
-                "crushAdv": {
-                    "state": "Crumple",
-                    "ccAdv": "C",
-                    "vG": "+120"
-                },
+                "ccState": "Crumple",
+                "ccAdv": "C",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -714,12 +739,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "A very slow and dramatic pimp slamp",
-                    "Not as viable of an anti-air after Season 3 patch"
+                    "Can have some use as a V-Trigger conversion tool",
+                    "A very slow and dramatic pimp slap",
+                    "This is really bad on whiff bro"
                 ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 24
             },
             "Side Knee Attack": {
@@ -739,6 +766,8 @@
                 "vtc2DashOnBlock": "5(-5)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 13,
+                "hcWinVt": 13,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -756,6 +785,7 @@
                 "moveType": "normal",
                 "moveMotion": "B",
                 "moveButton": "MK",
+                "movesList": "Command Normal",
                 "i": 25
             },
             "Rapid Punch": {
@@ -772,8 +802,11 @@
                 "vtc1OnBlock": 2,
                 "vtc2DashOnHit": "3(-7)",
                 "vtc2DashOnBlock": "-4(-14)",
-                "damage": "30*45",
-                "stun": "70*72",
+                "damage": "30*45 (75)",
+                "stun": "70*72 (142)",
+                "hcWinSpCa": 14,
+                "hcWinTc": 10,
+                "hcWinVt": 14,
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "sp",
@@ -787,6 +820,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 26
             },
             "Rapid Kick": {
@@ -794,20 +828,34 @@
                 "plnCmd": "LK > MK",
                 "numCmd": "5LK > 5MK",
                 "cmnName": "LK > MK",
-                "startup": "4+5",
+                "startup": "3+5",
                 "active": 4,
                 "recovery": 11,
-                "onHit": 4,
+                "onHit": 2,
                 "onBlock": -2,
-                "damage": "30*54",
-                "stun": "70*72",
+                "vtc1OnHit": 7,
+                "vtc1OnBlock": 3,
+                "vtc2DashOnHit": "2(-8)",
+                "vtc2DashOnBlock": "-2(-12)",
+                "damage": "30*54 (84)",
+                "stun": "70*72 (142)",
+                "hcWinTc": 12,
+                "hcWinVt": 13,
                 "attackLevel": "H*H",
+                "cancelsTo": [
+                    "vt1",
+                    "vt2"
+                ],
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
+                "extraInfo": [
+                    "Can make for some decent combo conversions from the 3F stand LK if V-Trigger canceled"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MK",
+                "movesList": "Target Combo",
                 "i": 27
             },
             "Wind Shear 1st": {
@@ -818,17 +866,22 @@
                 "startup": "6+9",
                 "active": 4,
                 "recovery": 22,
-                "onHit": 3,
+                "onHit": 2,
                 "onBlock": -7,
-                "damage": "60*36",
-                "stun": "100*45",
+                "damage": "60*36 (96)",
+                "stun": "100*45 (145)",
+                "hcWinTc": 17,
                 "attackLevel": "H*H",
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
+                "extraInfo": [
+                    "Leaves Nash up close to the opponent with a +2 mix-up on hit"
+                ],
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "LK",
+                "movesList": "Target Combo",
                 "i": 28
             },
             "Wind Shear 2nd": {
@@ -843,6 +896,7 @@
                 "onBlock": -7,
                 "damage": "60*36*56 (152)",
                 "stun": "100*45*80 (225)",
+                "hcWinTc": 16,
                 "kd": 86,
                 "kdr": 25,
                 "kdrb": 30,
@@ -853,6 +907,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 29
             },
             "Down Burst": {
@@ -865,15 +920,22 @@
                 "recovery": 16,
                 "onHit": 1,
                 "onBlock": -7,
-                "damage": "60*54",
-                "stun": "100*90",
+                "damage": "60*54 (114)",
+                "stun": "100*90 (190)",
+                "hcWinTc": 16,
                 "attackLevel": "H*M",
                 "airmove": false,
                 "followUp": true,
                 "projectile": false,
+                "extraInfo": [
+                    "The overhead (f+MP) follow-up is throw invincible on frames 5-18 (hops into the air; can hop over some low hitting attacks - but is not actually airborne)",
+                    "Tight frametrap that can link into stand LK combo conversions on counter-hit",
+                    "Juggle Limit: 1"
+                ],
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 30
             },
             "Raptor Combination 1st": {
@@ -886,8 +948,9 @@
                 "recovery": 26,
                 "onHit": "KD",
                 "onBlock": -10,
-                "damage": "60*50",
-                "stun": "100*72",
+                "damage": "60*50 (110)",
+                "stun": "100*72 (172)",
+                "hcWinTc": 13,
                 "kd": 85,
                 "kdr": 26,
                 "kdrb": 31,
@@ -904,6 +967,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 31
             },
             "Raptor Combination 2nd": {
@@ -918,6 +982,7 @@
                 "onBlock": -10,
                 "damage": "60*50*44 (164)",
                 "stun": "100*72*80 (252)",
+                "hcWinTc": 18,
                 "kd": 88,
                 "kdr": 29,
                 "kdrb": 34,
@@ -931,6 +996,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MK",
+                "movesList": "Target Combo",
                 "i": 32
             },
             "Bullet Combination": {
@@ -947,6 +1013,7 @@
                 "vtc2DashOnHit": "KD (+106/47/52) / (+96/37/42)",
                 "damage": "60*50*44 (164)",
                 "stun": "100*72*80 (252)",
+                "hcWinTc": 23,
                 "kd": 96,
                 "kdr": 37,
                 "kdrb": 42,
@@ -967,6 +1034,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 33
             },
             "Dragon Suplex": {
@@ -991,6 +1059,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 34
             },
             "Target Down": {
@@ -1015,6 +1084,7 @@
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 35
             },
             "Air Jack": {
@@ -1029,13 +1099,22 @@
                 "onHit": "KD",
                 "damage": 130,
                 "stun": 200,
+                "kd": "82(84)",
+                "kdr": "23(25)",
+                "kdrb": "23(25)",
                 "attackLevel": "T",
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "KDA varies depending on height of opponent when thrown (the higher up the throw is performed, the lower the KDA is",
+                    "Denies backroll",
+                    "6F landing recovery frames if air throw whiffs"
+                ],
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 36
             },
             "Bullet Clear": {
@@ -1064,6 +1143,7 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
+                    "Sucks in the opponent on hit and block",
                     "Has 4 active frames of a Strike hitbox (frames 8-11) and also absorbs 1 hit of projectile on frames 6-13",
                     "Projectile invincible on extended arms and leg hurtboxes on frames 5-20",
                     "After successfully absorbing a projectile; Nash is locked into 28 frames of recovery period which is V-Trigger cancelable on frames 13-28",
@@ -1074,6 +1154,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 37
             },
             "Silent Sharpness": {
@@ -1095,6 +1176,7 @@
                 "moveMotion": "N",
                 "moveButton": "MPMK",
                 "nonHittingMove": true,
+                "movesList": "V-Skill 2",
                 "i": 38
             },
             "Sonic Move - Hide": {
@@ -1121,6 +1203,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 39
             },
             "Sonic Move - Bliz Air": {
@@ -1142,6 +1225,7 @@
                 "moveMotion": "B",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 40
             },
             "Sonic Move - Steel Air": {
@@ -1163,6 +1247,7 @@
                 "moveMotion": "F",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 1",
                 "i": 41
             },
             "Stealth Dash": {
@@ -1191,6 +1276,7 @@
                 "moveMotion": "N",
                 "moveButton": "HPHK",
                 "nonHittingMove": true,
+                "movesList": "V-Trigger 2",
                 "i": 42
             },
             "Sonic Move - Avoid": {
@@ -1214,7 +1300,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 43
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 44
+            },
+            "Vengeful Bullet": {
+                "moveName": "Vengeful Bullet",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 45
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1229,7 +1374,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 44
+                "i": 46
             },
             "LP Sonic Boom": {
                 "moveName": "LP Sonic Boom",
@@ -1266,7 +1411,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 45
+                "movesList": "Special",
+                "i": 47
             },
             "MP Sonic Boom": {
                 "moveName": "MP Sonic Boom",
@@ -1303,7 +1449,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 46
+                "i": 48
             },
             "HP Sonic Boom": {
                 "moveName": "HP Sonic Boom",
@@ -1340,7 +1486,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 47
+                "i": 49
             },
             "EX Sonic Boom 1": {
                 "moveName": "EX Sonic Boom 1",
@@ -1377,7 +1523,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 48
+                "i": 50
             },
             "EX Sonic Boom 2": {
                 "moveName": "EX Sonic Boom 2",
@@ -1412,7 +1558,7 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "i": 49
+                "i": 51
             },
             "LK Sonic Scythe": {
                 "moveName": "LK Sonic Scythe",
@@ -1429,7 +1575,7 @@
                 "vtc1OnBlock": 10,
                 "vtc2DashOnHit": "KD (+97/38/43) / (+87/28/33)",
                 "vtc2DashOnBlock": "5(-5)",
-                "damage": 80,
+                "damage": 100,
                 "stun": 100,
                 "kd": 85,
                 "kdr": 26,
@@ -1449,7 +1595,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 50
+                "movesList": "Special",
+                "i": 52
             },
             "MK Sonic Scythe": {
                 "moveName": "MK Sonic Scythe",
@@ -1466,7 +1613,7 @@
                 "vtc1OnBlock": 5,
                 "vtc2DashOnHit": "KD (+99/40/45) / (+89/30/35)",
                 "vtc2DashOnBlock": "0(-10)",
-                "damage": 100,
+                "damage": 110,
                 "stun": 100,
                 "kd": 89,
                 "kdr": 30,
@@ -1488,7 +1635,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 51
+                "i": 53
             },
             "HK Sonic Scythe": {
                 "moveName": "HK Sonic Scythe",
@@ -1505,8 +1652,8 @@
                 "vtc1OnBlock": 4,
                 "vtc2DashOnHit": "KD (+104/45/50) / (+94/35/40)",
                 "vtc2DashOnBlock": "-1(-11)",
-                "damage": "60*50",
-                "stun": "100*50",
+                "damage": "60*60 (120)",
+                "stun": "100*50 (150)",
                 "multiActive": [
                     17,
                     18,
@@ -1536,7 +1683,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 52
+                "i": 54
             },
             "EX Sonic Scythe": {
                 "moveName": "EX Sonic Scythe",
@@ -1553,7 +1700,7 @@
                 "vtc1OnBlock": "11*10",
                 "vtc2DashOnHit": "KD (+122/63/68) / (+112/53/58)",
                 "vtc2DashOnBlock": "6*5(-4*-5)",
-                "damage": "30x5 (150)",
+                "damage": "30x4*40 (160)",
                 "stun": "30x4*80 (200)",
                 "multiActive": [
                     6,
@@ -1592,7 +1739,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 53
+                "i": 55
             },
             "LK Sonic Scythe (V-Skill 2)": {
                 "moveName": "LK Sonic Scythe (V-Skill 2)",
@@ -1609,11 +1756,11 @@
                 "vtc1OnBlock": 17,
                 "vtc2DashOnHit": "KD (+107/48/53) / (+97/38/43)",
                 "vtc2DashOnBlock": "12(2)",
-                "damage": "50*40",
-                "stun": "50*50",
-                "kd": 97,
-                "kdr": 38,
-                "kdrb": 43,
+                "damage": "60*40 (100)",
+                "stun": "50*50 (100)",
+                "kd": 98,
+                "kdr": 39,
+                "kdrb": 44,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1631,7 +1778,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LK",
-                "i": 54
+                "movesList": "V-Skill 2",
+                "i": 56
             },
             "MK Sonic Scythe (V-Skill 2)": {
                 "moveName": "MK Sonic Scythe (V-Skill 2)",
@@ -1648,11 +1796,11 @@
                 "vtc1OnBlock": 7,
                 "vtc2DashOnHit": "KD (+97/38/43) / (+87/28/33)",
                 "vtc2DashOnBlock": "2(-8)",
-                "damage": "100*10",
-                "stun": "100*20",
-                "kd": 90,
-                "kdr": 31,
-                "kdrb": 36,
+                "damage": "100*20 (120)",
+                "stun": "100*20 (120)",
+                "kd": 93,
+                "kdr": 34,
+                "kdrb": 39,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -1673,7 +1821,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MK",
-                "i": 55
+                "i": 57
             },
             "HK Sonic Scythe (V-Skill 2)": {
                 "moveName": "HK Sonic Scythe (V-Skill 2)",
@@ -1716,7 +1864,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HK",
-                "i": 56
+                "i": 58
             },
             "EX Sonic Scythe (V-Skill 2)": {
                 "moveName": "EX Sonic Scythe (V-Skill 2)",
@@ -1733,7 +1881,7 @@
                 "vtc1OnBlock": "11*10",
                 "vtc2DashOnHit": "KD (+122/63/68) / (+112/53/58)",
                 "vtc2DashOnBlock": "6*5(-4*-5)",
-                "damage": "30*10*30x4 (160)",
+                "damage": "30x2*30x4 (180)",
                 "stun": "30x4*80 (200)",
                 "kd": 86,
                 "kdr": 27,
@@ -1758,7 +1906,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2K",
-                "i": 57
+                "i": 59
             },
             "LK Moonsault Slash": {
                 "moveName": "LK Moonsault Slash",
@@ -1769,8 +1917,8 @@
                 "active": 3,
                 "recovery": "1+10",
                 "total": 50,
-                "onHit": "4(5)",
-                "onBlock": "1(2)",
+                "onHit": "4(6)",
+                "onBlock": "1(3)",
                 "damage": 60,
                 "stun": 100,
                 "attackLevel": "H",
@@ -1778,13 +1926,15 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frame 11",
-                    "+1 extra frame advantage on hit and block vs crouching"
+                    "Airborne on frames 11-40",
+                    "+2 extra frame advantage (+6/+3) on Hit / Block vs crouching",
+                    "Reaches about half-screen length"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LK",
-                "i": 58
+                "movesList": "Special",
+                "i": 60
             },
             "MK Moonsault Slash": {
                 "moveName": "MK Moonsault Slash",
@@ -1795,8 +1945,8 @@
                 "active": 3,
                 "recovery": 12,
                 "total": 51,
-                "onHit": "4(5)",
-                "onBlock": "2(3)",
+                "onHit": "4(6)",
+                "onBlock": "2(4)",
                 "damage": 60,
                 "stun": 100,
                 "attackLevel": "H",
@@ -1804,13 +1954,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frame 10",
-                    "+1 extra frame advantage on hit and block vs crouching"
+                    "Airborne on frames 10-39",
+                    "+2 extra frame advantage (+6/+4) on Hit / Block vs crouching",
+                    "Reaches about 75% screen length"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MK",
-                "i": 59
+                "i": 61
             },
             "HK Moonsault Slash": {
                 "moveName": "HK Moonsault Slash",
@@ -1821,8 +1972,8 @@
                 "active": 3,
                 "recovery": 14,
                 "total": 53,
-                "onHit": "4(5)",
-                "onBlock": "3(4)",
+                "onHit": "4(6)",
+                "onBlock": "3(5)",
                 "damage": 60,
                 "stun": 100,
                 "attackLevel": "H",
@@ -1830,13 +1981,14 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frame 10",
-                    "+1 extra frame advantage on hit and block vs crouching"
+                    "Airborne on frames 10-39",
+                    "+2 extra frame advantage (+6/+5) on Hit / Block vs crouching",
+                    "Reaches about 95% screen length"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HK",
-                "i": 60
+                "i": 62
             },
             "EX Moonsault Slash": {
                 "moveName": "EX Moonsault Slash",
@@ -1849,8 +2001,8 @@
                 "total": 85,
                 "onHit": 7,
                 "onBlock": 3,
-                "damage": 120,
-                "stun": "50*50*50",
+                "damage": "40x3 (120)",
+                "stun": "50*50*50 (150)",
                 "multiActive": [
                     39,
                     40,
@@ -1867,26 +2019,27 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Airborne on frame 11"
+                    "Airborne on frames 11-75",
+                    "Reaches about 95% screen length but otherwise tries to lock onto the opponent's position during start-up"
                 ],
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 61
+                "i": 63
             },
             "LP Tragedy Assault": {
                 "moveName": "LP Tragedy Assault",
                 "plnCmd": "f,d,df+LP",
                 "numCmd": "623LP",
                 "cmnName": "LP TA",
-                "startup": 18,
+                "startup": 17,
                 "active": 2,
                 "recovery": 23,
-                "total": 42,
+                "total": 41,
                 "onHit": "KD",
                 "onBlock": "-5(-4)",
-                "damage": "70*30",
-                "stun": "0*150",
+                "damage": "70*30 (100)",
+                "stun": "0*150 (150)",
                 "kd": 57,
                 "kdr": 8,
                 "kdrb": 8,
@@ -1896,16 +2049,17 @@
                 "projectile": false,
                 "extraInfo": [
                     "Steals 50 EX meter (1/6th EX bar) from the opponent for yourself",
-                    "Airborne on frames 9-21",
+                    "Airborne on frames 8-20",
                     "Denies back roll wake-up",
                     "1st active frame whiffs on most crouching opponents (-4 on block on crouch block)",
-                    "Juggle Limit: 1",
+                    "Juggle Limit: 0",
                     "Causes opponent to consider the pointless and fragile nature of life"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "LP",
-                "i": 62
+                "movesList": "Special",
+                "i": 64
             },
             "MP Tragedy Assault": {
                 "moveName": "MP Tragedy Assault",
@@ -1918,8 +2072,8 @@
                 "total": 49,
                 "onHit": "KD",
                 "onBlock": "-6(-5)",
-                "damage": "90*30",
-                "stun": "0*150",
+                "damage": "90*30 (120)",
+                "stun": "0*150 (150)",
                 "kd": 57,
                 "kdr": 8,
                 "kdrb": 8,
@@ -1939,7 +2093,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "MP",
-                "i": 63
+                "i": 65
             },
             "HP Tragedy Assault": {
                 "moveName": "HP Tragedy Assault",
@@ -1952,8 +2106,8 @@
                 "total": 63,
                 "onHit": "KD",
                 "onBlock": "-8(-7)",
-                "damage": "120*20",
-                "stun": "0*150",
+                "damage": "120*20 (140)",
+                "stun": "0*150 (150)",
                 "kd": 57,
                 "kdr": 8,
                 "kdrb": 8,
@@ -1973,7 +2127,7 @@
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "HP",
-                "i": 64
+                "i": 66
             },
             "EX Tragedy Assault": {
                 "moveName": "EX Tragedy Assault",
@@ -1989,7 +2143,7 @@
                 "vtc1OnHit": "KD (+116/57/57)",
                 "vtc2DashOnHit": "KD (+111/52/52) / (+101/42/42)",
                 "damage": "40*50*30 (120)",
-                "stun": "0*0*150",
+                "stun": "0*0*150 (150)",
                 "multiActive": [
                     8,
                     9,
@@ -1997,9 +2151,9 @@
                     28,
                     29
                 ],
-                "kd": 96,
-                "kdr": 37,
-                "kdrb": 37,
+                "kd": 97,
+                "kdr": 38,
+                "kdrb": 38,
                 "attackLevel": "H*H*H",
                 "cancelsTo": [
                     "vt1",
@@ -2011,13 +2165,13 @@
                 "extraInfo": [
                     "Restore 30 health on hit",
                     "Launches opponent into a free juggle state",
-                    "Juggle Limit: 0*10",
+                    "Juggle Limit: 1*10",
                     "Opponent will begin writing hopeless poetry directly after the match"
                 ],
                 "moveType": "special",
                 "moveMotion": "DP",
                 "moveButton": "2P",
-                "i": 65
+                "i": 67
             },
             "Judgement Saber": {
                 "moveName": "Judgement Saber",
@@ -2049,10 +2203,14 @@
                 "moveType": "super",
                 "moveMotion": "DQCB",
                 "moveButton": "1P",
-                "i": 66
-            }
+                "movesList": "Super",
+                "i": 68
+            },
+            "input": "None"
         },
-        "vtOne": {},
+        "vtOne": {
+            "input": "None"
+        },
         "vtTwo": {
             "Stealth Dash > Stop": {
                 "moveName": "Stealth Dash > Stop",
@@ -2066,7 +2224,7 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Spends 2000 V-Timer on start of Stealth Dash (50% of V-Timer)",
+                    "Spends 1000 V-Timer at the start of Stealth Dash (25% of V-Timer)",
                     "The (X) framedata in the parentheses refers to the framedata if done from the initial VT2 activation",
                     "Projectile invincible during start-up on frames 3-13 (up to frame 32 if canceled into follow-ups as late as possible)",
                     "Projectile invincible on frames 3-4 if done from the initial VT2 activation (up to frame 28 if canceled into this follow-up as late as possible)",
@@ -2077,6 +2235,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "B",
                 "nonHittingMove": true,
+                "movesList": "Special",
                 "i": 42.01
             },
             "Stealth Dash > Justice Corridor": {
@@ -2105,7 +2264,7 @@
                     "First hit is Overhead",
                     "Launches opponent into a limited juggle state",
                     "Cancelable into another VT2 Stealth Dash during recovery frames after landing on hit or block only (not cancelable on whiff)",
-                    "Spends 2000 V-Timer on start of Stealth Dash (50% of V-Timer)",
+                    "Spends 1000 V-Timer at the start of Stealth Dash (25% of V-Timer) and then another 500 V-Timer (12.5% V-Timer) at the start of Justice Corridor (Overhead follow-up)",
                     "The (X) framedata in the parentheses refers to the framedata if done from the initial VT2 activation",
                     "Projectile invincible on frames 3-45 (up to frame 64 if canceled into follow-ups as late as possible)",
                     "Projectile invincible on frames 3-37 if done from the initial VT2 activation (up to frame 50 if canceled into this follow-up as late as possible)",
@@ -2119,6 +2278,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "1P",
+                "movesList": "Special",
                 "i": 42.02
             },
             "Stealth Dash > Justice Shell": {
@@ -2133,7 +2293,7 @@
                 "onHit": "KD",
                 "onBlock": -16,
                 "vtc2DashOnHit": "KD (+109/50/55)",
-                "damage": "60*40",
+                "damage": "40*60",
                 "stun": "75*75",
                 "kd": 116,
                 "kdr": 57,
@@ -2145,7 +2305,7 @@
                 "extraInfo": [
                     "Launches opponent into a limited juggle state",
                     "Cancelable into another VT2 Stealth Dash during recovery frames after landing",
-                    "Spends 2000 V-Timer on start of Stealth Dash (50% of V-Timer)",
+                    "Spends 1000 V-Timer at the start of Stealth Dash (25% of V-Timer) and then another 500 V-Timer (12.5% V-Timer) at the start of Justice Corridor (Overhead follow-up)",
                     "The (X) framedata in the parentheses refers to the framedata if done from the initial VT2 activation",
                     "Projectile invincible on frames 3-32 (up to frame 51 if canceled into follow-ups as late as possible)",
                     "Projectile invincible on frames 3-24 if done from the initial VT2 activation (up to frame 37 if canceled into follow-ups as late as possible)",
@@ -2158,8 +2318,10 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "1K",
+                "movesList": "Special",
                 "i": 42.03
-            }
+            },
+            "input": "None"
         }
     },
     "stats": {

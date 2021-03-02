@@ -21,6 +21,9 @@
                 "runstopOB": "-11(-8)",
                 "damage": 30,
                 "stun": 70,
+                "hcWinSpCa": 9,
+                "hcWinTc": 11,
+                "hcWinVt": 9,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "ch",
@@ -57,6 +60,8 @@
                 "vt1dashOB": -6,
                 "damage": 60,
                 "stun": 100,
+                "hcWinTc": 17,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -95,6 +100,9 @@
                 "runstopOB": "-5(-2)",
                 "damage": 80,
                 "stun": 150,
+                "hcWinSpCa": 16,
+                "hcWinTc": 24,
+                "hcWinVt": 18,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -169,6 +177,7 @@
                 "vt1dashOB": -9,
                 "damage": 60,
                 "stun": 100,
+                "hcWinVt": 15,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "vt1",
@@ -282,6 +291,8 @@
                 "runstopOB": "-6(-3)",
                 "damage": 60,
                 "stun": 100,
+                "hcWinSpCa": 14,
+                "hcWinVt": 14,
                 "attackLevel": "H",
                 "cancelsTo": [
                     "sp",
@@ -315,11 +326,13 @@
                 "vt1dashOB": -8,
                 "damage": 80,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": "+21",
-                    "vG": "+120"
-                },
+                "hcWinSpCa": "*17",
+                "hcWinTc": 23,
+                "hcWinVt": 17,
+                "hcWinNotes": "*CA only",
+                "ccState": "Stagger",
+                "ccAdv": "+21",
+                "ccVG": "+120",
                 "attackLevel": "H",
                 "cancelsTo": [
                     "su",
@@ -388,6 +401,7 @@
                 "vt1dashOB": -10,
                 "damage": 50,
                 "stun": 100,
+                "hcWinVt": 14,
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -425,11 +439,9 @@
                 "kd": 66,
                 "kdr": 17,
                 "kdrb": 22,
-                "crushAdv": {
-                    "state": "Hard Knockdown",
-                    "ccAdv": "KD",
-                    "vG": "+120"
-                },
+                "ccState": "Hard Knockdown",
+                "ccAdv": "KD",
+                "ccVG": "+120",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -464,11 +476,9 @@
                 "vt1dashOB": -12,
                 "damage": 60,
                 "stun": 150,
-                "crushAdv": {
-                    "state": "Stagger",
-                    "ccAdv": "+14",
-                    "vG": "+150"
-                },
+                "ccState": "Stagger",
+                "ccAdv": "+14",
+                "ccVG": "+150",
                 "attackLevel": "L",
                 "cancelsTo": [
                     "vt1",
@@ -611,8 +621,8 @@
                 "total": 45,
                 "onHit": 1,
                 "onBlock": -7,
-                "damage": "40*40",
-                "stun": "50*50",
+                "damage": "40*40 (80)",
+                "stun": "50*50 (100)",
                 "attackLevel": "M*M",
                 "airmove": false,
                 "followUp": false,
@@ -624,6 +634,7 @@
                 "moveType": "normal",
                 "moveMotion": "F",
                 "moveButton": "HP",
+                "movesList": "Command Normal",
                 "i": 20
             },
             "Kaeshi Saiha": {
@@ -642,6 +653,10 @@
                 "runstopOH": "KD (+91/32/37)",
                 "damage": "80*54 (134)",
                 "stun": "150*90 (240)",
+                "hcWinSpCa": "18/*17",
+                "hcWinTc": 24,
+                "hcWinVt": 18,
+                "hcWinNotes": "*VSkill 1",
                 "kd": 88,
                 "kdr": 29,
                 "kdrb": 34,
@@ -649,6 +664,8 @@
                 "cancelsTo": [
                     "sp",
                     "su",
+                    "vs1",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -664,6 +681,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 21
             },
             "Kaeshi Urasaiha": {
@@ -682,6 +700,9 @@
                 "runstopOH": "KD (+91/32/37)",
                 "damage": "80*54 (134)",
                 "stun": "150*90 (240)",
+                "hcWinSpCa": "16/*15",
+                "hcWinVt": 16,
+                "hcWinNotes": "*VSkill 1",
                 "kd": 86,
                 "kdr": 27,
                 "kdrb": 32,
@@ -689,6 +710,8 @@
                 "cancelsTo": [
                     "sp",
                     "su",
+                    "vs1",
+                    "vs2",
                     "vt1",
                     "vt2"
                 ],
@@ -697,13 +720,13 @@
                 "projectile": false,
                 "extraInfo": [
                     "Cannot cancel into specials or the V-Skill follow-up on block",
-                    "2nd hit can whiff if the initial cr.HP connects at max range",
                     "Easily hit confirmed into from Counter-Hit st.MP",
                     "+5 KDA if canceled into Run > Stop (+7 with EX Run > Stop)"
                 ],
                 "moveType": "normal",
                 "moveMotion": "D",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 22
             },
             "Kagerou": {
@@ -717,6 +740,7 @@
                 "onHit": "KD",
                 "damage": "80*54*40*24 (198)",
                 "stun": "150*90*0*120 (360)",
+                "hcWinTc": 17,
                 "kd": 81,
                 "kdr": 22,
                 "kdrb": 27,
@@ -736,6 +760,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 23
             },
             "Urakagerou": {
@@ -749,6 +774,7 @@
                 "onHit": "KD",
                 "damage": "80*54*40*24 (198)",
                 "stun": "150*90*0*120 (360)",
+                "hcWinTc": 15,
                 "kd": 81,
                 "kdr": 22,
                 "kdrb": 27,
@@ -768,6 +794,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "Target Combo",
                 "i": 24
             },
             "Sekibu No Jin": {
@@ -780,6 +807,7 @@
                 "onHit": "KD",
                 "damage": "80*54 (134)",
                 "stun": "150*90 (240)",
+                "hcWinTc": 17,
                 "kd": "50(59)",
                 "kdr": "-9(0)",
                 "kdrb": "-4(5)",
@@ -792,6 +820,7 @@
                     "+9 KDA if canceled into stance switch (KDA listed in parentheses)",
                     "Cannot safely get weasel out on quick rise midscreen"
                 ],
+                "movesList": "Target Combo",
                 "i": 25
             },
             "Hakuso No Jin": {
@@ -804,6 +833,7 @@
                 "onHit": "KD",
                 "damage": "80*54 (134)",
                 "stun": "150*90 (240)",
+                "hcWinTc": 15,
                 "kd": "50(59)",
                 "kdr": "-9(0)",
                 "kdrb": "-4(5)",
@@ -816,6 +846,7 @@
                     "+9 KDA if canceled into stance switch (KDA listed in parentheses)",
                     "Cannot safely get weasel out on quick rise midscreen"
                 ],
+                "movesList": "Target Combo",
                 "i": 26
             },
             "Bushin Soukosou": {
@@ -833,7 +864,10 @@
                 "transfOH": -2,
                 "runstopOH": "0(3)",
                 "damage": "60*45 (105)",
-                "stun": "100*90 (190)",
+                "stun": "100*72 (172)",
+                "hcWinSpCa": 17,
+                "hcWinTc": 17,
+                "hcWinVt": 27,
                 "attackLevel": "H*H",
                 "cancelsTo": [
                     "sp",
@@ -851,6 +885,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 27
             },
             "Bushin Gokusanken - Ni": {
@@ -865,6 +900,7 @@
                 "onBlock": -7,
                 "damage": "30*45 (75)",
                 "stun": "70*72 (142)",
+                "hcWinTc": 11,
                 "attackLevel": "H*H",
                 "airmove": false,
                 "followUp": true,
@@ -875,6 +911,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "MP",
+                "movesList": "Target Combo",
                 "i": 28
             },
             "Bushin Gokusanken - San": {
@@ -889,6 +926,7 @@
                 "onBlock": -11,
                 "damage": "30*45*24*32 (131)",
                 "stun": "70*72*40*40 (222)",
+                "hcWinTc": 14,
                 "kd": 85,
                 "kdr": 26,
                 "kdrb": 31,
@@ -903,6 +941,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HP",
+                "movesList": "Target Combo",
                 "i": 29
             },
             "Bushin Gokusanken - Shu": {
@@ -917,6 +956,7 @@
                 "onBlock": -16,
                 "damage": "30*45*24*32*56 (187)",
                 "stun": "70*72*40*40*70 (292)",
+                "hcWinTc": 24,
                 "kd": 82,
                 "kdr": 23,
                 "kdrb": 28,
@@ -930,6 +970,7 @@
                 "moveType": "normal",
                 "moveMotion": "N",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 30
             },
             "Bushin Gokusanage": {
@@ -943,6 +984,7 @@
                 "onHit": "KD",
                 "damage": "30*45*24*70 (169)",
                 "stun": "70*72*40*140 (322)",
+                "hcWinTc": 9,
                 "kd": 64,
                 "kdr": 15,
                 "kdrb": 15,
@@ -957,6 +999,7 @@
                 "moveType": "throw",
                 "moveMotion": "D",
                 "moveButton": "HK",
+                "movesList": "Target Combo",
                 "i": 31
             },
             "Sankagu Tobi": {
@@ -968,31 +1011,35 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "The regular wall jump arc"
+                    "The regular wall jump arc",
+                    "Puts Young Zeku into a free juggle state if hit by a medium / heavy / command normal"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "BF",
+                "movesList": "Wall Jump",
                 "i": 32
             },
             "Hassou Tobi": {
                 "moveName": "Hassou Tobi",
-                "plnCmd": "1P",
+                "plnCmd": "Wall Jump > 1P",
                 "numCmd": "1P",
                 "cmnName": "Super Wall Jump",
                 "airmove": true,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Different jump arcs and ranges depending on which button strength is used"
+                    "Different jump arcs and ranges depending on which button strength is used",
+                    "LP goes the least distance, MP is normal wall jump distance, HP goes the farthest"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "BF",
                 "moveButton": "1P",
+                "movesList": "Wall Jump",
                 "i": 33
             },
             "Bushin Shidenkyaku": {
                 "moveName": "Bushin Shidenkyaku",
-                "plnCmd": "1K",
+                "plnCmd": "Wall Jump > 1K",
                 "numCmd": "1K",
                 "cmnName": "Divekick",
                 "startup": 27,
@@ -1004,11 +1051,13 @@
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Different divekick arcs depending on which button strength is used"
+                    "Different divekick arcs depending on which button strength is used",
+                    "LK goes the least distance, HK goes the farthest"
                 ],
                 "moveType": "normal",
                 "moveMotion": "BF",
                 "moveButton": "1K",
+                "movesList": "Wall Jump",
                 "i": 34
             },
             "Tesso": {
@@ -1036,6 +1085,7 @@
                 "moveType": "throw",
                 "moveMotion": "N",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 35
             },
             "Raiju": {
@@ -1057,9 +1107,13 @@
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
+                "extraInfo": [
+                    "Does more damage than average for a back throw"
+                ],
                 "moveType": "throw",
                 "moveMotion": "B",
                 "moveButton": "LPLK",
+                "movesList": "Normal Throw",
                 "i": 36
             },
             "Tenpo Kari": {
@@ -1095,6 +1149,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 1",
                 "i": 37
             },
             "Kuchiyose - Bii": {
@@ -1135,6 +1190,7 @@
                 "moveType": "vskill",
                 "moveMotion": "N",
                 "moveButton": "MPMK",
+                "movesList": "V-Skill 2",
                 "i": 38
             },
             "Bushinryu Shingekiko": {
@@ -1155,6 +1211,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 39
             },
             "Idaten": {
@@ -1179,6 +1236,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 40
             },
             "Bushin Seiryukyaku": {
@@ -1215,6 +1273,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 1",
                 "i": 41
             },
             "Karura Tenzan": {
@@ -1255,6 +1314,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 42
             },
             "Karura Tenzan (Secondary)": {
@@ -1295,6 +1355,7 @@
                 "moveType": "vtrigger",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
+                "movesList": "V-Trigger 2",
                 "i": 43
             },
             "Toushi": {
@@ -1323,7 +1384,66 @@
                 "moveType": "alpha",
                 "moveMotion": "F",
                 "moveButton": "3P",
+                "movesList": "V-Reversal",
                 "i": 44
+            },
+            "V-Shift": {
+                "moveName": "V-Shift",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Shift",
+                "startup": 1,
+                "active": 9,
+                "recovery": 22,
+                "total": 31,
+                "airmove": false,
+                "followUp": false,
+                "projectile": false,
+                "extraInfo": [
+                    "Shifts back 1.21 range",
+                    "Fully invincible on frames 1-9 during which time any strike or projectile evaded will trigger a slow-motion effect on frame 11 for both players",
+                    "Immediately gains full invincibility for the full duration of V-Shift if you successfully evade a strike or projectile on start-up frames 1-9",
+                    "Throw invincible on frames 1-16 on an empty / raw V-Shift",
+                    "Counter-Hit state on frames 10-31 on an empty / raw V-Shift",
+                    "Opponent can still cancel the attack that was V-Shifted as if it had connected (this allows for a lot of shenanigans)",
+                    "Costs 300 V-Gauge (1 bar) to use and refunds 150 V-Gauge back (1/2 bar) on a successful V-Shift if the slow-mo is triggered",
+                    "If the V-Shift is successful you can cancel it into a follow-up attack (see V-Shift Break) that's fully invincible and knocks the opponent down on hit"
+                ],
+                "moveType": "vshift",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "nonHittingMove": true,
+                "movesList": "V-Shift",
+                "i": 45
+            },
+            "Habakiri": {
+                "moveName": "Habakiri",
+                "plnCmd": "MK+HP",
+                "numCmd": "MKHP",
+                "cmnName": "V-Break",
+                "startup": "?",
+                "active": 3,
+                "recovery": "?",
+                "total": "?",
+                "onHit": "KD",
+                "onBlock": -2,
+                "damage": 60,
+                "stun": 0,
+                "kd": 73,
+                "kdr": 14,
+                "kdrb": 19,
+                "attackLevel": "H",
+                "airmove": false,
+                "followUp": true,
+                "projectile": false,
+                "extraInfo": [
+                    "Fully invincible during startup and active frames"
+                ],
+                "moveType": "vbreak",
+                "moveMotion": "N",
+                "moveButton": "MKHP",
+                "movesList": "V-Break",
+                "i": 46
             },
             "Taunt": {
                 "moveName": "Taunt",
@@ -1338,7 +1458,7 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "3P3K",
-                "i": 45
+                "i": 47
             },
             "Shukumyo": {
                 "moveName": "Shukumyo",
@@ -1359,7 +1479,8 @@
                 "moveType": "special",
                 "moveMotion": "DD",
                 "moveButton": "2P",
-                "i": 46
+                "movesList": "Transform",
+                "i": 48
             },
             "LP Bushin Sho": {
                 "moveName": "LP Bushin Sho",
@@ -1394,7 +1515,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 47
+                "movesList": "Special",
+                "i": 49
             },
             "MP Bushin Sho": {
                 "moveName": "MP Bushin Sho",
@@ -1430,7 +1552,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 48
+                "i": 50
             },
             "HP Bushin Sho": {
                 "moveName": "HP Bushin Sho",
@@ -1466,7 +1588,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 49
+                "i": 51
             },
             "EX Bushin Sho": {
                 "moveName": "EX Bushin Sho",
@@ -1502,7 +1624,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 50
+                "i": 52
             },
             "LP Hozanto": {
                 "moveName": "LP Hozanto",
@@ -1517,7 +1639,7 @@
                 "onBlock": -6,
                 "transfOH": "KD (+93/34/39)",
                 "damage": 60,
-                "stun": 150,
+                "stun": 100,
                 "kd": 107,
                 "kdr": 48,
                 "kdrb": 53,
@@ -1537,7 +1659,8 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "LP",
-                "i": 51
+                "movesList": "Special",
+                "i": 53
             },
             "MP Hozanto": {
                 "moveName": "MP Hozanto",
@@ -1552,7 +1675,7 @@
                 "onBlock": -6,
                 "transfOH": "KD (+95/36/41)",
                 "damage": 70,
-                "stun": 150,
+                "stun": 100,
                 "kd": 108,
                 "kdr": 49,
                 "kdrb": 54,
@@ -1572,7 +1695,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "MP",
-                "i": 52
+                "i": 54
             },
             "HP Hozanto": {
                 "moveName": "HP Hozanto",
@@ -1587,7 +1710,7 @@
                 "onBlock": -6,
                 "transfOH": "KD (+107/48/53)",
                 "damage": 90,
-                "stun": 150,
+                "stun": 100,
                 "kd": 111,
                 "kdr": 52,
                 "kdrb": 57,
@@ -1607,7 +1730,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "HP",
-                "i": 53
+                "i": 55
             },
             "EX Hozanto": {
                 "moveName": "EX Hozanto",
@@ -1642,7 +1765,7 @@
                 "moveType": "special",
                 "moveMotion": "QCB",
                 "moveButton": "2P",
-                "i": 54
+                "i": 56
             },
             "LP Bushin Sangoku Otoshi": {
                 "moveName": "LP Bushin Sangoku Otoshi",
@@ -1670,7 +1793,8 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "LP",
-                "i": 55
+                "movesList": "Special",
+                "i": 57
             },
             "MP Bushin Sangoku Otoshi": {
                 "moveName": "MP Bushin Sangoku Otoshi",
@@ -1698,7 +1822,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "MP",
-                "i": 56
+                "i": 58
             },
             "HP Bushin Sangoku Otoshi": {
                 "moveName": "HP Bushin Sangoku Otoshi",
@@ -1726,7 +1850,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "HP",
-                "i": 57
+                "i": 59
             },
             "EX Bushin Sangoku Otoshi": {
                 "moveName": "EX Bushin Sangoku Otoshi",
@@ -1754,7 +1878,7 @@
                 "moveType": "special",
                 "moveMotion": "QCF",
                 "moveButton": "2P",
-                "i": 58
+                "i": 60
             },
             "Hayagake": {
                 "moveName": "Hayagake",
@@ -1768,34 +1892,34 @@
                 "projectile": false,
                 "extraInfo": [
                     "Cancels into follow-ups on frames 8-49",
-                    "Zeku is in counterhit state frames 1-49"
+                    "Zeku is in a counter-hit state during the run itself"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "QCF",
                 "moveButton": "1K",
-                "i": 59
+                "movesList": "Special (Run)",
+                "i": 61
             },
             "Hayagake EX": {
                 "moveName": "Hayagake EX",
                 "plnCmd": "qcf+KK",
                 "numCmd": "236KK",
                 "cmnName": "EX Run",
-                "startup": 8,
+                "startup": 7,
                 "total": 41,
                 "airmove": false,
                 "followUp": false,
                 "projectile": false,
                 "extraInfo": [
-                    "Cancels into follow-ups on frames 8-21",
-                    "Zeku is in counterhit state frames 1-21",
-                    "Fully invincible on frames 9-21",
+                    "Cancels into Ashikari (MK: Slide) and Gekkou (HK: Overhead) follow-ups on frames 7-21 (Cancels into Tozetsu (LK: Stop) execute 1F later on frames 8-21)",
+                    "Fully invincible on frames 8-21",
                     "Doing the follow-ups ASAP does cancel the teleport and invincibility frames early",
                     "Can delay the follow-up a little bit to remain fully invincible for a longer time (lasts for frames 9-21); this can be useful to get past fireballs, counter-pokes, reversals, etc"
                 ],
                 "moveType": "movement-special",
                 "moveMotion": "QCF",
                 "moveButton": "2K",
-                "i": 60
+                "i": 62
             },
             "Tozetsu": {
                 "moveName": "Tozetsu",
@@ -1815,7 +1939,8 @@
                 "moveType": "movement-special",
                 "moveMotion": "N",
                 "moveButton": "LK",
-                "i": 61
+                "movesList": "Special (Run)",
+                "i": 63
             },
             "Ashikari": {
                 "moveName": "Ashikari",
@@ -1846,7 +1971,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MK",
-                "i": 62
+                "movesList": "Special (Run)",
+                "i": 64
             },
             "Gekkou": {
                 "moveName": "Gekkou",
@@ -1878,7 +2004,8 @@
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HK",
-                "i": 63
+                "movesList": "Special (Run)",
+                "i": 65
             },
             "Tozetsu EX": {
                 "moveName": "Tozetsu EX",
@@ -1900,17 +2027,17 @@
                 "moveType": "movement-special",
                 "moveMotion": "N",
                 "moveButton": "LK",
-                "i": 64
+                "i": 66
             },
             "Ashikari EX": {
                 "moveName": "Ashikari EX",
                 "plnCmd": "qcf+KK > MK",
                 "numCmd": "236KK > MK",
                 "cmnName": "EX Run Slide",
-                "startup": "8+9",
+                "startup": "7+9",
                 "active": 9,
                 "recovery": 27,
-                "total": 52,
+                "total": 51,
                 "onHit": "KD",
                 "onBlock": -21,
                 "transfOH": "KD (+62/13/18)",
@@ -1924,24 +2051,24 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Fully invincible on first 3 frames of EX Slide follow-up (frames 9-11 overall) and then Projectile invincible on upper body (slides under fireballs) and extended leg on frames 9-20 of the slide follow-up (frames 17-28 overall)",
-                    "Fastest possible Run > Slide is 17 frames total (8+9)",
+                    "Fully invincible on first 3 frames of EX Slide follow-up (frames 8-10 overall) and then Projectile invincible on upper body (slides under fireballs) and extended leg on frames 9-20 of the slide follow-up (frames 16-27 overall)",
+                    "Fastest possible Run > Slide is 16 frames total (7+9)",
                     "Can juggle into this after non-EX Hozantos or j.MPs"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "MK",
-                "i": 65
+                "i": 67
             },
             "Gekkou EX": {
                 "moveName": "Gekkou EX",
                 "plnCmd": "qcf+KK > HK",
                 "numCmd": "236KK > HK",
                 "cmnName": "EX Run Overhead",
-                "startup": "8+22",
+                "startup": "7+22",
                 "active": "2*2",
                 "recovery": 24,
-                "total": 57,
+                "total": 56,
                 "onHit": "KD",
                 "onBlock": -2,
                 "transfOH": "KD (+66/17/22)",
@@ -1955,17 +2082,17 @@
                 "followUp": true,
                 "projectile": false,
                 "extraInfo": [
-                    "Fully invincible on first 3 frames of EX Overhead follow-up (frames 9-11 overall)",
+                    "Fully invincible on first 3 frames of EX Overhead follow-up (frames 8-10 overall)",
                     "Safe on block overhead",
-                    "Fastest possible Run > Overhead is 30 frames (8+22)",
-                    "Airborne on frames 3-21 of the follow-up (frames 11-29 overall)",
+                    "Fastest possible Run > Overhead is 29 frames (7+22)",
+                    "Airborne on frames 3-21 of the follow-up (frames 10-28 overall)",
                     "Total of 4 active frames so can cover both wake-ups",
                     "Second hit knocks down"
                 ],
                 "moveType": "special",
                 "moveMotion": "N",
                 "moveButton": "HK",
-                "i": 66
+                "i": 68
             },
             "Batsuzan Gaisei": {
                 "moveName": "Batsuzan Gaisei",
@@ -1995,8 +2122,10 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1K",
-                "i": 67
-            }
+                "movesList": "Super",
+                "i": 69
+            },
+            "input": "None"
         },
         "vtOne": {
             "Stand LP": {
@@ -2422,9 +2551,12 @@
                 "moveMotion": "D",
                 "moveButton": "HK",
                 "i": 12
-            }
+            },
+            "input": "None"
         },
-        "vtTwo": {}
+        "vtTwo": {
+            "input": "None"
+        }
     },
     "stats": {
         "health": 1000,
