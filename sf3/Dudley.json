@@ -665,7 +665,8 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/b/b4/%28dudleyoh%29.gif"
             },
             "Rose Throw": {
                 "moveName": "Rose Throw",
@@ -685,7 +686,8 @@
                 "meterOppBlk": 0,
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/5/57/%28dudleyt%29.gif"
             },
             "LP Jet Uppercut": {
                 "moveName": "LP Jet Uppercut",
@@ -1012,7 +1014,8 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "HCB",
-                "moveButton": "LK"
+                "moveButton": "LK",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=DudleyPalette.bin&pcolornum=0&pname=dudley/dudley-shortswingblow2.gif"
             },
             "MK Short Swing Blow": {
                 "moveName": "MK Short Swing Blow",
@@ -1036,7 +1039,8 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "HCB",
-                "moveButton": "MK"
+                "moveButton": "MK",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=DudleyPalette.bin&pcolornum=0&pname=dudley/dudley-shortswingblow2.gif"
             },
             "HK Short Swing Blow": {
                 "moveName": "HK Short Swing Blow",
@@ -1060,7 +1064,8 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "HCB",
-                "moveButton": "HK"
+                "moveButton": "HK",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=DudleyPalette.bin&pcolornum=0&pname=dudley/dudley-shortswingblow2.gif"
             },
             "EX Short Swing Blow": {
                 "moveName": "EX Short Swing Blow",
@@ -1080,7 +1085,7 @@
                 "meterAtkHit": -40,
                 "meterAtkBlk": -40,
                 "meterOppHit": 0,
-               "meterOppBlk": 0,
+                "meterOppBlk": 0,
                 "moveMotion": "HCB",
                 "moveButton": "2K",
                 "image": "https://srk.shib.live/images/6/62/%28dudleyssbex%29.gif"

@@ -240,7 +240,7 @@
             },
             "Youmen": {
                 "moveName": "Youmen",
-                "cmdName": "Back MP",
+                "cmnName": "Back MP",
                 "plnCmd": "b+MP",
                 "numCmd": "4MP",
                 "startup": 6,
@@ -264,11 +264,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveMotion": "B",
-                "moveButton": "MP"
+                "moveButton": "MP",
+                "image": "https://srk.shib.live/images/0/02/%28ibukibmp%29.gif"
             },
             "Maki Geri": {
                 "moveName": "Maki Geri",
-                "cmdName": "Fwd LK",
+                "cmnName": "Fwd LK",
                 "plnCmd": "f+LK",
                 "numCmd": "6LK",
                 "startup": 5,
@@ -296,7 +297,7 @@
             },
             "Uramaki Geri": {
                 "moveName": "Uramaki Geri",
-                "cmdName": "Back MK",
+                "cmnName": "Back MK",
                 "plnCmd": "b+MK",
                 "numCmd": "4MK",
                 "startup": 13,
@@ -321,7 +322,7 @@
             },
             "Koube Kudaki": {
                 "moveName": "Koube Kudaki",
-                "cmdName": "Fwd MK",
+                "cmnName": "Fwd MK",
                 "plnCmd": "f+MK",
                 "numCmd": "6MK",
                 "startup": 27,
@@ -346,7 +347,7 @@
             },
             "Bonshou Geri": {
                 "moveName": "Bonshou Geri",
-                "cmdName": "Fwd HK",
+                "cmnName": "Fwd HK",
                 "plnCmd": "f+HK",
                 "numCmd": "6HK",
                 "startup": 12,
@@ -531,7 +532,7 @@
             },
             "Sazan": {
                 "moveName": "Sazan",
-                "cmdName": "MK Slide",
+                "cmnName": "MK Slide",
                 "plnCmd": "df+MK",
                 "numCmd": "3MK",
                 "startup": 6,
@@ -805,7 +806,7 @@
             },
             "Yamitsudzura": {
                 "moveName": "Yamitsudzura",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -830,7 +831,7 @@
             },
             "Tobizaru": {
                 "moveName": "Tobizaru",
-                "cmdName": "Air Throw",
+                "cmnName": "Air Throw",
                 "plnCmd": "LP+LK (air)",
                 "numCmd": "LPLK (air)",
                 "startup": 2,
@@ -838,7 +839,7 @@
             },
             "Souken": {
                 "moveName": "Souken",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -855,11 +856,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/c/c5/%28ibukioh%29.gif"
             },
             "Leapfrog": {
                 "moveName": "Leapfrog",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 14,
@@ -881,11 +883,12 @@
                 "meterOppBlk": 0,
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/d/db/%28ibukit%29.gif"
             },
             "LP Kunai": {
                 "moveName": "LP Kunai",
-                "cmdName": "LP Air Fireball",
+                "cmnName": "LP Air Fireball",
                 "plnCmd": "qcf+LP (air)",
                 "numCmd": "236LP (air)",
                 "startup": 9,
@@ -909,7 +912,7 @@
             },
             "MP Kunai": {
                 "moveName": "MP Kunai",
-                "cmdName": "MP Air Fireball",
+                "cmnName": "MP Air Fireball",
                 "plnCmd": "qcf+MP (air)",
                 "numCmd": "236MP (air)",
                 "startup": 10,
@@ -933,7 +936,7 @@
             },
             "HP Kunai": {
                 "moveName": "HP Kunai",
-                "cmdName": "HP Air Fireball",
+                "cmnName": "HP Air Fireball",
                 "plnCmd": "qcf+HP (air)",
                 "numCmd": "236HP (air)",
                 "startup": 11,
@@ -957,7 +960,7 @@
             },
             "EX Kunai": {
                 "moveName": "EX Kunai",
-                "cmdName": "EX Air Fireball",
+                "cmnName": "EX Air Fireball",
                 "plnCmd": "qcf+PP (air)",
                 "numCmd": "236PP (air)",
                 "startup": 8,
@@ -981,7 +984,7 @@
             },
             "LP Raida": {
                 "moveName": "LP Raida",
-                "cmdName": "LP Hit Grab",
+                "cmnName": "LP Hit Grab",
                 "plnCmd": "hcb+LP",
                 "numCmd": "63214LP",
                 "startup": 4,
@@ -1003,7 +1006,7 @@
             },
             "MP Raida": {
                 "moveName": "MP Raida",
-                "cmdName": "MP Hit Grab",
+                "cmnName": "MP Hit Grab",
                 "plnCmd": "hcb+MP",
                 "numCmd": "63214MP",
                 "startup": 5,
@@ -1025,7 +1028,7 @@
             },
             "HP Raida": {
                 "moveName": "HP Raida",
-                "cmdName": "HP Hit Grab",
+                "cmnName": "HP Hit Grab",
                 "plnCmd": "hcb+HP",
                 "numCmd": "63214HP",
                 "startup": 6,
@@ -1047,7 +1050,7 @@
             },
             "LK Hien": {
                 "moveName": "LK Hien",
-                "cmdName": "LK Stomps",
+                "cmnName": "LK Stomps",
                 "plnCmd": "b,d,db+LK",
                 "numCmd": "421LK",
                 "startup": 22,
@@ -1073,7 +1076,7 @@
             },
             "MK Hien": {
                 "moveName": "MK Hien",
-                "cmdName": "MK Stomps",
+                "cmnName": "MK Stomps",
                 "plnCmd": "b,d,db+MK",
                 "numCmd": "421MK",
                 "startup": 25,
@@ -1099,7 +1102,7 @@
             },
             "HK Hien": {
                 "moveName": "HK Hien",
-                "cmdName": "HK Stomps",
+                "cmnName": "HK Stomps",
                 "plnCmd": "b,d,db+HK",
                 "numCmd": "421HK",
                 "startup": 28,
@@ -1125,7 +1128,7 @@
             },
             "EX Hien": {
                 "moveName": "EX Hien",
-                "cmdName": "EX Stomps",
+                "cmnName": "EX Stomps",
                 "plnCmd": "b,d,db+KK",
                 "numCmd": "421KK",
                 "startup": 26,
@@ -1151,7 +1154,7 @@
             },
             "Kubiori": {
                 "moveName": "Kubiori",
-                "cmdName": "Neckbreaker",
+                "cmnName": "Neckbreaker",
                 "plnCmd": "qcf+P",
                 "numCmd": "236P",
                 "startup": "15/16/18",
@@ -1174,7 +1177,7 @@
             },
             "EX Kubiori": {
                 "moveName": "EX Kubiori",
-                "cmdName": "EX Neckbreaker",
+                "cmnName": "EX Neckbreaker",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "startup": 15,
@@ -1197,7 +1200,7 @@
             },
             "LK Kazekiri": {
                 "moveName": "LK Kazekiri",
-                "cmdName": "LK DP",
+                "cmnName": "LK DP",
                 "plnCmd": "f,d,df+LK",
                 "numCmd": "623LK",
                 "startup": 4,
@@ -1218,11 +1221,12 @@
                 "meterOppHit": 6,
                 "meterOppBlk": 0,
                 "moveMotion": "DP",
-                "moveButton": "LK"
+                "moveButton": "LK",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=IbukiPalette.bin&pcolornum=0&pname=ibuki/ibuki-kazakiri.gif"
             },
             "MK Kazekiri": {
                 "moveName": "MK Kazekiri",
-                "cmdName": "MK DP",
+                "cmnName": "MK DP",
                 "plnCmd": "f,d,df+MK",
                 "numCmd": "623MK",
                 "startup": 6,
@@ -1243,11 +1247,12 @@
                 "meterOppHit": 6,
                 "meterOppBlk": 0,
                 "moveMotion": "DP",
-                "moveButton": "MK"
+                "moveButton": "MK",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=IbukiPalette.bin&pcolornum=0&pname=ibuki/ibuki-kazakiri.gif"
             },
             "HK Kazekiri": {
                 "moveName": "HK Kazekiri",
-                "cmdName": "HK DP",
+                "cmnName": "HK DP",
                 "plnCmd": "f,d,df+HK",
                 "numCmd": "623HK",
                 "startup": 8,
@@ -1273,7 +1278,7 @@
             },
             "EX Kazekiri": {
                 "moveName": "EX Kazekiri",
-                "cmdName": "EX DP",
+                "cmnName": "EX DP",
                 "plnCmd": "f,d,df+KK",
                 "numCmd": "623KK",
                 "startup": 4,
@@ -1300,7 +1305,7 @@
             },
             "LK Tsumuji": {
                 "moveName": "LK Tsumuji",
-                "cmdName": "LK Kicks",
+                "cmnName": "LK Kicks",
                 "plnCmd": "qcb+LK",
                 "numCmd": "214LK",
                 "startup": 11,
@@ -1322,7 +1327,7 @@
             },
             "MK Tsumuji": {
                 "moveName": "MK Tsumuji",
-                "cmdName": "MK Kicks",
+                "cmnName": "MK Kicks",
                 "plnCmd": "qcb+MK",
                 "numCmd": "214MK",
                 "startup": 13,
@@ -1344,7 +1349,7 @@
             },
             "HK Tsumuji": {
                 "moveName": "HK Tsumuji",
-                "cmdName": "HK Kicks",
+                "cmnName": "HK Kicks",
                 "plnCmd": "qcb+HK",
                 "numCmd": "214HK",
                 "startup": 14,
@@ -1369,7 +1374,7 @@
             },
             "EX Tsumuji": {
                 "moveName": "EX Tsumuji",
-                "cmdName": "EX Kicks",
+                "cmnName": "EX Kicks",
                 "plnCmd": "qcb+KK",
                 "numCmd": "214KK",
                 "startup": 7,
@@ -1394,7 +1399,7 @@
             },
             "Kasumi Gake": {
                 "moveName": "Kasumi Gake",
-                "cmdName": "Command Dash",
+                "cmnName": "Command Dash",
                 "plnCmd": "qcf+K",
                 "numCmd": "236+K",
                 "startup": "21/23/26",
@@ -1406,7 +1411,7 @@
             },
             "Tsuiji Goe": {
                 "moveName": "Tsuiji Goe",
-                "cmdName": "Command Flip",
+                "cmnName": "Command Flip",
                 "plnCmd": "f,d,df+P",
                 "numCmd": "623+P",
                 "moveType": "movement-special",
@@ -1421,7 +1426,7 @@
             },
             "Kasumi Suzaku": {
                 "moveName": "Kasumi Suzaku",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (air SA1)",
                 "numCmd": "236236P (air SA1)",
                 "startup": 3,
@@ -1440,7 +1445,7 @@
             },
             "Yoroi Doushi": {
                 "moveName": "Yoroi Doushi",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+P (SA2)",
                 "numCmd": "236236P (SA2)",
                 "startup": 1,
@@ -1457,7 +1462,7 @@
             },
             "Missed grab (Chi Blast)": {
                 "moveName": "Missed grab (Chi Blast)",
-                "cmdName": "SA2 (miss)",
+                "cmnName": "SA2 (miss)",
                 "plnCmd": "qcf,qcf+P (miss SA2)",
                 "numCmd": "236236P (miss SA2)",
                 "startup": 1,
@@ -1469,11 +1474,12 @@
                 "damage": 48,
                 "stun": 0,
                 "moveMotion": "DQCF",
-                "moveButton": "1P"
+                "moveButton": "1P",
+                "image": "https://srk.shib.live/images/0/02/%28ibukisa2miss%29.gif"
             },
             "Yami Shigure": {
                 "moveName": "Yami Shigure",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 2,

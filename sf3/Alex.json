@@ -235,7 +235,8 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveMotion": "F",
-                "moveButton": "MP"
+                "moveButton": "MP",
+                "image": "https://srk.shib.live/images/1/1d/%28alexfmp%29.gif"
             },
             "Lariat": {
                 "moveName": "Lariat",
@@ -285,7 +286,8 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveMotion": "B",
-                "moveButton": "HP"
+                "moveButton": "HP",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=AlexPalette.bin&pcolornum=0&pname=alex/alex-headbutt.gif"
             },
             "Sleeper Hold": {
                 "moveName": "Sleeper Hold",
@@ -688,7 +690,8 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/6/6b/%28alexoh%29.gif"
             },
             "Arm Spin": {
                 "moveName": "Arm Spin",
@@ -703,7 +706,8 @@
                 "extraInfo": [
                     "Unheld taunt - Increases damage for the next hit/combo by 9.4% for the first taunt and 6.3% for each additional taunt. Maximum: 6 taunts, 37.5% bonus.",
                     "Held taunt - Increases damage for the next hit/combo or throw by 6.3% per extra arm turn. Maximum: 8 turns, 50% bonus."
-                ]
+                ],
+                "image": "https://srk.shib.live/images/7/7a/%28alext%29.gif"
             },
             "LP Flash Chop": {
                 "moveName": "LP Flash Chop",
@@ -818,7 +822,8 @@
                 "meterAtkHit": 20,
                 "meterOppHit": 4,
                 "moveMotion": "HCB",
-                "moveButton": "LP"
+                "moveButton": "LP",
+                "image": "https://srk.shib.live/images/c/ce/%28alexpbomb%29.gif"
             },
             "MP Power Bomb": {
                 "moveName": "MP Power Bomb",
@@ -874,7 +879,8 @@
                 "meterAtkHit": 20,
                 "meterOppHit": 4,
                 "moveMotion": "HCB",
-                "moveButton": "LP"
+                "moveButton": "LP",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=AlexPalette.bin&pcolornum=0&pname=alex/alex-powerbomb-reverse.gif"
             },
             "MP Back Drop": {
                 "moveName": "MP Back Drop",
@@ -892,7 +898,8 @@
                 "meterAtkHit": 20,
                 "meterOppHit": 4,
                 "moveMotion": "HCB",
-                "moveButton": "MP"
+                "moveButton": "MP",
+                "image": "https://srk.shib.live/images/c/ce/%28alexpbomb%29.gif"
             },
             "HP Back Drop": {
                 "moveName": "HP Back Drop",
@@ -910,7 +917,8 @@
                 "meterAtkHit": 20,
                 "meterOppHit": 4,
                 "moveMotion": "HCB",
-                "moveButton": "HP"
+                "moveButton": "HP",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=AlexPalette.bin&pcolornum=0&pname=alex/alex-powerbomb-reverse.gif"
             },
             "LK Air Knee Smash": {
                 "moveName": "LK Air Knee Smash",
@@ -1018,7 +1026,8 @@
                 "meterOppBlk": 0,
                 "moveMotion": "U",
                 "moveButton": "LK",
-                "chargeDirection": "D"
+                "chargeDirection": "D",
+                "image": "https://srk.shib.live/images/9/9a/%28alexstomp%29.gif"
             },
             "MK Air Stampede": {
                 "moveName": "MK Air Stampede",
@@ -1086,7 +1095,8 @@
                 "meterOppBlk": 0,
                 "moveMotion": "U",
                 "moveButton": "2K",
-                "chargeDirection": "D"
+                "chargeDirection": "D",
+                "image": "https://srk.shib.live/images/4/46/%28alexastompex%29.gif"
             },
             "LK Slash Elbow": {
                 "moveName": "LK Slash Elbow",

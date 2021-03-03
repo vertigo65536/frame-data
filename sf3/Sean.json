@@ -236,7 +236,7 @@
             },
             "Sean Pachiki": {
                 "moveName": "Sean Pachiki",
-                "cmdName": "Fwd HP",
+                "cmnName": "Fwd HP",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
                 "startup": 21,
@@ -261,7 +261,7 @@
             },
             "Rolling Sobat": {
                 "moveName": "Rolling Sobat",
-                "cmdName": "Fwd HK",
+                "cmnName": "Fwd HK",
                 "plnCmd": "f+HK",
                 "numCmd": "6HK",
                 "startup": 15,
@@ -702,7 +702,7 @@
             },
             "Seoi Nage": {
                 "moveName": "Seoi Nage",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -722,11 +722,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "N",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/3/31/%28seanhg%29.gif"
             },
             "Tomoe Nage": {
                 "moveName": "Tomoe Nage",
-                "cmdName": "Back Throw",
+                "cmnName": "Back Throw",
                 "plnCmd": "b+LP+LK",
                 "numCmd": "4LPLK",
                 "startup": 2,
@@ -746,11 +747,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "B",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/d/de/%28seansn%29.gif"
             },
             "Straight Hit": {
                 "moveName": "Straight Hit",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -766,11 +768,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/6/62/%28seanuoh%29.gif"
             },
             "Ball Throw": {
                 "moveName": "Ball Throw",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 31,
@@ -786,11 +789,12 @@
                 "meterOppBlk": 0,
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "projectile": true
+                "projectile": true,
+                "image": "https://srk.shib.live/images/a/a4/%28seant%29.gif"
             },
             "LP Sean Roll": {
                 "moveName": "LP Sean Roll",
-                "cmdName": "LP Roll",
+                "cmnName": "LP Roll",
                 "plnCmd": "qcb+LP",
                 "numCmd": "214LP",
                 "startup": 2,
@@ -798,11 +802,12 @@
                 "recovery": 7,
                 "moveType": "movement-special",
                 "moveMotion": "QCB",
-                "moveButton": "LP"
+                "moveButton": "LP",
+                "image": "https://srk.shib.live/images/e/e0/%28seanzenten%29.gif"
             },
             "MP Sean Roll": {
                 "moveName": "MP Sean Roll",
-                "cmdName": "MP Roll",
+                "cmnName": "MP Roll",
                 "plnCmd": "qcb+MP",
                 "numCmd": "214MP",
                 "startup": 2,
@@ -815,7 +820,7 @@
             },
             "HP Sean Roll": {
                 "moveName": "HP Sean Roll",
-                "cmdName": "HP Roll",
+                "cmnName": "HP Roll",
                 "plnCmd": "qcb+HP",
                 "numCmd": "214HP",
                 "startup": 2,
@@ -823,11 +828,12 @@
                 "recovery": 7,
                 "moveType": "movement-special",
                 "moveMotion": "QCB",
-                "moveButton": "HP"
+                "moveButton": "HP",
+                "image": "https://srk.shib.live/images/e/e0/%28seanzenten%29.gif"
             },
             "LK Ryuubi Kyaku": {
                 "moveName": "LK Ryuubi Kyaku",
-                "cmdName": "LK Axe Kick",
+                "cmnName": "LK Axe Kick",
                 "plnCmd": "qcf+LK",
                 "numCmd": "236LK",
                 "startup": 25,
@@ -849,7 +855,7 @@
             },
             "MK Ryuubi Kyaku": {
                 "moveName": "MK Ryuubi Kyaku",
-                "cmdName": "MK Axe Kick",
+                "cmnName": "MK Axe Kick",
                 "plnCmd": "qcf+MK",
                 "numCmd": "236MK",
                 "startup": 25,
@@ -871,7 +877,7 @@
             },
             "HK Ryuubi Kyaku": {
                 "moveName": "HK Ryuubi Kyaku",
-                "cmdName": "HK Axe Kick",
+                "cmnName": "HK Axe Kick",
                 "plnCmd": "qcf+HK",
                 "numCmd": "236HK",
                 "startup": 25,
@@ -888,11 +894,12 @@
                 "meterOppHit": 6,
                 "meterOppBlk": 0,
                 "moveMotion": "QCF",
-                "moveButton": "HK"
+                "moveButton": "HK",
+                "image": "https://srk.shib.live/images/1/1d/%28seanwheel%29.gif"
             },
             "EX Ryuubi Kyaku": {
                 "moveName": "EX Ryuubi Kyaku",
-                "cmdName": "EX Axe Kick",
+                "cmnName": "EX Axe Kick",
                 "plnCmd": "qcf+KK",
                 "numCmd": "236KK",
                 "startup": 25,
@@ -914,7 +921,7 @@
             },
             "LK Tornado Kick": {
                 "moveName": "LK Tornado Kick",
-                "cmdName": "LK Tatsu",
+                "cmnName": "LK Tatsu",
                 "plnCmd": "qcb+LK",
                 "numCmd": "214LK",
                 "startup": 11,
@@ -936,7 +943,7 @@
             },
             "MK Tornado Kick": {
                 "moveName": "MK Tornado Kick",
-                "cmdName": "MK Tatsu",
+                "cmnName": "MK Tatsu",
                 "plnCmd": "qcb+MK",
                 "numCmd": "214MK",
                 "startup": 14,
@@ -958,7 +965,7 @@
             },
             "HK Tornado Kick": {
                 "moveName": "HK Tornado Kick",
-                "cmdName": "HK Tatsu",
+                "cmnName": "HK Tatsu",
                 "plnCmd": "qcb+HK",
                 "numCmd": "214HK",
                 "startup": 16,
@@ -980,7 +987,7 @@
             },
             "EX Tornado Kick": {
                 "moveName": "EX Tornado Kick",
-                "cmdName": "EX Tatsu",
+                "cmnName": "EX Tatsu",
                 "plnCmd": "qcb+KK",
                 "numCmd": "214KK",
                 "startup": 9,
@@ -1002,7 +1009,7 @@
             },
             "LP Sean Tackle": {
                 "moveName": "LP Sean Tackle",
-                "cmdName": "LP Tackle",
+                "cmnName": "LP Tackle",
                 "plnCmd": "hcf+LP",
                 "numCmd": "41236LP",
                 "startup": 18,
@@ -1025,7 +1032,7 @@
             },
             "MP Sean Tackle": {
                 "moveName": "MP Sean Tackle",
-                "cmdName": "MP Tackle",
+                "cmnName": "MP Tackle",
                 "plnCmd": "hcf+MP",
                 "numCmd": "41236MP",
                 "startup": 22,
@@ -1048,7 +1055,7 @@
             },
             "HP Sean Tackle": {
                 "moveName": "HP Sean Tackle",
-                "cmdName": "HP Tackle",
+                "cmnName": "HP Tackle",
                 "plnCmd": "hcf+HP",
                 "numCmd": "41236HP",
                 "startup": 26,
@@ -1071,7 +1078,7 @@
             },
             "EX Sean Tackle": {
                 "moveName": "EX Sean Tackle",
-                "cmdName": "EX Tackle",
+                "cmnName": "EX Tackle",
                 "plnCmd": "hcf+PP",
                 "numCmd": "41236PP",
                 "startup": 28,
@@ -1094,7 +1101,7 @@
             },
             "LP Dragon Smash": {
                 "moveName": "LP Dragon Smash",
-                "cmdName": "LP DP",
+                "cmnName": "LP DP",
                 "plnCmd": "f,d,df+LP",
                 "numCmd": "623LP",
                 "startup": 5,
@@ -1119,7 +1126,7 @@
             },
             "MP Dragon Smash": {
                 "moveName": "MP Dragon Smash",
-                "cmdName": "MP DP",
+                "cmnName": "MP DP",
                 "plnCmd": "f,d,df+MP",
                 "numCmd": "623MP",
                 "startup": 5,
@@ -1144,7 +1151,7 @@
             },
             "HP Dragon Smash": {
                 "moveName": "HP Dragon Smash",
-                "cmdName": "HP DP",
+                "cmnName": "HP DP",
                 "plnCmd": "f,d,df+HP",
                 "numCmd": "623HP",
                 "startup": 9,
@@ -1169,7 +1176,7 @@
             },
             "EX Dragon Smash": {
                 "moveName": "EX Dragon Smash",
-                "cmdName": "EX DP",
+                "cmnName": "EX DP",
                 "plnCmd": "f,d,df+PP",
                 "numCmd": "623PP",
                 "startup": 8,
@@ -1194,7 +1201,7 @@
             },
             "Hadou Burst": {
                 "moveName": "Hadou Burst",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "startup": 2,
@@ -1211,7 +1218,7 @@
             },
             "Shoryuu Cannon": {
                 "moveName": "Shoryuu Cannon",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+P (SA2)",
                 "numCmd": "236236P (SA2)",
                 "startup": 1,
@@ -1228,7 +1235,7 @@
             },
             "Hyper Tornado": {
                 "moveName": "Hyper Tornado",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 2,

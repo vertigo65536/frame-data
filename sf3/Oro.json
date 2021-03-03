@@ -269,7 +269,7 @@
             },
             "Mawashihiji": {
                 "moveName": "Mawashihiji",
-                "cmdName": "Forward MP",
+                "cmnName": "Forward MP",
                 "plnCmd": "f+MP",
                 "numCmd": "6MP",
                 "startup": 8,
@@ -289,7 +289,8 @@
                 "meterOppHit": 3,
                 "meterOppBlk": 0,
                 "moveMotion": "F",
-                "moveButton": "MP"
+                "moveButton": "MP",
+                "image": "https://srk.shib.live/images/9/93/%28orofmp%29.gif"
             },
             "Crouch LP": {
                 "moveName": "Crouch LP",
@@ -710,7 +711,7 @@
             },
             "Kubishime Kataguruma": {
                 "moveName": "Kubishime Kataguruma",
-                "cmdName": "Throw (mash)",
+                "cmnName": "Throw (mash)",
                 "plnCmd": "LP+LK (mash)",
                 "numCmd": "LPLK (mash)",
                 "startup": 2,
@@ -735,7 +736,7 @@
             },
             "Tomoe Nage": {
                 "moveName": "Tomoe Nage",
-                "cmdName": "Back Throw",
+                "cmnName": "Back Throw",
                 "plnCmd": "b+LP+LK",
                 "numCmd": "4LPLK",
                 "startup": 2,
@@ -760,7 +761,7 @@
             },
             "Kuuchuu Jigoku Guruma": {
                 "moveName": "Kuuchuu Jigoku Guruma",
-                "cmdName": "Air Throw",
+                "cmnName": "Air Throw",
                 "plnCmd": "LP+LK (air)",
                 "numCmd": "LPLK (air)",
                 "startup": 6,
@@ -785,7 +786,7 @@
             },
             "Tobihiza": {
                 "moveName": "Tobihiza",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -802,21 +803,23 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/9/95/%28orouoh%29.gif"
             },
             "Sleep": {
                 "moveName": "Sleep",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/e/ec/%28orot%29.gif"
             },
             "LP Human Pillar Driver": {
                 "moveName": "LP Human Pillar Driver",
-                "cmdName": "LP Hit Grab",
+                "cmnName": "LP Hit Grab",
                 "plnCmd": "hcb+LP",
                 "numCmd": "63214LP",
                 "startup": 9,
@@ -838,7 +841,7 @@
             },
             "MP Human Pillar Driver": {
                 "moveName": "MP Human Pillar Driver",
-                "cmdName": "MP Hit Grab",
+                "cmnName": "MP Hit Grab",
                 "plnCmd": "hcb+MP",
                 "numCmd": "63214MP",
                 "startup": 10,
@@ -860,7 +863,7 @@
             },
             "HP Human Pillar Driver": {
                 "moveName": "HP Human Pillar Driver",
-                "cmdName": "HP Hit Grab",
+                "cmnName": "HP Hit Grab",
                 "plnCmd": "hcb+HP",
                 "numCmd": "63214HP",
                 "startup": 11,
@@ -882,7 +885,7 @@
             },
             "LP Oniyama": {
                 "moveName": "LP Oniyama",
-                "cmdName": "LP DP",
+                "cmnName": "LP DP",
                 "plnCmd": "d,u+LP",
                 "numCmd": "28LP",
                 "startup": 6,
@@ -908,7 +911,7 @@
             },
             "MP Oniyama": {
                 "moveName": "MP Oniyama",
-                "cmdName": "MP DP",
+                "cmnName": "MP DP",
                 "plnCmd": "d,u+MP",
                 "numCmd": "28MP",
                 "startup": 6,
@@ -934,7 +937,7 @@
             },
             "HP Oniyama": {
                 "moveName": "HP Oniyama",
-                "cmdName": "HP DP",
+                "cmnName": "HP DP",
                 "plnCmd": "d,u+HP",
                 "numCmd": "28HP",
                 "startup": 7,
@@ -960,7 +963,7 @@
             },
             "EX Oniyama": {
                 "moveName": "EX Oniyama",
-                "cmdName": "EX DP",
+                "cmnName": "EX DP",
                 "plnCmd": "d,u+PP",
                 "numCmd": "28PP",
                 "startup": 5,
@@ -986,7 +989,7 @@
             },
             "LP Sun Disk Palm": {
                 "moveName": "LP Sun Disk Palm",
-                "cmdName": "LP Fireball",
+                "cmnName": "LP Fireball",
                 "plnCmd": "b,f+LP",
                 "numCmd": "46LP",
                 "startup": 15,
@@ -1012,7 +1015,7 @@
             },
             "MP Sun Disk Palm": {
                 "moveName": "MP Sun Disk Palm",
-                "cmdName": "MP Fireball",
+                "cmnName": "MP Fireball",
                 "plnCmd": "b,f+MP",
                 "numCmd": "46MP",
                 "startup": 15,
@@ -1038,7 +1041,7 @@
             },
             "HP Sun Disk Palm": {
                 "moveName": "HP Sun Disk Palm",
-                "cmdName": "HP Fireball",
+                "cmnName": "HP Fireball",
                 "plnCmd": "b,f+HP",
                 "numCmd": "46HP",
                 "startup": 13,
@@ -1064,7 +1067,7 @@
             },
             "EX Sun Disk Palm (low)": {
                 "moveName": "EX Sun Disk Palm (low)",
-                "cmdName": "EX Fireball (low)",
+                "cmnName": "EX Fireball (low)",
                 "plnCmd": "b,f+PP (low)",
                 "numCmd": "46PP (low)",
                 "startup": 15,
@@ -1090,7 +1093,7 @@
             },
             "EX Sun Disk Palm (high)": {
                 "moveName": "EX Sun Disk Palm (high)",
-                "cmdName": "EX Fireball (high)",
+                "cmnName": "EX Fireball (high)",
                 "plnCmd": "b,f+PP (high)",
                 "numCmd": "46PP (high)",
                 "startup": 21,
@@ -1115,7 +1118,7 @@
             },
             "LK Jinchu Nobori": {
                 "moveName": "LK Jinchu Nobori",
-                "cmdName": "LK Stomps",
+                "cmnName": "LK Stomps",
                 "plnCmd": "qcf+LK",
                 "numCmd": "236LK",
                 "startup": 27,
@@ -1137,7 +1140,7 @@
             },
             "MK Jinchu Nobori": {
                 "moveName": "MK Jinchu Nobori",
-                "cmdName": "MK Stomps",
+                "cmnName": "MK Stomps",
                 "plnCmd": "qcf+MK",
                 "numCmd": "236MK",
                 "startup": 31,
@@ -1159,7 +1162,7 @@
             },
             "HK Jinchu Nobori": {
                 "moveName": "HK Jinchu Nobori",
-                "cmdName": "HK Stomps",
+                "cmnName": "HK Stomps",
                 "plnCmd": "qcf+HK",
                 "numCmd": "236HK",
                 "startup": 34,
@@ -1181,7 +1184,7 @@
             },
             "EX Jinchu Nobori": {
                 "moveName": "EX Jinchu Nobori",
-                "cmdName": "EX Stomps",
+                "cmnName": "EX Stomps",
                 "plnCmd": "qcf+KK",
                 "numCmd": "236KK",
                 "startup": 31,
@@ -1203,7 +1206,7 @@
             },
             "Air Jinchu Nobori": {
                 "moveName": "Air Jinchu Nobori",
-                "cmdName": "Air Stomps",
+                "cmnName": "Air Stomps",
                 "plnCmd": "qcf+K (air)",
                 "numCmd": "236K (air)",
                 "startup": 8,
@@ -1225,7 +1228,7 @@
             },
             "EX Air Jinchu Nobori": {
                 "moveName": "EX Air Jinchu Nobori",
-                "cmdName": "EX Air Stomps",
+                "cmnName": "EX Air Stomps",
                 "plnCmd": "qcf+KK (air)",
                 "numCmd": "236KK (air)",
                 "startup": 8,
@@ -1248,17 +1251,16 @@
             },
             "Kishin Riki": {
                 "moveName": "Kishin Riki",
-                "cmdName": "SA1 (install)",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "moveType": "super",
                 "moveMotion": "DQCF",
-                "moveButton": "1P",
-                "image": "https://srk.shib.live/images/9/98/%28orosa1pp%29.gif"
+                "moveButton": "1P"
             },
             "Ground Grab": {
                 "moveName": "Ground Grab",
-                "cmdName": "SA1 (ground)",
+                "cmnName": "SA1 (ground)",
                 "plnCmd": "SA1 > P (ground)",
                 "numCmd": "SA1 > P (ground)",
                 "startup": 4,
@@ -1269,11 +1271,12 @@
                 "damage": 58,
                 "stun": 0,
                 "moveMotion": "N",
-                "moveButton": "1P"
+                "moveButton": "1P",
+                "image": "https://srk.shib.live/images/7/79/%28orosa1%29.gif"
             },
             "Air Grab": {
                 "moveName": "Air Grab",
-                "cmdName": "SA1 (air)",
+                "cmnName": "SA1 (air)",
                 "plnCmd": "SA1 > P (air)",
                 "numCmd": "SA1 > P (air)",
                 "startup": 5,
@@ -1284,11 +1287,12 @@
                 "stun": 0,
                 "moveMotion": "N",
                 "moveButton": "1P",
-                "airmove": true
+                "airmove": true,
+                "image": "https://srk.shib.live/images/e/e9/%28oroairsa1%29.gif"
             },
             "EX Kishin Riki": {
                 "moveName": "EX Kishin Riki",
-                "cmdName": "EX SA1",
+                "cmnName": "EX SA1",
                 "plnCmd": "qcf,qcf+PP (SA1)",
                 "numCmd": "236236PP (SA1)",
                 "startup": 11,
@@ -1299,11 +1303,12 @@
                 "damage": 71,
                 "stun": 0,
                 "moveMotion": "DQCF",
-                "moveButton": "2P"
+                "moveButton": "2P",
+                "image": "https://srk.shib.live/images/9/98/%28orosa1pp%29.gif"
             },
             "Yagyou Dama": {
                 "moveName": "Yagyou Dama",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+P (SA2)",
                 "numCmd": "236236P (SA2)",
                 "startup": 28,
@@ -1319,7 +1324,7 @@
             },
             "EX Yagyou Dama": {
                 "moveName": "EX Yagyou Dama",
-                "cmdName": "EX SA2",
+                "cmnName": "EX SA2",
                 "plnCmd": "qcf,qcf+PP (SA2)",
                 "numCmd": "236236PP (SA2)",
                 "startup": 27,
@@ -1335,7 +1340,7 @@
             },
             "Tengu Stones": {
                 "moveName": "Tengu Stones",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 16,
@@ -1346,7 +1351,7 @@
             },
             "EX Tengu Stones": {
                 "moveName": "EX Tengu Stones",
-                "cmdName": "EX SA3",
+                "cmnName": "EX SA3",
                 "plnCmd": "qcf,qcf+PP (SA3)",
                 "numCmd": "236236PP (SA3)",
                 "startup": 16,

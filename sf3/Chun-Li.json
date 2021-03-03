@@ -262,7 +262,8 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveMotion": "B",
-                "moveButton": "MP"
+                "moveButton": "MP",
+                "image": "https://srk.shib.live/images/8/81/%28chunlibmp%29.gif"
             },
             "Hakkei": {
                 "moveName": "Hakkei",
@@ -361,7 +362,8 @@
                 "moveButton": "HK",
                 "extraInfo": [
                     "Airborne from frames 1-19"
-                ]
+                ],
+                "image": "https://srk.shib.live/images/0/0e/%28chunlifhk%29.gif"
             },
             "Crouch LP": {
                 "moveName": "Crouch LP",
@@ -810,7 +812,8 @@
                 "meterAtkBlk": 5,
                 "moveMotion": "D",
                 "moveButton": "HP",
-                "airmove": true
+                "airmove": true,
+                "image": "https://srk.shib.live/images/4/48/%28chunlijdhp%29.gif"
             },
             "Yousoukyaku": {
                 "moveName": "Yousoukyaku",
@@ -830,7 +833,8 @@
                 "meterOppBlk": 0,
                 "moveMotion": "D",
                 "moveButton": "MK",
-                "airmove": true
+                "airmove": true,
+                "image": "https://srk.shib.live/images/3/36/%28chunlijdmk%29.gif"
             },
             "Jump HP-HP (TC)": {
                 "moveName": "Jump HP-HP (TC)",
@@ -850,7 +854,8 @@
                 "airmove": true,
                 "extraInfo": [
                     "Slams opponent into ground, but if Chun-Li lands first, she can link into a juggle"
-                ]
+                ],
+                "image": "https://srk.shib.live/images/d/dc/%28chunlijhphp%29.gif"
             },
             "Koshuutou": {
                 "moveName": "Koshuutou",
@@ -895,7 +900,8 @@
                 "meterOppBlk": 7,
                 "moveMotion": "N",
                 "moveButton": "LPLK",
-                "airmove": true
+                "airmove": true,
+                "image": "https://srk.shib.live/images/a/ac/%28chunliatr%29.gif"
             },
             "Triangle Jump": {
                 "moveName": "Triangle Jump",
@@ -931,7 +937,8 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/4/47/%28chunlioh%29.gif"
             },
             "Yawn": {
                 "moveName": "Yawn",
@@ -944,12 +951,14 @@
                 "nonHittingMove": true,
                 "extraInfo": [
                     "Multiple versions of taunt exist and occur at random"
-                ]
+                ],
+                "image": "https://srk.shib.live/images/b/bc/%28chunlit1%29.gif"
             },
             "Yawn - Neck Crack": {
                 "moveName": "Yawn - Neck Crack",
                 "cmnName": "Taunt (Yawn-Neck)",
-                "plnCmd": "HP+HK"
+                "plnCmd": "HP+HK",
+                "image": "https://srk.shib.live/images/4/40/%28chunlit2%29.gif"
             },
             "Yawn - Shoulder Pat": {
                 "moveName": "Yawn - Shoulder Pat",
@@ -960,7 +969,8 @@
             "Yawn - Back Crack": {
                 "moveName": "Yawn - Back Crack",
                 "cmnName": "Taunt (Yawn-Back)",
-                "plnCmd": "HP+HK"
+                "plnCmd": "HP+HK",
+                "image": "https://srk.shib.live/images/6/6b/%28chunlit3%29.gif"
             },
             "LP Kikkoken": {
                 "moveName": "LP Kikkoken",

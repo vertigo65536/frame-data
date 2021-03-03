@@ -162,7 +162,7 @@
             },
             "Quarrel Upper": {
                 "moveName": "Quarrel Upper",
-                "cmdName": "Fwd MP",
+                "cmnName": "Fwd MP",
                 "plnCmd": "f+MP",
                 "numCmd": "6MP",
                 "startup": 9,
@@ -182,11 +182,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveMotion": "F",
-                "moveButton": "MP"
+                "moveButton": "MP",
+                "image": "https://srk.shib.live/images/3/3b/%28urienfmp%29.gif"
             },
             "Terrible Smash": {
                 "moveName": "Terrible Smash",
-                "cmdName": "Fwd HP",
+                "cmnName": "Fwd HP",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
                 "startup": 14,
@@ -211,7 +212,7 @@
             },
             "Quarrel Kick": {
                 "moveName": "Quarrel Kick",
-                "cmdName": "Fwd MK",
+                "cmnName": "Fwd MK",
                 "plnCmd": "f+MK",
                 "numCmd": "6MK",
                 "startup": 16,
@@ -519,7 +520,7 @@
             },
             "Destroy Claw": {
                 "moveName": "Destroy Claw",
-                "cmdName": "Neutral Throw",
+                "cmnName": "Neutral Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -544,7 +545,7 @@
             },
             "Spartan Bomb": {
                 "moveName": "Spartan Bomb",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "b/f+LP+LK",
                 "numCmd": "4/6LPLK",
                 "startup": 2,
@@ -569,7 +570,7 @@
             },
             "Elbow Strike": {
                 "moveName": "Elbow Strike",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -586,11 +587,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/2/2d/%28urienoh%29.gif"
             },
             "Ground Pound": {
                 "moveName": "Ground Pound",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 21,
@@ -608,11 +610,12 @@
                 "meterOppBlk": 0,
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/f/fe/%28urient%29.gif"
             },
             "LP Metallic Sphere": {
                 "moveName": "LP Metallic Sphere",
-                "cmdName": "LP Fireball",
+                "cmnName": "LP Fireball",
                 "plnCmd": "qcf+LP",
                 "numCmd": "236LP",
                 "startup": 14,
@@ -637,7 +640,7 @@
             },
             "MP Metallic Sphere": {
                 "moveName": "MP Metallic Sphere",
-                "cmdName": "MP Fireball",
+                "cmnName": "MP Fireball",
                 "plnCmd": "qcf+MP",
                 "numCmd": "236MP",
                 "startup": 14,
@@ -662,7 +665,7 @@
             },
             "HP Metallic Sphere": {
                 "moveName": "HP Metallic Sphere",
-                "cmdName": "HP Fireball",
+                "cmnName": "HP Fireball",
                 "plnCmd": "qcf+HP",
                 "numCmd": "236HP",
                 "startup": 14,
@@ -687,7 +690,7 @@
             },
             "EX Metallic Sphere": {
                 "moveName": "EX Metallic Sphere",
-                "cmdName": "EX Fireball",
+                "cmnName": "EX Fireball",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "startup": 14,
@@ -712,7 +715,7 @@
             },
             "Violence Knee Drop": {
                 "moveName": "Violence Knee Drop",
-                "cmdName": "Knee Drop",
+                "cmnName": "Knee Drop",
                 "plnCmd": "d,u+K",
                 "numCmd": "28K",
                 "startup": 24,
@@ -735,7 +738,7 @@
             },
             "EX Violence Knee Drop": {
                 "moveName": "EX Violence Knee Drop",
-                "cmdName": "EX Knee Drop",
+                "cmnName": "EX Knee Drop",
                 "plnCmd": "d,u+KK",
                 "numCmd": "28KK",
                 "startup": 26,
@@ -758,7 +761,7 @@
             },
             "LK Chariot Tackle": {
                 "moveName": "LK Chariot Tackle",
-                "cmdName": "LK Shoulder",
+                "cmnName": "LK Shoulder",
                 "plnCmd": "b,f+LK",
                 "numCmd": "46LK",
                 "startup": 7,
@@ -784,7 +787,7 @@
             },
             "MK Chariot Tackle": {
                 "moveName": "MK Chariot Tackle",
-                "cmdName": "MK Shoulder",
+                "cmnName": "MK Shoulder",
                 "plnCmd": "b,f+MK",
                 "numCmd": "46MK",
                 "startup": 10,
@@ -810,7 +813,7 @@
             },
             "HK Chariot Tackle": {
                 "moveName": "HK Chariot Tackle",
-                "cmdName": "HK Shoulder",
+                "cmnName": "HK Shoulder",
                 "plnCmd": "b,f+HK",
                 "numCmd": "46HK",
                 "startup": 13,
@@ -836,7 +839,7 @@
             },
             "EX Chariot Tackle": {
                 "moveName": "EX Chariot Tackle",
-                "cmdName": "EX Shoulder",
+                "cmnName": "EX Shoulder",
                 "plnCmd": "b,f+KK",
                 "numCmd": "46KK",
                 "startup": 6,
@@ -862,7 +865,7 @@
             },
             "LP Dangerous Headbutt": {
                 "moveName": "LP Dangerous Headbutt",
-                "cmdName": "LP Headbutt",
+                "cmnName": "LP Headbutt",
                 "plnCmd": "d,u+LP",
                 "numCmd": "28LP",
                 "startup": 7,
@@ -885,7 +888,7 @@
             },
             "MP Headbutt": {
                 "moveName": "MP Headbutt",
-                "cmdName": "MP Headbutt",
+                "cmnName": "MP Headbutt",
                 "plnCmd": "d,u+MP",
                 "numCmd": "28MP",
                 "startup": 9,
@@ -908,7 +911,7 @@
             },
             "HP Headbutt": {
                 "moveName": "HP Headbutt",
-                "cmdName": "HP Headbutt",
+                "cmnName": "HP Headbutt",
                 "plnCmd": "d,u+HP",
                 "numCmd": "28HP",
                 "startup": 12,
@@ -931,7 +934,7 @@
             },
             "EX Headbutt": {
                 "moveName": "EX Headbutt",
-                "cmdName": "EX Headbutt",
+                "cmnName": "EX Headbutt",
                 "plnCmd": "d,u+PP",
                 "numCmd": "28PP",
                 "startup": 9,
@@ -949,11 +952,12 @@
                 "meterOppBlk": 0,
                 "moveMotion": "U",
                 "moveButton": "2P",
-                "chargeDirection": "D"
+                "chargeDirection": "D",
+                "image": "https://srk.shib.live/images/c/c6/%28urienhbtex%29.gif"
             },
             "Tyrant Punish": {
                 "moveName": "Tyrant Punish",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "startup": 1,
@@ -964,11 +968,12 @@
                 "damage": 69,
                 "stun": 0,
                 "moveMotion": "DQCF",
-                "moveButton": "1P"
+                "moveButton": "1P",
+                "image": "https://srk.shib.live/images/a/a0/%28uriensa1%29.gif"
             },
             "Temporal Thunder": {
                 "moveName": "Temporal Thunder",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+P (SA2)",
                 "numCmd": "236236P (SA2)",
                 "startup": 2,
@@ -985,7 +990,7 @@
             },
             "Aegis Reflector": {
                 "moveName": "Aegis Reflector",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "recovery": 12,
@@ -1001,7 +1006,7 @@
             },
             "EX Aegis Reflector": {
                 "moveName": "EX Aegis Reflector",
-                "cmdName": "EX SA3",
+                "cmnName": "EX SA3",
                 "plnCmd": "qcf,qcf+PP (SA3)",
                 "numCmd": "236236PP (SA3)",
                 "recovery": 12,

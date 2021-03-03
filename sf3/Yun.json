@@ -268,7 +268,7 @@
             },
             "Senpuukyaku": {
                 "moveName": "Senpuukyaku",
-                "cmdName": "Fwd MK",
+                "cmnName": "Fwd MK",
                 "plnCmd": "f+MK",
                 "numCmd": "6MK",
                 "startup": 19,
@@ -288,11 +288,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveButton": "MK",
-                "moveMotion": "F"
+                "moveMotion": "F",
+                "image": "https://srk.shib.live/images/f/f3/%28yunfmk%29.gif"
             },
             "Dakai": {
                 "moveName": "Dakai",
-                "cmdName": "Fwd HP",
+                "cmnName": "Fwd HP",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
                 "startup": 17,
@@ -625,7 +626,7 @@
             },
             "LK Raigeki Shuu": {
                 "moveName": "LK Raigeki Shuu",
-                "cmdName": "LK Dive Kick",
+                "cmnName": "LK Dive Kick",
                 "plnCmd": "df+LK",
                 "numCmd": "3LK",
                 "startup": 6,
@@ -646,7 +647,7 @@
             },
             "MK Raigeki Shuu": {
                 "moveName": "MK Raigeki Shuu",
-                "cmdName": "MK Dive Kick",
+                "cmnName": "MK Dive Kick",
                 "plnCmd": "df+MK",
                 "numCmd": "3MK",
                 "startup": 8,
@@ -667,7 +668,7 @@
             },
             "HK Raigeki Shuu": {
                 "moveName": "HK Raigeki Shuu",
-                "cmdName": "HK Dive Kick",
+                "cmnName": "HK Dive Kick",
                 "plnCmd": "df+HK",
                 "numCmd": "3HK",
                 "startup": 6,
@@ -683,11 +684,12 @@
                 "meterOppBlk": 0,
                 "moveButton": "HK",
                 "moveMotion": "DF",
-                "airmove": true
+                "airmove": true,
+                "image": "https://srk.shib.live/images/c/c6/%28yunjdk%29.gif"
             },
             "Hizageri": {
                 "moveName": "Hizageri",
-                "cmdName": "Neutral Throw",
+                "cmnName": "Neutral Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -707,11 +709,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 7,
                 "moveButton": "LPLK",
-                "moveMotion": "N"
+                "moveMotion": "N",
+                "image": "https://srk.shib.live/images/3/3d/%28yunhg%29.gif"
             },
             "Monkey Flip": {
                 "moveName": "Monkey Flip",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "b/f+LP+LK",
                 "numCmd": "4/6LPLK",
                 "startup": 2,
@@ -736,7 +739,7 @@
             },
             "Gekihou Sui": {
                 "moveName": "Gekihou Sui",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -753,11 +756,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveButton": "MPMK",
-                "moveMotion": "N"
+                "moveMotion": "N",
+                "image": "https://srk.shib.live/images/4/44/%28yunoh%29.gif"
             },
             "Hat Spin": {
                 "moveName": "Hat Spin",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 28,
@@ -776,11 +780,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveButton": "HPHK",
-                "moveMotion": "N"
+                "moveMotion": "N",
+                "image": "https://srk.shib.live/images/0/09/%28yunt%29.gif"
             },
             "LP Tetsu Zankou": {
                 "moveName": "LP Tetsu Zankou",
-                "cmdName": "LP Shoulder",
+                "cmnName": "LP Shoulder",
                 "plnCmd": "f,d,df+LP",
                 "numCmd": "623LP",
                 "startup": 14,
@@ -805,7 +810,7 @@
             },
             "MP Tetsu Zankou": {
                 "moveName": "MP Tetsu Zankou",
-                "cmdName": "MP Shoulder",
+                "cmnName": "MP Shoulder",
                 "plnCmd": "f,d,df+MP",
                 "numCmd": "623MP",
                 "startup": 18,
@@ -830,7 +835,7 @@
             },
             "HP Tetsu Zankou": {
                 "moveName": "HP Tetsu Zankou",
-                "cmdName": "HP Shoulder",
+                "cmnName": "HP Shoulder",
                 "plnCmd": "f,d,df+HP",
                 "numCmd": "623HP",
                 "startup": 22,
@@ -855,7 +860,7 @@
             },
             "EX Tetsu Zankou": {
                 "moveName": "EX Tetsu Zankou",
-                "cmdName": "EX Shoulder",
+                "cmnName": "EX Shoulder",
                 "plnCmd": "f,d,df+PP",
                 "numCmd": "623PP",
                 "startup": 10,
@@ -880,7 +885,7 @@
             },
             "LP Zesshou Hohou": {
                 "moveName": "LP Zesshou Hohou",
-                "cmdName": "LP Lunge Punch",
+                "cmnName": "LP Lunge Punch",
                 "plnCmd": "qcf+LP",
                 "numCmd": "236LP",
                 "startup": 7,
@@ -902,7 +907,7 @@
             },
             "MP Zesshou Hohou": {
                 "moveName": "MP Zesshou Hohou",
-                "cmdName": "MP Lunge Punch",
+                "cmnName": "MP Lunge Punch",
                 "plnCmd": "qcf+MP",
                 "numCmd": "236MP",
                 "startup": 10,
@@ -924,7 +929,7 @@
             },
             "HP Zesshou Hohou": {
                 "moveName": "HP Zesshou Hohou",
-                "cmdName": "HP Lunge Punch",
+                "cmnName": "HP Lunge Punch",
                 "plnCmd": "qcf+HP",
                 "numCmd": "236HP",
                 "startup": 13,
@@ -946,7 +951,7 @@
             },
             "EX Zesshou Hohou": {
                 "moveName": "EX Zesshou Hohou",
-                "cmdName": "EX Lunge Punch",
+                "cmnName": "EX Lunge Punch",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "startup": 13,
@@ -968,7 +973,7 @@
             },
             "LK Nishou Kyaku": {
                 "moveName": "LK Nishou Kyaku",
-                "cmdName": "LK DP",
+                "cmnName": "LK DP",
                 "plnCmd": "f,d,df+LK",
                 "numCmd": "623LK",
                 "startup": 4,
@@ -990,7 +995,7 @@
             },
             "MK Nishou Kyaku": {
                 "moveName": "MK Nishou Kyaku",
-                "cmdName": "MK DP",
+                "cmnName": "MK DP",
                 "plnCmd": "f,d,df+MK",
                 "numCmd": "623MK",
                 "startup": 6,
@@ -1012,7 +1017,7 @@
             },
             "HK Nishou Kyaku": {
                 "moveName": "HK Nishou Kyaku",
-                "cmdName": "HK DP",
+                "cmnName": "HK DP",
                 "plnCmd": "f,d,df+HK",
                 "numCmd": "623HK",
                 "startup": 8,
@@ -1034,7 +1039,7 @@
             },
             "EX Nishou Kyaku": {
                 "moveName": "EX Nishou Kyaku",
-                "cmdName": "EX DP",
+                "cmnName": "EX DP",
                 "plnCmd": "f,d,df+KK",
                 "numCmd": "623KK",
                 "startup": 4,
@@ -1056,7 +1061,7 @@
             },
             "Kobokushi": {
                 "moveName": "Kobokushi",
-                "cmdName": "Palm Strike",
+                "cmnName": "Palm Strike",
                 "plnCmd": "qcb+P",
                 "numCmd": "214P",
                 "startup": 24,
@@ -1081,14 +1086,14 @@
             },
             "Kobokushi (Fake)": {
                 "moveName": "Kobokushi (Fake)",
-                "cmdName": "Palm Strike (Fake)",
+                "cmnName": "Palm Strike (Fake)",
                 "plnCmd": "qcb+PP",
                 "numCmd": "214PP",
                 "image": "https://srk.shib.live/images/4/44/%28yunpalm%29.gif"
             },
             "Zenpou Tenshin": {
                 "moveName": "Zenpou Tenshin",
-                "cmdName": "Command Grab",
+                "cmnName": "Command Grab",
                 "plnCmd": "hcb+K",
                 "numCmd": "63214K",
                 "startup": 7,
@@ -1107,7 +1112,7 @@
             },
             "You Hou": {
                 "moveName": "You Hou",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "startup": 1,
@@ -1124,7 +1129,7 @@
             },
             "Sourai Rengeki": {
                 "moveName": "Sourai Rengeki",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+P (SA2)",
                 "numCmd": "236236P (SA2)",
                 "startup": 3,
@@ -1141,7 +1146,7 @@
             },
             "Genei Jin": {
                 "moveName": "Genei Jin",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 9,

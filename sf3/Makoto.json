@@ -164,7 +164,7 @@
             },
             "Kazami": {
                 "moveName": "Kazami",
-                "cmdName": "Forward LP",
+                "cmnName": "Forward LP",
                 "plnCmd": "f+LP",
                 "numCmd": "6LP",
                 "startup": 4,
@@ -194,7 +194,7 @@
             },
             "Kaoruna": {
                 "moveName": "Kaoruna",
-                "cmdName": "Forward MP",
+                "cmnName": "Forward MP",
                 "plnCmd": "f+MP",
                 "numCmd": "6MP",
                 "startup": 9,
@@ -219,7 +219,7 @@
             },
             "Shimaki": {
                 "moveName": "Shimaki",
-                "cmdName": "Forward HP",
+                "cmnName": "Forward HP",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
                 "startup": 16,
@@ -244,7 +244,7 @@
             },
             "Shimaki > Yamase": {
                 "moveName": "Shimaki > Yamase",
-                "cmdName": "Forward HP (x3)",
+                "cmnName": "Forward HP (x3)",
                 "plnCmd": "f+HP, HP, HP",
                 "numCmd": "6HP, HP, HP",
                 "startup": 16,
@@ -265,11 +265,12 @@
                 "meterOppBlk": 0,
                 "moveMotion": "N",
                 "moveButton": "HP",
-                "followUp": true
+                "followUp": true,
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=MakotoPalette.bin&pcolornum=0&pname=makoto/makoto-fhp-hold.gif"
             },
             "Shibuki": {
                 "moveName": "Shibuki",
-                "cmdName": "Forward LK",
+                "cmnName": "Forward LK",
                 "plnCmd": "f+LK",
                 "numCmd": "6LK",
                 "startup": 6,
@@ -294,7 +295,7 @@
             },
             "Naruto": {
                 "moveName": "Naruto",
-                "cmdName": "Forward MK",
+                "cmnName": "Forward MK",
                 "plnCmd": "f+MK",
                 "numCmd": "6MK",
                 "startup": 17,
@@ -319,7 +320,7 @@
             },
             "Kuroshio": {
                 "moveName": "Kuroshio",
-                "cmdName": "Forward HK",
+                "cmnName": "Forward HK",
                 "plnCmd": "f+HK",
                 "numCmd": "6HK",
                 "startup": 22,
@@ -344,10 +345,11 @@
             },
             "Kuroshio (Fake)": {
                 "moveName": "Kuroshio (Fake)",
-                "cmdName": "Forward HK (Fake)",
+                "cmnName": "Forward HK (Fake)",
                 "plnCmd": "f+HK (Hold)",
                 "numCmd": "6HK (Hold)",
-                "startup": 1
+                "startup": 1,
+                "image": "https://srk.shib.live/images/d/d0/%28makotofhk%29.gif"
             },
             "Crouch LP": {
                 "moveName": "Crouch LP",
@@ -697,7 +699,7 @@
             },
             "Tacchuu": {
                 "moveName": "Tacchuu",
-                "cmdName": "Neutral Throw",
+                "cmnName": "Neutral Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -717,11 +719,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "N",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/3/35/%28makotothr%29.gif"
             },
             "Araiso": {
                 "moveName": "Araiso",
-                "cmdName": "Back/Fwd Throw",
+                "cmnName": "Back/Fwd Throw",
                 "plnCmd": "b/f+LP+LK",
                 "numCmd": "4/6LPLK",
                 "startup": 2,
@@ -741,11 +744,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "BorF",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/7/78/%28makotobftr%29.gif"
             },
             "Chigusa": {
                 "moveName": "Chigusa",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -762,11 +766,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/c/c2/%28makotooh%29.gif"
             },
             "Kiai wo Reru": {
                 "moveName": "Kiai wo Reru",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 79,
@@ -785,11 +790,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "HPHK"
+                "moveButton": "HPHK",
+                "image": "https://srk.shib.live/images/1/13/%28makotot%29.gif"
             },
             "LP Hayate": {
                 "moveName": "LP Hayate",
-                "cmdName": "LP Dash Punch",
+                "cmnName": "LP Dash Punch",
                 "plnCmd": "qcf+LP",
                 "numCmd": "236LP",
                 "startup": 6,
@@ -813,7 +819,7 @@
             },
             "MP Hayate": {
                 "moveName": "MP Hayate",
-                "cmdName": "MP Dash Punch",
+                "cmnName": "MP Dash Punch",
                 "plnCmd": "qcf+MP",
                 "numCmd": "236MP",
                 "startup": 9,
@@ -837,7 +843,7 @@
             },
             "HP Hayate": {
                 "moveName": "HP Hayate",
-                "cmdName": "HP Dash Punch",
+                "cmnName": "HP Dash Punch",
                 "plnCmd": "qcf+HP",
                 "numCmd": "236HP",
                 "startup": 11,
@@ -861,7 +867,7 @@
             },
             "EX Hayate": {
                 "moveName": "EX Hayate",
-                "cmdName": "EX Dash Punch",
+                "cmnName": "EX Dash Punch",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "startup": 17,
@@ -885,7 +891,7 @@
             },
             "Hayate (Lv 1)": {
                 "moveName": "Hayate (Lv 1)",
-                "cmdName": "Dash Punch (Lv 1)",
+                "cmnName": "Dash Punch (Lv 1)",
                 "plnCmd": "qcf+P (7F hold)",
                 "numCmd": "236P (7F hold)",
                 "startup": 7,
@@ -909,7 +915,7 @@
             },
             "Hayate (Lv 2)": {
                 "moveName": "Hayate (Lv 2)",
-                "cmdName": "Dash Punch (Lv 2)",
+                "cmnName": "Dash Punch (Lv 2)",
                 "plnCmd": "qcf+P (27F hold)",
                 "numCmd": "236P (27F hold)",
                 "startup": 27,
@@ -933,7 +939,7 @@
             },
             "Hayate (Lv 3)": {
                 "moveName": "Hayate (Lv 3)",
-                "cmdName": "Dash Punch (Lv 3)",
+                "cmnName": "Dash Punch (Lv 3)",
                 "plnCmd": "qcf+P (47F hold)",
                 "numCmd": "236P (47F hold)",
                 "startup": 47,
@@ -957,7 +963,7 @@
             },
             "Hayate (Lv 4)": {
                 "moveName": "Hayate (Lv 4)",
-                "cmdName": "Dash Punch (Lv 4)",
+                "cmnName": "Dash Punch (Lv 4)",
                 "plnCmd": "qcf+P (67F hold)",
                 "numCmd": "236P (67F hold)",
                 "startup": "#VALUE!",
@@ -981,7 +987,7 @@
             },
             "LP Fukiage": {
                 "moveName": "LP Fukiage",
-                "cmdName": "LP DP",
+                "cmnName": "LP DP",
                 "plnCmd": "f,d,df+LP",
                 "numCmd": "623LP",
                 "startup": 7,
@@ -1007,7 +1013,7 @@
             },
             "MP Fukiage": {
                 "moveName": "MP Fukiage",
-                "cmdName": "MP DP",
+                "cmnName": "MP DP",
                 "plnCmd": "f,d,df+MP",
                 "numCmd": "623MP",
                 "startup": 10,
@@ -1033,7 +1039,7 @@
             },
             "HP Fukiage": {
                 "moveName": "HP Fukiage",
-                "cmdName": "HP DP",
+                "cmnName": "HP DP",
                 "plnCmd": "f,d,df+HP",
                 "numCmd": "623HP",
                 "startup": 14,
@@ -1059,7 +1065,7 @@
             },
             "EX Fukiage": {
                 "moveName": "EX Fukiage",
-                "cmdName": "EX DP",
+                "cmnName": "EX DP",
                 "plnCmd": "f,d,df+PP",
                 "numCmd": "623PP",
                 "startup": 11,
@@ -1085,7 +1091,7 @@
             },
             "LP Oroshi": {
                 "moveName": "LP Oroshi",
-                "cmdName": "LP Chop",
+                "cmnName": "LP Chop",
                 "plnCmd": "qcb+LP",
                 "numCmd": "214LP",
                 "startup": 19,
@@ -1110,7 +1116,7 @@
             },
             "MP Oroshi": {
                 "moveName": "MP Oroshi",
-                "cmdName": "MP Chop",
+                "cmnName": "MP Chop",
                 "plnCmd": "qcb+MP",
                 "numCmd": "214MP",
                 "startup": 23,
@@ -1135,7 +1141,7 @@
             },
             "HP Oroshi": {
                 "moveName": "HP Oroshi",
-                "cmdName": "HP Chop",
+                "cmnName": "HP Chop",
                 "plnCmd": "qcb+HP",
                 "numCmd": "214HP",
                 "startup": 28,
@@ -1160,7 +1166,7 @@
             },
             "EX Oroshi": {
                 "moveName": "EX Oroshi",
-                "cmdName": "EX Chop",
+                "cmnName": "EX Chop",
                 "plnCmd": "qcb+PP",
                 "numCmd": "214PP",
                 "startup": 13,
@@ -1185,7 +1191,7 @@
             },
             "LK Tsurugi": {
                 "moveName": "LK Tsurugi",
-                "cmdName": "LK Axe Kick",
+                "cmnName": "LK Axe Kick",
                 "plnCmd": "qcb+LK (air)",
                 "numCmd": "214LK (air)",
                 "startup": 14,
@@ -1207,7 +1213,7 @@
             },
             "MK Tsurugi": {
                 "moveName": "MK Tsurugi",
-                "cmdName": "MK Axe Kick",
+                "cmnName": "MK Axe Kick",
                 "plnCmd": "qcb+MK (air)",
                 "numCmd": "214MK (air)",
                 "startup": 15,
@@ -1229,7 +1235,7 @@
             },
             "HK Tsurugi": {
                 "moveName": "HK Tsurugi",
-                "cmdName": "HK Axe Kick",
+                "cmnName": "HK Axe Kick",
                 "plnCmd": "qcb+HK (air)",
                 "numCmd": "214HK (air)",
                 "startup": 16,
@@ -1251,7 +1257,7 @@
             },
             "EX Tsurugi": {
                 "moveName": "EX Tsurugi",
-                "cmdName": "EX Axe Kick",
+                "cmnName": "EX Axe Kick",
                 "plnCmd": "qcb+KK (air)",
                 "numCmd": "214KK (air)",
                 "startup": 15,
@@ -1273,7 +1279,7 @@
             },
             "LK Karakusa": {
                 "moveName": "LK Karakusa",
-                "cmdName": "LK Command Grab",
+                "cmnName": "LK Command Grab",
                 "plnCmd": "hcb+LK",
                 "numCmd": "63214LK",
                 "startup": 7,
@@ -1294,7 +1300,7 @@
             },
             "MK Karakusa": {
                 "moveName": "MK Karakusa",
-                "cmdName": "MK Command Grab",
+                "cmnName": "MK Command Grab",
                 "plnCmd": "hcb+MK",
                 "numCmd": "63214MK",
                 "startup": 8,
@@ -1315,7 +1321,7 @@
             },
             "HK Karakusa": {
                 "moveName": "HK Karakusa",
-                "cmdName": "HK Command Grab",
+                "cmnName": "HK Command Grab",
                 "plnCmd": "hcb+HK",
                 "numCmd": "63214HK",
                 "startup": 9,
@@ -1336,7 +1342,7 @@
             },
             "Seichuusen Godanzuki": {
                 "moveName": "Seichuusen Godanzuki",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "startup": 1,
@@ -1353,7 +1359,7 @@
             },
             "Abare Tosanami": {
                 "moveName": "Abare Tosanami",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+K (SA2)",
                 "numCmd": "236236K (SA2)",
                 "startup": "#VALUE!",
@@ -1369,16 +1375,18 @@
                 "damage": 59,
                 "stun": 22,
                 "moveMotion": "DQCF",
-                "moveButton": "1K"
+                "moveButton": "1K",
+                "image": "https://srk.shib.live/images/3/3c/%28makotosa2%29.gif"
             },
             "Tanden Renki": {
                 "moveName": "Tanden Renki",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "moveType": "super",
                 "moveMotion": "DQCF",
-                "moveButton": "1P"
+                "moveButton": "1P",
+                "image": "https://srk.shib.live/images/7/7e/%28makotosa3%29.gif"
             },
             "input": "None"
         }

@@ -159,7 +159,7 @@
             },
             "Handstand Kick": {
                 "moveName": "Handstand Kick",
-                "cmdName": "Fwd MP",
+                "cmnName": "Fwd MP",
                 "plnCmd": "f+MP",
                 "numCmd": "6MP",
                 "startup": 15,
@@ -184,7 +184,7 @@
             },
             "Handstand Whip": {
                 "moveName": "Handstand Whip",
-                "cmdName": "Fwd MK",
+                "cmnName": "Fwd MK",
                 "plnCmd": "f+MK",
                 "numCmd": "6MK",
                 "startup": 11,
@@ -209,7 +209,7 @@
             },
             "Round Arch": {
                 "moveName": "Round Arch",
-                "cmdName": "Back HK",
+                "cmnName": "Back HK",
                 "plnCmd": "b+HK",
                 "numCmd": "4HK",
                 "startup": 12,
@@ -390,7 +390,7 @@
             },
             "Slide": {
                 "moveName": "Slide",
-                "cmdName": "DownFwd HK",
+                "cmnName": "DownFwd HK",
                 "plnCmd": "df+HK",
                 "numCmd": "3HK",
                 "startup": 12,
@@ -410,7 +410,8 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "DF",
-                "moveButton": "HK"
+                "moveButton": "HK",
+                "image": "https://srk.shib.live/images/8/8d/%28elenadfhk%29.gif"
             },
             "Jump LP": {
                 "moveName": "Jump LP",
@@ -540,7 +541,7 @@
             },
             "Leg Lift Throw": {
                 "moveName": "Leg Lift Throw",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -560,11 +561,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "N",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/2/21/%28elenathrow%29.gif"
             },
             "Knee Attack": {
                 "moveName": "Knee Attack",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -581,11 +583,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/b/bf/%28elenaoh%29.gif"
             },
             "Handstand": {
                 "moveName": "Handstand",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 18,
@@ -604,11 +607,12 @@
                 "meterOppBlk": 0,
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/6/64/%28elenat%29.gif"
             },
             "LK Scratch Wheel": {
                 "moveName": "LK Scratch Wheel",
-                "cmdName": "LK DP",
+                "cmnName": "LK DP",
                 "plnCmd": "f,d,df+LK",
                 "numCmd": "623LK",
                 "startup": 6,
@@ -630,7 +634,7 @@
             },
             "MK Scratch Wheel": {
                 "moveName": "MK Scratch Wheel",
-                "cmdName": "MK DP",
+                "cmnName": "MK DP",
                 "plnCmd": "f,d,df+MK",
                 "numCmd": "623MK",
                 "startup": 4,
@@ -655,7 +659,7 @@
             },
             "HK Scratch Wheel": {
                 "moveName": "HK Scratch Wheel",
-                "cmdName": "HK DP",
+                "cmnName": "HK DP",
                 "plnCmd": "f,d,df+HK",
                 "numCmd": "623HK",
                 "startup": 3,
@@ -680,7 +684,7 @@
             },
             "EX Scratch Wheel": {
                 "moveName": "EX Scratch Wheel",
-                "cmdName": "EX DP",
+                "cmnName": "EX DP",
                 "plnCmd": "f,d,df+KK",
                 "numCmd": "623KK",
                 "startup": 3,
@@ -705,7 +709,7 @@
             },
             "LK Rhino Horn": {
                 "moveName": "LK Rhino Horn",
-                "cmdName": "LK Lunge Kick",
+                "cmnName": "LK Lunge Kick",
                 "plnCmd": "hcf+LK",
                 "numCmd": "41236LK",
                 "startup": 14,
@@ -727,7 +731,7 @@
             },
             "MK Rhino Horn": {
                 "moveName": "MK Rhino Horn",
-                "cmdName": "MK Lunge Kick",
+                "cmnName": "MK Lunge Kick",
                 "plnCmd": "hcf+MK",
                 "numCmd": "41236MK",
                 "startup": 18,
@@ -749,7 +753,7 @@
             },
             "HK Rhino Horn": {
                 "moveName": "HK Rhino Horn",
-                "cmdName": "HK Lunge Kick",
+                "cmnName": "HK Lunge Kick",
                 "plnCmd": "hcf+HK",
                 "numCmd": "41236HK",
                 "startup": 23,
@@ -771,7 +775,7 @@
             },
             "EX Rhino Horn": {
                 "moveName": "EX Rhino Horn",
-                "cmdName": "EX Lunge Kick",
+                "cmnName": "EX Lunge Kick",
                 "plnCmd": "hcf+KK",
                 "numCmd": "41236KK",
                 "startup": 11,
@@ -793,7 +797,7 @@
             },
             "LP Mallet Smash": {
                 "moveName": "LP Mallet Smash",
-                "cmdName": "LP Overhead Kick",
+                "cmnName": "LP Overhead Kick",
                 "plnCmd": "hcb+LP",
                 "numCmd": "63214LP",
                 "startup": 21,
@@ -815,7 +819,7 @@
             },
             "MP Mallet Smash": {
                 "moveName": "MP Mallet Smash",
-                "cmdName": "MP Overhead Kick",
+                "cmnName": "MP Overhead Kick",
                 "plnCmd": "hcb+MP",
                 "numCmd": "63214MP",
                 "startup": 24,
@@ -837,7 +841,7 @@
             },
             "HP Mallet Smash": {
                 "moveName": "HP Mallet Smash",
-                "cmdName": "HP Overhead Kick",
+                "cmnName": "HP Overhead Kick",
                 "plnCmd": "hcb+HP",
                 "numCmd": "63214HP",
                 "startup": 27,
@@ -859,7 +863,7 @@
             },
             "EX Mallet Smash": {
                 "moveName": "EX Mallet Smash",
-                "cmdName": "EX Overhead Kick",
+                "cmnName": "EX Overhead Kick",
                 "plnCmd": "hcb+PP",
                 "numCmd": "63214PP",
                 "startup": 21,
@@ -881,7 +885,7 @@
             },
             "LK Spinning Scythe": {
                 "moveName": "LK Spinning Scythe",
-                "cmdName": "LK Spin Kick",
+                "cmnName": "LK Spin Kick",
                 "plnCmd": "qcb+LK",
                 "numCmd": "214LK",
                 "startup": 15,
@@ -903,7 +907,7 @@
             },
             "MK Spinning Scythe": {
                 "moveName": "MK Spinning Scythe",
-                "cmdName": "MK Spin Kick",
+                "cmnName": "MK Spin Kick",
                 "plnCmd": "qcb+MK",
                 "numCmd": "214MK",
                 "startup": 16,
@@ -925,7 +929,7 @@
             },
             "HK Spinning Scythe": {
                 "moveName": "HK Spinning Scythe",
-                "cmdName": "HK Spin Kick",
+                "cmnName": "HK Spin Kick",
                 "plnCmd": "qcb+HK",
                 "numCmd": "214HK",
                 "startup": 17,
@@ -947,7 +951,7 @@
             },
             "EX Spinning Scythe": {
                 "moveName": "EX Spinning Scythe",
-                "cmdName": "EX Spin Kick",
+                "cmnName": "EX Spin Kick",
                 "plnCmd": "qcb+KK",
                 "numCmd": "214KK",
                 "startup": 10,
@@ -972,7 +976,7 @@
             },
             "LK Lynx Tail": {
                 "moveName": "LK Lynx Tail",
-                "cmdName": "LK Breakdance",
+                "cmnName": "LK Breakdance",
                 "plnCmd": "b,d,db+LK",
                 "numCmd": "421LK",
                 "startup": 11,
@@ -994,7 +998,7 @@
             },
             "MK Lynx Tail": {
                 "moveName": "MK Lynx Tail",
-                "cmdName": "MK Breakdance",
+                "cmnName": "MK Breakdance",
                 "plnCmd": "b,d,db+MK",
                 "numCmd": "421MK",
                 "startup": 14,
@@ -1016,7 +1020,7 @@
             },
             "HK Lynx Tail": {
                 "moveName": "HK Lynx Tail",
-                "cmdName": "HK Breakdance",
+                "cmnName": "HK Breakdance",
                 "plnCmd": "b,d,db+HK",
                 "numCmd": "421HK",
                 "startup": 16,
@@ -1038,7 +1042,7 @@
             },
             "EX Lynx Tail": {
                 "moveName": "EX Lynx Tail",
-                "cmdName": "EX Breakdance",
+                "cmnName": "EX Breakdance",
                 "plnCmd": "b,d,db+KK",
                 "numCmd": "421KK",
                 "startup": 10,
@@ -1060,7 +1064,7 @@
             },
             "Spinning Beat": {
                 "moveName": "Spinning Beat",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+K (SA1)",
                 "numCmd": "236236K (SA1)",
                 "startup": 1,
@@ -1077,7 +1081,7 @@
             },
             "Brave Dance": {
                 "moveName": "Brave Dance",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+K (SA2)",
                 "numCmd": "236236K (SA2)",
                 "startup": 1,
@@ -1094,7 +1098,7 @@
             },
             "Healing": {
                 "moveName": "Healing",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 1,
@@ -1107,7 +1111,7 @@
             },
             "Healing (Cancel)": {
                 "moveName": "Healing (Cancel)",
-                "cmdName": "SA3 (Cancel)",
+                "cmnName": "SA3 (Cancel)",
                 "plnCmd": "qcf,qcf+P, PP (SA3)",
                 "numCmd": "236236P, PP (SA3)",
                 "startup": 1,
@@ -1115,7 +1119,8 @@
                 "moveType": "super",
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/8/86/%28elenasa3%29.gif"
             },
             "input": "None"
         }

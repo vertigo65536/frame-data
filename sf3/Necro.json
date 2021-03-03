@@ -474,7 +474,7 @@
             },
             "Elbow Cannon": {
                 "moveName": "Elbow Cannon",
-                "cmdName": "DownBack HP",
+                "cmnName": "DownBack HP",
                 "plnCmd": "db+HP",
                 "numCmd": "1HP",
                 "startup": 9,
@@ -494,7 +494,8 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "DB",
-                "moveButton": "HP"
+                "moveButton": "HP",
+                "image": "https://www.justnopoint.com/zweifuss/colorswap.php?pcolorstring=NecroPalette.bin&pcolornum=13&pname=necro/necro-crouch-bhp.gif"
             },
             "Jump LP (Neutral)": {
                 "moveName": "Jump LP (Neutral)",
@@ -514,7 +515,8 @@
                 "meterOppBlk": "---",
                 "moveMotion": "U",
                 "moveButton": "LP",
-                "airmove": true
+                "airmove": true,
+                "image": "https://srk.shib.live/images/2/26/%28necrojlp%29.gif"
             },
             "Jump LP": {
                 "moveName": "Jump LP",
@@ -725,7 +727,7 @@
             },
             "Shoulder Attack": {
                 "moveName": "Shoulder Attack",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -748,7 +750,7 @@
             },
             "Frankensteiner": {
                 "moveName": "Frankensteiner",
-                "cmdName": "Back Throw",
+                "cmnName": "Back Throw",
                 "plnCmd": "b+LP+LK",
                 "numCmd": "4LPLK",
                 "startup": 2,
@@ -771,7 +773,7 @@
             },
             "German Suplex (Throw)": {
                 "moveName": "German Suplex (Throw)",
-                "cmdName": "Back Throw (opp turned)",
+                "cmnName": "Back Throw (opp turned)",
                 "plnCmd": "LP+LK (opp turn)",
                 "numCmd": "LPLK (opp turn)",
                 "startup": 2,
@@ -792,7 +794,7 @@
             },
             "Finger Attack": {
                 "moveName": "Finger Attack",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -809,11 +811,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/6/66/%28necrooh%29.gif"
             },
             "Tongue Waving": {
                 "moveName": "Tongue Waving",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 21,
@@ -832,11 +835,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "HPHK"
+                "moveButton": "HPHK",
+                "image": "https://srk.shib.live/images/5/5f/%28necrot%29.gif"
             },
             "LP Electric Shock": {
                 "moveName": "LP Electric Shock",
-                "cmdName": "LP Electricity",
+                "cmnName": "LP Electricity",
                 "plnCmd": "f,d,df+LP",
                 "numCmd": "623LP",
                 "startup": 6,
@@ -856,11 +860,12 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "DP",
-                "moveButton": "LP"
+                "moveButton": "LP",
+                "image": "https://srk.shib.live/images/9/93/%28necrodjbl%29.gif"
             },
             "MP Electric Shock": {
                 "moveName": "MP Electric Shock",
-                "cmdName": "MP Electricity",
+                "cmnName": "MP Electricity",
                 "plnCmd": "f,d,df+MP",
                 "numCmd": "623MP",
                 "startup": 8,
@@ -880,11 +885,12 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "DP",
-                "moveButton": "MP"
+                "moveButton": "MP",
+                "image": "https://srk.shib.live/images/9/93/%28necrodjbl%29.gif"
             },
             "HP Electric Shock": {
                 "moveName": "HP Electric Shock",
-                "cmdName": "HP Electricity",
+                "cmnName": "HP Electricity",
                 "plnCmd": "f,d,df+HP",
                 "numCmd": "623HP",
                 "startup": 10,
@@ -904,11 +910,12 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "DP",
-                "moveButton": "HP"
+                "moveButton": "HP",
+                "image": "https://srk.shib.live/images/9/93/%28necrodjbl%29.gif"
             },
             "LK Snake Fang": {
                 "moveName": "LK Snake Fang",
-                "cmdName": "LK Toss",
+                "cmnName": "LK Toss",
                 "plnCmd": "hcf+LK",
                 "numCmd": "41236LK",
                 "startup": 12,
@@ -930,7 +937,7 @@
             },
             "MK Snake Fang": {
                 "moveName": "MK Snake Fang",
-                "cmdName": "MK Toss",
+                "cmnName": "MK Toss",
                 "plnCmd": "hcf+MK",
                 "numCmd": "41236MK",
                 "startup": 12,
@@ -952,7 +959,7 @@
             },
             "HK Snake Fang": {
                 "moveName": "HK Snake Fang",
-                "cmdName": "HK Toss",
+                "cmnName": "HK Toss",
                 "plnCmd": "hcf+HK",
                 "numCmd": "41236HK",
                 "startup": 12,
@@ -974,7 +981,7 @@
             },
             "LP Tornado Hook": {
                 "moveName": "LP Tornado Hook",
-                "cmdName": "LP Spinning Punch",
+                "cmnName": "LP Spinning Punch",
                 "plnCmd": "hcf+LP",
                 "numCmd": "41236LP",
                 "startup": 6,
@@ -999,7 +1006,7 @@
             },
             "MP Tornado Hook": {
                 "moveName": "MP Tornado Hook",
-                "cmdName": "MP Spinning Punch",
+                "cmnName": "MP Spinning Punch",
                 "plnCmd": "hcf+MP",
                 "numCmd": "41236MP",
                 "startup": 10,
@@ -1024,7 +1031,7 @@
             },
             "HP Tornado Hook": {
                 "moveName": "HP Tornado Hook",
-                "cmdName": "HP Spinning Punch",
+                "cmnName": "HP Spinning Punch",
                 "plnCmd": "hcf+HP",
                 "numCmd": "41236HP",
                 "startup": 17,
@@ -1049,7 +1056,7 @@
             },
             "EX Tornado Hook": {
                 "moveName": "EX Tornado Hook",
-                "cmdName": "EX Spinning Punch",
+                "cmnName": "EX Spinning Punch",
                 "plnCmd": "hcf+PP",
                 "numCmd": "41236PP",
                 "startup": 8,
@@ -1074,7 +1081,7 @@
             },
             "LP Flying Viper": {
                 "moveName": "LP Flying Viper",
-                "cmdName": "LP Overhead Hop",
+                "cmnName": "LP Overhead Hop",
                 "plnCmd": "qcb+LP",
                 "numCmd": "214LP",
                 "startup": 26,
@@ -1096,7 +1103,7 @@
             },
             "MP Flying Viper": {
                 "moveName": "MP Flying Viper",
-                "cmdName": "MP Overhead Hop",
+                "cmnName": "MP Overhead Hop",
                 "plnCmd": "qcb+MP",
                 "numCmd": "214MP",
                 "startup": 26,
@@ -1118,7 +1125,7 @@
             },
             "HP Flying Viper": {
                 "moveName": "HP Flying Viper",
-                "cmdName": "HP Overhead Hop",
+                "cmnName": "HP Overhead Hop",
                 "plnCmd": "qcb+HP",
                 "numCmd": "214HP",
                 "startup": 28,
@@ -1140,7 +1147,7 @@
             },
             "EX Flying Viper": {
                 "moveName": "EX Flying Viper",
-                "cmdName": "EX Overhead Hop",
+                "cmnName": "EX Overhead Hop",
                 "plnCmd": "qcb+PP",
                 "numCmd": "214PP",
                 "startup": 24,
@@ -1162,7 +1169,7 @@
             },
             "LK Raging Cobra": {
                 "moveName": "LK Raging Cobra",
-                "cmdName": "LK Overhead Heel",
+                "cmnName": "LK Overhead Heel",
                 "plnCmd": "qcb+LK",
                 "numCmd": "214LK",
                 "startup": 23,
@@ -1184,7 +1191,7 @@
             },
             "MK Raging Cobra": {
                 "moveName": "MK Raging Cobra",
-                "cmdName": "MK Overhead Heel",
+                "cmnName": "MK Overhead Heel",
                 "plnCmd": "qcb+MK",
                 "numCmd": "214MK",
                 "startup": 25,
@@ -1206,7 +1213,7 @@
             },
             "HK Raging Cobra": {
                 "moveName": "HK Raging Cobra",
-                "cmdName": "HK Overhead Heel",
+                "cmnName": "HK Overhead Heel",
                 "plnCmd": "qcb+HK",
                 "numCmd": "214HK",
                 "startup": 27,
@@ -1228,7 +1235,7 @@
             },
             "EX Raging Cobra": {
                 "moveName": "EX Raging Cobra",
-                "cmdName": "EX Overhead Heel",
+                "cmnName": "EX Overhead Heel",
                 "plnCmd": "qcb+KK",
                 "numCmd": "214KK",
                 "startup": 25,
@@ -1250,7 +1257,7 @@
             },
             "Magnetic Storm": {
                 "moveName": "Magnetic Storm",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (mash P) (SA1)",
                 "numCmd": "236236P (mash P) (SA1)",
                 "startup": 2,
@@ -1267,7 +1274,7 @@
             },
             "Slam Dance": {
                 "moveName": "Slam Dance",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+P (SA2)",
                 "numCmd": "236236P (SA2)",
                 "startup": 2,
@@ -1283,7 +1290,7 @@
             },
             "Electric Snake": {
                 "moveName": "Electric Snake",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 3,

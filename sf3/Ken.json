@@ -236,7 +236,7 @@
             },
             "Inazuma Kakato Wari (Short)": {
                 "moveName": "Inazuma Kakato Wari (Short)",
-                "cmdName": "Back MK",
+                "cmnName": "Back MK",
                 "plnCmd": "b+MK",
                 "numCmd": "4MK",
                 "startup": 18,
@@ -261,7 +261,7 @@
             },
             "Inazuma Kakato Wari (Long)": {
                 "moveName": "Inazuma Kakato Wari (Long)",
-                "cmdName": "MK (Hold)",
+                "cmnName": "MK (Hold)",
                 "plnCmd": "MK (Hold)",
                 "numCmd": "5MK (Hold)",
                 "startup": 8,
@@ -286,7 +286,7 @@
             },
             "Fumikomi Maegeri": {
                 "moveName": "Fumikomi Maegeri",
-                "cmdName": "Fwd MK",
+                "cmnName": "Fwd MK",
                 "plnCmd": "f+MK",
                 "numCmd": "6MK",
                 "startup": 16,
@@ -311,7 +311,7 @@
             },
             "Shiden Kakato Otoshi": {
                 "moveName": "Shiden Kakato Otoshi",
-                "cmdName": "Fwd HK",
+                "cmnName": "Fwd HK",
                 "plnCmd": "f+HK",
                 "numCmd": "6HK",
                 "startup": 30,
@@ -751,7 +751,7 @@
             },
             "Hizageri": {
                 "moveName": "Hizageri",
-                "cmdName": "Neutral Throw",
+                "cmnName": "Neutral Throw",
                 "plnCmd": "LP+LK (mash)",
                 "numCmd": "LPLK (mash)",
                 "startup": 2,
@@ -771,11 +771,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 7,
                 "moveMotion": "N",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/8/85/%28kenhg%29.gif"
             },
             "Jigoku Kuruma": {
                 "moveName": "Jigoku Kuruma",
-                "cmdName": "Back Throw",
+                "cmnName": "Back Throw",
                 "plnCmd": "b+LP+LK",
                 "numCmd": "4LPLK",
                 "startup": 2,
@@ -795,11 +796,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "B",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/7/70/%28kenjg%29.gif"
             },
             "Seoi Nage": {
                 "moveName": "Seoi Nage",
-                "cmdName": "Fwd Throw",
+                "cmnName": "Fwd Throw",
                 "plnCmd": "f+LP+LK",
                 "numCmd": "6LPLK",
                 "startup": 2,
@@ -824,7 +826,7 @@
             },
             "Straight Hit": {
                 "moveName": "Straight Hit",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -844,11 +846,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/e/ec/%28kenoh%29.gif"
             },
             "Taunt": {
                 "moveName": "Taunt",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 15,
@@ -868,11 +871,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "HPHK"
+                "moveButton": "HPHK",
+                "image": "https://srk.shib.live/images/8/8d/%28kent%29.gif"
             },
             "LP Hadouken": {
                 "moveName": "LP Hadouken",
-                "cmdName": "LP Fireball",
+                "cmnName": "LP Fireball",
                 "plnCmd": "qcf+LP",
                 "numCmd": "236LP",
                 "startup": 11,
@@ -897,7 +901,7 @@
             },
             "MP Hadouken": {
                 "moveName": "MP Hadouken",
-                "cmdName": "MP Fireball",
+                "cmnName": "MP Fireball",
                 "plnCmd": "qcf+MP",
                 "numCmd": "236MP",
                 "startup": 11,
@@ -922,7 +926,7 @@
             },
             "HP Hadouken": {
                 "moveName": "HP Hadouken",
-                "cmdName": "HP Fireball",
+                "cmnName": "HP Fireball",
                 "plnCmd": "qcf+HP",
                 "numCmd": "236HP",
                 "startup": 11,
@@ -947,7 +951,7 @@
             },
             "EX Hadouken": {
                 "moveName": "EX Hadouken",
-                "cmdName": "EX Fireball",
+                "cmnName": "EX Fireball",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "startup": 11,
@@ -972,7 +976,7 @@
             },
             "LP Shoryuken": {
                 "moveName": "LP Shoryuken",
-                "cmdName": "LP DP",
+                "cmnName": "LP DP",
                 "plnCmd": "f,d,df+LP",
                 "numCmd": "623LP",
                 "startup": 2,
@@ -997,7 +1001,7 @@
             },
             "MP Shoryuken": {
                 "moveName": "MP Shoryuken",
-                "cmdName": "MP DP",
+                "cmnName": "MP DP",
                 "plnCmd": "f,d,df+MP",
                 "numCmd": "623MP",
                 "startup": 3,
@@ -1022,7 +1026,7 @@
             },
             "HP Shoryuken": {
                 "moveName": "HP Shoryuken",
-                "cmdName": "HP DP",
+                "cmnName": "HP DP",
                 "plnCmd": "f,d,df+HP",
                 "numCmd": "623HP",
                 "startup": 3,
@@ -1047,7 +1051,7 @@
             },
             "EX Shoryuken": {
                 "moveName": "EX Shoryuken",
-                "cmdName": "EX DP",
+                "cmnName": "EX DP",
                 "plnCmd": "f,d,df+PP",
                 "numCmd": "623PP",
                 "startup": 2,
@@ -1072,7 +1076,7 @@
             },
             "LK Tatsumaki Senpukyaku": {
                 "moveName": "LK Tatsumaki Senpukyaku",
-                "cmdName": "LK Tatsu",
+                "cmnName": "LK Tatsu",
                 "plnCmd": "qcb+LK",
                 "numCmd": "214LK",
                 "startup": 6,
@@ -1097,7 +1101,7 @@
             },
             "MK Tatsumaki Senpukyaku": {
                 "moveName": "MK Tatsumaki Senpukyaku",
-                "cmdName": "MK Tatsu",
+                "cmnName": "MK Tatsu",
                 "plnCmd": "qcb+MK",
                 "numCmd": "214MK",
                 "startup": 6,
@@ -1122,7 +1126,7 @@
             },
             "HK Tatsumaki Senpukyaku": {
                 "moveName": "HK Tatsumaki Senpukyaku",
-                "cmdName": "HK Tatsu",
+                "cmnName": "HK Tatsu",
                 "plnCmd": "qcb+HK",
                 "numCmd": "214HK",
                 "startup": 6,
@@ -1147,7 +1151,7 @@
             },
             "EX Tatsumaki Senpukyaku": {
                 "moveName": "EX Tatsumaki Senpukyaku",
-                "cmdName": "EX Tatsu",
+                "cmnName": "EX Tatsu",
                 "plnCmd": "qcb+KK",
                 "numCmd": "214KK",
                 "startup": 4,
@@ -1172,7 +1176,7 @@
             },
             "LK Air Tatsumaki Senpukyaku": {
                 "moveName": "LK Air Tatsumaki Senpukyaku",
-                "cmdName": "LK Air Tatsu",
+                "cmnName": "LK Air Tatsu",
                 "plnCmd": "qcb+LK (air)",
                 "numCmd": "214LK (air)",
                 "startup": 7,
@@ -1194,7 +1198,7 @@
             },
             "MK Air Tatsumaki Senpukyaku": {
                 "moveName": "MK Air Tatsumaki Senpukyaku",
-                "cmdName": "MK Air Tatsu",
+                "cmnName": "MK Air Tatsu",
                 "plnCmd": "qcb+MK (air)",
                 "numCmd": "214MK (air)",
                 "startup": 7,
@@ -1216,7 +1220,7 @@
             },
             "HK Air Tatsumaki Senpukyaku": {
                 "moveName": "HK Air Tatsumaki Senpukyaku",
-                "cmdName": "HK Air Tatsu",
+                "cmnName": "HK Air Tatsu",
                 "plnCmd": "qcb+HK (air)",
                 "numCmd": "214HK (air)",
                 "startup": 7,
@@ -1238,7 +1242,7 @@
             },
             "EX Air Tatsumaki Senpukyaku": {
                 "moveName": "EX Air Tatsumaki Senpukyaku",
-                "cmdName": "EX Air Tatsu",
+                "cmnName": "EX Air Tatsu",
                 "plnCmd": "qcb+KK (air)",
                 "numCmd": "214KK (air)",
                 "startup": 6,
@@ -1260,7 +1264,7 @@
             },
             "Shoryureppa": {
                 "moveName": "Shoryureppa",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "startup": 1,
@@ -1277,7 +1281,7 @@
             },
             "Shinryuken": {
                 "moveName": "Shinryuken",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+K (SA2)",
                 "numCmd": "236236K (SA2)",
                 "startup": 2,
@@ -1294,7 +1298,7 @@
             },
             "Shipuujinrai Kyaku": {
                 "moveName": "Shipuujinrai Kyaku",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+K (SA3)",
                 "numCmd": "236236K (SA3)",
                 "startup": 2,
@@ -1306,7 +1310,8 @@
                 "damage": 51,
                 "stun": 16,
                 "moveMotion": "DQCF",
-                "moveButton": "1K"
+                "moveButton": "1K",
+                "image": "https://srk.shib.live/images/d/d5/%28kensa3%29.gif"
             },
             "input": "None"
         }

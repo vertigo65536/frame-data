@@ -318,7 +318,7 @@
             },
             "Aiguille": {
                 "moveName": "Aiguille",
-                "cmdName": "Fwd MK",
+                "cmnName": "Fwd MK",
                 "plnCmd": "f+MK",
                 "numCmd": "6MK",
                 "startup": 18,
@@ -338,7 +338,8 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveMotion": "F",
-                "moveButton": "MK"
+                "moveButton": "MK",
+                "image": "https://srk.shib.live/images/0/03/%28remyfmk%29.gif"
             },
             "Crouch LP": {
                 "moveName": "Crouch LP",
@@ -625,7 +626,7 @@
             },
             "Crazed Waltz": {
                 "moveName": "Crazed Waltz",
-                "cmdName": "Neutral Throw",
+                "cmnName": "Neutral Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -645,11 +646,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "N",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/8/82/%28remyvnk%29.gif"
             },
             "Contour of Disturbed Sleep": {
                 "moveName": "Contour of Disturbed Sleep",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "b/f+LP+LK",
                 "numCmd": "4/6LPLK",
                 "startup": 2,
@@ -669,11 +671,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "BorF",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/6/6f/%28remynmm%29.gif"
             },
             "Vague Temptation": {
                 "moveName": "Vague Temptation",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -690,21 +693,23 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/7/70/%28remyoh%29.gif"
             },
             "Crossed Arms": {
                 "moveName": "Crossed Arms",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "recovery": 131,
                 "moveType": "taunt",
                 "moveMotion": "N",
-                "moveButton": "HPHK"
+                "moveButton": "HPHK",
+                "image": "https://srk.shib.live/images/c/c2/%28remyt%29.gif"
             },
             "LP Light of Virtue - Haute": {
                 "moveName": "LP Light of Virtue - Haute",
-                "cmdName": "LP High Sonic Boom",
+                "cmnName": "LP High Sonic Boom",
                 "plnCmd": "b,f+LP",
                 "numCmd": "46LP",
                 "startup": 9,
@@ -730,7 +735,7 @@
             },
             "MP Light of Virtue - Haute": {
                 "moveName": "MP Light of Virtue - Haute",
-                "cmdName": "MP High Sonic Boom",
+                "cmnName": "MP High Sonic Boom",
                 "plnCmd": "b,f+MP",
                 "numCmd": "46MP",
                 "startup": 10,
@@ -756,7 +761,7 @@
             },
             "HP Light of Virtue - Haute": {
                 "moveName": "HP Light of Virtue - Haute",
-                "cmdName": "HP High Sonic Boom",
+                "cmnName": "HP High Sonic Boom",
                 "plnCmd": "b,f+HP",
                 "numCmd": "46HP",
                 "startup": 11,
@@ -782,7 +787,7 @@
             },
             "EX Light of Virtue - Haute": {
                 "moveName": "EX Light of Virtue - Haute",
-                "cmdName": "EX High Sonic Boom",
+                "cmnName": "EX High Sonic Boom",
                 "plnCmd": "b,f+PP",
                 "numCmd": "46PP",
                 "startup": 8,
@@ -808,7 +813,7 @@
             },
             "LK Light of Virtue - Basse": {
                 "moveName": "LK Light of Virtue - Basse",
-                "cmdName": "LK Low Sonic Boom",
+                "cmnName": "LK Low Sonic Boom",
                 "plnCmd": "b,f+LK",
                 "numCmd": "46LK",
                 "startup": 11,
@@ -834,7 +839,7 @@
             },
             "MK Light of Virtue - Basse": {
                 "moveName": "MK Light of Virtue - Basse",
-                "cmdName": "MK Low Sonic Boom",
+                "cmnName": "MK Low Sonic Boom",
                 "plnCmd": "b,f+MK",
                 "numCmd": "46MK",
                 "startup": 12,
@@ -860,7 +865,7 @@
             },
             "HK Light of Virtue - Basse": {
                 "moveName": "HK Light of Virtue - Basse",
-                "cmdName": "HK Low Sonic Boom",
+                "cmnName": "HK Low Sonic Boom",
                 "plnCmd": "b,f+HK",
                 "numCmd": "46HK",
                 "startup": 13,
@@ -886,7 +891,7 @@
             },
             "EX Light of Virtue - Basse": {
                 "moveName": "EX Light of Virtue - Basse",
-                "cmdName": "EX Low Sonic Boom",
+                "cmnName": "EX Low Sonic Boom",
                 "plnCmd": "b,f+KK",
                 "numCmd": "46KK",
                 "startup": 8,
@@ -912,7 +917,7 @@
             },
             "LK Rising Rage Flash": {
                 "moveName": "LK Rising Rage Flash",
-                "cmdName": "LK Flash Kick",
+                "cmnName": "LK Flash Kick",
                 "plnCmd": "d,u+LK",
                 "numCmd": "28LK",
                 "startup": 3,
@@ -935,7 +940,7 @@
             },
             "MK Rising Rage Flash": {
                 "moveName": "MK Rising Rage Flash",
-                "cmdName": "MK Flash Kick",
+                "cmnName": "MK Flash Kick",
                 "plnCmd": "d,u+MK",
                 "numCmd": "28MK",
                 "startup": 3,
@@ -958,7 +963,7 @@
             },
             "HK Rising Rage Flash": {
                 "moveName": "HK Rising Rage Flash",
-                "cmdName": "HK Flash Kick",
+                "cmnName": "HK Flash Kick",
                 "plnCmd": "d,u+HK",
                 "numCmd": "28HK",
                 "startup": 2,
@@ -981,7 +986,7 @@
             },
             "EX Rising Rage Flash": {
                 "moveName": "EX Rising Rage Flash",
-                "cmdName": "EX Flash Kick",
+                "cmnName": "EX Flash Kick",
                 "plnCmd": "d,u+KK",
                 "numCmd": "28KK",
                 "startup": 6,
@@ -1007,7 +1012,7 @@
             },
             "LK Cold Blue Kick": {
                 "moveName": "LK Cold Blue Kick",
-                "cmdName": "LK Overhead Kick",
+                "cmnName": "LK Overhead Kick",
                 "plnCmd": "qcb+LK (air)",
                 "numCmd": "214LK (air)",
                 "startup": 17,
@@ -1029,7 +1034,7 @@
             },
             "MK Cold Blue Kick": {
                 "moveName": "MK Cold Blue Kick",
-                "cmdName": "MK Overhead Kick",
+                "cmnName": "MK Overhead Kick",
                 "plnCmd": "qcb+MK (air)",
                 "numCmd": "214MK (air)",
                 "startup": 18,
@@ -1051,7 +1056,7 @@
             },
             "HK Cold Blue Kick": {
                 "moveName": "HK Cold Blue Kick",
-                "cmdName": "HK Overhead Kick",
+                "cmnName": "HK Overhead Kick",
                 "plnCmd": "qcb+HK (air)",
                 "numCmd": "214HK (air)",
                 "startup": 19,
@@ -1073,7 +1078,7 @@
             },
             "EX Cold Blue Kick": {
                 "moveName": "EX Cold Blue Kick",
-                "cmdName": "EX Overhead Kick",
+                "cmnName": "EX Overhead Kick",
                 "plnCmd": "qcb+KK (air)",
                 "numCmd": "214KK (air)",
                 "startup": 18,
@@ -1095,7 +1100,7 @@
             },
             "Light of Justice": {
                 "moveName": "Light of Justice",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "startup": 2,
@@ -1112,7 +1117,7 @@
             },
             "Supreme Rising Rage Flash": {
                 "moveName": "Supreme Rising Rage Flash",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+K (SA2)",
                 "numCmd": "236236K (SA2)",
                 "startup": 1,
@@ -1132,7 +1137,7 @@
             },
             "Blue Nocturne": {
                 "moveName": "Blue Nocturne",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+K (SA3)",
                 "numCmd": "236236K (SA3)",
                 "startup": 1,

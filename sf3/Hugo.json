@@ -154,7 +154,7 @@
             },
             "Hammer Hook": {
                 "moveName": "Hammer Hook",
-                "cmdName": "Fwd HP",
+                "cmnName": "Fwd HP",
                 "plnCmd": "f+HP",
                 "numCmd": "6HP",
                 "startup": 14,
@@ -458,7 +458,7 @@
             },
             "Body Press": {
                 "moveName": "Body Press",
-                "cmdName": "Down HP (Air)",
+                "cmnName": "Down HP (Air)",
                 "plnCmd": "d+HP (air)",
                 "numCmd": "2HP (air)",
                 "startup": 9,
@@ -479,7 +479,7 @@
             },
             "Neck Hanging Three": {
                 "moveName": "Neck Hanging Three",
-                "cmdName": "Neutral Throw",
+                "cmnName": "Neutral Throw",
                 "plnCmd": "LP+LK (mash)",
                 "numCmd": "LPLK (mash)",
                 "startup": 2,
@@ -508,7 +508,7 @@
             },
             "Body Slam": {
                 "moveName": "Body Slam",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "b/f+LP+LK",
                 "numCmd": "4/6LPLK",
                 "startup": 2,
@@ -533,7 +533,7 @@
             },
             "Knee Attack": {
                 "moveName": "Knee Attack",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -553,31 +553,34 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/9/9b/%28hugouoh%29.gif"
             },
             "Intimidation": {
                 "moveName": "Intimidation",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/7/75/%28hugotaunt%29.gif"
             },
             "Intimidation + Poison Taunt": {
                 "moveName": "Intimidation + Poison Taunt",
-                "cmdName": "Poison Taunt",
+                "cmnName": "Poison Taunt",
                 "plnCmd": "Start+HP+HK",
                 "numCmd": "STHPHK",
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "STHPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/7/75/%28hugotaunt%29.gif"
             },
             "LK Shootdown Backbreaker": {
                 "moveName": "LK Shootdown Backbreaker",
-                "cmdName": "LK AA Grab",
+                "cmnName": "LK AA Grab",
                 "plnCmd": "f,d,df+LK",
                 "numCmd": "623LK",
                 "startup": 5,
@@ -599,7 +602,7 @@
             },
             "MK Shootdown Backbreaker": {
                 "moveName": "MK Shootdown Backbreaker",
-                "cmdName": "MK AA Grab",
+                "cmnName": "MK AA Grab",
                 "plnCmd": "f,d,df+MK",
                 "numCmd": "623MK",
                 "startup": 17,
@@ -621,7 +624,7 @@
             },
             "HK Shootdown Backbreaker": {
                 "moveName": "HK Shootdown Backbreaker",
-                "cmdName": "HK AA Grab",
+                "cmnName": "HK AA Grab",
                 "plnCmd": "f,d,df+HK",
                 "numCmd": "623HK",
                 "startup": 12,
@@ -643,7 +646,7 @@
             },
             "LP Moonsault Press": {
                 "moveName": "LP Moonsault Press",
-                "cmdName": "LP Command Grab",
+                "cmnName": "LP Command Grab",
                 "plnCmd": "360+LP",
                 "numCmd": "4268LP",
                 "startup": 2,
@@ -664,7 +667,7 @@
             },
             "MP Moonsault Press": {
                 "moveName": "MP Moonsault Press",
-                "cmdName": "MP Command Grab",
+                "cmnName": "MP Command Grab",
                 "plnCmd": "360+MP",
                 "numCmd": "4268MP",
                 "startup": 2,
@@ -685,7 +688,7 @@
             },
             "HP Moonsault Press": {
                 "moveName": "HP Moonsault Press",
-                "cmdName": "HP Command Grab",
+                "cmnName": "HP Command Grab",
                 "plnCmd": "360+HP",
                 "numCmd": "4268HP",
                 "startup": 2,
@@ -706,7 +709,7 @@
             },
             "LK Meat Squasher": {
                 "moveName": "LK Meat Squasher",
-                "cmdName": "LK Running Grab",
+                "cmnName": "LK Running Grab",
                 "plnCmd": "360+LK",
                 "numCmd": "4268LK",
                 "startup": "22 ~ 25",
@@ -727,7 +730,7 @@
             },
             "MK Meat Squasher": {
                 "moveName": "MK Meat Squasher",
-                "cmdName": "MK Running Grab",
+                "cmnName": "MK Running Grab",
                 "plnCmd": "360+MK",
                 "numCmd": "4268MK",
                 "startup": "32 ~ 53",
@@ -748,7 +751,7 @@
             },
             "HK Meat Squasher": {
                 "moveName": "HK Meat Squasher",
-                "cmdName": "HK Running Grab",
+                "cmnName": "HK Running Grab",
                 "plnCmd": "360+HK",
                 "numCmd": "4268HK",
                 "startup": "45 ~ 68",
@@ -769,7 +772,7 @@
             },
             "LP Giant Palm Bomber": {
                 "moveName": "LP Giant Palm Bomber",
-                "cmdName": "LP Clap",
+                "cmnName": "LP Clap",
                 "plnCmd": "hcb+LP",
                 "numCmd": "63214+LP",
                 "startup": 17,
@@ -794,7 +797,7 @@
             },
             "MP Giant Palm Bomber": {
                 "moveName": "MP Giant Palm Bomber",
-                "cmdName": "MP Clap",
+                "cmnName": "MP Clap",
                 "plnCmd": "hcb+MP",
                 "numCmd": "63214+MP",
                 "startup": 19,
@@ -819,7 +822,7 @@
             },
             "HP Giant Palm Bomber": {
                 "moveName": "HP Giant Palm Bomber",
-                "cmdName": "HP Clap",
+                "cmnName": "HP Clap",
                 "plnCmd": "hcb+HP",
                 "numCmd": "63214+HP",
                 "startup": 22,
@@ -844,7 +847,7 @@
             },
             "EX Giant Palm Bomber": {
                 "moveName": "EX Giant Palm Bomber",
-                "cmdName": "EX Clap",
+                "cmnName": "EX Clap",
                 "plnCmd": "hcb+PP",
                 "numCmd": "63214+PP",
                 "startup": 22,
@@ -869,7 +872,7 @@
             },
             "LK Monster Lariat": {
                 "moveName": "LK Monster Lariat",
-                "cmdName": "LK Lariat",
+                "cmnName": "LK Lariat",
                 "plnCmd": "qcf+LK",
                 "numCmd": "236LK",
                 "startup": 11,
@@ -891,7 +894,7 @@
             },
             "MK Monster Lariat": {
                 "moveName": "MK Monster Lariat",
-                "cmdName": "MK Lariat",
+                "cmnName": "MK Lariat",
                 "plnCmd": "qcf+MK",
                 "numCmd": "236MK",
                 "startup": 15,
@@ -913,7 +916,7 @@
             },
             "HK Monster Lariat": {
                 "moveName": "HK Monster Lariat",
-                "cmdName": "HK Lariat",
+                "cmnName": "HK Lariat",
                 "plnCmd": "qcf+HK",
                 "numCmd": "236HK",
                 "startup": 24,
@@ -935,7 +938,7 @@
             },
             "EX Monster Lariat": {
                 "moveName": "EX Monster Lariat",
-                "cmdName": "EX Lariat",
+                "cmnName": "EX Lariat",
                 "plnCmd": "qcf+KK",
                 "numCmd": "236KK",
                 "startup": 6,
@@ -957,7 +960,7 @@
             },
             "LK Ultra Throw": {
                 "moveName": "LK Ultra Throw",
-                "cmdName": "LK Wall Throw",
+                "cmnName": "LK Wall Throw",
                 "plnCmd": "hcb+LK",
                 "numCmd": "63214LK",
                 "startup": 7,
@@ -978,7 +981,7 @@
             },
             "MK Ultra Throw": {
                 "moveName": "MK Ultra Throw",
-                "cmdName": "MK Wall Throw",
+                "cmnName": "MK Wall Throw",
                 "plnCmd": "hcb+MK",
                 "numCmd": "63214MK",
                 "startup": 7,
@@ -999,7 +1002,7 @@
             },
             "HK Ultra Throw": {
                 "moveName": "HK Ultra Throw",
-                "cmdName": "HK Wall Throw",
+                "cmnName": "HK Wall Throw",
                 "plnCmd": "hcb+HK",
                 "numCmd": "63214HK",
                 "startup": 7,
@@ -1020,7 +1023,7 @@
             },
             "Gigas Breaker": {
                 "moveName": "Gigas Breaker",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "720+P",
                 "numCmd": "42684268P",
                 "startup": 1,
@@ -1039,7 +1042,7 @@
             },
             "LK Megaton Press": {
                 "moveName": "LK Megaton Press",
-                "cmdName": "LK SA2",
+                "cmnName": "LK SA2",
                 "plnCmd": "qcf,qcf+LK (SA2)",
                 "numCmd": "236236LK (SA2)",
                 "startup": 2,
@@ -1057,7 +1060,7 @@
             },
             "MK Megaton Press": {
                 "moveName": "MK Megaton Press",
-                "cmdName": "MK SA2",
+                "cmnName": "MK SA2",
                 "plnCmd": "qcf,qcf+MK (SA2)",
                 "numCmd": "236236MK (SA2)",
                 "startup": 4,
@@ -1075,7 +1078,7 @@
             },
             "HK Megaton Press": {
                 "moveName": "HK Megaton Press",
-                "cmdName": "HK SA2",
+                "cmnName": "HK SA2",
                 "plnCmd": "qcf,qcf+HK (SA2)",
                 "numCmd": "236236HK (SA2)",
                 "startup": 6,
@@ -1093,7 +1096,7 @@
             },
             "Hammer Frenzy": {
                 "moveName": "Hammer Frenzy",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 4,

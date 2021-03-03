@@ -187,7 +187,7 @@
             },
             "B.M.K.": {
                 "moveName": "B.M.K.",
-                "cmdName": "Back MK",
+                "cmnName": "Back MK",
                 "plnCmd": "b+MK",
                 "numCmd": "4MK",
                 "startup": 5,
@@ -515,15 +515,16 @@
             },
             "Air Glide": {
                 "moveName": "Air Glide",
-                "cmdName": "Air Dash",
+                "cmnName": "Air Dash",
                 "plnCmd": "in air, FF or BB",
                 "numCmd": "44/66 (air)",
                 "airmove": true,
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/3/3e/%28twelvejffbb%29.gif"
             },
             "Wall Cling": {
                 "moveName": "Wall Cling",
-                "cmdName": "Wall Jump",
+                "cmnName": "Wall Jump",
                 "plnCmd": "during Air Glide, hold direction towards wall",
                 "numCmd": "4/6 (hold)",
                 "airmove": true,
@@ -531,7 +532,7 @@
             },
             "H.U.G.": {
                 "moveName": "H.U.G.",
-                "cmdName": "Neutral Throw",
+                "cmnName": "Neutral Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -556,7 +557,7 @@
             },
             "F.L.G.": {
                 "moveName": "F.L.G.",
-                "cmdName": "Forward Throw",
+                "cmnName": "Forward Throw",
                 "plnCmd": "f+LP+LK",
                 "numCmd": "6LPLK",
                 "startup": 2,
@@ -581,7 +582,7 @@
             },
             "T.R.W.": {
                 "moveName": "T.R.W.",
-                "cmdName": "Back Throw",
+                "cmnName": "Back Throw",
                 "plnCmd": "b+LP+LK",
                 "numCmd": "4LPLK",
                 "startup": 2,
@@ -606,7 +607,7 @@
             },
             "J.S.P.": {
                 "moveName": "J.S.P.",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -623,21 +624,23 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/d/d8/%28twelveoh%29.gif"
             },
             "Transparency": {
                 "moveName": "Transparency",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/3/37/%28twelvet%29.gif"
             },
             "LP N.D.L.": {
                 "moveName": "LP N.D.L.",
-                "cmdName": "LP Fireball",
+                "cmnName": "LP Fireball",
                 "plnCmd": "qcf+LP",
                 "numCmd": "236LP",
                 "startup": 15,
@@ -660,7 +663,7 @@
             },
             "MP N.D.L.": {
                 "moveName": "MP N.D.L.",
-                "cmdName": "MP Fireball",
+                "cmnName": "MP Fireball",
                 "plnCmd": "qcf+MP",
                 "numCmd": "236MP",
                 "startup": 15,
@@ -683,7 +686,7 @@
             },
             "HP N.D.L.": {
                 "moveName": "HP N.D.L.",
-                "cmdName": "HP Fireball",
+                "cmnName": "HP Fireball",
                 "plnCmd": "qcf+HP",
                 "numCmd": "236HP",
                 "startup": 16,
@@ -706,7 +709,7 @@
             },
             "EX N.D.L.": {
                 "moveName": "EX N.D.L.",
-                "cmdName": "EX Fireball",
+                "cmnName": "EX Fireball",
                 "plnCmd": "qcf+PP",
                 "numCmd": "236PP",
                 "startup": 14,
@@ -729,7 +732,7 @@
             },
             "LP A.X.E.": {
                 "moveName": "LP A.X.E.",
-                "cmdName": "LP Arm Flail",
+                "cmnName": "LP Arm Flail",
                 "plnCmd": "qcb+LP",
                 "numCmd": "214LP",
                 "startup": 6,
@@ -754,7 +757,7 @@
             },
             "MP A.X.E.": {
                 "moveName": "MP A.X.E.",
-                "cmdName": "MP Arm Flail",
+                "cmnName": "MP Arm Flail",
                 "plnCmd": "qcb+MP",
                 "numCmd": "214MP",
                 "startup": 10,
@@ -779,7 +782,7 @@
             },
             "HP A.X.E.": {
                 "moveName": "HP A.X.E.",
-                "cmdName": "HP Arm Flail",
+                "cmnName": "HP Arm Flail",
                 "plnCmd": "qcb+HP",
                 "numCmd": "214HP",
                 "startup": 14,
@@ -804,7 +807,7 @@
             },
             "EX A.X.E.": {
                 "moveName": "EX A.X.E.",
-                "cmdName": "EX Arm Flail",
+                "cmnName": "EX Arm Flail",
                 "plnCmd": "qcb+PP",
                 "numCmd": "214PP",
                 "startup": 8,
@@ -829,7 +832,7 @@
             },
             "LP Air A.X.E.": {
                 "moveName": "LP Air A.X.E.",
-                "cmdName": "LP Air Arm Flail",
+                "cmnName": "LP Air Arm Flail",
                 "plnCmd": "qcb+LP (air)",
                 "numCmd": "214LP (air)",
                 "startup": 9,
@@ -850,7 +853,7 @@
             },
             "MP Air A.X.E.": {
                 "moveName": "MP Air A.X.E.",
-                "cmdName": "MP Air Arm Flail",
+                "cmnName": "MP Air Arm Flail",
                 "plnCmd": "qcb+MP (air)",
                 "numCmd": "214MP (air)",
                 "startup": 11,
@@ -871,7 +874,7 @@
             },
             "HP Air A.X.E.": {
                 "moveName": "HP Air A.X.E.",
-                "cmdName": "HP Air Arm Flail",
+                "cmnName": "HP Air Arm Flail",
                 "plnCmd": "qcb+HP (air)",
                 "numCmd": "214HP (air)",
                 "startup": 13,
@@ -892,7 +895,7 @@
             },
             "EX Air A.X.E.": {
                 "moveName": "EX Air A.X.E.",
-                "cmdName": "EX Air Arm Flail",
+                "cmnName": "EX Air Arm Flail",
                 "plnCmd": "qcb+PP (air)",
                 "numCmd": "214PP (air)",
                 "startup": 6,
@@ -913,7 +916,7 @@
             },
             "LK D.R.A.": {
                 "moveName": "LK D.R.A.",
-                "cmdName": "LK Air Dive",
+                "cmnName": "LK Air Dive",
                 "plnCmd": "qcb+LK (air)",
                 "numCmd": "214LK (air)",
                 "startup": 14,
@@ -936,7 +939,7 @@
             },
             "MK D.R.A.": {
                 "moveName": "MK D.R.A.",
-                "cmdName": "MK Air Dive",
+                "cmnName": "MK Air Dive",
                 "plnCmd": "qcb+MK (air)",
                 "numCmd": "214MK (air)",
                 "startup": 14,
@@ -959,7 +962,7 @@
             },
             "HK D.R.A.": {
                 "moveName": "HK D.R.A.",
-                "cmdName": "HK Air Dive",
+                "cmnName": "HK Air Dive",
                 "plnCmd": "qcb+HK (air)",
                 "numCmd": "214HK (air)",
                 "startup": 14,
@@ -982,7 +985,7 @@
             },
             "EX D.R.A.": {
                 "moveName": "EX D.R.A.",
-                "cmdName": "EX Air Dive",
+                "cmnName": "EX Air Dive",
                 "plnCmd": "qcb+KK (air)",
                 "numCmd": "214KK (air)",
                 "startup": 6,
@@ -1005,7 +1008,7 @@
             },
             "X.N.D.L.": {
                 "moveName": "X.N.D.L.",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "startup": 4,
@@ -1022,7 +1025,7 @@
             },
             "X.F.L.A.T.": {
                 "moveName": "X.F.L.A.T.",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+P (SA2)",
                 "numCmd": "236236P (SA2)",
                 "startup": 2,
@@ -1039,7 +1042,7 @@
             },
             "X.F.L.A.T. (Air hit)": {
                 "moveName": "X.F.L.A.T. (Air hit)",
-                "cmdName": "SA2 (air hit)",
+                "cmnName": "SA2 (air hit)",
                 "plnCmd": "qcf,qcf+P (air SA2)",
                 "numCmd": "236236P (air SA2)",
                 "startup": 2,
@@ -1051,11 +1054,12 @@
                 "stun": 17,
                 "moveMotion": "DQCF",
                 "moveButton": "1P",
-                "airmove": true
+                "airmove": true,
+                "image": "https://srk.shib.live/images/b/bf/%28twelvesa2%29.gif"
             },
             "X.C.O.P.Y.": {
                 "moveName": "X.C.O.P.Y.",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 12,
@@ -1066,7 +1070,7 @@
             },
             "X.C.O.P.Y. End": {
                 "moveName": "X.C.O.P.Y. End",
-                "cmdName": "SA3 End",
+                "cmnName": "SA3 End",
                 "plnCmd": "SA3 End",
                 "numCmd": "SA3 End",
                 "startup": 73,

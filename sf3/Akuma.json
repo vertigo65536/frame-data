@@ -851,7 +851,8 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/1/1e/%28akumaoh%29.gif"
             },
             "Kiai": {
                 "moveName": "Kiai",
@@ -868,7 +869,8 @@
                     "Increases stun damage for the next hit/combo by 28.1%",
                     "One taunt is the maximum",
                     "Bonus is lost if Akuma is successfully hit (chip damage does not count), after he lands a successful hit/combo, or if he throws the opponent"
-                ]
+                ],
+                "image": "https://srk.shib.live/images/c/c6/%28akumat%29.gif"
             },
             "Gou Hadouken": {
                 "moveName": "Gou Hadouken",
@@ -1152,7 +1154,8 @@
                 "extraInfo": [
                     "Completely invulnerable upon startup but can be interrupted from certain Super Art activations after 15f startup and has 13f recovery",
                     "Kick version travels half-screen distance"
-                ]
+                ],
+                "image": "https://srk.shib.live/images/7/7c/%28akumaasf%29.gif"
             },
             "LK Tatsumaki Zankuu Kyaku": {
                 "moveName": "LK Tatsumaki Zankuu Kyaku",
@@ -1181,7 +1184,7 @@
                 "extraInfo": [
                     "Misses most crouching characters"
                 ],
-                "image": "https://srk.shib.live/images/1/1b/%28akumaatzk%29.gif"
+                "image": "https://srk.shib.live/images/0/07/%28akumatzk%29.gif"
             },
             "MK Tatsumaki Zankuu Kyaku": {
                 "moveName": "MK Tatsumaki Zankuu Kyaku",
@@ -1244,7 +1247,7 @@
                     "Last hit can hit crouchers (even as a crossup) and launches",
                     "If it hits, this move has a maximum of three hits, otherwise it has five hits total"
                 ],
-                "image": "https://srk.shib.live/images/1/1b/%28akumaatzk%29.gif"
+                "image": "https://srk.shib.live/images/0/07/%28akumatzk%29.gif"
             },
             "LK Air Tatsumaki Zankuu Kyaku": {
                 "moveName": "LK Air Tatsumaki Zankuu Kyaku",

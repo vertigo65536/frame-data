@@ -210,7 +210,7 @@
             },
             "Upwards Head Strike": {
                 "moveName": "Upwards Head Strike",
-                "cmdName": "Back MP",
+                "cmnName": "Back MP",
                 "plnCmd": "b+MP",
                 "numCmd": "4MP",
                 "startup": 8,
@@ -230,11 +230,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 0,
                 "moveMotion": "B",
-                "moveButton": "MP"
+                "moveButton": "MP",
+                "image": "https://srk.shib.live/images/6/62/%28qbmp%29.gif"
             },
             "Double-Armed Advance": {
                 "moveName": "Double-Armed Advance",
-                "cmdName": "Back HP",
+                "cmnName": "Back HP",
                 "plnCmd": "b+HP",
                 "numCmd": "4HP",
                 "startup": 13,
@@ -254,11 +255,12 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "B",
-                "moveButton": "HP"
+                "moveButton": "HP",
+                "image": "https://srk.shib.live/images/8/8f/%28qhp%29.gif"
             },
             "Inversion Head Kick": {
                 "moveName": "Inversion Head Kick",
-                "cmdName": "Back HK",
+                "cmnName": "Back HK",
                 "plnCmd": "b+HK",
                 "numCmd": "4HK",
                 "startup": 11,
@@ -282,7 +284,8 @@
                 "meterOppHit": 4,
                 "meterOppBlk": 0,
                 "moveMotion": "B",
-                "moveButton": "HK"
+                "moveButton": "HK",
+                "image": "https://srk.shib.live/images/5/59/%28qbhk%29.gif"
             },
             "Crouch LP": {
                 "moveName": "Crouch LP",
@@ -576,7 +579,7 @@
             },
             "Grab and Knee Smash": {
                 "moveName": "Grab and Knee Smash",
-                "cmdName": "Neutral Throw",
+                "cmnName": "Neutral Throw",
                 "plnCmd": "LP+LK",
                 "numCmd": "LPLK",
                 "startup": 2,
@@ -596,11 +599,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "N",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/5/55/%28qtn%29.gif"
             },
             "Depraved Impact": {
                 "moveName": "Depraved Impact",
-                "cmdName": "Throw",
+                "cmnName": "Throw",
                 "plnCmd": "b/f+LP+LK",
                 "numCmd": "4/6LPLK",
                 "startup": 2,
@@ -620,11 +624,12 @@
                 "meterOppHit": 2,
                 "meterOppBlk": 7,
                 "moveMotion": "BorF",
-                "moveButton": "LPLK"
+                "moveButton": "LPLK",
+                "image": "https://srk.shib.live/images/2/2b/%28qtf%29.gif"
             },
             "Leap Attack": {
                 "moveName": "Leap Attack",
-                "cmdName": "Universal Overhead",
+                "cmnName": "Universal Overhead",
                 "plnCmd": "MP+MK",
                 "numCmd": "MPMK",
                 "startup": 15,
@@ -641,11 +646,12 @@
                 "meterOppHit": 0,
                 "meterOppBlk": 0,
                 "moveMotion": "N",
-                "moveButton": "MPMK"
+                "moveButton": "MPMK",
+                "image": "https://srk.shib.live/images/7/70/%28quoh%29.gif"
             },
             "Intimidation (Assumed)": {
                 "moveName": "Intimidation (Assumed)",
-                "cmdName": "Taunt",
+                "cmnName": "Taunt",
                 "plnCmd": "HP+HK",
                 "numCmd": "HPHK",
                 "startup": 20,
@@ -654,11 +660,12 @@
                 "moveType": "taunt",
                 "moveMotion": "N",
                 "moveButton": "HPHK",
-                "nonHittingMove": true
+                "nonHittingMove": true,
+                "image": "https://srk.shib.live/images/1/11/%28qt%29.gif"
             },
             "LP Dashing Head Attack": {
                 "moveName": "LP Dashing Head Attack",
-                "cmdName": "LP Dash Punch OH",
+                "cmnName": "LP Dash Punch OH",
                 "plnCmd": "b,f+LP (hold)",
                 "numCmd": "46LP (hold)",
                 "startup": 24,
@@ -681,7 +688,7 @@
             },
             "MP Dashing Head Attack": {
                 "moveName": "MP Dashing Head Attack",
-                "cmdName": "MP Dash Punch OH",
+                "cmnName": "MP Dash Punch OH",
                 "plnCmd": "b,f+MP (hold)",
                 "numCmd": "46MP (hold)",
                 "startup": 28,
@@ -704,7 +711,7 @@
             },
             "HP Dashing Head Attack": {
                 "moveName": "HP Dashing Head Attack",
-                "cmdName": "HP Dash Punch OH",
+                "cmnName": "HP Dash Punch OH",
                 "plnCmd": "b,f+HP (hold)",
                 "numCmd": "46HP (hold)",
                 "startup": 32,
@@ -727,7 +734,7 @@
             },
             "EX Dashing Head Attack": {
                 "moveName": "EX Dashing Head Attack",
-                "cmdName": "EX Dash Punch",
+                "cmnName": "EX Dash Punch",
                 "plnCmd": "b,f+PP",
                 "numCmd": "46PP",
                 "startup": 14,
@@ -753,7 +760,7 @@
             },
             "LK Dashing Leg Attack": {
                 "moveName": "LK Dashing Leg Attack",
-                "cmdName": "LK Dash Punch Low",
+                "cmnName": "LK Dash Punch Low",
                 "plnCmd": "b,f+LK",
                 "numCmd": "46LK",
                 "startup": 25,
@@ -776,7 +783,7 @@
             },
             "MK Dashing Leg Attack": {
                 "moveName": "MK Dashing Leg Attack",
-                "cmdName": "MK Dash Punch Low",
+                "cmnName": "MK Dash Punch Low",
                 "plnCmd": "b,f+MK",
                 "numCmd": "46MK",
                 "startup": 28,
@@ -799,7 +806,7 @@
             },
             "HK Dashing Leg Attack": {
                 "moveName": "HK Dashing Leg Attack",
-                "cmdName": "HK Dash Punch Low",
+                "cmnName": "HK Dash Punch Low",
                 "plnCmd": "b,f+HK",
                 "numCmd": "46HK",
                 "startup": 31,
@@ -822,7 +829,7 @@
             },
             "EX Dashing Leg Attack": {
                 "moveName": "EX Dashing Leg Attack",
-                "cmdName": "EX Dash Punch Low",
+                "cmnName": "EX Dash Punch Low",
                 "plnCmd": "b,f+KK",
                 "numCmd": "46KK",
                 "startup": 26,
@@ -848,7 +855,7 @@
             },
             "LP High Speed Barrage": {
                 "moveName": "LP High Speed Barrage",
-                "cmdName": "LP Swipes",
+                "cmnName": "LP Swipes",
                 "plnCmd": "qcb+LP",
                 "numCmd": "214LP",
                 "startup": 9,
@@ -870,7 +877,7 @@
             },
             "MP High Speed Barrage": {
                 "moveName": "MP High Speed Barrage",
-                "cmdName": "MP Swipes",
+                "cmnName": "MP Swipes",
                 "plnCmd": "qcb+MP",
                 "numCmd": "214MP",
                 "startup": 8,
@@ -892,7 +899,7 @@
             },
             "HP High Speed Barrage": {
                 "moveName": "HP High Speed Barrage",
-                "cmdName": "HP Swipes",
+                "cmnName": "HP Swipes",
                 "plnCmd": "qcb+HP",
                 "numCmd": "214HP",
                 "startup": 9,
@@ -914,7 +921,7 @@
             },
             "EX High Speed Barrage": {
                 "moveName": "EX High Speed Barrage",
-                "cmdName": "EX Swipes",
+                "cmnName": "EX Swipes",
                 "plnCmd": "qcb+PP",
                 "numCmd": "214PP",
                 "startup": 6,
@@ -936,7 +943,7 @@
             },
             "LK Capture and Deadly Blow": {
                 "moveName": "LK Capture and Deadly Blow",
-                "cmdName": "LK Command Grab",
+                "cmnName": "LK Command Grab",
                 "plnCmd": "hcb+LK",
                 "numCmd": "63214LK",
                 "startup": 12,
@@ -957,7 +964,7 @@
             },
             "MK Capture and Deadly Blow": {
                 "moveName": "MK Capture and Deadly Blow",
-                "cmdName": "MK Command Grab",
+                "cmnName": "MK Command Grab",
                 "plnCmd": "hcb+MK",
                 "numCmd": "63214MK",
                 "startup": 13,
@@ -978,7 +985,7 @@
             },
             "HK Capture and Deadly Blow": {
                 "moveName": "HK Capture and Deadly Blow",
-                "cmdName": "HK Command Grab",
+                "cmnName": "HK Command Grab",
                 "plnCmd": "hcb+HK",
                 "numCmd": "63214HK",
                 "startup": 14,
@@ -999,7 +1006,7 @@
             },
             "Critical Combo Attack": {
                 "moveName": "Critical Combo Attack",
-                "cmdName": "SA1",
+                "cmnName": "SA1",
                 "plnCmd": "qcf,qcf+P (SA1)",
                 "numCmd": "236236P (SA1)",
                 "startup": 5,
@@ -1016,7 +1023,7 @@
             },
             "Deadly Double Combination": {
                 "moveName": "Deadly Double Combination",
-                "cmdName": "SA2",
+                "cmnName": "SA2",
                 "plnCmd": "qcf,qcf+P (SA2)",
                 "numCmd": "236236P (SA2)",
                 "startup": 2,
@@ -1033,7 +1040,7 @@
             },
             "Total Destruction": {
                 "moveName": "Total Destruction",
-                "cmdName": "SA3",
+                "cmnName": "SA3",
                 "plnCmd": "qcf,qcf+P (SA3)",
                 "numCmd": "236236P (SA3)",
                 "startup": 18,
@@ -1044,7 +1051,7 @@
             },
             "Total Destruction: Blow": {
                 "moveName": "Total Destruction: Blow",
-                "cmdName": "SA3 Attack",
+                "cmnName": "SA3 Attack",
                 "plnCmd": "SA3 > qcf+P",
                 "numCmd": "SA3 > 236P",
                 "startup": 12,
@@ -1061,7 +1068,7 @@
             },
             "Total Destruction: Capture": {
                 "moveName": "Total Destruction: Capture",
-                "cmdName": "SA3 Grab",
+                "cmnName": "SA3 Grab",
                 "plnCmd": "SA3 > qcf+K",
                 "numCmd": "SA3 > 236K",
                 "startup": 6,
